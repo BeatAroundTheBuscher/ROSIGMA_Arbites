@@ -74,6 +74,7 @@ items:
       - STR_ANTI_ARMOR
 
   - type: STR_PROXIMITY_GRENADE
+    requiresBuy:
       - STR_GENERALLOCK
 
   - type: STR_SMOKE_GRENADE
@@ -108,6 +109,7 @@ items:
   - type: STR_FLAMETHROWER_PROMETHIUM_CLIP
     requiresBuy:
       - STR_GENERALLOCK
+
 ### Shotgun
 
   - type: STR_SHOTGUN
@@ -128,7 +130,9 @@ items:
       - STR_ARBITES_CAMPAIGN
       - STR_STUN_ADVANCED
 
-
+  - type: STR_SHOTGUNPD # Award only
+    requiresBuy:
+      - STR_GENERALLOCK
 
 ### Melee
 
@@ -146,9 +150,6 @@ items:
       - STR_ARBITES_CAMPAIGN
     costBuy: 2000
     costSell: 400
-
-
-# chainword
 
 ### Stubbers
 
@@ -322,12 +323,6 @@ items:
     requiresBuy:
       - STR_GENERALLOCK
 
-## Crafts
-
-  - type: STR_VALKYRIE
-    requires: # doesn't use requiresBuy:
-      - STR_GENERALLOCK
-
 ## Auxilla
 
   - type: STR_TANK_ROCKET_LAUNCHER
@@ -342,3 +337,19 @@ items:
     requiresBuy:
       - STR_GENERALLOCK
 
+
+## Crafts
+
+crafts:
+  - type: STR_VALKYRIE
+    requires: # doesn't use requiresBuy:
+      - STR_GENERALLOCK
+
+  - type: STR_ARVUS
+    requires:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_AVENGER_ADEPTAS
+    requires:
+      - STR_ARBITES_CAMPAIGN
+      - STR_FIGHTER_CRAFT

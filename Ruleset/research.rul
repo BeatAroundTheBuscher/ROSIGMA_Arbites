@@ -47,3 +47,9 @@ research:
     points: 0
     requires:
       - STR_GENERALLOCK
+
+  - name: STR_ARBITES_CAMPAIGN
+    cost: 0
+    points: 0
+    requires:
+      - STR_GENERALLOCK
