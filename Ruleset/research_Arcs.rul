@@ -1,0 +1,74 @@
+research:
+  - name: STR_ARBITES_ARC1
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC2
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC3
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC4
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC5
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC6
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC7
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC8
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC9
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC10
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC11
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_ARBITES_ARC12
+    dependencies:
+      - STR_GENERALLOCK
+
+
+  - name: STR_ARBITES
+    cost: 0
+    points: 0
+    lookup: STR_CHOSEN_ARBITES
+    dependencies:
+      - STR_GENERALLOCK
+    unlocks:
+      - STR_MOTION_SCANNER
+      - STR_LASER_WEAPONS
+      - STR_SMOKE
+      - STR_CRAFTADD
+      - STR_GUARD_AND_ARBITES
+      - STR_HEAVY_WEAPONS_RESEARCH_REQ
+#      - STR_LIGHT_BOLTERS
+    disables:
+      - STR_CYDONIA_OR_BUST
+      - STR_MARINES_STRATEGY
+      - STR_IMPERIAL_GUARD_OPERATIONS
+      - STR_ADEPTAS
+      - STR_GUARD_SUPORT
+  - name: STR_CHOSEN_ARBITES
+    dependencies:
+      - STR_GENERALLOCK
+

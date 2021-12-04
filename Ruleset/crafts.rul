@@ -1,0 +1,9 @@
+crafts:
+  - type: STR_VULTURE
+    requires:
+      - STR_ARBITES_ARC12
+
+  - type: STR_CHIMERAPD
+    requires:
+      - STR_ARBITES_ARC12
+

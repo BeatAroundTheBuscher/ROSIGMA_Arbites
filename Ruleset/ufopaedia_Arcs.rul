@@ -1,0 +1,100 @@
+ufopaedia:
+  - id: STR_ARBITES_ARC1
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC1
+
+  - id: STR_ARBITES_ARC2
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC2
+
+
+  - id: STR_ARBITES_ARC3
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC3
+
+  - id: STR_ARBITES_ARC4
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC4
+
+  - id: STR_ARBITES_ARC5
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC5
+
+  - id: STR_ARBITES_ARC7
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC7
+
+  - id: STR_ARBITES_ARC8
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC8
+
+  - id: STR_ARBITES_ARC9
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC9
+
+  - id: STR_ARBITES_ARC10
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC10
+
+  - id: STR_ARBITES_ARC11
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC11
+
+  - id: STR_ARBITES_ARC12
+    type_id: 10
+    section: STR_STRATEGY
+    image_id: 4ARB.SPK
+    text: STR_ARBITES_TEXT
+    listOrder: 75
+    requires:
+      - STR_ARBITES_ARC12

@@ -1,0 +1,28 @@
+alienMissions:
+  - type: STR_M_1MISSION #Train
+    points: 10
+    objective: 0
+    raceWeights:
+      0:
+        STR_TARGETH: 100
+    waves:
+      - ufo: STR_TRAIN_MISSION
+        count: 1
+        trajectory: B0
+        timer: 15000
+
+
+  - type: STR_ARBITES_TERROR             #ARBITES       direct spawn
+    points: 10
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_CHAOS_RIOTS: 100
+    waves:
+      - ufo: STR_ARBITES_TERROR # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
