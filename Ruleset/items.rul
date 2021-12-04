@@ -27,7 +27,29 @@ items:
     attraction: 7
     experienceTrainingMode: 13
 
-
+  - type: STR_AUTOGUN
+    #*** Melee butt
+#    meleeHitSound: 101
+#    meleeAnimation: 0
+    meleeType: 6 # was 7; now stun
+    meleePower: 40
+    meleeBonus:
+      strength: 0.2
+      melee: 0.2
+    meleeAlter:
+      ArmorEffectiveness: 1.5 # shouldn't have a chance at power armor or even heavy armor
+      ToHealth: 0.4
+      ToWound: 0.4
+      ToTile: 1
+      TileDamageMethod: 1
+    accuracyMelee: 110
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    tuMelee: 14
+    flatMelee:
+      time: true
+    
 
   - type: STR_LASER_PISTOL  #LASPISTOL                 10800
   - type: STR_LASER_PISTOLC  #LASPISTOL  CHAOS         10820
@@ -384,7 +406,7 @@ items:
   - type: STR_STUB_RIFLE_CHAOS
   - type: STR_AUTOPISTOL
   - type: STR_AUTOPISTOL_CHAOS
-  - type: STR_AUTOGUN
+
   - type: STR_AUTOGUN_CHAOS
   - type: STR_HEAVY_STUBBER
   - type: STR_HEAVY_STUBBER_CHAOS
