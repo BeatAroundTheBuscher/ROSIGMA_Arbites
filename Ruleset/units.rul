@@ -1,0 +1,26 @@
+units:
+  - &STR_RIOTER
+    type: STR_RIOTER_F1
+    builtInWeaponSets:
+      - - STR_COMBATKNIFE
+        - STR_GRENADE
+      - - STR_STUB_GUN
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_COMBATKNIFE
+      - - STR_STUB_RIFLE
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+      - - STR_AUTOPISTOL
+        - STR_AUTOPISTOL_CLIP
+        - STR_AUTOPISTOL_CLIP
+        - STR_COMBATKNIFE
+
+  - type: STR_RIOTER_M1
+    refNode: *STR_RIOTER
+
+  - type: STR_RIOTER_F0
+    refNode: *STR_RIOTER
+
+  - type: STR_RIOTER_M0
+    refNode: *STR_RIOTER

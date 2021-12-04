@@ -22,7 +22,9 @@ research:
     cost: 0
     points: 0
     dependencies:
-      - STR_GENERALLOCK
+      - STR_BEGINNING_INVESTIGATION
+      - STR_INTERROGATION_COMPLETED
+      - STR_THREAT_ONE
 
   - name: STR_ANTI_ARMOR
     cost: 0
