@@ -1,0 +1,3 @@
+soldiers:
+  - type: STR_GUARDPD
+    armor: STR_ENFORCER_ARMOR_UC

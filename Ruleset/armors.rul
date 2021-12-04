@@ -1,0 +1,29 @@
+armors:
+
+## Sentinels
+
+  - type: STR_SENTINELPD_ARMOR_MISSILE_UC
+  - type: STR_SENTINELPD_ARMOR_UC # LASCAN
+
+## Penitents
+
+  - type: STR_PENAL_ARMOR_UC
+
+## Troopers
+
+  - delete: STR_GUARDPD_ARMOR_UC
+  - delete: STR_GUARDPDMEDIC_ARMOR_UC
+
+  - type: STR_ENFORCER_ARMOR_UC
+    storeItem: STR_NONE
+
+  - type: STR_ENFORCER_MEDIC_ARMOR_UC
+    storeItem: STR_ENFORCER_MEDIC_ARMOR
+
+  - type: STR_ENFORCER_SIGNAL_ARMOR_UC
+  - type: STR_ENFORCER_SIGNALFALSE_ARMOR_UC
+  - type: STR_ENFORCER_HEAVY_ARMOR_UC
+  - type: STR_ENFORCER_SHIELD_ARMOR_UC
+  - type: STR_JUDGE_ARMOR_UC
+  - type: STR_ARBITOR_ARMOR_UC
+  - type: STR_MARSHAL_ARMOR_UC

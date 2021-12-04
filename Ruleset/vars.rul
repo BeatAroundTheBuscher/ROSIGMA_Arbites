@@ -7,7 +7,7 @@ startingTime:
   month: 12
   year: 40000
 costEngineer: 25000
-costScientist: 3000000 # there is a better solution I know
+costScientist: 30000
 initialFunding: 600
 hireScientistsUnlockResearch: STR_ARBITES_ARC2
 

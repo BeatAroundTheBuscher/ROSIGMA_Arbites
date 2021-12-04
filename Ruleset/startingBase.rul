@@ -17,12 +17,15 @@ startingBase:
     - type: STR_HANGAR
       x: 4
       y: 0
-    - type: STR_GUARD_BARRACKS
+    - type: STR_LIVING_QUARTERS
       x: 3
       y: 3
     - type: STR_GENERAL_STORES
       x: 2
       y: 3
+    - type: STR_LABORATORY
+      x : 2
+      y : 4
     - type: STR_WORKSHOP
       x: 4
       y: 3
@@ -30,9 +33,9 @@ startingBase:
       x: 1
       y: 3
   randomSoldiers:
-    STR_GUARDPD: 16
-    STR_JUDGE: 1
-    STR_PENITENT: 10
+    STR_GUARDPD: 8
+    STR_JUDGE: 2
+    STR_PENITENT: 8
   crafts:
     - type: STR_ARVUS
       id: 1
@@ -61,10 +64,7 @@ startingBase:
           ammo: 100
       status: STR_READY
   items:
-    STR_CANNON: 2
-    STR_CANNON_ROUNDS_X50: 1
     STR_GRENADE: 10
-    STR_KRAK_GRENADE: 10
     STR_AUTOGUN: 4
     STR_AUTOGUN_CLIP: 6
     STR_SHOTGUN_SHELLS: 4
@@ -74,14 +74,7 @@ startingBase:
     STR_SMOKE_GRENADE: 8
     STR_HEAVY_STUBBER_HANDHELD: 1
     STR_HEAVY_STUBBER_CLIP: 3
-    STR_GUARDPD_MEDIC_ARMOR: 2
-    STR_ENFORCER_ARMOR: 2
-    STR_ENFORCER_HEAVY_ARMOR: 2
-    STR_ENFORCER_SHIELD_ARMOR: 2
-    STR_ALIEN_HABITAT: 3
-    STR_STINGRAY_LAUNCHER: 1
-    STR_STINGRAY_MISSILES: 25
-  scientists: 0
+  scientists: 10
   engineers: 10
 
 startingBaseExperienced:
@@ -101,12 +94,15 @@ startingBaseExperienced:
     - type: STR_HANGAR
       x: 4
       y: 0
-    - type: STR_GUARD_BARRACKS
+    - type: STR_LIVING_QUARTERS
       x: 3
       y: 3
     - type: STR_GENERAL_STORES
       x: 2
       y: 3
+    - type: STR_LABORATORY
+      x : 2
+      y : 4
     - type: STR_WORKSHOP
       x: 4
       y: 3
@@ -114,9 +110,9 @@ startingBaseExperienced:
       x: 1
       y: 3
   randomSoldiers:
-    STR_GUARDPD: 16
-    STR_JUDGE: 1
-    STR_PENITENT: 10
+    STR_GUARDPD: 8
+    STR_JUDGE: 2
+    STR_PENITENT: 8
   crafts:
     - type: STR_ARVUS
       id: 1
@@ -145,10 +141,7 @@ startingBaseExperienced:
           ammo: 100
       status: STR_READY
   items:
-    STR_CANNON: 2
-    STR_CANNON_ROUNDS_X50: 1
     STR_GRENADE: 10
-    STR_KRAK_GRENADE: 10
     STR_AUTOGUN: 4
     STR_AUTOGUN_CLIP: 6
     STR_SHOTGUN_SHELLS: 4
@@ -158,14 +151,7 @@ startingBaseExperienced:
     STR_SMOKE_GRENADE: 8
     STR_HEAVY_STUBBER_HANDHELD: 1
     STR_HEAVY_STUBBER_CLIP: 3
-    STR_GUARDPD_MEDIC_ARMOR: 2
-    STR_ENFORCER_ARMOR: 2
-    STR_ENFORCER_HEAVY_ARMOR: 2
-    STR_ENFORCER_SHIELD_ARMOR: 2
-    STR_ALIEN_HABITAT: 3
-    STR_STINGRAY_LAUNCHER: 1
-    STR_STINGRAY_MISSILES: 25
-  scientists: 0
+  scientists: 10
   engineers: 10
 
 startingBaseVeteran: #*** Arbites
@@ -185,12 +171,15 @@ startingBaseVeteran: #*** Arbites
     - type: STR_HANGAR
       x: 4
       y: 0
-    - type: STR_GUARD_BARRACKS
+    - type: STR_LIVING_QUARTERS
       x: 3
       y: 3
     - type: STR_GENERAL_STORES
       x: 2
       y: 3
+    - type: STR_LABORATORY
+      x : 2
+      y : 4
     - type: STR_WORKSHOP
       x: 4
       y: 3
@@ -198,9 +187,9 @@ startingBaseVeteran: #*** Arbites
       x: 1
       y: 3
   randomSoldiers:
-    STR_GUARDPD: 16
-    STR_JUDGE: 1
-    STR_PENITENT: 10
+    STR_GUARDPD: 8
+    STR_JUDGE: 2
+    STR_PENITENT: 8
   crafts:
     - type: STR_ARVUS
       id: 1
@@ -242,14 +231,10 @@ startingBaseVeteran: #*** Arbites
     STR_SMOKE_GRENADE: 8
     STR_HEAVY_STUBBER_HANDHELD: 1
     STR_HEAVY_STUBBER_CLIP: 3
-    STR_GUARDPD_MEDIC_ARMOR: 2
-    STR_ENFORCER_ARMOR: 2
-    STR_ENFORCER_HEAVY_ARMOR: 2
-    STR_ENFORCER_SHIELD_ARMOR: 2
     STR_ALIEN_HABITAT: 3
     STR_STINGRAY_LAUNCHER: 1
     STR_STINGRAY_MISSILES: 25
-  scientists: 0
+  scientists: 10
   engineers: 10
 
 startingBaseGenius: #*** Adeptas
@@ -269,12 +254,15 @@ startingBaseGenius: #*** Adeptas
     - type: STR_HANGAR
       x: 4
       y: 0
-    - type: STR_GUARD_BARRACKS
+    - type: STR_LIVING_QUARTERS
       x: 3
       y: 3
     - type: STR_GENERAL_STORES
       x: 2
       y: 3
+    - type: STR_LABORATORY
+      x : 2
+      y : 4
     - type: STR_WORKSHOP
       x: 4
       y: 3
@@ -282,9 +270,9 @@ startingBaseGenius: #*** Adeptas
       x: 1
       y: 3
   randomSoldiers:
-    STR_GUARDPD: 16
-    STR_JUDGE: 1
-    STR_PENITENT: 10
+    STR_GUARDPD: 8
+    STR_JUDGE: 2
+    STR_PENITENT: 8
   crafts:
     - type: STR_ARVUS
       id: 1
@@ -313,10 +301,7 @@ startingBaseGenius: #*** Adeptas
           ammo: 100
       status: STR_READY
   items:
-    STR_CANNON: 2
-    STR_CANNON_ROUNDS_X50: 1
     STR_GRENADE: 10
-    STR_KRAK_GRENADE: 10
     STR_AUTOGUN: 4
     STR_AUTOGUN_CLIP: 6
     STR_SHOTGUN_SHELLS: 4
@@ -326,14 +311,7 @@ startingBaseGenius: #*** Adeptas
     STR_SMOKE_GRENADE: 8
     STR_HEAVY_STUBBER_HANDHELD: 1
     STR_HEAVY_STUBBER_CLIP: 3
-    STR_GUARDPD_MEDIC_ARMOR: 2
-    STR_ENFORCER_ARMOR: 2
-    STR_ENFORCER_HEAVY_ARMOR: 2
-    STR_ENFORCER_SHIELD_ARMOR: 2
-    STR_ALIEN_HABITAT: 3
-    STR_STINGRAY_LAUNCHER: 1
-    STR_STINGRAY_MISSILES: 25
-  scientists: 0
+  scientists: 10
   engineers: 10
 
 startingBaseSuperhuman: #*** Imperial Guard
@@ -353,12 +331,15 @@ startingBaseSuperhuman: #*** Imperial Guard
     - type: STR_HANGAR
       x: 4
       y: 0
-    - type: STR_GUARD_BARRACKS
+    - type: STR_LIVING_QUARTERS
       x: 3
       y: 3
     - type: STR_GENERAL_STORES
       x: 2
       y: 3
+    - type: STR_LABORATORY
+      x : 2
+      y : 4
     - type: STR_WORKSHOP
       x: 4
       y: 3
@@ -366,9 +347,9 @@ startingBaseSuperhuman: #*** Imperial Guard
       x: 1
       y: 3
   randomSoldiers:
-    STR_GUARDPD: 16
-    STR_JUDGE: 1
-    STR_PENITENT: 10
+    STR_GUARDPD: 8
+    STR_JUDGE: 2
+    STR_PENITENT: 8
   crafts:
     - type: STR_ARVUS
       id: 1
@@ -397,10 +378,7 @@ startingBaseSuperhuman: #*** Imperial Guard
           ammo: 100
       status: STR_READY
   items:
-    STR_CANNON: 2
-    STR_CANNON_ROUNDS_X50: 1
     STR_GRENADE: 10
-    STR_KRAK_GRENADE: 10
     STR_AUTOGUN: 4
     STR_AUTOGUN_CLIP: 6
     STR_SHOTGUN_SHELLS: 4
@@ -410,12 +388,5 @@ startingBaseSuperhuman: #*** Imperial Guard
     STR_SMOKE_GRENADE: 8
     STR_HEAVY_STUBBER_HANDHELD: 1
     STR_HEAVY_STUBBER_CLIP: 3
-    STR_GUARDPD_MEDIC_ARMOR: 2
-    STR_ENFORCER_ARMOR: 2
-    STR_ENFORCER_HEAVY_ARMOR: 2
-    STR_ENFORCER_SHIELD_ARMOR: 2
-    STR_ALIEN_HABITAT: 3
-    STR_STINGRAY_LAUNCHER: 1
-    STR_STINGRAY_MISSILES: 25
-  scientists: 0
+  scientists: 10
   engineers: 10

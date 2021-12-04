@@ -1,0 +1,4 @@
+  extraSprites:
+  - type: BIGOBS.PCK
+    files:
+        200: Resources/Bigobs/bigob_small_combat_knife.png

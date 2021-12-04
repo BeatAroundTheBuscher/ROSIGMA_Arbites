@@ -9,7 +9,7 @@ arcScripts:
 
   - type: arbitesCampaign            
     sequentialArcs:                  
-      - STR_ARBITES
+      - STR_ARBITES_CAMPAIGN
       - STR_ARBITES_ARC1
       - STR_ARBITES_ARC2
       - STR_ARBITES_ARC3

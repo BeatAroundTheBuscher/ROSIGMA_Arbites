@@ -1,19 +1,32 @@
 items:
-  ### Lasgun # become available later, use autoguns in the beginning
+  - type: STR_COMBAT_KNIFE
+    categories: [STR_CAT_MELEE]
+    size: 0.2
+    weight: 5
+    bigSprite: 200
+    floorSprite: {mod: 40k, index: 113}
+    handSprite: {mod: 40k, index: 304}
+    meleeSound: {mod: 40k, index: 754}
+    meleeHitSound: {mod: 40k, index: 773}
+    meleeAnimation: 4
+    power: 50
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    clipSize: -1
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    skillApplied: true
+    meleeMultiplier:
+      melee: 0.5
+      flatHundred: 0.5
+    strengthApplied: false
+    attraction: 7
+    experienceTrainingMode: 13
 
-  - type: STR_LASER_RIFLEG #LASGUN GUARD               10910
-    requiresBuy:
-      - STR_LASER_WEAPONS
-  - type: STR_LASGUN_CLIP #LASGUN CLIP                 11010
-    requiresBuy:
-      - STR_LASER_WEAPONS
-
-  - type: STR_LASER_PISTOLG  #LASPISTOL  GUARD         10810
-    requiresBuy:
-      - STR_LASER_WEAPONS
-  - type: STR_LASPISTOL_CLIP
-    requiresBuy:
-      - STR_LASER_WEAPONS
 
 
   - type: STR_LASER_PISTOL  #LASPISTOL                 10800
@@ -34,22 +47,7 @@ items:
   #- type: STR_LASGUN_CLIPB #LASGUN CLIPBBBBBBBBBB      11020
 
 
-  ### Sentinel Store Items
-  - type: STR_SENTINELPD_ARMOR_MISSILE
-    requires:
-      - STR_ARBITES_ARC12
 
-  - type: STR_SENTINELPD_ARMOR
-    requires:
-      - STR_ARBITES_ARC12
-
-  - type: STR_SENTINEL_FRAG_MISSILES_PD
-    requires:
-      - STR_ARBITES_ARC12
-
-  - type: STR_SENTINEL_KRAKK_MISSILES_PD
-    requires:
-      - STR_ARBITES_ARC12
 
 
   ### Bolt Pistols
