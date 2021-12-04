@@ -24,3 +24,128 @@ units:
 
   - type: STR_RIOTER_M0
     refNode: *STR_RIOTER
+
+  - &STR_GUARD_FLAK_NPC
+    type: MALE_CIVILIAN
+    builtInWeaponSets:
+      - - STR_AUTOGUN
+        - STR_AUTOGUN_CLIP
+        - STR_AUTOGUN_CLIP
+        - STR_GRENADE
+#        - STR_UNIT_TURNER_FT1
+      - - STR_AUTOGUN
+        - STR_AUTOGUN_CLIP
+        - STR_AUTOGUN_CLIP
+        - STR_GRENADE
+#        - STR_UNIT_TURNER_FT1
+      - - STR_LASER_RIFLEG
+        - STR_LASGUN_CLIP
+        - STR_LASGUN_CLIP
+        - STR_KRAK_GRENADE
+#        - STR_UNIT_TURNER_FT1
+   
+  - type: FEMALE_CIVILIAN
+    refNode: *STR_GUARD_FLAK_NPC
+
+  - type: STR_SECTOID_SOLDIER
+    builtInWeaponSets:
+      - - STR_STUB_GUN_CHAOS
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_COMBAT_KNIFE
+        - STR_GRENADE
+      - - STR_AUTOGUN_CHAOS
+        - STR_AUTOGUN_CLIP
+        - STR_SMOKE_GRENADE
+        - STR_GRENADE
+      - - STR_LASER_PISTOLC
+        - STR_LASPISTOL_CLIP
+        - STR_LASPISTOL_CLIP
+        - STR_COMBAT_KNIFE
+        - STR_ALIEN_GRENADE
+
+  - type: STR_SECTOID_ENGINEER
+    builtInWeaponSets:
+      - - STR_STUB_GUN_CHAOS
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_COMBAT_KNIFE
+        - STR_SMOKE_GRENADE
+        - STR_GRENADE
+      - - STR_BOLTPISTOL_CHAOS
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_PISTOL_CLIP
+        - STR_ALIEN_GRENADE
+      - - STR_SMALL_LAUNCHER
+        - STR_STUN_BOMB
+        - STR_STUN_BOMB
+        - STR_STUN_BOMB
+
+  - type: STR_SECTOID_MEDIC
+    builtInWeaponSets:
+      - - STR_STUN_ROD
+        - STR_SMOKE_GRENADE
+        - STR_SMOKE_GRENADE
+        - STR_GRENADE
+      - - STR_STUB_GUN_CHAOS
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_COMBAT_KNIFE
+        - STR_GRENADE
+      - - STR_STUB_RIFLE_CHAOS
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_SMOKE_GRENADE
+
+  - type: STR_SECTOID_NAVIGATOR
+    builtInWeaponSets:
+      - - STR_STUB_RIFLE_CHAOS
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_GRENADE
+      - - STR_AUTOGUN_CHAOS
+        - STR_AUTOGUN_CLIP
+        - STR_AUTOGUN_CLIP
+        - STR_ALIEN_GRENADE
+        - STR_ALIEN_GRENADE
+      - - STR_LASER_RIFLEC
+        - STR_LASGUN_CLIP
+        - STR_LASGUN_CLIP
+        - STR_GRENADE
+
+  - type: STR_SECTOID_LEADER   
+    builtInWeaponSets:
+      - - STR_STUB_RIFLE_CHAOS
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_KRAK_GRENADE
+      - - STR_SNIPER_CHAOS
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_KRAK_GRENADE
+      - - STR_SNIPER_CHAOS
+        - STR_HC_HE_AMMO
+        - STR_HC_HE_AMMO
+        - STR_HC_HE_AMMO
+        - STR_ALIEN_GRENADE
+
+  - type: STR_SECTOID_COMMANDER 
+    builtInWeaponSets:
+      - - STR_SNIPER_CHAOS
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_HC_AP_AMMO
+        - STR_BLOODLETTERSPAWNER_GRENADE
+        - STR_DAEMONETTESPAWNER_GRENADE
+        - STR_FLAMERSPAWNER_GRENADE
+        - STR_PLAGUEBEARERSPAWNER_GRENADE
+
+# STR_SECTOID_ASPIRING_CHAMPION            
+# STR_SECTOID_FEMCULTIST
+# STR_SECTOID_DARKDISCIPLE
+# STR_SECTOID_DARKDISCIPLE_ALPHA
+# STR_SECTOID_DARK_DISCIPLE_DAEMONETTE
+# STR_SECTOID_DARK_DISCIPLE_NEVERBORN
