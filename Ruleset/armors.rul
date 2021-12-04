@@ -14,17 +14,29 @@ armors:
   - delete: STR_GUARDPD_ARMOR_UC
   - delete: STR_GUARDPDMEDIC_ARMOR_UC
 
-  - type: STR_ENFORCER_ARMOR_UC
+  - &STR_BASIC_ENFORCER_ARMOR
+    type: STR_ENFORCER_ARMOR_UC
     storeItem: STR_NONE
+    frontArmor: 50
+    sideArmor: 45
+    rearArmor: 30
+    underArmor: 40
 
   - type: STR_ENFORCER_MEDIC_ARMOR_UC
+    refNode: *STR_BASIC_ENFORCER_ARMOR
     storeItem: STR_ENFORCER_MEDIC_ARMOR
     weight: 5
+
+  - type: STR_JUDGE_ARMOR_UC
+    frontArmor: 60
+    sideArmor: 55
+    rearArmor: 40
+    underArmor: 50 
 
   - type: STR_ENFORCER_SIGNAL_ARMOR_UC
   - type: STR_ENFORCER_SIGNALFALSE_ARMOR_UC
   - type: STR_ENFORCER_HEAVY_ARMOR_UC
   - type: STR_ENFORCER_SHIELD_ARMOR_UC
-  - type: STR_JUDGE_ARMOR_UC
+
   - type: STR_ARBITOR_ARMOR_UC
   - type: STR_MARSHAL_ARMOR_UC
