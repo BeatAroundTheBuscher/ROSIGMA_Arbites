@@ -12,12 +12,12 @@ alienDeployments:
       showTarget: false
       background: BACK169.SCR
     civiliansByType:
-      STR_CIVILIAN_F0: 4
-      STR_CIVILIAN_M0: 4
-      STR_CIVILIAN_F1: 4
-      STR_CIVILIAN_M1: 4
-      STR_MONK1: 4
-      STR_MONK2: 4
+      STR_CIVILIAN_F0: 2
+      STR_CIVILIAN_M0: 2
+      STR_CIVILIAN_F1: 2
+      STR_CIVILIAN_M1: 2
+      STR_MONK1: 2
+      STR_MONK2: 2
     width: 40
     length: 40
     height: 9
