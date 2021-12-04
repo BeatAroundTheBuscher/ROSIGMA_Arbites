@@ -9,6 +9,9 @@ missionScripts:
     lastMonth: 3 # should change to something more drastic
     executionOdds: 50
     label: 100
+    raceWeights:
+      0:
+        STR_CHAOS_RIOTS: 100
     missionWeights:
       0:
         STR_RIOT: 100
@@ -24,6 +27,9 @@ missionScripts:
     executionOdds: 100
     label: 110
     conditionals: [-100]
+    raceWeights:
+      0:
+        STR_SECTOID: 100
     missionWeights:
       0:
         STR_ALIEN_SABOTAGE: 100
@@ -37,6 +43,9 @@ missionScripts:
     lastMonth: 3 # should change to something more drastic
     executionOdds: 100
     conditionals: [110]
+    raceWeights:
+      0:
+        STR_CHAOS_RIOTS: 100
     missionWeights:
       0:
         STR_RIOT: 100
@@ -51,6 +60,9 @@ missionScripts:
     lastMonth: 3 # should change to something more drastic
     executionOdds: 100
     conditionals: [100]
+    raceWeights:
+      0:
+        STR_SECTOID: 100
     missionWeights:
       0:
         STR_ALIEN_SABOTAGE: 100
@@ -58,3 +70,27 @@ missionScripts:
       0:
          REGION_HULK_SITES: 100
     startDelay: 18000
+
+## DANGER LEVEL 2
+
+#  - type: Sacrifice
+
+
+## STORY
+
+  - type: Cultist_Investigation
+    executionOdds: 100
+    missionWeights:
+      0:
+        STR_CULTIST_SACRIFICES_LEVEL_1: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    raceWeights:
+      0:
+         STR_SECTOID: 100
+    researchTriggers:
+      STR_CULTIST_MENACE: true
+    startDelay: 18000
+
+
