@@ -4,29 +4,57 @@ missionScripts:
 
 ## DANGER LEVEL 0
 
-  - type: Riot
+  - type: Riot_early
     firstMonth: 1
     lastMonth: 3 # should change to something more drastic
     executionOdds: 50
-    label: 200
+    label: 100
     missionWeights:
       0:
         STR_RIOT: 100
     regionWeights:
       0:
          REGION_HULK_SITES: 100
-    startDelay: 3000
+    startDelay: 6000
 
 
-  - type: Sabotage
+  - type: Sabotage_early
     firstMonth: 1
     lastMonth: 3 # should change to something more drastic
     executionOdds: 100
-    conditionals: [-200]
+    label: 110
+    conditionals: [-100]
     missionWeights:
       0:
         STR_ALIEN_SABOTAGE: 100
     regionWeights:
       0:
          REGION_HULK_SITES: 100
-    startDelay: 3000
+    startDelay: 6000
+
+  - type: Riot_later
+    firstMonth: 1
+    lastMonth: 3 # should change to something more drastic
+    executionOdds: 100
+    conditionals: [110]
+    missionWeights:
+      0:
+        STR_RIOT: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    startDelay: 18000
+
+
+  - type: Sabotage_later
+    firstMonth: 1
+    lastMonth: 3 # should change to something more drastic
+    executionOdds: 100
+    conditionals: [100]
+    missionWeights:
+      0:
+        STR_ALIEN_SABOTAGE: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    startDelay: 18000

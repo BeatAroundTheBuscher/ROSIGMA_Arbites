@@ -91,7 +91,7 @@ alienDeployments:
     width: 40
     length: 40
     height: 6
-    civilians: 2
+    civilians: 6
     terrains:
       - MUNITORIUM
     alert: STR_ALIENS_SABOTAGE
