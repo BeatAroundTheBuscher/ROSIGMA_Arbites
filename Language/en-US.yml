@@ -15,3 +15,8 @@ en-US:
 ## Crafts
 
   STR_ARVUS: "ARVUS"
+
+## Events
+
+  STR_PENITENT_EVENT: "Cultist Repents"
+  STR_PENITENT_EVENT_DESCRIPTION: "One of the interrogated Cultists is willing to repent. We are willing to accept them as a Penitent."

@@ -53,3 +53,131 @@ research:
     points: 0
     requires:
       - STR_GENERALLOCK
+
+### Story Arc - Cultist Menace
+
+  - name: STR_CULTIST_MENACE
+    cost: 0
+    points: 100
+    requires:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_SECTOID_ENGINEER
+      - STR_SECTOID_MEDIC
+      - STR_SECTOID_NAVIGATOR
+      - STR_SECTOID_SOLDIER
+      - STR_SECTOID_CORPSE
+
+
+  - name: STR_SECTOID_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_SECTOID_AUTOPSY
+    needItem: true
+
+  - name: STR_SECTOID_COMMANDER
+    cost: 190
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_SECTOID
+    unlocks: !remove
+      - STR_LEADER_PLUS
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_PSI_LAB
+    spawnedEvent: STR_PENITENT_EVENT
+
+  - name: STR_SECTOID_LEADER
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks: !remove
+      - STR_LEADER_PLUS
+      - STR_PSI_LAB
+      - STR_ALIEN_ORIGINS
+    lookup: STR_SECTOID
+    spawnedEvent: STR_PENITENT_EVENT
+
+  - name: STR_SECTOID_ENGINEER
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks: !remove
+      - STR_ALIEN_ORIGINS
+    lookup: STR_SECTOID
+    getOneFree: !remove
+      - STR_SMALL_SCOUT
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_HARVESTER
+      - STR_ABDUCTOR
+      - STR_TERROR_SHIP
+      - STR_BATTLESHIP
+      - STR_SUPPLY_SHIP
+    spawnedEvent: STR_PENITENT_EVENT
+
+  - name: STR_SECTOID_MEDIC
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks: !remove
+      - STR_ALIEN_ORIGINS
+    lookup: STR_SECTOID
+    getOneFree: !remove
+      - STR_SNAKEMAN
+      - STR_MUTON
+      - STR_ETHEREAL
+      - STR_FLOATER
+      - STR_CHRYSSALID
+      - STR_SECTOPOD
+      - STR_CYBERDISC
+      - STR_SILACOID
+      - STR_CELATID
+      - STR_REAPER
+      - STR_SECTOID_CORPSE
+      - STR_SNAKEMAN_CORPSE
+      - STR_MUTON_CORPSE
+      - STR_ETHEREAL_CORPSE
+      - STR_FLOATER_CORPSE
+      - STR_CHRYSSALID_CORPSE
+      - STR_SECTOPOD_CORPSE
+      - STR_CYBERDISC_CORPSE
+      - STR_SILACOID_CORPSE
+      - STR_CELATID_CORPSE
+      - STR_REAPER_CORPSE
+    spawnedEvent: STR_PENITENT_EVENT
+
+  - name: STR_SECTOID_NAVIGATOR
+    cost: 192
+    points: 50
+    lookup: STR_SECTOID
+    needItem: true
+    destroyItem: true
+    unlocks: !remove
+      - STR_ALIEN_ORIGINS
+      - STR_HYPER_WAVE_DECODER
+    getOneFree: !remove
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_HARVEST
+      - STR_ALIEN_ABDUCTION
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+    spawnedEvent: STR_PENITENT_EVENT
+
+
+  - name: STR_SECTOID_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_SECTOID
+    unlocks: !remove
+      - STR_ALIEN_ORIGINS
+    needItem: true
+    destroyItem: true
+    spawnedEvent: STR_PENITENT_EVENT

@@ -1,0 +1,8 @@
+events:
+  - name: STR_PENITENT_EVENT
+    description: STR_PENITENT_EVENT_DESCRIPTION
+    background: GuardBG.SCR
+    spawnedPersons: 1
+    spawnedPersonType: STR_PENITENT # test only # will be done with tokens later
+    timer: 720
+    timerRandom: 60
