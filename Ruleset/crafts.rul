@@ -8,6 +8,8 @@ crafts:
       - STR_ARBITES_ARC12
 
   - type: STR_ARVUS
+    skinSprites: []
+    sprite: 200
     soldiers: 8
     vehicles: 1
     pilots: 0
@@ -16,6 +18,7 @@ crafts:
       mapDataSets:
         - BLANKS
         - ARVUS
+        - VALK_TRAITOR
       mapBlocks:
         - name: ARVUS_SINGLE
           width: 10
