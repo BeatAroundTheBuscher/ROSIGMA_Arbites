@@ -1,36 +1,4 @@
-# Delete all missions by design
 missionScripts:
-  - delete: gameStartCultist
-  - delete: gameStartTraitorGuard
-  - delete: gameStartOrk
-  - delete: newTraditionalBasesEarly
-  - delete: newTraditionalBasesLater
-  - delete: newTraditionalBasesExtra
-  - delete: recurringTerror
-  - delete: warpStorm
-  - delete: warpStormBuilding
-  - delete: warpStormRaging
-  - delete: researchRetaliation
-  - delete: timedRetaliation
-  - delete: SpaceHulk
-  - delete: Eldarsite
-  - delete: Mission1
-  - delete: Mission2
-  - delete: Mission3 #OUTPOST RESCUE
-  - delete: Mission4 #Cathedral
-  - delete: Mission5 #Fortress
-  - delete: Mission6 #TANK HUNTER
-  - delete: Mission7 #SPACESHIP PART1
-  - delete: Mission8 #SPACESHIP PART2
-  - delete: Mission9 #SPACESHIP PART2
-  - delete: War
-  - delete: WarAdeptas
-  - delete: Inquisition
-  - delete: finalMissionMarines
-  - delete: finalMissionGuard
-  - delete: finalMissionAdeptas
-  - delete: finalMissionArbites
-  - delete: finalMissionChaos
 
 
   # first month is 1 and not 0 because start at 31st Dec
