@@ -1,0 +1,27 @@
+alienRaces:
+  - delete: STR_SECTOID
+  - delete: STR_CHAOS_RIOTS
+
+  - id: STR_SECTOID
+    retaliationAggression: -100
+    members:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_SECTOID_ENGINEER
+      - STR_SECTOID_MEDIC
+      - STR_SECTOID_NAVIGATOR
+      - STR_SECTOID_SOLDIER
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_TERRORIST
+
+  - id: STR_CHAOS_RIOTS
+    retaliationAggression: -100
+    members:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_RIOTER_F1
+      - STR_RIOTER_M1
+      - STR_RIOTER_F0
+      - STR_RIOTER_M0
+      - STR_SECTOID_SOLDIER
+      - STR_SECTOID_SOLDIER

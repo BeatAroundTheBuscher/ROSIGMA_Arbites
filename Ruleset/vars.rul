@@ -18,3 +18,5 @@ bughuntMaxEnemies: 3
 bughuntRank: 0
 bughuntLowMorale: 50
 bughuntTimeUnitsLeft: 65
+
+startingDifficulty: 2

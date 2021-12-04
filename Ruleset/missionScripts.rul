@@ -1,0 +1,32 @@
+# first month is 1 and not 0 because start at 31st Dec
+
+missionScripts:
+
+## DANGER LEVEL 0
+
+  - type: Riot
+    firstMonth: 1
+    lastMonth: 3 # should change to something more drastic
+    executionOdds: 50
+    label: 200
+    missionWeights:
+      0:
+        STR_RIOT: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    startDelay: 3000
+
+
+  - type: Sabotage
+    firstMonth: 1
+    lastMonth: 3 # should change to something more drastic
+    executionOdds: 100
+    conditionals: [-200]
+    missionWeights:
+      0:
+        STR_ALIEN_SABOTAGE: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    startDelay: 3000

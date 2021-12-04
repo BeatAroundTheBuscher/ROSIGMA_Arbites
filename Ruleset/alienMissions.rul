@@ -1,0 +1,28 @@
+alienMissions:
+  - type: STR_RIOT # direct spawn
+    points: 10
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_CHAOS_RIOTS: 100
+    waves:
+      - ufo: STR_RIOT
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_ALIEN_SABOTAGE # direct spawn
+    points: 10
+    objective: 3
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    waves:
+      - ufo: STR_SABOTAGE_MISSION
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true

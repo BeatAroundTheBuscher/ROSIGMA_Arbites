@@ -5,9 +5,13 @@ en-US:
   STR_4_GENIUS: "Genius"
   STR_5_SUPERHUMAN: "Superhuman"
 
-  STR_ARBITES_ARC1: "First Story"
+  STR_ARBITES_ARC1: "Cultist Investigation"
 
 
 ## Weapons
 
   STR_COMBAT_KNIFE: "Combat Knife"
+
+## Crafts
+
+  STR_ARVUS: "ARVUS"
