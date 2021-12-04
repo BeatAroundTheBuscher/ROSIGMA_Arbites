@@ -44,7 +44,7 @@ missionScripts:
     firstMonth: 1
     lastMonth: 3 
     executionOdds: 100
-    conditionals: [-110]
+    conditionals: [110]
     raceWeights:
       0:
         STR_CHAOS_RIOTS: 100
@@ -61,7 +61,7 @@ missionScripts:
     firstMonth: 1
     lastMonth: 3 
     executionOdds: 100
-    conditionals: [-100]
+    conditionals: [100]
     raceWeights:
       0:
         STR_SECTOID: 100

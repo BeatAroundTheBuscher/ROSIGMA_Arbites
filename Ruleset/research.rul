@@ -43,10 +43,16 @@ research:
       - STR_INTERROGATION_COMPLETED
 
   - name: STR_FLAMER
-    cost: 0
-    points: 0
+    cost: 100
+    points: 10
     dependencies:
-      - STR_GENERALLOCK
+      - STR_DAEMON_CORPSE_RESEARCHED
+
+  - name: STR_HEAVY_STUBBER
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_DAEMON_CORPSE_RESEARCHED
 
   - name: STR_HEAVY_ARMOR
     cost: 0
@@ -86,11 +92,23 @@ research:
       - STR_BEGINNING_INVESTIGATION
 
 
-  - name: STR_SECTOID_CORPSE
-    cost: 180
-    points: 50
-    lookup: STR_SECTOID_AUTOPSY
-    needItem: true
+#  - name: STR_SECTOID_CORPSE
+#    cost: 180
+#    points: 50
+#    lookup: STR_SECTOID_AUTOPSY
+#    needItem: true
+
+  - name: STR_CYBERDISC_CORPSE
+    unlocks: 
+      - STR_DAEMON_CORPSE_RESEARCHED
+
+  - name: STR_SILACOID_CORPSE
+    unlocks: 
+      - STR_DAEMON_CORPSE_RESEARCHED
+
+  - name: STR_DAEMON_CORPSE_RESEARCHED
+    dependencies:
+      - STR_GENERALLOCK
 
   - delete: STR_SECTOID_COMMANDER
   - delete: STR_SECTOID_LEADER

@@ -13,6 +13,7 @@ alienMissions:
   - type: STR_ALIEN_SABOTAGE # direct spawn
     points: 10
     objective: 3
+    spawnZone: 0
     waves:
       - ufo: STR_SABOTAGE_MISSION
         count: 1
@@ -22,6 +23,7 @@ alienMissions:
 
   - type: STR_CULTIST_SACRIFICES_LEVEL_1
     objective: 3
+    spawnZone: 0
     siteType: STR_CULTIST_SACRIFICES_LEVEL_1
     waves:
       - ufo: STR_CULTIST_SACRIFICES_LEVEL_1

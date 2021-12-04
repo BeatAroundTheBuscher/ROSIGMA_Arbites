@@ -1,253 +1,210 @@
+research: 
+  - name: STR_HIDE_LOCK
+    needItem: true
+
 ufopaedia:
-## STRATEGY
+## STRATEGY # section removed
 
-  - id: STR_STRATEGY_INTRO
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_STRATEGY_INTROG             #8 MENU INTRO
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_STRATEGY_INTROA             #8 MENU INTRO
-    requires:
-      - STR_GENERALLOCK
-
-  - id: STR_STRATEGY_INTROPD            #8 MENU INTRO
-    dependencies:
-      - STR_ARBITES_CAMPAIGN
-
-  - id: STR_PICK_STRATEGY
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_CHOSEN_TATICAL                   #10
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_CHOSEN_ASSAULT                   #12
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_CHOSEN_DEVASTATOR                #14
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_CHOSEN_SCOUT                     #16
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_CHOSEN_PRIMARIS                  #17
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_CHOSEN_IGS                       #18
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_CHOSEN_ADEPTAS                       #20
-    requires:
-      - STR_GENERALLOCK
-
-  - id: STR_CHOSEN_ARBITES                       #20
-    dependencies:
-      - STR_ARBITES_CAMPAIGN
-
-  - id: STR_TATICAL                   #30
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_ASSAULT                   #40
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_DEVASTATOR                   #50
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_SCOUT                   #60
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_PRIMARIS                #62
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_ADEPTAS                  #65
-    requires:
-      - STR_GENERALLOCK
-  - id: STR_IGS                    #70
-    requires:
-      - STR_GENERALLOCK
-
-  - id: STR_ARBITES                  #75
-    dependencies:
-      - STR_ARBITES_CAMPAIGN
+  - delete: STR_STRATEGY_INTRO
+  - delete: STR_STRATEGY_INTROG             #8 MENU INTRO
+  - delete: STR_STRATEGY_INTROA             #8 MENU INTRO
+  - delete: STR_STRATEGY_INTROPD            #8 MENU INTRO
+  - delete: STR_PICK_STRATEGY
+  - delete: STR_CHOSEN_TATICAL                   #10
+  - delete: STR_CHOSEN_ASSAULT                   #12
+  - delete: STR_CHOSEN_DEVASTATOR                #14
+  - delete: STR_CHOSEN_SCOUT                     #16
+  - delete: STR_CHOSEN_PRIMARIS                  #17
+  - delete: STR_CHOSEN_IGS                       #18
+  - delete: STR_CHOSEN_ADEPTAS                       #20
+  - delete: STR_CHOSEN_ARBITES                       #20
+  - delete: STR_TATICAL                   #30
+  - delete: STR_ASSAULT                   #40
+  - delete: STR_DEVASTATOR                   #50
+  - delete: STR_SCOUT                   #60
+  - delete: STR_PRIMARIS                #62
+  - delete: STR_ADEPTAS                  #65
+  - delete: STR_IGS                    #70
+  - delete: STR_ARBITES                  #75
 
 ## CRAFTS + CRAFT WEAPONS
 
   - id: STR_AIRCRAFT                   #100 MENU INTRO
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_AIRCRAFTB                   #100 MENU INTRO
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_AIRCRAFTC                   #100 MENU INTRO
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
   - id: STR_AIRCRAFTPD                   #101 MENU INTRO
-    dependencies:
+    requires:
       - STR_ARBITES_CAMPAIGN
 
   - id: STR_STORMEAGLE                 #600
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_STORMEAGLE_ADEPTAS         #610
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_CHAPTERARMY                #700
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_LANDRAIDER                 #711
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ARMYPD                     #712
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ARMY_P                     #713
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_SPEEDC                     #200
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_VALKYRIE                   #210
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
   - id: STR_ARVUS                      #211
-    dependencies:
+    requires:
       - STR_ARBITES_CAMPAIGN
 
   - id: STR_VULTURE                    #212
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_CHIMERAPD                  #213
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_THUNDERBOLTPD              #214
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_HIDRAPD                    #215
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TAUROXPD                   #216
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_CHIMERAPDH                 #217
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_FIRESTORM                  #300
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_STORMRAVEN_ADEPTAS          #310
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_INTERCEPTOR                #110
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_STORMHAWK                  #105
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_STORMHAWKS                  #106
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_AVENGER                    #500
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TTASS
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TTDEV
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TTSCT
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TTCHAOS
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TTA                        #501
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_SKYRANGER                  #120
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_IMPULSOR                  #125
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_REPULSOR                  #355
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_REPULSOR_T                 #356
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_LIGHTNING                  #400
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_THUNDERHAWNK
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_THUNDERHAWNK
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_CHAOS_THUNDERHAWNK
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_CORVUS                     #505
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
   - id: STR_AVENGER_ADEPTAS            #510
-    dependencies:
+    requires:
       - STR_ARBITES_CAMPAIGN
 
   - id: STR_THUNDERBOLT_ADEPTAS        #520
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_VINDICATOR_WEAPON          #1000
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_STINGRAY                   #1100   40K craft weapon
 
   - id: STR_AVALANCHE                  #13  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
   - id: STR_CANNON_UC                  #14  40K craft weapon
 
   - id: STR_FUSION_BALL_UC             #15  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_LASER_CANNON_UC            #16  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_PLASMA_BEAM_UC             #17  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_THUNDER_CANNON_UC          #1700  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ASSCANNON_UC               #1750  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_THRUSTER_UC                #19  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TARGETER_UC                #20  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_HULL_PLATING_UC            #1820  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_FLARE_LAUNCH_UC            #1830  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_SCANNER_UC                 #1840  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_RETICULE_UC                #1850  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_CRAFT_SHIELD_UC                #1850  40K craft weapon
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
 ## FACILITIES
 
@@ -308,49 +265,49 @@ ufopaedia:
 
   - id: STR_MECHANICUSO                   #2000      40k INTRO
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MECHANICUSOB                   #2000      40k INTRO
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MECHANICUSOC                   #2000      40k INTRO
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_SERVITOR                      #2100       #40K HWP
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TANK_ROCKET_LAUNCHER          #23       #40K HWP
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_T_BOLTER                      #24       #40K HWP
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TANK_LASER_CANNON             #25       #40K HWP
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_PENITENT_ENGINE               #2310     #40K HWP
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ISB                           #2320     #40K HWP
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_THUNDERFIRE                   #2315     #40K HWP
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_CMAS                   #2311     #40K HWP
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
 ## ARMOR
 
   - id: STR_A                             #5000 MENU INTRO
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_B                             #5001 MENU INTRO
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_C                             #5001 MENU INTRO
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
   - id: STR_PD                             #5001 MENU INTRO
     requires:
@@ -358,185 +315,193 @@ ufopaedia:
 
   - id: STR_SCOUT_UC                       #5100  #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_SCOUTH_UC                       #5110  #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_PERSONAL_ARMOR_UC              #5200
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_DEV_ARMOR_UC                   #5300
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ASS_ARMOR_UC                   #5400
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_SARGENT_ARMOR_UC               #55
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_HONOR_ARMOR_UC                 #5600
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_SIGNAL_ARMOR_UC                 #5620
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ASS_ARMOR_HONOR_UC             #5610
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MKX_TAC_LV1_UC              #5620
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MKX_PHB_LV1_UC              #5621
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MKX_GRV_LV1_UC              #5622
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MKX_INC_LV1_UC              #5623
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_APOT_ARMOR_UC                  #5700
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MKX_APO_UC                     #5701
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TECH_ARMOR_UC                  #5800
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MKX_TEC_LV1_UC                 #5801
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_CHAP_ARMOR_UC                  #5900
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MKX_CHP_UC                  #5901
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_LIB_ARMOR_UC                   #6000
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MKX_LIB_LV1_UC                 #6001
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_TSARGENT_UC                    #6300   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_POWER_SUIT_UC                  #6100
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_FLYING_SUIT_UC                 #62   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_CAPTAIN_UC                     #64   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: BIKE_ARMOR_UC                     #6410   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MKX_BIKE_UC                    #6411
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: DREAD_ARMOR_UC
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: DREAD_ARMOR2_UC
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: DREAD_ARMOR3_UC
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: DREAD_ARMOR4_UC
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: DREAD_ARMOR5_UC
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: CENT_ARMOR_UC                      #6500   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_GUARD_ARMORSM                  #6650   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
   - id: STR_PENAL_ARMOR_UC                #6650   #ARMOR
 
   - id: STR_GUARD_ARMORH_UC                #6700   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_SENTINEL_ARMOR_UC              #6800   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_GUARD_ARMORP_UC                #6900   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
   - id: STR_ENFORCER_ARMOR_UC                  #6910   # ARBITES ARMOR
-    dependencies:
+    requires:
       - STR_ARBITES_CAMPAIGN
   - id: STR_ENFORCER_MEDIC_ARMOR_UC                  #6911   # ARBITES MEDIC ARMOR
-    dependencies:
+    requires:
       - STR_ARBITES_CAMPAIGN
 
   - id: STR_ENFORCER_SIGNAL_ARMOR_UC                 #6912   # ARBITES SIGNAL ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
   - id: STR_ENFORCER_HEAVY_ARMOR_UC                  #6915   # ARBITES ARMOR
-    dependencies:
+    requires:
       - STR_HEAVY_ARMOR
   - id: STR_ENFORCER_SHIELD_ARMOR_UC                  #6916   # ARBITES ARMOR
-    dependencies:
+    requires:
       - STR_HEAVY_ARMOR
 
   - id: STR_JUDGE_ARMOR_UC                  #7000   # ARBITES ARMOR
-    dependencies:
+    requires:
       - STR_ARBITES_CAMPAIGN
 
   - id: STR_JUDGE_BIKE_ARMOR_UC              #7005   # ARBITES ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ARBITOR_ARMOR_UC                  #7010   # ARBITES ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_MARSHAL_ARMOR_UC                  #7020   # ARBITES ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
-
+  - id: STR_COMMISSAR_UC
+    requires:
+      - STR_HIDE_LOCK
+  - id: STR_COMMISSAR_CARAPACE_UC
+    requires:
+      - STR_HIDE_LOCK
+  - id: STR_GUARD_ARMORS_MEDIC_UC
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMOR_UC               #8000   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMORR_UC               #8001   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMORA_UC               #8010    #ADEPTAS apoth
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMORB_UC               #8020                ass
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMORS_UC               #8030            sera
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMOR_HONOR_UC          #8035            Honor
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMORCEL_UC             #8050
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMORI_UC               #8080       #ADEPTAS      inq
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMORC_UC                  #8090   baro
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMORD_UC                     #8100   #ARMOR domi
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
   - id: STR_ADEPTAS_ARMORSUP_UC                    #8115   #ARMOR
     requires:
-      - STR_GENERALLOCK
+      - STR_HIDE_LOCK
 
   - id: STR_SECTOID                 #20000   DONTSHOWYET
   - id: STR_SECTOID_ARMOR0          #20000     ARMOR
@@ -636,11 +601,27 @@ ufopaedia:
 
 
 
-
+## AMMO
 
   - id: STR_AMMO_OVER                     #9000 MENU INTRO
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_AMMO_OVERB                            #5001 MENU INTRO
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_AMMO_OVERC                             #5001 MENU INTRO
+    requires:
+      - STR_HIDE_LOCK
+
+  - id: STR_AMMO_OVERPD
+    type_id: 10
+    section: STR_AMMO_TYPE
+    image_id: 2ARB.SPK
+    text: STR_AMMO_TYPE_UFOPEDIA
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 5001
+
   - id: STR_AMMOB                          #9200
   - id: STR_MC_AMMO                        #9300
   - id: STR_BOLTER_AMMO                    #9100
@@ -650,7 +631,7 @@ ufopaedia:
   - id: STR_PLASMA_AMMO                    #77
   - id: STR_GRAV_AMMO                      #78
 
-  - id: STR_WEAPONSC                     #10000 MENU INTRO
+  - id: STR_WEAPONSPD                     #10000 MENU INTRO
     type_id: 10
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 2ARB.SPK
@@ -661,103 +642,282 @@ ufopaedia:
 
 
   - id: STR_WEAPONS                      #10000 MENU INTRO
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_WEAPONSB                      #10000 MENU INTRO
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_WEAPONSC                     #10000 MENU INTRO
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_BOLTPISTOL_DEAZ
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_MC_BOLTPISTOL_DEAZ
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LIGHT_BOLTPISTOL_AMMO
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LIGHT_BOLTPISTOL_AMMO_MC
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PISTOL                      #10100
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PISTOLB                      #10105
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PISTOLS                     #10110
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PISTOLH                      #10120
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PISTOL_CLIP
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PISTOL_CLIP_EX
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PISTOL_CLIP_AP
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_BOLTER_DEAZ
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_MC_BOLTER_DEAZ
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_BOLTER_ENFORCER
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_BOLTER_LOCKE
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LIGHT_BOLTER_AMMO
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LIGHT_BOLTER_AMMO_MC
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_RIFLE                      #10300
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_RIFLEB                      #10305
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_RIFLEC                      #10310
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_RIFLED                      #10320
+    requires:
+      - STR_HIDE_LOCK
+  - id: STR_BOLTER_CANTUS                      #10320
+    requires:
+      - STR_HIDE_LOCK
+  - id: STR_BOLTER_LIGHT_ULTRA                      #10320
+    requires:
+      - STR_HIDE_LOCK
+  - id: STR_BOLTPISTOL_LIGHT_ULTRA                      #10320
+    requires:
+      - STR_HIDE_LOCK
+
+
+
+
+
+
   - id: STR_RIFLE_CLIP
   - id: STR_RIFLE_CLIP_EX
   - id: STR_RIFLE_CLIP_AP
   - id: STR_RIFLE_CLIP_N
   - id: STR_RIFLE_CLIP_R
+
   - id: STR_HEAVY_CANNON                  #11900
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_HC_AP_AMMO
   - id: STR_HC_HE_AMMO
   - id: STR_HC_I_AMMO
+
   - id: STR_AUTO_CANNON       #2400
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_ASSAULT_BOLTER       #2410
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_AC_AP_AMMO
   - id: STR_AC_HE_AMMO
   - id: STR_AC_I_AMMO
+
   - id: STR_ROCKET_LAUNCHER       #12100
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_SMALL_ROCKET
   - id: STR_LARGE_ROCKET
   - id: STR_INCENDIARY_ROCKET
+
   - id: STR_LASER_PISTOL                     #10800
+    requires:
+      - STR_LASER_WEAPONS  
   - id: STR_LASER_RIFLE                      #105
+    requires:
+      - STR_LASER_WEAPONS
+
   - id: STR_INFERNO_PISTOL
-  - id: STR_HEAVY_LASER                      #106
+    requires:
+      - STR_HIDE_LOCK
+  - id: STR_HEAVY_LASER # MELTA
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PLASMA_RIFLE_TERRAN              #11400
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PLASMA_INC_TERRAN              #11550
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_PLASMA_PISTOL_TERRAN             #11200
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_SMALL_LAUNCHER_TERRAN            #11800
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_WEBBER                           #11810
+    requires:
+      - STR_WEBBER
   - id: STR_GRENADE                            #13600
+    requires:
+      - STR_ARBITES_CAMPAIGN  
   - id: STR_KRAK_GRENADE                            #13650
+    requires:
+      - STR_ANTI_ARMOR  
   - id: STR_SMOKE_GRENADE                      #13700
+    requires:
+      - STR_ARBITES_CAMPAIGN
+
   - id: STR_PROXIMITY_GRENADE                  #13800
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HAYWIRE_MINE                       #13810
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_MGRENADE                           #13900
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HIGH_EXPLOSIVE                     #14000
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_ELECTRO_FLARE                      #14100
+    requires:
+      - STR_ARBITES_CAMPAIGN
+
   - id: STR_MOTION_SCANNER                     #14200
+    requires:
+      - STR_MISSING_TECH
+
   - id: STR_FLAMETHROWER                  #10500
+    requires:
+      - STR_FLAMER
+
   - id: STR_SHOTGUN                       #10600
   - id: STR_SHOTGUNPD                     #10610
+    requires:
+      - STR_MISSING_TECH
   - id: STR_SHOTGUN_SHELLS
   - id: STR_SHOTGUN_SHELLS_AP
   - id: STR_SHOTGUN_SHELLS_INC
   - id: STR_SHOTGUN_SHELLS_MC
+
   - id: STR_MCPISTOL                      #10200
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_MCRIFLE                       #10400
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_MCSHOTGUN                     #10700
   - id: STR_MCSHOTGUNPD                     #10710
+
   - id: STR_MCPLASMA_PISTOL               #11300
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_MCPLASMA_RIFLE                #11500
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HELLPISTOL
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASPISTOL_CLIP_HOTSHOT
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_MCLASER_RIFLE                 #11000
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HEAVY_PLASMA_MC               #11700
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_GRAVGUN_MC                    #12510
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_CHAINSWORD_MC                 #12500
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_BLASTER_LAUNCHER_TERRAN       #12300
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_RIFLE_CLIP_MC
   - id: STR_PISTOL_CLIP_MC
   - id: STR_AC_MC_AMMO
 
   - id: STR_STUN_ROD                        #12800
+
   - id: STR_KNIF                           #12900
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_CHAINSWORD                     #12400
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_EVISCERATOR                     #12410
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_POWERFIST                      #12600
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_CLAWS                          #12700
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_POWER_SWORD                    #13000
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_POWER_SWORD_MC                 #13001
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HALLEBARD #13010
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HAMMER #13400
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HAMMER_MC       #13401
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASCAN #2499
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASCAN_CLIP
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HEAVY_PLASMA_TERRAN #2498
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_FLAMETHROWER_CLIP
   - id: STR_INFERNO_PISTOL_AMMO
   - id: STR_MELTA_AMMO
@@ -767,14 +927,28 @@ ufopaedia:
   - id: STR_LASPISTOL_CLIP
   - id: STR_LASPISTOL_CLIPB
   - id: STR_HB_CLIP
+
   - id: STR_HB       #13100
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_HB_MC       #13102
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_ASSC_CLIP
+
   - id: STR_ASSC       #4999
+    requires:
+      - STR_HIDE_LOCK
+      
   - id: STR_HFLAMER_CLIP
   - id: STR_THUNDERFIRE_SHELL
+
   - id: STR_HFLAMER         #5000
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_DREAD_MELEE_WEAPON       #5001
+
   - id: STR_BOLTPISTOL_CHAOS
   - id: STR_BOLTERC
   - id: STR_PLASMA_RIFLE
@@ -960,10 +1134,9 @@ ufopaedia:
   - id: STR_CRAFT_QUADLASER_UC
   - id: STR_CRAFT_AUTOCANNON_UC
   - id: STR_BAYONET
-  - id: STR_COMMISSAR_UC
-  - id: STR_COMMISSAR_CARAPACE_UC
+
   - id: STR_GUARD_PRIMER
-  - id: STR_GUARD_ARMORS_MEDIC_UC
+
   - id: STR_GUARD_MEDI_KIT
   - id: STR_TANITH_CAMO_ARMOR
   - id: STR_TANITH_STRAIGHT_SILVER
@@ -1001,16 +1174,38 @@ ufopaedia:
   - id: STR_PYROMANCER
   - id: STR_TELEKINE
   - id: STR_TELEPATH
+
   - id: STR_LASER_PISTOLG
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASER_RIFLEG
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASCARBINE
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASGUN_ACCATRAN
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASGUN_VOSS
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASGUN_VOSTROYA
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASGUN_LUCIUS
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LASGUN_TANITH
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LONGLAS
+    requires:
+      - STR_HIDE_LOCK
   - id: STR_LONGLAS_TANITH
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_LASGUN_CLIP_HOTSHOT
   - id: STR_LASCANNON_HANDHELD
   - id: STR_LASCANNON_CLIP_SMALL
@@ -1018,14 +1213,24 @@ ufopaedia:
   - id: STR_HELLGUN_CLIP_HOTSHOT
   - id: STR_HOTSHOT_VOLLEY_GUN
   - id: STR_STUB_GUN
+    requires:
+      - STR_ARBITES_CAMPAIGN
   - id: STR_STUB_RIFLE
+    requires:
+      - STR_ARBITES_CAMPAIGN
   - id: STR_STUB_GUN_AMMO
   - id: STR_AUTOPISTOL
+    requires:
+      - STR_ARBITES_CAMPAIGN
   - id: STR_AUTOPISTOL_CLIP
   - id: STR_AUTOGUN
+    requires:
+      - STR_ARBITES_CAMPAIGN
   - id: STR_AUTOGUN_CLIP
   - id: STR_HEAVY_STUBBER
   - id: STR_HEAVY_STUBBER_HANDHELD
+    requires:
+      - STR_HEAVY_STUBBER
   - id: STR_HEAVY_STUBBER_CLIP
   - id: STR_AUTOCANNON_HANDHELD
   - id: STR_AUTOCANNON_GUARD

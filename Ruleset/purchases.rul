@@ -4,7 +4,8 @@
 
 soldiers:
   - type: STR_GUARDPD
-    requiresBuy:
+    costBuy: 60000
+    requires:
       - STR_ARBITES_CAMPAIGN
 
   - type: STR_PENITENT
@@ -211,6 +212,15 @@ items:
     requiresBuy:
       - STR_ARBITES_CAMPAIGN
 
+#### Heavy Stubbers
+
+  - type: STR_HEAVY_STUBBER_HANDHELD
+    requiresBuy: 
+      - STR_HEAVY_STUBBER
+
+  - type: STR_HEAVY_STUBBER_CLIP
+    requiresBuy: 
+      - STR_HEAVY_STUBBER
 
 
 ### Lasgun
