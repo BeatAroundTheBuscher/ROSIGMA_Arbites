@@ -91,6 +91,12 @@ research:
       - STR_SECTOID_CORPSE
       - STR_BEGINNING_INVESTIGATION
 
+  - name: STR_CULTIST_DEFEATED
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERALLOCK
+
 
 #  - name: STR_SECTOID_CORPSE
 #    cost: 180

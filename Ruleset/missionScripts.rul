@@ -74,12 +74,26 @@ missionScripts:
     startDelay: 12000
     useTable: false
 
-## DANGER LEVEL 2
+## DANGER LEVEL 1
 
-#  - type: Sacrifice
+  - type: Sacrifice
+    executionOdds: 100
+    firstMonth: 3
+    missionWeights:
+      0:
+        STR_CULTIST_SACRIFICES_LEVEL_1: 100
+    regionWeights:
+      0:
+        REGION_HULK_SITES: 100
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    startDelay: 18000
+    useTable: false
+    researchTriggers:
+      STR_CULTIST_DEFEATED: false
 
-
-## STORY
+## STORY # replace with BASE L1 or L2
 
   - type: Cultist_Investigation
     executionOdds: 100
