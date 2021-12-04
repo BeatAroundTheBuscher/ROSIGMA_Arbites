@@ -83,7 +83,7 @@ research:
     points: 100
     dependencies:
       - STR_SECTOID_COMMANDER
-      - STR_SECTOID_LEADER
+      - STR_SECTOID_ASPIRING_CHAMPION
       - STR_SECTOID_ENGINEER
       - STR_SECTOID_MEDIC
       - STR_SECTOID_NAVIGATOR
@@ -116,6 +116,7 @@ research:
   - delete: STR_SECTOID_MEDIC
   - delete: STR_SECTOID_NAVIGATOR
   - delete: STR_SECTOID_SOLDIER
+  - delete: STR_SECTOID_ASPIRING_CHAMPION
 
   - &STR_SECTOID
     name: STR_SECTOID_COMMANDER
@@ -141,6 +142,9 @@ research:
     refNode: *STR_SECTOID
 
   - name: STR_SECTOID_SOLDIER
+    refNode: *STR_SECTOID
+
+  - name: STR_SECTOID_ASPIRING_CHAMPION
     refNode: *STR_SECTOID
 
   - name: STR_ALIEN_ORIGINS

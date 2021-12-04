@@ -6,7 +6,7 @@ alienRaces:
     retaliationAggression: -100
     members:
       - STR_SECTOID_COMMANDER
-      - STR_SECTOID_LEADER
+      - STR_SECTOID_ASPIRING_CHAMPION # STR_SECTOID_LEADER
       - STR_SECTOID_ENGINEER
       - STR_SECTOID_MEDIC
       - STR_SECTOID_NAVIGATOR
@@ -18,7 +18,7 @@ alienRaces:
     retaliationAggression: -100
     members:
       - STR_SECTOID_COMMANDER
-      - STR_SECTOID_LEADER
+      - STR_SECTOID_ASPIRING_CHAMPION # STR_SECTOID_LEADER
       - STR_RIOTER_F1
       - STR_RIOTER_M1
       - STR_RIOTER_F0
