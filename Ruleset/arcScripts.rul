@@ -1,5 +1,11 @@
 arcScripts:
+  - delete: marines
+  - delete: marinesPickStrategy
   - delete: arbites
+  - delete: adeptas
+  - delete: imperialGuard
+  - delete: chapterPurity
+
 
   - type: arbitesCampaign            
     sequentialArcs:                  
@@ -20,8 +26,8 @@ arcScripts:
     lastMonth: 13       
     executionOdds: 100  
     maxArcs: -1         
-    minDifficulty: 2    
-    maxDifficulty: 2    
+#    minDifficulty: 2    
+#    maxDifficulty: 2    
 
 
 

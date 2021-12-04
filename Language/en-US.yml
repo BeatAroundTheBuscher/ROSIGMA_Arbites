@@ -1,8 +1,8 @@
 en-US:
-  STR_1_BEGINNER: "(Not Supported)"
-  STR_2_EXPERIENCED: "(Not Supported)"
-  STR_3_VETERAN: "Adeptus Arbites"
-  STR_4_GENIUS: "(Not Supported)"
-  STR_5_SUPERHUMAN: "(Not Supported)"
+  STR_1_BEGINNER: "Beginner"
+  STR_2_EXPERIENCED: "Experienced"
+  STR_3_VETERAN: "Veteran"
+  STR_4_GENIUS: "Genius"
+  STR_5_SUPERHUMAN: "Superhuman"
 
   STR_ARBITES_ARC1: "First Story"

@@ -10,3 +10,11 @@ costEngineer: 25000
 costScientist: 3000000 # there is a better solution I know
 initialFunding: 600
 hireScientistsUnlockResearch: STR_ARBITES_ARC2
+
+maxViewDistance: 40
+
+bughuntMinTurn: 20
+bughuntMaxEnemies: 3
+bughuntRank: 0
+bughuntLowMorale: 50
+bughuntTimeUnitsLeft: 65
