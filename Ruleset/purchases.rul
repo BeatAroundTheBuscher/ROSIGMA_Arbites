@@ -27,14 +27,14 @@ items:
 
   - type: STR_ENFORCER_HEAVY_ARMOR
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_HEAVY_ARMOR
     costBuy: 25000
     costSell: 5000
 
   - type: STR_ENFORCER_SHIELD_ARMOR
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_HEAVY_ARMOR
     costBuy: 35000
     costSell: 7000
@@ -50,14 +50,14 @@ items:
 
   - type: STR_WEBBER
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_WEBBER
     costBuy: 15000
     costSell: 3000
 
   - type: STR_WEBBER_AMMO
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_WEBBER
     costBuy: 1000
     costSell: 200
@@ -70,7 +70,7 @@ items:
 
   - type: STR_KRAK_GRENADE
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_ANTI_ARMOR
 
   - type: STR_PROXIMITY_GRENADE
@@ -83,7 +83,7 @@ items:
 
   - type: STR_PHOTON_GRENADE
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_STUN_GEAR
 
   - type: STR_PHOSPHOR_GRENADE
@@ -98,12 +98,12 @@ items:
 
   - type: STR_FLAMETHROWER
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_FLAMER
 
   - type: STR_FLAMETHROWER_CLIP
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_FLAMER
 
   - type: STR_FLAMETHROWER_PROMETHIUM_CLIP
@@ -122,12 +122,12 @@ items:
 
   - type: STR_STUN_SHELLS
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_STUN_GEAR
 
   - type: STR_STUN_GAS_SHELLS
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_STUN_GEAR
 
   - type: STR_SHOTGUNPD # Award only
@@ -175,22 +175,22 @@ items:
 
   - type: STR_STUB_GUN_AMMO_AP
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_STUBBER_AMMO_ADVANCED
 
   - type: STR_STUB_GUN_AMMO_WOUND
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_STUBBER_AMMO_ADVANCED
 
   - type: STR_STUB_GUN_AMMO_HP
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_STUBBER_AMMO_ADVANCED
 
   - type: STR_STUB_GUN_AMMO_INC
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_STUBBER_AMMO_ADVANCED
 
 #### Autoguns
@@ -229,43 +229,43 @@ items:
 
   - type: STR_LASER_RIFLE
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_LASER_WEAPONS
 
   - type: STR_LASER_PISTOL
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_LASER_WEAPONS
 
   - type: STR_LASGUN_CLIP #LASGUN CLIP                 11010
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_LASER_WEAPONS
 
   - type: STR_LASPISTOL_CLIP
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_LASER_WEAPONS
 
 ### Sentinel Store Items
   - type: STR_SENTINELPD_ARMOR_MISSILE
     requires:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_SENTINEL_MISSILE
 
   - type: STR_SENTINELPD_ARMOR
     requires:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_SENTINEL_MISSILE
 
   - type: STR_SENTINEL_FRAG_MISSILES_PD
     requires:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_SENTINEL_MISSILE
 
   - type: STR_SENTINEL_KRAKK_MISSILES_PD
     requires:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_SENTINEL_MISSILE
 
 ## Not Available
@@ -351,5 +351,5 @@ crafts:
 
   - type: STR_AVENGER_ADEPTAS
     requires:
-      - STR_ARBITES_CAMPAIGN
+#      - STR_ARBITES_CAMPAIGN
       - STR_FIGHTER_CRAFT

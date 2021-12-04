@@ -1,0 +1,9 @@
+ufopaedia:
+  - id: STR_ARBITES_CAMPAIGN                   #2000      40k INTRO
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: 2ARB.SPK
+    text: STR_ARBITES_CAMPAIGN
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 2000

@@ -54,6 +54,12 @@ research:
     dependencies:
       - STR_GENERALLOCK
 
+  - name: STR_FIGHTER_CRAFT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERALLOCK
+      
   - name: STR_ARBITES_CAMPAIGN
     cost: 0
     points: 0
