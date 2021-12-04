@@ -1,0 +1,9 @@
+armors:
+  - type: STR_CULTIST_ASPIRING_ARMOR
+#    visibilityAtDay: 30
+#    visibilityAtDark: 20
+    heatVision: 0
+    frontArmor: 40 # was 60
+    sideArmor: 30 # was 50
+    rearArmor: 25 # was 35
+    underArmor: 20 # was 30
