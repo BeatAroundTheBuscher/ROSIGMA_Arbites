@@ -84,7 +84,7 @@ items:
   - type: STR_PHOTON_GRENADE
     requiresBuy:
       - STR_ARBITES_CAMPAIGN
-      - STR_STUN_ADVANCED
+      - STR_STUN_GEAR
 
   - type: STR_PHOSPHOR_GRENADE
     requiresBuy:
@@ -123,12 +123,12 @@ items:
   - type: STR_STUN_SHELLS
     requiresBuy:
       - STR_ARBITES_CAMPAIGN
-      - STR_STUN_ADVANCED
+      - STR_STUN_GEAR
 
   - type: STR_STUN_GAS_SHELLS
     requiresBuy:
       - STR_ARBITES_CAMPAIGN
-      - STR_STUN_ADVANCED
+      - STR_STUN_GEAR
 
   - type: STR_SHOTGUNPD # Award only
     requiresBuy:
