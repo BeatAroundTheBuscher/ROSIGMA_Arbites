@@ -75,7 +75,7 @@ research:
 ### Story Arc - Cultist Menace
 
   - name: STR_BEGINNING_INVESTIGATION
-    cost: 300
+    cost: 150
     points: 100
 
   - name: STR_CULTIST_MENACE
