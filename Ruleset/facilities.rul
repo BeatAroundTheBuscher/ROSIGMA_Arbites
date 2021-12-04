@@ -1,0 +1,64 @@
+facilities:
+  - delete: STR_GUARD_BARRACKS
+  - delete: STR_ACCESS_OUTP
+  - delete: STR_OUTPOST
+  - delete: STR_OUTPOST_MARINES
+  - delete: STR_OUTPOST_GUARD
+  - delete: STR_OUTPOST_ADEPTAS
+  - delete: STR_DIRT
+  - delete: STR_EMPLACEMENT
+  - delete: STR_EMPLACEMENT_HEAVY
+  - delete: STR_MINEFIELD
+  - delete: STR_TRAINCAMP
+  - delete: STR_MARKET
+  - delete: STR_POWERG
+  - delete: STR_TRAINFACILITY
+  - delete: STR_CHAOS_SHRINE
+  - delete: STR_OUTPOST_GUARD_HYPER
+  - delete: STR_OUTPOST_ARBITES_HYPER
+  - delete: STR_OUTPOST_ADEPTAS_HYPER
+  - delete: STR_OUTPOST_MARINES_HYPER
+
+  - type: STR_LIVING_QUARTERS
+  - type: STR_ACCESS_LIFT
+  - type: STR_HANGAR
+  - type: STR_GENERAL_STORES
+  - type: STR_ALIEN_CONTAINMENT 
+  - type: STR_PSIONIC_LABORATORY
+  - type: STR_ARMORY_ARBITES
+
+  - type: STR_PRISION
+    requires:
+      - STR_GENERALLOCK
+
+  - type: STR_LABORATORY
+  - type: STR_WORKSHOP
+
+  - type: STR_SMALL_RADAR_SYSTEM
+  
+  - type: STR_LARGE_RADAR_SYSTEM
+    requires:
+      - STR_GENERALLOCK
+
+  - type: STR_HYPER_WAVE_DECODER
+
+  - type: STR_MISSILE_DEFENSES # small retaliation will exist
+  - type: STR_LASER_DEFENSES
+  - type: STR_PLASMA_DEFENSES
+  - type: STR_FUSION_BALL_DEFENSES
+  - type: STR_GRAV_SHIELD
+  - type: STR_MIND_SHIELD
+
+  - type: STR_COMUNICATIONS
+  - type: STR_ARMORY
+
+  - type: STR_APOC_BAY
+  - type: STR_LIBRARY
+  - type: STR_INQOFF
+  - type: STR_TEC_BAY
+  - type: STR_DEFENSE_CORRIDOR
+  - type: STR_DEFENSE_HALL
+  - type: STR_DEFENSE_CORRIDORB
+  - type: STR_CORRIDOR
+  - type: STR_STEELMILL
+
