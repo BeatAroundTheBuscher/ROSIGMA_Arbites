@@ -1,3 +1,14 @@
 soldiers:
   - type: STR_GUARDPD
     armor: STR_ENFORCER_ARMOR_UC
+
+soldierTransformation:
+  - name: STR_INDOCTRINATE_GUARDSMAN
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    cost: 50000
+
+  - name: STR_PARDON_PENITENT_ARBITES
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    cost: 100000

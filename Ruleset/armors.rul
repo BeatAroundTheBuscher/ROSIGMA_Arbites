@@ -19,6 +19,7 @@ armors:
 
   - type: STR_ENFORCER_MEDIC_ARMOR_UC
     storeItem: STR_ENFORCER_MEDIC_ARMOR
+    weight: 5
 
   - type: STR_ENFORCER_SIGNAL_ARMOR_UC
   - type: STR_ENFORCER_SIGNALFALSE_ARMOR_UC

@@ -8,7 +8,7 @@ startingTime:
   year: 40000
 costEngineer: 25000
 costScientist: 30000
-initialFunding: 600
+initialFunding: 6000 # 600 or something like that only makes sense if the country funding is adapted.
 hireScientistsUnlockResearch: STR_ARBITES_ARC2
 
 maxViewDistance: 40
