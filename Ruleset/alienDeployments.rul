@@ -226,7 +226,7 @@ alienDeployments:
 
 
   - type: STR_CITY_SUMMONING_LEVEL_1
-    objectiveType: 100
+    objectiveType: 150 # the small cup before the Chaos Symbol; Altered MCD to reflect that
     abortPenalty: 100
     data:
       - alienRank: 0 # 1-1
@@ -276,7 +276,7 @@ alienDeployments:
           cutscene: ""
           showCraft: false
           showTarget: false
-        objectiveDestroyed: true
+        objectiveDestroyed: true # STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE destroys the target
         maxRuns: 1
         useSpawnNodes: true
         spawnBlockGroups: [7]
