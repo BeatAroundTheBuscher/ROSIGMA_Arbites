@@ -1,6 +1,8 @@
 soldiers:
   - type: STR_GUARDPD
     armor: STR_ENFORCER_ARMOR_UC
+    avatarOffsetX: 68 # 66
+    avatarOffsetY: 40 # 42
 
 soldierTransformation:
   - name: STR_INDOCTRINATE_GUARDSMAN
