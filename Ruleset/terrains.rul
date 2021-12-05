@@ -20,8 +20,8 @@ terrains:
             - [8, 8, 5]
           STR_CULTIST_SUMMONING_LEVEL_1_TICKER:
             - [8, 8, 5]
-          STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE: # needs to blow up the CHAOS symbol
-            - [10, 13, 3]
+          STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_LIGHT: # needs to blow up the CHAOS symbol
+            - [11, 13, 3]
           STR_CULTIST_RITUALIST_SUMMONING_SPAWNER:
             - [8, 7, 5]
             - [6, 5, 4]
