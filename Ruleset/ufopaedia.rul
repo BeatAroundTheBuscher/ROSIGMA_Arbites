@@ -16,3 +16,21 @@ ufopaedia:
     requires:
       - STR_ARBITES_CAMPAIGN
     listOrder: 12900
+
+  - id: STR_SMG_STUB_GUN                           #12900
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: AUTOPISTOL.SPK
+    text: STR_AUTOPISTOL_UFOPEDIA
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 12900
+
+  - id: STR_PUMP_SHOTGUN                           #12900
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1SG.SPK
+    text: STR_SHOTGUN_UFOPEDIA
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 12900
