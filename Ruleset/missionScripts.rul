@@ -33,7 +33,7 @@ missionScripts:
         STR_SECTOID: 100
     missionWeights:
       0:
-        STR_ALIEN_SABOTAGE: 100
+        STR_CITY_SUMMONING_LEVEL_1: 100 # STR_ALIEN_SABOTAGE: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100
@@ -67,7 +67,7 @@ missionScripts:
         STR_SECTOID: 100
     missionWeights:
       0:
-        STR_ALIEN_SABOTAGE: 100
+        STR_CITY_SUMMONING_LEVEL_1: 100 # STR_ALIEN_SABOTAGE: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100

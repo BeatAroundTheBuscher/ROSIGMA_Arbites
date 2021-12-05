@@ -223,3 +223,85 @@ alienDeployments:
     markerName: STR_CULTIST_RITUALS
     duration: [96, 144]
     despawnPenalty: 250
+
+
+  - type: STR_CITY_SUMMONING_LEVEL_1
+    objectiveType: 100
+    abortPenalty: 100
+    data:
+      - alienRank: 0 # 1-1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 1 # 2-3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 2 # 3-5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 3 # 3-5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 4 # 3-5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 5 # 8-12
+        lowQty: 5
+        highQty: 9
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+    reinforcements:
+      - type: daemonIncursion
+        briefing:
+          palette: 2
+          textOffset: -32
+          title: STR_SUMMONING_COMPLETE_REINFORCEMENTS_TITLE
+          desc: STR_SUMMONING_COMPLETE_REINFORCEMENTS_DESCRIPTION
+          background: BACK150.SCR
+          cutscene: ""
+          showCraft: false
+          showTarget: false
+        objectiveDestroyed: true
+        maxRuns: 1
+        useSpawnNodes: true
+        spawnBlockGroups: [7]
+        spawnNodeRanks: [8]
+        data:
+          - alienRank: 7
+            lowQty: 1 # 2-4
+            highQty: 3
+            dQty: 1
+            percentageOutsideUfo: 0
+            itemSets: *emptyItemSets
+    width: 50
+    length: 50
+    height: 8
+    terrains:
+      - CITY
+    script: CITY_SUMMONING_LEVEL_1_SCRIPT
+    alert: STR_CULTIST_RITUALS_STARTING
+    alertBackground: BACK150.SCR # change to something else later?
+    briefing:
+      palette: 2
+      music: GMENBASE
+      desc: STR_CULTIST_RITUALS_BRIEFING
+      title: STR_CULTIST_RITUALS
+      showTarget: false
+    markerName: STR_CULTIST_RITUALS
+    duration: [48, 72]
+    despawnPenalty: 250

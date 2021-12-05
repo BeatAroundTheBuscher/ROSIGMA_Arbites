@@ -1,0 +1,33 @@
+terrains:
+  - name: CITY_SUMMONGING_OBJECTIVE
+    mapDataSets:
+      - BLANKS
+      - SKY
+      - 04WALL
+      - 04FLOOR
+      - 04IRON
+      - 04ITENS
+      - ICHURCH_DIO
+    mapBlocks:
+      # Cultist summoning circles
+      - name: CITY_SUMMONING
+        width: 20
+        length: 20
+        height: 8
+        groups: 7
+        items:
+          STR_CULTIST_SUMMONING_LEVEL_1_TIMER:
+            - [8, 8, 0]
+          STR_CULTIST_SUMMONING_LEVEL_1_TICKER:
+            - [8, 8, 0]
+          STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE:
+            - [8, 8, 0]
+          STR_CULTIST_RITUALIST_SUMMONING_SPAWNER:
+            - [8, 8, 5]
+            - [6, 5, 4]
+            - [5, 12, 3]
+            - [11, 11, 5]
+            #- [5, 5, 0]
+            #- [11, 5, 0]
+            #- [11, 12, 0]
+            #- [5, 11, 0]
