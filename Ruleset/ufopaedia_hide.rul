@@ -431,37 +431,7 @@ ufopaedia:
     requires:
       - STR_HIDE_LOCK
 
-  - id: STR_ENFORCER_ARMOR_UC                  #6910   # ARBITES ARMOR
-    requires:
-      - STR_ARBITES_CAMPAIGN
-  - id: STR_ENFORCER_MEDIC_ARMOR_UC                  #6911   # ARBITES MEDIC ARMOR
-    requires:
-      - STR_ARBITES_CAMPAIGN
-
-  - id: STR_ENFORCER_SIGNAL_ARMOR_UC                 #6912   # ARBITES SIGNAL ARMOR
-    requires:
-      - STR_HIDE_LOCK
-
-  - id: STR_ENFORCER_HEAVY_ARMOR_UC                  #6915   # ARBITES ARMOR
-    requires:
-      - STR_HEAVY_ARMOR
-  - id: STR_ENFORCER_SHIELD_ARMOR_UC                  #6916   # ARBITES ARMOR
-    requires:
-      - STR_HEAVY_ARMOR
-
-  - id: STR_JUDGE_ARMOR_UC                  #7000   # ARBITES ARMOR
-    requires:
-      - STR_ARBITES_CAMPAIGN
-
-  - id: STR_JUDGE_BIKE_ARMOR_UC              #7005   # ARBITES ARMOR
-    requires:
-      - STR_HIDE_LOCK
-  - id: STR_ARBITOR_ARMOR_UC                  #7010   # ARBITES ARMOR
-    requires:
-      - STR_HIDE_LOCK
-  - id: STR_MARSHAL_ARMOR_UC                  #7020   # ARBITES ARMOR
-    requires:
-      - STR_HIDE_LOCK
+ 
 
   - id: STR_COMMISSAR_UC
     requires:

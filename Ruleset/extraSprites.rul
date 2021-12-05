@@ -18,3 +18,14 @@
         233: Resources/InitCon/arvuspd_base.png #  + 33
 
         234: Resources/InitCon/CHI_base.png #  + 33
+
+  - typeSingle: ENF__3__RIOT_SHIELD
+    fileSingle: Resources/UnitSprites/Layers/riot_shield.png
+
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      300: Resources/Handobs/handob_riot_shield.png

@@ -17,10 +17,34 @@ armors:
   - &STR_BASIC_ENFORCER_ARMOR
     type: STR_ENFORCER_ARMOR_UC
     storeItem: STR_NONE
+    visibilityAtDay: 40
+    visibilityAtDark: 20
     frontArmor: 50
     sideArmor: 45
     rearArmor: 30
     underArmor: 40
+    damageModifier: #GUARD ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 0.8 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.1 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    units:
+      - STR_GUARDPD
+    forcedTorso: 1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7 M8 F8 M9 F9
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96, 144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7 M8 F8 M9 F9
+    corpseBattle:
+      - STR_ENFORCER_CORPSE
 
   - type: STR_ENFORCER_MEDIC_ARMOR_UC
     refNode: *STR_BASIC_ENFORCER_ARMOR
@@ -40,3 +64,75 @@ armors:
 
   - type: STR_ARBITOR_ARMOR_UC
   - type: STR_MARSHAL_ARMOR_UC
+
+  - type: STR_ENFORCER_SHIELD_ARMOR_UC
+    storeItem: STR_NONE
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: ENF
+      3: ENF
+    layersDefinition:
+      M0: ["0", "EM", "M0_FACE", "RIOT_SHIELD"]
+      M1: ["0", "EM", "M1_FACE", "RIOT_SHIELD"]
+      M2: ["0", "EMC", "M2_FACE", "RIOT_SHIELD"]
+      M3: ["0", "EMB", "M3_FACE", "RIOT_SHIELD"]
+      M4: ["0", "EM", "M4_FACE", "RIOT_SHIELD"]
+      M5: ["0", "EM", "M5_FACE", "RIOT_SHIELD"]
+      M6: ["0", "EM", "M6_FACE", "RIOT_SHIELD"]
+      M7: ["0", "EM", "M7_FACE", "RIOT_SHIELD"]
+      M8: ["0", "EMC", "M8_FACE", "RIOT_SHIELD"]
+      M9: ["0", "EMB", "M9_FACE", "RIOT_SHIELD"]
+      F0: ["0", "EF", "F0_FACE", "RIOT_SHIELD"]
+      F1: ["0", "EF", "F1_FACE", "RIOT_SHIELD"]
+      F2: ["0", "EFC", "F2_FACE", "RIOT_SHIELD"]
+      F3: ["0", "EFB", "F3_FACE", "RIOT_SHIELD"]
+      F4: ["0", "EF", "F4_FACE", "RIOT_SHIELD"]
+      F5: ["0", "EF", "F5_FACE", "RIOT_SHIELD"]
+      F6: ["0", "EF", "F6_FACE", "RIOT_SHIELD"]
+      F7: ["0", "EF", "F7_FACE", "RIOT_SHIELD"]
+      F8: ["0", "EFC", "F8_FACE", "RIOT_SHIELD"]
+      F9: ["0", "EFB", "F9_FACE", "RIOT_SHIELD"]
+    builtInWeapons:
+      - AUX_SHIELDPD
+    spriteSheet: ENFORCER.PCK
+
+
+  - type: STR_ENFORCER_SHIELD_HEAVY_ARMOR_UC #DR10 ARBITES SUPORT
+    refNode: *STR_BASIC_ENFORCER_ARMOR
+    spriteSheet: ENFORCERH.PCK
+    customArmorPreviewIndex: {mod: 40k, index: 49}
+    storeItem: STR_NONE
+    drawingRoutine: 0
+    loftempsSet: [ 3 ]
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: ENF
+      3: ENF
+    layersDefinition:
+      M0: ["0", "EMH", "M0_FACE", "RIOT_SHIELD"]
+      M1: ["0", "EMH", "M1_FACE", "RIOT_SHIELD"]
+      M2: ["0", "EMH", "M2_FACE", "RIOT_SHIELD"]
+      M3: ["0", "EMH", "M3_FACE", "RIOT_SHIELD"]
+      M4: ["0", "EMH", "M4_FACE", "RIOT_SHIELD"]
+      M5: ["0", "EMH", "M5_FACE", "RIOT_SHIELD"]
+      M6: ["0", "EMH", "M6_FACE", "RIOT_SHIELD"]
+      M7: ["0", "EMH", "M7_FACE", "RIOT_SHIELD"]
+      M8: ["0", "EMH", "M8_FACE", "RIOT_SHIELD"]
+      M9: ["0", "EMH", "M9_FACE", "RIOT_SHIELD"]
+      F0: ["0", "EFH", "F0_FACE", "RIOT_SHIELD"]
+      F1: ["0", "EFH", "F1_FACE", "RIOT_SHIELD"]
+      F2: ["0", "EFH", "F2_FACE", "RIOT_SHIELD"]
+      F3: ["0", "EFH", "F3_FACE", "RIOT_SHIELD"]
+      F4: ["0", "EFH", "F4_FACE", "RIOT_SHIELD"]
+      F5: ["0", "EFH", "F5_FACE", "RIOT_SHIELD"]
+      F6: ["0", "EFH", "F6_FACE", "RIOT_SHIELD"]
+      F7: ["0", "EFH", "F7_FACE", "RIOT_SHIELD"]
+      F8: ["0", "EFH", "F8_FACE", "RIOT_SHIELD"]
+      F9: ["0", "EFH", "F9_FACE", "RIOT_SHIELD"]
+    builtInWeapons:
+      - AUX_SHIELDPD
+
+items:
+  - type: AUX_SHIELDPD
+    handSprite: 300
+    fixedWeaponShow: true
