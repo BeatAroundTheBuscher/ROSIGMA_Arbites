@@ -10,6 +10,11 @@
         200: Resources/InitCon/arvus_minimised.png 
         211: Resources/InitCon/arvus_dogfight.png # + 11
 
+        201: Resources/InitCon/CHI_minimised.png 
+        212: Resources/InitCon/CHI_dogfight.png # + 11
+
   - type: BASEBITS.PCK
     files:
         233: Resources/InitCon/arvuspd_base.png #  + 33
+
+        234: Resources/InitCon/CHI_base.png #  + 33
