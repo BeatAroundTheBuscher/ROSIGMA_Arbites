@@ -50,6 +50,8 @@ items:
     flatMelee:
       time: true
     
+  - type: STR_STUB_GUN_AMMO_LONG
+    clipSize: 20 # was 30
 
   - type: STR_LASER_PISTOL  #LASPISTOL                 10800
   - type: STR_LASER_PISTOLC  #LASPISTOL  CHAOS         10820
