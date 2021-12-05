@@ -66,6 +66,8 @@ items:
 ### Grenades
 
   - type: STR_GRENADE
+    costBuy: 10000
+    costSell: 2000
     requiresBuy:
       - STR_ARBITES_CAMPAIGN
 
@@ -94,6 +96,12 @@ items:
   - type: STR_ELECTRO_FLARE
     requiresBuy:
       - STR_ARBITES_CAMPAIGN
+
+  - type: STR_MAKESHIFT_GRENADE
+    costSell: 200
+
+  - type: STR_MAKESHIFT_PIPEBOMB
+    costSell: 400
 
 ### Flamers
 

@@ -10,6 +10,8 @@ en-US:
 ## Weapons
 
   STR_COMBAT_KNIFE: "Combat Knife"
+  STR_MAKESHIFT_GRENADE: "Makeshift Grenade"
+  STR_MAKESHIFT_PIPEBOMB: "Makeshift Pipebomb"
 
 ## Crafts
 
