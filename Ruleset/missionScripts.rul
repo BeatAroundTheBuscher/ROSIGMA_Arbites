@@ -93,6 +93,44 @@ missionScripts:
     researchTriggers:
       STR_CULTIST_DEFEATED: false
 
+## 
+
+  - type: Sacrifice
+    executionOdds: 50
+    label: [120]
+    firstMonth: 3
+    missionWeights:
+      0:
+        STR_CULTIST_SACRIFICES_LEVEL_1: 100
+    regionWeights:
+      0:
+        REGION_HULK_SITES: 100
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    startDelay: 18000
+    useTable: false
+    researchTriggers:
+      STR_CULTIST_DEFEATED: false
+
+  - type: Summoning
+    executionOdds: 100
+    conditionals: [-120]
+    firstMonth: 3
+    missionWeights:
+      0:
+        STR_CULTIST_SUMMONING_LEVEL_1: 100
+    regionWeights:
+      0:
+        REGION_HULK_SITES: 100
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    startDelay: 18000
+    useTable: false
+    researchTriggers:
+      STR_CULTIST_DEFEATED: false
+
 ## STORY 
 
   - type: Cultist_Investigation
