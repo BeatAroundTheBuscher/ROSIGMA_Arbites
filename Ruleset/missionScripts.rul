@@ -67,7 +67,7 @@ missionScripts:
         STR_SECTOID: 100
     missionWeights:
       0:
-        STR_CITY_SUMMONING_LEVEL_1: 100 # STR_ALIEN_SABOTAGE: 100
+        STR_ALIEN_SABOTAGE: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100
@@ -93,13 +93,13 @@ missionScripts:
     researchTriggers:
       STR_CULTIST_DEFEATED: false
 
-## STORY # replace with BASE L1 or L2
+## STORY 
 
   - type: Cultist_Investigation
     executionOdds: 100
     missionWeights:
       0:
-        STR_CULTIST_SACRIFICES_LEVEL_1: 100
+        STR_CITY_SUMMONING_LEVEL_1: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100
@@ -107,6 +107,8 @@ missionScripts:
       0:
         STR_SECTOID: 100
     researchTriggers:
-      STR_CULTIST_MENACE: true
+      STR_BEGINNING_INVESTIGATION: true
+      STR_INTERROGATION_COMPLETED: true
+      STR_CULTIST_DEFEATED: false
     startDelay: 18000
     useTable: false
