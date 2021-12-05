@@ -1,5 +1,5 @@
 mapScripts:
-  - type: CITY_SUMMONING_LEVEL_1_SCRIPT
+  - type: CITY_SUMMONING_LEVEL_1_SCRIPT # TODO: Figure that out
     commands:
       #*** Place the summoning circle ***
       - type: addBlock
@@ -8,8 +8,16 @@ mapScripts:
         terrain: CITY_SUMMONGING_OBJECTIVE
         markAsReinforcementsBlock: true #
 
+      - type: addBlock # 10x10 Block for the craft. Currently there is no plan for bigger crafts than 10x10
+        groups: 101
+        size: 1
+        executionChances: 100
+        executions: 1
+        maxUses: [1]
+
       #*** Add the player's craft ***
       - type: addCraft
+        groups: 101
 
       #*** Add roads/railroads ***
       - type: addLine
@@ -63,4 +71,52 @@ mapScripts:
       - type: addBlock
         size: 2
         executions: 4
+      - type: fillArea
+        blocks: [3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17]
+
+
+
+  - type: CITY_RIOT 
+    commands:
+      - type: addBlock
+        groups: 101
+        size: 1
+        executionChances: 100
+        executions: 1
+        maxUses: [1]
+
+        #*** Add the player's craft ***
+      - type: addCraft
+        groups: 101
+
+
+      - type: addLine
+        label: 1
+        direction: vertical
+        executionChances: 20
+        rects:
+          - [1, 1, 4, 1]
+      - type: addLine
+        label: 2
+        conditionals: -1
+        executionChances: 80
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+        rects:
+          - [1, 1, 4, 4]
+      - type: addUFO
+      - type: addBlock
+        blocks: [0, 1, 2]
+        freqs: [1, 1, 1]
+        maxUses: [1, 1, 1]
+        size: 2
+        executions: 1
+      - type: fillArea
+        blocks: [3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17]
+        freqs: [2, 2, 2, 2, 2, 2, 5, 2, 2, 2, 2, 2]
+        maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
       - type: fillArea
