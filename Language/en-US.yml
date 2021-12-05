@@ -33,6 +33,8 @@ en-US:
   STR_HEAVY_ARMOR: "Heavy Personal Armor"
   STR_FLAMER: "Flamethrowers"
   STR_STUN_GEAR: "Stun Equipment"
+  STR_STUN_GEAR_TEXT: ""
+
   STR_STUN_GEAR_ADVANCED: "Advanced Stun Equipment"
   STR_ANTI_ARMOR: "Anti Armor Weapons"
   STR_SENTINEL_MISSILE: "Sentinel w/ Missile Pod"

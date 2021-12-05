@@ -255,6 +255,10 @@ ufopaedia:
   - delete: STR_TRAINCAMP           #facility
   - delete: STR_MARKET              #facility
   - delete: STR_POWERG              #facility
+  - delete: STR_OUTPOST_GUARD_HYPER
+  - delete: STR_OUTPOST_ARBITES_HYPER
+  - delete: STR_OUTPOST_ADEPTAS_HYPER
+  - delete: STR_OUTPOST_MARINES_HYPER
 
 ## HWP
 
