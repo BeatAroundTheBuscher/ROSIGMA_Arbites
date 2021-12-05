@@ -4,7 +4,7 @@ ufopaedia:
     section: STR_INVESTIGATIONS
     image_id: 4ARB.SPK
     text: STR_CULTIST_INVESTIGATIONS_TEXT
-    listOrder: 75
+    listOrder: 10
     requires:
       - STR_CULTIST_INVESTIGATIONS
 
@@ -13,11 +13,29 @@ ufopaedia:
     section: STR_INVESTIGATIONS
     image_id: 4ARB.SPK
     text: STR_BEGINNING_INVESTIGATION_TEXT
-    listOrder: 76
+    listOrder: 11
     requires:
       - STR_BEGINNING_INVESTIGATION
 
-      
+  - id: STR_CULTIST_MENACE
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: UP025.SPK
+    text: STR_CULTIST_MENACE_TEXT
+    listOrder: 12
+    requires:
+      - STR_SECTOID # any Cultist
+      - STR_BEGINNING_INVESTIGATION
+
+  - id: STR_CULTIST_LEADERSHIP
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: UP088.SPK
+    text: STR_CULTIST_LEADERSHIP_TEXT
+    listOrder: 13
+    requires:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_ASPIRING_CHAMPION
 
   - id: STR_ARBITES_ARC2
     type_id: 10
@@ -109,3 +127,4 @@ ufopaedia:
     listOrder: 75
     requires:
       - STR_ARBITES_ARC12
+

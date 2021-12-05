@@ -14,14 +14,15 @@ research:
     cost: 200
     points: 100
     dependencies:
+      - STR_SECTOID # any Cultist
+      - STR_BEGINNING_INVESTIGATION
+
+  - name: STR_CULTIST_LEADERSHIP
+    cost: 200
+    points: 100
+    dependencies:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_ASPIRING_CHAMPION
-      - STR_SECTOID_ENGINEER
-      - STR_SECTOID_MEDIC
-      - STR_SECTOID_NAVIGATOR
-      - STR_SECTOID_SOLDIER
-      - STR_SECTOID_CORPSE
-      - STR_BEGINNING_INVESTIGATION
 
   - name: STR_CULTIST_DEFEATED
     cost: 0
@@ -75,27 +76,4 @@ research:
       - STR_GENERALLOCK
 
 
-  - name: STR_ARBITES
-    cost: 0
-    points: 0
-    lookup: STR_CHOSEN_ARBITES
-    dependencies:
-      - STR_GENERALLOCK
-    unlocks:
-      - STR_MOTION_SCANNER
-      - STR_LASER_WEAPONS
-      - STR_SMOKE
-      - STR_CRAFTADD
-      - STR_GUARD_AND_ARBITES
-      - STR_HEAVY_WEAPONS_RESEARCH_REQ
-#      - STR_LIGHT_BOLTERS
-    disables:
-      - STR_CYDONIA_OR_BUST
-      - STR_MARINES_STRATEGY
-      - STR_IMPERIAL_GUARD_OPERATIONS
-      - STR_ADEPTAS
-      - STR_GUARD_SUPORT
-  - name: STR_CHOSEN_ARBITES
-    dependencies:
-      - STR_GENERALLOCK
 

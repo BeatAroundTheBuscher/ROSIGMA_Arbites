@@ -102,7 +102,7 @@ research:
   - delete: STR_SECTOID_ASPIRING_CHAMPION
 
   - &STR_SECTOID
-    name: STR_SECTOID_COMMANDER
+    name: STR_SECTOID_SOLDIER
     cost: 190
     points: 50
     needItem: true
@@ -112,8 +112,22 @@ research:
     unlocks:
       - STR_INTERROGATION_COMPLETED
 
-  - name: STR_SECTOID_LEADER
+#  - name: STR_SECTOID_LEADER
+#    refNode: *STR_SECTOID
+
+  - name: STR_SECTOID_COMMANDER
     refNode: *STR_SECTOID
+    dependencies: 
+      - STR_INTERROGATION_COMPLETED
+    unlocks: !remove
+      - STR_INTERROGATION_COMPLETED
+
+  - name: STR_SECTOID_ASPIRING_CHAMPION
+    refNode: *STR_SECTOID
+    dependencies: 
+      - STR_INTERROGATION_COMPLETED
+    unlocks: !remove
+      - STR_INTERROGATION_COMPLETED
 
   - name: STR_SECTOID_ENGINEER
     refNode: *STR_SECTOID
@@ -124,11 +138,9 @@ research:
   - name: STR_SECTOID_NAVIGATOR
     refNode: *STR_SECTOID
 
-  - name: STR_SECTOID_SOLDIER
-    refNode: *STR_SECTOID
 
-  - name: STR_SECTOID_ASPIRING_CHAMPION
-    refNode: *STR_SECTOID
+
+
 
   - name: STR_ALIEN_ORIGINS
     dependencies: !remove

@@ -5,7 +5,7 @@ missionScripts:
 ## DANGER LEVEL 0
 
   - type: Riot_early
-    firstMonth: 1
+    firstMonth: 1 # number of months passed (compare to savegame)
     lastMonth: 3
     executionOdds: 50
     label: 100
