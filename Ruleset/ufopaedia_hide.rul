@@ -217,6 +217,9 @@ ufopaedia:
   - id: STR_WORKSHOP #facility
   - id: STR_SMALL_RADAR_SYSTEM #facility
   - id: STR_LARGE_RADAR_SYSTEM #facility
+    requires:
+      - STR_HIDE_LOCK
+
   - id: STR_MISSILE_DEFENSES #facility
   - id: STR_GENERAL_STORES #facility
   - id: STR_ALIEN_CONTAINMENT #facility
@@ -239,18 +242,19 @@ ufopaedia:
   - id: STR_STEELMILL #facility
   - id: STR_CORRIDOR #facility
   - id: STR_TRAINFACILITY #facility
-  - id: STR_ACCESS_OUTP         #facility
-  - id: STR_DIRT                #facility
-  - id: STR_EMPLACEMENT         #facility
-  - id: STR_EMPLACEMENT_HEAVY   #facility
-  - id: STR_MINEFIELD           #facility
-  - id: STR_OUTPOST             #facility
-  - id: STR_OUTPOST_MARINES             #facility
-  - id: STR_OUTPOST_GUARD             #facility
-  - id: STR_OUTPOST_ADEPTAS             #facility
-  - id: STR_TRAINCAMP           #facility
-  - id: STR_MARKET              #facility
-  - id: STR_POWERG              #facility
+
+  - delete: STR_ACCESS_OUTP         #facility
+  - delete: STR_DIRT                #facility
+  - delete: STR_EMPLACEMENT         #facility
+  - delete: STR_EMPLACEMENT_HEAVY   #facility
+  - delete: STR_MINEFIELD           #facility
+  - delete: STR_OUTPOST             #facility
+  - delete: STR_OUTPOST_MARINES             #facility
+  - delete: STR_OUTPOST_GUARD             #facility
+  - delete: STR_OUTPOST_ADEPTAS             #facility
+  - delete: STR_TRAINCAMP           #facility
+  - delete: STR_MARKET              #facility
+  - delete: STR_POWERG              #facility
 
 ## HWP
 

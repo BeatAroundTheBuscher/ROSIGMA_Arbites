@@ -3,10 +3,10 @@ ufopaedia:
     type_id: 10
     section: STR_INVESTIGATIONS
     image_id: 2ARB.SPK
-    text: STR_ARBITES_CAMPAIGN
+    text: STR_ARBITES_CAMPAIGN_TEXT
     requires:
       - STR_ARBITES_CAMPAIGN
-    listOrder: 2000
+    listOrder: 1
 
   - id: STR_COMBAT_KNIFE                           #12900
     type_id: 14

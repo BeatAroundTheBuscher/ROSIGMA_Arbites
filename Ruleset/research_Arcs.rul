@@ -1,7 +1,34 @@
 research:
-  - name: STR_ARBITES_ARC1
+  - name: STR_CULTIST_INVESTIGATIONS
     dependencies:
       - STR_GENERALLOCK
+
+
+### Story Arc - Cultist Menace
+
+  - name: STR_BEGINNING_INVESTIGATION
+    cost: 100
+    points: 50
+
+  - name: STR_CULTIST_MENACE
+    cost: 200
+    points: 100
+    dependencies:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_ASPIRING_CHAMPION
+      - STR_SECTOID_ENGINEER
+      - STR_SECTOID_MEDIC
+      - STR_SECTOID_NAVIGATOR
+      - STR_SECTOID_SOLDIER
+      - STR_SECTOID_CORPSE
+      - STR_BEGINNING_INVESTIGATION
+
+  - name: STR_CULTIST_DEFEATED
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERALLOCK
+
 
   - name: STR_ARBITES_ARC2
     dependencies:

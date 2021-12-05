@@ -5,8 +5,9 @@ en-US:
   STR_4_GENIUS: "Genius"
   STR_5_SUPERHUMAN: "Superhuman"
 
-  STR_ARBITES_ARC1: "Cultist Investigation"
-
+  STR_MECHANICUS_PD : "Mechanicus and Support Overview"
+  STR_AMMO_OVERPD: "Ammunition Overview"
+  STR_WEAPONSPD: "Weapons Overview"
 
 ## Weapons
 
@@ -20,3 +21,41 @@ en-US:
 
   STR_PENITENT_EVENT: "Cultist Repents"
   STR_PENITENT_EVENT_DESCRIPTION: "One of the interrogated Cultists is willing to repent. We are willing to accept them as a Penitent."
+
+## Research
+
+  STR_STUBBER_AMMO_ADVANCED: "Advanced Stubber Ammo"
+  STR_STUBBER_AMMO_ADVANCED_TEXT: "TODO"
+
+  STR_DAEMON_CORPSE_RESEARCHED: "(Daemon Corpse Researched)"
+
+  STR_FIGHTER_CRAFT: "Fighter Craft"
+  STR_HEAVY_ARMOR: "Heavy Personal Armor"
+  STR_FLAMER: "Flamethrowers"
+  STR_STUN_GEAR: "Stun Equipment"
+  STR_STUN_GEAR_ADVANCED: "Advanced Stun Equipment"
+  STR_ANTI_ARMOR: "Anti Armor Weapons"
+  STR_SENTINEL_MISSILE: "Sentinel w/ Missile Pod"
+
+## Story
+
+  STR_INVESTIGATIONS: "Investigations and Reports"
+
+### ARC 1
+
+
+
+  STR_ARBITES_CAMPAIGN: "Orders for the Local Precint"
+  STR_ARBITES_CAMPAIGN_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} With the newly established Precent of the Adeptus Arbites we expect that you will investigate any unlawful actions,  insurrections and actions of Heresy.{NEWLINE}{NEWLINE} We trust that you have only the Law in mind and will dispense Just Judgement to the criminals."
+
+  STR_CULTIST_INVESTIGATIONS: "Cultist Investigation"
+  STR_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men don't tell tales."
+
+  STR_BEGINNING_INVESTIGATION: "Initial Investigations"
+  STR_BEGINNING_INVESTIGATION_TEXT: "The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultits as well as find any shred of evidence."
+
+  STR_CULTIST_MENACE: "TODO"
+  STR_CULTIST_MENACE_TEXT: "TODO"
+
+  STR_CULTIST_DEFEATED: "TODO"
+  STR_CULTIST_DEFEATED_TEXT: "TODO"

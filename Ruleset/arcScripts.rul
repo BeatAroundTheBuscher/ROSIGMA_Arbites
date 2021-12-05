@@ -10,20 +10,9 @@ arcScripts:
   - type: arbitesCampaign            
     sequentialArcs:                  
       - STR_ARBITES_CAMPAIGN
-      - STR_ARBITES_ARC1
-      - STR_ARBITES_ARC2
-      - STR_ARBITES_ARC3
-      - STR_ARBITES_ARC4
-      - STR_ARBITES_ARC5
-      - STR_ARBITES_ARC6
-      - STR_ARBITES_ARC7
-      - STR_ARBITES_ARC8
-      - STR_ARBITES_ARC9
-      - STR_ARBITES_ARC10
-      - STR_ARBITES_ARC11
-      - STR_ARBITES_ARC12
+      - STR_CULTIST_INVESTIGATIONS
     firstMonth: 0       
-    lastMonth: 13       
+    lastMonth: 1       
     executionOdds: 100  
     maxArcs: -1         
 #    minDifficulty: 2    

@@ -32,7 +32,7 @@ missionScripts:
     executionOdds: 100
     startDelay: 150
     researchTriggers:
-      STR_ARBITES_ARC1: true
+      STR_CULTIST_INVESTIGATIONS: true
       STR_ARBITES_ARC2: false
 
 
