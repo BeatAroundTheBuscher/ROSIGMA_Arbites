@@ -3,7 +3,7 @@ units:
     type: STR_RIOTER_F1
     builtInWeaponSets:
       - - STR_COMBAT_KNIFE
-        - STR_GRENADE
+        - STR_MAKESHIFT_GRENADE
       - - STR_STUB_GUN
         - STR_STUB_GUN_AMMO
         - STR_STUB_GUN_AMMO
@@ -53,11 +53,11 @@ units:
         - STR_STUB_GUN_AMMO
         - STR_STUB_GUN_AMMO
         - STR_COMBAT_KNIFE
-        - STR_GRENADE
+        - STR_MAKESHIFT_GRENADE
       - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG
         - STR_STUB_GUN_AMMO_LONG
-        - STR_GRENADE
+        - STR_MAKESHIFT_GRENADE
       - - STR_AUTOGUN_CHAOS
         - STR_AUTOGUN_CLIP
         - STR_SMOKE_GRENADE
@@ -75,47 +75,47 @@ units:
         - STR_AUTOPISTOL_CLIP
         - STR_COMBAT_KNIFE
         - STR_SMOKE_GRENADE
-        - STR_GRENADE
+        - STR_MAKESHIFT_GRENADE
       - - STR_PUMP_SHOTGUN_CHAOS
         - STR_SHOTGUN_SHELLS
         - STR_SHOTGUN_SHELLS
-        - STR_ALIEN_GRENADE
+        - STR_MAKESHIFT_PIPEBOMB
       - - STR_BOLTPISTOL_CHAOS
         - STR_PISTOL_CLIP
         - STR_PISTOL_CLIP
         - STR_PISTOL_CLIP
-        - STR_ALIEN_GRENADE
+        - STR_MAKESHIFT_PIPEBOMB
       - - STR_SMALL_LAUNCHER
         - STR_STUN_BOMB
         - STR_STUN_BOMB
         - STR_STUN_BOMB
+        - STR_GRENADE
 
   - type: STR_SECTOID_MEDIC
     builtInWeaponSets:
       - - STR_STUN_ROD
         - STR_SMOKE_GRENADE
-        - STR_SMOKE_GRENADE
-        - STR_GRENADE
+        - STR_MAKESHIFT_GRENADE
       - - STR_AUTOPISTOL_CHAOS
         - STR_AUTOPISTOL_CLIP
         - STR_AUTOPISTOL_CLIP
         - STR_COMBAT_KNIFE
-        - STR_GRENADE
+        - STR_MAKESHIFT_PIPEBOMB
       - - STR_STUB_RIFLE_CHAOS
         - STR_STUB_GUN_AMMO
         - STR_STUB_GUN_AMMO
-        - STR_SMOKE_GRENADE
+        - STR_GRENADE
 
   - type: STR_SECTOID_NAVIGATOR
     builtInWeaponSets:
       - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG
         - STR_STUB_GUN_AMMO_LONG
-        - STR_GRENADE
+        - STR_MAKESHIFT_GRENADE
       - - STR_STUB_RIFLE_CHAOS
         - STR_STUB_GUN_AMMO
         - STR_STUB_GUN_AMMO
-        - STR_GRENADE
+        - STR_MAKESHIFT_PIPEBOMB
       - - STR_AUTOGUN_CHAOS
         - STR_AUTOGUN_CLIP
         - STR_AUTOGUN_CLIP
@@ -160,11 +160,11 @@ units:
       - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG
         - STR_STUB_GUN_AMMO_LONG
-        - STR_GRENADE
+        - STR_MAKESHIFT_PIPEBOMB
       - - STR_PUMP_SHOTGUN_CHAOS
         - STR_SHOTGUN_SHELLS
         - STR_SHOTGUN_SHELLS
-        - STR_ALIEN_GRENADE
+        - STR_MAKESHIFT_PIPEBOMB
       - - STR_CHAOS_RIPPERGUN
         - STR_RIPPER_GUN_CLIP
         - STR_RIPPER_GUN_CLIP
