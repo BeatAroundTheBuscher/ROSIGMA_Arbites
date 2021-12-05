@@ -258,14 +258,9 @@ ufopaedia:
 
 ## HWP
 
-  - id: STR_MECHANICUS_PD                   #2000      40k INTRO
-    type_id: 10
-    section: STR_HEAVY_WEAPONS_PLATFORMS
-    image_id: 2ARB.SPK
-    text: STR_MECHANICUS_UFOPEDIA
+  - id: STR_MECHANICUSPD                   #2000      40k INTRO
     requires:
       - STR_ARBITES_CAMPAIGN
-    listOrder: 2000
 
   - id: STR_MECHANICUSO                   #2000      40k INTRO
     requires:
@@ -618,13 +613,9 @@ ufopaedia:
       - STR_HIDE_LOCK
 
   - id: STR_AMMO_OVERPD
-    type_id: 10
-    section: STR_AMMO_TYPE
-    image_id: 2ARB.SPK
-    text: STR_AMMO_TYPE_UFOPEDIA
     requires:
       - STR_ARBITES_CAMPAIGN
-    listOrder: 5001
+
 
   - id: STR_AMMOB                          #9200
   - id: STR_MC_AMMO                        #9300
@@ -636,13 +627,9 @@ ufopaedia:
   - id: STR_GRAV_AMMO                      #78
 
   - id: STR_WEAPONSPD                     #10000 MENU INTRO
-    type_id: 10
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: 2ARB.SPK
-    text: STR_WEAPONS_UFOPEDIA
     requires:
       - STR_ARBITES_CAMPAIGN
-    listOrder: 10000
+
 
 
   - id: STR_WEAPONS                      #10000 MENU INTRO
