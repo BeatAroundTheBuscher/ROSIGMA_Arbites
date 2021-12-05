@@ -19,6 +19,7 @@ missionScripts:
       0:
          REGION_HULK_SITES: 100
     startDelay: 6000
+    randomDelay: 3000
     useTable: false
 
 
@@ -33,11 +34,12 @@ missionScripts:
         STR_SECTOID: 100
     missionWeights:
       0:
-        STR_CITY_SUMMONING_LEVEL_1: 100 # STR_ALIEN_SABOTAGE: 100
+        STR_ALIEN_SABOTAGE: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100
     startDelay: 6000
+    randomDelay: 3000
     useTable: false
 
   - type: Riot_later
@@ -55,6 +57,7 @@ missionScripts:
       0:
         REGION_HULK_SITES: 100
     startDelay: 12000
+    randomDelay: 6000
     useTable: false
 
   - type: Sabotage_later
@@ -72,28 +75,10 @@ missionScripts:
       0:
         REGION_HULK_SITES: 100
     startDelay: 12000
+    randomDelay: 6000
     useTable: false
 
 ## DANGER LEVEL 1
-
-  - type: Sacrifice
-    executionOdds: 100
-    firstMonth: 3
-    missionWeights:
-      0:
-        STR_CULTIST_SACRIFICES_LEVEL_1: 100
-    regionWeights:
-      0:
-        REGION_HULK_SITES: 100
-    raceWeights:
-      0:
-        STR_SECTOID: 100
-    startDelay: 18000
-    useTable: false
-    researchTriggers:
-      STR_CULTIST_DEFEATED: false
-
-## 
 
   - type: Sacrifice
     executionOdds: 50
@@ -108,7 +93,8 @@ missionScripts:
     raceWeights:
       0:
         STR_SECTOID: 100
-    startDelay: 18000
+    startDelay: 12000
+    randomDelay: 6000
     useTable: false
     researchTriggers:
       STR_CULTIST_DEFEATED: false
@@ -126,7 +112,8 @@ missionScripts:
     raceWeights:
       0:
         STR_SECTOID: 100
-    startDelay: 18000
+    startDelay: 12000
+    randomDelay: 6000
     useTable: false
     researchTriggers:
       STR_CULTIST_DEFEATED: false
@@ -134,6 +121,7 @@ missionScripts:
 ## STORY 
 
   - type: Cultist_Investigation
+    firstMonth: 0
     executionOdds: 100
     missionWeights:
       0:
@@ -148,5 +136,6 @@ missionScripts:
       STR_BEGINNING_INVESTIGATION: true
       STR_INTERROGATION_COMPLETED: true
       STR_CULTIST_DEFEATED: false
-    startDelay: 18000
+    startDelay: 12000
+    randomDelay: 6000
     useTable: false

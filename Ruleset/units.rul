@@ -54,7 +54,7 @@ units:
         - STR_STUB_GUN_AMMO
         - STR_COMBAT_KNIFE
         - STR_GRENADE
-      - - STR_SMG_STUB_GUN
+      - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG
         - STR_STUB_GUN_AMMO_LONG
         - STR_GRENADE
@@ -76,7 +76,7 @@ units:
         - STR_COMBAT_KNIFE
         - STR_SMOKE_GRENADE
         - STR_GRENADE
-      - - STR_PUMP_SHOTGUN
+      - - STR_PUMP_SHOTGUN_CHAOS
         - STR_SHOTGUN_SHELLS
         - STR_SHOTGUN_SHELLS
         - STR_ALIEN_GRENADE
@@ -108,7 +108,7 @@ units:
 
   - type: STR_SECTOID_NAVIGATOR
     builtInWeaponSets:
-      - - STR_SMG_STUB_GUN
+      - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG
         - STR_STUB_GUN_AMMO_LONG
         - STR_GRENADE
@@ -157,11 +157,11 @@ units:
 
   - type: STR_SECTOID_ASPIRING_CHAMPION
     builtInWeaponSets:
-      - - STR_SMG_STUB_GUN
+      - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG
         - STR_STUB_GUN_AMMO_LONG
         - STR_GRENADE
-      - - STR_PUMP_SHOTGUN
+      - - STR_PUMP_SHOTGUN_CHAOS
         - STR_SHOTGUN_SHELLS
         - STR_SHOTGUN_SHELLS
         - STR_ALIEN_GRENADE
