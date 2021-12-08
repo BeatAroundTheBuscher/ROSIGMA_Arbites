@@ -1,0 +1,20 @@
+missionScripts:
+
+## TESTER
+
+  - type: TESTER
+    firstMonth: 1 # number of months passed (compare to savegame)
+    lastMonth: 3
+    executionOdds: 100
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    missionWeights:
+      0:
+        STR_TESTER_MISSION: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    startDelay: 12000
+    randomDelay: 3000
+    useTable: false
