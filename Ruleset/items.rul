@@ -86,10 +86,15 @@ items:
     damageAlter:
       FireThreshold: 25
 
+  - type: STR_SMG_STUB_GUN
+    compatibleAmmo:
+#      - STR_STUB_GUN_AMMO
+      - STR_STUB_GUN_AMMO_LONG
 
 
-  - type: STR_STUB_GUN_AMMO_LONG
+  - type: STR_STUB_GUN_AMMO_LONG # can be worse than Autogun ammo
     clipSize: 20 # was 30
+    power: 30 # was 35
 
   - type: STR_LASER_PISTOL  #LASPISTOL                 10800
   - type: STR_LASER_PISTOLC  #LASPISTOL  CHAOS         10820
