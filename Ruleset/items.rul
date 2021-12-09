@@ -32,6 +32,14 @@ items:
     attraction: 7
     experienceTrainingMode: 13
 
+  - type: STR_CMAS
+    requires: !remove
+      - STR_ARBITES
+    power: 10 # gets its power from damageBonus
+    damageBonus:
+      strength: 0.25
+      melee: 0.5
+
   - type: STR_AUTOGUN
     #*** Melee butt
 #    meleeHitSound: 101
@@ -582,3 +590,4 @@ items:
   - type: AUX_SHIELDPD
     handSprite: 300
     fixedWeaponShow: true
+

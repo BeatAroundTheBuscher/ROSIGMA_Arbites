@@ -362,9 +362,9 @@ items:
     requiresBuy:
       - STR_GENERALLOCK
     size: 0.2
-    costBuy: 360000
-    costSell: 140000
-    listOrder: 6800
+    costBuy: 20000
+    costSell: 4000
+#    listOrder: 6800
 
 
 ## Crafts

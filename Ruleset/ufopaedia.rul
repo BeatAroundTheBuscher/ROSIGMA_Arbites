@@ -115,3 +115,11 @@ ufopaedia:
   - id: STR_MARSHAL_ARMOR_UC                  #7020   # ARBITES ARMOR
     requires:
       - STR_HIDE_LOCK
+
+  - id: STR_CMAS_ARMOR
+    requires:
+      - STR_ARBITES_CAMPAIGN
+
+  - id: STR_CMAS
+    requires:
+      - STR_ARBITES_CAMPAIGN

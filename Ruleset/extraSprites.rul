@@ -29,3 +29,11 @@
     subY: 40
     files:
       300: Resources/Handobs/handob_riot_shield.png
+
+  - type: CustomArmorPreviews
+    width: 12
+    height: 20
+    subX: 12
+    subY: 20
+    files:
+      600: Resources/UnitSprites/arbites_armor_preview.png

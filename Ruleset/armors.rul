@@ -134,3 +134,6 @@ armors:
       - AUX_SHIELDPD
     corpseBattle:
       - STR_ENFORCER_HEAVY_SHIELD_CORPSE
+
+  - type: STR_CMAS_ARMOR
+    customArmorPreviewIndex: 600
