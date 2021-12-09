@@ -60,7 +60,6 @@ armors:
   - type: STR_ENFORCER_SIGNAL_ARMOR_UC
   - type: STR_ENFORCER_SIGNALFALSE_ARMOR_UC
   - type: STR_ENFORCER_HEAVY_ARMOR_UC
-  - type: STR_ENFORCER_SHIELD_ARMOR_UC
 
   - type: STR_ARBITOR_ARMOR_UC
   - type: STR_MARSHAL_ARMOR_UC
@@ -95,6 +94,8 @@ armors:
     builtInWeapons:
       - AUX_SHIELDPD
     spriteSheet: ENFORCER.PCK
+    corpseBattle:
+      - STR_ENFORCER_SHIELD_CORPSE
 
 
   - type: STR_ENFORCER_SHIELD_HEAVY_ARMOR_UC #DR10 ARBITES SUPORT
@@ -131,8 +132,5 @@ armors:
       F9: ["0", "EFH", "F9_FACE", "RIOT_SHIELD"]
     builtInWeapons:
       - AUX_SHIELDPD
-
-items:
-  - type: AUX_SHIELDPD
-    handSprite: 300
-    fixedWeaponShow: true
+    corpseBattle:
+      - STR_ENFORCER_HEAVY_SHIELD_CORPSE
