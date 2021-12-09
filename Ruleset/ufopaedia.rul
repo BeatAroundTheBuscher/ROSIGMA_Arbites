@@ -96,11 +96,12 @@ ufopaedia:
 
   - id: STR_ENFORCER_HEAVY_ARMOR_UC                  #6915   # ARBITES ARMOR
     requires:
+#      - STR_ARBITES_CAMPAIGN
       - STR_HEAVY_ARMOR
   - id: STR_ENFORCER_SHIELD_ARMOR_UC                  #6916   # ARBITES ARMOR
     requires:
-      - STR_ARBITES_CAMPAIGN
-#      - STR_HEAVY_ARMOR
+#      - STR_ARBITES_CAMPAIGN
+      - STR_HEAVY_ARMOR
 
   - id: STR_JUDGE_ARMOR_UC                  #7000   # ARBITES ARMOR
     requires:
