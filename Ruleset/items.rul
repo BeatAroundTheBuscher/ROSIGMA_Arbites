@@ -2,7 +2,7 @@ items:
   - type: STR_COMBAT_KNIFE
     categories: [STR_CAT_MELEE]
     size: 0.2
-    weight: 5
+    weight: 2
     bigSprite: 200
     floorSprite: {mod: 40k, index: 113}
     handSprite: {mod: 40k, index: 304}
@@ -53,7 +53,7 @@ items:
   - type: STR_MAKESHIFT_GRENADE
     categories: [ STR_CAT_GRENADES]
     size: 0.1
-    weight: 4
+    weight: 3
     bigSprite: 201
     floorSprite: {mod: 40k, index: 304}
     handSprite: {mod: 40k, index: 904}
@@ -71,7 +71,7 @@ items:
   - type: STR_MAKESHIFT_PIPEBOMB
     categories: [ STR_CAT_GRENADES]
     size: 0.1
-    weight: 4
+    weight: 6
     bigSprite: 202
     floorSprite: {mod: 40k, index: 304}
     handSprite: {mod: 40k, index: 904}
@@ -550,3 +550,6 @@ items:
     tags:
       ITEM_PRIMED_AT_BATTLE_START: 1
       ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 1
+
+  - type: STR_GUARD_MEDI_KIT # No in-built melee
+    tuMelee: 0 # 15 
