@@ -75,7 +75,7 @@ armors:
       - STR_ENFORCER_SHIELD_CORPSE
 
   - type: STR_ENFORCER_HEAVY_ARMOR_UC
-    storeItem: STR_HEAVY_RIOT_SHIELD  
+    # storeItem: STR_HEAVY_RIOT_SHIELD  
 
   - type: STR_ENFORCER_SHIELD_HEAVY_ARMOR_UC #DR10 ARBITES SUPORT
     refNode: *STR_BASIC_ENFORCER_ARMOR
@@ -105,6 +105,9 @@ armors:
 
   - type: STR_CMAS_ARMOR
     customArmorPreviewIndex: 600
+    units:
+      - STR_ARBITES_MASTIFF
+    storeItem: STR_NONE
 
 
 ## LAYERS
@@ -187,15 +190,6 @@ armors:
 
   - type: STR_ENFORCER_SHIELD_HEAVY_ARMOR_UC #DR10 ARBITES SUPORT
     refNode: *STR_BASIC_ENFORCER_ARMOR_LAYERS
-    spriteSheet: ENFORCERH.PCK
-    customArmorPreviewIndex: {mod: 40k, index: 49}
-    storeItem: STR_NONE
-    drawingRoutine: 0
-    loftempsSet: [ 3 ]
-    layersDefaultPrefix: 0
-    layersSpecificPrefix:
-      1: ENF
-      3: ENF
     layersDefinition:
       M0: ["0", "EMH", "M0_FACE", "RIOT_SHIELD"]
       M1: ["0", "EMH", "M1_FACE", "RIOT_SHIELD"]
