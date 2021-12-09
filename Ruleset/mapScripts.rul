@@ -8,16 +8,9 @@ mapScripts:
         terrain: CITY_SUMMONGING_OBJECTIVE
         markAsReinforcementsBlock: true #
 
-      - type: addBlock # 10x10 Block for the craft. Currently there is no plan for bigger crafts than 10x10
-        groups: 101
-        size: 1
-        executionChances: 100
-        executions: 1
-        maxUses: [1]
-
       #*** Add the player's craft ***
       - type: addCraft
-        groups: 101
+        blocks: [18]
 
       #*** Add roads/railroads ***
       - type: addLine
@@ -78,16 +71,9 @@ mapScripts:
 
   - type: CITY_RIOT 
     commands:
-      - type: addBlock
-        groups: 101
-        size: 1
-        executionChances: 100
-        executions: 1
-        maxUses: [1]
-
         #*** Add the player's craft ***
       - type: addCraft
-        groups: 101
+        blocks: [18]
 
 
       - type: addLine
