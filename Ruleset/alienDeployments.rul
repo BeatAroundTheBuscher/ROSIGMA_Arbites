@@ -51,39 +51,39 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
-      - alienRank: 2 # 3-4
-        lowQty: 2
-        highQty: 3
+      - alienRank: 2 # 2-3
+        lowQty: 1
+        highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
-      - alienRank: 3 # 3-4
-        lowQty: 2
-        highQty: 3
+      - alienRank: 3 # 2-3
+        lowQty: 1
+        highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
-      - alienRank: 4 # 3-4
-        lowQty: 2
-        highQty: 3
+      - alienRank: 4 # 2-3
+        lowQty: 1
+        highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
-      - alienRank: 5 # 3-4
-        lowQty: 2
-        highQty: 3
-        dQty: 1
-        percentageOutsideUfo: 0
-        itemSets: *emptyItemSets
-      - alienRank: 6 # 5-8
-        lowQty: 2
+      - alienRank: 5 # 4-6
+        lowQty: 3
         highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 6 # 6-10
+        lowQty: 3
+        highQty: 7
         dQty: 3
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
-      - alienRank: 7 # 5-8
-        lowQty: 2
-        highQty: 5
+      - alienRank: 7 # 6-10
+        lowQty: 3
+        highQty: 7
         dQty: 3
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
