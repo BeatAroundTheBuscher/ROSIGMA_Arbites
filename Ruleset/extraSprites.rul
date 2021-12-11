@@ -1,7 +1,7 @@
   extraSprites:
   - type: BIGOBS.PCK
     files:
-        200: Resources/Bigobs/bigob_small_combat_knife.png
+        200: Resources/Bigobs/bigob_small_combat_knife_right.png
         201: Resources/Bigobs/bigob_makeshift_grenade.png
         202: Resources/Bigobs/bigob_makeshift_pipebomb.png
 

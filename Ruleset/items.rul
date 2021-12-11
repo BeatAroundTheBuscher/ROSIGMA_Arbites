@@ -9,7 +9,7 @@ items:
     meleeSound: {mod: 40k, index: 754}
     meleeHitSound: {mod: 40k, index: 773}
     meleeAnimation: {mod: 40k, index: 4}
-    power: 50
+    power: 40
     damageBonus:
       strength: 0.2
       melee: 0.2
@@ -21,8 +21,8 @@ items:
     clipSize: -1
     battleType: 3
     twoHanded: false
-    invWidth: 1
-    invHeight: 2
+    invWidth: 2
+    invHeight: 1
     armor: 20
     skillApplied: true
     meleeMultiplier:
@@ -37,8 +37,8 @@ items:
       - STR_ARBITES
     power: 10 # gets its power from damageBonus
     damageBonus:
-      strength: 0.25
-      melee: 0.5
+      strength: 0.2
+      melee: 0.4
 
   - type: STR_AUTOGUN
     #*** Melee butt

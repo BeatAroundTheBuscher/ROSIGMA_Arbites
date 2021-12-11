@@ -1,11 +1,6 @@
 # https://openxcom.org/forum/index.php/topic,7974.0.html
 extended:
   tags:
-    BattleGame:
-      TURN_ACTIVE_COMMAND: int
-      CHOICE_ACTIVE_COMMAND: int
-      COMMAND_POINTS: int
-      NUMBER_SOLDIERS: int
     RuleSkill:
       SKILL_JUDGE: int
     RuleSoldier:
