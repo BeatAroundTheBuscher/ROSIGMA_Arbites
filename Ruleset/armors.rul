@@ -124,7 +124,13 @@ armors:
     units:
       - STR_ARBITES_MASTIFF
     storeItem: STR_NONE
-
+    builtInWeapons:
+      - STR_CMAS
+      - STR_CMAS_TACKLE
+      - INV_NULL_2X1_RL
+      - INV_NULL_2X1_LL
+      - INV_NULL_3X3
+      - INV_NULL_4X2
 
 ## LAYERS
 

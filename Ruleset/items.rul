@@ -55,7 +55,35 @@ items:
       melee: 0.4
       RandomType: 2
 
+  - type: STR_CMAS_TACKLE
+    bigSprite: 203
+    damageType: 6
+    power: 10 # gets its power from damageBonus
+    damageBonus:
+      strength: 0.1
+      melee: 0.2
+      RandomType: 2
+    meleeHitSound: {mod: 40k, index: 101} 
 
+    damageAlter: #DA CHAIN
+      ArmorEffectiveness: 0.5
+      ToHealth: 0.2
+      ToStun: 0.5
+      ToTime: 0.5
+      ToEnergy: 0.5
+      ToWound: 0.2
+      RandomType: 2
+
+    meleeAnimation: {mod: 40k, index: 0} 
+    strengthApplied: false
+    accuracyMelee: 100
+    tuMelee: 25
+    clipSize: -1
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    flatRate: true
 ### STUBBERS
 
   - type: STR_AUTOGUN

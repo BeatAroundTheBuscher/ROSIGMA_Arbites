@@ -37,7 +37,7 @@ items:
     defaultInventorySlot: STR_BELT
     experienceTrainingMode: 19 # bravery x 1 # 20 # bravery x 2
     damageAlter:
-      RandomType: 7
+      RandomType: 7 # 50-200
       ToHealth: 0
       ToArmor: 0
       ToWound: 0
