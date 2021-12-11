@@ -120,6 +120,8 @@ armors:
 
 
   - type: STR_CMAS_ARMOR
+    visibilityAtDay: 40
+    visibilityAtDark: 30
     customArmorPreviewIndex: 600
     units:
       - STR_ARBITES_MASTIFF
