@@ -37,3 +37,11 @@
     subY: 20
     files:
       600: Resources/UnitSprites/arbites_armor_preview.png
+
+  - type: GUARDPD_F.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/GUARDPD_F.png

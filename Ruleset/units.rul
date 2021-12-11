@@ -27,6 +27,7 @@ units:
 
   - &STR_GUARD_FLAK_NPC
     type: MALE_CIVILIAN
+#    armor: GUARD_ARMOR
     builtInWeaponSets:
       - - STR_AUTOGUN
         - STR_AUTOGUN_CLIP
@@ -45,6 +46,7 @@ units:
 #        - STR_UNIT_TURNER_FT1
    
   - type: FEMALE_CIVILIAN
+#    armor: GUARD_ARMOROF
     refNode: *STR_GUARD_FLAK_NPC
 
   - type: STR_SECTOID_SOLDIER

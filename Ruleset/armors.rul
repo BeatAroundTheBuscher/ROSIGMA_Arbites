@@ -1,4 +1,17 @@
 armors:
+## NPC
+
+  - type: GUARD_ARMOR # MALE_CIVILIAN
+#    spriteSheet: GUARD.PCK
+#    spriteInv: CIV1
+    spriteSheet: GUARDPD.PCK
+    spriteInv: PDM0.SPK
+
+  - type: GUARD_ARMOROF # FEMALE_CIVILIAN
+#    spriteSheet: GUARDOF.PCK
+#    spriteInv: CIV2
+    spriteSheet: GUARDPD_F.PCK
+    spriteInv: PDF0.SPK
 
 ## Sentinels
 
@@ -242,3 +255,4 @@ armors:
     selectWeaponFemale: [{mod: 40k, index: 1190}, {mod: 40k, index: 1191}]
     annoyedMale:        [{mod: 40k, index: 1194}]
     annoyedFemale:      [{mod: 40k, index: 1194}]
+
