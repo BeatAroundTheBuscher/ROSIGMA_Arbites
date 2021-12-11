@@ -1,4 +1,17 @@
 items:
+
+### MELEE 
+
+  - type: AUX_SHIELDPD
+    handSprite: 300
+    fixedWeaponShow: true
+    damageAlter:
+      RandomType: 2
+
+  - type: STR_STUN_ROD
+    damageAlter:
+      RandomType: 2
+
   - type: STR_COMBAT_KNIFE
     categories: [STR_CAT_MELEE]
     size: 0.2
@@ -15,6 +28,7 @@ items:
       melee: 0.2
     damageAlter:
       ArmorEffectiveness: 0.9
+      RandomType: 2
     damageType: 7
     accuracyMelee: 100
     tuMelee: 10
@@ -39,6 +53,10 @@ items:
     damageBonus:
       strength: 0.2
       melee: 0.4
+      RandomType: 2
+
+
+### STUBBERS
 
   - type: STR_AUTOGUN
     #*** Melee butt
@@ -55,6 +73,8 @@ items:
       ToWound: 0.4
       ToTile: 1
       TileDamageMethod: 1
+      RandomType: 2
+      
     accuracyMelee: 110
     meleeMultiplier:
       flatHundred: 0.5
@@ -241,8 +261,10 @@ items:
 
   ### Melee
 
+
+
+
   - type: STR_UNARMED_GAUNTLET_PLUS
-  - type: STR_STUN_ROD #           3004
   - type: STR_BANNER #             30600
   - type: STR_POWERFIST            #12600           DA POWER
     requires:
@@ -587,7 +609,4 @@ items:
     bigSprite: {mod: 40k, index: 635}
     floorSprite: {mod: 40k, index: 660}
 
-  - type: AUX_SHIELDPD
-    handSprite: 300
-    fixedWeaponShow: true
 
