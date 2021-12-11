@@ -22,3 +22,6 @@ bughuntTimeUnitsLeft: 65
 startingDifficulty: 2
 
 psiUnlockResearch: STR_ARBITES_CAMPAIGN
+
+fixedUserOptions:
+  customInitialBase: false
