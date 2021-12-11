@@ -48,7 +48,9 @@ research:
     dependencies:
       - STR_GENERALLOCK
 
-  - name: STR_STUN_GEAR_ADVANCED
+  - name: STR_ANTI_ARMOR_ADVANCED
+    cost: 0
+    points: 0
     dependencies:
       - STR_GENERALLOCK
 
@@ -57,6 +59,10 @@ research:
     points: 100
     dependencies:
       - STR_INTERROGATION_COMPLETED
+
+  - name: STR_STUN_GEAR_ADVANCED
+    dependencies:
+      - STR_GENERALLOCK
 
   - name: STR_FLAMER
     cost: 100

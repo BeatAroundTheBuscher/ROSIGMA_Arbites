@@ -60,10 +60,10 @@ en-US:
 
 
   STR_ARBITES_CAMPAIGN: "Orders for the Local Precint"
-  STR_ARBITES_CAMPAIGN_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} With the newly established Precint of the Adeptus Arbites we expect that you will investigate any unlawful actions,  insurrections and actions of Heresy.{NEWLINE}{NEWLINE} We trust that you have only the Law in mind and will dispense Just Judgement to the criminals."
+  STR_ARBITES_CAMPAIGN_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} With the newly established Precint of the Adeptus Arbites we expect that you will investigate any unlawful actions, insurrections and actions of Heresy.{NEWLINE}{NEWLINE} We trust that you have only the Law in mind and will dispense Just Judgement to the criminals."
 
   STR_CULTIST_INVESTIGATIONS: "Cultist Investigation"
-  STR_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men don't tell tales."
+  STR_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
 
   STR_BEGINNING_INVESTIGATION: "Initial Investigations"
   STR_BEGINNING_INVESTIGATION_TEXT: "The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultits as well as find any shred of evidence."

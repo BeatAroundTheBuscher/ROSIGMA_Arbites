@@ -41,7 +41,7 @@ ufopaedia:
     image_id: 2ARB.SPK
     text: STR_STUN_GEAR_TEXT
     requires:
-      - STR_ARBITES_CAMPAIGN
+      - STR_STUN_GEAR
     listOrder: 100
 
   - id: STR_STUN_GEAR_ADVANCED
@@ -50,7 +50,17 @@ ufopaedia:
     image_id: 2ARB.SPK
     text: STR_STUN_GEAR_ADVANCED_TEXT
     requires:
-      - STR_ARBITES_CAMPAIGN
+      - STR_STUN_GEAR_ADVANCED
+    listOrder: 100
+
+
+  - id: STR_ANTI_ARMOR
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: 2ARB.SPK
+    text: STR_ANTI_ARMOR_TEXT
+    requires:
+      - STR_ANTI_ARMOR
     listOrder: 100
 
   - id: STR_ANTI_ARMOR_ADVANCED
@@ -59,7 +69,7 @@ ufopaedia:
     image_id: 2ARB.SPK
     text: STR_ANTI_ARMOR_ADVANCED_TEXT
     requires:
-      - STR_ARBITES_CAMPAIGN
+      - STR_ANTI_ARMOR_ADVANCED
     listOrder: 100
 
   - id: STR_FLAMER
@@ -68,58 +78,77 @@ ufopaedia:
     image_id: 2ARB.SPK
     text: STR_FLAMER_ADVANCED_TEXT
     requires:
-      - STR_ARBITES_CAMPAIGN
+      - STR_FLAMER
     listOrder: 100
 
 ## ARMOR
 
-  - id: STR_ENFORCER_SHIELD_HEAVY_ARMOR_UC                  #6916   # ARBITES ARMOR
+  - id: STR_PD # Overview
+    listOrder: 4000
+
+  - id: STR_ENFORCER_ARMOR_UC
     requires:
       - STR_ARBITES_CAMPAIGN
-      #- STR_ENFORCER_HEAVY_ARMOR
+    listOrder: 4010
+
+  - id: STR_ENFORCER_MEDIC_ARMOR_UC
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 4020
+
+  - id: STR_ENFORCER_SHIELD_ARMOR_UC
+    image_id: 0ENF.SPK
+    text: STR_ENFORCER_ARMOR_UFOPEDIA
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 4030
+
+  - id: STR_ENFORCER_SIGNAL_ARMOR_UC
+    requires:
+      - STR_HIDE_LOCK
+    listOrder: 4040
+
+  - id: STR_ENFORCER_HEAVY_ARMOR_UC
+    requires:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_HEAVY_ARMOR
+    listOrder: 4050
+
+  - id: STR_ENFORCER_SHIELD_HEAVY_ARMOR_UC
+    requires:
+      - STR_HEAVY_ARMOR
     type_id: 15
     section: STR_ARMORPEDIA
     image_id: 0ENF2.SPK
     text: STR_ENFORCER_SHIELD_ARMOR_UFOPEDIA
-    listOrder: 6916
-
-  - id: STR_ENFORCER_ARMOR_UC                  #6910   # ARBITES ARMOR
-    requires:
-      - STR_ARBITES_CAMPAIGN
-  - id: STR_ENFORCER_MEDIC_ARMOR_UC                  #6911   # ARBITES MEDIC ARMOR
-    requires:
-      - STR_ARBITES_CAMPAIGN
-
-  - id: STR_ENFORCER_SIGNAL_ARMOR_UC                 #6912   # ARBITES SIGNAL ARMOR
-    requires:
-      - STR_HIDE_LOCK
-
-  - id: STR_ENFORCER_HEAVY_ARMOR_UC                  #6915   # ARBITES ARMOR
-    requires:
-#      - STR_ARBITES_CAMPAIGN
-      - STR_HEAVY_ARMOR
-  - id: STR_ENFORCER_SHIELD_ARMOR_UC                  #6916   # ARBITES ARMOR
-    requires:
-#      - STR_ARBITES_CAMPAIGN
-      - STR_HEAVY_ARMOR
-
-  - id: STR_JUDGE_ARMOR_UC                  #7000   # ARBITES ARMOR
-    requires:
-      - STR_ARBITES_CAMPAIGN
-
-  - id: STR_JUDGE_BIKE_ARMOR_UC              #7005   # ARBITES ARMOR
-    requires:
-      - STR_HIDE_LOCK
-  - id: STR_ARBITOR_ARMOR_UC                  #7010   # ARBITES ARMOR
-    requires:
-      - STR_HIDE_LOCK
-  - id: STR_MARSHAL_ARMOR_UC                  #7020   # ARBITES ARMOR
-    requires:
-      - STR_HIDE_LOCK
+    listOrder: 4060
 
   - id: STR_CMAS_ARMOR
     requires:
       - STR_ARBITES_CAMPAIGN
+    listOrder: 4070
+
+  - id: STR_JUDGE_ARMOR_UC
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 4080
+
+  - id: STR_JUDGE_BIKE_ARMOR_UC
+    requires:
+      - STR_HIDE_LOCK
+    listOrder: 4090
+
+  - id: STR_ARBITOR_ARMOR_UC
+    requires:
+      - STR_HIDE_LOCK
+    listOrder: 4100
+
+  - id: STR_MARSHAL_ARMOR_UC
+    requires:
+      - STR_HIDE_LOCK
+    listOrder: 4110
+
+### Stats for Nerds only
 
   - id: STR_CMAS
     requires:
