@@ -4,6 +4,26 @@ soldiers:
     avatarOffsetX: 68 # 66
     avatarOffsetY: 40 # 42
 
+  - type: STR_JUDGE
+    avatarOffsetX: 68 # 66
+    avatarOffsetY: 40 # 42
+    skillIconSprite: 0
+    skills:
+      - STR_JUDGE_EVIL_EYE
+#    specialWeapon: STR_PSI_AMP_DUMMY
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 35
+      bravery: 60
+      reactions: 40
+      firing: 50
+      throwing: 40
+      strength: 20
+      psiStrength: 50
+      psiSkill: 1 # was 0
+      melee: 50
+
 soldierTransformation:
   - name: STR_INDOCTRINATE_GUARDSMAN
     requires:

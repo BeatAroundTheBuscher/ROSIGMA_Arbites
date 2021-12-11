@@ -124,3 +124,7 @@ ufopaedia:
   - id: STR_CMAS
     requires:
       - STR_ARBITES_CAMPAIGN
+
+  - id: STR_JUDGE_PSI_AMP
+    type_id: 14
+    section: STR_NOT_AVAILABLE

@@ -1,6 +1,8 @@
 units:
   - &STR_RIOTER
     type: STR_RIOTER_F1
+    stats:
+      bravery: 30
     builtInWeaponSets:
       - - STR_COMBAT_KNIFE
         - STR_MAKESHIFT_GRENADE
@@ -50,6 +52,8 @@ units:
     refNode: *STR_GUARD_FLAK_NPC
 
   - type: STR_SECTOID_SOLDIER
+    stats:
+      bravery: 40
     builtInWeaponSets:
       - - STR_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO
@@ -71,6 +75,8 @@ units:
         - STR_ALIEN_GRENADE
 
   - type: STR_SECTOID_ENGINEER
+    stats:
+      bravery: 50
     builtInWeaponSets:
       - - STR_AUTOPISTOL_CHAOS
         - STR_AUTOPISTOL_CLIP
@@ -94,6 +100,8 @@ units:
         - STR_GRENADE
 
   - type: STR_SECTOID_MEDIC
+    stats:
+      bravery: 50
     builtInWeaponSets:
       - - STR_STUN_ROD
         - STR_SMOKE_GRENADE
@@ -109,6 +117,8 @@ units:
         - STR_GRENADE
 
   - type: STR_SECTOID_NAVIGATOR
+    stats:
+      bravery: 50
     builtInWeaponSets:
       - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG
@@ -129,6 +139,8 @@ units:
         - STR_GRENADE
 
   - type: STR_SECTOID_LEADER # not used
+    stats:
+      bravery: 60
     builtInWeaponSets:
       - - STR_STUB_RIFLE_CHAOS
         - STR_STUB_GUN_AMMO
@@ -147,6 +159,8 @@ units:
         - STR_ALIEN_GRENADE
 
   - type: STR_SECTOID_COMMANDER 
+    stats:
+      bravery: 70
     builtInWeaponSets:
       - - STR_SNIPER_CHAOS
         - STR_HC_AP_AMMO
@@ -158,6 +172,8 @@ units:
         - STR_PLAGUEBEARERSPAWNER_GRENADE
 
   - type: STR_SECTOID_ASPIRING_CHAMPION
+    stats:
+      bravery: 60
     builtInWeaponSets:
       - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG

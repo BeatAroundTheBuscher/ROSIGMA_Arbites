@@ -20,3 +20,5 @@ bughuntLowMorale: 50
 bughuntTimeUnitsLeft: 65
 
 startingDifficulty: 2
+
+psiUnlockResearch: STR_ARBITES_CAMPAIGN

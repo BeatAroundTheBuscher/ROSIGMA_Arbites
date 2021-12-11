@@ -30,6 +30,12 @@
     files:
       300: Resources/Handobs/handob_riot_shield.png
 
+  - type: SPICONS.DAT
+    width: 32
+    height: 24
+    files:
+      0: Resources/Spicons/spicon_judge.png
+
   - type: CustomArmorPreviews
     width: 12
     height: 20

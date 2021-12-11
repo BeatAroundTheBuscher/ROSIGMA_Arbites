@@ -5,13 +5,17 @@ en-US:
   STR_4_GENIUS: "Genius"
   STR_5_SUPERHUMAN: "Superhuman"
 
-
+  STR_DAMAGE_19: "MIND"
 
 ## Weapons
 
   STR_COMBAT_KNIFE: "Combat Knife"
   STR_MAKESHIFT_GRENADE: "Makeshift Grenade"
   STR_MAKESHIFT_PIPEBOMB: "Makeshift Pipebomb"
+
+  STR_JUDGE_PSI_AMP: "Judgement"
+  STR_JUDGE_EVIL_EYE: "Evil Eye"
+
 
 ## Armors
 

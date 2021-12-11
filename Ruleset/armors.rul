@@ -107,6 +107,9 @@ armors:
     sideArmor: 55
     rearArmor: 40
     underArmor: 50 
+    builtInWeapons:
+      - STR_JUDGE_PSI_AMP
+
 
   - type: STR_ENFORCER_SIGNAL_ARMOR_UC
   - type: STR_ENFORCER_SIGNALFALSE_ARMOR_UC

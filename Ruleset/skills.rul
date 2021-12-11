@@ -1,0 +1,55 @@
+extended:
+  tags:
+    RuleSkill:
+      SKILL_JUDGE: int
+
+skills:
+  - type: STR_JUDGE_EVIL_EYE # inbuilt
+    psiAttackName: STR_JUDGE_EVIL_EYE
+    hitSound: {mod: 40k, index: 37}
+    targetMode: 11
+    tuUse: 50
+    isPsiRequired: false
+    checkHandsOnly: false
+    compatibleWeapons:
+      - STR_JUDGE_PSI_AMP
+    tags:
+      SKILL_JUDGE: 1
+
+items:
+  - type: STR_JUDGE_PSI_AMP
+    power: 0
+    damageBonus:
+      bravery: 1
+    accuracyUse: 200
+    battleType: 9
+    LOSRequired: true
+#    bigSprite: 201
+#    floorSprite: 32
+#    handSprite: 88
+    invHeight: 0
+    invWidth: 0
+    fixedWeapon: true
+    hitSound: {mod: 40k, index: 37} # 36
+    tuPanic: 0 # don't show up
+    tuMindControl: 0 # don't show up
+    flatRate: true
+    defaultInventorySlot: STR_BELT
+    experienceTrainingMode: 19 # bravery x 1 # 20 # bravery x 2
+    damageAlter:
+      RandomType: 7
+      ToHealth: 0
+      ToArmor: 0
+      ToWound: 0
+      ToMana: 0
+
+      ArmorEffectiveness: 0
+      ToStun: 0.1
+      ToTime: 0.5
+      ToEnergy: 0.5
+      ToMorale: 1
+      ToTile: 0
+      ToItem: 0
+
+      ResistType: 19
+    targetMatrix: 6 # 1 Friend # 2 Enemy # 4 Neutral
