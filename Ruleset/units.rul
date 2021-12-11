@@ -3,6 +3,7 @@ units:
     type: STR_RIOTER_F1
     stats:
       bravery: 30
+    moraleLossWhenKilled: 50
     builtInWeaponSets:
       - - STR_COMBAT_KNIFE
         - STR_MAKESHIFT_GRENADE
@@ -77,6 +78,7 @@ units:
   - type: STR_SECTOID_ENGINEER
     stats:
       bravery: 50
+    moraleLossWhenKilled: 50
     builtInWeaponSets:
       - - STR_AUTOPISTOL_CHAOS
         - STR_AUTOPISTOL_CLIP
@@ -102,6 +104,7 @@ units:
   - type: STR_SECTOID_MEDIC
     stats:
       bravery: 50
+    moraleLossWhenKilled: 50
     builtInWeaponSets:
       - - STR_STUN_ROD
         - STR_SMOKE_GRENADE
@@ -119,6 +122,7 @@ units:
   - type: STR_SECTOID_NAVIGATOR
     stats:
       bravery: 50
+    moraleLossWhenKilled: 50
     builtInWeaponSets:
       - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG
@@ -141,6 +145,7 @@ units:
   - type: STR_SECTOID_LEADER # not used
     stats:
       bravery: 60
+    moraleLossWhenKilled: 50
     builtInWeaponSets:
       - - STR_STUB_RIFLE_CHAOS
         - STR_STUB_GUN_AMMO
@@ -161,6 +166,7 @@ units:
   - type: STR_SECTOID_COMMANDER 
     stats:
       bravery: 70
+    moraleLossWhenKilled: 50
     builtInWeaponSets:
       - - STR_SNIPER_CHAOS
         - STR_HC_AP_AMMO
@@ -174,6 +180,7 @@ units:
   - type: STR_SECTOID_ASPIRING_CHAMPION
     stats:
       bravery: 60
+    moraleLossWhenKilled: 50
     builtInWeaponSets:
       - - STR_SMG_STUB_GUN_CHAOS
         - STR_STUB_GUN_AMMO_LONG
@@ -189,6 +196,9 @@ units:
         - STR_ALIEN_GRENADE
 
   - type: STR_CULTIST_RITUALIST_SUMMONING
+    moraleLossWhenKilled: 50
+    stats:
+      bravery: 60
     builtInWeaponSets:
       - - STR_COMBAT_KNIFE
       - - STR_COMBAT_KNIFE
