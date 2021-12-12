@@ -3,7 +3,6 @@ items:
 ### MELEE 
 
   - type: AUX_SHIELDPD
-    clipSize: 201 # Shield HP + 1
     handSprite: 300
     fixedWeapon: false
     # fixedWeaponShow: true

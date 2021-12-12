@@ -11,17 +11,8 @@ extended:
 
 
   scripts:
-#    createUnit:
-
 # this is used on clicking the skill, not useful for hitting
 #    skillUseUnit:
-#    - offset: 1 
-#      code: |
-#        debug_log "hello skill";
-#        battle_game.flashMessage "Used Skill";
-#        return;
-
-# Name: skill                                   ptr       RuleSkill
 
     hitUnit:
     - offset: 1 

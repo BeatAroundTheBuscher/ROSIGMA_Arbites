@@ -18,33 +18,35 @@ extended:
         var int rightShieldBlockingStrength;
 
         var int temp;
-        var ptre BattleItem handBattleItem;
-        var ptr RuleItem handRuleItem;
+        var ptre BattleItem battleItemShield;
+        var ptr RuleItem ruleItemTemp; # shield + damaging_item
 
-        unit.getRightHandWeapon handBattleItem; # in inventory screen left side
-        handBattleItem.getRuleItem handRuleItem; # righthandweapon gets preference
+        var ptr RuleDamageType ruleDamageTypeWeapon;
 
-        handRuleItem.isTwoHanded temp; # two handed weapons hide the shield
+        unit.getRightHandWeapon battleItemShield; # in inventory screen left side
+        battleItemShield.getRuleItem ruleItemTemp; # righthandweapon gets preference
+
+        ruleItemTemp.isTwoHanded temp; # two handed weapons hide the shield
         if eq temp 1;
           return power part side;
         end;
 
-        handRuleItem.getTag rightShieldBlockingStrength Tag.ITEM_SHIELD_BLOCKING_STRENGTH;
+        ruleItemTemp.getTag rightShieldBlockingStrength Tag.ITEM_SHIELD_BLOCKING_STRENGTH;
         if gt rightShieldBlockingStrength 0;
-          handBattleItem.getAmmoQuantity rightShieldHP;
+          battleItemShield.getAmmoQuantity rightShieldHP;
         end;
 
 
-        unit.getLeftHandWeapon handBattleItem;
-        handBattleItem.getRuleItem handRuleItem;
+        unit.getLeftHandWeapon battleItemShield;
+        battleItemShield.getRuleItem ruleItemTemp;
 
-        handRuleItem.getTag leftShieldBlockingStrength Tag.ITEM_SHIELD_BLOCKING_STRENGTH;
+        ruleItemTemp.getTag leftShieldBlockingStrength Tag.ITEM_SHIELD_BLOCKING_STRENGTH;
         if gt leftShieldBlockingStrength 0;
-          handBattleItem.getAmmoQuantity leftShieldHP;
+          battleItemShield.getAmmoQuantity leftShieldHP;
           debug_log "leftShieldHP" leftShieldHP;
         end;
 
-        handRuleItem.isTwoHanded temp; # two handed weapons hide the shield
+        ruleItemTemp.isTwoHanded temp; # two handed weapons hide the shield
         if eq temp 1;
           return power part side;
         end;
@@ -70,31 +72,60 @@ extended:
 
           # new part
 
-          # can't be less equal as ammoQuantity can't be set to 0
-          if or lt rightShieldBlockingStrength rightShieldHP lt leftShieldBlockingStrength leftShieldHP; # one shield can block power up to blockingStrength
-            if lt rightShieldBlockingStrength rightShieldHP; # it's the right one
-              sub rightShieldHP rightShieldBlockingStrength;
-              sub power rightShieldBlockingStrength;
+          debug_log "damaging_item:" damaging_item;
+          damaging_item.getRuleItem ruleItemTemp;
+          ruleItemTemp.getDamageType ruleDamageTypeWeapon;
+          ruleDamageTypeWeapon.getArmorEffectiveness temp;
+          debug_log "armor effectiviness" temp;
 
-              unit.getRightHandWeapon handBattleItem;
-              handBattleItem.setAmmoQuantity rightShieldHP;
-              battle_game.flashMessage "Remaining Shield Points: {0}" rightShieldHP;
-            else;
-              sub leftShieldHP leftShieldBlockingStrength;
-              sub power leftShieldBlockingStrength;
+          muldiv rightShieldBlockingStrength temp 100;
+          muldiv leftShieldBlockingStrength temp 100;
 
-              unit.getLeftHandWeapon handBattleItem;
-              handBattleItem.setAmmoQuantity leftShieldHP;
-              battle_game.flashMessage "Remaining Shield Points: {0}" leftShieldHP;
-            end;
-              # set power 0;
+          debug_log "rightShieldBlockingStrength" rightShieldBlockingStrength;
+          debug_log "leftShieldBlockingStrength" leftShieldBlockingStrength;
+
+
+          # determine if blockingStrength is greater than power
+          # if higher cap with blockingStrength, else use power
+
+          # try with right shield
+          if lt power rightShieldBlockingStrength;
+            set temp power;
           else;
-            battle_game.flashMessage "Shield failed to block attack";
+            set temp rightShieldBlockingStrength;
           end;
 
+          if lt temp rightShieldHP; # shield can still handle the attack
+            debug_log "Current shield HP" rightShieldHP;
+            debug_log "Rolled power" power;
+            sub power temp; # reduce power
+            sub rightShieldHP temp; # reduce HP
 
+            unit.getRightHandWeapon battleItemShield;
+            battleItemShield.setAmmoQuantity rightShieldHP;
+            battle_game.flashMessage "Remaining Shield Points: {0}" rightShieldHP;
+            debug_log "Shield: Remaining Shield Points" rightShieldHP;
+            debug_log "Shield: Remaining Weapon Power" power;
+            return power part side;
+          end;
           
+          # try with left shield
+          if lt power leftShieldBlockingStrength;
+            set temp power;
+          else;
+            set temp leftShieldBlockingStrength;
+          end;
 
+          if lt temp leftShieldHP; # shield can still handle the attack
+            sub power temp; # reduce power
+            sub leftShieldHP temp; # reduce HP
+
+            unit.getRightHandWeapon battleItemShield;
+            battleItemShield.setAmmoQuantity leftShieldHP;
+            battle_game.flashMessage "Remaining Shield Points: {0}" leftShieldHP;
+            debug_log "Shield: Remaining Weapon Power" power;
+            return power part side;
+          end;
         end;
 
         return power part side;
@@ -103,5 +134,6 @@ extended:
 
 items: 
   - type: AUX_SHIELDPD
+    clipSize: 201 # Shield HP + 1
     tags:
       ITEM_SHIELD_BLOCKING_STRENGTH: 20
