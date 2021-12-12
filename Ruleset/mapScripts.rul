@@ -123,4 +123,20 @@ mapScripts:
     - type: fillArea
       terrain: baseTerrain
       groups: [16]
-        
+
+  - type: PRISON_BREAK
+    commands:
+    - type: addCraft
+      rects:
+        - [1,0,1,1] #[y,x,mapSize_width,mapSize_heigth]
+    - type: addBlock
+      size: [3,2]
+      rects:
+        - [0, 0, 3, 2]
+    - type: fillArea
+      blocks: [26, 36]
+      terrain: XBASE
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 1

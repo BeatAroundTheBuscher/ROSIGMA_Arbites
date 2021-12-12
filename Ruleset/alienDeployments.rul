@@ -347,3 +347,64 @@ alienDeployments:
       - XBASE_FILL_SNOW
       - XBASE_FILL_MUD
       - XBASE_FILL_ROCK
+
+
+  - type: STR_PRISON_BREAK
+    music:
+      - HANGAR
+    briefing:
+      title: STR_HANGAR_TITLE
+      palette: 4
+      desc: STR_HANGAR_DESCRIPTION
+      music: HANGAR
+      showCraft: true
+      showTarget: false
+      background: BACK16.SCR
+    civilians: 12
+    shade: 1
+    terrains:
+      - XHANGAR
+    script: PRISON_BREAK
+    data:
+      - alienRank: 5
+        lowQty: 10
+        highQty: 20
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 6
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    race: STR_PRISON_BREAK
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_HANGAR_ENVIRO
+    finalDestination: true
