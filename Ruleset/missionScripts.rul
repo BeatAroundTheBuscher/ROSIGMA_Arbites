@@ -139,3 +139,20 @@ missionScripts:
     startDelay: 12000
     randomDelay: 6000
     useTable: false
+
+  - type: Cultist_Revenge # Currently Inactive
+    firstMonth: 1
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    missionWeights:
+      0:
+        STR_CULTIST_RETALIATION: 100
+    researchTriggers:
+      STR_THE_MARTIAN_SOLUTION: true
+    startDelay: 6000
+    randomDelay: 3000
+    targetBaseOdds: 100
+    useTable: false
+    varName: cultistRevenge
+    maxRuns: 1
