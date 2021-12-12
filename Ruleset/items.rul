@@ -3,10 +3,11 @@ items:
 ### MELEE 
 
   - type: AUX_SHIELDPD
+    clipSize: 200 # Shield HP
     handSprite: 300
-    fixedWeaponShow: true
-    damageAlter:
-      RandomType: 2
+    fixedWeapon: false
+    # fixedWeaponShow: true
+    tuMelee: 0
 
   - type: STR_STUN_ROD
     damageAlter:
