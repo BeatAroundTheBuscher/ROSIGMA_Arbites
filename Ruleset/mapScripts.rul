@@ -111,6 +111,8 @@ mapScripts:
     commands: 
     - type: addBlock
       blocks: [60]
+      rects:
+        - [1,1,4,4]
       size: 3
       terrain: XBASE
       executions: 1
