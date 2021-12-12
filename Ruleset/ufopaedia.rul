@@ -96,12 +96,7 @@ ufopaedia:
       - STR_ARBITES_CAMPAIGN
     listOrder: 4020
 
-  - id: STR_ENFORCER_SHIELD_ARMOR_UC
-    image_id: 0ENF.SPK
-    text: STR_ENFORCER_ARMOR_UFOPEDIA
-    requires:
-      - STR_ARBITES_CAMPAIGN
-    listOrder: 4030
+  - delete: STR_ENFORCER_SHIELD_ARMOR_UC
 
   - id: STR_ENFORCER_SIGNAL_ARMOR_UC
     requires:
@@ -113,15 +108,6 @@ ufopaedia:
 #      - STR_ARBITES_CAMPAIGN
       - STR_HEAVY_ARMOR
     listOrder: 4050
-
-  - id: STR_ENFORCER_SHIELD_HEAVY_ARMOR_UC
-    requires:
-      - STR_HEAVY_ARMOR
-    type_id: 15
-    section: STR_ARMORPEDIA
-    image_id: 0ENF2.SPK
-    text: STR_ENFORCER_SHIELD_ARMOR_UFOPEDIA
-    listOrder: 4060
 
   - id: STR_CMAS_ARMOR
     requires:
