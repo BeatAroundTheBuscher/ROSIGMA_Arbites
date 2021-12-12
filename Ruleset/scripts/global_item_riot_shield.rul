@@ -2,7 +2,7 @@
 extended:
   tags:
     RuleItem:
-      ITEM_PORTABLE_SHIELD: int
+      ITEM_SHIELD_BLOCKING_STRENGTH: int
 
 
   scripts:
@@ -11,8 +11,12 @@ extended:
       code: |   # use Shield Ammo as HP, if HP lower than attack power, shield doesn't protect
         var int unitDirection;
         var int attackerDirection;
+
         var int leftShieldHP;
         var int rightShieldHP; # in case someone wants to dual wield shields
+        var int leftShieldBlockingStrength;
+        var int rightShieldBlockingStrength;
+
         var int temp;
         var ptre BattleItem handBattleItem;
         var ptr RuleItem handRuleItem;
@@ -25,8 +29,8 @@ extended:
           return power part side;
         end;
 
-        handRuleItem.getTag temp Tag.ITEM_PORTABLE_SHIELD;
-        if eq temp 1;
+        handRuleItem.getTag rightShieldBlockingStrength Tag.ITEM_SHIELD_BLOCKING_STRENGTH;
+        if gt rightShieldBlockingStrength 0;
           handBattleItem.getAmmoQuantity rightShieldHP;
         end;
 
@@ -34,8 +38,8 @@ extended:
         unit.getLeftHandWeapon handBattleItem;
         handBattleItem.getRuleItem handRuleItem;
 
-        handRuleItem.getTag temp Tag.ITEM_PORTABLE_SHIELD;
-        if eq temp 1;
+        handRuleItem.getTag leftShieldBlockingStrength Tag.ITEM_SHIELD_BLOCKING_STRENGTH;
+        if gt leftShieldBlockingStrength 0;
           handBattleItem.getAmmoQuantity leftShieldHP;
           debug_log "leftShieldHP" leftShieldHP;
         end;
@@ -46,7 +50,7 @@ extended:
         end;
 
 
-        if and eq rightShieldHP 0 eq leftShieldHP 0; # no valid shield
+        if and eq rightShieldBlockingStrength 0 eq leftShieldBlockingStrength 0; # no valid shield
           return power part side;
         end;
 
@@ -64,25 +68,31 @@ extended:
         if lt unitDirection 2; # {abs(-1), 0, +1} # hitting shield facing
           set side SIDE_FRONT;
 
+          # new part
+
           # can't be less equal as ammoQuantity can't be set to 0
-          if or lt power rightShieldHP lt power leftShieldHP; # one shield can block incoming power
-            if lt power rightShieldHP; # it's the right one
-              sub rightShieldHP power;
+          if or lt rightShieldBlockingStrength rightShieldHP lt leftShieldBlockingStrength leftShieldHP; # one shield can block power up to blockingStrength
+            if lt rightShieldBlockingStrength rightShieldHP; # it's the right one
+              sub rightShieldHP rightShieldBlockingStrength;
+              sub power rightShieldBlockingStrength;
+
               unit.getRightHandWeapon handBattleItem;
               handBattleItem.setAmmoQuantity rightShieldHP;
               battle_game.flashMessage "Remaining Shield Points: {0}" rightShieldHP;
             else;
-              sub rightShieldHP power;
+              sub leftShieldHP leftShieldBlockingStrength;
+              sub power leftShieldBlockingStrength;
+
               unit.getLeftHandWeapon handBattleItem;
               handBattleItem.setAmmoQuantity leftShieldHP;
               battle_game.flashMessage "Remaining Shield Points: {0}" leftShieldHP;
             end;
-              set power 0;
+              # set power 0;
           else;
             battle_game.flashMessage "Shield failed to block attack";
           end;
 
-          # new part
+
           
 
         end;
@@ -94,4 +104,4 @@ extended:
 items: 
   - type: AUX_SHIELDPD
     tags:
-      ITEM_PORTABLE_SHIELD: 1
+      ITEM_SHIELD_BLOCKING_STRENGTH: 20
