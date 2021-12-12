@@ -25,3 +25,5 @@ psiUnlockResearch: STR_ARBITES_CAMPAIGN
 
 fixedUserOptions:
   customInitialBase: false
+
+newBaseUnlockResearch: STR_GENERALLOCK
