@@ -106,3 +106,19 @@ mapScripts:
         freqs: [2, 2, 2, 2, 2, 2, 5, 2, 2, 2, 2, 2]
         maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
       - type: fillArea
+
+  - type: TRAITOR_OUTPOST
+    commands: 
+    - type: addBlock
+      blocks: [60]
+      size: 3
+      terrain: XBASE
+      executions: 1
+      executionChances: 100
+      maxUses: [1]
+    - type: addCraft
+      blocks: [16]
+    - type: fillArea
+      terrain: baseTerrain
+      groups: [16]
+        

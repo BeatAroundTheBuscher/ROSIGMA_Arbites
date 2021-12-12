@@ -305,3 +305,45 @@ alienDeployments:
     markerName: STR_CULTIST_RITUALS
     duration: [48, 72]
     despawnPenalty: 250
+
+
+  - type: STR_TRAITOR_OUTPOST
+    briefing:
+      title: STR_RIOT_TITLE
+      palette: 4
+      desc: STR_RIOT_DESCRIPTION
+      music: gmstory2
+      showCraft: true
+      showTarget: false
+      background: BACK169.SCR
+    width: 60
+    length: 60
+    height: 9
+    script: TRAITOR_OUTPOST
+    alert: STR_RIOT_ALERT
+    alertBackground: BACK169.SCR
+    alertDescription: STR_RIOT_DESCRIPTION
+    duration: [168, 168]
+    despawnPenalty: 550
+    markerName: STR_RIOT_SITE
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: &emptyItemSets
+          -
+            []
+          -
+            []
+          -
+            []
+    terrains:
+      - XBASE_FILL
+      - XBASE_FILL_TROP
+      - XBASE_FILL_GRASS
+      - XBASE_FILL_SAND
+      - XBASE_FILL_SNOW
+      - XBASE_FILL_MUD
+      - XBASE_FILL_ROCK
