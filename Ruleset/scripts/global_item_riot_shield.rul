@@ -120,7 +120,7 @@ extended:
             sub power temp; # reduce power
             sub leftShieldHP temp; # reduce HP
 
-            unit.getRightHandWeapon battleItemShield;
+            unit.getLeftHandWeapon battleItemShield;
             battleItemShield.setAmmoQuantity leftShieldHP;
             battle_game.flashMessage "Remaining Shield Points: {0}" leftShieldHP;
             debug_log "Shield: Remaining Weapon Power" power;
