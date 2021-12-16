@@ -358,9 +358,9 @@ items:
 
 ## Inventory Only
 
-  - type: STR_RIOT_SHIELD
+  - type: AUX_SHIELDPD
     requiresBuy:
-      - STR_GENERALLOCK
+      - STR_ARBITES_CAMPAIGN # temporary
     size: 0.2
     costBuy: 20000
     costSell: 4000

@@ -619,24 +619,4 @@ items:
   - type: STR_GUARD_MEDI_KIT # No in-built melee
     tuMelee: 0 # 15 
 
-  - &RECOVERABLE_CORPSES
-    type: STR_ENFORCER_SHIELD_CORPSE
-    name: STR_CORPSE
-    weight: 30
-    bigSprite: {mod: 40k, index: 634}
-    floorSprite: {mod: 40k, index: 659}
-    invWidth: 2
-    invHeight: 3
-    armor: 35
-    battleType: 11
-    recover: true
-    recoveryTransformations:
-      STR_RIOT_SHIELD: [1]
-
-  - type: STR_ENFORCER_HEAVY_SHIELD_CORPSE
-    refNode: *RECOVERABLE_CORPSES
-    weight: 40
-    bigSprite: {mod: 40k, index: 635}
-    floorSprite: {mod: 40k, index: 660}
-
 
