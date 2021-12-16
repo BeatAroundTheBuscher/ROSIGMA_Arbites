@@ -8,7 +8,9 @@ skills:
     psiAttackName: STR_JUDGE_EVIL_EYE
     hitSound: {mod: 40k, index: 37}
     targetMode: 11
-    tuUse: 50
+    costUse:
+      time: 50
+      energy: 30
     isPsiRequired: false
     checkHandsOnly: false
     compatibleWeapons:
