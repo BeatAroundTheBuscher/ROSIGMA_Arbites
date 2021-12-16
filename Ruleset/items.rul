@@ -619,4 +619,4 @@ items:
   - type: STR_GUARD_MEDI_KIT # No in-built melee
     tuMelee: 0 # 15 
 
-
+  - type: STR_CULTIST_EVIDENCE

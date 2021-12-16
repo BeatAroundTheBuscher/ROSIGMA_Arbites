@@ -16,6 +16,9 @@ research:
     dependencies:
       - STR_SECTOID # any Cultist
       - STR_BEGINNING_INVESTIGATION
+    unlocks:
+      - STR_JUDGE
+      - STR_CYBER_MASTIFF
 
   - name: STR_CULTIST_LEADERSHIP
     cost: 200
@@ -23,6 +26,18 @@ research:
     dependencies:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_ASPIRING_CHAMPION
+
+  - name: STR_CULTIST_EVIDENCE
+    cost: 200
+    points: 100
+    needItem: true
+
+  - name: STR_CULTIST_PLOT
+    cost: 200
+    points: 100
+    dependencies:
+      - STR_CULTIST_LEADERSHIP
+      - STR_CULTIST_EVIDENCE
 
   - name: STR_CULTIST_DEFEATED
     cost: 0

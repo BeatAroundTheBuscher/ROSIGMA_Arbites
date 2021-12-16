@@ -94,6 +94,17 @@ research:
     dependencies:
       - STR_GENERALLOCK
 
+  - name: STR_JUDGE
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERALLOCK
+
+  - name: STR_CYBER_MASTIFF
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERALLOCK
 
 
 

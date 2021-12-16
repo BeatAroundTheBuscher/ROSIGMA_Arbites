@@ -305,6 +305,7 @@ alienDeployments:
     markerName: STR_CULTIST_RITUALS
     duration: [48, 72]
     despawnPenalty: 250
+    missionBountyItem: STR_CULTIST_EVIDENCE
 
 
   - type: STR_TRAITOR_OUTPOST
