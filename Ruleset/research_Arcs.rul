@@ -17,8 +17,8 @@ research:
       - STR_SECTOID # any Cultist
       - STR_BEGINNING_INVESTIGATION
     unlocks:
-      - STR_JUDGE
-      - STR_CYBER_MASTIFF
+      - STR_JUDGE_RECRUITMENT
+      - STR_CYBER_MASTIFF_RECRUITMENT
 
   - name: STR_CULTIST_LEADERSHIP
     cost: 200
