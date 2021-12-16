@@ -13,8 +13,14 @@ soldiers:
       - STR_GENERALLOCK
 
   - type: STR_JUDGE
+    costBuy: 200000
     requiresBuy:
-      - STR_GENERALLOCK
+      - STR_JUDGE
+
+  - type: STR_ARBITES_MASTIFF
+    costBuy: 200000
+    requires:
+      - STR_CYBER_MASTIFF
 
 items:
 
