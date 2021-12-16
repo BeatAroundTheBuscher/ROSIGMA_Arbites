@@ -94,13 +94,13 @@ research:
     dependencies:
       - STR_GENERALLOCK
 
-  - name: STR_JUDGE
+  - name: STR_JUDGE_RECRUITMENT
     cost: 0
     points: 0
     dependencies:
       - STR_GENERALLOCK
 
-  - name: STR_CYBER_MASTIFF
+  - name: STR_CYBER_MASTIFF_RECRUITMENT
     cost: 0
     points: 0
     dependencies:

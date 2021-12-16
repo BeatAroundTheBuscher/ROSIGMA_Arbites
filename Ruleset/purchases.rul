@@ -15,12 +15,12 @@ soldiers:
   - type: STR_JUDGE
     costBuy: 200000
     requiresBuy:
-      - STR_JUDGE
+      - STR_JUDGE_RECRUITMENT
 
   - type: STR_ARBITES_MASTIFF
     costBuy: 200000
     requires:
-      - STR_CYBER_MASTIFF
+      - STR_CYBER_MASTIFF_RECRUITMENT
 
 items:
 
