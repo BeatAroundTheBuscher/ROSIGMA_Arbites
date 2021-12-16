@@ -16,6 +16,7 @@ research:
     dependencies:
       - STR_SECTOID # any Cultist
       - STR_BEGINNING_INVESTIGATION
+      - STR_SECTOID_CORPSE
     unlocks:
       - STR_JUDGE_RECRUITMENT
       - STR_CYBER_MASTIFF_RECRUITMENT

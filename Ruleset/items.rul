@@ -620,3 +620,29 @@ items:
     tuMelee: 0 # 15 
 
   - type: STR_CULTIST_EVIDENCE
+
+  - type: STR_CIVILIAN_CAPTIVE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1000
+    listOrder: 20400
+
+  - type: STR_CULTIST_CORPSE # no different corpses
+    recoveryTransformations:
+      STR_KILLPOINT_TOKEN: [2]
+      STR_SECTOID_CORPSE: [1]
+
+  - &STR_CIVILIAN
+    type: STR_CIVILIAN_F0_CORPSE
+    recover: true
+    recoverCorpse: false
+
+  - type: STR_CIVILIAN_M0_CORPSE
+    refNode: *STR_CIVILIAN
+
+  - type: STR_CIVILIAN_F1_CORPSE
+    refNode: *STR_CIVILIAN
+
+  - type: STR_CIVILIAN_M1_CORPSE
+    refNode: *STR_CIVILIAN

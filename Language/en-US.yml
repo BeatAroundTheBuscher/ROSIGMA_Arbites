@@ -7,6 +7,10 @@ en-US:
 
   STR_DAMAGE_19: "MIND"
 
+## Other Items
+
+  STR_CIVILIAN_CAPTIVE: "Detained Criminal"
+
 ## Weapons
 
   STR_COMBAT_KNIFE: "Combat Knife"

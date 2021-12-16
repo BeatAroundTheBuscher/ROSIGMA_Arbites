@@ -18,6 +18,7 @@ units:
         - STR_AUTOPISTOL_CLIP
         - STR_AUTOPISTOL_CLIP
         - STR_COMBAT_KNIFE
+    liveAlien: STR_CIVILIAN_CAPTIVE
 
   - type: STR_RIOTER_M1
     refNode: *STR_RIOTER
