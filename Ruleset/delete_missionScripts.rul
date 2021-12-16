@@ -3,10 +3,14 @@ regions:
     type: STR_NORTH_AMERICA
     missionWeights:
       STR_ALIEN_RESEARCH: 0
-      STR_ALIEN_ABDUCTION: 0
-      STR_ALIEN_BASE: 0
+      STR_ALIEN_RESEARCH_TZEENTCH: 0
       STR_ALIEN_HARVEST: 0
+      STR_ALIEN_HARVEST_TZEENTCH: 0
+      STR_ALIEN_ABDUCTION: 0
+      STR_ALIEN_ABDUCTION_TZEENTCH: 0
       STR_ALIEN_INFILTRATION: 0
+      STR_ALIEN_INFILTRATION_TZEENTCH: 0
+      STR_ALIEN_BASE: 0
   - type: STR_ARCTIC
     refNode: *STR_NO_MISSIONS
   - type: STR_ANTARCTICA
@@ -37,28 +41,21 @@ regions:
     refNode: *STR_NO_MISSIONS
 
 alienMissions:
-  - delete: STR_ALIEN_RESEARCH
-  - delete: STR_ALIEN_HARVEST
-  - delete: STR_ALIEN_ABDUCTION
-  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_RESEARCH #weight towards tzeentch version
+  - delete: STR_ALIEN_RESEARCH_TZEENTCH #weighted mission delete favored by tzeentch
+  - delete: STR_ALIEN_HARVEST #favored by nurgle
+  - delete: STR_ALIEN_HARVEST_TZEENTCH
+  - delete: STR_ALIEN_ABDUCTION #weighted slaanesh and undivided
+  - delete: STR_ALIEN_ABDUCTION_TZEENTCH
+  - delete: STR_ALIEN_INFILTRATION #SLAANESH WEIGHTED
+  - delete: STR_ALIEN_INFILTRATION_TZEENTCH
   - delete: STR_ALIEN_BASE
-#  - delete: STR_ALIEN_TERROR
-#  - delete: STR_ALIEN_RETALIATION # might become a problem
-  - delete: STR_ALIEN_SUPPLYs
-
-  - delete: STR_GUARD_PATROL
-  - delete: STR_ALIEN_PATROL
-  - delete: STR_ALIEN_INTERCEPTION
-  - delete: STR_ALIEN_RESEARCH
-  - delete: STR_ALIEN_HARVEST
-  - delete: STR_ALIEN_ABDUCTION
-  - delete: STR_ALIEN_INFILTRATION
-  - delete: STR_ALIEN_BASE
-  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_TERROR #without tzeentch
+  - delete: STR_ALIEN_TERROR_TZEENTCH
+  - delete: STR_CIVILIAN_TERROR
   - delete: STR_ALIEN_RETALIATION
   - delete: STR_INQUISITION_RETALIATION
-  - delete: STR_ALIEN_SUPPLY # WITH HK/escort
-  - delete: STR_ALIEN_ARTIFACT
+  - delete: STR_ALIEN_ARTIFACT #SPACE HULK
   - delete: STR_ALIEN_SABOTAGE   #ARBITES       direct spawn
   - delete: STR_RIOT             #ARBITES       direct spawn
   - delete: STR_ELDAR_ARTIFACT
@@ -73,39 +70,45 @@ alienMissions:
   - delete: STR_M_9MISSION #SpaceShip   P2       direct spawn
   - delete: STR_ALIEN_WAR
   - delete: STR_ADEPTAS_WAR
+  - delete: STR_ORK_BASE_SPACEHULK_LEVEL3
+  - delete: STR_ORK_BASE_SPACEHULK_LEVEL4
+  - delete: STR_ORK_BASE_SPACEHULK_LEVEL5
+  - delete: STR_NECRON_BASE_EARTHQUAKE
+  - delete: STR_VALKYRIE_PATROL
+  - delete: STR_ALIEN_AIR_SUPERIORITY_LIGHT
+  - delete: STR_DESERTER_HIDEOUT
+  - delete: STR_ALIEN_PATROL
+  - delete: STR_ALIEN_INTERCEPTION
+  - delete: STR_GUARD_PATROL
+  - delete: STR_ORK_AIR_PATROL
+  - delete: STR_ORK_AIR_PATROL_LARGE
+  - delete: STR_ORK_AIR_PATROL_RETALIATION
+  - delete: STR_ALIEN_SUPPLY # WITH HK/escort
   - delete: STR_FINAL_MISSION_CHAOS
   - delete: STR_FINAL_MISSION_MARINES
   - delete: STR_FINAL_MISSION_GUARD
   - delete: STR_FINAL_MISSION_ADEPTAS
   - delete: STR_FINAL_MISSION_ARBITES
-  - delete: STR_CULTIST_BASE_START
-  - delete: STR_CULTIST_BASE
-  - delete: STR_CULTIST_BASE_FROM_EXISTING
-  - delete: STR_CULTIST_SACRIFICES_LEVEL_1
-  - delete: STR_CULTIST_SUMMONING_LEVEL_1
-  - delete: STR_ORK_BASE_START
-  - delete: STR_ORK_BASE
-  - delete: STR_ORK_WAGGON_PATROL_SMALL
-  - delete: STR_ORK_WAGGON_PATROL_MEDIUM
-  - delete: STR_ORK_WAGGON_PATROL_LARGE
-  - delete: STR_ORK_WAAAGH
-  - delete: STR_ORK_BASE_FROM_EXISTING
-  - delete: STR_ORK_OUTPOST
-  - delete: STR_ORK_AIR_PATROL
-  - delete: STR_ORK_AIR_PATROL_LARGE
-  - delete: STR_ORK_AIR_PATROL_RETALIATION
-  - delete: STR_TRAITOR_GUARD_BASE_START
-  - delete: STR_TRAITOR_GUARD_BASE
-  - delete: STR_TRAITOR_GUARD_BASE_FROM_EXISTING
-  - delete: STR_CHIMERA_PATROL
-  - delete: STR_CHIMERA_MAINTENANCE_PATROL
-  - delete: STR_CHIMERA_TRAINING_PATROL
-  - delete: STR_TRAITOR_GUARD_HK_RETALIATION
-  - delete: STR_NECRON_BASE
-  - delete: STR_MONOLITH_PATROL
-  - delete: STR_NECRON_TERROR
+  - delete: STR_SPACE_HULK_GSC #SPACE HULK GSC
+  - delete: STR_GSC_PRECINCT_BASE_BUILD #creates first GSC Arbites base
+  - delete: STR_GSC_PRECINCT_BASE_NEW
+  - delete: STR_HIJACKED_TRANSPORT_GSC #SPACE HULK GSC INFILTRATION
+  - delete: STR_GSC_TAUROX_PATROL_SMALL
+  - delete: STR_GSC_TAUROX_PATROL_MEDIUM
+  - delete: STR_GSC_TRUCKS_PATROL_SMALL
+  - delete: STR_GSC_TRUCK_CONVOY_PATROL_LARGE
+  - delete: STR_GSC_TAUROX_PATROL_LARGE
+  - delete: STR_GSC_RETALIATION
+  - delete: STR_CIVILIAN_TERROR_GSC # no base required
+  - delete: STR_GSC_CIVILIAN_TERROR_MISSION # genMission requires base
+  - delete: STR_DESERTER_HIDEOUT_GSC
+  - delete: STR_TESTER_RETALIATION # tester
+
 
 missionScripts:
+
+## 40k
+
   - delete: gameStart
   - delete: recon
   - delete: invasion
@@ -155,22 +158,23 @@ missionScripts:
 
 # ROSIGMA
 
-  - delete: MMArbites
-  - delete: MMAdeptas
-  - delete: MMElse
-  - delete: alienAirSuperiorityLight
-
-# ROSIGMA 1.05
-
+  - delete: firstMonthTerror
+  - delete: recurringTerror
+  - delete: GSC_SPACE_HULK_ARRIVAL_SCRIPT
+  - delete: recurringGSCTerror
   - delete: deserterHideout
+  - delete: gameStartCultist
+  - delete: gameStartTraitorGuard
+  - delete: gameStart # initial mission in player region
   - delete: SPACEHULK_ORK_BASE_1
   - delete: SPACEHULK_ORK_BASE_2
   - delete: SPACEHULK_ORK_BASE_3
-
-# ROSIGMA 1.06
-
-  - delete: GSC_SPACE_HULK_ARRIVAL_SCRIPT
-  - delete: recurringGSCTerror
-  - delete: gameStart
   - delete: EARTHQUAKE_NECRON_BASE_1
   - delete: EARTHQUAKE_NECRON_BASE_2
+  - delete: STR_GSC_PRECINCT_BASE_BUILD
+  - delete: MMArbites
+  - delete: MMAdeptas
+  - delete: MMElse # SM, CSM, IG
+  - delete: alienAirSuperiorityLight
+  - delete: Tester_Revenge
+
