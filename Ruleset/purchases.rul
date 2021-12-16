@@ -11,6 +11,9 @@ soldiers:
   - type: STR_PENITENT
     requiresBuy:
       - STR_GENERALLOCK
+    rankStrings:
+      - STR_PENITENT_RANK_0
+    
 
   - type: STR_JUDGE
     costBuy: 200000

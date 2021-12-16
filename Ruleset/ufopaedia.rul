@@ -134,6 +134,10 @@ ufopaedia:
       - STR_HIDE_LOCK
     listOrder: 4110
 
+  - id: STR_PENAL_ARMOR_BROWN_UC
+    requires:
+      - STR_ARBITES_CAMPAIGN
+
 ### Stats for Nerds only
 
   - id: STR_CMAS

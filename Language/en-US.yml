@@ -32,6 +32,10 @@ en-US:
 
   STR_ARVUS: "ARVUS"
 
+## Manufacture
+
+  STR_TURN_CRIMINAL_TO_PENITENT: "Turn Captive to Penetant"
+
 ## Events
 
   STR_PENITENT_EVENT: "Cultist Repents"

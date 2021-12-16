@@ -193,3 +193,5 @@ armors:
     annoyedMale:        [{mod: 40k, index: 1194}]
     annoyedFemale:      [{mod: 40k, index: 1194}]
 
+  - type: STR_PENAL_ARMOR_UC
+    ufopediaType: STR_PENAL_ARMOR_BROWN_UC
