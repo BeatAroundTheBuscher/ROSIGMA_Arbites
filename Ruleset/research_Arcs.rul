@@ -26,11 +26,14 @@ research:
     dependencies:
       - STR_SECTOID_COMMANDER
       - STR_SECTOID_ASPIRING_CHAMPION
+      - STR_CULTIST_MENACE
 
   - name: STR_CULTIST_EVIDENCE
     cost: 200
     points: 100
     needItem: true
+    dependencies:
+      - STR_CULTIST_MENACE
 
   - name: STR_CULTIST_PLOT
     cost: 200
@@ -38,6 +41,7 @@ research:
     dependencies:
       - STR_CULTIST_LEADERSHIP
       - STR_CULTIST_EVIDENCE
+      - STR_CULTIST_MENACE
 
   - name: STR_CULTIST_DEFEATED
     cost: 0
