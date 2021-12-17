@@ -128,13 +128,19 @@ mapScripts:
     commands:
     - type: addCraft
       rects:
-        - [1,0,1,1] #[y,x,mapSize_width,mapSize_heigth]
+        - [1,0,1,1] #[x,y,mapSize_width,mapSize_heigth]
     - type: addBlock
       size: [3,2]
       rects:
         - [0, 0, 3, 2]
+    # 37 Defense Corrdior
+    # 36 Adv Prison
+    # 26 Prison
+    # 1 Living Quarters
+    # 7 General Stores
     - type: fillArea
-      blocks: [26, 36]
+      blocks: [1, 7, 26, 36, 37]
+      maxUses: [1, 1, 0, 0, 3]
       terrain: XBASE
     - type: digTunnel
       direction: both
