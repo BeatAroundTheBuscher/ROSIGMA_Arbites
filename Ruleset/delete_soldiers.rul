@@ -1,0 +1,294 @@
+# To make New Battle less of a mess
+
+# cat user/openxcom.log | grep Error | sed 's/^.* processing ./  - delete: /g' | sed 's/. in enviroEffects.*$//g'
+
+enviroEffects:
+
+  - delete: STR_COLONY_ENVIRO
+  - delete: STR_DEEPSPACE_ENVIRO
+  - delete: STR_DESERT_ENVIRO
+  - delete: STR_FOREST_ENVIRO
+  - delete: STR_GUARD_TRAINING_ENVIRONMENT
+  - delete: STR_HANGAR_ENVIRO
+  - delete: STR_INSIDE_ENVIRO
+  - delete: STR_SNOW_ENVIRO
+  - delete: STR_URBAN_ENVIRO
+
+
+# cat user/openxcom.log | grep Error | sed 's/^.* processing ./  - delete: /g' | sed 's/. in units.*$//g'
+
+units:
+  - delete: STR_JOAN
+  - delete: STR_MARINE
+  - delete: STR_MARINE_ZOMBIE_TER_F
+  - delete: STR_MARINE_ZOMBIE_TER_M
+  - delete: STR_TANITH_SCOUT_FEMALE
+  - delete: STR_TANITH_SCOUT_MALE
+  - delete: STR_GUARD_KRIEG
+  - delete: STR_GUARD_PILOT
+  - delete: STR_SLAANESH_NOVICE
+
+
+# cat soldiers_SM.rul | grep type | sed 's/type/delete/g'
+
+soldiers:
+  - delete: STR_PRIMARISLV1
+  - delete: STR_PRIMARISLV2
+  - delete: STR_PRIMARISLV3
+  - delete: STR_PRIMARISLV4
+  - delete: STR_PRIMARISLV5
+  - delete: STR_CHAOS_MARINE
+  - delete: STR_SOLDIER
+  - delete: STR_ADEPTAS
+  - delete: STR_GUARDSM
+  - delete: STR_FALLEN
+  - delete: STR_SOLDIER_JOAN
+  - delete: STR_GUARD_VETERAN
+  - delete: STR_GUARD_OFFICER
+  - delete: STR_COMMISSAR
+  - delete: STR_STORMTROOPER
+  - delete: STR_OGRYN
+  - delete: STR_PSYKER
+  - delete: STR_CANONESS
+  - delete: STR_SAINT
+  - delete: STR_CHAOS_MARINE
+  - delete: STR_SOLDIER
+  - delete: STR_FALLEN
+  - delete: STR_SOLDIER_JOAN
+  - delete: STR_SOLDIER_TERMINATOR
+  - delete: STR_ADEPTAS_NOVICE #Trained Novice, can be promoted to full Sister.
+  - delete: STR_ADEPTAS_SLAANNOVICE #Slaanesh Devoted Novice, can be promoted to full Sister.
+  - delete: STR_ADEPTAS_PILOT
+  - delete: STR_ADEPTAS
+  - delete: STR_ADEPTAS_DCAssassin
+  - delete: STR_ADEPTAS_CHAOS
+  - delete: STR_ADEPTAS_SLAANESH # Sister Bride of Slaanesh
+  - delete: STR_ADEPTAS_KHORNE # Sister of Khorne
+  - delete: STR_ADEPTAS_ASSASSIN
+  - delete: STR_ADEPTAS_CALLIDUS #Callidus Agile Phase Blade user
+  - delete: STR_IMPERIAL_ASSASSINFEM #Female Recruit
+  - delete: STR_ADEPTAS_FRATERIS_MILITIA
+  - delete: STR_CANONESS
+  - delete: STR_ADEPTAS_SUPERIOR
+  - delete: STR_SAINT
+  - delete: STR_GUARDSM
+  - delete: STR_PILOT_GUARD
+  - delete: STR_PENITENT_GUARD # TODO: give worse stats
+  - delete: STR_STORMTROOPER
+  - delete: STR_GUARD_OFFICER
+  - delete: STR_GUARD_VETERAN
+  - delete: STR_GUARD_OFFICER
+  - delete: STR_COMMISSAR
+  - delete: STR_STORMTROOPER
+  - delete: STR_PSYKER
+  - delete: STR_GUARD_IMPERIAL_ASSASSIN
+  - delete: STR_GUARD_PRIEST
+  - delete: STR_GUARD_OFFICER_VETERAN
+  - delete: STR_STORMTROOPER_OFFICER
+  - delete: STR_GUARD_IMPERIAL_ASSASSIN
+  - delete: STR_GUARD_PRIEST
+  - delete: STR_GUARD_OFFICER_VETERAN
+  - delete: STR_STORMTROOPER_OFFICER
+  - delete: STR_GUARD_VETERAN
+  - delete: STR_GUARDSM_KRIEG
+  - delete: STR_LORD_COMMISSAR
+  - delete: STR_LORD_COMMISSAR_YARRICK
+  - delete: STR_GUARD_SQUAT
+  - delete: STR_GUARD_BEASTMAN
+
+
+# cat user/openxcom.log | grep Error | sed 's/^.* processing ./  - delete: /g' | sed 's/. in armors.*$//g'
+
+armors:
+  - delete: BIKE_ARMOR_UC
+  - delete: DREAD_ARMOR2_UC
+  - delete: DREAD_ARMOR3_UC
+  - delete: DREAD_ARMOR4_UC
+  - delete: DREAD_ARMOR5_UC
+  - delete: DREAD_ARMOR_UC
+  - delete: STR_ADEPTAS_ARMORA_UC
+  - delete: STR_ADEPTAS_ARMORB_UC
+  - delete: STR_ADEPTAS_ARMORCEL_UC
+  - delete: STR_ADEPTAS_ARMORC_UC
+  - delete: STR_ADEPTAS_ARMORD_UC
+  - delete: STR_ADEPTAS_ARMORH_UC
+  - delete: STR_ADEPTAS_ARMORI_UC
+  - delete: STR_ADEPTAS_ARMORR_UC
+  - delete: STR_ADEPTAS_ARMORS_UC
+  - delete: STR_ADEPTAS_ARMOR_ELOHIM
+  - delete: STR_ADEPTAS_ARMOR_HONOR_UC
+  - delete: STR_ADEPTAS_ARMOR_RETRIBUTOR
+  - delete: STR_ADEPTAS_ARMOR_UC
+  - delete: STR_ADEPTAS_ARMOR_UC_ALTDRED
+  - delete: STR_ADEPTAS_BLOODYROSE
+  - delete: STR_ADEPTAS_MEDICAE_ARMOR
+  - delete: STR_ADEPTAS_SENTINEL_HBOLTER_UC
+  - delete: STR_ADEPTAS_SENTINEL_LANCE_UC
+  - delete: STR_APOT_ARMOR_UC
+  - delete: STR_ASS_ARMOR_HONOR_UC
+  - delete: STR_ASS_ARMOR_UC
+  - delete: STR_BIOMANCER
+  - delete: STR_BULLGRYN_BUCKLER
+  - delete: STR_BULLGRYN_SLAB
+  - delete: STR_ADEPTAS_ARMORSUP_UC
+  - delete: STR_CHAOS_BEHEMOTH_ARMOR
+  - delete: STR_CHAOS_HAVOC_ARMOR
+  - delete: STR_CHAOS_LORD_ARMOR
+  - delete: STR_CHAOS_MARINE_ARMOR
+  - delete: STR_CHAOS_RAPTOR_ARMOR
+  - delete: STR_CHAOS_SERGEANT_ARMOR
+  - delete: STR_CHAOS_SORC_ARMOR
+  - delete: STR_CHAOS_TERMINATOR_ARMOR
+  - delete: STR_CHAP_ARMOR_UC
+  - delete: STR_COMMISSAR_CARAPACE_UC
+  - delete: STR_COMMISSAR_UC
+  - delete: STR_DEV_ARMOR_UC
+  - delete: STR_DIVINER
+  - delete: STR_ELYSIAN_JUMP_ARMOR
+  - delete: STR_ELYSIAN_JUMP_MEDIC_ARMOR
+  - delete: STR_GREYKNIGHT_UC
+  - delete: STR_GUARD_ARMORH_UC
+  - delete: STR_GUARD_ARMORSM
+  - delete: STR_GUARD_ARMORS_MEDIC_UC
+  - delete: STR_GUARD_ARMORS_MOUNTED_AUTOCANNON_UC
+  - delete: STR_GUARD_ARMORS_MOUNTED_HEAVY_BOLTER_UC
+  - delete: STR_GUARD_ARMORS_MOUNTED_LASCANNON_UC
+  - delete: STR_GUARD_ARMORS_SENTINEL_AUTOCANNON_UC
+  - delete: STR_GUARD_ARMORS_SENTINEL_HEAVY_FLAMER_UC
+  - delete: STR_GUARD_ARMORS_SENTINEL_HEAVY_PLASMA_UC
+  - delete: STR_GUARD_ARMORS_SENTINEL_MISSILE_UC
+  - delete: STR_GUARD_ARMORS_SENTINEL_MULTILASER_UC
+  - delete: STR_GUARD_ARMORS_SENTINEL_MULTIMELTA_UC
+  - delete: STR_GUARD_CARAPACE_VOX
+  - delete: STR_GUARD_CARAPACE_VOX_NOAIRSTRIKE
+  - delete: STR_GUARD_FLAK_VOX
+  - delete: STR_GUARD_FLAK_VOX_NOAIRSTRIKE
+  - delete: STR_GUARD_SCION_VOX
+  - delete: STR_GUARD_SCION_VOX_NOAIRSTRIKE
+  - delete: STR_GUARD_VETERAN_VOX
+  - delete: STR_GUARD_VETERAN_VOX_NOAIRSTRIKE
+  - delete: STR_HONOR_ARMOR_UC
+  - delete: STR_JARMORH_UC
+  - delete: STR_JARMOR_UC
+  - delete: STR_LIB_ARMOR_LOCKDOWN
+  - delete: STR_LIB_ARMOR_MELEE_INSPIRE
+  - delete: STR_LIB_ARMOR_SHIELD
+  - delete: STR_LIB_ARMOR_SMITE
+  - delete: STR_LIB_ARMOR_STASIS
+  - delete: STR_LIB_ARMOR_UC
+  - delete: STR_MARINE_ZOMBIE_TER_F_ARMOR
+  - delete: STR_MARINE_ZOMBIE_TER_M_ARMOR
+  - delete: STR_MEDIC_CARAPACE_ARMOR
+  - delete: STR_MKX_APO_UC
+  - delete: STR_MKX_BIKE_LV1_UC
+  - delete: STR_MKX_BIKE_LV2_UC
+  - delete: STR_MKX_BIKE_LV3_UC
+  - delete: STR_MKX_BIKE_LV4_UC
+  - delete: STR_MKX_BIKE_UC
+  - delete: STR_MKX_CHP_UC
+  - delete: STR_MKX_GRV_LV1_UC
+  - delete: STR_MKX_GRV_LV2_UC
+  - delete: STR_MKX_GRV_LV3_UC
+  - delete: STR_MKX_GRV_LV4_UC
+  - delete: STR_MKX_GRV_LV5_UC
+  - delete: STR_MKX_INC_LV1_UC
+  - delete: STR_MKX_INC_LV2_UC
+  - delete: STR_MKX_INC_LV3_UC
+  - delete: STR_MKX_INC_LV4_UC
+  - delete: STR_MKX_INC_LV5_UC
+  - delete: STR_MKX_LIB_LV1_UC
+  - delete: STR_MKX_LIB_LV2_UC
+  - delete: STR_MKX_LIB_LV3_UC
+  - delete: STR_MKX_PHB_LV1_UC
+  - delete: STR_MKX_PHB_LV2_UC
+  - delete: STR_MKX_PHB_LV3_UC
+  - delete: STR_MKX_PHB_LV4_UC
+  - delete: STR_MKX_PHB_LV5_UC
+  - delete: STR_MKX_TAC_LV1_UC
+  - delete: STR_MKX_TAC_LV2_UC
+  - delete: STR_MKX_TAC_LV3_UC
+  - delete: STR_MKX_TAC_LV4_UC
+  - delete: STR_MKX_TAC_LV5_UC
+  - delete: STR_MKX_TEC_LV1_UC
+  - delete: STR_MKX_TEC_LV2_UC
+  - delete: STR_MKX_TEC_LV3_UC
+  - delete: STR_OFFICER_CARAPACE_ARMOR
+  - delete: STR_OFFICER_CARAPACE_ARMOR_NOAIRSTRIKE
+  - delete: STR_OFFICER_FLAK_ARMOR
+  - delete: STR_OFFICER_FLAK_ARMOR_NOAIRSTRIKE
+  - delete: STR_OGRYN_CARAPACE
+  - delete: STR_OGRYN_UC
+  - delete: STR_PERSONAL_ARMOR_CIVILIAN
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_PSYKER_ARMOR
+  - delete: STR_PYROMANCER
+  - delete: STR_SARGENT_ARMOR_UC
+  - delete: STR_SCION_CARAPACE_ARMOR
+  - delete: STR_SCION_CARAPACE_ARMOR_HELLGUN
+  - delete: STR_SCION_CARAPACE_ARMOR_HELLPISTOL
+  - delete: STR_SCION_CARAPACE_ARMOR_VOLLEYGUN
+  - delete: STR_SCION_MEDIC_CARAPACE_ARMOR
+  - delete: STR_SCOUTHB_UC
+  - delete: STR_SCOUTHG_UC
+  - delete: STR_SCOUTHR_UC
+  - delete: STR_SCOUTHW_UC
+  - delete: STR_SCOUTHY_UC
+  - delete: STR_SCOUTH_UC
+  - delete: STR_SCOUT_UC
+  - delete: STR_SENTINEL_ARMOR_UC
+  - delete: STR_SIGNALFALSE_ARMOR_UC
+  - delete: STR_SIGNAL_ARMOR_UC
+  - delete: STR_STORMTROOPER_CARAPACE_ARMOR
+  - delete: STR_STORMTROOPER_CARAPACE_ARMOR_HELLGUN
+  - delete: STR_STORMTROOPER_CARAPACE_ARMOR_HELLPISTOL
+  - delete: STR_STORMTROOPER_CARAPACE_ARMOR_VOLLEYGUN
+  - delete: STR_STORMTROOPER_MEDIC_CARAPACE_ARMOR
+  - delete: STR_TANITH_CAMO_ARMOR
+  - delete: STR_TANITH_MEDIC_ARMOR
+  - delete: STR_TANITH_SCOUT_FEMALE
+  - delete: STR_TANITH_SCOUT_MALE
+  - delete: STR_TECH_ARMOR_UC
+  - delete: STR_TELEKINE
+  - delete: STR_TELEPATH
+  - delete: CENT_ARMOR_UC
+  - delete: STR_ADEPTAS_ARMOR_SUPERIOR
+  - delete: STR_ADEPTAS_CALLIDUS_SUIT
+  - delete: STR_ADEPTAS_CANTUSArmor
+  - delete: STR_ADEPTAS_NOVICEHABIT
+  - delete: STR_ADEPTAS_PILOT_ARMOR
+  - delete: STR_ASSASSINNEUTRAL_FEMSUIT
+  - delete: STR_BEASTGUARD_CARAPACE_ARMOR
+  - delete: STR_BEASTGUARD_FLAK_ARMOR
+  - delete: STR_CAPTAIN_UC
+  - delete: STR_COMMISSAR_CLAW_UC
+  - delete: STR_COMMISSAR_YARRICK_UC
+  - delete: STR_DEATHCULT_ASSASSIN_ARMOR
+  - delete: STR_FLYING_SUIT_UC
+  - delete: STR_FRATERIS_MILITIA_HEAVY
+  - delete: STR_GUARD_ARMORP_UC
+  - delete: STR_GUARD_ARMORS_PRIEST_UC
+  - delete: STR_GUARD_IMPERIAL_ASSASSIN_UC
+  - delete: STR_GUARD_KRIEG_ARMOR
+  - delete: STR_GUARD_KRIEG_ARMORS_MOUNTED_AUTOCANNON_UC
+  - delete: STR_GUARD_KRIEG_ARMORS_MOUNTED_HEAVY_BOLTER_UC
+  - delete: STR_GUARD_KRIEG_ARMORS_MOUNTED_LASCANNON_UC
+  - delete: STR_GUARD_KRIEG_ARMORS_MOUNTED_MORTAR_UC
+  - delete: STR_GUARD_KRIEG_ENGINEER_ARMOR
+  - delete: STR_GUARD_KRIEG_GRENADIER_ARMOR
+  - delete: STR_GUARD_KRIEG_GRENADIER_ARMOR_LUCIUS
+  - delete: STR_PDF_PILOT
+  - delete: STR_PENAL_ARMOR_BROWN_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_SCION_OFFICER_CARAPACE_ARMOR
+  - delete: STR_SCION_OFFICER_CARAPACE_ARMOR_HELLGUN
+  - delete: STR_SCION_OFFICER_CARAPACE_ARMOR_HELLPISTOL
+  - delete: STR_SCION_OFFICER_CARAPACE_ARMOR_VOLLEYGUN
+  - delete: STR_SLAANESH_NOVICEHABIT
+  - delete: STR_SQUAT_CARAPACE_ARMOR
+  - delete: STR_SQUAT_FLAK_ARMOR
+  - delete: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR
+  - delete: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_HELLGUN
+  - delete: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_HELLPISTOL
+  - delete: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_VOLLEYGUN
+  - delete: STR_TSARGENT_UC
+
