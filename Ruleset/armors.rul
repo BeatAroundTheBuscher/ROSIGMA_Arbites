@@ -195,3 +195,7 @@ armors:
 
   - type: STR_PENAL_ARMOR_UC
     ufopediaType: STR_PENAL_ARMOR_BROWN_UC
+
+  - type: STR_PENAL_ARMOR_BROWN_UC
+    units: !remove
+      - STR_PENITENT_GUARD

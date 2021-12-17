@@ -211,3 +211,43 @@ units:
 # STR_SECTOID_DARKDISCIPLE_ALPHA
 # STR_SECTOID_DARK_DISCIPLE_DAEMONETTE
 # STR_SECTOID_DARK_DISCIPLE_NEVERBORN
+
+
+  - type: STR_PENAL_PRISONER
+    race: STR_CIVILIAN # TODO
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: STR_PENAL_ARMOR_BROWN_UC
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE
+      - - STR_STUB_GUN
+        - STR_STUB_GUN_AMMO
+        - STR_STUB_GUN_AMMO
+        - STR_COMBAT_KNIFE
+        - STR_MAKESHIFT_GRENADE
+      - - STR_AUTOPISTOL
+        - STR_AUTOPISTOL_CLIP
+        - STR_AUTOPISTOL_CLIP
+        - STR_COMBAT_KNIFE
+        - STR_MAKESHIFT_PIPEBOMB
+      - - STR_LASER_PISTOLG
+        - STR_LASPISTOL_CLIP
+        - STR_LASPISTOL_CLIP
+        - STR_COMBAT_KNIFE
+        - STR_MAKESHIFT_PIPEBOMB
