@@ -81,8 +81,8 @@ missionScripts:
 ## DANGER LEVEL 1
 
   - type: Prison Break
-    firstMonth: 3 # number of months passed (compare to savegame)
-    lastMonth: 5
+    firstMonth: 4 # number of months passed (compare to savegame)
+    lastMonth: 6
     executionOdds: 100
     raceWeights:
       0:
@@ -100,7 +100,8 @@ missionScripts:
   - type: Sacrifice
     executionOdds: 50
     label: [120]
-    firstMonth: 3
+    firstMonth: 4
+    lastMonth: 6
     missionWeights:
       0:
         STR_CULTIST_SACRIFICES_LEVEL_1: 100
@@ -119,7 +120,8 @@ missionScripts:
   - type: Summoning
     executionOdds: 100
     conditionals: [-120]
-    firstMonth: 3
+    firstMonth: 4
+    lastMonth: 6
     missionWeights:
       0:
         STR_CULTIST_SUMMONING_LEVEL_1: 100
@@ -129,7 +131,7 @@ missionScripts:
     raceWeights:
       0:
         STR_SECTOID: 100
-    startDelay: 12000
+    startDelay: 18000
     randomDelay: 6000
     useTable: false
     researchTriggers:
@@ -151,7 +153,7 @@ missionScripts:
         STR_SECTOID: 100
     researchTriggers:
       STR_BEGINNING_INVESTIGATION: true
-      STR_INTERROGATION_COMPLETED: true
+      STR_CULTIST_MENACE: true
       STR_CULTIST_PLOT: false
       STR_CULTIST_DEFEATED: false
     startDelay: 12000
@@ -163,7 +165,7 @@ missionScripts:
     executionOdds: 100
     missionWeights:
       0:
-        STR_CITY_SUMMONING_LEVEL_1: 100
+        STR_CATACOMBS: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100

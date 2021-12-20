@@ -1,5 +1,10 @@
 alienMissions:
-  - type: STR_RIOT # direct spawn
+  - delete: STR_RIOT
+  - delete: STR_ALIEN_SABOTAGE
+  - delete: STR_CULTIST_SUMMONING_LEVEL_1 # required as this mission expects a base
+  - delete: STR_CULTIST_SACRIFICES_LEVEL_1
+
+  - type: STR_RIOT
     points: 10
     objective: 3
     spawnZone: 0
@@ -10,7 +15,7 @@ alienMissions:
         timer: 0
         objective: true
 
-  - type: STR_ALIEN_SABOTAGE # direct spawn
+  - type: STR_ALIEN_SABOTAGE
     points: 10
     objective: 3
     spawnZone: 0
@@ -76,6 +81,17 @@ alienMissions:
     siteType: STR_PRISON_BREAK
     waves:
       - ufo: STR_PRISON_BREAK
+        count: 1
+        trajectory: DIRECT_TO_TERROR_SITE_TRAJECTORY
+        timer: 0
+        objective: true
+
+  - type: STR_CATACOMBS
+    objective: 3
+    spawnZone: 0
+    siteType: STR_CATACOMBS
+    waves:
+      - ufo: STR_CATACOMBS
         count: 1
         trajectory: DIRECT_TO_TERROR_SITE_TRAJECTORY
         timer: 0

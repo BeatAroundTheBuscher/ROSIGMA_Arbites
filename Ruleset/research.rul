@@ -144,6 +144,8 @@ research:
     spawnedEvent: STR_PENITENT_EVENT
     unlocks:
       - STR_INTERROGATION_COMPLETED
+    getOneFree:
+      - STR_SECTOID_CORPSE
 
 #  - name: STR_SECTOID_LEADER
 #    refNode: *STR_SECTOID
@@ -151,14 +153,14 @@ research:
   - name: STR_SECTOID_COMMANDER
     refNode: *STR_SECTOID
     dependencies: 
-      - STR_INTERROGATION_COMPLETED
+      - STR_CULTIST_MENACE
     unlocks: !remove
       - STR_INTERROGATION_COMPLETED
 
   - name: STR_SECTOID_ASPIRING_CHAMPION
     refNode: *STR_SECTOID
     dependencies: 
-      - STR_INTERROGATION_COMPLETED
+      - STR_CULTIST_MENACE
     unlocks: !remove
       - STR_INTERROGATION_COMPLETED
 

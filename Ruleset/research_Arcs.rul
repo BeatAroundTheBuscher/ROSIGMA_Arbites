@@ -15,8 +15,9 @@ research:
     points: 100
     dependencies:
       - STR_SECTOID # any Cultist
-      - STR_BEGINNING_INVESTIGATION
       - STR_SECTOID_CORPSE
+      - STR_BEGINNING_INVESTIGATION
+      - STR_INTERROGATION_COMPLETED
     unlocks:
       - STR_JUDGE_RECRUITMENT
       - STR_CYBER_MASTIFF_RECRUITMENT

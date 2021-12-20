@@ -414,7 +414,7 @@ alienDeployments:
     markerName: STR_PRISON_BREAK_SITE
 
   - type: STR_CATACOMBS
-    markerIcon: 54
+#    markerIcon: 54
     script: CATACOMB_SCRIPT
     terrains:
       - CATACOMB
@@ -481,3 +481,4 @@ alienDeployments:
     markerName: STR_CATACOMB_SITE
     duration: [120, 240]
     despawnPenalty: 100
+    unlockedResearch: STR_CULTIST_DEFEATED

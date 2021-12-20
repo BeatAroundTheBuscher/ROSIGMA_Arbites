@@ -67,7 +67,7 @@ startingBase:
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
-  scientists: 10
+  scientists: 25
   engineers: 10
   lon: 1.4808952852577943
   lat: -0.81762463427609766
@@ -140,7 +140,7 @@ startingBaseExperienced:
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
-  scientists: 10
+  scientists: 25
   engineers: 10
   lon: 1.4808952852577943
   lat: -0.81762463427609766
@@ -213,7 +213,7 @@ startingBaseVeteran: #*** Arbites
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
-  scientists: 10
+  scientists: 25
   engineers: 10
   lon: 1.4808952852577943
   lat: -0.81762463427609766
@@ -286,7 +286,7 @@ startingBaseGenius: #*** Adeptas
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
-  scientists: 10
+  scientists: 25
   engineers: 10
   lon: 1.4808952852577943
   lat: -0.81762463427609766
@@ -359,7 +359,7 @@ startingBaseSuperhuman: #*** Imperial Guard
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
-  scientists: 10
+  scientists: 25
   engineers: 10
   lon: 1.4808952852577943
   lat: -0.81762463427609766

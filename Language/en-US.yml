@@ -86,10 +86,10 @@ en-US:
   STR_CULTIST_LEADERSHIP: "Cultist Leadership"
   STR_CULTIST_LEADERSHIP_TEXT: "TODO" # Priests supported by CSMs
 
-  STR_CULTIST_EVIDENCE: "Cultist Leadership"
+  STR_CULTIST_EVIDENCE: "Cultist Evidence"
   STR_CULTIST_EVIDENCE_TEXT: "TODO" # Priests supported by CSMs
 
-  STR_CULTIST_PLOT: "Cultist Leadership"
+  STR_CULTIST_PLOT: "Cultist Plot"
   STR_CULTIST_PLOT_TEXT: "TODO" # Priests supported by CSMs
 
   STR_CULTIST_DEFEATED: "Cultist Menace Defeated"
@@ -101,14 +101,14 @@ en-US:
 # briefing description
 # alert
 # markerName
-  STR_PRISON_BREAK: "Ongoing Prison Break"
-  STR_PRISON_BREAK_TITLE: "ToDo1"
+  STR_PRISON_BREAK: "Prison Break"
+  STR_PRISON_BREAK_TITLE: "Prison Break in Progress"
   STR_PRISON_BREAK_DESCRIPTION: "ToDo2"
-  STR_PRISON_BREAK_RIOT: "ToDo3"
-  STR_PRISON_BREAK_SITE: "ToDo4"
+  STR_PRISON_BREAK_RIOT: "Prison Break Detected"
+  STR_PRISON_BREAK_SITE: "Prison Break in Progress"
 
-  STR_CATACOMBS: "Heritical Cult Found"
-  STR_CATACOMB_TITLE: "ToDo1"
+  STR_CATACOMBS: "Catacombs"
+  STR_CATACOMB_TITLE: "Heritical Cult"
   STR_CATACOMB_DESCRIPTION: "ToDo2"
-  STR_CATACOMB_DETECTED: "ToDo3"
-  STR_CATACOMB_SITE: "ToDo4"
+  STR_CATACOMB_DETECTED: "Heritical Cult Found"
+  STR_CATACOMB_SITE: "Heritical Cult"
