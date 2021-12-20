@@ -69,3 +69,14 @@ alienMissions:
         count: 1
         trajectory: P8
         timer: 3000
+
+  - type: STR_PRISON_BREAK
+    objective: 3
+    spawnZone: 0
+    siteType: STR_PRISON_BREAK
+    waves:
+      - ufo: STR_PRISON_BREAK
+        count: 1
+        trajectory: DIRECT_TO_TERROR_SITE_TRAJECTORY
+        timer: 0
+        objective: true

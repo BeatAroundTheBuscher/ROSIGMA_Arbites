@@ -646,3 +646,10 @@ items:
 
   - type: STR_CIVILIAN_M1_CORPSE
     refNode: *STR_CIVILIAN
+
+  - type: STR_TARANTULAA_SPAWNER_ENEMY
+    spawnUnit: STR_T_ARBITES_BOLTER
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4

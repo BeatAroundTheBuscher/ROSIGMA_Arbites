@@ -31,3 +31,38 @@ terrains:
             #- [11, 5, 0]
             #- [11, 12, 0]
             #- [5, 11, 0]
+
+  - name: PRISON_BREAK
+    enviroEffects: STR_URBAN_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+    script: PRISON_BREAK_SCRIPT
+    mapBlocks:
+      - name: PRISON_BREAK_00 # Living Space
+        width: 10
+        length: 10
+      - name: PRISON_BREAK_01 # General Store
+        width: 10
+        length: 10
+      - name: PRISON_BREAK_02 # Prison 1
+        width: 10
+        length: 10
+      - name: PRISON_BREAK_03 # Hangar 
+        width: 30
+        length: 20
+      - name: PRISON_BREAK_04 # Prison 2
+        width: 10
+        length: 10
+      - name: PRISON_BREAK_05 # Defense Corridor
+        width: 10
+        length: 10
+        items:
+          STR_TARANTULAA_SPAWNER_ENEMY:
+            - [5, 5, 1]
+        fuseTimers:
+          STR_TARANTULAA_SPAWNER_ENEMY: [0, 0]

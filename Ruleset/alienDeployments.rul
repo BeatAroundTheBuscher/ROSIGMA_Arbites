@@ -351,21 +351,22 @@ alienDeployments:
 
 
   - type: STR_PRISON_BREAK
-    music:
-      - HANGAR
+    alert: STR_PRISON_BREAK_RIOT
+    alertBackground: BACK169.SCR
+#    alertDescription: STR_PRISON_BREAK_DESCRIPTION
     briefing:
-      title: STR_HANGAR_TITLE
+      title: STR_PRISON_BREAK_TILE
       palette: 4
-      desc: STR_HANGAR_DESCRIPTION
-      music: HANGAR
+      desc: STR_PRISON_BREAK_DESCRIPTION
+      music: GMENBASE
       showCraft: true
       showTarget: false
-      background: BACK16.SCR
+      background: BACK150.SCR
     civilians: 12
     shade: 1
     terrains:
-      - XHANGAR
-    script: PRISON_BREAK
+      - PRISON_BREAK
+    script: PRISON_BREAK_SCRIPT
     data:
       - alienRank: 5
         lowQty: 10
@@ -403,9 +404,9 @@ alienDeployments:
             []
           -
             []
-    race: STR_PRISON_BREAK
     width: 50
     length: 50
     height: 6
     enviroEffects: STR_HANGAR_ENVIRO
-    finalDestination: true
+    duration: [48, 72]
+    despawnPenalty: 250

@@ -124,24 +124,23 @@ mapScripts:
       terrain: baseTerrain
       groups: [16]
 
-  - type: PRISON_BREAK
+  - type: PRISON_BREAK_SCRIPT
     commands:
     - type: addCraft
       rects:
-        - [1,0,1,1] #[x,y,mapSize_width,mapSize_heigth]
+        - [1,0,1,2] #[x,y,mapSize_width,mapSize_heigth]
     - type: addBlock
       size: [3,2]
       rects:
         - [0, 0, 3, 2]
-    # 37 Defense Corrdior
-    # 36 Adv Prison
-    # 26 Prison
-    # 1 Living Quarters
-    # 7 General Stores
+    # 5 Defense Corrdior
+    # 4 Adv Prison
+    # 2 Prison
+    # 0 Living Quarters
+    # 1 General Stores
     - type: fillArea
-      blocks: [1, 7, 26, 36, 37]
+      blocks: [0, 1, 2, 4, 5]
       maxUses: [1, 1, 0, 0, 3]
-      terrain: XBASE
     - type: digTunnel
       direction: both
       tunnelData:
