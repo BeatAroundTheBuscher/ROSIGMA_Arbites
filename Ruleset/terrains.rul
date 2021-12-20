@@ -62,7 +62,7 @@ terrains:
         width: 10
         length: 10
         items:
-          STR_TARANTULAA_SPAWNER_ENEMY:
+          STR_TARANTULAA_SPAWNER_CIV:
             - [5, 5, 1]
         fuseTimers:
-          STR_TARANTULAA_SPAWNER_ENEMY: [0, 0]
+          STR_TARANTULAA_SPAWNER_CIV: [0, 0]

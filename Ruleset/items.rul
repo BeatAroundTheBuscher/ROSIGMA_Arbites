@@ -653,3 +653,10 @@ items:
     invWidth: 0
     invHeight: 0
     battleType: 4
+
+  - type: STR_TARANTULAA_SPAWNER_CIV
+    spawnUnit: STR_T_ARBITES_BOLTER
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4

@@ -80,6 +80,23 @@ missionScripts:
 
 ## DANGER LEVEL 1
 
+  - type: Prison Break
+    firstMonth: 3 # number of months passed (compare to savegame)
+    lastMonth: 5
+    executionOdds: 100
+    raceWeights:
+      0:
+        STR_PRISON_BREAK: 100
+    missionWeights:
+      0:
+        STR_PRISON_BREAK: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    startDelay: 7200
+    randomDelay: 3000
+    useTable: false
+
   - type: Sacrifice
     executionOdds: 50
     label: [120]
@@ -140,7 +157,7 @@ missionScripts:
     randomDelay: 6000
     useTable: false
 
-  - type: Cultist_Revenge # Currently Inactive
+  - type: Cultist_Revenge
     firstMonth: 1
     raceWeights:
       0:
@@ -149,10 +166,11 @@ missionScripts:
       0:
         STR_CULTIST_RETALIATION: 100
     researchTriggers:
-      STR_THE_MARTIAN_SOLUTION: true
+      STR_CULTIST_DEFEATED: true
     startDelay: 6000
     randomDelay: 3000
     targetBaseOdds: 100
     useTable: false
     varName: cultistRevenge
     maxRuns: 1
+
