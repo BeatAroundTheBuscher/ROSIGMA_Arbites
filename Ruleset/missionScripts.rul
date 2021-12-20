@@ -152,6 +152,26 @@ missionScripts:
     researchTriggers:
       STR_BEGINNING_INVESTIGATION: true
       STR_INTERROGATION_COMPLETED: true
+      STR_CULTIST_PLOT: false
+      STR_CULTIST_DEFEATED: false
+    startDelay: 12000
+    randomDelay: 6000
+    useTable: false
+
+  - type: STR_CATACOMBS
+    firstMonth: 0
+    executionOdds: 100
+    missionWeights:
+      0:
+        STR_CITY_SUMMONING_LEVEL_1: 100
+    regionWeights:
+      0:
+        REGION_HULK_SITES: 100
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+    researchTriggers:
+      STR_CULTIST_PLOT: true
       STR_CULTIST_DEFEATED: false
     startDelay: 12000
     randomDelay: 6000

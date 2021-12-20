@@ -2,6 +2,7 @@ alienDeployments:
   - delete: STR_RIOT
   - delete: STR_SABOTAGE_MISSION
   - delete: STR_CULTIST_SACRIFICES_LEVEL_1
+  - delete: STR_CATACOMBS
 
   - type: STR_RIOT
     briefing:
@@ -355,7 +356,7 @@ alienDeployments:
     alertBackground: BACK169.SCR
 #    alertDescription: STR_PRISON_BREAK_DESCRIPTION
     briefing:
-      title: STR_PRISON_BREAK_TILE
+      title: STR_PRISON_BREAK_TITLE
       palette: 4
       desc: STR_PRISON_BREAK_DESCRIPTION
       music: GMENBASE
@@ -410,3 +411,73 @@ alienDeployments:
     enviroEffects: STR_HANGAR_ENVIRO
     duration: [48, 72]
     despawnPenalty: 250
+    markerName: STR_PRISON_BREAK_SITE
+
+  - type: STR_CATACOMBS
+    markerIcon: 54
+    script: CATACOMB_SCRIPT
+    terrains:
+      - CATACOMB
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 3
+        lowQty: 3
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 4
+        lowQty: 3
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 5
+        lowQty: 10
+        highQty: 10
+        dQty: 5
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 6
+        lowQty: 3
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 7
+        lowQty: 2
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets  
+    shade: 6
+    width: 50
+    length: 50
+    height: 4
+    briefing:
+      desc: STR_CATACOMB_DESCRIPTION
+      music: gmstory2
+      background: BACK03.SCR
+      title: STR_CATACOMB_TITLE
+    alert: STR_CATACOMB_DETECTED
+    alertBackground: BACK150.SCR
+    markerName: STR_CATACOMB_SITE
+    duration: [120, 240]
+    despawnPenalty: 100

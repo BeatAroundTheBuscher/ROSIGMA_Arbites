@@ -94,3 +94,21 @@ en-US:
 
   STR_CULTIST_DEFEATED: "Cultist Menace Defeated"
   STR_CULTIST_DEFEATED_TEXT: "TODO"
+
+## Missions
+# type
+# briefing title
+# briefing description
+# alert
+# markerName
+  STR_PRISON_BREAK: "Ongoing Prison Break"
+  STR_PRISON_BREAK_TITLE: "ToDo1"
+  STR_PRISON_BREAK_DESCRIPTION: "ToDo2"
+  STR_PRISON_BREAK_RIOT: "ToDo3"
+  STR_PRISON_BREAK_SITE: "ToDo4"
+
+  STR_CATACOMBS: "Heritical Cult Found"
+  STR_CATACOMB_TITLE: "ToDo1"
+  STR_CATACOMB_DESCRIPTION: "ToDo2"
+  STR_CATACOMB_DETECTED: "ToDo3"
+  STR_CATACOMB_SITE: "ToDo4"
