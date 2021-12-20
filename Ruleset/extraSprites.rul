@@ -52,3 +52,18 @@
     subY: 40
     files:
       0: Resources/UnitSprites/GUARDPD_F.png
+
+#  - type: TAC00.SCR #endturn
+#    singleImage: true
+#    width: 320
+#    height: 200
+#    files:
+#      0: Resources/Backgrounds/ArbitesBG.png
+
+  - type: BACK01.SCR #screen
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+#      0: Resources/Backgrounds/ArbitesBG.png
+      0: Resources/Backgrounds/169.gif
