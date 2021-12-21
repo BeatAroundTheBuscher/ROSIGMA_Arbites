@@ -33,6 +33,3 @@ items:
 
   - type: STR_AUTOPISTOL
     refNode: *STR_ITEM_CHANGE_COLOR
-
-  - type: STR_LASER_RIFLEG
-    refNode: *STR_ITEM_CHANGE_COLOR

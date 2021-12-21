@@ -43,7 +43,7 @@ units:
         - STR_AUTOGUN_CLIP
         - STR_GRENADE
 #        - STR_UNIT_TURNER_FT1
-      - - STR_LASER_RIFLEG
+      - - STR_LASER_RIFLE
         - STR_LASGUN_CLIP
         - STR_LASGUN_CLIP
         - STR_KRAK_GRENADE
