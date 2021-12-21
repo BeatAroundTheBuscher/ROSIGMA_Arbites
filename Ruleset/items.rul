@@ -50,6 +50,7 @@ items:
     requires: !remove
       - STR_ARBITES
     power: 10 # gets its power from damageBonus
+    accuracyMelee: 120
     damageBonus:
       strength: 0.2
       melee: 0.4
@@ -75,7 +76,7 @@ items:
       RandomType: 2
     meleeAnimation: {mod: 40k, index: 0} 
     strengthApplied: false
-    accuracyMelee: 90
+    accuracyMelee: 100
     tuMelee: 25
     clipSize: -1
     battleType: 3
