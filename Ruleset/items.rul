@@ -664,3 +664,7 @@ items:
     invWidth: 0
     invHeight: 0
     battleType: 4
+
+  - type: STR_PENAL_CORPSE
+    power: 75
+    blastRadius: 5

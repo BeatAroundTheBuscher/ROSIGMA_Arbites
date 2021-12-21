@@ -230,7 +230,6 @@ units:
     armor: STR_PENAL_ARMOR_BROWN_UC
     standHeight: 21
     kneelHeight: 14
-    value: 30
     intelligence: 4
     energyRecovery: 20
     deathSound: [41, 42, 43]
@@ -252,3 +251,6 @@ units:
         - STR_COMBAT_KNIFE
         - STR_MAKESHIFT_PIPEBOMB
     liveAlien: STR_CIVILIAN_CAPTIVE
+    specab: 1 #explodes on death
+    moraleLossWhenKilled: 50
+    specialChance: 20
