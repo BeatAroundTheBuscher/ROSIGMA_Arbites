@@ -11,6 +11,9 @@ items:
   - type: STR_STUN_ROD
     damageAlter:
       RandomType: 2
+    meleeMultiplier:
+      melee: 0.5
+      flatHundred: 0.5
 
   - type: STR_COMBAT_KNIFE
     categories: [STR_CAT_MELEE]
