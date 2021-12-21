@@ -99,7 +99,7 @@ missionScripts:
 
   - type: Sacrifice
     executionOdds: 50
-    label: [120]
+    label: 120
     firstMonth: 4
     lastMonth: 6
     missionWeights:
