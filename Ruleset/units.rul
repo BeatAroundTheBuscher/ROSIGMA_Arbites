@@ -255,3 +255,9 @@ units:
     moraleLossWhenKilled: 50
     specialChance: 20
     value: 10
+
+  - type: STR_CYBERDISC_TERRORIST
+    builtInWeaponSets:
+      - - CYBERDISC_WEAPON
+      - - CYBERDISC_WEAPON
+      - - CYBERDISC_WEAPON
