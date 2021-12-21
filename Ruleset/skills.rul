@@ -55,4 +55,4 @@ items:
 
       ResistType: 19
     targetMatrix: 6 # 1 Friend # 2 Enemy # 4 Neutral
-    maxRange: 10
+    maxRange: 20
