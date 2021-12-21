@@ -251,3 +251,4 @@ units:
         - STR_LASPISTOL_CLIP
         - STR_COMBAT_KNIFE
         - STR_MAKESHIFT_PIPEBOMB
+    liveAlien: STR_CIVILIAN_CAPTIVE
