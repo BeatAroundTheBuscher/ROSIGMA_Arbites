@@ -21,7 +21,7 @@ soldiers:
       - STR_JUDGE_RECRUITMENT
 
   - type: STR_ARBITES_MASTIFF
-    costBuy: 200000
+    costBuy: 100000
     requires:
       - STR_CYBER_MASTIFF_RECRUITMENT
 
