@@ -254,3 +254,4 @@ units:
     specab: 1 #explodes on death
     moraleLossWhenKilled: 50
     specialChance: 20
+    value: 10
