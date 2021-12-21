@@ -256,7 +256,11 @@ units:
     specialChance: 20
     value: 10
 
-  - type: STR_CYBERDISC_TERRORIST
+  - type: STR_SILACOID_TERRORIST # 1x1 daemon
+    moraleLossWhenKilled: 50
+
+  - type: STR_CYBERDISC_TERRORIST # 2x2 daemon
+    moraleLossWhenKilled: 50
     builtInWeaponSets:
       - - CYBERDISC_WEAPON
       - - CYBERDISC_WEAPON
