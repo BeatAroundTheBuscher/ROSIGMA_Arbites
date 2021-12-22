@@ -113,6 +113,9 @@ armors:
       - INV_NULL_2X1_LL
       - INV_NULL_3X3
       - INV_NULL_4X2
+    recovery:
+     energy: 
+      energyRegen: 2.0
 
 ## LAYERS
 
