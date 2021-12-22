@@ -668,3 +668,4 @@ items:
   - type: STR_PENAL_CORPSE
     power: 75
     blastRadius: 5
+    specialChance: 20

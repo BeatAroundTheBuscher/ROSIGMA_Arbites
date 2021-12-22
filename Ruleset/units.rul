@@ -253,7 +253,6 @@ units:
     liveAlien: STR_CIVILIAN_CAPTIVE
     specab: 1 #explodes on death
     moraleLossWhenKilled: 50
-    specialChance: 20
     value: 10
 
   - type: STR_SILACOID_TERRORIST # 1x1 daemon
