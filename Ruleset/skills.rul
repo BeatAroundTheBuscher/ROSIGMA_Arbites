@@ -20,6 +20,7 @@ skills:
 
 items:
   - type: STR_JUDGE_PSI_AMP
+    weight: 0
     power: 0
     damageBonus:
       bravery: 1
