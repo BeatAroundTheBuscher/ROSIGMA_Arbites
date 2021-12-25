@@ -80,7 +80,7 @@ missionScripts:
 
 ## DANGER LEVEL 1
 
-  - type: Prison Break
+  - type: Prison_Break
     firstMonth: 4 # number of months passed (compare to savegame)
     lastMonth: 6
     executionOdds: 100
