@@ -92,7 +92,8 @@ items:
 
 ### STUBBERS
 
-  - type: STR_AUTOGUN
+  - &STR_GUN_BUTT
+    type: STR_AUTOGUN
     #*** Melee butt
 #    meleeHitSound: 101
 #    meleeAnimation: 0
@@ -108,7 +109,8 @@ items:
       ToTile: 1
       TileDamageMethod: 1
       RandomType: 2
-      
+    confMelee:
+      name: STR_GUN_BUTT
     accuracyMelee: 110
     meleeMultiplier:
       flatHundred: 0.5
@@ -116,42 +118,6 @@ items:
     tuMelee: 14
     flatMelee:
       time: true
-    
-  - type: STR_MAKESHIFT_GRENADE
-    categories: [ STR_CAT_GRENADES]
-    size: 0.1
-    weight: 3
-    bigSprite: 201
-    floorSprite: {mod: 40k, index: 304}
-    handSprite: {mod: 40k, index: 904}
-    power: 50
-    damageType: 3
-    battleType: 4
-    invWidth: 1
-    invHeight: 2
-    blastRadius: 4
-    listOrder: 17100
-    throwRange: 20
-    damageAlter:
-      FireThreshold: 25
-
-  - type: STR_MAKESHIFT_PIPEBOMB
-    categories: [ STR_CAT_GRENADES]
-    size: 0.1
-    weight: 6
-    bigSprite: 202
-    floorSprite: {mod: 40k, index: 304}
-    handSprite: {mod: 40k, index: 904}
-    power: 80 # Frag Grenade is 70
-    damageType: 3
-    battleType: 4
-    invWidth: 1
-    invHeight: 2
-    blastRadius: 6
-    listOrder: 17100
-    throwRange: 8
-    damageAlter:
-      FireThreshold: 25
 
   - type: STR_SMG_STUB_GUN
     compatibleAmmo:
@@ -163,11 +129,17 @@ items:
     clipSize: 20 # was 30
     power: 30 # was 35
 
+
+### LASGUNS
+
+  - type: STR_LASER_RIFLE
+    refNode: *STR_GUN_BUTT
+
   - type: STR_LASER_PISTOL  #LASPISTOL                 10800
   - type: STR_LASER_PISTOLC  #LASPISTOL  CHAOS         10820
   #- type: STR_LASPISTOL_CLIPB #LASPISTOL CLIPBBBBBB    10860
 
-  - type: STR_LASER_RIFLE #LASGUN                      10900
+
   - type: STR_MCLASER_RIFLE #LASGUN           11000                  MC no aim
   - type: STR_LASER_RIFLEC #LASGUN CHAOS               10920
   - type: STR_LASCARBINE
@@ -593,6 +565,44 @@ items:
   - type: STR_SLASCANPD #SENTINEL LASCANON                     fixedWeapon
   - type: STR_CMAS #Cyber MAS    2320
   - type: STR_CMAS_CORPSE #Cyber MAS CORPSE
+
+### EXPLOSIVES
+
+  - type: STR_MAKESHIFT_GRENADE
+    categories: [ STR_CAT_GRENADES]
+    size: 0.1
+    weight: 3
+    bigSprite: 201
+    floorSprite: {mod: 40k, index: 304}
+    handSprite: {mod: 40k, index: 904}
+    power: 50
+    damageType: 3
+    battleType: 4
+    invWidth: 1
+    invHeight: 2
+    blastRadius: 4
+    listOrder: 17100
+    throwRange: 16
+    damageAlter:
+      FireThreshold: 25
+
+  - type: STR_MAKESHIFT_PIPEBOMB
+    categories: [ STR_CAT_GRENADES]
+    size: 0.1
+    weight: 6
+    bigSprite: 202
+    floorSprite: {mod: 40k, index: 304}
+    handSprite: {mod: 40k, index: 904}
+    power: 80 # Frag Grenade is 70
+    damageType: 3
+    battleType: 4
+    invWidth: 1
+    invHeight: 2
+    blastRadius: 6
+    listOrder: 17100
+    throwRange: 8
+    damageAlter:
+      FireThreshold: 25
 
 ## MISC
 

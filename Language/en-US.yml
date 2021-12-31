@@ -25,6 +25,11 @@ en-US:
   STR_JUDGE_PSI_AMP: "Judgement"
   STR_JUDGE_EVIL_EYE: "Stern Judgement"
 
+  STR_GUN_BUTT: "Gun Butt"
+
+## Enemies
+
+  STR_PENAL_PRISONER: "Rioting Prisoner"
 
 ## Armors
 
