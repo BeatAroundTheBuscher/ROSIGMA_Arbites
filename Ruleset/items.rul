@@ -669,3 +669,5 @@ items:
     power: 75
     blastRadius: 5
     specialChance: 20
+
+  - type: STR_NOT_AVAILABLE

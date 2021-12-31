@@ -67,3 +67,13 @@
     files:
 #      0: Resources/Backgrounds/ArbitesBG.png
       0: Resources/Backgrounds/169.gif
+
+  - type: PENITENT_M.SPK
+    singleImage: true
+    files:
+      0: Resources/UnitSprites/Armors/Penitent_M.png
+
+  - type: PENITENT_F.SPK
+    singleImage: true
+    files:
+      0: Resources/UnitSprites/Armors/Penitent_F.png
