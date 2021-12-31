@@ -1,12 +1,8 @@
 soldiers:
   - type: STR_GUARDPD
     armor: STR_ENFORCER_ARMOR_UC
-    avatarOffsetX: 68 # 66
-    avatarOffsetY: 40 # 42
 
   - type: STR_JUDGE
-    avatarOffsetX: 68 # 66
-    avatarOffsetY: 40 # 42
     skillIconSprite: 0
     skills:
       - STR_JUDGE_EVIL_EYE
