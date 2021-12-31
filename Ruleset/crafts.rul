@@ -19,7 +19,7 @@ crafts:
       mapDataSets:
         - BLANKS
         - ARVUS
-        - VALK_TRAITOR
+        - ARVUS_DOORS
       mapBlocks:
         - name: ARVUS_SINGLE
           width: 10
