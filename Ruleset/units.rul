@@ -213,8 +213,9 @@ units:
 # STR_SECTOID_DARK_DISCIPLE_NEVERBORN
 
 
-  - type: STR_PENAL_PRISONER
-    race: STR_CIVILIAN # TODO
+  - &STR_PENAL_PRISONER
+    type: STR_PENAL_PRISONER_M
+    race: STR_RIOTING_PRISONER
     stats:
       tu: 35
       stamina: 65
@@ -227,7 +228,7 @@ units:
       psiStrength: 5
       psiSkill: 0
       melee: 50
-    armor: STR_PENAL_ARMOR_BROWN_UC
+    armor: STR_PENAL_ARMOR_BROWN_M
     standHeight: 21
     kneelHeight: 14
     intelligence: 4
@@ -254,6 +255,10 @@ units:
     specab: 1 #explodes on death
     moraleLossWhenKilled: 50
     value: 10
+
+  - type: STR_PENAL_PRISONER_F
+    refNode: *STR_PENAL_PRISONER
+    armor: STR_PENAL_ARMOR_BROWN_F
 
   - type: STR_SILACOID_TERRORIST # 1x1 daemon
     moraleLossWhenKilled: 50

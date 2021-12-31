@@ -77,3 +77,11 @@
     singleImage: true
     files:
       0: Resources/UnitSprites/Armors/Penitent_F.png
+
+  - type: PENITENTS_BROWN_F.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/penitents_brown_f.png

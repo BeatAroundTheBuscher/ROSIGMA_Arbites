@@ -202,5 +202,39 @@ armors:
   - type: STR_PENAL_ARMOR_BROWN_UC
     units: !remove
       - STR_PENITENT_GUARD
-    spriteInv: PENITENT_M.SPK
     storeItem: STR_NOT_AVAILABLE
+
+  - &STR_PENAL_ARMOR
+    type: STR_PENAL_ARMOR_BROWN_M
+    spriteInv: PENITENT_M.SPK
+    spriteSheet: PENITENTS_BROWN.PCK
+    corpseBattle:
+      - STR_PENAL_CORPSE
+    drawingRoutine: 0
+    loftempsSet: [ 3 ]
+    ufopediaType: STR_PENAL_ARMOR_BROWN_UC
+
+    visibilityAtDay: 40
+    visibilityAtDark: 9
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: #GUARD ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 0.8 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.1 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+
+  - type: STR_PENAL_ARMOR_BROWN_F
+    refNode: *STR_PENAL_ARMOR
+    spriteInv: PENITENT_F.SPK
+    spriteSheet: PENITENTS_BROWN_F.PCK
