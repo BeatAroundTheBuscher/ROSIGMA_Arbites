@@ -133,14 +133,18 @@ mapScripts:
       size: [3,2]
       rects:
         - [0, 0, 3, 2]
+    - type: addBlock
+      rects:
+        - [1, 2, 1, 1]
+      blocks: [1]
     # 5 Defense Corrdior
     # 4 Adv Prison
     # 2 Prison
     # 0 Living Quarters
     # 1 General Stores
     - type: fillArea
-      blocks: [0, 1, 2, 4, 5]
-      maxUses: [1, 1, 0, 0, 3]
+      blocks: [0, 2, 4, 5]
+      maxUses: [1, 0, 0, 3]
     - type: digTunnel
       direction: both
       tunnelData:
