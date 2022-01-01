@@ -70,3 +70,30 @@ crafts:
 
   - type: STR_AVENGER_ADEPTAS
     forceShowInMonthlyCosts: true
+
+  - type: STR_TAUROXPD
+    soldiers: 12
+    battlescapeTerrainData:
+      name: TAUROXPD_SINGLE
+      mapDataSets:
+        - BLANKS
+        - TAUROXPD
+        - VHTPDEX
+      mapBlocks:
+        - name: TAUROXPD_SINGLE
+          width: 10
+          length: 10
+    craftInventoryTile: [2, 4, 1]
+    deployment:
+      - [2, 4, 1, 0]
+      - [3, 4, 1, 0]
+      - [2, 5, 1, 0]
+      - [3, 5, 1, 0]
+      - [2, 6, 1, 0]
+      - [3, 6, 1, 0]
+      - [6, 1, 1, 0]
+      - [7, 1, 1, 0]
+      - [6, 2, 1, 0]
+      - [7, 2, 1, 0]
+      - [6, 3, 1, 0]
+      - [7, 3, 1, 0]
