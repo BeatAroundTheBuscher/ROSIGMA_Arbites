@@ -568,41 +568,7 @@ items:
 
 ### EXPLOSIVES
 
-  - type: STR_MAKESHIFT_GRENADE
-    categories: [ STR_CAT_GRENADES]
-    size: 0.1
-    weight: 3
-    bigSprite: 201
-    floorSprite: {mod: 40k, index: 304}
-    handSprite: {mod: 40k, index: 904}
-    power: 50
-    damageType: 3
-    battleType: 4
-    invWidth: 1
-    invHeight: 2
-    blastRadius: 4
-    listOrder: 17100
-    throwRange: 16
-    damageAlter:
-      FireThreshold: 25
 
-  - type: STR_MAKESHIFT_PIPEBOMB
-    categories: [ STR_CAT_GRENADES]
-    size: 0.1
-    weight: 6
-    bigSprite: 202
-    floorSprite: {mod: 40k, index: 304}
-    handSprite: {mod: 40k, index: 904}
-    power: 80 # Frag Grenade is 70
-    damageType: 3
-    battleType: 4
-    invWidth: 1
-    invHeight: 2
-    blastRadius: 6
-    listOrder: 17100
-    throwRange: 8
-    damageAlter:
-      FireThreshold: 25
 
 ## MISC
 

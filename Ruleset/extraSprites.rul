@@ -2,8 +2,6 @@
   - type: BIGOBS.PCK
     files:
         200: Resources/Bigobs/bigob_small_combat_knife_right.png
-        201: Resources/Bigobs/bigob_makeshift_grenade.png
-        202: Resources/Bigobs/bigob_makeshift_pipebomb.png
         203: Resources/Bigobs/bigob_cmas_tackle.png
 
   - type: INTICON.PCK
