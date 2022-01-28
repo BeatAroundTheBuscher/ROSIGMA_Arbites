@@ -180,7 +180,7 @@ research:
   - name: STR_ALIEN_ORIGINS
     dependencies: !remove
       - STR_SECTOID_COMMANDER
-      - STR_SECTOID_LEADER
+      - STR_SECTOID_LEADER # removing deleted entry
       - STR_SECTOID_ENGINEER
       - STR_SECTOID_MEDIC
       - STR_SECTOID_NAVIGATOR
@@ -191,4 +191,4 @@ research:
   - name: STR_LEADER_PLUS
     dependencies: !remove
       - STR_SECTOID_COMMANDER
-      - STR_SECTOID_LEADER
+      - STR_SECTOID_LEADER # removing deleted entry

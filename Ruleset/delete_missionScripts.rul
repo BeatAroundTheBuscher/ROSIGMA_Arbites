@@ -11,6 +11,11 @@ regions:
       STR_ALIEN_INFILTRATION: 0
       STR_ALIEN_INFILTRATION_TZEENTCH: 0
       STR_ALIEN_BASE: 0
+      STR_ALIEN_BASE_HARD: 0
+      STR_ALIEN_RESEARCH_HARD: 0
+      STR_ALIEN_HARVEST_HARD: 0
+      STR_ALIEN_ABDUCTION_HARD: 0
+      STR_ALIEN_INFILTRATION_HARD: 0
   - type: STR_ARCTIC
     refNode: *STR_NO_MISSIONS
   - type: STR_ANTARCTICA
@@ -42,15 +47,21 @@ regions:
 
 alienMissions:
   - delete: STR_ALIEN_RESEARCH #weight towards tzeentch version
-  - delete: STR_ALIEN_RESEARCH_TZEENTCH #weighted mission delete favored by tzeentch
+  - delete: STR_ALIEN_RESEARCH_HARD #marines
+  - delete: STR_ALIEN_RESEARCH_TZEENTCH #weighted mission type favored by tzeentch
   - delete: STR_ALIEN_HARVEST #favored by nurgle
+  - delete: STR_ALIEN_HARVEST_HARD #favored by nurgle
   - delete: STR_ALIEN_HARVEST_TZEENTCH
   - delete: STR_ALIEN_ABDUCTION #weighted slaanesh and undivided
+  - delete: STR_ALIEN_ABDUCTION_HARD #weighted slaanesh and undivided
   - delete: STR_ALIEN_ABDUCTION_TZEENTCH
   - delete: STR_ALIEN_INFILTRATION #SLAANESH WEIGHTED
+  - delete: STR_ALIEN_INFILTRATION_HARD #SLAANESH WEIGHTED
   - delete: STR_ALIEN_INFILTRATION_TZEENTCH
   - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_BASE_HARD
   - delete: STR_ALIEN_TERROR #without tzeentch
+  - delete: STR_ALIEN_TERROR_HARD #without tzeentch
   - delete: STR_ALIEN_TERROR_TZEENTCH
   - delete: STR_CIVILIAN_TERROR
   - delete: STR_ALIEN_RETALIATION
@@ -60,23 +71,20 @@ alienMissions:
   - delete: STR_RIOT             #ARBITES       direct spawn
   - delete: STR_ELDAR_ARTIFACT
   - delete: STR_M_5MISSION #Fortress            direct spawn
-  - delete: STR_M_1MISSION #Train
   - delete: STR_M_2MISSION #chaos outpost
   - delete: STR_M_4MISSION #cathedral
-  - delete: STR_M_3MISSION #save outpost        direct spawn
-  - delete: STR_M_6MISSION #tank hunt           direct spawn
-  - delete: STR_M_7MISSION #SpaceShip   P1        direct spawn
-  - delete: STR_M_8MISSION #SpaceShip   P2       direct spawn
-  - delete: STR_M_9MISSION #SpaceShip   P2       direct spawn
   - delete: STR_ALIEN_WAR
   - delete: STR_ADEPTAS_WAR
+  - delete: STR_ORK_BASE_SPACEHULK_LEVEL3
   - delete: STR_ORK_BASE_SPACEHULK_LEVEL3
   - delete: STR_ORK_BASE_SPACEHULK_LEVEL4
   - delete: STR_ORK_BASE_SPACEHULK_LEVEL5
   - delete: STR_NECRON_BASE_EARTHQUAKE
   - delete: STR_VALKYRIE_PATROL
   - delete: STR_ALIEN_AIR_SUPERIORITY_LIGHT
+  - delete: STR_ALIEN_AIR_SUPERIORITY_RETALIATON_TG
   - delete: STR_DESERTER_HIDEOUT
+  - delete: STR_DESERTER_HIDEOUT_HARD
   - delete: STR_ALIEN_PATROL
   - delete: STR_ALIEN_INTERCEPTION
   - delete: STR_GUARD_PATROL
@@ -160,21 +168,30 @@ missionScripts:
 
   - delete: firstMonthTerror
   - delete: recurringTerror
+  - delete: recurringTerrorHard
   - delete: GSC_SPACE_HULK_ARRIVAL_SCRIPT
   - delete: recurringGSCTerror
   - delete: deserterHideout
-  - delete: gameStartCultist
-  - delete: gameStartTraitorGuard
-  - delete: gameStart # initial mission in player region
+  - delete: deserterHideoutHard
   - delete: SPACEHULK_ORK_BASE_1
   - delete: SPACEHULK_ORK_BASE_2
-  - delete: SPACEHULK_ORK_BASE_3
   - delete: EARTHQUAKE_NECRON_BASE_1
   - delete: EARTHQUAKE_NECRON_BASE_2
   - delete: STR_GSC_PRECINCT_BASE_BUILD
   - delete: MMArbites
   - delete: MMAdeptas
-  - delete: MMElse # SM, CSM, IG
+  - delete: MMElse # SM, CSM, IG, GK
+  - delete: MMEarlyGK
   - delete: alienAirSuperiorityLight
   - delete: Tester_Revenge
+  - delete: warpStorm
+  - delete: warpStormBuilding
+  - delete: warpStormRaging
+  - delete: warpStormHard
+  - delete: warpStormBuildingHard
+  - delete: warpStormRagingHard
+  - delete: gameStartCultist
+  - delete: gameStartTraitorGuard
+  - delete: gameStart # initial mission in player region
+  - delete: gameStartHard
 

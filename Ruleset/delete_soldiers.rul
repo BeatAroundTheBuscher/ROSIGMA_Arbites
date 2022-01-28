@@ -95,6 +95,8 @@ soldiers:
   - delete: STR_LORD_COMMISSAR_YARRICK
   - delete: STR_GUARD_SQUAT
   - delete: STR_GUARD_BEASTMAN
+  - delete: STR_GUARD_KRIEG_GRENADIER
+  - delete: STR_GUARD_TANITH
 
 
 # cat user/openxcom.log | grep Error | sed 's/^.* processing ./  - delete: /g' | sed 's/. in armors.*$//g'
@@ -291,4 +293,5 @@ armors:
   - delete: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_HELLPISTOL
   - delete: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_VOLLEYGUN
   - delete: STR_TSARGENT_UC
+  - delete: STR_GK_CHP_UC
 
