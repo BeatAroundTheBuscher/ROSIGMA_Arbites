@@ -118,6 +118,42 @@ mapScripts:
       executions: 1
       executionChances: 100
       maxUses: [1]
+    - type: addBlock
+      blocks: [16]
+      rects:
+        - [5, 1, 1, 1]
+      size: 1
+      terrain: XBASE
+      executions: 1
+      executionChances: 100
+      maxUses: [1]
+    - type: addBlock
+      blocks: [17]
+      rects:
+        - [6, 1, 1, 1]
+      size: 1
+      terrain: XBASE
+      executions: 1
+      executionChances: 100
+      maxUses: [1]
+    - type: addBlock
+      blocks: [18]
+      rects:
+        - [5, 2, 1, 1]
+      size: 1
+      terrain: XBASE
+      executions: 1
+      executionChances: 100
+      maxUses: [1]
+    - type: addBlock
+      blocks: [19]
+      rects:
+        - [6, 2, 1, 1]
+      size: 1
+      terrain: XBASE
+      executions: 1
+      executionChances: 100
+      maxUses: [1]
     - type: addCraft
       blocks: [16]
     - type: fillArea

@@ -318,8 +318,8 @@ alienDeployments:
       showCraft: true
       showTarget: false
       background: BACK169.SCR
-    width: 60
-    length: 60
+    width: 90
+    length: 90
     height: 9
     script: TRAITOR_OUTPOST
     alert: STR_RIOT_ALERT
