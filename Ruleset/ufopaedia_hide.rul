@@ -26,6 +26,11 @@ ufopaedia:
   - delete: STR_ADEPTAS                  #65
   - delete: STR_IGS                    #70
   - delete: STR_ARBITES                  #75
+  - delete: STR_PICK_STRATEGY_CM
+  - delete: STR_CHOSEN_GREYKNIGHTS
+  - delete: STR_CHOSEN_DEATHWATCH
+  - delete: STR_GREYKNIGHTS
+  - delete: STR_DEATHWATCH
 
 ## CRAFTS + CRAFT WEAPONS
 
