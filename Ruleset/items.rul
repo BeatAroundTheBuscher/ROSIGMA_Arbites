@@ -5,6 +5,7 @@ items:
   - type: AUX_SHIELDPD
     handSprite: 300
     fixedWeapon: false
+    recover: true
     # fixedWeaponShow: true
     tuMelee: 0
 
