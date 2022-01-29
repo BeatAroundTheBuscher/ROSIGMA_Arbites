@@ -482,3 +482,24 @@ alienDeployments:
     duration: [120, 240]
     despawnPenalty: 100
     unlockedResearch: STR_CULTIST_DEFEATED
+
+
+
+# undo ROSIGMA changes
+  - &STR_TERROR_MISSION
+    type: STR_TERROR_MISSION
+    civiliansByType:
+      MALE_CIVILIAN: 8
+      FEMALE_CIVILIAN: 8
+
+  - type: STR_TERROR_MISSION_CULTISTS_MARINES
+    refNode: *STR_TERROR_MISSION
+
+  - type: STR_TERROR_MISSION_TRAITOR_GUARD_MARINES
+    refNode: *STR_TERROR_MISSION
+
+  - type: STR_ORK_WAAAGH
+    refNode: *STR_TERROR_MISSION
+    
+  - type: STR_NECRON_TERROR
+    refNode: *STR_TERROR_MISSION
