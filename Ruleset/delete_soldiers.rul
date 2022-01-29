@@ -97,6 +97,12 @@ soldiers:
   - delete: STR_GUARD_BEASTMAN
   - delete: STR_GUARD_KRIEG_GRENADIER
   - delete: STR_GUARD_TANITH
+  - delete: STR_FALLEN_GK
+  - delete: STR_GK_LV1
+  - delete: STR_GK_LV2
+  - delete: STR_GK_LV3
+  - delete: STR_GK_LV4
+  - delete: STR_GK_LV5
 
 
 # cat user/openxcom.log | grep Error | sed 's/^.* processing ./  - delete: /g' | sed 's/. in armors.*$//g'
@@ -294,4 +300,21 @@ armors:
   - delete: STR_STORMTROOPER_OFFICER_CARAPACE_ARMOR_VOLLEYGUN
   - delete: STR_TSARGENT_UC
   - delete: STR_GK_CHP_UC
+  - delete: STR_DREAD_GK_ARMOR_UC
+  - delete: STR_GK_APO_ARMOR_UC
+  - delete: STR_GK_CHP_LVL2_UC
+  - delete: STR_GK_CHP_LVL3_UC
+  - delete: STR_GK_LIB_LV1_UC
+  - delete: STR_GK_LIB_LV2_UC
+  - delete: STR_GK_LIB_LV3_UC
+  - delete: STR_GK_TAC_LV1_UC
+  - delete: STR_GK_TAC_LV2_UC
+  - delete: STR_GK_TAC_LV3_UC
+  - delete: STR_GK_TAC_LV4_UC
+  - delete: STR_GK_TAC_LV5_UC
+  - delete: STR_GK_TEC_LV1_UC
+  - delete: STR_GK_TEC_LV2_UC
+  - delete: STR_GK_TEC_LV3_UC
+
+
 
