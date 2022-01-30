@@ -110,14 +110,20 @@ mapScripts:
   - type: TRAITOR_OUTPOST
     commands: 
     - type: addBlock
-      blocks: [60]
       rects:
         - [1,1,4,4]
-      size: 3
-      terrain: XBASE
+      size: 4
       executions: 1
       executionChances: 100
       maxUses: [1]
+      verticalLevels:
+        - type: ground
+          size: [4, 4, 0]
+          blocks: [3] # 4x4
+        - type: ceiling
+          blocks: [60]
+          terrain: XBASE
+          size: [4, 4, 3]
     - type: addBlock
       blocks: [16]
       rects:
