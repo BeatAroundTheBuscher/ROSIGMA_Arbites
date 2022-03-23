@@ -27,6 +27,9 @@ units:
   - delete: STR_GUARD_KRIEG
   - delete: STR_GUARD_PILOT
   - delete: STR_SLAANESH_NOVICE
+  - delete: STR_FALLEN_SISTER
+  - delete: STR_HERETIC_SISTER
+  - delete: STR_KHORNE_ROOKIESISTER
 
 
 # cat soldiers_SM.rul | grep type | sed 's/type/delete/g'
@@ -315,6 +318,9 @@ armors:
   - delete: STR_GK_TEC_LV1_UC
   - delete: STR_GK_TEC_LV2_UC
   - delete: STR_GK_TEC_LV3_UC
+  - delete: STR_ADEPTAS_HERETIC_ARMOR
+  - delete: STR_ADEPTAS_KHORNENOVICEARMOR
+  - delete: STR_SLAAN_ADEPTAS_CORRUPTED_ARMOR
 
 
 
