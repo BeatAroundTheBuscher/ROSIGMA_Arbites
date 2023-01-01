@@ -28,7 +28,10 @@ armors:
 
 ## Troopers
 
-  - delete: STR_GUARDPD_ARMOR_UC
+  # - delete: STR_GUARDPD_ARMOR_UC
+  - type: STR_GUARDPD_ARMOR_UC
+    storeItem: STR_NOT_AVAILABLE
+
   - delete: STR_GUARDPDMEDIC_ARMOR_UC
 
   # get rid of the stats modifiers

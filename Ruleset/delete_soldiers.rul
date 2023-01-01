@@ -30,9 +30,26 @@ units:
   - delete: STR_FALLEN_SISTER
   - delete: STR_HERETIC_SISTER
   - delete: STR_KHORNE_ROOKIESISTER
+#  - delete: FEMALE_CIVILIAN
+#  - delete: MALE_CIVILIAN
+  - delete: STR_ADEPTAS_DCASSASSIN_AI
+  - delete: STR_FRATERIS_MILITIA_AI
+  - delete: STR_HEAVY_GUARDSMAN_FEMALE
+  - delete: STR_HEAVY_GUARDSMAN_MALE
+  - delete: STR_IMPERIAL_ASSASSINFEM_AI
+  - delete: STR_IMPERIAL_INQUISITOR_AI
+  - delete: STR_IRON_BERSERKER
+  - delete: STR_SHRINE_ADEPTAS_AI
+  - delete: STR_SHRINE_ELOHIM_AI
+  - delete: STR_SHRINE_MEDICAE_AI
+  - delete: STR_SHRINE_NOVICE_AI
+  - delete: STR_SHRINE_NOVITIATE_SUPERIOR_AI
+  - delete: STR_SHRINE_RETRIBUTOR_AI
+  - delete: STR_SHRINE_SUPERIOR_AI
 
 
 # cat soldiers_SM.rul | grep type | sed 's/type/delete/g'
+
 
 soldiers:
   - delete: STR_PRIMARISLV1
@@ -106,9 +123,17 @@ soldiers:
   - delete: STR_GK_LV3
   - delete: STR_GK_LV4
   - delete: STR_GK_LV5
+  - delete: STR_ADEPTAS_GEMINAE
+  - delete: STR_ADEPTAS_NOVITIATE_SUPERIOR
+  - delete: STR_ADEPTAS_REPENTIA_SUPERIOR
+  - delete: STR_ADEPTAS_VETERAN
+  - delete: STR_IMPERIAL_INQUISITOR
+
+ 
 
 
 # cat user/openxcom.log | grep Error | sed 's/^.* processing ./  - delete: /g' | sed 's/. in armors.*$//g'
+# cat user/openxcom.log | grep Error | awk 'BEGIN { FS = " " } /process/{ print "  - delete: " $3}' | sed "s/'//g"
 
 armors:
   - delete: BIKE_ARMOR_UC
@@ -321,6 +346,34 @@ armors:
   - delete: STR_ADEPTAS_HERETIC_ARMOR
   - delete: STR_ADEPTAS_KHORNENOVICEARMOR
   - delete: STR_SLAAN_ADEPTAS_CORRUPTED_ARMOR
+  - delete: STR_ADEPTAS_ARMOR_CELESTIAN_ELITE
+  - delete: STR_ADEPTAS_ARMOR_CELESTIAN_SACRESANT
+  - delete: STR_ADEPTAS_ARMOR_NOVSUPERIOR
+  - delete: STR_ADEPTAS_ARMOR_REPSUPERIOR
+  - delete: STR_ALPHA_ARMOR_PLAYER
+  - delete: STR_BEASTGUARD_FLAK_ARMOR_MEDIC
+  - delete: STR_BEASTGUARD_HEAVY_ARMOR
+  - delete: STR_BEASTGUARD_HEAVY_ARMOR_SLAB
+  - delete: STR_CHAOS_ADEPTAS_KHORNE_ARMOR
+  - delete: STR_CHAOS_ADEPTAS_SLAANESH_ARMOR
+  - delete: STR_CHAOS_ADEPTAS_UNDIVIDED_ARMOR
+  - delete: STR_CHAOS_NIGHTLORDS_SISTER_ARMOR
+  - delete: STR_GK_APO_LV2_UC
+  - delete: STR_GK_APO_LV3_UC
+  - delete: STR_GK_APO_LV4_UC
+  - delete: STR_GK_CHP_LV2_UC
+  - delete: STR_GK_CHP_LV3_UC
+  - delete: STR_GK_TEC_LV4_UC
+  - delete: STR_GUARD_POWER_ARMOR
+  - delete: STR_GUARD_POWER_ARMOR_COMMISSAR
+  - delete: STR_GUARD_POWER_ARMOR_MEDIC
+  - delete: STR_GUARD_POWER_ARMOR_MULTILAS
+  - delete: STR_GUARD_POWER_ARMOR_OFFICER
+  - delete: STR_IRON_BERSERKER_ARMOR
+  - delete: STR_IRON_WARRIOR_ARMOR_PLAYER
+  - delete: STR_KRIEG_POWER_ARMOR
+  - delete: STR_KRIEG_POWER_ARMOR_MULTILAS
+  - delete: STR_NIGHTLORD_CSM_ARMOR_PLAYER
 
 
 

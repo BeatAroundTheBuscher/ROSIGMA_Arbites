@@ -63,10 +63,14 @@ startingBase:
   items:
     STR_GRENADE: 10
     STR_AUTOGUN: 4
-    STR_AUTOGUN_CLIP: 6
+    STR_AUTOGUN_CLIP: 8
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
+    STR_ENFORCER_MEDIC_ARMOR: 2
+    AUX_SHIELDPD: 2
+    STR_AUTOPISTOL: 2
+    STR_AUTOPISTOL_CLIP: 8
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943
@@ -136,10 +140,14 @@ startingBaseExperienced:
   items:
     STR_GRENADE: 10
     STR_AUTOGUN: 4
-    STR_AUTOGUN_CLIP: 6
+    STR_AUTOGUN_CLIP: 8
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
+    STR_ENFORCER_MEDIC_ARMOR: 2
+    AUX_SHIELDPD: 2
+    STR_AUTOPISTOL: 2
+    STR_AUTOPISTOL_CLIP: 8
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943
@@ -209,10 +217,14 @@ startingBaseVeteran: #*** Arbites
   items:
     STR_GRENADE: 10
     STR_AUTOGUN: 4
-    STR_AUTOGUN_CLIP: 6
+    STR_AUTOGUN_CLIP: 8
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
+    STR_ENFORCER_MEDIC_ARMOR: 2
+    AUX_SHIELDPD: 2
+    STR_AUTOPISTOL: 2
+    STR_AUTOPISTOL_CLIP: 8
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943
@@ -282,10 +294,14 @@ startingBaseGenius: #*** Adeptas
   items:
     STR_GRENADE: 10
     STR_AUTOGUN: 4
-    STR_AUTOGUN_CLIP: 6
+    STR_AUTOGUN_CLIP: 8
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
+    STR_ENFORCER_MEDIC_ARMOR: 2
+    AUX_SHIELDPD: 2
+    STR_AUTOPISTOL: 2
+    STR_AUTOPISTOL_CLIP: 8
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943
@@ -355,10 +371,14 @@ startingBaseSuperhuman: #*** Imperial Guard
   items:
     STR_GRENADE: 10
     STR_AUTOGUN: 4
-    STR_AUTOGUN_CLIP: 6
+    STR_AUTOGUN_CLIP: 8
     STR_SHOTGUN_SHELLS: 4
     STR_STUN_ROD: 6
     STR_SMOKE_GRENADE: 8
+    STR_ENFORCER_MEDIC_ARMOR: 2
+    AUX_SHIELDPD: 2
+    STR_AUTOPISTOL: 2
+    STR_AUTOPISTOL_CLIP: 8
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943
