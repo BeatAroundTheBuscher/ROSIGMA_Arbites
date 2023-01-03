@@ -805,6 +805,8 @@ ufopaedia:
   - delete: STR_HOLOGRAM_GRENADE
   - delete: STR_HONOR_ARMOR_UC
   - delete: STR_HOTSHOT_VOLLEY_GUN
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_HOVERTANK_PLASMA
   - delete: STR_HULL_PLATING_UC
   - delete: STR_HWP_CANNON_SHELLS
   - delete: STR_HWP_FUSION_BOMB
@@ -989,6 +991,7 @@ ufopaedia:
   - delete: STR_MECHANICUSOC
   - delete: STR_MECHANICUSPD
   - delete: STR_MEDIC_CARAPACE_ARMOR
+  - delete: STR_MEDI_KIT
   - delete: STR_MEDIUM_SCOUT
   - delete: STR_MEGANOBZ_AUTOPSY
   - delete: STR_MELEE_INSPIRE_TOME
@@ -1470,6 +1473,7 @@ ufopaedia:
   - delete: STR_TANITH_MISSION_CONVOYAMBUSH
   - delete: STR_TANITH_STRAIGHT_SILVER
   - delete: STR_TANKBUSTA_BOMB
+  - delete: STR_TANK_CANNON
   - delete: STR_TANKHAMMER
   - delete: STR_TANK_LASER_CANNON
   - delete: STR_TANK_ROCKET_LAUNCHER

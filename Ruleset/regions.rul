@@ -1,0 +1,49 @@
+# cat ~/Games/openxcom/user/mods/ROSIGMA/Ruleset/globe40k.rul | grep -v "type" | grep STR | awk 'BEGIN { FS = " "} { print "      " $1 " 0" }' | sort -u
+
+regions:
+  - &STR_NO_MISSIONS
+    type: STR_NORTH_AMERICA
+    missionWeights:
+      STR_ALIEN_ABDUCTION: 0
+      STR_ALIEN_ABDUCTION_HARD: 0
+      STR_ALIEN_ABDUCTION_TZEENTCH: 0
+      STR_ALIEN_BASE: 0
+      STR_ALIEN_BASE_HARD: 0
+      STR_ALIEN_HARVEST: 0
+      STR_ALIEN_HARVEST_HARD: 0
+      STR_ALIEN_HARVEST_TZEENTCH: 0
+      STR_ALIEN_INFILTRATION: 0
+      STR_ALIEN_INFILTRATION_HARD: 0
+      STR_ALIEN_INFILTRATION_TZEENTCH: 0
+      STR_ALIEN_RESEARCH: 0
+      STR_ALIEN_RESEARCH_HARD: 0
+      STR_ALIEN_RESEARCH_TZEENTCH: 0
+      STR_SLAANESH_BASE: 0
+  - type: STR_ARCTIC
+    refNode: *STR_NO_MISSIONS
+  - type: STR_ANTARCTICA
+    refNode: *STR_NO_MISSIONS
+  - type: STR_SOUTH_AMERICA
+    refNode: *STR_NO_MISSIONS
+  - type: STR_EUROPE
+    refNode: *STR_NO_MISSIONS
+  - type: STR_NORTH_AFRICA
+    refNode: *STR_NO_MISSIONS
+  - type: STR_SOUTHERN_AFRICA
+    refNode: *STR_NO_MISSIONS
+  - type: STR_CENTRAL_ASIA
+    refNode: *STR_NO_MISSIONS
+  - type: STR_SOUTH_EAST_ASIA
+    refNode: *STR_NO_MISSIONS
+  - type: STR_SIBERIA
+    refNode: *STR_NO_MISSIONS
+  - type: STR_AUSTRALASIA
+    refNode: *STR_NO_MISSIONS
+  - type: STR_PACIFIC
+    refNode: *STR_NO_MISSIONS
+  - type: STR_NORTH_ATLANTIC
+    refNode: *STR_NO_MISSIONS
+  - type: STR_SOUTH_ATLANTIC
+    refNode: *STR_NO_MISSIONS
+  - type: STR_INDIAN_OCEAN
+    refNode: *STR_NO_MISSIONS
