@@ -1,0 +1,41 @@
+facilities:
+  - type: STR_ACCESS_LIFT_AC
+    spriteShape: 2
+    spriteFacility: 17
+    lift: true
+    provideBaseFunc: [BASE]
+    buildCost: 300000
+    buildTime: 1
+    monthlyCost: 4000
+    mapName: XBASE_00
+  - type: STR_LIVING_QUARTERS_AC
+    requiresBaseFunc: [BASE]
+    provideBaseFunc: [IMPERIUM]
+    spriteShape: 1
+    spriteFacility: 18
+    buildCost: 400000
+    buildTime: 16
+    monthlyCost: 10000
+    personnel: 50
+    mapName: XBASE_01
+  - type: STR_GENERAL_STORES_AC
+    requiresBaseFunc: [BASE]
+    provideBaseFunc: [IMPERIUM]
+    spriteShape: 1
+    spriteFacility: 24
+    buildCost: 150000
+    buildTime: 10
+    monthlyCost: 5000
+    storage: 50
+    mapName: XBASE_07
+  - type: STR_HANGAR_AC
+    requiresBaseFunc: [BASE]
+    provideBaseFunc: [HANGAR, IMPERIUM]
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    monthlyCost: 25000
+    crafts: 1
+    mapName: XBASE_16

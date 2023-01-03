@@ -1,0 +1,20 @@
+items:
+  - type: STR_CULTIST_KHORNE_SOLDIER_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 20000
+
+  - type: STR_CULTIST_KHORNE_CORPSE
+    size: 0.4
+    costSell: 5000
+    weight: 20
+    bigSprite: 46
+    floorSprite: 42
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    listOrder: 19000

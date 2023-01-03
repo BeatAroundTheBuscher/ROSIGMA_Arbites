@@ -1,0 +1,7 @@
+ufopaedia:
+  - id: STR_ENFORCER_ARMOR_UC_AC
+    type_id: 15
+    section: STR_ARMORPEDIA
+    image_id: 0ENF.SPK
+    text: STR_ENFORCER_ARMOR_UFOPEDIA
+    listOrder: 6910

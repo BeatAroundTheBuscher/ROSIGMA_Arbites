@@ -1,0 +1,23 @@
+units:
+  - type: STR_CULTIST_KHORNE_SOLDIER_AC
+    race: STR_CULTIST_KHORNE_AC
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: STR_CULTIST_KHORNE_AC
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: 10
+    intelligence: 3
+    aggression: 2

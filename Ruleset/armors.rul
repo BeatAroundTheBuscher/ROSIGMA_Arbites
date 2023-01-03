@@ -1,0 +1,66 @@
+armors:
+  - &STR_BASIC_ENFORCER_ARMOR
+    type: STR_ENFORCER_ARMOR_UC_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 9
+    spriteSheet: ENFORCER.PCK
+    customArmorPreviewIndex: {mod: 40k, index: 47}
+    forcedTorso: 1
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7 M8 F8 M9 F9
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166, 96, 164, 96, 96, 144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7 M8 F8 M9 F9
+    corpseBattle:
+      - STR_ENFORCER_CORPSE_AC
+    # storeItem: STR_ENFORCER_ARMOR_AC
+    # storeItem: STR_NONE
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 40
+    stats:
+       tu: 10
+       stamina: 10
+       bravery: 0 #always multiples of 10
+       strength: 0
+    drawingRoutine: 0
+    damageModifier: #GUARD ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 0.8 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.1 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    units:
+      - STR_SOLDIER_AC
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: ENF
+    layersDefinition:
+      M0: ["0", "EM", "M0_FACE"]
+      M1: ["0", "EM", "M1_FACE"]
+      M2: ["0", "EMC", "M2_FACE"]
+      M3: ["0", "EMB", "M3_FACE"]
+      M4: ["0", "EM", "M4_FACE"]
+      M5: ["0", "EM", "M5_FACE"]
+      M6: ["0", "EM", "M6_FACE"]
+      M7: ["0", "EM", "M7_FACE"]
+      M8: ["0", "EMC", "M8_FACE"]
+      M9: ["0", "EMB", "M9_FACE"]
+      F0: ["0", "EF", "F0_FACE"]
+      F1: ["0", "EF", "F1_FACE"]
+      F2: ["0", "EFC", "F2_FACE"]
+      F3: ["0", "EFB", "F3_FACE"]
+      F4: ["0", "EF", "F4_FACE"]
+      F5: ["0", "EF", "F5_FACE"]
+      F6: ["0", "EF", "F6_FACE"]
+      F7: ["0", "EF", "F7_FACE"]
+      F8: ["0", "EFC", "F8_FACE"]
+      F9: ["0", "EFB", "F9_FACE"]
+    loftempsSet: [ 3 ]

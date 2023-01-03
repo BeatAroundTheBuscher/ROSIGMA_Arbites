@@ -1,0 +1,15 @@
+# for Search: 
+# (\d{1,4})
+# for Replace:
+# {mod: 40k, index: $1}
+
+armors:
+  - type: STR_ENFORCER_ARMOR_UC_AC
+    selectUnitMale:     [{mod: 40k, index: 1211}, {mod: 40k, index: 1212}, {mod: 40k, index: 1213}, {mod: 40k, index: 1214}, {mod: 40k, index: 1215}]
+    selectUnitFemale:   [{mod: 40k, index: 231}, {mod: 40k, index: 232}, {mod: 40k, index: 233}, {mod: 40k, index: 234}, {mod: 40k, index: 235}]
+    startMovingMale:    [{mod: 40k, index: 1206}, {mod: 40k, index: 1207}, {mod: 40k, index: 1208}, {mod: 40k, index: 1209}, {mod: 40k, index: 1210}]
+    startMovingFemale:  [{mod: 40k, index: 226}, {mod: 40k, index: 227}, {mod: 40k, index: 228}, {mod: 40k, index: 229}, {mod: 40k, index: 230}]
+    selectWeaponMale:   [{mod: 40k, index: 1201}, {mod: 40k, index: 1202}, {mod: 40k, index: 1203}, {mod: 40k, index: 1204}, {mod: 40k, index: 1205}]
+    selectWeaponFemale: [{mod: 40k, index: 221}, {mod: 40k, index: 222}, {mod: 40k, index: 223}, {mod: 40k, index: 224}, {mod: 40k, index: 225}]
+    annoyedMale:        [{mod: 40k, index: 1216}, {mod: 40k, index: 1217}, {mod: 40k, index: 1218}, {mod: 40k, index: 1219}, {mod: 40k, index: 1220}]
+    annoyedFemale:      [{mod: 40k, index: 236}, {mod: 40k, index: 237}, {mod: 40k, index: 238}, {mod: 40k, index: 239}, {mod: 40k, index: 240}]

@@ -1,5 +1,5 @@
 soldiers:
-  - type: STR_SOLDIER
+  - type: STR_SOLDIER_AC
     costBuy: 40000
     costSalary: 20000
     minStats:
@@ -38,7 +38,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor: STR_NONE_UC
+    armor: STR_ENFORCER_ARMOR_UC_AC
     standHeight: 22
     kneelHeight: 14
     femaleFrequency: 25

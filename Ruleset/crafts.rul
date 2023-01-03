@@ -1,0 +1,48 @@
+crafts:
+  - type: STR_ARVUS
+    takeoffSound: {mod: 40k, index: 56} #TURBINE SOUND
+    selectSound: [{mod: 40k, index: 62}, {mod: 40k, index: 63}, {mod: 40k, index: 64}] #REGULAR SOUND
+    requiresBuyBaseFunc: [HANGAR]
+    # marker: 36
+    sprite: 0 # 1883
+    fuelMax: 1800
+    damageMax: 400
+    speedMax: 600
+    accel: 2
+    weapons: 0
+    soldiers: 16
+    vehicles: 1
+    pilots: 2
+    costBuy: 600000
+    costRent: 360000
+    refuelRate: 50
+    transferTime: 96
+    score: 300
+    listOrder: 210
+    battlescapeTerrainData:
+      name: ARVUS
+      mapDataSets:
+        - BLANKS
+        - ARVUS
+      mapBlocks:
+        - name: ARVUS
+          width: 10
+          length: 20
+    deployment:
+      - [4, 14, 0, 0]
+      - [5, 14, 0, 0]
+      - [4, 15, 0, 0]
+      - [5, 15, 0, 0]
+      - [4, 16, 0, 0]
+      - [5, 16, 0, 0]
+      - [4, 17, 0, 0]
+      - [5, 17, 0, 0]
+      - [5, 3, 0, 0]
+      - [6, 3, 0, 0]
+      - [5, 4, 0, 0]
+      - [6, 4, 0, 0]
+      - [5, 5, 0, 0]
+      - [6, 5, 0, 0]
+      - [5, 6, 0, 0]
+      - [6, 6, 0, 0]
+    spacecraft: true
