@@ -1,0 +1,9 @@
+arcScripts:
+  - delete: adeptas
+  - delete: arbites
+  - delete: chambermilitant
+  - delete: chamberPickStrategy
+  - delete: chapterPurity
+  - delete: imperialGuard
+  - delete: marines
+  - delete: marinesPickStrategy
