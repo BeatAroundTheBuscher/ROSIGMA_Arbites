@@ -1,0 +1,31 @@
+ufos:
+  - type: STR_SMALL_SCOUT_AC #hell Blade
+    # marker: 14
+    # markerLand: 19
+    # markerCrash: 24
+    # alertSound: 35
+    size: STR_VERY_SMALL
+    modSprite: InterceptionUFO-00
+    damageMax: 160
+    speedMax: 1200
+    accel: 3
+    power: 5
+    range: 65
+    score: 50
+    reload: 12
+    breakOffTime: 600
+    battlescapeTerrainData:
+      name: CH00
+      mapDataSets:
+        - BLANKS
+        - CH2
+        - CH3
+        - CHI1
+        - CHI2
+        - CHI3
+        - CHI4
+        - CHI5
+      mapBlocks:
+        - name: CH00
+          width: 10
+          length: 10

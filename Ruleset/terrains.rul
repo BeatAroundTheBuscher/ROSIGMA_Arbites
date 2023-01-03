@@ -2,35 +2,7 @@
 # randomizedItems
 # items
 
-#          - name: ACULTA
-#          - name: ACULTASAND
-#          - name: ACULTASNOW
-#          - name: CULTA
-#          - name: DESERT
-#          - name: FOREST
-#          - name: JUNGLE
-#          - name: MOUNT
-#          - name: MOUNTGRASS
-#          - name: MOUNTMUDD
-#          - name: MOUNTROCK
-#          - name: MOUNTSAND
-#          - name: MOUNTSNOW
-#          - name: MOUNTTROP
-#          - name: PLAINS
-#          - name: PLAINSGRASS
-#          - name: PLAINSMUDD
-#          - name: PLAINSROCK
-#          - name: PLAINSSAND
-#          - name: PLAINSSNOW
-#          - name: PLAINSTROP
-#          - name: POLAR
-#          - name: XBASE_FILL
-#          - name: XBASE_FILL_GRASS
-#          - name: XBASE_FILL_MUD
-#          - name: XBASE_FILL_ROCK
-#          - name: XBASE_FILL_SAND
-#          - name: XBASE_FILL_SNOW
-#          - name: XBASE_FILL_TROP
+# deleting terrains will require the MAP/TERRAIN/ROUTES to be part of this mod
 
 terrains:
   - name: CULTA

@@ -9,7 +9,7 @@ alienDeployments:
     script: STR_CRAFT_DEPLOYMENT_PREVIEW
 
 
-  - type: STR_BASE_DEFENSE
+  - type: STR_BASE_DEFENSE # due to the expanded mapscript of 40k this will always crash in new battle
     data:
       - alienRank: 5
         lowQty: 4
