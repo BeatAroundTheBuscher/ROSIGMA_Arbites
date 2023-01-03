@@ -4,12 +4,6 @@ research:
 
 ## ROSIGMA 1.06
 
-  - delete: STR_STUN_GAS_SHELLS
-  - delete: STR_STUN_SHELLS
-  - delete: STR_STUB_GUN_AMMO_LONG
-  - delete: STR_SMG_STUB_GUN
-  - delete: STR_PUMP_SHOTGUN
-  - delete: STR_GENERIC_HEAVY_STUBBER
   - name: STR_STANDARD_SMALL_ARMS_RESEARCH_REQ
     dependencies:
       - STR_HIDE_LOCK
@@ -125,14 +119,6 @@ research:
   - name: STR_DAEMON_CORPSE_RESEARCHED
     dependencies:
       - STR_GENERALLOCK
-
-  - delete: STR_SECTOID_COMMANDER
-  - delete: STR_SECTOID_LEADER
-  - delete: STR_SECTOID_ENGINEER
-  - delete: STR_SECTOID_MEDIC
-  - delete: STR_SECTOID_NAVIGATOR
-  - delete: STR_SECTOID_SOLDIER
-  - delete: STR_SECTOID_ASPIRING_CHAMPION
 
   - &STR_SECTOID
     name: STR_SECTOID_SOLDIER

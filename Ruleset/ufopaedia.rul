@@ -96,8 +96,6 @@ ufopaedia:
       - STR_ARBITES_CAMPAIGN
     listOrder: 4020
 
-  - delete: STR_ENFORCER_SHIELD_ARMOR_UC
-
   - id: STR_ENFORCER_SIGNAL_ARMOR_UC
     requires:
       - STR_HIDE_LOCK

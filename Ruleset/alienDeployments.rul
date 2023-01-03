@@ -1,9 +1,4 @@
 alienDeployments:
-  - delete: STR_RIOT
-  - delete: STR_SABOTAGE_MISSION
-  - delete: STR_CULTIST_SACRIFICES_LEVEL_1
-  - delete: STR_CATACOMBS
-
   - type: STR_RIOT
     briefing:
       title: STR_RIOT_TITLE

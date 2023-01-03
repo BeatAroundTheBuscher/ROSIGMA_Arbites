@@ -1,12 +1,4 @@
 arcScripts:
-  - delete: marines
-  - delete: marinesPickStrategy
-  - delete: arbites
-  - delete: adeptas
-  - delete: imperialGuard
-  - delete: chapterPurity
-
-
   - type: arbitesCampaign            
     sequentialArcs:                  
       - STR_ARBITES_CAMPAIGN

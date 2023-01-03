@@ -1,9 +1,4 @@
 alienMissions:
-  - delete: STR_RIOT
-  - delete: STR_ALIEN_SABOTAGE
-  - delete: STR_CULTIST_SUMMONING_LEVEL_1 # required as this mission expects a base
-  - delete: STR_CULTIST_SACRIFICES_LEVEL_1
-
   - type: STR_RIOT
     points: 10
     objective: 3

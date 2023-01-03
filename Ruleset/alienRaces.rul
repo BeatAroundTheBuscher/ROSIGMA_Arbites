@@ -1,7 +1,4 @@
 alienRaces:
-  - delete: STR_SECTOID
-  - delete: STR_CHAOS_RIOTS
-
   - id: STR_SECTOID
     retaliationAggression: -100
     members:
