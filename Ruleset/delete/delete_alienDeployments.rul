@@ -17,6 +17,7 @@ alienDeployments:
   - delete: STR_BULLGRYN_RIOT
   - delete: STR_CAT
   - delete: STR_CATACOMBS
+  - delete: STR_CHAOS_FINAL_ASSAULT
   - delete: STR_CHAOS_FINAL_LANDING
   - delete: STR_CHAOSOUT
   - delete: STR_CHAOS_VOSS
@@ -33,9 +34,17 @@ alienDeployments:
   - delete: STR_CULTIST_RIOT
   - delete: STR_CULTIST_SACRIFICES_LEVEL_1
   - delete: STR_CULTIST_SUMMONING_LEVEL_1
+  - delete: STR_DEFILER_UFO
   - delete: STR_DESERTER_HIDEOUT
   - delete: STR_DESERTER_HIDEOUT_GSC
   - delete: STR_DOOMSDAY_MONOLITH
+  - delete: STR_ELDAR_BASE_LEVEL_1
+  - delete: STR_ELDAR_BASE_LEVEL_2
+  - delete: STR_ELDAR_BASE_LEVEL_3
+  - delete: STR_ELDAR_COBRA_UFO
+  - delete: STR_ELDAR_HEMLOCK_UFO
+  - delete: STR_ELDAR_HORNET_UFO
+  - delete: STR_ELDAR_WAVESERPENT_UFO
   - delete: STR_ELDAR_WEBWAY
   - delete: STR_GENE_HIVE
   - delete: STR_GSC_CIVILIAN_TERROR
