@@ -615,3 +615,4 @@ manufacture:
   - delete: STR_WARPTALON_TO_HONOR
   - delete: STR_WEBBER
   - delete: STR_WEBBER_AMMO
+  - delete: STR_BANNER
