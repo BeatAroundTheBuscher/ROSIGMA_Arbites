@@ -1,6 +1,7 @@
 soldiers:
-  - type: STR_SOLDIER_AC
-    costBuy: 40000
+  - &STR_SOLDIER_ARBITES
+    type: STR_SOLDIER_AC
+    costBuy: 60000
     costSalary: 20000
     minStats:
       tu: 50
@@ -46,3 +47,46 @@ soldiers:
       - SoldierName/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
+
+  - type: STR_PENITENT_AC
+    refNode: *STR_SOLDIER_ARBITES
+
+  - type: STR_JUDGE_AC
+    refNode: *STR_SOLDIER_ARBITES
+    costBuy: 200000
+    requires:
+      - STR_JUDGE_RECRUITMENT
+    skillIconSprite: 0
+    skills:
+      - STR_JUDGE_EVIL_EYE
+#    specialWeapon: STR_PSI_AMP_DUMMY
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 35
+      bravery: 60
+      reactions: 40
+      firing: 50
+      throwing: 40
+      strength: 20
+      psiStrength: 50
+      psiSkill: 1 # was 0
+      melee: 50
+
+  - type: STR_MASTIFF_AC
+    refNode: *STR_SOLDIER_ARBITES
+    costBuy: 100000
+    requires:
+      - STR_CYBER_MASTIFF_RECRUITMENT
+
+
+#soldierTransformation:
+#  - name: STR_INDOCTRINATE_GUARDSMAN
+#    requires:
+#      - STR_ARBITES_CAMPAIGN
+#    cost: 50000
+
+#  - name: STR_PARDON_PENITENT_ARBITES
+#    requires:
+#      - STR_ARBITES_CAMPAIGN
+#    cost: 100000

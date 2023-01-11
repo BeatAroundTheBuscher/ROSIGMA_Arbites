@@ -1,0 +1,260 @@
+# general rule
+# items cost 5 times of their sell value
+# chaos tained weapons are only worth half
+
+soldiers:
+
+
+
+items:
+
+## ARMORS
+
+  - type: STR_ENFORCER_MEDIC_ARMOR
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+    costBuy: 5000
+    costSell: 1000
+
+  - type: STR_ENFORCER_HEAVY_ARMOR
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_HEAVY_ARMOR
+    costBuy: 25000
+    costSell: 5000
+
+  - type: STR_ENFORCER_SHIELD_ARMOR
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_HEAVY_ARMOR
+    costBuy: 35000
+    costSell: 7000
+
+
+# STR_ENFORCER_SIGNAL_ARMOR    
+
+## WEAPONS
+# don't forget to set requires too for craft inventory screen
+
+
+### Webbers
+
+  - type: STR_WEBBER
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_WEBBER_AC
+    costBuy: 15000
+    costSell: 3000
+
+  - type: STR_WEBBER_AMMO
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_WEBBER_AC
+    costBuy: 1000
+    costSell: 200
+
+### Grenades
+
+  - type: STR_GRENADE
+    costBuy: 10000
+    costSell: 2000
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_KRAK_GRENADE
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_ANTI_ARMOR
+
+  - type: STR_PROXIMITY_GRENADE
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+
+  - type: STR_SMOKE_GRENADE
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_PHOTON_GRENADE
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_STUN_GEAR
+
+  - type: STR_PHOSPHOR_GRENADE
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+
+  - type: STR_ELECTRO_FLARE
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_MAKESHIFT_GRENADE
+    costSell: 200
+
+  - type: STR_MAKESHIFT_PIPEBOMB
+    costSell: 400
+
+### Flamers
+
+  - type: STR_FLAMETHROWER
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_FLAMER
+
+  - type: STR_FLAMETHROWER_CLIP
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_FLAMER
+
+  - type: STR_FLAMETHROWER_PROMETHIUM_CLIP
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+
+### Shotgun
+
+  - type: STR_SHOTGUN
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_SHOTGUN_SHELLS
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_STUN_SHELLS
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_STUN_GEAR
+
+  - type: STR_STUN_GAS_SHELLS
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_STUN_GEAR
+
+  - type: STR_SHOTGUNPD # Award only
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+
+### Melee
+
+#### Basic Melee
+
+  - type: STR_COMBAT_KNIFE
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+    costBuy: 500
+    costSell: 100
+    listOrder: 12900
+
+  - type: STR_STUN_ROD
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+    costBuy: 2000
+    costSell: 400
+
+### Stubbers
+
+#### Basic Stubbers
+# do more damage per shot compared to Autoguns
+# become obsolete once Las comes around
+# special ammo might still be used
+
+  - type: STR_STUB_GUN
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_STUB_RIFLE
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_STUB_GUN_AMMO
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+#### Stubber - Special Ammo
+
+
+  - type: STR_STUB_GUN_AMMO_AP
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_STUBBER_AMMO_ADVANCED
+
+  - type: STR_STUB_GUN_AMMO_WOUND
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_STUBBER_AMMO_ADVANCED
+
+  - type: STR_STUB_GUN_AMMO_HP
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_STUBBER_AMMO_ADVANCED
+
+  - type: STR_STUB_GUN_AMMO_INC
+    requiresBuy:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_STUBBER_AMMO_ADVANCED
+
+#### Autoguns
+
+  - type: STR_AUTOPISTOL
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_AUTOGUN
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_AUTOPISTOL_CLIP
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_AUTOGUN_CLIP
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN
+
+#### Heavy Stubbers
+
+  - type: STR_HEAVY_STUBBER_HANDHELD
+    requiresBuy: 
+      - STR_HEAVY_STUBBER
+
+  - type: STR_HEAVY_STUBBER_CLIP
+    requiresBuy: 
+      - STR_HEAVY_STUBBER
+
+
+
+
+
+
+
+
+
+
+
+## Auxilla
+
+  - type: STR_TANK_ROCKET_LAUNCHER
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+
+  - type: STR_HWP_ROCKETS
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+
+  - type: STR_SERVITOR
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+
+## Inventory Only
+
+  - type: AUX_SHIELDPD
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN # temporary
+    size: 0.2
+    costBuy: 20000
+    costSell: 4000
+#    listOrder: 6800
+
+
+
+
+

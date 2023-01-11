@@ -46,3 +46,10 @@ crafts:
       - [5, 6, 0, 0]
       - [6, 6, 0, 0]
     spacecraft: true
+    requires:
+      - STR_ARBITES_CAMPAIGN
+
+#  - type: STR_AVENGER_ADEPTAS
+#    requires:
+#      - STR_ARBITES_CAMPAIGN
+#      - STR_FIGHTER_CRAFT

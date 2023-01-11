@@ -1,0 +1,128 @@
+# https://openxcom.org/forum/index.php/topic,7974.0.html
+extended:
+  tags:
+    RuleSkill:
+      SKILL_JUDGE: int
+    RuleSoldier:
+      SOLDIER_COMMAND_POINTS: int
+    BattleUnit:
+      UNIT_EVIL_EYE_DAMAGE: int
+      UNIT_TURNED_TRAITOR: int
+
+
+  scripts:
+# this is used on clicking the skill, not useful for hitting
+#    skillUseUnit:
+
+    hitUnit:
+    - offset: 1 
+      code: |
+        var int judgeSkillId;
+        var int temp;
+        var int braveryDefense;
+
+        skill.getTag judgeSkillId Tag.SKILL_JUDGE;
+        if eq judgeSkillId 1;
+
+          # power equals to bravery 
+          # power roll is 50-150%
+          # check rul set for damageBonus
+
+          # victim bravery modified by remaining morale as defense
+          unit.Stats.getBravery braveryDefense; 
+          unit.getMorale temp;
+          muldiv braveryDefense temp 100;
+          sub power braveryDefense;
+
+          if gt power 0;
+            battle_game.flashMessage "Judgement {0}" power;
+
+            unit.setTag Tag.UNIT_EVIL_EYE_DAMAGE power;
+            unit.setTag Tag.UNIT_TURNED_TRAITOR 1;
+          end;
+        end;
+
+        return power part side;
+
+    newTurnUnit: # evil eye after effect
+    - offset: 1
+      code: |
+        var int evilEyeDamage;
+        var int braveryDefense;
+        var int currentStatValue;
+        var int temp;
+
+        if neq side FACTION_HOSTILE;
+          return;
+        end;
+
+        unit.getTag evilEyeDamage Tag.UNIT_EVIL_EYE_DAMAGE;
+
+        debug_log "ID" unit;
+        debug_log "Current evilEyeDamage" evilEyeDamage;
+
+        if gt evilEyeDamage 0; # Evil Eye attacks again
+          # roll 50-200 %
+          battle_game.randomRange temp 50 200;
+          muldiv evilEyeDamage temp 100;
+
+          # victim bravery modified by remaining morale as defense
+          unit.Stats.getBravery braveryDefense; 
+          unit.getMorale temp;
+          muldiv braveryDefense temp 100;
+          sub evilEyeDamage braveryDefense;
+
+          # damage unit
+          if gt evilEyeDamage 0;
+
+            debug_log "new evilEyeDamage" evilEyeDamage;
+
+            # stun
+            set temp evilEyeDamage;
+            muldiv temp 1 10;
+            unit.getStun currentStatValue;
+            debug_log "getStun" currentStatValue;
+            add currentStatValue temp;
+            unit.setStun currentStatValue;
+            debug_log "setStun" currentStatValue;
+
+            # time
+            set temp evilEyeDamage;
+            muldiv temp 5 10;
+            unit.getTimeUnits currentStatValue;
+            debug_log "getTimeUnits" currentStatValue;
+            sub currentStatValue temp;
+            unit.setTimeUnits currentStatValue;
+            debug_log "setTimeUnits" currentStatValue;
+
+            # energy
+            set temp evilEyeDamage;
+            muldiv temp 5 10;
+            unit.getEnergy currentStatValue;
+            debug_log "getEnergy" currentStatValue;
+            sub currentStatValue temp;
+            unit.setEnergy currentStatValue;
+            debug_log "setEnergy" currentStatValue;
+
+            # morale
+            set temp evilEyeDamage;
+            muldiv temp 5 10;
+            unit.getMorale currentStatValue;
+            debug_log "getMorale" currentStatValue;
+            sub currentStatValue temp;
+            unit.setMorale currentStatValue;
+            debug_log "setMorale" currentStatValue;
+
+            unit.setTag Tag.UNIT_EVIL_EYE_DAMAGE evilEyeDamage;
+
+
+          else; # effect is over
+            unit.setTag Tag.UNIT_EVIL_EYE_DAMAGE 0;
+            unit.setTag Tag.UNIT_TURNED_TRAITOR 0;            
+          end;
+          
+        end;
+        return;
+        
+
+

@@ -1,3 +1,123 @@
 research:
   - name: STR_FINAL_MISSION
     unlockFinalMission: true
+
+  - name: STR_GENERAL_LOCK_AC
+    needItem: true
+
+  - name: STR_HIDE_LOCK
+    needItem: true
+
+  - name: STR_STANDARD_SMALL_ARMS_RESEARCH_REQ
+    dependencies:
+      - STR_HIDE_LOCK
+
+  - name: STR_ARBITES_CAMPAIGN
+    cost: 0
+    points: 0
+    needItem: true 
+
+  - name: STR_WEBBER_AC
+    cost: 200
+    points: 100
+    dependencies:
+      - STR_STUN_GEAR_ADVANCED
+    
+  - name: STR_STUBBER_AMMO_ADVANCED
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_BEGINNING_INVESTIGATION
+#      - STR_INTERROGATION_COMPLETED
+#      - STR_THREAT_ONE
+
+  - name: STR_ANTI_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_ANTI_ARMOR_ADVANCED
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_STUN_GEAR
+    cost: 200
+    points: 100
+#    dependencies:
+#      - STR_INTERROGATION_COMPLETED
+
+  - name: STR_STUN_GEAR_ADVANCED
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_FLAMER
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_DAEMON_CORPSE_RESEARCHED
+
+  - name: STR_HEAVY_STUBBER
+    cost: 100
+    points: 10
+    dependencies:
+      - STR_DAEMON_CORPSE_RESEARCHED
+
+  - name: STR_HEAVY_ARMOR
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_FIGHTER_CRAFT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+      
+  - name: STR_ARBITES_CAMPAIGN
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_JUDGE_RECRUITMENT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_CYBER_MASTIFF_RECRUITMENT
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+
+
+#  - name: STR_SECTOID_CORPSE
+#    cost: 180
+#    points: 50
+#    lookup: STR_SECTOID_AUTOPSY
+#    needItem: true
+
+#  - name: STR_CYBERDISC_CORPSE
+#    unlocks: 
+#      - STR_DAEMON_CORPSE_RESEARCHED
+
+#  - name: STR_SILACOID_CORPSE
+#    unlocks: 
+#      - STR_DAEMON_CORPSE_RESEARCHED
+
+  - name: STR_DAEMON_CORPSE_RESEARCHED
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+  - &STR_SECTOID
+    name: STR_SECTOID_SOLDIER
+    cost: 190
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_SECTOID
+    spawnedEvent: STR_PENITENT_EVENT
+    unlocks:
+      - STR_INTERROGATION_COMPLETED
+    getOneFree:
+      - STR_SECTOID_CORPSE
+
+#  - name: STR_SECTOID_LEADER
+#    refNode: *STR_SECTOID
+
+  - name: STR_SECTOID_COMMANDER
+    refNode: *STR_SECTOID
+    dependencies: 
+      - STR_CULTIST_MENACE
+    unlocks: !remove
+      - STR_INTERROGATION_COMPLETED
+
+  - name: STR_SECTOID_ASPIRING_CHAMPION
+    refNode: *STR_SECTOID
+    dependencies: 
+      - STR_CULTIST_MENACE
+    unlocks: !remove
+      - STR_INTERROGATION_COMPLETED
+
+  - name: STR_SECTOID_ENGINEER
+    refNode: *STR_SECTOID
+
+  - name: STR_SECTOID_MEDIC
+    refNode: *STR_SECTOID
+
+  - name: STR_SECTOID_NAVIGATOR
+    refNode: *STR_SECTOID
