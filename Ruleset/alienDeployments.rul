@@ -27,7 +27,7 @@ alienDeployments:
         highQty: 8
         dQty: 4
         percentageOutsideUfo: 50
-        itemSets:
+        itemSets: &emptyItemSets
           -
             []
           -
@@ -148,3 +148,158 @@ alienDeployments:
     width: 40
     length: 40
     height: 9
+
+  - type: STR_RIOT_AC
+    briefing:
+      title: STR_RIOT_TITLE
+      palette: 4
+      desc: STR_RIOT_DESCRIPTION
+      music: gmstory2
+      showCraft: true
+      showTarget: false
+      background: BACK169.SCR
+    civiliansByType:
+      STR_CIVILIAN_M0_AC: 2
+      STR_CIVILIAN_M1_AC: 2
+      STR_CIVILIAN_F0_AC: 2
+      STR_CIVILIAN_F1_AC: 2
+      STR_MONK1_AC: 2
+      STR_MONK2_AC: 2
+    width: 40
+    length: 40
+    height: 9
+    terrains:
+      - CITY
+      - RIG
+    script: CITY_RIOT
+    alert: STR_RIOT_ALERT
+    alertBackground: BACK169.SCR
+    alertDescription: STR_RIOT_DESCRIPTION
+    duration: [168, 168]
+    despawnPenalty: 550
+    markerName: STR_RIOT_SITE
+    data:
+      - alienRank: 0
+        lowQty: 0
+        highQty: 0
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: &emptyItemSets
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 1 # 1-1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 2 # 2-3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 3 # 2-3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 4 # 2-3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 5 # 4-6
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 6 # 6-10
+        lowQty: 3
+        highQty: 7
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 7 # 6-10
+        lowQty: 3
+        highQty: 7
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+
+  - type: STR_SABOTAGE_MISSION_AC
+    width: 40
+    length: 40
+    height: 6
+    civiliansByType:
+      STR_CIVILIAN_TROOPER_M_AC: 3
+      STR_CIVILIAN_TROOPER_F_AC: 3
+    terrains:
+      - MUNITORIUM
+    alert: STR_ALIENS_SABOTAGE
+    alertBackground: BACK170.SCR
+    briefing:
+      cutscene: SABOTAGE
+      music: gmstory2
+      palette: 2
+      desc: STR_SABOTAGE_MISSION_BRIEFING
+      title: STR_ALIENS_SABOTAGE
+    markerName: STR_SABOTAGE_SITE
+    duration: [24, 48]
+    despawnPenalty: 1000
+    data:
+      - alienRank: 0
+        lowQty: 0
+        highQty: 0
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 1 # 1-1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 2 # 2-4
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 3 # 2-3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 4 # 2-4
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 5 # 9-12
+        lowQty: 5
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 6 # 0
+        lowQty: 0
+        highQty: 0
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 7 # 0
+        lowQty: 0
+        highQty: 0
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets

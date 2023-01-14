@@ -78,3 +78,40 @@ items:
     attraction: 7
     listOrder: 12900
     experienceTrainingMode: 13
+
+  - type: STR_POWERCORE_AC
+    costSell: 10000
+    size: 0.5
+    weight: 20
+    bigSprite: {mod: 40k, index: 311}
+    handSprite: {mod: 40k, index: 608}
+    floorSprite: {mod: 40k, index: 181}
+    invWidth: 2
+    invHeight: 3
+    battleType: 0
+    armor: 20
+    listOrder: 35000
+  - type: STR_FUELCORE_AC
+    costSell: 10000
+    size: 0.5
+    weight: 20
+    bigSprite: {mod: 40k, index: 323}
+    handSprite: {mod: 40k, index: 624}
+    floorSprite: {mod: 40k, index: 183}
+    invWidth: 2
+    invHeight: 3
+    battleType: 0
+    armor: 20
+    listOrder: 35100
+  - type: STR_CPUCORE_AC
+    costSell: 10000
+    size: 0.5
+    weight: 20
+    bigSprite: {mod: 40k, index: 310}
+    handSprite: {mod: 40k, index: 584}
+    floorSprite: {mod: 40k, index: 172}
+    invWidth: 2
+    invHeight: 3
+    battleType: 0
+    armor: 20
+    listOrder: 35200

@@ -1813,3 +1813,266 @@ terrains:
 #            - [6, 6, 1]
 #        fuseTimers:
 #          STR_TARANTULAGK_SPAWNER: [0, 0]
+
+
+  - name: URBAN
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [3, 3, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: URBAN19 #ROSIGMA
+        width: 20
+        length: 20  
+      - name: URBAN20 #ROSIGMA
+        width: 20
+        length: 20      
+      - name: URBAN21 #ROSIGMA
+        width: 20
+        length: 20   
+      - name: URBAN22 #ROSIGMA, Munitions dump hideout
+        width: 20
+        length: 20   
+      - name: URBAN23 #ROSIGMA
+        width: 20
+        length: 20   
+      - name: URBAN24 #ROSIGMA
+        width: 40
+        length: 40   
+      - name: URBAN25 #ROSIGMA
+        width: 40
+        length: 40
+      - name: URBAN26 #ROSIGMA
+        width: 20
+        length: 20   
+      - name: URBAN27 #ROSIGMA
+        width: 40
+        length: 20   
+      - name: URBAN28 #ROSIGMA
+        width: 20
+        length: 20
+        height: 9
+      - name: URBAN29
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: URBAN30
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: URBAN31
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: URBAN32
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]  
+
+  - name: MUNITORIUM
+    enviroEffects: STR_URBAN_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MUNI1
+      - MUNI2
+      - MUNI3
+      - VHT
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: BDMUNITORIUM
+    mapBlocks:
+      - name: MUNI00
+        width: 20
+        length: 20
+        randomizedItems:
+              - position: [13, 8, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI01
+        width: 20
+        length: 20
+        randomizedItems:
+              - position: [12, 12, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [10, 10, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI02
+        width: 20
+        length: 20
+        randomizedItems:
+              - position: [9, 9, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [9, 9, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI03
+        width: 10
+        length: 10
+      - name: MUNI04
+        width: 10
+        length: 10
+      - name: MUNI05
+        width: 10
+        length: 10
+      - name: MUNI06
+        width: 10
+        length: 10
+        randomizedItems:
+              - position: [6, 6, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI07
+        width: 10
+        length: 10
+      - name: MUNI08
+        width: 10
+        length: 10
+        randomizedItems:
+              - position: [4, 3, 1]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+      - name: MUNI09
+        width: 10
+        length: 10
+        randomizedItems:
+              - position: [4, 9, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [2, 7, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI10
+        width: 10
+        length: 10
+        groups: 2
+      - name: MUNI11
+        width: 10
+        length: 10
+        groups: 3
+      - name: MUNI12
+        width: 10
+        length: 10
+        groups: 4
+      - name: MUNI13
+        width: 10
+        length: 10
+      - name: MUNI14
+        width: 10
+        length: 10
+      - name: MUNI15
+        width: 10
+        length: 10
+      - name: MUNI16
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MUNI17
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MUNI18
+        width: 10
+        length: 10
+      - name: MUNI19
+        width: 30
+        length: 30
+        randomizedItems:
+              - position: [14, 14, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [12, 12, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]

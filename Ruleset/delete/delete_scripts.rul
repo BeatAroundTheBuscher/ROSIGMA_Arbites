@@ -114,6 +114,8 @@ extended:
 
     recolorItemSprite:
     - delete: 40k_rIS_cosmetic_sprites_based_on_ammo
+    - delete: ROSIGMA_rIS_infections
+    - delete: ROSIGMA_rIS_recolor_sprites_non_gray
 
     recolorUnitSprite:
     - delete: 40k_rUS_buffs_debuffs_recolor
@@ -134,8 +136,7 @@ extended:
     - delete: 40k_sIS_cosmetic_sprites_bipod
     - delete: 40k_sIS_cosmetic_sprites_muzzle_flash
     - delete: 40k_sIS_cosmetic_sprites_randomized
-    - delete: ROSIGMA_rIS_infections
-    - delete: ROSIGMA_rIS_recolor_sprites_non_gray
+
 
     statsForNerdsArmor:
     - delete: ROSIGMA_sFNA_stats_for_nerds

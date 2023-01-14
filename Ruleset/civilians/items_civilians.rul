@@ -1,0 +1,77 @@
+items:
+  - &STR_CIVILIAN
+    type: STR_CIVILIAN_TROOPER_CORPSE_AC
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: {mod: 40k, index: 631}
+    floorSprite: {mod: 40k, index: 625}
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    battleType: 11
+    recover: false
+
+  - type: STR_CIVILIAN_M0_CORPSE_AC
+    refNode: *STR_CIVILIAN
+    bigSprite: {mod: 40k, index: 1303}
+    floorSprite: {mod: 40k, index: 1303}
+
+  - type: STR_CIVILIAN_M1_CORPSE_AC
+    refNode: *STR_CIVILIAN
+    bigSprite: {mod: 40k, index: 1304}
+    floorSprite: {mod: 40k, index: 1304}
+
+  - type: STR_CIVILIAN_F0_CORPSE_AC
+    refNode: *STR_CIVILIAN
+    bigSprite: {mod: 40k, index: 1305}
+    floorSprite: {mod: 40k, index: 1305}
+
+  - type: STR_CIVILIAN_F1_CORPSE_AC
+    refNode: *STR_CIVILIAN
+    bigSprite: {mod: 40k, index: 1306}
+    floorSprite: {mod: 40k, index: 1306}
+
+  - type: STR_MONK_ARMOR_CORPSE_AC
+    refNode: *STR_CIVILIAN
+    bigSprite: {mod: 40k, index: 327}
+    floorSprite: {mod: 40k, index: 189}
+
+  - type: STR_MONK_ARMOR2_CORPSE_AC
+    refNode: *STR_CIVILIAN
+    bigSprite: {mod: 40k, index: 801}
+    floorSprite: {mod: 40k, index: 661}
+
+  - type: STR_MUNITORIUM_SPAWNER_AC
+    spawnUnit: STR_MUNITORIUM_AC
+    spawnUnitFaction: 2   #    2: Civilian faction
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+
+  - type: M_CORPSE1_AC
+    name: STR_DESTROYED_EQUIPMENT
+    armor: 80
+    floorSprite: {mod: 40k, index: 632}
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 30
+    recover: false
+  - type: M_CORPSE2_AC
+    armor: 80
+    floorSprite: {mod: 40k, index: 633}
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: M_CORPSE3_AC
+    armor: 80
+    floorSprite: {mod: 40k, index: 634}
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: M_CORPSE4_AC
+    armor: 80
+    floorSprite: {mod: 40k, index: 635}
+    invWidth: 0
+    invHeight: 0
+    recover: false
