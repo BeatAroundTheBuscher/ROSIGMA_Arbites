@@ -184,3 +184,4 @@ alienRaces:
   - delete: STR_WARPTALON
   - delete: STR_WARWARPTALON
   - delete: STR_WEIRDBOYZ_TEST
+  - delete: STR_ELDAR_EARLY

@@ -5,5 +5,5 @@ description: "Campaign for the Arbites. Always run with the correct versions of 
 id: 40k_Arbites_Campaign
 master: 40k
 isMaster: false
-resourceConfig: Ruleset/vars40k.rul
-reservedSpace: 3
+# resourceConfig: Ruleset/vars40k.rul
+# reservedSpace: 3
