@@ -59,7 +59,7 @@ research:
     dependencies:
       - STR_DAEMON_CORPSE_RESEARCHED
 
-  - name: STR_HEAVY_STUBBER
+  - name: STR_HEAVY_STUBBER_AC
     cost: 100
     points: 10
     dependencies:

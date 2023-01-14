@@ -1,0 +1,38 @@
+extended:
+  tags:
+    RuleItem:
+      ITEM_SPRITE_COLOR: int
+      ITEM_NEW_COLOR: int
+
+items:
+  - &STR_ITEM_CHANGE_COLOR
+    type: STR_AUTOGUN_AC
+    tags:
+      ITEM_SPRITE_COLOR: 4
+      ITEM_NEW_COLOR: 15
+    scripts:
+      recolorItemSprite: |
+        var ptr RuleItem weaponRuleset;
+        var int newWeaponColor;
+        var int oldWeaponColor;
+        var int color;
+
+        item.getRuleItem weaponRuleset;
+        weaponRuleset.getTag newWeaponColor Tag.ITEM_NEW_COLOR;
+        if neq newWeaponColor 0;
+          weaponRuleset.getTag oldWeaponColor Tag.ITEM_SPRITE_COLOR;
+          get_color color new_pixel;
+
+          if eq color oldWeaponColor;
+            set_color new_pixel newWeaponColor;
+          end;
+        end;
+
+        return new_pixel;
+
+
+  - type: STR_AUTOPISTOL_AC
+    refNode: *STR_ITEM_CHANGE_COLOR
+
+  - type: STR_BOLTER_LIGHT_AC
+    refNode: *STR_ITEM_CHANGE_COLOR
