@@ -117,6 +117,7 @@ alienDeployments:
       palette: 0
       background: BACK01.SCR
       music: GMENBASE
+    script: XBASE
 
 
   - type: STR_SMALL_SCOUT_AC

@@ -27,3 +27,8 @@ fixedUserOptions:
   customInitialBase: false
 
 newBaseUnlockResearch: STR_GENERAL_LOCK_AC
+
+# STR_BASE_DEFENSE uses this to figure out which terrain will be placed in outpost maps
+# The generator does not manage to obtain a random terrain for BattlescapeGenerator::generateMap
+# when loading a new battle
+baseDefenseMapFromLocation: 0 
