@@ -1,0 +1,155 @@
+extended:
+  scripts:
+    accuracyMultiplierBonusStats:
+    - delete: 40k_aMBS_missing_strength_affects_accuracy
+    - delete: 40k_aMBS_treat_two_handed_as_one_handed
+    - delete: ROSIGMA_aMBS_heavy_weapons_team
+    - delete: ROSIGMA_aMBS_tu_accuracy_penalty
+
+    applySoldierBonuses:
+    - delete: ROSIGMA_aSB_bionics_bonus
+    - delete: ROSIGMA_aSB_personal_shield_soldier_bonus
+
+    createItem:
+    - delete: 40k_cI_cosmetic_sprites_based_on_armor
+    - delete: 40k_cI_cosmetic_sprites_randomized
+    - delete: 40k_cI_map_placed_reinforcements_timer_prime_fuse
+    - delete: 40k_cI_map_placed_reinforcements_timer_tagger
+    - delete: 40k_cI_prime_fuse_at_beginning
+    - delete: 40k_cI_prime_fuse_for_mission_timer
+    - delete: 40k_cI_save_timed_objectives
+
+    createUnit:
+    - delete: 40k_cU_crew_served_weapons
+    - delete: 40k_cU_frequency_offset_recolor
+    - delete: 40k_cU_immobilize_till_mission_timer
+    - delete: 40k_cU_personal_shields
+    - delete: ROSIGMA_cU_reinforcements_less_tus
+
+    damageUnit:
+    - delete: 40k_dU_crew_served_weapons_crew_tu
+    - delete: 40k_dU_crew_served_weapons_interaction
+    - delete: 40k_dU_spell_inspire_melee_tagger
+    - delete: 40k_dU_spell_lockdown_tagger
+    - delete: 40k_dU_spell_personal_shields
+    - delete: 40k_dU_spell_seductress
+    - delete: 40k_dU_spell_stasis_no_damage
+    - delete: 40k_dU_spell_stasis_tagger
+    - delete: ROSIGMA_dU_bomberman_kamikazi
+    - delete: ROSIGMA_dU_commissar_execution_morale
+    - delete: ROSIGMA_dU_drain_tu_next_turn
+    - delete: ROSIGMA_dU_enveloping_damage
+    - delete: ROSIGMA_dU_fanaticism_vs_naughtiness
+    - delete: ROSIGMA_dU_grav_damage_bonus
+    - delete: ROSIGMA_dU_infections
+    - delete: ROSIGMA_dU_infections_2
+    - delete: ROSIGMA_dU_item_does_not_hurt_friends
+    - delete: ROSIGMA_dU_item_kills_user
+    - delete: ROSIGMA_dU_overkill
+    - delete: ROSIGMA_dU_psi_mend_wounds
+
+    detectUfoFromCraft:
+    - delete: ROSIGMA_dUFC_visual_confirmed
+
+    healUnit:
+    - delete: ROSIGMA_healU_heavy_weapons_team
+    - delete: ROSIGMA_healU_limited_flight
+    - delete: ROSIGMA_healU_medikit_extinguishes_fire
+
+    hitUnit:
+    - delete: 40k_hU_crew_served_weapons_experience
+    - delete: 40k_hU_crew_served_weapons_interaction
+    - delete: 40k_hU_personal_shields
+    - delete: 40k_hU_repair_armor
+    - delete: 40k_hU_traitor_execution_morale_execution
+    - delete: 40k_hU_traitor_execution_morale_tagger
+    - delete: ROSIGMA_hU_bomberman
+    - delete: ROSIGMA_hU_hand_shield_item
+    - delete: ROSIGMA_hU_heavy_weapons_team
+    - delete: ROSIGMA_hU_highpower_shot
+    - delete: ROSIGMA_hU_infections
+    - delete: ROSIGMA_hU_remove_flight
+    - delete: ROSIGMA_hU_stats_buff
+
+    meleeDodgeBonusStats:
+    - delete: 40k_mDBS_spell_inspire_melee
+
+    meleeMultiplierBonusStats:
+    - delete: 40k_mMBS_missing_strength_affects_accuracy
+    - delete: 40k_mMBS_spell_inspire_melee
+
+    newTurnItem:
+    - delete: 40k_nTI_change_mission_timer_depending_on_items
+    - delete: 40k_nTI_change_mission_timer_sanity_check
+    - delete: 40k_nTI_crew_served_weapons
+    - delete: 40k_nTI_overweight_affects_stamina_tagger
+    - delete: 40k_nTI_prevent_fuses_cooking_off_till_mission_timer
+
+    newTurnUnit:
+    - delete: 40k_nTU_change_mission_timer_depending_on_items
+    - delete: 40k_nTU_crew_served_weapons_experience
+    - delete: 40k_nTU_crew_served_weapons_reset
+    - delete: 40k_nTU_immobilize_till_mission_timer
+    - delete: 40k_nTU_overweight_affects_stamina_swap_tu_with_stamina
+    - delete: 40k_nTU_overweight_affects_stamina_untagger
+    - delete: 40k_nTU_personal_shields
+    - delete: 40k_nTU_spell_inspire_melee
+    - delete: 40k_nTU_spell_lockdown
+    - delete: 40k_nTU_spell_stasis
+    - delete: 40k_nTU_traitor_execution_morale
+    - delete: ROSIGMA_nTU_drain_tu_next_turn
+    - delete: ROSIGMA_nTU_fanaticism_vs_naughtiness
+    - delete: ROSIGMA_nTU_heavy_weapons_team
+    - delete: ROSIGMA_nTU_infections
+    - delete: ROSIGMA_nTU_limited_flight
+    - delete: ROSIGMA_nTU_personal_shield_soldier_bonus
+    - delete: ROSIGMA_nTU_stats_buff
+
+    reactionUnitReaction:
+    - delete: ROSIGMA_rUR_plasma_heat
+
+    reactionWeaponAction:
+    - delete: ROSIGMA_rWA_reduce_reaction_chance
+    - delete: ROSIGMA_rWA_reduce_reaction_chance_by_hit_side
+
+    recolorItemSprite:
+    - delete: 40k_rIS_cosmetic_sprites_based_on_ammo
+
+    recolorUnitSprite:
+    - delete: 40k_rUS_buffs_debuffs_recolor
+    - delete: 40k_rUS_hit_unit_recolor
+    - delete: ROSIGMA_rUS_drain_tu_next_turn
+    - delete: ROSIGMA_rUS_infections
+
+    returnFromMissionUnit:
+    - delete: 40k_rFMU_psiskill_as_secondary_experience
+    - delete: 40k_rFMU_crew_served_weapons
+    - delete: 40k_rFMU_reduce_wound_timer
+    - delete: ROSIGMA_rFMU_heavy_weapons_team
+    - delete: ROSIGMA_rFMU_infections
+    - delete: ROSIGMA_rFMU_bionics_bonus
+
+    selectItemSprite:
+    - delete: 40k_sIS_cosmetic_sprites_based_on_armor
+    - delete: 40k_sIS_cosmetic_sprites_bipod
+    - delete: 40k_sIS_cosmetic_sprites_muzzle_flash
+    - delete: 40k_sIS_cosmetic_sprites_randomized
+    - delete: ROSIGMA_rIS_infections
+    - delete: ROSIGMA_rIS_recolor_sprites_non_gray
+
+    statsForNerdsArmor:
+    - delete: ROSIGMA_sFNA_stats_for_nerds
+
+    statsForNerdsItem:
+    - delete: ROSIGMA_sFNI_stats_for_nerds
+
+    tryMeleeAttackUnit:
+    - delete: ROSIGMA_tMAU_heavy_weapons_team
+
+    tryPsiAttackUnit:
+    - delete: ROSIGMA_tPAU_fanaticism_vs_naughtiness
+
+
+
+
+
