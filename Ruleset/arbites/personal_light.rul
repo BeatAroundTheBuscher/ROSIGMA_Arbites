@@ -5,6 +5,12 @@ armors:
     type: STR_ENFORCER_ARMOR_UC_AC
     personalLight: 6
 
+  - type: STR_ENFORCER_MEDIC_ARMOR_UC_AC
+    refNode: *STR_PERSONAL_LIGHT
+
+  - type: STR_ENFORCER_HEAVY_ARMOR_UC_AC #DR10 ARBITES SUPORT
+    refNode: *STR_PERSONAL_LIGHT
+
   - type: STR_JUDGE_ARMOR_UC_AC
     refNode: *STR_PERSONAL_LIGHT
 

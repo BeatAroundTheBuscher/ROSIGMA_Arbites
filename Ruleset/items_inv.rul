@@ -96,3 +96,11 @@ items:
     fixedWeapon: true
     defaultInventorySlot: STR_BACK_PACK
     recover: false
+  - type: INV_NULL_MEDI_KIT_AC
+    weight: 0
+    invWidth: 3
+    invHeight: 3
+    bigSprite: {mod: 40k, index: 1206}
+    defaultInventorySlot: STR_BACK_PACK
+    fixedWeapon: true
+    recover: false

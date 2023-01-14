@@ -789,3 +789,32 @@ items:
     recover: false
     tags:
       ITEM_DOES_KILL_USER: 1
+
+  - type: STR_ARMOR_MEDI_KIT_AC
+    battleType: 6
+    painKiller: 20
+    heal: 20
+    stimulant: 20
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    experienceTrainingMode: 19
+    medikitTargetSelf: false
+    flatRate: true
+    recover: false
+    fixedWeapon: true
+    specialIconSprite: {mod: 40k, index: 100}
+    specialUseEmptyHand: true
+
+  - type: STR_ENFORCER_MEDIC_ARMOR_AC
+    size: 0.3
+    costSell: 5000
+    listOrder: 6621
+
+  - type: STR_ENFORCER_HEAVY_ARMOR_AC
+    size: 0.3
+    costSell: 5000
+    listOrder: 6621
+
