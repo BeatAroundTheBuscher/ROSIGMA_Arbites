@@ -27,9 +27,21 @@ en-US:
 
 ## Enemies
 
+### Civilians
+
   STR_PENAL_PRISONER_M: "Prisoner"
   STR_PENAL_PRISONER_F: "Prisoner"
   STR_RIOTING_PRISONER: "Rioting Prisoner"
+
+### Khorne Cultists
+
+  STR_KHORNE_CULTISTS_AC: "Khorne Cultists"
+  STR_KHORNE_CULTISTS_PRIEST_AC: "Khorne Priest"
+  STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC: "Khorne Aspiring Champion"
+  STR_KHORNE_CULTISTS_DARKDISCIPLE_AC: "Khorne Dark Disciple"
+  STR_KHORNE_CULTISTS_SOLDIER_AC: "Khorne Cultist Soldier"
+  STR_KHORNE_CULTISTS_FEMCULTIST_AC: "Khorne Cultist"
+  STR_KHORNE_CULTISTS_CULTIST_AC: "Khorne Cultist"
 
 ## Armors
 
