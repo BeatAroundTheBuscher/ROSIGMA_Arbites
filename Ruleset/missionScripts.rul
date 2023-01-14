@@ -1,0 +1,43 @@
+# first month is 1 and not 0 because start at 31st Dec
+
+missionScripts:
+
+## DANGER LEVEL 0
+
+  - type: Riot_early
+    firstMonth: 1 # number of months passed (compare to savegame)
+    lastMonth: 3
+    executionOdds: 50
+    label: 100
+    raceWeights:
+      0:
+        STR_CHAOS_RIOTS_AC: 100
+    missionWeights:
+      0:
+        STR_RIOT_AC: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    startDelay: 6000
+    randomDelay: 3000
+    useTable: false
+
+
+  - type: Sabotage_early
+    firstMonth: 1
+    lastMonth: 3
+    executionOdds: 100
+    label: 110
+    conditionals: [-100]
+    raceWeights:
+      0:
+        STR_KHORNE_CULTISTS_AC: 100
+    missionWeights:
+      0:
+        STR_ALIEN_SABOTAGE_AC: 100
+    regionWeights:
+      0:
+        REGION_HULK_SITES: 100
+    startDelay: 6000
+    randomDelay: 3000
+    useTable: false

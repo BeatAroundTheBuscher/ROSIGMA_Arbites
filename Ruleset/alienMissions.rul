@@ -1,0 +1,22 @@
+alienMissions:
+  - type: STR_RIOT_AC
+    points: 10
+    objective: 3
+    spawnZone: 0
+    waves:
+      - ufo: STR_RIOT_AC
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
+
+  - type: STR_ALIEN_SABOTAGE_AC
+    points: 10
+    objective: 3
+    spawnZone: 0
+    waves:
+      - ufo: STR_SABOTAGE_MISSION_AC
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
