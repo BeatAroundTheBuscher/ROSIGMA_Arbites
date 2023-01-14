@@ -1,12 +1,23 @@
 alienDeployments:
   - type: STR_CRAFT_DEPLOYMENT_PREVIEW
     isHidden: true
-    width: 10
-    length: 10
-    height: 8
+    music:
+      - HANGAR
+    briefing:
+      title: STR_HANGAR_TITLE
+      palette: 4
+      desc: STR_HANGAR_DESCRIPTION
+      music: HANGAR
+      showCraft: true
+      showTarget: false
+      background: BACK16.SCR
+    shade: 1
     terrains:
-      - CULTA
-    script: STR_CRAFT_DEPLOYMENT_PREVIEW
+      - XHANGAR
+    script: XHANGAR
+    width: 30
+    length: 20
+    height: 9
 
 
   - type: STR_BASE_DEFENSE # due to the expanded mapscript of 40k this will always crash in new battle

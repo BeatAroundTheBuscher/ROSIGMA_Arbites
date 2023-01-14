@@ -5,6 +5,27 @@
 # deleting terrains will require the MAP/TERRAIN/ROUTES to be part of this mod
 
 terrains:
+  - name: XHANGAR
+    mapDataSets:
+      - BLANKS
+      - XEXIT01
+      - XBASES02
+      - XEXIT03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    script: XHANGAR
+    mapBlocks:
+      - name: XBASE_30
+        width: 30
+        length: 20
+#        items:
+#          STR_HANGAR_CHARGE:
+#            - [2, 13, 0]
+#        fuseTimers:
+#          STR_HANGAR_CHARGE: [1, 1]
+
+
   - name: CULTA
     mapDataSets:
       - BLANKS
