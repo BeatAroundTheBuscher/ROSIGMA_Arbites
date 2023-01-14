@@ -84,7 +84,8 @@ soldiers:
     requires:
       - STR_CYBER_MASTIFF_RECRUITMENT
     armor: STR_CMAS_ARMOR_AC
-
+    avatarOffsetX: 91
+    avatarOffsetY: 87
 
 
 #soldierTransformation:
