@@ -1,0 +1,78 @@
+armors:
+  - type: STR_ENFORCER_ARMOR_UC_AC
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: ENF
+    layersDefinition:
+      M0: ["0", "EM", "M0_FACE"]
+      M1: ["0", "EM", "M1_FACE"]
+      M2: ["0", "EMC", "M2_FACE"]
+      M3: ["0", "EMB", "M3_FACE"]
+      M4: ["0", "EM", "M4_FACE"]
+      M5: ["0", "EM", "M5_FACE"]
+      M6: ["0", "EM", "M6_FACE"]
+      M7: ["0", "EM", "M7_FACE"]
+      M8: ["0", "EMC", "M8_FACE"]
+      M9: ["0", "EMB", "M9_FACE"]
+      F0: ["0", "EF", "F0_FACE"]
+      F1: ["0", "EF", "F1_FACE"]
+      F2: ["0", "EFC", "F2_FACE"]
+      F3: ["0", "EFB", "F3_FACE"]
+      F4: ["0", "EF", "F4_FACE"]
+      F5: ["0", "EF", "F5_FACE"]
+      F6: ["0", "EF", "F6_FACE"]
+      F7: ["0", "EF", "F7_FACE"]
+      F8: ["0", "EFC", "F8_FACE"]
+      F9: ["0", "EFB", "F9_FACE"]
+
+  - type: STR_JUDGE_ARMOR_UC_AC
+    layersDefaultPrefix: 0
+    layersSpecificPrefix:
+      1: JUDGE
+    layersDefinition:
+      M0: ["0", "JUDGEM", "M0_FACE"]
+      M1: ["0", "JUDGEM", "M1_FACE"]
+      M2: ["0", "JUDGEM", "M2_FACE"]
+      M3: ["0", "JUDGEM", "M3_FACE"]
+      M4: ["0", "JUDGEM", "M4_FACE"]
+      M5: ["0", "JUDGEM", "M5_FACE"]
+      M6: ["0", "JUDGEM", "M6_FACE"]
+      M7: ["0", "JUDGEM", "M7_FACE"]
+      M8: ["0", "JUDGEM", "M8_FACE"]
+      M9: ["0", "JUDGEM", "M9_FACE"]
+      F0: ["0", "JUDGEF", "F0_FACE"]
+      F1: ["0", "JUDGEF", "F1_FACE"]
+      F2: ["0", "JUDGEF", "F2_FACE"]
+      F3: ["0", "JUDGEF", "F3_FACE"]
+      F4: ["0", "JUDGEF", "F4_FACE"]
+      F5: ["0", "JUDGEF", "F5_FACE"]
+      F6: ["0", "JUDGEF", "F6_FACE"]
+      F7: ["0", "JUDGEF", "F7_FACE"]
+      F8: ["0", "JUDGEF", "F8_FACE"]
+      F9: ["0", "JUDGEF", "F9_FACE"]
+
+  - type: STR_PENAL_ARMOR_UC_AC 
+    layersDefaultPrefix: 20
+    layersSpecificPrefix:
+      20: PENAL
+    layersDefinition:
+      M0: ["0", "PENALM_BROWN", "M0_FACE"]
+      M1: ["0", "PENALM_BROWN", "M1_FACE"]
+      M2: ["0", "PENALMC_BROWN", "M2_FACE"]
+      M3: ["0", "PENALMB_BROWN", "M3_FACE"]
+      M4: ["0", "PENALM_BROWN", "M4_FACE"]
+      M5: ["0", "PENALM_BROWN", "M5_FACE"]
+      M6: ["0", "PENALM_BROWN", "M6_FACE"]
+      M7: ["0", "PENALM_BROWN", "M7_FACE"]
+      M8: ["0", "PENALMC_BROWN", "M8_FACE"]
+      M9: ["0", "PENALMB_BROWN", "M9_FACE"]
+      F0: ["0", "PENALF_BROWN", "F0_FACE"]
+      F1: ["0", "PENALF_BROWN", "F1_FACE"]
+      F2: ["0", "PENALFC_BROWN", "F2_FACE"]
+      F3: ["0", "PENALFB_BROWN", "F3_FACE"]
+      F4: ["0", "PENALF_BROWN", "F4_FACE"]
+      F5: ["0", "PENALF_BROWN", "F5_FACE"]
+      F6: ["0", "PENALF_BROWN", "F6_FACE"]
+      F7: ["0", "PENALF_BROWN", "F7_FACE"]
+      F8: ["0", "PENALFC_BROWN", "F8_FACE"]
+      F9: ["0", "PENALFB_BROWN", "F9_FACE"]

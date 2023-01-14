@@ -47,9 +47,12 @@ soldiers:
       - SoldierName/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
+    avatarOffsetX: 68 # 66
+    avatarOffsetY: 40 # 42
 
   - type: STR_PENITENT_AC
     refNode: *STR_SOLDIER_ARBITES
+    armor: STR_PENAL_ARMOR_UC_AC
 
   - type: STR_JUDGE_AC
     refNode: *STR_SOLDIER_ARBITES
@@ -72,12 +75,16 @@ soldiers:
       psiStrength: 50
       psiSkill: 1 # was 0
       melee: 50
+    armor: STR_JUDGE_ARMOR_UC_AC
+
 
   - type: STR_MASTIFF_AC
     refNode: *STR_SOLDIER_ARBITES
     costBuy: 100000
     requires:
       - STR_CYBER_MASTIFF_RECRUITMENT
+    armor: STR_CMAS_ARMOR_AC
+
 
 
 #soldierTransformation:

@@ -713,3 +713,79 @@ items:
     tuAuto: 0
     tuSnap: 25
     tuAimed: 50
+
+  - type: STR_CMAS_AC
+    power: 10 # gets its power from damageBonus
+    accuracyMelee: 120
+    damageBonus:
+      strength: 0.2
+      melee: 0.4
+      RandomType: 2
+    bigSprite: {mod: 40k, index: 629} 
+    meleeHitSound: {mod: 40k, index: 48} 
+    meleeAnimation: {mod: 40k, index: 76} 
+    strengthApplied: false
+    damageType: 7
+    tuMelee: 15
+    clipSize: -1
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    flatRate: true
+    listOrder: 2320
+
+  - type: STR_CMAS_TACKLE_AC
+    bigSprite: 203
+    damageType: 6
+    power: 10 # gets its power from damageBonus
+    damageBonus:
+      strength: 0.15
+      melee: 0.3
+      RandomType: 2
+    meleeHitSound: {mod: 40k, index: 101} 
+    damageAlter: #DA CHAIN
+      ArmorEffectiveness: 0.5
+      ToHealth: 0.2
+      ToStun: 1
+      ToTime: 0.5
+      ToEnergy: 0.5
+      ToWound: 0.2
+      ToMorale: 0.5
+      RandomType: 2
+    meleeAnimation: {mod: 40k, index: 0} 
+    strengthApplied: false
+    accuracyMelee: 100
+    tuMelee: 25
+    clipSize: -1
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    flatRate: true
+    confMelee:
+      name: STR_CMAS_TACKLE
+
+  - type: STR_EXPLOSIVE_COLLAR_AC
+    power: 75 # collar
+    damageType: 3
+    battleType: 1
+    blastRadius: 5
+    listOrder: 13600
+    maxRange: 1
+    fixedWeapon: true
+    specialUseEmptyHand: false # no accidential blowups
+    specialIconSprite: {mod: 40k, index: 202}
+    clipSize: 1
+    confAimed:
+      name: STR_EXPLOSIVE_COLLAR
+    costAimed:
+      time: 1
+    accuracyAimed: 100
+    accuracyMultiplier:
+      firing: 0.0
+      flatHundred: 1.0
+    bulletSpeed: -10
+    recover: false
+    tags:
+      ITEM_DOES_KILL_USER: 1

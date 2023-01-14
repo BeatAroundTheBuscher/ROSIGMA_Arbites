@@ -1,0 +1,98 @@
+items:
+  - type: INV_NULL_1X1_LL_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 820}
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_LEG
+    recover: false
+  - type: INV_NULL_1X1_RL_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 820}
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_LEG
+    recover: false
+  - type: INV_NULL_2X1_LL_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 824}
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_LEG
+    recover: false
+  - type: INV_NULL_2X1_RL_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 824}
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_LEG
+    recover: false
+  - type: INV_NULL_2X1_B_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 821}
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_BELT
+    recover: false
+  - type: INV_NULL_3X2_B_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 825}
+    invWidth: 3
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BELT
+    recover: false
+  - type: INV_NULL_4X2_AC
+    weight: 0
+    # bigSprite: {mod: 40k, index: 828}
+    bigSprite: {mod: 40k, index: 850}
+    invWidth: 4
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BELT
+    recover: false
+  - type: INV_NULL_4X2_BACK_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 827}
+    invWidth: 4
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+  - type: INV_NULL_1X3_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 823}
+    invWidth: 1
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+  - type: INV_NULL_2X3_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 826}
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+  - type: INV_NULL_3X3_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 829}
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+  - type: INV_NULL_4X3_AC
+    weight: 0
+    bigSprite: {mod: 40k, index: 850}
+    invWidth: 4
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false

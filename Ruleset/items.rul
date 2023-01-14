@@ -16,6 +16,37 @@ items:
     battleType: 11
     recover: false
 
+  - type: STR_CMAS_CORPSE_AC
+    armor: 40
+    weight: 20
+    bigSprite: {mod: 40k, index: 630}
+    floorSprite: {mod: 40k, index: 624}
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+
+  - type: STR_PENAL_CORPSE_AC
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: {mod: 40k, index: 632}
+    floorSprite: {mod: 40k, index: 626}
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    battleType: 11
+    recover: false
+  - type: STR_JUDGE_CORPSE_AC
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: {mod: 40k, index: 633}
+    floorSprite: {mod: 40k, index: 627}
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    battleType: 11
+    recover: false
+
   - type: STR_KNIFE_AC #                3010
     categories: [STR_CAT_MELEE, STR_CAT_SCOUT]
     requiresBuyBaseFunc: [IMPERIUM]

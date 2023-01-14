@@ -32,3 +32,5 @@ newBaseUnlockResearch: STR_GENERAL_LOCK_AC
 # The generator does not manage to obtain a random terrain for BattlescapeGenerator::generateMap
 # when loading a new battle
 baseDefenseMapFromLocation: 0 
+
+unitResponseSoundsFrequency: [100, 100, 100, 20]
