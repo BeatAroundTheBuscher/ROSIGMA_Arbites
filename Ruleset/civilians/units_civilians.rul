@@ -125,10 +125,10 @@ units:
     armor: MUNITORIUM_ARMOR_AC
     standHeight: 16
     kneelHeight: 16
-    value: 200
+    value: 100 # was 200
+    specab: 1
     deathSound: 23
     intelligence: 1
-    specab: 1
     aggression: 1
     moveSound: 14
     energyRecovery: 1

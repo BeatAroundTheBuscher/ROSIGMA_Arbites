@@ -133,7 +133,7 @@ extended:
 
 
 items: 
-  - type: AUX_SHIELDPD
+  - type: STR_RIOT_SHIELD_AC
     clipSize: 201 # Shield HP + 1
     tags:
       ITEM_SHIELD_BLOCKING_STRENGTH: 20

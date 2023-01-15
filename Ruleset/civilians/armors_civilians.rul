@@ -101,6 +101,7 @@ armors:
     bleedImmune: true
     fearImmune: true
     painImmune: true
+    corpseGeo:  STR_MUNITORIUM_CORPSE_AC
     corpseBattle:
       - M_CORPSE1_AC
       - M_CORPSE2_AC

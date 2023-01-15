@@ -75,3 +75,11 @@ items:
     invWidth: 0
     invHeight: 0
     recover: false
+
+  - type: STR_MUNITORIUM_CORPSE_AC # corpseGeo, not corpseBattle
+    power: 100
+    blastRadius: 5
+    hitAnimation: -1
+    battleType: 11
+    damageType: 3
+    recover: false

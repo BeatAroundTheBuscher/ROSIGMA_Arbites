@@ -22,9 +22,9 @@ startingBase:
       fuel: 1800
       damage: 0
       items:
-        STR_KNIFE_AC: 4
+        STR_COMBAT_KNIFE_AC: 4
   items:
-    STR_KNIFE_AC: 4
+    STR_COMBAT_KNIFE_AC: 4
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943
@@ -53,9 +53,9 @@ startingBaseExperienced:
       fuel: 1800
       damage: 0
       items:
-        STR_KNIFE_AC: 4
+        STR_COMBAT_KNIFE_AC: 4
   items:
-    STR_KNIFE_AC: 4
+    STR_COMBAT_KNIFE_AC: 4
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943
@@ -84,9 +84,9 @@ startingBaseVeteran:
       fuel: 1800
       damage: 0
       items:
-        STR_KNIFE_AC: 4
+        STR_COMBAT_KNIFE_AC: 4
   items:
-    STR_KNIFE_AC: 4
+    STR_COMBAT_KNIFE_AC: 4
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943
@@ -115,9 +115,9 @@ startingBaseGenius:
       fuel: 1800
       damage: 0
       items:
-        STR_KNIFE_AC: 4
+        STR_COMBAT_KNIFE_AC: 4
   items:
-    STR_KNIFE_AC: 4
+    STR_COMBAT_KNIFE_AC: 4
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943
@@ -146,9 +146,9 @@ startingBaseSuperhuman:
       fuel: 1800
       damage: 0
       items:
-        STR_KNIFE_AC: 4
+        STR_COMBAT_KNIFE_AC: 4
   items:
-    STR_KNIFE_AC: 4
+    STR_COMBAT_KNIFE_AC: 4
   scientists: 25
   engineers: 10
   lon: 1.4808952852577943

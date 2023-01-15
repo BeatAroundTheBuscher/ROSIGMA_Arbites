@@ -545,64 +545,65 @@ items:
       - STR_GENERAL_LOCK_AC
 
 ### Shotgun
+  - &STR_SHOTGUN
+    type: STR_SHOTGUN_AC
+    categories: [ STR_CAT_SHOTGUN, STR_CAT_SCOUT]
+    requiresBuyBaseFunc: [IMPERIUM]
+    size: 0.2
+    costBuy: 10000
+    costSell: 5000
+    weight: 7
+    bigSprite: {mod: 40k, index: 235}
+    floorSprite: {mod: 40k, index: 118}
+    handSprite: {mod: 40k, index: 328}
+    bulletSprite: {mod: 40k, index: 2}
+    fireSound: {mod: 40k, index: 755}
+    compatibleAmmo:
+      - STR_SHOTGUN_SHELLS_AC
+    accuracySnap: 66
+    accuracyAimed: 80
+    tuSnap: 25
+    tuAimed: 33
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 10600
+    aimRange: 10
+    snapRange: 8
+    dropoff: 5
 
-  - type: STR_SHOTGUN
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN
-
-  - type: STR_SHOTGUN_SHELLS
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN
-
-  - type: STR_STUN_SHELLS
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
-      - STR_STUN_GEAR
-
-  - type: STR_STUN_GAS_SHELLS
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
-      - STR_STUN_GEAR
-
-  - type: STR_SHOTGUNPD # Award only
-    requiresBuy:
+  - type: STR_SHOTGUN_CHAOS_AC
+    refNode: *STR_SHOTGUN
+    categories: [STR_CAT_SHOTGUN, STR_CAT_CHAOS]
+    requires:
       - STR_GENERAL_LOCK_AC
+    costSell: 5000
+    bigSprite: {mod: 40k, index: 1123}
+    floorSprite: {mod: 40k, index: 1123}
+    handSprite: {mod: 40k, index: 1928}
+    listOrder: 10605
 
-### Melee
-
-#### Basic Melee
-
-  - type: STR_COMBAT_KNIFE
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+  - type: STR_SHOTGUN_SHELLS_AC #                        10710
+    categories: [ STR_CAT_SHOTGUN, STR_CAT_SCOUT]
+    requiresBuyBaseFunc: [IMPERIUM]
+    shotgunBehavior: 1   #*** makes the shotgun a bit more useful at range bit tightening the spread ***
+    shotgunSpread: 25
+    size: 0.1
     costBuy: 500
-    costSell: 100
-    listOrder: 12900
-
-  - type: STR_STUN_ROD
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN
-    costBuy: 2000
-    costSell: 400
-
-### Stubbers
-
-#### Basic Stubbers
-# do more damage per shot compared to Autoguns
-# become obsolete once Las comes around
-# special ammo might still be used
-
-  - type: STR_STUB_GUN
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN
-
-  - type: STR_STUB_RIFLE
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN
-
-  - type: STR_STUB_GUN_AMMO_AC
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+    costSell: 150
+    weight: 3
+    bigSprite: {mod: 40k, index: 236}
+    floorSprite: {mod: 40k, index: 119}
+    handSprite: {mod: 40k, index: 464}
+    hitSound: {mod: 40k, index: 22}
+    hitAnimation: {mod: 40k, index: 26}
+    power: 40
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    listOrder: 10710
+    shotgunPellets: 6
 
 #### Stubber - Special Ammo
 
@@ -648,30 +649,6 @@ items:
 
 
 
-
-## Auxilla
-
-  - type: STR_TANK_ROCKET_LAUNCHER
-    requiresBuy:
-      - STR_GENERAL_LOCK_AC
-
-  - type: STR_HWP_ROCKETS
-    requiresBuy:
-      - STR_GENERAL_LOCK_AC
-
-  - type: STR_SERVITOR
-    requiresBuy:
-      - STR_GENERAL_LOCK_AC
-
-## Inventory Only
-
-  - type: AUX_SHIELDPD
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN # temporary
-    size: 0.2
-    costBuy: 20000
-    costSell: 4000
-#    listOrder: 6800
 
 
 
@@ -818,3 +795,75 @@ items:
     costSell: 5000
     listOrder: 6621
 
+  - type: STR_COMBAT_KNIFE_AC
+    categories: [STR_CAT_MELEE]
+    size: 0.2
+    weight: 2
+    bigSprite: 200
+    floorSprite: {mod: 40k, index: 113}
+    handSprite: {mod: 40k, index: 304}
+    meleeSound: {mod: 40k, index: 754}
+    meleeHitSound: {mod: 40k, index: 773}
+    meleeAnimation: {mod: 40k, index: 4}
+    power: 40
+    damageBonus:
+      strength: 0.2
+      melee: 0.2
+    damageAlter:
+      ArmorEffectiveness: 0.9
+      RandomType: 2
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 10
+    clipSize: -1
+    battleType: 3
+    twoHanded: false
+    invWidth: 2
+    invHeight: 1
+    armor: 20
+    skillApplied: true
+    meleeMultiplier:
+      melee: 0.5
+      flatHundred: 0.5
+    strengthApplied: false
+    attraction: 7
+    experienceTrainingMode: 13
+
+  - type: STR_RIOT_SHIELD_AC
+    weight: 10
+    handSprite: 300
+    bigSprite: {mod: 40k, index: 651}
+    floorSprite: 300
+    battleType: 3
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: true
+    attraction: 0
+    tuMelee: 0
+    requiresBuy:
+      - STR_ARBITES_CAMPAIGN # temporary
+    size: 0.2
+    costBuy: 20000
+    costSell: 4000
+
+  - type: STR_ELECTRO_FLARE_AC
+    categories: [ STR_CAT_EQUIPMENT]
+    requiresBuyBaseFunc: [IMPERIUM]
+    size: 0.1
+    costBuy: 60
+    costSell: 15
+    weight: 2
+    bigSprite: {mod: 40k, index: 55}
+    floorSprite: {mod: 40k, index: 72}
+    power: 15
+    battleType: 10
+    costPrime:
+      time: 15
+    primeActionName: STR_PRIME_FLARE
+    fuseType: -2
+    fuseTriggerEvents:
+      defaultBehavior: false
+      throwTrigger: true
+    armor: 8
+    listOrder: 14100
