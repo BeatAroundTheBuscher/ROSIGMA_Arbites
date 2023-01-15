@@ -147,3 +147,72 @@ units:
     energyRecovery: 1
     liveAlien: ""
     capturable: false
+
+  - &STR_PENAL_PRISONER
+    type: STR_PENAL_PRISONER_M_AC
+    race: STR_RIOTING_PRISONER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: STR_PENAL_ARMOR_BROWN_M_AC
+    standHeight: 21
+    kneelHeight: 14
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE_AC
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_GRENADE_AC
+      - - STR_AUTOPISTOL_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_PIPEBOMB_AC
+      - - STR_LASPISTOL_AC
+        - STR_LASPISTOL_CLIP_AC
+        - STR_LASPISTOL_CLIP_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_PIPEBOMB_AC
+    liveAlien: STR_CIVILIAN_CAPTIVE_AC
+    specab: 1 #explodes on death
+    moraleLossWhenKilled: 50
+    value: 10
+
+  - type: STR_PENAL_PRISONER_F_AC
+    refNode: *STR_PENAL_PRISONER
+    armor: STR_PENAL_ARMOR_BROWN_F_AC
+
+  - type: STR_TARANTULA_BOLTER_AC
+    race: STR_T_BOLTER
+    stats:
+      tu: 100
+      stamina: 1
+      health: 90
+      bravery: 110
+      reactions: 120
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: TARANTULA_BOLTER_ARMOR_AC
+    standHeight: 14
+    kneelHeight: 14
+    value: 20
+    deathSound: {mod: 40k, index: 23}
+    moveSound: {mod: 40k, index: 14}
+    energyRecovery: 50

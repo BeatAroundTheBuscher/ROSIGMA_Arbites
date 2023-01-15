@@ -303,3 +303,332 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
+
+  - type: STR_CULTIST_SACRIFICES_LEVEL_1
+    data:
+      - alienRank: 0 # 2-2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 1 #2-3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 2 # 3-5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 3 # 3-5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 4 # 3-5
+        lowQty: 2 #3
+        highQty: 4 #5
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 5 # 8-12
+        lowQty: 4 #6
+        highQty: 8 #8
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 6 # 1-3
+        lowQty: 1 #6
+        highQty: 3 #8
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 7 # 1-3
+        lowQty: 1 #6
+        highQty: 3 #8
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+    width: 50
+    length: 50
+    height: 6
+    terrains:
+      - INDUSTRIALURBANDIO
+    script: SACRIFICE_LEVEL_1_SCRIPT
+    alert: STR_CULTIST_RITUALS_STARTING
+    alertBackground: BACK150.SCR # change to something else later?
+    briefing:
+      palette: 2
+      music: GMENBASE
+      desc: STR_CULTIST_RITUALS_BRIEFING
+      title: STR_CULTIST_RITUALS
+      showTarget: false
+    markerName: STR_CULTIST_RITUALS
+    duration: [96, 144]
+    despawnPenalty: 250
+
+
+  - type: STR_CITY_SUMMONING_LEVEL_1
+    objectiveType: 150 # the small cup before the Chaos Symbol; Altered MCD to reflect that
+    abortPenalty: 100
+    data:
+      - alienRank: 0 # 1-1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 1 # 2-3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 2 # 3-5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 3 # 3-5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 4 # 3-5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 5 # 8-12
+        lowQty: 5
+        highQty: 9
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+    reinforcements:
+      - type: daemonIncursion
+        briefing:
+          palette: 2
+          textOffset: -32
+          title: STR_SUMMONING_COMPLETE_REINFORCEMENTS_TITLE
+          desc: STR_SUMMONING_COMPLETE_REINFORCEMENTS_DESCRIPTION
+          background: BACK150.SCR
+          cutscene: ""
+          showCraft: false
+          showTarget: false
+        objectiveDestroyed: true # STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_AC destroys the target
+        maxRuns: 1
+        useSpawnNodes: true
+        spawnBlockGroups: [7]
+        spawnNodeRanks: [8]
+        data:
+          - alienRank: 7
+            lowQty: 1 # 2-4
+            highQty: 3
+            dQty: 1
+            percentageOutsideUfo: 0
+            itemSets: *emptyItemSets
+    width: 50
+    length: 50
+    height: 8
+    terrains:
+      - CITY
+    script: CITY_SUMMONING_LEVEL_1_SCRIPT
+    alert: STR_CULTIST_RITUALS_STARTING
+    alertBackground: BACK150.SCR # change to something else later?
+    briefing:
+      palette: 2
+      music: GMENBASE
+      desc: STR_CULTIST_RITUALS_BRIEFING
+      title: STR_CULTIST_RITUALS
+      showTarget: false
+    markerName: STR_CULTIST_RITUALS
+    duration: [48, 72]
+    despawnPenalty: 250
+    missionBountyItem: STR_CULTIST_EVIDENCE
+
+
+  - type: STR_TRAITOR_OUTPOST
+    briefing:
+      title: STR_RIOT_TITLE
+      palette: 4
+      desc: STR_RIOT_DESCRIPTION
+      music: gmstory2
+      showCraft: true
+      showTarget: false
+      background: BACK169.SCR
+    width: 90
+    length: 90
+    height: 9
+    script: TRAITOR_OUTPOST
+    alert: STR_RIOT_ALERT
+    alertBackground: BACK169.SCR
+    alertDescription: STR_RIOT_DESCRIPTION
+    duration: [168, 168]
+    despawnPenalty: 550
+    markerName: STR_RIOT_SITE
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: &emptyItemSets
+          -
+            []
+          -
+            []
+          -
+            []
+    terrains:
+      - XBASE_FILL
+      - XBASE_FILL_TROP
+      - XBASE_FILL_GRASS
+      - XBASE_FILL_SAND
+      - XBASE_FILL_SNOW
+      - XBASE_FILL_MUD
+      - XBASE_FILL_ROCK
+
+
+  - type: STR_PRISON_BREAK_AC
+    alert: STR_PRISON_BREAK_RIOT
+    alertBackground: BACK169.SCR
+#    alertDescription: STR_PRISON_BREAK_DESCRIPTION
+    briefing:
+      title: STR_PRISON_BREAK_TITLE
+      palette: 4
+      desc: STR_PRISON_BREAK_DESCRIPTION
+      music: GMENBASE
+      showCraft: true
+      showTarget: false
+      background: BACK150.SCR
+    civiliansByType:
+      STR_CIVILIAN_TROOPER_M_AC: 6
+      STR_CIVILIAN_TROOPER_F_AC: 6
+    shade: 1
+    terrains:
+      - PRISON_BREAK
+    script: PRISON_BREAK_SCRIPT
+    data:
+      - alienRank: 5
+        lowQty: 10
+        highQty: 20
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 6
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 6
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_HANGAR_ENVIRO
+    duration: [48, 72]
+    despawnPenalty: 250
+    markerName: STR_PRISON_BREAK_SITE
+
+  - type: STR_CATACOMBS
+#    markerIcon: 54
+    script: CATACOMB_SCRIPT
+    terrains:
+      - CATACOMB
+    data:
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 2
+        lowQty: 2
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 3
+        lowQty: 2
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 5
+        lowQty: 6
+        highQty: 10
+        dQty: 5
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 7
+        lowQty: 2
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets  
+    shade: 6
+    width: 50
+    length: 50
+    height: 4
+    briefing:
+      desc: STR_CATACOMB_DESCRIPTION
+      music: gmstory2
+      background: BACK03.SCR
+      title: STR_CATACOMB_TITLE
+    alert: STR_CATACOMB_DETECTED
+    alertBackground: BACK150.SCR
+    markerName: STR_CATACOMB_SITE
+    duration: [120, 240]
+    despawnPenalty: 100
+    unlockedResearch: STR_CULTIST_DEFEATED
+

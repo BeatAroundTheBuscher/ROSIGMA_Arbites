@@ -83,3 +83,41 @@ items:
     battleType: 0
     armor: 20
     listOrder: 35200
+
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_LIGHT_AC
+    recover: false
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    damageType: 3
+    power: 30 # Target Tile has 22 armor
+    damageAlter:
+      RandomType: 3
+      FixRadius: 1
+      ToArmor: 0.0
+      ToHealth: 0.0
+      ToItem: 2.0
+      ToStun: 0.0
+      ToWound: 0.0
+      ToTile: 1.0
+    explosionHitSound: {mod: 40k, index: 737}
+    hitAnimation: {mod: 40k, index: 113}
+    armor: 255
+    hiddenOnMinimap: true
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: 1
+      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 1
+
+  - type: STR_TARANTULA_SPAWNER_ENEMY_AC
+    spawnUnit: STR_TARANTULA_BOLTER_AC
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+
+  - type: STR_TARANTULA_SPAWNER_CIV_AC
+    spawnUnit: STR_TARANTULA_BOLTER_AC
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4

@@ -1,0 +1,88 @@
+missionScripts:
+
+
+  # first month is 1 and not 0 because start at 31st Dec
+  - type: Riot
+    firstMonth: 2
+    lastMonth: 3 # should change to something more drastic
+    executionOdds: 50
+    label: 200
+
+
+  - type: Sabotage
+    firstMonth: 2
+    lastMonth: 3 # should change to something more drastic
+    executionOdds: 100
+    conditionals: [-200]
+
+
+
+
+  - type: Arbites_Mission1 # Riot Suppression
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_RIOT: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    varName: Riot
+    useTable: false
+    firstMonth: 1
+    executionOdds: 100
+    startDelay: 150
+    researchTriggers:
+      STR_CULTIST_INVESTIGATIONS: true
+      STR_ARBITES_ARC2: false
+
+
+  - type: Arbites_Mission2
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CULTIST_SACRIFICES_LEVEL_1: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    useTable: false
+    firstMonth: 2
+    executionOdds: 100
+    startDelay: 10
+    researchTriggers:
+      STR_ARBITES_ARC2: true
+      STR_ARBITES_ARC3: false
+
+
+  - type: Arbites_Mission3
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_CULTIST_SUMMONING_LEVEL_1: 100
+    regionWeights:
+      0:
+         REGION_HULK_SITES: 100
+    useTable: false
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 10
+    researchTriggers:
+      STR_ARBITES_ARC3: true
+      STR_ARBITES_ARC4: false
+
+  - type: Arbites_Mission4 
+    missionWeights:
+      # 0 is just for safety
+      0:
+        STR_RIOT: 100 
+    regionWeights:
+      0:
+         STR_ARBITES_TERROR: 100
+    useTable: false
+    firstMonth: 0
+    executionOdds: 100
+    startDelay: 10
+    researchTriggers:
+      STR_ARBITES_ARC4: true
+      STR_ARBITES_ARC5: false
+
+

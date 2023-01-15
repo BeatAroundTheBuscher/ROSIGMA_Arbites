@@ -53,3 +53,26 @@ items:
     battleType: 11
     armor: 26
     listOrder: 19000
+
+  - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
+    spawnUnit: STR_KHORNE_CULTISTS_CULTIST_AC # STR_CULTIST_RITUALIST_SACRIFICES
+    spawnUnitFaction: 1
+    recover: false
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    hitAnimation: {mod: 40k, index: 1992}
+    armor: 255
+
+  - type: STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC
+    recover: false
+    invWidth: 0
+    invHeight: 0
+    battleType: 10
+    hitAnimation: {mod: 40k, index: 1990}
+    armor: 255
+    hiddenOnMinimap: true
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: 10
+      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: 10
+      ITEM_SETS_MISSION_TIMER: 1

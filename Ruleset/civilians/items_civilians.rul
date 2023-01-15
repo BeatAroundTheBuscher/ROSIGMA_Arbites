@@ -92,3 +92,101 @@ items:
     liveAlien: true
     costSell: 1000
     listOrder: 20400
+
+  - type: STR_PENAL_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: {mod: 40k, index: 632}
+    floorSprite: {mod: 40k, index: 626}
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    battleType: 11
+    recover: false
+    power: 75
+    blastRadius: 5
+    specialChance: 20
+
+  - type: STR_TARANTULA_BOLTER_AC
+    categories: [STR_CAT_AUXILIARY]
+    customItemPreviewIndex: {mod: 40k, index: 28}
+    size: 6
+    weight: 1
+    bigSprite: {mod: 40k, index: 655}
+    bulletSprite: {mod: 40k, index: 6}
+    fireSound: {mod: 40k, index: 707}
+    explosionSpeed: 5
+    bulletSpeed: 50
+    hitAnimation: {mod: 40k, index: 26}
+    hitSound: {mod: 40k, index: 13}
+    accuracyAuto: 50
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 50
+    tuSnap: 20
+    tuAimed: 30
+    battleType: 1
+    damageType: 1
+    power: 60
+    damageAlter: #DA BOLTER
+      ToArmorPre: 0.05
+      ArmorEffectiveness: 0.9
+      ToArmor: 0.1
+      ToHealth: 1.0
+      ToStun: 0.5
+    autoShots: 10
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    twoHanded: false
+    fixedWeapon: true
+    recover: false
+    listOrder: 2401
+
+  - type: TA_CORPSE1_AC
+    floorSprite: {mod: 40k, index: 662}
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: TA_CORPSE2_AC
+    floorSprite: {mod: 40k, index: 663}
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: TA_CORPSE3_AC
+    floorSprite: {mod: 40k, index: 664}
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: TA_CORPSE4_AC
+    floorSprite: {mod: 40k, index: 665}
+    invWidth: 0
+    invHeight: 0
+    recover: false
+
+  - &STR_SACRIFICE_SPAWNER
+    type: STR_SACRIFICE_M0_SPAWNER_AC
+    spawnUnit: STR_CIVILIAN_M0_AC # STR_CIVILIAN_SACRIFICE_M0
+    spawnUnitFaction: 2
+    recover: false
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    hitAnimation: {mod: 40k, index: 1992}
+    armor: 255
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: -1
+
+  - type: STR_SACRIFICE_M1_SPAWNER_AC
+    refNode: *STR_SACRIFICE_SPAWNER
+    spawnUnit: STR_CIVILIAN_M1_AC
+
+  - type: STR_SACRIFICE_F0_SPAWNER_AC
+    refNode: *STR_SACRIFICE_SPAWNER
+    spawnUnit: STR_CIVILIAN_F0_AC
+
+  - type: STR_SACRIFICE_F1_SPAWNER_AC
+    refNode: *STR_SACRIFICE_SPAWNER
+    spawnUnit: STR_CIVILIAN_F1_AC

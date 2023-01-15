@@ -129,3 +129,70 @@ armors:
       - 1.0 #MELTA
     loftempsSet: [ 92, 89, 90, 91 ]
     drawingRoutine: 3
+
+  - &STR_PENAL_ARMOR
+    type: STR_PENAL_ARMOR_BROWN_M_AC
+    spriteInv: PENITENT_M.SPK
+    spriteSheet: PENITENTS_BROWN.PCK
+    corpseBattle:
+      - STR_PENAL_CORPSE
+    drawingRoutine: 0
+    loftempsSet: [ 3 ]
+    # ufopediaType: STR_PENAL_ARMOR_BROWN_UC
+
+    visibilityAtDay: 40
+    visibilityAtDark: 9
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: #GUARD ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 0.8 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.1 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+
+  - type: STR_PENAL_ARMOR_BROWN_F_AC
+    refNode: *STR_PENAL_ARMOR
+    spriteInv: PENITENT_F.SPK
+    spriteSheet: PENITENTS_BROWN_F.PCK
+
+  - type: TARANTULA_BOLTER_ARMOR_AC
+    visibilityAtDay: 60
+    visibilityAtDark: 60
+    spriteInv: TARANTULAA.SPK
+    spriteSheet: TARANTULABOLTERA.PCK
+    allowInv: false
+    drawingRoutine: 3
+    corpseBattle:
+      - TA_CORPSE1_AC
+      - TA_CORPSE2_AC
+      - TA_CORPSE3_AC
+      - TA_CORPSE4_AC
+    frontArmor: 100
+    sideArmor: 85
+    rearArmor: 70
+    underArmor: 100
+    size: 2
+    damageModifier: #TURRET ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.4 #FLAMES
+      - 1.0 #HE
+      - 1.4 #LASCANON
+      - 1.0 #PLASMA
+      - 0.0 #STUN
+      - 2.0 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 0.2 #IMPACT
+      - 1.2 #MELTA
+    loftempsSet: [ 92, 89, 90, 91 ]
