@@ -96,6 +96,12 @@ research:
       - STR_GENERAL_LOCK_AC
 
 
+  - name: STR_LASGUNS
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
 
 #  - name: STR_SECTOID_CORPSE
 #    cost: 180

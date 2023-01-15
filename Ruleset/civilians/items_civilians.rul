@@ -83,3 +83,12 @@ items:
     battleType: 11
     damageType: 3
     recover: false
+
+  - type: STR_CULTIST_EVIDENCE
+
+  - type: STR_CIVILIAN_CAPTIVE_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 1000
+    listOrder: 20400

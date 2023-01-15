@@ -1,0 +1,15 @@
+items:
+  - type: STR_ALIEN_GRENADE_AC
+    categories: [ STR_CAT_GRANADES, STR_CAT_TACTICAL]
+    size: 0.1
+    costSell: 14850
+    weight: 3
+    bigSprite: {mod: 40k, index: 39}
+    floorSprite: {mod: 40k, index: 38}
+    power: 90
+    damageType: 3
+    battleType: 4
+    recoveryPoints: 1
+    blastRadius: 5
+    listOrder: 15300
+    throwRange: 20

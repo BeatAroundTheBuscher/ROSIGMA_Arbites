@@ -21,20 +21,19 @@ units:
     intelligence: 4
     energyRecovery: 20
     deathSound: [{mod: 40k, index: 41}, {mod: 40k, index: 42}, {mod: 40k, index: 43}]
-#    builtInWeaponSets:
-#      - - STR_LASER_PISTOLG
-#        - STR_LASPISTOL_CLIP
-#        - STR_LASPISTOL_CLIP
-#        - STR_SMOKE_GRENADE
-#      - - STR_LASER_PISTOLG
-#        - STR_LASPISTOL_CLIP
-#        - STR_LASPISTOL_CLIP
-#        - STR_GRENADE
-#      - - STR_LASER_RIFLEG
-#        - STR_LASGUN_CLIP
-#        - STR_LASGUN_CLIP
-#        - STR_GRENADE
-
+    builtInWeaponSets:
+      - - STR_AUTOGUN_AC
+        - STR_AUTOGUN_CLIP_AC
+        - STR_AUTOGUN_CLIP_AC
+        - STR_GRENADE_AC
+      - - STR_AUTOGUN_AC
+        - STR_AUTOGUN_CLIP_AC
+        - STR_AUTOGUN_CLIP_AC
+        - STR_GRENADE_AC
+      - - STR_LASGUN_AC
+        - STR_LASGUN_CLIP_AC
+        - STR_LASGUN_CLIP_AC
+        - STR_KRAK_GRENADE_AC
 
   - type: STR_CIVILIAN_TROOPER_F_AC
     refNode: *STR_CIVILIAN_TROOPER
@@ -48,7 +47,7 @@ units:
       tu: 52
       stamina: 65
       health: 30
-      bravery: 60
+      bravery: 30
       reactions: 40
       firing: 48
       throwing: 42
@@ -87,24 +86,38 @@ units:
     refNode: *STR_CIVILIAN
     armor: MONK_ARMOR_1_AC
 
-  - type: STR_RIOTER_M0_AC
+  - &STR_RIOTER
+    type: STR_RIOTER_M0_AC
     refNode: *STR_CIVILIAN
-    race: STR_CHAOS_RIOTS
+    race: STR_CHAOS_RIOTS_AC
+    liveAlien: STR_CIVILIAN_CAPTIVE_AC
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_GRENADE_AC
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_COMBAT_KNIFE_AC
+      - - STR_STUB_RIFLE_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+      - - STR_AUTOPISTOL_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_COMBAT_KNIFE_AC
 
   - type: STR_RIOTER_M1_AC
-    refNode: *STR_CIVILIAN
-    race: STR_CHAOS_RIOTS
+    refNode: *STR_RIOTER
     armor: CIVILIAN_ARMOR_M1_AC
 
   - type: STR_RIOTER_F0_AC
-    refNode: *STR_CIVILIAN
-    race: STR_CHAOS_RIOTS
+    refNode: *STR_RIOTER
     armor: CIVILIAN_ARMOR_F0_AC
     deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
 
   - type: STR_RIOTER_F1_AC
-    refNode: *STR_CIVILIAN
-    race: STR_CHAOS_RIOTS
+    refNode: *STR_RIOTER
     armor: CIVILIAN_ARMOR_F1_AC
     deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
 
