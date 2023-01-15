@@ -53,6 +53,8 @@ soldiers:
   - type: STR_PENITENT_AC
     refNode: *STR_SOLDIER_ARBITES
     armor: STR_PENAL_ARMOR_UC_AC
+    rankStrings:
+      - STR_PENITENT_RANK_0
 
   - type: STR_JUDGE_AC
     refNode: *STR_SOLDIER_ARBITES

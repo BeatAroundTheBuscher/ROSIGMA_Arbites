@@ -34,3 +34,5 @@ newBaseUnlockResearch: STR_GENERAL_LOCK_AC
 baseDefenseMapFromLocation: 0 
 
 unitResponseSoundsFrequency: [100, 100, 100, 20]
+difficultyCoefficient: [0, 1, 2, 3, 4]
+

@@ -46,6 +46,8 @@ crafts:
       - STR_ARBITES_CAMPAIGN
 
 #  - type: STR_AVENGER_ADEPTAS
+#    forceShowInMonthlyCosts: true
 #    requires:
 #      - STR_ARBITES_CAMPAIGN
 #      - STR_FIGHTER_CRAFT
+

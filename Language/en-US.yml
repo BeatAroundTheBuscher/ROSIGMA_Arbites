@@ -57,8 +57,8 @@ en-US:
 
 ## Events
 
-  STR_PENITENT_EVENT: "Cultist Repents"
-  STR_PENITENT_EVENT_DESCRIPTION: "One of the interrogated Cultists is willing to repent. We are willing to accept them as a Penitent."
+  STR_PENITENT_EVENT_AC: "Cultist Repents"
+  STR_PENITENT_EVENT_DESCRIPTION_AC: "One of the interrogated Cultists is willing to repent. We are willing to accept them as a Penitent."
 
 ## Research
 

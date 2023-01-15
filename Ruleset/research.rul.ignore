@@ -5,7 +5,7 @@
     needItem: true
     destroyItem: true
     lookup: STR_SECTOID
-    spawnedEvent: STR_PENITENT_EVENT
+    spawnedEvent: STR_PENITENT_EVENT_AC
     unlocks:
       - STR_INTERROGATION_COMPLETED
     getOneFree:

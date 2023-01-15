@@ -5,3 +5,156 @@ ufopaedia:
     image_id: 0ENF.SPK
     text: STR_ENFORCER_ARMOR_UFOPEDIA
     listOrder: 6910
+
+  - id: STR_ARBITES_CAMPAIGN                   #2000      40k INTRO
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: 2ARB.SPK
+    text: STR_ARBITES_CAMPAIGN_TEXT
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 1
+
+  - id: STR_COMBAT_KNIFE                           #12900
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1CK.SPK
+    text: STR_KNIF_UFOPEDIA
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 12900
+
+  - id: STR_SMG_STUB_GUN                           #12900
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: AUTOPISTOL.SPK
+    text: STR_AUTOPISTOL_UFOPEDIA
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 12900
+
+  - id: STR_PUMP_SHOTGUN                           #12900
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1SG.SPK
+    text: STR_SHOTGUN_UFOPEDIA
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 12900
+
+  - id: STR_STUN_GEAR
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: 2ARB.SPK
+    text: STR_STUN_GEAR_TEXT
+    requires:
+      - STR_STUN_GEAR
+    listOrder: 100
+
+  - id: STR_STUN_GEAR_ADVANCED
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: 2ARB.SPK
+    text: STR_STUN_GEAR_ADVANCED_TEXT
+    requires:
+      - STR_STUN_GEAR_ADVANCED
+    listOrder: 100
+
+
+  - id: STR_ANTI_ARMOR
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: 2ARB.SPK
+    text: STR_ANTI_ARMOR_TEXT
+    requires:
+      - STR_ANTI_ARMOR
+    listOrder: 100
+
+  - id: STR_ANTI_ARMOR_ADVANCED
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: 2ARB.SPK
+    text: STR_ANTI_ARMOR_ADVANCED_TEXT
+    requires:
+      - STR_ANTI_ARMOR_ADVANCED
+    listOrder: 100
+
+  - id: STR_FLAMER
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: 2ARB.SPK
+    text: STR_FLAMER_ADVANCED_TEXT
+    requires:
+      - STR_FLAMER
+    listOrder: 100
+
+## ARMOR
+
+  - id: STR_PD # Overview
+    listOrder: 4000
+
+  - id: STR_ENFORCER_ARMOR_UC
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 4010
+
+  - id: STR_ENFORCER_MEDIC_ARMOR_UC
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 4020
+
+  - delete: STR_ENFORCER_SHIELD_ARMOR_UC
+
+  - id: STR_ENFORCER_SIGNAL_ARMOR_UC
+    requires:
+      - STR_HIDE_LOCK
+    listOrder: 4040
+
+  - id: STR_ENFORCER_HEAVY_ARMOR_UC
+    requires:
+#      - STR_ARBITES_CAMPAIGN
+      - STR_HEAVY_ARMOR
+    listOrder: 4050
+
+  - id: STR_CMAS_ARMOR
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 4070
+
+  - id: STR_JUDGE_ARMOR_UC
+    requires:
+      - STR_ARBITES_CAMPAIGN
+    listOrder: 4080
+
+  - id: STR_JUDGE_BIKE_ARMOR_UC
+    requires:
+      - STR_HIDE_LOCK
+    listOrder: 4090
+
+  - id: STR_ARBITOR_ARMOR_UC
+    requires:
+      - STR_HIDE_LOCK
+    listOrder: 4100
+
+  - id: STR_MARSHAL_ARMOR_UC
+    requires:
+      - STR_HIDE_LOCK
+    listOrder: 4110
+
+  - id: STR_PENAL_ARMOR_BROWN_UC
+    requires:
+      - STR_ARBITES_CAMPAIGN
+
+### Stats for Nerds only
+
+  - id: STR_CMAS
+    requires:
+      - STR_ARBITES_CAMPAIGN
+
+  - id: STR_JUDGE_PSI_AMP
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_CMAS_TACKLE
+    type_id: 14
+    section: STR_NOT_AVAILABLE

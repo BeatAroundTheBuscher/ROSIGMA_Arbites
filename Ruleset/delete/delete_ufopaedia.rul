@@ -773,6 +773,7 @@ ufopaedia:
   - delete: STR_HELP10
   - delete: STR_HELP11
   - delete: STR_HELP15
+  - delete: STR_HELP17
   - delete: STR_HELP2
   - delete: STR_HELP3
   - delete: STR_HELP4
@@ -1633,3 +1634,5 @@ ufopaedia:
   - delete: TARANTULA_BOLTER_ARMOR
   - delete: TG_BATTLESERVITOR_HBARMOR
   - delete: TG_BATTLESERVITOR_MIARMOR
+  - delete: STR_GRAV_DAMAGE_BONUS
+  - delete: STR_JETPACK_MECHANIC
