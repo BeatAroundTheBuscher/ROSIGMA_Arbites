@@ -48,7 +48,7 @@ armors:
     customArmorPreviewIndex: {mod: 40k, index: 48}
     corpseBattle:
       - STR_ENFORCER_CORPSE_AC
-    storeItem: STR_ENFORCER_MEDIC_ARMOR_AC
+    storeItem: STR_ENFORCER_HEAVY_ARMOR_AC
     frontArmor: 50
     sideArmor: 50
     rearArmor: 50

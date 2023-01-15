@@ -15,7 +15,7 @@ ufopaedia:
       - STR_ARBITES_CAMPAIGN
     listOrder: 1
 
-  - id: STR_COMBAT_KNIFE                           #12900
+  - id: STR_COMBAT_KNIFE_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1CK.SPK

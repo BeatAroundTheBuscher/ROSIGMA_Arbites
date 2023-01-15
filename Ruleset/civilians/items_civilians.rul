@@ -9,7 +9,8 @@ items:
     invHeight: 3
     armor: 35
     battleType: 11
-    recover: false
+    recover: true
+    recoverCorpse: false
 
   - type: STR_CIVILIAN_M0_CORPSE_AC
     refNode: *STR_CIVILIAN
@@ -102,7 +103,6 @@ items:
     invHeight: 3
     armor: 35
     battleType: 11
-    recover: false
     power: 75
     blastRadius: 5
     specialChance: 20
@@ -190,3 +190,17 @@ items:
   - type: STR_SACRIFICE_F1_SPAWNER_AC
     refNode: *STR_SACRIFICE_SPAWNER
     spawnUnit: STR_CIVILIAN_F1_AC
+
+  - &STR_CIVILIAN_CAPTURES
+    type: STR_CIVILIAN_F0_CORPSE
+    recover: true
+    recoverCorpse: false
+
+  - type: STR_CIVILIAN_M0_CORPSE
+    refNode: *STR_CIVILIAN_CAPTURES
+
+  - type: STR_CIVILIAN_F1_CORPSE
+    refNode: *STR_CIVILIAN_CAPTURES
+
+  - type: STR_CIVILIAN_M1_CORPSE
+    refNode: *STR_CIVILIAN_CAPTURES
