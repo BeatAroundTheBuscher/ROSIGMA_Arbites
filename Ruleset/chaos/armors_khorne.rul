@@ -164,26 +164,3 @@ armors:
       - 1.0 #MELTA
     loftempsSet: [ 3 ]
 
-  - type: CYBERDISC_ARMOR #Flying Deamon
-    visibilityAtDay: 35
-    visibilityAtDark: 30
-    antiCamouflageAtDay: 10
-    antiCamouflageAtDark: 6
-    heatVision: 33
-    psiVision: 8
-    frontArmor: 60
-    sideArmor: 50
-    rearArmor: 30
-    underArmor: 50
-    specialWeapon: ""
-    damageModifier:
-      - 1.0 #none
-      - 0.8 #AP
-      - 1.0 #FLAMES # More vulnerable to fire in this mod
-      - 1.0 #HE
-      - 1.0 #LASCANON
-      - 1.0 #PLASMA
-      - 1.0 #STUN
-      - 1.0 #MELEE
-      - 1.0 #ACID
-      - 0.0 #SMOKE

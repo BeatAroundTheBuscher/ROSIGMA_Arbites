@@ -6,7 +6,7 @@ missionScripts:
 
   - type: Riot_early
     firstMonth: 1 # number of months passed (compare to savegame)
-    lastMonth: 3
+    lastMonth: 2
     executionOdds: 50
     label: 100
     raceWeights:
@@ -25,7 +25,7 @@ missionScripts:
 
   - type: Sabotage_early
     firstMonth: 1
-    lastMonth: 3
+    lastMonth: 2
     executionOdds: 100
     label: 110
     conditionals: [-100]
@@ -44,7 +44,7 @@ missionScripts:
 
   - type: Riot_later
     firstMonth: 1
-    lastMonth: 3 
+    lastMonth: 2
     executionOdds: 100
     conditionals: [110]
     raceWeights:
@@ -62,7 +62,7 @@ missionScripts:
 
   - type: Sabotage_later
     firstMonth: 1
-    lastMonth: 3 
+    lastMonth: 2
     executionOdds: 100
     conditionals: [100]
     raceWeights:
@@ -81,7 +81,7 @@ missionScripts:
 ## DANGER LEVEL 1
 
   - type: Prison_Break
-    firstMonth: 4 # number of months passed (compare to savegame)
+    firstMonth: 3 # number of months passed (compare to savegame)
     lastMonth: 6
     executionOdds: 100
     raceWeights:
@@ -100,7 +100,7 @@ missionScripts:
   - type: Sacrifice
     executionOdds: 50
     label: 120
-    firstMonth: 4
+    firstMonth: 3
     lastMonth: 6
     missionWeights:
       0:
@@ -110,7 +110,7 @@ missionScripts:
         REGION_HULK_SITES: 100
     raceWeights:
       0:
-        STR_SECTOID: 100
+        STR_KHORNE_CULTISTS_AC: 100
     startDelay: 12000
     randomDelay: 6000
     useTable: false
@@ -120,7 +120,7 @@ missionScripts:
   - type: Summoning
     executionOdds: 100
     conditionals: [-120]
-    firstMonth: 4
+    firstMonth: 3
     lastMonth: 6
     missionWeights:
       0:
@@ -130,7 +130,7 @@ missionScripts:
         REGION_HULK_SITES: 100
     raceWeights:
       0:
-        STR_SECTOID: 100
+        STR_KHORNE_CULTISTS_AC: 100
     startDelay: 18000
     randomDelay: 6000
     useTable: false
@@ -144,13 +144,13 @@ missionScripts:
     executionOdds: 100
     missionWeights:
       0:
-        STR_CITY_SUMMONING_LEVEL_1: 100
+        STR_CITY_SUMMONING_LEVEL_1_AC: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100
     raceWeights:
       0:
-        STR_SECTOID: 100
+        STR_KHORNE_CULTISTS_AC: 100
     researchTriggers:
       STR_BEGINNING_INVESTIGATION: true
       STR_CULTIST_MENACE: true
@@ -171,7 +171,7 @@ missionScripts:
         REGION_HULK_SITES: 100
     raceWeights:
       0:
-        STR_SECTOID: 100
+        STR_KHORNE_CULTISTS_AC: 100
     researchTriggers:
       STR_CULTIST_PLOT: true
       STR_CULTIST_DEFEATED: false
@@ -180,10 +180,10 @@ missionScripts:
     useTable: false
 
   - type: Cultist_Revenge
-    firstMonth: 1
+    firstMonth: 0
     raceWeights:
       0:
-        STR_SECTOID: 100
+        STR_KHORNE_CULTISTS_AC: 100
     missionWeights:
       0:
         STR_CULTIST_RETALIATION: 100

@@ -43,12 +43,12 @@ alienMissions:
         timer: 0
         objective: true
 
-  - type: STR_CITY_SUMMONING_LEVEL_1
+  - type: STR_CITY_SUMMONING_LEVEL_1_AC
     objective: 3
     spawnZone: 0
-    siteType: STR_CITY_SUMMONING_LEVEL_1
+    siteType: STR_CITY_SUMMONING_LEVEL_1_AC
     waves:
-      - ufo: STR_CITY_SUMMONING_LEVEL_1
+      - ufo: STR_CITY_SUMMONING_LEVEL_1_AC
         count: 1
         trajectory: DIRECT_TO_TERROR_SITE_TRAJECTORY
         timer: 0

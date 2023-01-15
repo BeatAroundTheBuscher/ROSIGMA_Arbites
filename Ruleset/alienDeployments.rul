@@ -373,7 +373,7 @@ alienDeployments:
     despawnPenalty: 250
 
 
-  - type: STR_CITY_SUMMONING_LEVEL_1
+  - type: STR_CITY_SUMMONING_LEVEL_1_AC
     objectiveType: 150 # the small cup before the Chaos Symbol; Altered MCD to reflect that
     abortPenalty: 100
     data:

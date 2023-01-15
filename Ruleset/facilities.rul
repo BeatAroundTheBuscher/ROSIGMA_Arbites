@@ -1,7 +1,7 @@
 facilities:
   - type: STR_ACCESS_LIFT_AC
     spriteShape: 2
-    spriteFacility: 17
+    spriteFacility: {mod: 40k, index: 17}
     lift: true
     provideBaseFunc: [BASE]
     buildCost: 300000
@@ -12,17 +12,27 @@ facilities:
     requiresBaseFunc: [BASE]
     provideBaseFunc: [IMPERIUM]
     spriteShape: 1
-    spriteFacility: 18
+    spriteFacility: {mod: 40k, index: 18}
     buildCost: 400000
     buildTime: 16
     monthlyCost: 10000
     personnel: 50
     mapName: XBASE_01
+  - type: STR_LABORATORY_AC
+    requiresBaseFunc: [BASE]
+    spriteShape: 1
+    spriteFacility: {mod: 40k, index: 19}
+    buildCost: 750000
+    buildTime: 26
+    monthlyCost: 30000
+    labs: 25
+    provideBaseFunc: [RESE]
+    mapName: XBASE_02
   - type: STR_GENERAL_STORES_AC
     requiresBaseFunc: [BASE]
     provideBaseFunc: [IMPERIUM]
     spriteShape: 1
-    spriteFacility: 24
+    spriteFacility: {mod: 40k, index: 24}
     buildCost: 150000
     buildTime: 10
     monthlyCost: 5000
@@ -32,10 +42,20 @@ facilities:
     requiresBaseFunc: [BASE]
     provideBaseFunc: [HANGAR, IMPERIUM]
     spriteShape: 9
-    spriteFacility: 9
+    spriteFacility: {mod: 40k, index: 9}
     size: 2
     buildCost: 200000
     buildTime: 25
     monthlyCost: 25000
     crafts: 1
     mapName: XBASE_16
+  - type: STR_PRISON_AC
+    requiresBaseFunc: [BASE]
+    spriteShape: 1
+    spriteFacility: {mod: 40k, index: 344}
+    buildCost: 500000
+    buildTime: 20
+    monthlyCost: 25000
+    aliens: 20
+    provideBaseFunc: [PRISON]
+    mapName: XBASE_36

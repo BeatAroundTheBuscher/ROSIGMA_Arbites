@@ -43,13 +43,41 @@ en-US:
   STR_KHORNE_CULTISTS_FEMCULTIST_AC: "Khorne Cultist"
   STR_KHORNE_CULTISTS_CULTIST_AC: "Khorne Cultist"
 
+## Facilities
+
+  STR_ACCESS_LIFT_AC: "Access Lift"
+  STR_LABORATORY_AC: "Laboratory"
+  STR_PRISON_AC: "Prison"
+  STR_GENERAL_STORES_AC: "General Stores"
+  STR_LIVING_QUARTERS_AC: "Living Quarters"
+  STR_HANGAR_AC: "Hangar"
+
+## Crafts
+  STR_ARVUS_AC: "ARVUS"
+
+## Items
+
+  STR_AUTOGUN_AC: "Autogun"
+  STR_AUTOGUN_CLIP_AC: "Autogun Magazine"
+  STR_AUTOPISTOL_AC: "Autopistol"
+  STR_AUTOPISTOL_CLIP_AC: "Autopistol Magazine"
+  STR_SHOTGUN_AC: "Shotgun"
+  STR_SHOTGUN_SHELLS_AC: "Shotgun Shells"
+  STR_GRENADE_AC: "Frag Grenade"
+  STR_COMBAT_KNIFE_AC: "Combat Knife"
+  STR_RIOT_SHIELD_AC: "Riot Shield"
+  STR_STUB_GUN_AC: "Stubber"
+  STR_STUB_RIFLE_AC: "Stub Rifle"
+  STR_STUB_GUN_AMMO_AC: "Stubber Magazine"
+
 ## Armors
+
+  STR_JUDGE_ARMOR_UC_AC: "Judge Armor"
+  STR_CMAS_ARMOR_AC: "Cyber Mastiff"
+  STR_ENFORCER_ARMOR_UC_AC: "Enforcer Armor"
 
   STR_T_ARBITES_BOLTER: "Tarantula/Heavy Bolter"
 
-## Crafts
-
-  STR_ARVUS: "ARVUS"
 
 ## Manufacture
 
