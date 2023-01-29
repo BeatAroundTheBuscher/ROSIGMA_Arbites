@@ -267,7 +267,14 @@ en-US:
   STR_STUB_GUN_AMMO_WOUND_AC: "Stubber Bleeder Magazine"
   STR_STUB_GUN_AMMO_HP_AC: "Stubber Expander Magazine"
   STR_STUB_GUN_AMMO_INC_AC: "Stubber Tracer Magazine"
-  STR_RIOT_SHIELD_UFOPEDIA: "Riot Shield ToDo{NEWLINE}- Extended Front{NEWLINE}- Lowers incoming damage by 20{NEWLINE}- Limited Durability"
+  STR_RIOT_SHIELD_UFOPEDIA: "Riot Shield ToDo{NEWLINE}Abilities:{NEWLINE}- Extended Front{NEWLINE}- Lowers incoming damage by 20{NEWLINE}- Limited Durability"
   STR_CMAS_TACKLE: "Tackle"
   STR_FLAMETHROWER_CLIP_AC: "Flamer Clip"
 
+  STR_JUDGE_ARMOR_UFOPEDIA_AC_1: "ToDo Description{NEWLINE}Go to the next page for abilities"
+  STR_JUDGE_ARMOR_UFOPEDIA_AC_2: "Abilities:{NEWLINE}- Stern Judgement{NEWLINE}Judging low morale enemies may cause them to panic over the turns till they are stunned. Successful Judging is indicated by red flashing of the target."
+
+  STR_HEAVY_STUBBER_CLIP_AC: "Heavy Stubber Belt"
+  IMPERIUM: "Loyality to the Imperium"
+  STR_MAKESHIFT_GRENADE_UFOPEDIA: "ToDo Description"
+  STR_MAKESHIFT_PIPEBOMB_UFOPEDIA: "ToDo Description"

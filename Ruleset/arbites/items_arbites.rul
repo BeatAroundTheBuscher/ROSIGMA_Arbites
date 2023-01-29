@@ -1,4 +1,7 @@
-
+extended:
+  tags:
+    RuleItem:
+      ITEM_RECOIL: int
 
 # general rule
 # items cost 5 times of their sell value
@@ -420,6 +423,8 @@ items:
     listOrder: 170
     requires:
       - STR_HEAVY_STUBBER_AC
+    tags:
+      ITEM_RECOIL: 30
 
   - type: STR_HEAVY_STUBBER_AC_CHAOS
     categories: [STR_CAT_AUTO]
@@ -1064,6 +1069,7 @@ items:
     size: 0.2
     costBuy: 20000
     costSell: 4000
+    hidePower: true
 
   - type: STR_ELECTRO_FLARE_AC
     categories: [ STR_CAT_EQUIPMENT]

@@ -199,7 +199,7 @@ ufopaedia:
       - STR_ANTI_ARMOR_ADVANCED
     listOrder: 220
 
-  - id: STR_FLAMER
+  - id: STR_FLAMER_AC
     type_id: 10
     section: STR_INVESTIGATIONS
     image_id: 2ARB.SPK
@@ -329,6 +329,8 @@ ufopaedia:
     image_id: 1MF.SPK
     text: STR_FLAMETHROWER_UFOPEDIA
     listOrder: 370
+    requires:
+      - STR_FLAMER_AC
 
   - id: STR_RIOT_SHIELD_AC
     type_id: 14
@@ -469,6 +471,8 @@ ufopaedia:
     image_id: 1MF.SPK
     text: STR_FLAMETHROWER_UFOPEDIA
     listOrder: 550
+    requires:
+      - STR_FLAMER_AC
 
   - id: STR_MAKESHIFT_GRENADE_AC
     type_id: 14
@@ -519,8 +523,12 @@ ufopaedia:
     type_id: 15
     section: STR_ARMORPEDIA
     image_id: 0JDG.SPK
-    text: STR_JUDGE_ARMOR_UFOPEDIA
     listOrder: 600
+    pages:
+      - title: STR_JUDGE_ARMOR_AC_UC
+        text: STR_JUDGE_ARMOR_UFOPEDIA_AC_1
+      - title: STR_JUDGE_ARMOR_AC_UC
+        text: STR_JUDGE_ARMOR_UFOPEDIA_AC_2
 
   - id: STR_CMAS_ARMOR_AC_UC
     type_id: 15
