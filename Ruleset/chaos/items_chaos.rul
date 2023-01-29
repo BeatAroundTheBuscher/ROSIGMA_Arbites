@@ -1,6 +1,6 @@
 extended:
   tags:
-    BattleGame:
+    RuleItem:
       ITEM_PRIMED_AT_BATTLE_START: int
       ITEM_PRIMED_AT_BATTLE_START_VARIANCE: int
       ITEM_SETS_MISSION_TIMER: int

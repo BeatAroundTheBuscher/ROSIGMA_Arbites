@@ -1,0 +1,128 @@
+extended:
+  tags:
+    RuleItem:
+      ITEM_PRIMED_AT_BATTLE_START: int
+      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: int
+      ITEM_SETS_MISSION_TIMER: int
+      ITEM_PRIMED_BY_MISSION_TIMER: int
+      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
+  scripts:
+    createItem:
+      - new: 40kAC_cI_prime_fuse_at_beginning
+        offset: 1
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int fuseTimer;
+          var int fuseTimerVariance;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag fuseTimer Tag.ITEM_PRIMED_AT_BATTLE_START;
+          itemRuleset.getTag fuseTimerVariance Tag.ITEM_PRIMED_AT_BATTLE_START_VARIANCE;
+
+          if neq 0 fuseTimer;
+
+            limit_lower fuseTimer 0;
+            battle_game.randomRange fuseTimerVariance 0 fuseTimerVariance;
+            add fuseTimer fuseTimerVariance;
+
+            item.setFuseTimer fuseTimer;
+
+          end;
+
+          return;
+
+      - new: 40kAC_cI_save_timed_objectives
+        offset: 2
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int itemSetsMissionTimer;
+          var int fuseTimer;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag itemSetsMissionTimer Tag.ITEM_SETS_MISSION_TIMER;
+
+          if neq 0 itemSetsMissionTimer;
+
+            item.getFuseTimer fuseTimer;
+            battle_game.setTag Tag.MISSION_TIMER fuseTimer;
+
+          end;
+
+          return;
+
+      - new: 40kAC_cI_prime_fuse_for_mission_timer
+        offset: 3
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int itemPrimedByMissionTimer;
+          var int missionTimer;
+          var int fuseTimerVariance;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag itemPrimedByMissionTimer Tag.ITEM_PRIMED_BY_MISSION_TIMER;
+          itemRuleset.getTag fuseTimerVariance Tag.ITEM_PRIMED_AT_BATTLE_START_VARIANCE;
+          battle_game.getTag missionTimer Tag.MISSION_TIMER;
+
+          if and neq 0 itemPrimedByMissionTimer neq 0 missionTimer;
+
+            if gt itemPrimedByMissionTimer 0;
+
+              sub itemPrimedByMissionTimer 1;
+
+            end;
+
+            battle_game.randomRange fuseTimerVariance 0 fuseTimerVariance;
+            add missionTimer itemPrimedByMissionTimer;
+            add missionTimer fuseTimerVariance;
+
+            item.setFuseTimer missionTimer;
+
+          end;
+
+          return;
+
+    newTurnItem:
+      - new: 40kAC_nTI_prevent_fuses_cooking_off_till_mission_timer
+        offset: 3
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int itemFuseDelayedUntilMissionTimer;
+          var int fuseTimer;
+          var int missionTimer;
+          var int turnTimer;
+
+          # Don't run during neutral side's turn
+          if eq 2 side;
+            return;
+          end;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag itemFuseDelayedUntilMissionTimer Tag.ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER;
+          item.getFuseTimer fuseTimer;
+          battle_game.getTag missionTimer Tag.MISSION_TIMER;
+
+          if and neq 0 itemFuseDelayedUntilMissionTimer  neq -1 fuseTimer neq 0 missionTimer;
+
+            if gt itemFuseDelayedUntilMissionTimer 0;
+
+              sub itemFuseDelayedUntilMissionTimer 1;
+
+            end;
+
+            add missionTimer itemFuseDelayedUntilMissionTimer;
+
+            # missionTimer is given in terms of grenade timers, need to convert turn and side to half turns
+            set turnTimer turn;
+            mul turnTimer 2;
+            add turnTimer side;
+
+            if and lt turnTimer missionTimer;
+
+              add fuseTimer 1;
+              item.setFuseTimer fuseTimer;
+
+            end;
+
+          end;
+
+          return;
