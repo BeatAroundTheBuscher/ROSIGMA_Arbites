@@ -1,9 +1,3 @@
-# for Search: 
-# Sprite: (\d{1,4})
-# for Replace:
-# Sprite: {mod: 40k, index: $1}
-
-
 items:
   - type: STR_ENFORCER_CORPSE_AC
     name: STR_CORPSE

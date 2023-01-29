@@ -1,5 +1,4 @@
-# (type: STR_.*)
-# $1_AC
+
 
 # general rule
 # items cost 5 times of their sell value
@@ -228,7 +227,7 @@ items:
     handSprite: {mod: 40k, index: 1128}
     bulletSprite: {mod: 40k, index: 2}
     bulletSpeed: 25
-    fireSound: 4
+    fireSound: {mod: 40k, index: 4}
     compatibleAmmo:
       - STR_AUTOGUN_CLIP_AC
     accuracySnap: 65
@@ -301,7 +300,7 @@ items:
     handSprite: {mod: 40k, index: 1016}
     bulletSprite: {mod: 40k, index: 2}
     bulletSpeed: 25
-    fireSound: 4
+    fireSound: {mod: 40k, index: 4}
     compatibleAmmo:
       - STR_HEAVY_STUBBER_CLIP_AC
     accuracyAuto: 45 #15 handle kneeling bonus by recoil script instead
@@ -333,7 +332,7 @@ items:
     handSprite: {mod: 40k, index: 1920}
     bulletSprite: {mod: 40k, index: 2}
     bulletSpeed: 25
-    fireSound: 4
+    fireSound: {mod: 40k, index: 4}
     compatibleAmmo:
       - STR_HEAVY_STUBBER_CLIP_AC
     accuracyAuto: 40
@@ -363,7 +362,7 @@ items:
     bigSprite: {mod: 40k, index: 1004}
     floorSprite: {mod: 40k, index: 1004}
     handSprite: {mod: 40k, index: 1032}
-    hitSound: 22
+    hitSound: {mod: 40k, index: 22}
     hitAnimation: -1
     #explosionSpeed: 5
     power: 42
@@ -385,19 +384,7 @@ items:
 
 ### Webbers
 
-  - type: STR_WEBBER_AC
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
-      - STR_WEBBER_AC
-    costBuy: 15000
-    costSell: 3000
 
-  - type: STR_WEBBER_AMMO_AC
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
-      - STR_WEBBER_AC
-    costBuy: 1000
-    costSell: 200
 
 ### GRENADE_ACs
 
@@ -1037,8 +1024,163 @@ items:
     armor: 8
     listOrder: 14100
 
-  - type: STR_STUN_ROD
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN
-    costBuy: 2000
+## unsorted
+
+  - type: STR_STUN_ROD_AC
+    categories: [STR_CAT_MELEE, STR_CAT_TACTICAL]
+    requiresBuyBaseFunc: [IMPERIUM]
+    bigSprite: {mod: 40k, index: 282}
+    floorSprite: {mod: 40k, index: 156}
+    handSprite: {mod: 40k, index: 496}
+    costBuy: 4000
+    costSell: 2000
+    meleeAnimation: {mod: 40k, index: 28} # 28 bolt anitmation
+    meleeSound: {mod: 40k, index: 754} #754 knif miss
+    meleeHitSound: {mod: 40k, index: 775} # 775 electric  hit
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    armor: 20
+    skillApplied: true
+    meleeMultiplier:
+      melee: 1.0
+      flatHundred: 0.0
+    listOrder: 12800
+
+  - type: STR_WEBBER_AC
+    categories: [STR_CAT_GRAVGUN, STR_CAT_TACTICAL]
+    requires:
+      - STR_GENERAL_LOCK_AC
+    size: 0.2
+    dropoff: 5
+    costSell: 10000
+    weight: 10
+    bigSprite: {mod: 40k, index: 626}
+    floorSprite: {mod: 40k, index: 615}
+    handSprite: {mod: 40k, index: 184}
+    bulletSprite: {mod: 40k, index: 21}
+    fireSound: {mod: 40k, index: 802}
+    compatibleAmmo:
+      - STR_WEBBER_AMMO_AC
+    accuracySnap: 65
+    tuSnap: 40
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 4
+    listOrder: 11805
+  - type: STR_WEBBER_AMMO_AC
+    categories: [STR_CAT_GRAVGUN, STR_CAT_TACTICAL]
+    requires:
+      - STR_GENERAL_LOCK_AC
+    size: 0.1
+    costSell: 300
+    weight: 3
+    bigSprite: {mod: 40k, index: 627}
+    floorSprite: {mod: 40k, index: 616}
+    handSprite: {mod: 40k, index: 616}
+    hitSound: {mod: 40k, index: 790}
+    hitAnimation: {mod: 40k, index: 160}
+    power: 40
+    damageType: 1
+    clipSize: 4
+    battleType: 2
+    recoveryPoints: 1
+    damageAlter: #GRAV GUN
+      RandomType: 2 #TFTD [50% - 150%]
+      ArmorEffectiveness: 0.0
+      ToArmorPre: 0.0
+      ToArmor: 0.0
+      ToHealth: 0.0
+      ToStun: 1.0
+      ToWound: 0.0
+    listOrder: 11806
+
+
+
+  - type: STR_FLAMETHROWER_AC
+    categories: [ STR_CAT_FLAMER, STR_CAT_TACTICAL]
+    requiresBuyBaseFunc: [IMPERIUM]
+    size: 0.2
+    costBuy: 8000
+    costSell: 6500
+    weight: 10
+    bigSprite: {mod: 40k, index: 215}
+    floorSprite: {mod: 40k, index: 102}
+    handSprite: {mod: 40k, index: 200}
+    bulletSprite: {mod: 40k, index: 5}
+    fireSound: {mod: 40k, index: 706}
+    compatibleAmmo:
+      - STR_FLAMETHROWER_CLIP_AC
+    accuracyAuto: 20
+    tuAuto: 35
+    battleType: 1
+    twoHanded: true
+    experienceTrainingMode: 6
+    arcingShot: false
+    maxRange: 9
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    autoShots: 6
+    attraction: 7
+    listOrder: 10500
+  - type: STR_FLAMETHROWER_CHAOS_AC
+    categories: [ STR_CAT_FLAMER, STR_CAT_TACTICAL, STR_CAT_CHAOS]
+    requires:
+      - STR_GENERAL_LOCK_AC
+    size: 0.2
+    #costBuy: 8000
+    costSell: 6500
+    weight: 10
+    bigSprite: {mod: 40k, index: 1121}
+    floorSprite: {mod: 40k, index: 1121}
+    handSprite: {mod: 40k, index: 1912}
+    bulletSprite: {mod: 40k, index: 5}
+    fireSound: {mod: 40k, index: 706}
+    compatibleAmmo:
+      - STR_FLAMETHROWER_CLIP_AC
+    accuracyAuto: 20
+    tuAuto: 35
+    battleType: 1
+    twoHanded: true
+    experienceTrainingMode: 6
+    arcingShot: false
+    maxRange: 9
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    autoShots: 6
+    attraction: 7
+    listOrder: 10505
+
+  - type: STR_FLAMETHROWER_CLIP_AC
+    categories: [ STR_CAT_FLAMER, STR_CAT_TACTICAL]
+    requiresBuyBaseFunc: [IMPERIUM]
+    size: 0.2
+    costBuy: 500
     costSell: 400
+    vaporColorSurface: 0
+    vaporDensitySurface: 4
+    vaporProbabilitySurface: 100
+    weight: 5
+    bigSprite: {mod: 40k, index: 216}
+    floorSprite: {mod: 40k, index: 103}
+    handSprite: {mod: 40k, index: 440}
+    hitSound: {mod: 40k, index: 12}
+    hitAnimation: {mod: 40k, index: 88} #XFIRE
+    power: 60
+    damageType: 2
+    damageAlter:
+      IgnoreSelfDestruct: false
+    blastRadius: 2
+    clipSize: 40
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    bulletSpeed: 50
+    explosionSpeed: 10
+    armor: 15
+    attraction: 7
+    listOrder: 10520
