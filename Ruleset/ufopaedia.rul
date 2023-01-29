@@ -208,6 +208,7 @@ ufopaedia:
       - STR_FLAMER_AC
     listOrder: 230
 
+
 ### Weapons
 
 #### Ballistics
@@ -386,54 +387,6 @@ ufopaedia:
     listOrder: 450
 
 
-## ARMORS
-## Convention by the game is to add _UC at the end
-
-  - id: STR_PENAL_ARMOR_UC_AC
-    type_id: 15
-    section: STR_ARMORPEDIA
-    image_id: PENAL_LEGION.SPK
-    text: STR_PENAL_ARMOR_BROWN_UC_UFOPEDIA
-    listOrder: 460
-
-  - id: STR_ENFORCER_ARMOR_AC_UC
-    type_id: 15
-    section: STR_ARMORPEDIA
-    image_id: 0ENF.SPK
-    text: STR_ENFORCER_ARMOR_UFOPEDIA
-    listOrder: 470
-
-  - id: STR_ENFORCER_MEDIC_ARMOR_AC_UC
-    type_id: 15
-    section: STR_ARMORPEDIA
-    image_id: 0ENFM.SPK
-    text: STR_ENFORCER_MEDIC_ARMOR_UFOPEDIA
-    listOrder: 480
-
-  - id: STR_ENFORCER_HEAVY_ARMOR_AC_UC
-    requires:
-      - STR_HEAVY_ARMOR_AC
-    type_id: 15
-    section: STR_ARMORPEDIA
-    image_id: 0ENF2.SPK
-    text: STR_ENFORCER_HEAVY_ARMOR_UFOPEDIA
-    listOrder: 490
-
-  - id: STR_JUDGE_ARMOR_AC_UC
-    type_id: 15
-    section: STR_ARMORPEDIA
-    image_id: 0JDG.SPK
-    text: STR_JUDGE_ARMOR_UFOPEDIA
-    listOrder: 500
-
-  - id: STR_CMAS_ARMOR_AC_UC
-    type_id: 15
-    section: STR_ARMORPEDIA
-    image_id: C13.SPK
-    text: STR_CMAS_UFOPEDIA
-    listOrder: 510
-
-
 ## ENEMY Weapons
 
 #### Ballistics
@@ -444,49 +397,49 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: STUB_GUN.SPK
     text: STR_STUB_GUN_UFOPEDIA
-    listOrder: 520
+    listOrder: 460
 
   - id: STR_STUB_SMG_CHAOS_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: AUTOPISTOL.SPK
     text: STR_STUB_GUN_UFOPEDIA
-    listOrder: 530
+    listOrder: 470
 
   - id: STR_STUB_RIFLE_CHAOS_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: STUB_RIFLE.SPK
     text: STR_STUB_RIFLE_UFOPEDIA
-    listOrder: 540
+    listOrder: 480
 
   - id: STR_AUTOPISTOL_CHAOS_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: AUTOGUN.SPK
     text: STR_AUTOGUN_UFOPEDIA
-    listOrder: 550
+    listOrder: 490
 
   - id: STR_AUTOGUN_CHAOS_AC 
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: AUTOGUN.SPK
     text: STR_AUTOGUN_UFOPEDIA
-    listOrder: 560
+    listOrder: 500
 
   - id: STR_SHOTGUN_CHAOS_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 1SG.SPK
     text: STR_SHOTGUN_UFOPEDIA
-    listOrder: 570
+    listOrder: 510
 
   - id: STR_HEAVY_STUBBER_AC_CHAOS
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: HEAVY_STUBBER.SPK
     text: STR_HEAVY_STUBBER_UFOPEDIA
-    listOrder: 580
+    listOrder: 520
 
 #### Lasguns
 
@@ -497,7 +450,7 @@ ufopaedia:
     requires:
       - STR_LASGUNS_AC
     text: STR_LASER_PISTOL_UFOPEDIA
-    listOrder: 590
+    listOrder: 530
 
   - id: STR_LASGUN_CHAOS_AC
     type_id: 14
@@ -506,7 +459,7 @@ ufopaedia:
     requires:
       - STR_LASGUNS_AC
     text: STR_LASER_RIFLE_UFOPEDIA
-    listOrder: 600
+    listOrder: 540
 
 #### Utility
 
@@ -515,7 +468,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 1MF.SPK
     text: STR_FLAMETHROWER_UFOPEDIA
-    listOrder: 610
+    listOrder: 550
 
   - id: STR_MAKESHIFT_GRENADE_AC
     type_id: 14
@@ -528,6 +481,53 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 1OK4.SPK
     text: STR_MAKESHIFT_PIPEBOMB_UFOPEDIA
+
+### ARMORS
+#### Convention by the game is to add _UC at the end
+
+  - id: STR_PENAL_ARMOR_UC_AC
+    type_id: 15
+    section: STR_ARMORPEDIA
+    image_id: PENAL_LEGION.SPK
+    text: STR_PENAL_ARMOR_BROWN_UC_UFOPEDIA
+    listOrder: 560
+
+  - id: STR_ENFORCER_ARMOR_AC_UC
+    type_id: 15
+    section: STR_ARMORPEDIA
+    image_id: 0ENF.SPK
+    text: STR_ENFORCER_ARMOR_UFOPEDIA
+    listOrder: 570
+
+  - id: STR_ENFORCER_MEDIC_ARMOR_AC_UC
+    type_id: 15
+    section: STR_ARMORPEDIA
+    image_id: 0ENFM.SPK
+    text: STR_ENFORCER_MEDIC_ARMOR_UFOPEDIA
+    listOrder: 580
+
+  - id: STR_ENFORCER_HEAVY_ARMOR_AC_UC
+    requires:
+      - STR_HEAVY_ARMOR_AC
+    type_id: 15
+    section: STR_ARMORPEDIA
+    image_id: 0ENF2.SPK
+    text: STR_ENFORCER_HEAVY_ARMOR_UFOPEDIA
+    listOrder: 590
+
+  - id: STR_JUDGE_ARMOR_AC_UC
+    type_id: 15
+    section: STR_ARMORPEDIA
+    image_id: 0JDG.SPK
+    text: STR_JUDGE_ARMOR_UFOPEDIA
+    listOrder: 600
+
+  - id: STR_CMAS_ARMOR_AC_UC
+    type_id: 15
+    section: STR_ARMORPEDIA
+    image_id: C13.SPK
+    text: STR_CMAS_UFOPEDIA
+    listOrder: 610
 
 ### Stats for Nerds only
 

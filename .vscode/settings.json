@@ -5,7 +5,8 @@
         "!remove sequence",
         "!info sequence"
     ],
-    "oxcYamlHelper.showRulesetDocumentationOnStartup": false
+    "oxcYamlHelper.showRulesetDocumentationOnStartup": false,
+    "csv-edit.readOption_hasHeader": "true"
 
     // https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml#adding-custom-tags
 }
