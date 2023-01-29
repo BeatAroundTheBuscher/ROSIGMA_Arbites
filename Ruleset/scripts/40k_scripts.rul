@@ -6,6 +6,11 @@ extended:
       ITEM_SETS_MISSION_TIMER: int
       ITEM_PRIMED_BY_MISSION_TIMER: int
       ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
+
+      ITEM_RECOIL: int
+      ITEM_HAS_BIPOD: int
+      ITEM_STRENGTH_REQUIREMENT: int
+
   scripts:
     createItem:
       - new: 40kAC_cI_prime_fuse_at_beginning
@@ -126,3 +131,62 @@ extended:
           end;
 
           return;
+
+    accuracyMultiplierBonusStats:
+      #*** recoil accuracy penalty on firing weapons with not enough strength ***
+      - new: 40kAC_aMBS_missing_strength_affects_accuracy
+        offset: 10
+        code: |
+          var ptr RuleItem weaponRuleset;
+          var ptr BattleItem otherWeapon;
+          var int itemRecoil;
+          var int weaponHasBipod;
+          var int unitIsKneeling;
+          var int unitStrength;
+          var int accuracyFloor;
+
+          weapon.getRuleItem weaponRuleset;
+          weaponRuleset.getTag itemRecoil Tag.ITEM_RECOIL;
+
+          # bipod+kneeling = no recoil
+          weaponRuleset.getTag weaponHasBipod Tag.ITEM_HAS_BIPOD;
+          unit.isKneeled unitIsKneeling;
+
+          if eq 0 itemRecoil;
+            return bonus;
+          else and neq 0 weaponHasBipod neq 0 unitIsKneeling;
+            return bonus;
+          end;
+
+          # lower limit for penalty from recoil is 50% for snap/aimed, 0 for auto
+          set accuracyFloor bonus;
+          div accuracyFloor 2;
+
+          if eq battle_action BA_AUTOSHOT;
+
+            set accuracyFloor 0;
+
+          end;
+
+          # compare unit strength as percent of the recoil value
+          # less than 50% = full penalty
+          # 50% to 100% = scaling penalty
+          unit.Stats.getStrength unitStrength;
+          muldiv unitStrength 100 itemRecoil;
+
+          if lt unitStrength 100;
+
+            # autoshot gets twice the penalty (needs to reach 0 by half strength, not 50%)
+            if eq battle_action BA_AUTOSHOT;
+
+              sub unitStrength 50;
+              mul unitStrength 2;
+
+            end;
+
+            muldiv bonus unitStrength 100;
+            limit_lower bonus accuracyFloor;
+
+          end;
+
+          return bonus;
