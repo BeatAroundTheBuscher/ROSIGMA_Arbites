@@ -72,7 +72,7 @@ en-US:
   STR_AUTOPISTOL_CLIP_AC: "Autopistol Magazine"
   STR_SHOTGUN_AC: "Shotgun"
   STR_SHOTGUN_SHELLS_AC: "Shotgun Shells"
-  STR_GRENADE_AC: "Frag Grenade"
+  STR_FRAG_GRENADE_AC: "Frag Grenade"
   STR_COMBAT_KNIFE_AC: "Combat Knife"
   STR_RIOT_SHIELD_AC: "Riot Shield"
 
@@ -83,8 +83,8 @@ en-US:
   STR_STUB_RIFLE_AC: "Stub Rifle"
   STR_STUB_RIFLE_CHAOS_AC: "Stub Rifle (Chaos)"
   STR_STUB_GUN_AMMO_AC: "Stubber Magazine"
-  STR_SMG_STUB_GUN_AC: "Stubber SMG"
-  STR_SMG_STUB_GUN_CHAOS_AC: "Stubber SMG (Chaos)"
+  STR_STUB_SMG_AC: "Stubber SMG"
+  STR_STUB_SMG_CHAOS_AC: "Stubber SMG (Chaos)"
   STR_STUB_GUN_AMMO_LONG_AC: "Stubber SMG Magazine"
   STR_HEAVY_STUBBER_AC: "Heavy Stubber"
 
@@ -126,11 +126,11 @@ en-US:
 
 ## Armors
 
-  STR_JUDGE_ARMOR_UC_AC: "Judge Armor"
-  STR_CMAS_ARMOR_AC: "Cyber Mastiff"
-  STR_ENFORCER_ARMOR_UC_AC: "Enforcer Armor"
-  STR_ENFORCER_HEAVY_ARMOR_UC_AC: "Heavy Enforcer Armor"
-  STR_ENFORCER_MEDIC_ARMOR_UC_AC: "Enforcer Armor/Medic"
+  STR_JUDGE_ARMOR_AC_UC: "Judge Armor"
+  STR_CMAS_ARMOR_AC_UC: "Cyber Mastiff"
+  STR_ENFORCER_ARMOR_AC_UC: "Enforcer Armor"
+  STR_ENFORCER_HEAVY_ARMOR_AC_UC: "Heavy Enforcer Armor"
+  STR_ENFORCER_MEDIC_ARMOR_AC_UC: "Enforcer Armor/Medic"
 
 
 ## Armor Items
@@ -169,7 +169,7 @@ en-US:
   STR_DAEMON_CORPSE_RESEARCHED: "(Daemon Corpse Researched)"
 
   STR_FIGHTER_CRAFT: "Fighter Craft"
-  STR_HEAVY_ARMOR: "Heavy Personal Armor"
+  STR_HEAVY_ARMOR_AC: "Heavy Personal Armor"
   STR_FLAMER: "Flamethrowers"
   STR_STUN_GEAR: "Stun Equipment"
   STR_STUN_GEAR_TEXT: ""
@@ -230,3 +230,35 @@ en-US:
   STR_CATACOMB_DESCRIPTION: "ToDo2"
   STR_CATACOMB_DETECTED: "Heritical Cult Found"
   STR_CATACOMB_SITE: "Heritical Cult"
+
+
+## Unsorted
+
+  STR_WEAPONS_AND_EQUIPMENT_ENEMY: "WEAPONS (HOSTILES)"
+
+
+  STR_ARBITES_ARC4: "Todo"
+  STR_ARBITES_ARC12: "Todo"
+  STR_ARBITES_ARC11: "Todo"
+  STR_ARBITES_ARC10: "Todo"
+  STR_ARBITES_ARC9: "Todo"
+  STR_ARBITES_ARC8: "Todo"
+  STR_ARBITES_ARC7: "Todo"
+  STR_ARBITES_ARC5: "Todo"
+  STR_ARBITES_ARC3: "Todo"
+  STR_ARBITES_ARC2: "Todo"
+  STR_ANTI_ARMOR_ADVANCED: "Advanced Anti Armor Weapons"
+  STR_PENAL_ARMOR_UC_AC: "Penal Clothing"
+  STR_LASGUN_CHAOS_AC: "Lasgun (Chaos)"
+  STR_AUTOPISTOL_CHAOS_AC: "Autopistol (Chaos)"
+  STR_PROXIMITY_GRENADE_AC: "Proximity Grenade"
+
+
+  STR_WEBBER_AC: "Webber"
+  STR_STUN_ROD_AC: "Shock Maul"
+  STR_FLAMETHROWER_AC: "Flamethrower"
+  STR_PHOSPHOR_GRENADE_AC: "Phosphor Grenade"
+  STR_PHOTON_GRENADE_AC: "Photon Grenade"
+  STR_FLAMETHROWER_CHAOS_AC: "Flamethrower (Chaos)"
+  STR_SHOTGUN_CHAOS_AC: "Shotgun (Chaos)"
+  STR_HEAVY_STUBBER_AC_CHAOS: "Heavy Stubber (Chaos)"

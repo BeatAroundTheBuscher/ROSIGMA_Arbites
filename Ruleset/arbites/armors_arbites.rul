@@ -1,6 +1,6 @@
 armors:
   - &STR_BASIC_ENFORCER_ARMOR
-    type: STR_ENFORCER_ARMOR_UC_AC
+    type: STR_ENFORCER_ARMOR_AC_UC
     visibilityAtDay: 40
     visibilityAtDark: 20
     spriteSheet: ENFORCER.PCK
@@ -31,7 +31,7 @@ armors:
       - STR_SOLDIER_AC
     loftempsSet: [ 3 ]
 
-  - type: STR_ENFORCER_MEDIC_ARMOR_UC_AC
+  - type: STR_ENFORCER_MEDIC_ARMOR_AC_UC
     refNode: *STR_BASIC_ENFORCER_ARMOR
     spriteSheet: ENFORCERM.PCK
     customArmorPreviewIndex: {mod: 40k, index: 45}
@@ -41,7 +41,7 @@ armors:
     builtInWeapons:
       - INV_NULL_MEDI_KIT_AC
 
-  - type: STR_ENFORCER_HEAVY_ARMOR_UC_AC #DR10 ARBITES SUPORT
+  - type: STR_ENFORCER_HEAVY_ARMOR_AC_UC #DR10 ARBITES SUPORT
     refNode: *STR_BASIC_ENFORCER_ARMOR
     weight: 10
     spriteSheet: ENFORCERH.PCK
@@ -56,7 +56,7 @@ armors:
 
 
 
-  - type: STR_JUDGE_ARMOR_UC_AC
+  - type: STR_JUDGE_ARMOR_AC_UC
     visibilityAtDay: 60
     visibilityAtDark: 60
     customArmorPreviewIndex: {mod: 40k, index: 53}
@@ -120,7 +120,7 @@ armors:
     units:
       - STR_PENITENT_AC
 
-  - type: STR_CMAS_ARMOR_AC
+  - type: STR_CMAS_ARMOR_AC_UC
     visibilityAtDay: 40
     visibilityAtDark: 30
     customArmorPreviewIndex: 600

@@ -4,7 +4,7 @@
 # {mod: 40k, index: $1}
 
 armors:
-  - type: STR_ENFORCER_ARMOR_UC_AC
+  - type: STR_ENFORCER_ARMOR_AC_UC
     selectUnitMale:     [{mod: 40k, index: 1211}, {mod: 40k, index: 1212}, {mod: 40k, index: 1213}, {mod: 40k, index: 1214}, {mod: 40k, index: 1215}]
     selectUnitFemale:   [{mod: 40k, index: 231}, {mod: 40k, index: 232}, {mod: 40k, index: 233}, {mod: 40k, index: 234}, {mod: 40k, index: 235}]
     startMovingMale:    [{mod: 40k, index: 1206}, {mod: 40k, index: 1207}, {mod: 40k, index: 1208}, {mod: 40k, index: 1209}, {mod: 40k, index: 1210}]
@@ -14,7 +14,7 @@ armors:
     annoyedMale:        [{mod: 40k, index: 1216}, {mod: 40k, index: 1217}, {mod: 40k, index: 1218}, {mod: 40k, index: 1219}, {mod: 40k, index: 1220}]
     annoyedFemale:      [{mod: 40k, index: 236}, {mod: 40k, index: 237}, {mod: 40k, index: 238}, {mod: 40k, index: 239}, {mod: 40k, index: 240}]
 
-  - type: STR_JUDGE_ARMOR_UC_AC
+  - type: STR_JUDGE_ARMOR_AC_UC
     selectUnitMale:     [{mod: 40k, index: 131}, {mod: 40k, index: 132}, {mod: 40k, index: 133}, {mod: 40k, index: 134}, {mod: 40k, index: 135}]
     selectUnitFemale:   [{mod: 40k, index: 151}, {mod: 40k, index: 152}, {mod: 40k, index: 153}, {mod: 40k, index: 154}, {mod: 40k, index: 155}]
     startMovingMale:    [{mod: 40k, index: 126}, {mod: 40k, index: 127}, {mod: 40k, index: 128}, {mod: 40k, index: 129}, {mod: 40k, index: 130}]
@@ -26,7 +26,7 @@ armors:
     deathMale:     [{mod: 40k, index: 116}, {mod: 40k, index: 117}, {mod: 40k, index: 118}, {mod: 40k, index: 119}]
     deathFemale:   [{mod: 40k, index: 111}, {mod: 40k, index: 112}, {mod: 40k, index: 113}, {mod: 40k, index: 114}, {mod: 40k, index: 115}]
 
-  - type: STR_CMAS_ARMOR_AC
+  - type: STR_CMAS_ARMOR_AC_UC
     selectUnitMale:     [{mod: 40k, index: 1191}, {mod: 40k, index: 1192}]
     selectUnitFemale:   [{mod: 40k, index: 1191}, {mod: 40k, index: 1192}]
     selectWeaponMale:   [{mod: 40k, index: 1190}, {mod: 40k, index: 1191}]

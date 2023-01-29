@@ -385,14 +385,14 @@ items:
 
 ### Webbers
 
-  - type: STR_WEBBER
+  - type: STR_WEBBER_AC
     requiresBuy:
 #      - STR_ARBITES_CAMPAIGN
       - STR_WEBBER_AC
     costBuy: 15000
     costSell: 3000
 
-  - type: STR_WEBBER_AMMO
+  - type: STR_WEBBER_AMMO_AC
     requiresBuy:
 #      - STR_ARBITES_CAMPAIGN
       - STR_WEBBER_AC
@@ -401,7 +401,7 @@ items:
 
 ### GRENADE_ACs
 
-  - type: STR_GRENADE_AC
+  - type: STR_FRAG_GRENADE_AC
     categories: [ STR_CAT_GRENADES, STR_CAT_TACTICAL]
     requiresBuyBaseFunc: [IMPERIUM]
     requiresBuy:
@@ -461,10 +461,6 @@ items:
     requiresBuy:
       - STR_GENERAL_LOCK_AC
 
-  - type: STR_ELECTRO_FLARE
-    requiresBuy:
-      - STR_ARBITES_CAMPAIGN
-
   - type: STR_MAKESHIFT_GRENADE_AC
     categories: [ STR_CAT_GRENADES]
     size: 0.1
@@ -505,7 +501,7 @@ items:
 
 ### Flamers
 
-  - type: STR_FLAMETHROWER
+  - type: STR_FLAMETHROWER_AC
     requiresBuy:
 #      - STR_ARBITES_CAMPAIGN
       - STR_FLAMER
@@ -623,7 +619,7 @@ items:
     dropoff: 5
     costBuy: 3000
     requiresBuy:
-      - STR_LASGUNS
+      - STR_LASGUNS_AC
     costSell: 1000
     weight: 5
     bigSprite: {mod: 40k, index: 5}
@@ -692,7 +688,7 @@ items:
     dropoff: 5
     costBuy: 7000
     requiresBuy:
-      - STR_LASGUNS
+      - STR_LASGUNS_AC
     costSell: 2000
     weight: 8
     bigSprite: {mod: 40k, index: 0}
@@ -749,7 +745,7 @@ items:
     listOrder: 11010
 
   - &STR_SMG_STUB
-    type: STR_SMG_STUB_GUN_AC
+    type: STR_STUB_SMG_AC
     categories: [STR_CAT_AUTO]
     size: 0.1
     dropoff: 6 #higher drop off
@@ -782,7 +778,7 @@ items:
     attraction: 1
     listOrder: 10712
 
-  - type: STR_SMG_STUB_GUN_CHAOS_AC
+  - type: STR_STUB_SMG_CHAOS_AC
     refNode: *STR_SMG_STUB
     bigSprite: {mod: 40k_ROSIGMA_edits, index: 2713}
     floorSprite: {mod: 40k, index: 1114}
@@ -962,7 +958,7 @@ items:
   - type: STR_ENFORCER_HEAVY_ARMOR_AC
     requiresBuy:
 #      - STR_ARBITES_CAMPAIGN
-      - STR_HEAVY_ARMOR
+      - STR_HEAVY_ARMOR_AC
     costBuy: 25000
     costSell: 5000
     size: 0.3

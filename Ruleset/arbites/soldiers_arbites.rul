@@ -39,7 +39,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor: STR_ENFORCER_ARMOR_UC_AC
+    armor: STR_ENFORCER_ARMOR_AC_UC
     standHeight: 22
     kneelHeight: 14
     femaleFrequency: 25
@@ -80,7 +80,7 @@ soldiers:
       psiStrength: 50
       psiSkill: 1 # was 0
       melee: 50
-    armor: STR_JUDGE_ARMOR_UC_AC
+    armor: STR_JUDGE_ARMOR_AC_UC
 
 
   - type: STR_MASTIFF_AC
@@ -89,7 +89,7 @@ soldiers:
     costSalary: 10000
     requires:
       - STR_CYBER_MASTIFF_RECRUITMENT
-    armor: STR_CMAS_ARMOR_AC
+    armor: STR_CMAS_ARMOR_AC_UC
     avatarOffsetX: 91
     avatarOffsetY: 87
     minStats:

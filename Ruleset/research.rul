@@ -65,7 +65,7 @@ research:
     dependencies:
       - STR_DAEMON_CORPSE_RESEARCHED
 
-  - name: STR_HEAVY_ARMOR
+  - name: STR_HEAVY_ARMOR_AC
     cost: 0
     points: 0
     dependencies:
@@ -96,7 +96,13 @@ research:
       - STR_GENERAL_LOCK_AC
 
 
-  - name: STR_LASGUNS
+  - name: STR_LASGUNS_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_LIGHT_BOLTERS_AC
     cost: 0
     points: 0
     dependencies:

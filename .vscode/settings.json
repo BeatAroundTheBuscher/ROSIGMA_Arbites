@@ -1,6 +1,11 @@
 {
     "oxcYamlHelper.parentMods": ["xcom1", "OXCE_40k", "ROSIGMA"],
-    "yaml.customTags": ["!add sequence", "!remove sequence", "!info sequence"]
+    "yaml.customTags": [
+        "!add sequence",
+        "!remove sequence",
+        "!info sequence"
+    ],
+    "oxcYamlHelper.showRulesetDocumentationOnStartup": false
 
     // https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml#adding-custom-tags
 }

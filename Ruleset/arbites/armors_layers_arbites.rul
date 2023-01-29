@@ -1,6 +1,6 @@
 armors:
   - &STR_ARBITES_ARMOR
-    type: STR_ENFORCER_ARMOR_UC_AC
+    type: STR_ENFORCER_ARMOR_AC_UC
     spriteFaceGroup: 6
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3 M4 F4 M5 F5 M6 F6 M7 F7 M8 F8 M9 F9
     spriteHairGroup: 9
@@ -31,7 +31,7 @@ armors:
       F9: ["0", "EFB", "F9_FACE"]
 
 
-  - type: STR_ENFORCER_MEDIC_ARMOR_UC_AC
+  - type: STR_ENFORCER_MEDIC_ARMOR_AC_UC
     refNode: *STR_ARBITES_ARMOR
     layersDefinition:
       M0: ["0", "EMAM", "M0_FACE"]
@@ -55,7 +55,7 @@ armors:
       F8: ["0", "EFCM", "F8_FACE"]
       F9: ["0", "EFBM", "F9_FACE"]
 
-  - type: STR_ENFORCER_HEAVY_ARMOR_UC_AC
+  - type: STR_ENFORCER_HEAVY_ARMOR_AC_UC
     refNode: *STR_ARBITES_ARMOR
     layersDefinition:
       M0: ["0", "EMH", "M0_FACE"]
@@ -80,7 +80,7 @@ armors:
       F9: ["0", "EFH", "F9_FACE"]
 
 
-  - type: STR_JUDGE_ARMOR_UC_AC
+  - type: STR_JUDGE_ARMOR_AC_UC
     refNode: *STR_ARBITES_ARMOR
     layersDefaultPrefix: 0
     layersSpecificPrefix:

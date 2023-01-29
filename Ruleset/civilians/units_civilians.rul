@@ -25,11 +25,11 @@ units:
       - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
         - STR_AUTOGUN_CLIP_AC
-        - STR_GRENADE_AC
+        - STR_FRAG_GRENADE_AC
       - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
         - STR_AUTOGUN_CLIP_AC
-        - STR_GRENADE_AC
+        - STR_FRAG_GRENADE_AC
       - - STR_LASGUN_AC
         - STR_LASGUN_CLIP_AC
         - STR_LASGUN_CLIP_AC
