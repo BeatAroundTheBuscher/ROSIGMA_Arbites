@@ -49,14 +49,34 @@ soldiers:
     deathFemale: [44, 45, 46]
     avatarOffsetX: 68 # 66
     avatarOffsetY: 40 # 42
+    dogfightExperience:
+      bravery: 10
+      reactions: 30
+      firing: 25
+    allowPiloting: true
+    allowPromotion: true
+    rankStrings:
+      - STR_GUARD_PD_RANK_0
+      - STR_GUARD_PD_RANK_1
+      - STR_GUARD_PD_RANK_2
+      - STR_GUARD_PD_RANK_3
+    rankSprite: {mod: 40k, index: 862}
+    rankBattleSprite: {mod: 40k, index: 245}
+    rankTinySprite: {mod: 40k, index: 157}
 
   - type: STR_PENITENT_AC
     refNode: *STR_SOLDIER_ARBITES
     costBuy: 10000
     costSalary: 2000
     armor: STR_PENAL_ARMOR_UC_AC
+    allowPiloting: false
+    allowPromotion: true
     rankStrings:
       - STR_PENITENT_RANK_0
+      - STR_PENITENT_RANK_1
+    rankSprite: {mod: 40k, index: 868}
+    rankBattleSprite: {mod: 40k, index: 251}
+    rankTinySprite: {mod: 40k, index: 163}
 
   - type: STR_JUDGE_AC
     refNode: *STR_SOLDIER_ARBITES
@@ -81,6 +101,16 @@ soldiers:
       psiSkill: 1 # was 0
       melee: 50
     armor: STR_JUDGE_ARMOR_AC_UC
+    rankStrings:
+      - STR_JUDGE_RANK_0
+      - STR_JUDGE_RANK_1
+      - STR_JUDGE_RANK_2
+      - STR_JUDGE_RANK_3
+      - STR_JUDGE_RANK_4
+      - STR_JUDGE_RANK_5
+    rankSprite: {mod: 40k, index: 856}
+    rankBattleSprite: {mod: 40k, index: 239}
+    rankTinySprite: {mod: 40k, index: 151}
 
 
   - type: STR_MASTIFF_AC
@@ -149,7 +179,7 @@ soldiers:
     femaleFrequency: 50
     soldierNames:
       - delete
-      - Names/Dogs.nam/
+      - Names/Dogs.nam
     deathMale: [{mod: 40k, index: 50}]
     deathFemale: [{mod: 40k, index: 50}]
     rankStrings:
