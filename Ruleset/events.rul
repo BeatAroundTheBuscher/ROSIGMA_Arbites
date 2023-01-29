@@ -1,8 +1,8 @@
 events:
-  - name: STR_PENITENT_EVENT
-    description: STR_PENITENT_EVENT_DESCRIPTION
+  - name: STR_PENITENT_EVENT_AC
+    description: STR_PENITENT_EVENT_DESCRIPTION_AC
     background: GuardBG.SCR
     spawnedPersons: 1
-    spawnedPersonType: STR_PENITENT
+    spawnedPersonType: STR_PENITENT_AC
     timer: 720
     timerRandom: 60

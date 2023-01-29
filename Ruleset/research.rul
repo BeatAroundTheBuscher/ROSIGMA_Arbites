@@ -1,34 +1,23 @@
-# STR_GENERALLOCK will become available via unlock
+research:
+  - name: STR_FINAL_MISSION
+    unlockFinalMission: true
 
-research: 
+  - name: STR_GENERAL_LOCK_AC
+    needItem: true
 
-## ROSIGMA 1.06
+  - name: STR_HIDE_LOCK
+    needItem: true
 
-  - delete: STR_STUN_GAS_SHELLS
-  - delete: STR_STUN_SHELLS
-  - delete: STR_STUB_GUN_AMMO_LONG
-  - delete: STR_SMG_STUB_GUN
-  - delete: STR_PUMP_SHOTGUN
-  - delete: STR_GENERIC_HEAVY_STUBBER
   - name: STR_STANDARD_SMALL_ARMS_RESEARCH_REQ
     dependencies:
       - STR_HIDE_LOCK
 
-
-
-
   - name: STR_ARBITES_CAMPAIGN
     cost: 0
     points: 0
-    needItem: true # could be STR_GENERALLOCK too
+    needItem: true 
 
-  - name: STR_SENTINEL_MISSILE
-    cost: 0
-    points: 0
-    dependencies:
-      - STR_GENERALLOCK
-
-  - name: STR_WEBBER
+  - name: STR_WEBBER_AC
     cost: 200
     points: 100
     dependencies:
@@ -39,30 +28,30 @@ research:
     points: 0
     dependencies:
       - STR_BEGINNING_INVESTIGATION
-      - STR_INTERROGATION_COMPLETED
-      - STR_THREAT_ONE
+#      - STR_INTERROGATION_COMPLETED
+#      - STR_THREAT_ONE
 
   - name: STR_ANTI_ARMOR
     cost: 0
     points: 0
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ANTI_ARMOR_ADVANCED
     cost: 0
     points: 0
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_STUN_GEAR
     cost: 200
     points: 100
-    dependencies:
-      - STR_INTERROGATION_COMPLETED
+#    dependencies:
+#      - STR_INTERROGATION_COMPLETED
 
   - name: STR_STUN_GEAR_ADVANCED
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_FLAMER
     cost: 100
@@ -70,42 +59,54 @@ research:
     dependencies:
       - STR_DAEMON_CORPSE_RESEARCHED
 
-  - name: STR_HEAVY_STUBBER
+  - name: STR_HEAVY_STUBBER_AC
     cost: 100
     points: 10
     dependencies:
       - STR_DAEMON_CORPSE_RESEARCHED
 
-  - name: STR_HEAVY_ARMOR
+  - name: STR_HEAVY_ARMOR_AC
     cost: 0
     points: 0
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_FIGHTER_CRAFT
     cost: 0
     points: 0
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
       
   - name: STR_ARBITES_CAMPAIGN
     cost: 0
     points: 0
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_JUDGE_RECRUITMENT
     cost: 0
     points: 0
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_CYBER_MASTIFF_RECRUITMENT
     cost: 0
     points: 0
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
+
+  - name: STR_LASGUNS_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_LIGHT_BOLTERS_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
 
 
 #  - name: STR_SECTOID_CORPSE
@@ -114,81 +115,21 @@ research:
 #    lookup: STR_SECTOID_AUTOPSY
 #    needItem: true
 
-  - name: STR_CYBERDISC_CORPSE
-    unlocks: 
-      - STR_DAEMON_CORPSE_RESEARCHED
+#  - name: STR_CYBERDISC_CORPSE
+#    unlocks: 
+#      - STR_DAEMON_CORPSE_RESEARCHED
 
-  - name: STR_SILACOID_CORPSE
-    unlocks: 
-      - STR_DAEMON_CORPSE_RESEARCHED
+#  - name: STR_SILACOID_CORPSE
+#    unlocks: 
+#      - STR_DAEMON_CORPSE_RESEARCHED
 
   - name: STR_DAEMON_CORPSE_RESEARCHED
     dependencies:
-      - STR_GENERALLOCK
-
-  - delete: STR_SECTOID_COMMANDER
-  - delete: STR_SECTOID_LEADER
-  - delete: STR_SECTOID_ENGINEER
-  - delete: STR_SECTOID_MEDIC
-  - delete: STR_SECTOID_NAVIGATOR
-  - delete: STR_SECTOID_SOLDIER
-  - delete: STR_SECTOID_ASPIRING_CHAMPION
-
-  - &STR_SECTOID
-    name: STR_SECTOID_SOLDIER
-    cost: 190
-    points: 50
-    needItem: true
-    destroyItem: true
-    lookup: STR_SECTOID
-    spawnedEvent: STR_PENITENT_EVENT
-    unlocks:
-      - STR_INTERROGATION_COMPLETED
-    getOneFree:
-      - STR_SECTOID_CORPSE
-
-#  - name: STR_SECTOID_LEADER
-#    refNode: *STR_SECTOID
-
-  - name: STR_SECTOID_COMMANDER
-    refNode: *STR_SECTOID
-    dependencies: 
-      - STR_CULTIST_MENACE
-    unlocks: !remove
-      - STR_INTERROGATION_COMPLETED
-
-  - name: STR_SECTOID_ASPIRING_CHAMPION
-    refNode: *STR_SECTOID
-    dependencies: 
-      - STR_CULTIST_MENACE
-    unlocks: !remove
-      - STR_INTERROGATION_COMPLETED
-
-  - name: STR_SECTOID_ENGINEER
-    refNode: *STR_SECTOID
-
-  - name: STR_SECTOID_MEDIC
-    refNode: *STR_SECTOID
-
-  - name: STR_SECTOID_NAVIGATOR
-    refNode: *STR_SECTOID
+      - STR_GENERAL_LOCK_AC
 
 
 
 
 
-  - name: STR_ALIEN_ORIGINS
-    dependencies: !remove
-      - STR_SECTOID_COMMANDER
-      - STR_SECTOID_LEADER # removing deleted entry
-      - STR_SECTOID_ENGINEER
-      - STR_SECTOID_MEDIC
-      - STR_SECTOID_NAVIGATOR
-      - STR_SECTOID_SOLDIER
-      - STR_CYBERDISC_TERRORIST
 
 
-  - name: STR_LEADER_PLUS
-    dependencies: !remove
-      - STR_SECTOID_COMMANDER
-      - STR_SECTOID_LEADER # removing deleted entry

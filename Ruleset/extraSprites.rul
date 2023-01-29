@@ -4,6 +4,10 @@
         200: Resources/Bigobs/bigob_small_combat_knife_right.png
         203: Resources/Bigobs/bigob_cmas_tackle.png
 
+  - type: FLOOROB.PCK
+    files:
+      300: Resources/Floorobs/floorob_riot_shield.png
+
   - type: INTICON.PCK
     files:
         200: Resources/InitCon/arvus_minimised.png 

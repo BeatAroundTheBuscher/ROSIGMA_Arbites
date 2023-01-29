@@ -1,0 +1,21 @@
+# cat Ruleset/arbites/armors_arbites.rul  | grep type |  awk 'BEGIN { print "armors:\n" } { if (NR==1) { print "  - &STR_PERSONAL_LIGHT\n" $0 "\n    personalLight: 6\n"} else { print $0 "\n    refNode: *STR_PERSONAL_LIGHT\n" } } '
+armors:
+
+  - &STR_PERSONAL_LIGHT
+    type: STR_ENFORCER_ARMOR_AC_UC
+    personalLight: 6
+
+  - type: STR_ENFORCER_MEDIC_ARMOR_AC_UC
+    refNode: *STR_PERSONAL_LIGHT
+
+  - type: STR_ENFORCER_HEAVY_ARMOR_AC_UC #DR10 ARBITES SUPORT
+    refNode: *STR_PERSONAL_LIGHT
+
+  - type: STR_JUDGE_ARMOR_AC_UC
+    refNode: *STR_PERSONAL_LIGHT
+
+  - type: STR_PENAL_ARMOR_UC_AC
+    refNode: *STR_PERSONAL_LIGHT
+
+  - type: STR_CMAS_ARMOR_AC_UC
+    refNode: *STR_PERSONAL_LIGHT

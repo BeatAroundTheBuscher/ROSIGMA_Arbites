@@ -1,0 +1,166 @@
+armors:
+  - type: STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 20
+    spriteSheet: SECTOID.PCK
+    spriteInv: CULTI1
+    corpseBattle:
+      - STR_KHORNE_CULTISTS_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    drawingRoutine: 0
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 2.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 2 ]
+
+  - type: STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 20
+    spriteSheet: CUTIST2.PCK
+    spriteInv: CULTI2
+    corpseBattle:
+      - STR_KHORNE_CULTISTS_CORPSE
+    frontArmor: 5
+    sideArmor: 4
+    rearArmor: 3
+    underArmor: 3
+    drawingRoutine: 0
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 2.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 2 ]
+
+  - type: STR_KHORNE_CULTISTS_PRIEST_ARMOR_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 20
+    spriteSheet: PRIEST.PCK
+    spriteInv: CULTI4
+    corpseBattle:
+      - STR_KHORNE_CULTISTS_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    drawingRoutine: 1
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 2.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 3 ]
+
+  - type: STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 15
+    spriteSheet: FEMCULTIST.PCK
+    spriteInv: ARepentiaLightK.SPK
+    corpseBattle:
+      - STR_KHORNE_CULTISTS_CORPSE
+    frontArmor: 25
+    sideArmor: 15
+    rearArmor: 5
+    underArmor: 5
+    drawingRoutine: 0
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 0.8 #AP
+      - 1.5 #FLAMES
+      - 1.2 #HE
+      - 1.0 #LASCANON
+      - 1.1 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 3 ]
+
+  - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_ARMOR_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 20
+    camouflageAtDay: 15
+    camouflageAtDark: 7
+    spriteSheet: DARKDISCIPLE_BS.PCK
+    spriteInv: DARKDISCIPLE_INV
+    corpseBattle:
+      - STR_KHORNE_CULTISTS_CORPSE
+    frontArmor: 55
+    sideArmor: 45
+    rearArmor: 30
+    underArmor: 5
+    drawingRoutine: 0
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.1 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.1 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 3 ]
+
+  - type: STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR
+    visibilityAtDay: 40
+    visibilityAtDark: 20
+    heatVision: 10
+    spriteSheet: CULTIST_ASPIRING_BS.PCK
+    spriteInv: CULTASPIRING_INV
+    corpseBattle:
+      - STR_KHORNE_CULTISTS_CORPSE
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 20
+    drawingRoutine: 0
+    damageModifier: #CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.5 #FLAMES
+      - 0.9 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 3 ]
+

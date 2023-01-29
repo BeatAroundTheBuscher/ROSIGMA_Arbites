@@ -1,26 +1,21 @@
 alienMissions:
-  - delete: STR_RIOT
-  - delete: STR_ALIEN_SABOTAGE
-  - delete: STR_CULTIST_SUMMONING_LEVEL_1 # required as this mission expects a base
-  - delete: STR_CULTIST_SACRIFICES_LEVEL_1
-
-  - type: STR_RIOT
+  - type: STR_RIOT_AC
     points: 10
     objective: 3
     spawnZone: 0
     waves:
-      - ufo: STR_RIOT
+      - ufo: STR_RIOT_AC
         count: 1
         trajectory: P10
         timer: 0
         objective: true
 
-  - type: STR_ALIEN_SABOTAGE
+  - type: STR_ALIEN_SABOTAGE_AC
     points: 10
     objective: 3
     spawnZone: 0
     waves:
-      - ufo: STR_SABOTAGE_MISSION
+      - ufo: STR_SABOTAGE_MISSION_AC
         count: 1
         trajectory: P10
         timer: 0
@@ -37,23 +32,23 @@ alienMissions:
         timer: 0
         objective: true
 
-  - type: STR_CULTIST_SUMMONING_LEVEL_1
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_AC
     objective: 3
     spawnZone: 0
-    siteType: STR_CULTIST_SUMMONING_LEVEL_1
+    siteType: STR_CULTIST_SUMMONING_LEVEL_1_AC
     waves:
-      - ufo: STR_CULTIST_SUMMONING_LEVEL_1
+      - ufo: STR_CULTIST_SUMMONING_LEVEL_1_AC
         count: 1
         trajectory: DIRECT_TO_TERROR_SITE_TRAJECTORY
         timer: 0
         objective: true
 
-  - type: STR_CITY_SUMMONING_LEVEL_1
+  - type: STR_CITY_SUMMONING_LEVEL_1_AC
     objective: 3
     spawnZone: 0
-    siteType: STR_CITY_SUMMONING_LEVEL_1
+    siteType: STR_CITY_SUMMONING_LEVEL_1_AC
     waves:
-      - ufo: STR_CITY_SUMMONING_LEVEL_1
+      - ufo: STR_CITY_SUMMONING_LEVEL_1_AC
         count: 1
         trajectory: DIRECT_TO_TERROR_SITE_TRAJECTORY
         timer: 0
@@ -75,12 +70,12 @@ alienMissions:
         trajectory: P8
         timer: 3000
 
-  - type: STR_PRISON_BREAK
+  - type: STR_PRISON_BREAK_AC
     objective: 3
     spawnZone: 0
-    siteType: STR_PRISON_BREAK
+    siteType: STR_PRISON_BREAK_AC
     waves:
-      - ufo: STR_PRISON_BREAK
+      - ufo: STR_PRISON_BREAK_AC
         count: 1
         trajectory: DIRECT_TO_TERROR_SITE_TRAJECTORY
         timer: 0

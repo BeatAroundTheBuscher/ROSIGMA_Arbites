@@ -1,0 +1,2358 @@
+# search for textures in globe40k.rul
+# randomizedItems
+# items
+
+# deleting terrains will require the MAP/TERRAIN/ROUTES to be part of this mod
+
+terrains:
+  - name: XHANGAR
+    mapDataSets:
+      - BLANKS
+      - XEXIT01
+      - XBASES02
+      - XEXIT03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    script: XHANGAR
+    mapBlocks:
+      - name: XBASE_30
+        width: 30
+        length: 20
+#        items:
+#          STR_HANGAR_CHARGE:
+#            - [2, 13, 0]
+#        fuseTimers:
+#          STR_HANGAR_CHARGE: [1, 1]
+
+
+  - name: CULTA
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+      - name: CULTA19_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: CULTA20_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: ACULTA          #GOTHIC NORMAL
+    # enviroEffects: STR_FOREST_ENVIRO
+    script: FARM
+    mapDataSets:
+      - BLANKS
+      - GOTHIC
+      - ACHURCH
+      - ACHURCH2
+      - ACHURCH3
+      - AGROUND
+      - ACHURCH4
+    mapBlocks:
+      - name: AULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA01
+        width: 10
+        length: 10
+      - name: AULTA02
+        width: 10
+        length: 10
+      - name: AULTA03
+        width: 10
+        length: 10
+      - name: AULTA04
+        width: 10
+        length: 10
+      - name: AULTA05
+        width: 10
+        length: 10
+      - name: AULTA06
+        width: 10
+        length: 10
+      - name: AULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA08
+        width: 10
+        length: 10
+      - name: AULTA09
+        width: 10
+        length: 10
+      - name: AULTA10
+        width: 10
+        length: 10
+      - name: AULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA12
+        width: 10
+        length: 10
+      - name: AULTA13
+        width: 10
+        length: 10
+      - name: AULTA14
+        width: 10
+        length: 10
+      - name: AULTA15
+        width: 10
+        length: 10
+      - name: AULTA16
+        width: 10
+        length: 10
+      - name: AULTA17
+        width: 10
+        length: 10
+      - name: AULTA18
+        width: 10
+        length: 10
+      - name: AULTA19_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: AULTA20_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: ACULTASAND      #GOTHIC SAND
+    # enviroEffects: STR_DESERT_ENVIRO
+    script: FARM
+    mapDataSets:
+      - BLANKS
+      - GOTHICSAND
+      - ACHURCH
+      - ACHURCH2
+      - ACHURCH3
+      - AGROUND
+      - ACHURCH4
+    mapBlocks:
+      - name: AULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA01
+        width: 10
+        length: 10
+      - name: AULTA02
+        width: 10
+        length: 10
+      - name: AULTA03
+        width: 10
+        length: 10
+      - name: AULTA04
+        width: 10
+        length: 10
+      - name: AULTA05
+        width: 10
+        length: 10
+      - name: AULTA06
+        width: 10
+        length: 10
+      - name: AULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA08
+        width: 10
+        length: 10
+      - name: AULTA09
+        width: 10
+        length: 10
+      - name: AULTA10
+        width: 10
+        length: 10
+      - name: AULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA12
+        width: 10
+        length: 10
+      - name: AULTA13
+        width: 10
+        length: 10
+      - name: AULTA14
+        width: 10
+        length: 10
+      - name: AULTA15
+        width: 10
+        length: 10
+      - name: AULTA16
+        width: 10
+        length: 10
+      - name: AULTA17
+        width: 10
+        length: 10
+      - name: AULTA18
+        width: 10
+        length: 10
+      - name: AULTA19_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: AULTA20_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: ACULTASNOW      #GOTHIC SNOW
+    # enviroEffects: STR_SNOW_ENVIRO
+    ambience: 896
+    ambientVolume: 0.25
+    script: FARM
+    mapDataSets:
+      - BLANKS
+      - GOTHICSNOW
+      - ACHURCH
+      - ACHURCH2
+      - ACHURCH3
+      - AGROUND
+      - ACHURCH4
+    mapBlocks:
+      - name: AULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA01
+        width: 10
+        length: 10
+      - name: AULTA02
+        width: 10
+        length: 10
+      - name: AULTA03
+        width: 10
+        length: 10
+      - name: AULTA04
+        width: 10
+        length: 10
+      - name: AULTA05
+        width: 10
+        length: 10
+      - name: AULTA06
+        width: 10
+        length: 10
+      - name: AULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA08
+        width: 10
+        length: 10
+      - name: AULTA09
+        width: 10
+        length: 10
+      - name: AULTA10
+        width: 10
+        length: 10
+      - name: AULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: AULTA12
+        width: 10
+        length: 10
+      - name: AULTA13
+        width: 10
+        length: 10
+      - name: AULTA14
+        width: 10
+        length: 10
+      - name: AULTA15
+        width: 10
+        length: 10
+      - name: AULTA16
+        width: 10
+        length: 10
+      - name: AULTA17
+        width: 10
+        length: 10
+      - name: AULTA18
+        width: 10
+        length: 10
+      - name: AULTA19_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: AULTA20_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: POLAR #   NEW POLARHR
+    # enviroEffects: STR_SNOW_ENVIRO
+    ambience: 891 #artic
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - POLARHR
+      - 01BUNKERSNOW
+    script: POLAR
+    mapBlocks:
+      - name: POLAR00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR03
+        width: 10
+        length: 10
+      - name: POLAR04
+        width: 10
+        length: 10
+      - name: POLAR05
+        width: 10
+        length: 10
+      - name: POLAR06
+        width: 10
+        length: 10
+      - name: POLAR07
+        width: 10
+        length: 10
+      - name: POLAR08
+        width: 10
+        length: 10
+      - name: POLAR09
+        width: 10
+        length: 10
+      - name: POLAR10
+        width: 10
+        length: 10
+      - name: POLAR11
+        width: 10
+        length: 10
+      - name: POLAR12
+        width: 20
+        length: 20
+      - name: POLAR13
+        width: 20
+        length: 20
+      - name: POLAR14
+        width: 20
+        length: 20
+#        items:
+#          STR_LASGUN_ACCATRAN:
+#            - [8, 11, 1]
+#            - [8, 12, 1]
+#          STR_LASGUN_CLIP:
+#            - [8, 11, 1]
+#            - [8, 11, 1]
+#            - [8, 12, 1]
+#            - [8, 12, 1]
+      - name: POLAR15_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: POLAR16_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: JUNGLE
+    # enviroEffects: STR_FOREST_ENVIRO
+    ambience: 887 #jungle
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+      - 01BUNKERFOREST
+    script: JUNGLE
+    mapBlocks:
+      - name: JUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE03
+        width: 10
+        length: 10
+      - name: JUNGLE04
+        width: 10
+        length: 10
+      - name: JUNGLE05
+        width: 10
+        length: 10
+      - name: JUNGLE06
+        width: 10
+        length: 10
+      - name: JUNGLE07
+        width: 10
+        length: 10
+      - name: JUNGLE08
+        width: 10
+        length: 10
+      - name: JUNGLE09
+        width: 10
+        length: 10
+      - name: JUNGLE10
+        width: 10
+        length: 10
+      - name: JUNGLE11
+        width: 10
+        length: 10
+      - name: JUNGLE12
+        width: 10
+        length: 10
+#        items:
+#          STR_LASGUN_ACCATRAN:
+#            - [4, 4, 0]
+#            - [4, 5, 0]
+#          STR_LASGUN_CLIP:
+#            - [4, 4, 0]
+#            - [4, 4, 0]
+#            - [4, 5, 0]
+#            - [4, 5, 0]
+      - name: JUNGLE13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: JUNGLE14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: FOREST
+    # enviroEffects: STR_FOREST_ENVIRO
+    script: FOREST
+    mapDataSets:
+      - BLANKS
+      - FOREST
+      - 01BUNKERFOREST
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+      - name: FOREST12
+        width: 20
+        length: 20
+#        items:
+#          STR_LASGUN_ACCATRAN:
+#            - [8, 11, 0]
+#            - [8, 12, 0]
+#          STR_LASGUN_CLIP:
+#            - [8, 11, 0]
+#            - [8, 11, 0]
+#            - [8, 12, 0]
+#            - [8, 12, 0]
+      - name: FOREST14_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: FOREST15_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: MOUNT # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    # enviroEffects: STR_URBAN_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MOUNTWASTE
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+      - name: MOUNT13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: MOUNT14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: MOUNTSNOW # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    # enviroEffects: STR_SNOW_ENVIRO
+    ambience: 891 #artic
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - MOUNTSNOW
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+      - name: MOUNT13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: MOUNT14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: MOUNTMUDD # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTMUD
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+      - name: MOUNT13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: MOUNT14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: MOUNTGRASS # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTGRASS
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+      - name: MOUNT13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: MOUNT14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: MOUNTSAND # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    # enviroEffects: STR_DESERT_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MOUNTSAND
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+      - name: MOUNT13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: MOUNT14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: MOUNTROCK # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    # enviroEffects: STR_FOREST_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MOUNTROCK
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+      - name: MOUNT13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: MOUNT14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: MOUNTTROP # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    # enviroEffects: STR_FOREST_ENVIRO
+    ambience: 888 #swamp
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - MOUNTTROP
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+      - name: MOUNT13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: MOUNT14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: PLAINS #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    # enviroEffects: STR_URBAN_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MOUNTWASTE
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+      - name: PLAINS13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: PLAINS14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: PLAINSSNOW #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    # enviroEffects: STR_SNOW_ENVIRO
+    ambience: 891 #artic
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - MOUNTSNOW
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+      - name: PLAINS13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: PLAINS14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: PLAINSMUDD #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTMUD
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+      - name: PLAINS13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: PLAINS14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: PLAINSGRASS #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    # enviroEffects: STR_FOREST_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MOUNTGRASS
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+      - name: PLAINS13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: PLAINS14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: PLAINSSAND #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    # enviroEffects: STR_DESERT_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MOUNTSAND
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+      - name: PLAINS13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: PLAINS14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: PLAINSROCK #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    # enviroEffects: STR_FOREST_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MOUNTROCK
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+      - name: PLAINS13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: PLAINS14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: PLAINSTROP #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    # enviroEffects: STR_FOREST_ENVIRO
+    ambience: 888 #swamp
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - MOUNTTROP
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+      - name: PLAINS13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: PLAINS14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+  - name: DESERT
+    # enviroEffects: STR_DESERT_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - DESERT
+      - 01BUNKERSAND
+    script: DESERT
+    mapBlocks:
+      - name: DESERT00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: DESERT03
+        width: 10
+        length: 10
+      - name: DESERT04
+        width: 10
+        length: 10
+      - name: DESERT05
+        width: 10
+        length: 10
+      - name: DESERT06
+        width: 10
+        length: 10
+      - name: DESERT07
+        width: 10
+        length: 10
+      - name: DESERT08
+        width: 10
+        length: 10
+      - name: DESERT09
+        width: 20
+        length: 20
+      - name: DESERT10
+        width: 20
+        length: 20
+      - name: DESERT11
+        width: 20
+        length: 20
+      - name: DESERT12
+        width: 20
+        length: 20
+#        items:
+#          STR_LASGUN_ACCATRAN:
+#            - [7, 7, 0]
+#            - [7, 8, 0]
+#          STR_LASGUN_CLIP:
+#            - [7, 7, 0]
+#            - [7, 7, 0]
+#            - [7, 8, 0]
+#            - [7, 8, 0]
+      - name: DESERT13_2X2P
+        width: 20
+        length: 20
+        groups: [11]
+      - name: DESERT14_3X3P
+        width: 30
+        length: 30
+        groups: [12]
+
+#BASE TERRAIN CLIMATE
+  - name: XBASE_FILL
+    mapDataSets:
+      - BLANKS
+      - MOUNTWASTE
+    mapBlocks: &xbaseFillPlainsMapBlocks
+      - name: PLAINS1X1
+        width: 10
+        length: 10
+        groups: [7, 10]
+      - name: PLAINS2X2 #1
+        width: 20
+        length: 20
+        groups: [11]
+      - name: PLAINS3X3 #2
+        width: 30
+        length: 30
+        groups: [12]
+      - name: PLAINS4X4 #3
+        width: 40
+        length: 40
+        groups: [13]
+      - name: PLAINS4X4B #4
+        width: 40
+        length: 40
+        groups: [15]
+      - name: PLAINS1X1B #5
+        width: 10
+        length: 10
+        groups: [16]
+      - name: PLAINS1X1C #5
+        width: 10
+        length: 10
+        groups: [16]
+      - name: PLAINS1X1D #5
+        width: 10
+        length: 10
+        groups: [16]
+      - name: PLAINS1X1E #5
+        width: 10
+        length: 10
+        groups: [16]
+      - name: PLAINS1X1F #5
+        width: 10
+        length: 10
+        groups: [16]
+  - name: XBASE_FILL_SNOW
+    mapDataSets:
+      - BLANKS
+      - MOUNTSNOW
+    mapBlocks: *xbaseFillPlainsMapBlocks
+  - name: XBASE_FILL_MUD
+    mapDataSets:
+      - BLANKS
+      - MOUNTMUD
+    mapBlocks: *xbaseFillPlainsMapBlocks
+  - name: XBASE_FILL_GRASS
+    mapDataSets:
+      - BLANKS
+      - MOUNTGRASS
+    mapBlocks: *xbaseFillPlainsMapBlocks
+  - name: XBASE_FILL_SAND
+    mapDataSets:
+      - BLANKS
+      - MOUNTSAND
+    mapBlocks: *xbaseFillPlainsMapBlocks
+  - name: XBASE_FILL_ROCK
+    mapDataSets:
+      - BLANKS
+      - MOUNTROCK
+    mapBlocks: *xbaseFillPlainsMapBlocks
+  - name: XBASE_FILL_TROP
+    mapDataSets:
+      - BLANKS
+      - MOUNTTROP
+    mapBlocks: *xbaseFillPlainsMapBlocks
+
+  - name: XBASE
+    mapDataSets:
+      - BLANKS
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+    script: XBASE
+    mapBlocks:
+      - name: XBASE_00
+        width: 10
+        length: 10
+      - name: XBASE_01
+        width: 10
+        length: 10
+      - name: XBASE_02
+        width: 10
+        length: 10
+      - name: XBASE_03
+        width: 10
+        length: 10
+      - name: XBASE_04
+        width: 10
+        length: 10
+#        items:
+#          STR_RADAR_SPAWNER:
+#            - [3, 3, 2]
+#        fuseTimers:
+#          STR_RADAR_SPAWNER: [0, 0]
+      - name: XBASE_05
+        width: 10
+        length: 10
+#        items:
+#          STR_RADAR_SPAWNER:
+#            - [1, 1, 2]
+#            - [4, 4, 2]
+#        fuseTimers:
+#          STR_RADAR_SPAWNER: [0, 0]
+      - name: XBASE_06
+        width: 10
+        length: 10
+      - name: XBASE_07
+        width: 10
+        length: 10
+      - name: XBASE_08
+        width: 10
+        length: 10
+      - name: XBASE_09
+        width: 10
+        length: 10
+      - name: XBASE_10
+        width: 10
+        length: 10
+      - name: XBASE_11
+        width: 10
+        length: 10
+      - name: XBASE_12
+        width: 10
+        length: 10
+#        items:
+#          STR_SHIELD_SPAWNER:
+#            - [3, 3, 3]
+#        fuseTimers:
+#          STR_SHIELD_SPAWNER: [0, 0]
+      - name: XBASE_13
+        width: 10
+        length: 10
+      - name: XBASE_14
+        width: 10
+        length: 10
+      - name: XBASE_15
+        width: 10
+        length: 10
+      - name: XBASE_16
+        width: 10
+        length: 10
+      - name: XBASE_17
+        width: 10
+        length: 10
+      - name: XBASE_18
+        width: 10
+        length: 10
+      - name: XBASE_19
+        width: 10
+        length: 10
+      - name: XBASE_20
+        width: 10
+        length: 10
+      - name: XBASE_21
+        width: 10
+        length: 10
+#        items:
+#          STR_FIELD_SPAWNER:
+#            - [9, 9, 1]
+#        fuseTimers:
+#          STR_FIELD_SPAWNER: [0, 0]
+      - name: XBASE_22
+        width: 10
+        length: 10
+      - name: XBASE_23
+        width: 10
+        length: 10
+      - name: XBASE_24
+        width: 10
+        length: 10
+      - name: XBASE_25
+        width: 10
+        length: 10
+      - name: XBASE_26
+        width: 10
+        length: 10
+      - name: XBASE_27
+        width: 10
+        length: 10
+      - name: XBASE_28
+        width: 10
+        length: 10
+      - name: XBASE_29
+        width: 10
+        length: 10
+#        items:
+#          STR_TARANTULA_SPAWNER:
+#            - [1, 1, 1]
+#            - [6, 1, 1]
+#            - [1, 6, 1]
+#            - [6, 6, 1]
+#        fuseTimers:
+#          STR_TARANTULA_SPAWNER: [0, 0]
+      - name: XBASE_30 #HANGAR NOT USED
+        width: 30
+        length: 20
+      - name: XBASE_31
+        width: 10
+        length: 10
+      - name: XBASE_32
+        width: 10
+        length: 10
+      - name: XBASE_33
+        width: 10
+        length: 10
+      - name: XBASE_34
+        width: 10
+        length: 10
+#        items:
+#          STR_FIELD_SPAWNER:
+#            - [2, 0, 1]
+#        fuseTimers:
+#          STR_FIELD_SPAWNER: [0, 0]
+      - name: XBASE_35
+        width: 10
+        length: 10
+      - name: XBASE_36
+        width: 10
+        length: 10
+      - name: XBASE_37
+        width: 10
+        length: 10
+#        items:
+#          STR_TARANTULA_SPAWNER:
+#            - [5, 5, 1]
+#        fuseTimers:
+#          STR_TARANTULA_SPAWNER: [0, 0]
+      - name: XBASE_38
+        width: 10
+        length: 10
+#        items:
+#          STR_TARANTULA_SPAWNER:
+#            - [1, 1, 1]
+#            - [6, 1, 1]
+#            - [1, 6, 1]
+#            - [6, 6, 1]
+#        fuseTimers:
+#          STR_TARANTULA_SPAWNER: [0, 0]
+      - name: XBASE_39 #other corridor
+        width: 10
+        length: 10
+      - name: XBASE_40
+        width: 10
+        length: 10
+      - name: XBASE_41
+        width: 10
+        length: 10
+      - name: XBASE_42
+        width: 10
+        length: 10
+      - name: XBASE_43
+        width: 10
+        length: 10
+      - name: XBASE_44
+        width: 10
+        length: 10
+      - name: XBASE_45
+        width: 10
+        length: 10
+      - name: XBASE_46
+        width: 10
+        length: 10
+      - name: XBASE_47
+        width: 10
+        length: 10
+      - name: XBASE_48
+        width: 10
+        length: 10
+      - name: XBASE_49
+        width: 10
+        length: 10
+      - name: XBASE_50 #INQ NOT USED
+        width: 40
+        length: 40
+      - name: XBASE_51
+        width: 10
+        length: 10
+        groups: [7]
+      - name: XBASE_52
+        width: 10
+        length: 10
+        groups: [6, 8]
+      - name: XBASE_53
+        width: 10
+        length: 10
+#        items:
+#          STR_EMPLACEMENT_SPAWNER:
+#            - [4, 4, 1]
+#        fuseTimers:
+#          STR_EMPLACEMENT_SPAWNER: [0, 0]
+      - name: XBASE_54
+        width: 10
+        length: 10
+#        items:
+#          STR_LEMONRUSSB_SPAWNER:
+#            - [4, 4, 1]
+#        fuseTimers:
+#          STR_LEMONRUSSB_SPAWNER: [0, 0]
+      - name: XBASE_55  #MINES
+        width: 10
+        length: 10
+#        items:
+#          STR_PROXIMITY_GRENADE:
+#            - [4, 3, 1]
+#            - [1, 3, 1]
+#            - [6, 2, 1]
+#            - [2, 6, 1]
+#            - [8, 9, 1]
+#        fuseTimers:
+#          STR_PROXIMITY_GRENADE: [0, 0]
+      - name: XBASE_56
+        width: 10
+        length: 10
+      - name: XBASE_57
+        width: 10
+        length: 10
+      - name: XBASE_58 #54
+        width: 40
+        length: 40
+      - name: XBASE_59 #55
+        width: 30
+        length: 30
+      - name: XBASE_60 #56
+        width: 40
+        length: 40
+#        items:
+#          STR_RADAR_SPAWNER:
+#            - [33, 32, 1]
+#        fuseTimers:
+#          STR_RADAR_SPAWNER: [0, 0]
+      - name: XBASE_61
+        width: 10
+        length: 10
+      - name: XBASE_62
+        width: 10
+        length: 10
+      - name: XBASE_63 #EMPTY 20X20
+        width: 20
+        length: 20
+      - name: XBASE_64 #EMPTY 30X30
+        width: 30
+        length: 30
+      - name: XBASE_65
+        width: 10
+        length: 10
+      - name: XBASE_66
+        width: 10
+        length: 10
+      - name: XBASE_67
+        width: 10
+        length: 10
+      - name: XBASE_68
+        width: 10
+        length: 10
+      - name: XBASE_69
+        width: 10
+        length: 10
+      - name: XBASE_70
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: XBASE_71
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: XBASE_72
+        width: 10
+        length: 10
+      - name: XBASE_73
+        width: 10
+        length: 10
+      - name: XBASE_74
+        width: 10
+        length: 10
+      - name: XBASE_75
+        width: 10
+        length: 10
+      - name: XBASE_76
+        width: 10
+        length: 10
+      - name: XBASE_77
+        width: 10
+        length: 10
+#        items:
+#          STR_TARANTULAGK_SPAWNER:
+#            - [1, 1, 1]
+#            - [6, 1, 1]
+#            - [1, 6, 1]
+#            - [6, 6, 1]
+#        fuseTimers:
+#          STR_TARANTULAGK_SPAWNER: [0, 0]
+
+
+  - name: URBAN
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [3, 3, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: URBAN19 #ROSIGMA
+        width: 20
+        length: 20  
+      - name: URBAN20 #ROSIGMA
+        width: 20
+        length: 20      
+      - name: URBAN21 #ROSIGMA
+        width: 20
+        length: 20   
+      - name: URBAN22 #ROSIGMA, Munitions dump hideout
+        width: 20
+        length: 20   
+      - name: URBAN23 #ROSIGMA
+        width: 20
+        length: 20   
+      - name: URBAN24 #ROSIGMA
+        width: 40
+        length: 40   
+      - name: URBAN25 #ROSIGMA
+        width: 40
+        length: 40
+      - name: URBAN26 #ROSIGMA
+        width: 20
+        length: 20   
+      - name: URBAN27 #ROSIGMA
+        width: 40
+        length: 20   
+      - name: URBAN28 #ROSIGMA
+        width: 20
+        length: 20
+        height: 9
+      - name: URBAN29
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: URBAN30
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: URBAN31
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: URBAN32
+        width: 10
+        length: 10
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]  
+
+  - name: MUNITORIUM
+    enviroEffects: STR_URBAN_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - MUNI1
+      - MUNI2
+      - MUNI3
+      - VHT
+    script: BDMUNITORIUM
+    mapBlocks:
+      - name: MUNI00
+        width: 20
+        length: 20
+        randomizedItems:
+              - position: [13, 8, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI01
+        width: 20
+        length: 20
+        randomizedItems:
+              - position: [12, 12, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [10, 10, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI02
+        width: 20
+        length: 20
+        randomizedItems:
+              - position: [9, 9, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [9, 9, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI03
+        width: 10
+        length: 10
+      - name: MUNI04
+        width: 10
+        length: 10
+      - name: MUNI05
+        width: 10
+        length: 10
+      - name: MUNI06
+        width: 10
+        length: 10
+        randomizedItems:
+              - position: [6, 6, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [4, 4, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI07
+        width: 10
+        length: 10
+      - name: MUNI08
+        width: 10
+        length: 10
+        randomizedItems:
+              - position: [4, 3, 1]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+      - name: MUNI09
+        width: 10
+        length: 10
+        randomizedItems:
+              - position: [4, 9, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [2, 7, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+      - name: MUNI10
+        width: 10
+        length: 10
+        groups: 2
+      - name: MUNI11
+        width: 10
+        length: 10
+        groups: 3
+      - name: MUNI12
+        width: 10
+        length: 10
+        groups: 4
+      - name: MUNI13
+        width: 10
+        length: 10
+      - name: MUNI14
+        width: 10
+        length: 10
+      - name: MUNI15
+        width: 10
+        length: 10
+      - name: MUNI16
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MUNI17
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MUNI18
+        width: 10
+        length: 10
+      - name: MUNI19
+        width: 30
+        length: 30
+        randomizedItems:
+              - position: [14, 14, 0]
+                amount: 1
+                mixed: true
+                itemList: [STR_POWERCORE_AC, STR_FUELCORE_AC, STR_CPUCORE_AC]
+        items:
+          STR_MUNITORIUM_SPAWNER_AC:
+            - [12, 12, 0]
+        fuseTimers:
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
+
+  - name: INDUSTRIALURBANDIO
+    mapDataSets:
+      - BLANKS
+      - PORTROADS
+      - PORTURBITS
+      - ROADS
+      - URBITS
+      - ICHURCH
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: INDUSTRIALURBANDIO
+    mapBlocks:
+      - name: INDUSTRIALURBANCULT00 # 2x2 barrel+crane warehouse
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBANCULT01 # 2x2 garage
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBANCULT02 # 2x2 fenced warehouse
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBANCULT03 # small building w/chimney
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT04 # 2-level, wood fence
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT05 # 2nd story only
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT06 # 2-level
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT07 # bubble-roof
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT08 # 2-level, metal
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT09 # 2-level w/crane
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT10 # 2 level chain fence
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT11 # fenced boxes/barrels
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT12 # wood-fenced 3-story
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT13 # 3-story
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT14 # tan 2-story
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT15 # some rubble/junk
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT16 # empty for LZ
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBANCULT17 # empty for LZ
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBANCULT18 # emtpy for LZ
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBANCULTDIO18 # all-concrete LZ
+        width: 10
+        length: 10
+        groups: 1
+      #- name: INDUSTRIALURBANCULT19 # repeat of 01?
+      #  width: 20
+      #  length: 20
+      #  groups: 9
+      - name: INDUSTRIALURBANCULTDIO19 # empty w/tires
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT20 # 2x2 temple
+        width: 20
+        length: 20
+        groups: 5
+      - name: INDUSTRIALURBANCULTDIO20 # broken crane
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT21 # tower for sniper
+        width: 10
+        length: 10
+        groups: [0, 10]
+      - name: INDUSTRIALURBANCULTDIO21 # phone booth+lamp
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT30 # new 2-story warehouse
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT30A # with cult icons
+        width: 10
+        length: 10
+        groups: 8
+        items:
+          STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
+            - [0, 0, 0]
+          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC:
+            - [2, 3, 1]
+            - [4, 2, 1]
+            - [6, 2, 1]
+          STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
+            - [4, 5, 1]
+        randomizedItems:
+          - position: [1, 2, 1]
+            amount: 1
+            itemList: &cultistSacrificeSpawnerItems
+              - STR_SACRIFICE_F0_SPAWNER_AC
+              - STR_SACRIFICE_M0_SPAWNER_AC
+              - STR_SACRIFICE_F1_SPAWNER_AC
+              - STR_SACRIFICE_M1_SPAWNER_AC
+          - position: [3, 1, 1]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [6, 1, 1]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+        #items: [1, 2, 1], [3, 1, 1], [6, 1, 1]
+        # [2, 3, 1], [4, 2, 1], [6, 2, 1]
+      - name: INDUSTRIALURBANCULT31 # 2x2 admin building
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBANCULT31A # with altar
+        width: 20
+        length: 20
+        groups: 8
+        items:
+          STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
+            - [0, 0, 0]
+          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC:
+            - [12, 8, 0]
+            - [13, 8, 0]
+            - [16, 7, 0]
+          STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
+            - [12, 6, 0]
+            - [14, 9, 0]
+        randomizedItems:
+          - position: [11, 7, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [14, 7, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [17, 7, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+      - name: INDUSTRIALURBANCULT32 # castle warehouse
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT32A # with cult room
+        width: 10
+        length: 10
+        groups: 8
+        items:
+          STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
+            - [0, 0, 0]
+          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC:
+            - [4, 4, 0]
+            - [5, 3, 0]
+            - [6, 3, 0]
+          STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
+            - [5, 5, 0]
+            - [4, 8, 0]
+        randomizedItems:
+          - position: [3, 3, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [3, 3, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [6, 4, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+      - name: INDUSTRIALURBANCULT33 # wood-fence-surrounded warehouse
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT33A # with altar
+        width: 10
+        length: 10
+        groups: 8
+        items:
+          STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
+            - [0, 0, 0]
+          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC:
+            - [3, 3, 0]
+            - [3, 6, 0]
+            - [5, 3, 0]
+          STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
+            - [7, 5, 0]
+        randomizedItems:
+          - position: [2, 4, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [4, 6, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [5, 2, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+      - name: INDUSTRIALURBANCULT34 # two small metal buildings
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT34A # with altar
+        width: 10
+        length: 10
+        groups: 8
+        items:
+          STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
+            - [0, 0, 0]
+          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC:
+            - [1, 3, 0]
+            - [3, 3, 0]
+            - [2, 5, 0]
+          STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
+            - [2, 8, 0]
+        randomizedItems:
+          - position: [1, 2, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [3, 2, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [1, 5, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+      - name: INDUSTRIALURBANCULT35 # ziggurat warehouse
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBANCULT35A # cult stuff
+        width: 10
+        length: 10
+        groups: 8
+        items:
+          STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
+            - [0, 0, 0]
+          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC:
+            - [4, 3, 0]
+            - [6, 3, 0]
+            - [6, 5, 0]
+          STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
+            - [3, 7, 0]
+        randomizedItems:
+          - position: [3, 2, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [6, 2, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+          - position: [6, 5, 0]
+            amount: 1
+            itemList: *cultistSacrificeSpawnerItems
+      - name: INDUSTRIALURBANCULTROADCROSS
+        width: 10
+        length: 10
+        groups: 4
+      - name: INDUSTRIALURBANCULTROADNS
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALURBANCULTROADWE
+        width: 10
+        length: 10
+        groups: 2
+      - name: INDUSTRIALURBANCULTROADRAILCROSS # crosses with e/w normal road
+        width: 10
+        length: 10
+        groups: 14
+      - name: INDUSTRIALURBANCULTROADRAILNS
+        width: 10
+        length: 10
+        groups: 13

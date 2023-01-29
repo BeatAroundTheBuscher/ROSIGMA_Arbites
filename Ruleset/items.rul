@@ -1,579 +1,93 @@
+extended:
+  tags:
+    RuleItem:
+      ITEM_PRIMED_AT_BATTLE_START: int
+      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: int
+      ITEM_SETS_MISSION_TIMER: int
+      ITEM_PRIMED_BY_MISSION_TIMER: int
+      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
+
 items:
-
-### MELEE 
-
-  - type: AUX_SHIELDPD
-    handSprite: 300
-    fixedWeapon: false
-    recover: true
-    # fixedWeaponShow: true
-    tuMelee: 0
-
-  - type: STR_STUN_ROD
-    damageAlter:
-      RandomType: 2
-    meleeMultiplier:
-      melee: 0.5
-      flatHundred: 0.5
-
-  - type: STR_COMBAT_KNIFE
-    categories: [STR_CAT_MELEE]
-    size: 0.2
-    weight: 2
-    bigSprite: 200
-    floorSprite: {mod: 40k, index: 113}
-    handSprite: {mod: 40k, index: 304}
-    meleeSound: {mod: 40k, index: 754}
-    meleeHitSound: {mod: 40k, index: 773}
-    meleeAnimation: {mod: 40k, index: 4}
-    power: 40
-    damageBonus:
-      strength: 0.2
-      melee: 0.2
-    damageAlter:
-      ArmorEffectiveness: 0.9
-      RandomType: 2
-    damageType: 7
-    accuracyMelee: 100
-    tuMelee: 10
-    clipSize: -1
-    battleType: 3
-    twoHanded: false
-    invWidth: 2
-    invHeight: 1
-    armor: 20
-    skillApplied: true
-    meleeMultiplier:
-      melee: 0.5
-      flatHundred: 0.5
-    strengthApplied: false
-    attraction: 7
-    experienceTrainingMode: 13
-
-  - type: STR_CMAS
-    requires: !remove
-      - STR_ARBITES
-    power: 10 # gets its power from damageBonus
-    accuracyMelee: 120
-    damageBonus:
-      strength: 0.2
-      melee: 0.4
-      RandomType: 2
-
-  - type: STR_CMAS_TACKLE
-    bigSprite: 203
-    damageType: 6
-    power: 10 # gets its power from damageBonus
-    damageBonus:
-      strength: 0.15
-      melee: 0.3
-      RandomType: 2
-    meleeHitSound: {mod: 40k, index: 101} 
-    damageAlter: #DA CHAIN
-      ArmorEffectiveness: 0.5
-      ToHealth: 0.2
-      ToStun: 1
-      ToTime: 0.5
-      ToEnergy: 0.5
-      ToWound: 0.2
-      ToMorale: 0.5
-      RandomType: 2
-    meleeAnimation: {mod: 40k, index: 0} 
-    strengthApplied: false
-    accuracyMelee: 100
-    tuMelee: 25
-    clipSize: -1
-    battleType: 3
-    fixedWeapon: true
+  - type: STR_ENFORCER_CORPSE_AC
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: {mod: 40k, index: 634}
+    floorSprite: {mod: 40k, index: 659}
     invWidth: 2
     invHeight: 3
-    flatRate: true
-    confMelee:
-      name: STR_CMAS_TACKLE
+    armor: 35
+    battleType: 11
+    recover: false
 
-### STUBBERS
+  - type: STR_CMAS_CORPSE_AC
+    armor: 40
+    weight: 20
+    bigSprite: {mod: 40k, index: 630}
+    floorSprite: {mod: 40k, index: 624}
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
 
-  - &STR_GUN_BUTT
-    type: STR_AUTOGUN
-    #*** Melee butt
-#    meleeHitSound: 101
-#    meleeAnimation: 0
-    meleeType: 6 # was 7; now stun
-    meleePower: 40
-    meleeBonus:
-      strength: 0.2
-      melee: 0.2
-    meleeAlter:
-      ArmorEffectiveness: 1.5 # shouldn't have a chance at power armor or even heavy armor
-      ToHealth: 0.4
-      ToWound: 0.4
-      ToTile: 1
-      TileDamageMethod: 1
-      RandomType: 2
-    confMelee:
-      name: STR_GUN_BUTT
-    accuracyMelee: 110
-    meleeMultiplier:
-      flatHundred: 0.5
-      melee: 0.5
-    tuMelee: 14
-    flatMelee:
-      time: true
+  - type: STR_PENAL_CORPSE_AC
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: {mod: 40k, index: 632}
+    floorSprite: {mod: 40k, index: 626}
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    battleType: 11
+    recover: false
+  - type: STR_JUDGE_CORPSE_AC
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: {mod: 40k, index: 633}
+    floorSprite: {mod: 40k, index: 627}
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    battleType: 11
+    recover: false
 
-  - type: STR_SMG_STUB_GUN
-    compatibleAmmo:
-#      - STR_STUB_GUN_AMMO
-      - STR_STUB_GUN_AMMO_LONG
+  - type: STR_POWERCORE_AC
+    costSell: 10000
+    size: 0.5
+    weight: 20
+    bigSprite: {mod: 40k, index: 311}
+    handSprite: {mod: 40k, index: 608}
+    floorSprite: {mod: 40k, index: 181}
+    invWidth: 2
+    invHeight: 3
+    battleType: 0
+    armor: 20
+    listOrder: 35000
+  - type: STR_FUELCORE_AC
+    costSell: 10000
+    size: 0.5
+    weight: 20
+    bigSprite: {mod: 40k, index: 323}
+    handSprite: {mod: 40k, index: 624}
+    floorSprite: {mod: 40k, index: 183}
+    invWidth: 2
+    invHeight: 3
+    battleType: 0
+    armor: 20
+    listOrder: 35100
+  - type: STR_CPUCORE_AC
+    costSell: 10000
+    size: 0.5
+    weight: 20
+    bigSprite: {mod: 40k, index: 310}
+    handSprite: {mod: 40k, index: 584}
+    floorSprite: {mod: 40k, index: 172}
+    invWidth: 2
+    invHeight: 3
+    battleType: 0
+    armor: 20
+    listOrder: 35200
 
-
-  - type: STR_STUB_GUN_AMMO_LONG # can be worse than Autogun ammo
-    clipSize: 20 # was 30
-    power: 30 # was 35
-
-
-### LASGUNS
-
-  - type: STR_LASER_RIFLE
-    refNode: *STR_GUN_BUTT
-
-  - type: STR_LASER_PISTOL  #LASPISTOL                 10800
-  - type: STR_LASER_PISTOLC  #LASPISTOL  CHAOS         10820
-  #- type: STR_LASPISTOL_CLIPB #LASPISTOL CLIPBBBBBB    10860
-
-
-  - type: STR_MCLASER_RIFLE #LASGUN           11000                  MC no aim
-  - type: STR_LASER_RIFLEC #LASGUN CHAOS               10920
-  - type: STR_LASCARBINE
-  - type: STR_LASGUN_ACCATRAN
-  - type: STR_LASGUN_VOSS
-  - type: STR_LASGUN_VOSTROYA
-  - type: STR_LASGUN_TANITH
-  - type: STR_LONGLAS
-  - type: STR_LASGUN_LUCIUS
-  - type: STR_LONGLAS_TANITH
-  #- type: STR_LASGUN_CLIPB #LASGUN CLIPBBBBBBBBBB      11020
-
-
-
-
-
-  ### Bolt Pistols
-
-  - type: STR_PISTOL  #BOLTER PISTOL  10100
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_PISTOLB #BOLTER PISTOL  10110  TYPE BLUE
-  - type: STR_PISTOLS #BOLTER PISTOL  10120  TYPE SCOPED
-  - type: STR_PISTOLH #BOLTER PISTOL  10130 TYPE HYBRID
-  - type: STR_BOLTPISTOL_CHAOS  #CHAOS BOLTER PISTOL  10140
-  - type: STR_PISTOL_CLIP #              10210                    ToStun
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_PISTOL_CLIP_EX #           2001       EXPLOSIVE    ToStun
-  - type: STR_PISTOL_CLIP_AP #           2001       AP++++++++   ToStun
-  - type: STR_PISTOL_CLIP_MC #        10220     MCA               ToStun
-
-
-  ### Bolters
-
-  - type: STR_RIFLE #BOLTER #         10300
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_RIFLEB #BOLTER #        10310  TYPE BLUE
-  - type: STR_RIFLEC #BOLTER #        10320  TYPE STALKER           AIMED
-  - type: STR_RIFLED #BOLTER #        10330  TYPE RIFLE
-  - type: STR_BOLTERC #BOLTER CHAOS   10340
-  - type: STR_BOLTERN #BOLTER NURGLE CHAOS   10350
-  - type: STR_BOLTERR #BOLTER RUBRIC CHAOS   10360
-  - type: STR_RIFLE_CLIP #            10410                      ToStun
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_RIFLE_CLIP_MC #         10420     MCA              ToStun
-  - type: STR_RIFLE_CLIP_EX #         10430     EXPLOSIVE        ToStun
-  - type: STR_RIFLE_CLIP_AP #         10440     AP++++++++       ToStun
-  - type: STR_RIFLE_CLIP_N #          10450                      ToStun
-  - type: STR_RIFLE_CLIP_R #          10460                      ToStun
-
-  ### Heavy Bolters
-
-  - type: STR_AUTO_CANNON #HEAVYBOLTER                12000
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_AC_AP_AMMO #HEAVYBOLTER                 12010                           ToStun
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_AC_MC_AMMO  #HEAVYBOLTER                12020
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_AC_HE_AMMO #HEAVYBOLTER                 12030
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_AC_I_AMMO #HEAVYBOLTER                  12040
-    requires:
-      - STR_ARBITES_ARC12
-
-  ### Shotguns
-
-  - type: STR_SHOTGUN #                               10600
-  - type: STR_SHOTGUN_CHAOS #                        10605
-
-  - type: STR_SHOTGUN_SHELLS #                        10710
-    power: 30 # was 40
-
-  - type: STR_MCSHOTGUN #                     10700                   MC
-  - type: STR_SHOTGUNPD
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_SHOTGUNPD #                               10600
-  - type: STR_SHOTGUN_SHELLS_AP #                        10610
-  - type: STR_SHOTGUN_SHELLS_INC #                       10612
-  - type: STR_SHOTGUN_SHELLS_MC #                        10613
-
-  ### Sniper
-
-  - type: STR_HEAVY_CANNON #SNIPER                    11900                           AIMED
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_SNIPER_CHAOS  #SNIPER                    11905                         AIMED
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_HC_AP_AMMO #SNIPER AP                   11910
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_HC_HE_AMMO #SNIPER HE                   11920
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_HC_I_AMMO #SNIPER I                     11930
-    requires:
-      - STR_ARBITES_ARC12
-
-  ### Missile Launcher
-
-  - type: STR_ROCKET_LAUNCHER #                       12100                                  AIMED
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_CHAOS_ROCKET_LAUNCHER #                 12110
-  - type: AUX_NURGLE_ROCKET_LAUNCHER #                12120
-  - type: STR_SMALL_ROCKET #                          12130
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_BLIGHT_ROCKET #                         12160
-  - type: STR_LARGE_ROCKET #                          12140
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_INCENDIARY_ROCKET #                     12150
-    requires:
-      - STR_ARBITES_ARC12
-
-
-  ### Melee
-
-
-
-
-  - type: STR_UNARMED_GAUNTLET_PLUS
-  - type: STR_BANNER #             30600
-  - type: STR_POWERFIST            #12600           DA POWER
-    requires:
-      - STR_ARBITES_ARC12
-  - type: STR_CHAINSWORD #         12400            DA CHAIN
-  - type: STR_CHAINSWORD_MC #       3007           DA CHAIN
-  - type: STR_HAMMER #              3008           DA POWER
-  - type: STR_HAMMER_MC ## Master-crafted Thunder Hammer
-  - type: STR_HALLEBARD #              3008           DA POWER
-  - type: STR_POWER_SWORD #         13000           DA POWER
-  - type: STR_POWER_SWORD_MC #         13001          DA POWER
-  - type: STR_CPOWER_SWORD #         3009           DA POWER
-  - type: STR_CPOWER_AXE #         3009           DA POWER
-  - type: STR_CPOWER_DAGGER #         3010          DA POWER
-  - type: STR_KNIF #                3010
-  - type: STR_AXE #                 3011           DA CHAIN
-  - type: STR_CLAWS #                              DA POWER
-  - type: STR_CHAOS_CLAWS #                        DA POWER
-  - type: STR_CHAOS_CLAWS2 #                       DA POWER
-  - type: STR_OBLITERATOR_MELEE_WEAPON #DA POWER
-
-  ### Remaining stuff
-
-
-
-
-  - type: AUX_MEDI_KIT      #AUX MEDI KIT
-  - type: AUX_SHIELD        #AUX T Shield
-  - type: AUX_RAM           #AUX   BIKE ARMOR AUX
-  - type: AUX_SENTINEL_STOMP
-  - type: AUX_CROZIUS #AUX CROZIUS
-  - type: STR_CHAOS_CROZIUS #CHAOS CROZIUS                       9004
-  - type: STR_PSI_AMP                                                    #TOME
-  - type: STR_MIND_PROBE        #                         9003           #TOME
-  - type: STR_MOTION_SCANNER    #                         14200
-  - type: AUX_SCANNER           #                         AUX
-  - type: STR_PATCHMORAL #Moral                           9000
-  - type: STR_PATCHSPEED #SPEED                           9001
-  - type: STR_PATCHSMOKE #SMOKE                           9002
-  - type: STR_ELECTRO_FLARE                               #14100
-  - type: STR_SUPER_FLARE                               #14100
-  - type: STR_SMOKE_GRENADE                #4000
-  - type: STR_PROXIMITY_GRENADE            #4007
-  - type: AUX_MORTAR
-  - type: AUX_AIRSTRIKE
-  - type: STR_HIGH_EXPLOSIVE #melta bomb    4009
-  - type: STR_ALIEN_GRENADE                #4010
-  - type: STR_MGRENADE #melta grenade      #4008
-  - type: STR_GRENADE #frag                #4006
-  - type: STR_KRAK_GRENADE #krak
-  - type: REAPER_WEAPON
-  - type: STR_CHAOS_DREAD_MELEE_WEAPON
-  - type: STR_C_ROCKETS #Tarantula Sentry  2
-  - type: FLAMER_WEAPON
-  - type: STR_CLASCAN #CHAOS LASCANON
-  - type: STR_COMBILAS # LASCANON AND MELTA           CHAOSBEHEMOTH
-  - type: STR_FIXED_SONIC_CANON # CHAOSBEHEMOTH
-  - type: SECTOPOD_WEAPON #Chaos Dread PLASMA
-  - type: PREDATOR_WEAPON #PREDATOR PLASMA
-  - type: PREDSIDE_WEAPON #Chaos Dread BOLTER
-  - type: STR_OBLITERATOR_WEAPON #OBLITERATOR MELTA
-  - type: STR_CARNI_WEAPON
-  - type: STR_GENE_WEAPON
-  - type: STR_SILACOID_WEAPON #Deamon Blade
-  - type: STR_NURGLE_WEAPON #NURGLE Blade
-  - type: CELATID_WEAPON  #NURGLE SPIT
-  - type: TYRANID_SPIT  #TYRANID SPIT
-  - type: SILACOID_WEAPON
-  - type: CYBERDISC_WEAPON #Deamon Blade2
-  - type: DM_WEAPON # CHAOS DREAD MISSEL
-  - type: STR_ENABLE_WEAPON # Support MISSEL
-  - type: STR_HELLPISTOL
-  - type: STR_LASPISTOL_CLIP_HOTSHOT
-
-  - type: STR_MCPISTOL #BOLTER PISTOL         10200                  MC no aim
-  - type: STR_MCRIFLE #BOLTER                 10400                   MC no aim
-
-  - type: STR_MCPLASMA_PISTOL #               11300                  MC no aim
-  - type: STR_MCPLASMA_RIFLE #                11500                   MC no aim
-  - type: STR_HEAVY_PLASMA_MC #               11710                  MC no aim
-  - type: STR_TRIPLE_GAUSS_CANNON   #              18017
-  - type: STR_HYPERPHASESWORD #         13000           DA POWER
-  - type: STR_GAUSS_CANNON   #              18016
-  - type: STR_GAUSS_FLAYER     #              18010
-  - type: STR_SYNAPTIC_DISINTEGRATOR #        18011
-  - type: STR_GAUSS_BLASTER    #              18015
-  - type: AUX_DISPERSIONSHIELD        #AUX T Shield
-  - type: STR_CATAPULT_PISTOL  #              16000
-  - type: STR_CATAPULT #                      16100
-  - type: STR_SHURIKEN_CLIP #                 16200
-  - type: AUX_STARCANNON #PLATFORM PLASMA
-  - type: STR_EPOWER_SWORD #                  16300           DA POWER
-  - type: STR_ELDAR_MGRENADE #melta grenade         16310
-  - type: STR_ELDAR_GRENADE #Eldar Granade          16320
-  - type: STR_GRETCHIN_BLASTA
-  - type: STR_GRETCHIN_AMMO_BIT
-  - type: STR_VINDICATOR_ORK
-  - type: ORKTURRET_WEAPON #Double weapon ORK
-  - type: STR_ORK_KILLA_WEAPON #Double weapon ORK
-  - type: STR_SLUGGA  #ORK PISTOL       17000
-  - type: STR_AMMO_BIT10 #              17010                    ToStun
-  - type: STR_AMMO_BIT20 #              17020                    ToStun
-  - type: STR_SHOOTA #ORK RIFLE         17030
-  - type: STR_ORK_GRENADE #ORK Granade  17100
-  - type: STR_BIG_SHOOTA #HEAVYBOLTER                17050
-  - type: STR_AMMO_BIT50 #HEAVYBOLTER                17060
-  - type: STR_ORK_RL #                       17070                                 AIMED
-  - type: STR_CHOPPA #                17080
-  - type: STR_BIGCHOPPA #         17090          DA POWER
-  - type: STR_KILLA_MELEE_WEAPON
-  - type: STR_SONIC_CANON #                        11790
-  - type: STR_BOLTPISTOL_DEAZ
-  - type: STR_MC_BOLTPISTOL_DEAZ
-  - type: STR_LIGHT_BOLTPISTOL_AMMO
-  - type: STR_LIGHT_BOLTPISTOL_AMMO_MC
-  - type: STR_PISTOL  #BOLTER PISTOL  10100
-  - type: STR_PISTOLB #BOLTER PISTOL  10110  TYPE BLUE
-  - type: STR_PISTOLS #BOLTER PISTOL  10120  TYPE SCOPED
-  - type: STR_PISTOLH #BOLTER PISTOL  10130 TYPE HYBRID
-  - type: STR_BOLTPISTOL_CHAOS  #CHAOS BOLTER PISTOL  10140
-  - type: STR_PISTOL_CLIP #              10210                    ToStun
-  - type: STR_PISTOL_CLIP_EX #           2001       EXPLOSIVE    ToStun
-  - type: STR_PISTOL_CLIP_AP #           2001       AP++++++++   ToStun
-  - type: STR_PISTOL_CLIP_MC #        10220     MCA               ToStun
-  - type: STR_BOLTER_DEAZ
-  - type: STR_MC_BOLTER_DEAZ
-  - type: STR_BOLTER_ENFORCER
-  - type: STR_BOLTER_LOCKE
-  - type: STR_LIGHT_BOLTER_AMMO
-  - type: STR_LIGHT_BOLTER_AMMO_MC
-
-
-  - type: STR_HEAVY_PLASMA_MCJ #               11710                   MC no aim
-  - type: STR_HEAVY_PLASMA_CLIP #                   11720
-  - type: STR_PLASMA_RIFLE #                        11410
-  - type: STR_PLASMA_RIFLE_CLIP #                   11510
-  - type: STR_PLASMA_PISTOL #                       11210
-  - type: STR_PLASMA_PISTOL_CLIP #                  11310
-  - type: STR_HEAVY_PLASMA_TERRAN #                 11600
-  - type: STR_HEAVY_PLASMA #                        11610
-  - type: STR_PLASMA_RIFLE_TERRAN #                 11400
-  - type: STR_PLASMA_PISTOL_TERRAN #                11200
-  - type: STR_PLASMA_INC_TERRAN #                   11415
-  - type: STR_PLASMA_INC_CLIP #                   11417
-  - type: STR_GK_HB                                                                #13110 no amied
-  - type: STR_ASSC                                                              #13200
-  - type: STR_CASSC                                                             #13210
-  - type: STR_ASSCTZ                                                            #1050         TZEENTCH
-  - type: STR_ASSC_CLIP                                                         #13230              ToStun
-  - type: STR_HB                                                                #13100 no amied
-  - type: STR_HB_MC ## Master-crafted Storm Bolter
-  - type: STR_CHB                                                               #13110 no amied
-  - type: STR_HB_CLIP                                                           #13120              ToStun
-  - type: STR_HFLAMER #                                                          13300
-  - type: STR_HFLAMER_CLIP #                                                     13310
-
-  - type: STR_FLAMETHROWER #                          10500
-  - type: STR_FLAMETHROWER_CHAOS #                     10505
-  - type: STR_FLAMETHROWERTZ #                        10510   TZEENTCH
-
-
-
-
-
-
-  - type: STR_LASCAN #LASCANON                         2017  amied
-  - type: AUX_LASCAN_CHAOS #LASCANON                         2017  amied
-  - type: STR_LASCAN_CLIP #LASCANON CLIP               2018
-  - type: STR_INFERNO_PISTOL
-  - type: STR_INFERNO_PISTOL_AMMO
-  - type: STR_HEAVY_LASER #MELTAGUN                    2019
-  - type: STR_CHAOS_MELTAGUN #MELTAGUN                 2019
-  - type: STR_MELTA_AMMO #MELTAGUN AMMO                2020
-  - type: STR_BLASTER_LAUNCHER # MULTIMELTA            2021
-  - type: STR_BLASTER_LAUNCHER_TERRAN # MULTIMELTA     2022
-  - type: STR_BLASTER_BOMB #MULTIMELTA AMMO            2023
-  - type: STR_SMALL_LAUNCHER #GRAVGUN                          11810
-  - type: STR_SMALL_LAUNCHER_TERRAN #GRAVGUN                   11800
-  - type: STR_GRAVGUN_MC #GRAVGUN                   11805
-  - type: STR_STUN_BOMB #GRAVGUN                               2062
-  - type: STR_STORMRAVEN_WEAPON     #STORMRAVEN ASSAULT CAN
-  - type: STR_STORMRAVENGK_WEAPON     #STORMRAVEN ASSAULT CAN
-  - type: STR_SERVITOR #UNIT                                    2100
-  - type: AUX_SERVITOR_KIT      #AUX FOR SERVITOR UNIT MEDI KIT
-  - type: STR_VINDICATOR_WEAPON
-  - type: STR_LEMONRUSS_WEAPON
-  - type: STR_LEMANRUSS_BOLTER #Leman Russ Aux Bolter
-  - type: STR_STORMTALON_WEAPON   #STORMTALON rocket                 2850
-  - type: STR_TANK_LASER_CANNON #HWP                           2500
-  - type: STR_NOVA_BOMB #                                      2510
-  - type: STR_T_SEC     #Tarantula Sentry  2
-  - type: STR_T_SEC2     #Tarantula Sentry  2
-  - type: STR_TANK_ROCKET_LAUNCHER #Tarantula Sentry Weapon    2300
-  - type: STR_HWP_ROCKETS #Tarantula Sentry rockets            2310
-  - type: STR_HWP_CANNON_SHELLS #HWP   Ammo   BIKE AMMOSistem  6610          Tostun
-  - type: AUX_TANK_CANNON #          AUX for  BIKE ARMOR    AUX
-  - type: STR_T_BOLTER  #UNIT    TWIN LINKED AUTO:10                  2400             Tostun
-  - type: STR_T_BOLTER_I  #UNIT    TWIN LINKED AUTO:10                  2401           Tostun
-  - type: AUX_BOLTER #AUX        TWIN LINKED AUTO:10                                Tostun
-  - type: AUX_DOUBLE_BOLTER   #TANK AUX STORM BOLTER                                Tostun
-  - type: STR_JOAN #HWP                                        2900
-  - type: STR_DREAD_MELEE_WEAPON
-  - type: STR_HOVERTANK_PLASMA #dread plasma                   2700
-  - type: STR_HOVERTANK_LASER #dread las                       501
-  - type: STR_HOVERTANK_LAUNCHER #dread rocket                 502
-  - type: STR_HWP_FUSION_BOMB    #DREAD missele Sistem         6635
-  - type: STR_CENTURION   #dread rocket                 2850
-  - type: AUX_CENT_ROCKET #dread rocket                 2860
-  - type: AUX_CENTURION_GRAVGUN  #GRAVGUN
-  - type: AUX_DREAD_ASSC     #dread ASSAULT CAN
-  - type: AUX_DREAD_FLAMER   #dread Flamer Palm
-  - type: AUX_HOVERTANK_PLASMA   #dread plasma                   2710
-  - type: AUX_HOVERTANK_LASER    #dread las                       2610
-  - type: AUX_HOVERTANK_LAUNCHER #dread rocket                 2820
-  - type: STR_SLASCAN #SENTINEL LASCANON                     fixedWeapon
-  - type: STR_TRAITOR_CHIMERA_MULTI_LASER
-
-  - type: STR_BAYONET # standard melee weapon for all guardsmen
-  - type: STR_STUB_GUN
-  - type: STR_STUB_GUN_CHAOS
-  - type: STR_STUB_RIFLE
-  - type: STR_STUB_RIFLE_CHAOS
-  - type: STR_AUTOPISTOL
-  - type: STR_AUTOPISTOL_CHAOS
-
-  - type: STR_AUTOGUN_CHAOS
-  - type: STR_HEAVY_STUBBER
-  - type: STR_HEAVY_STUBBER_CHAOS
-  - type: STR_AUTOCANNON_HANDHELD
-
-  - type: STR_LASCANNON_HANDHELD
-  - type: STR_HEAVY_BOLTER_GUARD
-  - type: STR_GRENADE_LAUNCHER
-  - type: STR_GRENADE_LAUNCHER_CHAOS
-  - type: STR_SENTINEL_MISSILE_LAUNCHER
-  - type: STR_SENTINEL_AUTOCANNON
-  - type: STR_SENTINEL_HEAVY_FLAMER
-  - type: STR_SENTINEL_MULTIMELTA
-  - type: STR_MOUNTED_LASCANNON
-  - type: STR_AUTOCANNON_GUARD
-  - type: STR_GUARD_PRIMER
-  - type: STR_GUARD_MEDI_KIT
-  - type: STR_TANITH_STRAIGHT_SILVER # melee weapon for tanith camo
-  - type: STR_TANITH_MEDI_KIT
-  - type: STR_OFFICER_BASIC_VOX
-  - type: STR_OFFICERS_SWORD
-  - type: STR_HELLGUN
-  - type: STR_HOTSHOT_VOLLEY_GUN
-  - type: STR_OGRYN_UNARMED
-  - type: STR_RIPPER_GUN
-  - type: STR_SLAB_SHIELD
-  - type: STR_BUCKLER
-  - type: STR_PSYKER_STAFF
-  - type: STR_BIOMANCER_STAFF
-  - type: STR_PSYKER_LIGHTNING_STRIKE
-  - type: STR_PYROMANCER_STAFF
-  - type: STR_TELEKINE_STAFF
-  - type: STR_TELEKINETIC_SHIELD
-  - type: STR_TELEPATH_STAFF
-  - type: STR_PSYKER_SPELL
-  - type: STR_PSYKER
-  - type: STR_MULTI_LASER
-  - type: STR_AUTOCANNON_TAUROX
-  - type: STR_LASCANNON_TAUROS
-  - type: STR_GRENADE_LAUNCHER_TAUROS
-  - type: STR_GORGON_HEAVY_FLAMER
-  - type: STR_GORGON_HEAVY_STUBBER
-
-
-  - type: AUX_SHIELDPD        #AUX T Shield
-  - type: STR_HEAVY_STUBBER_HANDHELD
-  - type: STR_SENTINEL_FRAG_MISSILES_PD
-  - type: STR_SENTINEL_KRAKK_MISSILES_PD
-  - type: STR_JUDGE_BIKE_ARMOR                #6650
-  - type: STR_GUARDPD_MEDIC_ARMOR                #6600
-  - type: STR_ENFORCER_ARMOR                     #6620
-  - type: STR_ENFORCER_MEDIC_ARMOR                     #6621
-  - type: STR_ENFORCER_SIGNAL_ARMOR                     #6622
-  - type: STR_ENFORCER_SIGNALFALSE_ARMOR                   #6622
-  - type: STR_ENFORCER_HEAVY_ARMOR               #6625
-  - type: STR_ENFORCER_SHIELD_ARMOR               #6630
-  - type: STR_ARBITOR_ARMOR                      #6660
-  - type: STR_MARSHAL_ARMOR                      #6670
-  - type: STR_T_ARBITES_BOLTER  #UNIT    TWIN LINKED AUTO:10                  2401           Tostun
-  - type: STR_THUNDERFIRE
-  - type: STR_THUNDERFIRE_SHELL
-  - type: STR_TAUROX_WEAPON     #STORMRAVEN ASSAULT CAN
-  - type: AUX_BOLTERPD #AUX        TWIN LINKED AUTO:10                                Tostun
-  - type: STR_MANTICORE_R # MANTICORE
-  - type: STR_MANTICORE_L # MANTICORE
-  - type: STR_SENTINELPD_MISSILE_LAUNCHER #SENTINEL MISSELE                    fixedWeapon
-  - type: STR_SLASCANPD #SENTINEL LASCANON                     fixedWeapon
-  - type: STR_CMAS #Cyber MAS    2320
-  - type: STR_CMAS_CORPSE #Cyber MAS CORPSE
-
-### EXPLOSIVES
-
-
-
-## MISC
-
-  - type: STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_LIGHT
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_LIGHT_AC
     recover: false
     invWidth: 0
     invHeight: 0
@@ -597,54 +111,16 @@ items:
       ITEM_PRIMED_AT_BATTLE_START: 1
       ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 1
 
-  - type: STR_GUARD_MEDI_KIT # No in-built melee
-    tuMelee: 0 # 15 
-
-  - type: STR_CULTIST_EVIDENCE
-
-  - type: STR_CIVILIAN_CAPTIVE
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 1000
-    listOrder: 20400
-
-  - type: STR_CULTIST_CORPSE # no different corpses
-    recoveryTransformations:
-      STR_KILLPOINT_TOKEN: [2]
-      STR_SECTOID_CORPSE: [1]
-
-  - &STR_CIVILIAN
-    type: STR_CIVILIAN_F0_CORPSE
-    recover: true
-    recoverCorpse: false
-
-  - type: STR_CIVILIAN_M0_CORPSE
-    refNode: *STR_CIVILIAN
-
-  - type: STR_CIVILIAN_F1_CORPSE
-    refNode: *STR_CIVILIAN
-
-  - type: STR_CIVILIAN_M1_CORPSE
-    refNode: *STR_CIVILIAN
-
-  - type: STR_TARANTULAA_SPAWNER_ENEMY
-    spawnUnit: STR_T_ARBITES_BOLTER
+  - type: STR_TARANTULA_SPAWNER_ENEMY_AC
+    spawnUnit: STR_TARANTULA_BOLTER_AC
     spawnUnitFaction: 1
     invWidth: 0
     invHeight: 0
     battleType: 4
 
-  - type: STR_TARANTULAA_SPAWNER_CIV
-    spawnUnit: STR_T_ARBITES_BOLTER
+  - type: STR_TARANTULA_SPAWNER_CIV_AC
+    spawnUnit: STR_TARANTULA_BOLTER_AC
     spawnUnitFaction: 2
     invWidth: 0
     invHeight: 0
     battleType: 4
-
-  - type: STR_PENAL_CORPSE
-    power: 75
-    blastRadius: 5
-    specialChance: 20
-
-  - type: STR_NOT_AVAILABLE

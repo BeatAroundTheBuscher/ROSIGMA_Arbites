@@ -58,10 +58,9 @@ extended:
 
         unit.getTag evilEyeDamage Tag.UNIT_EVIL_EYE_DAMAGE;
 
-        debug_log "ID" unit;
-        debug_log "Current evilEyeDamage" evilEyeDamage;
-
         if gt evilEyeDamage 0; # Evil Eye attacks again
+          debug_log "ID" unit;
+          debug_log "Current evilEyeDamage" evilEyeDamage;
           # roll 50-200 %
           battle_game.randomRange temp 50 200;
           muldiv evilEyeDamage temp 100;

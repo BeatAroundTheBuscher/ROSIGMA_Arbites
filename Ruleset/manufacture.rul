@@ -1,5 +1,5 @@
 manufacture:
-  - name: STR_TURN_CRIMINAL_TO_PENITENT
+  - name: STR_TURN_CRIMINAL_TO_PENITENT_AC
     category: STR_ADVANCEMENT
     requires:
       - STR_ARBITES_CAMPAIGN
@@ -7,7 +7,7 @@ manufacture:
     time: 1
     cost: 10000
     requiredItems:
-      STR_CIVILIAN_CAPTIVE: 1
-    spawnedPersonType: STR_PENITENT
+      STR_CIVILIAN_CAPTIVE_AC: 1
+    spawnedPersonType: STR_PENITENT_AC
     producedItems:
-      STR_COMBAT_KNIFE: 1 # need to manufacture anything
+      STR_COMBAT_KNIFE_AC: 1 # need to manufacture anything

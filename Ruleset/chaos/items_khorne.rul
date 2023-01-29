@@ -1,0 +1,87 @@
+extended:
+  tags:
+    RuleItem:
+      ITEM_PRIMED_AT_BATTLE_START: int
+      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: int
+      ITEM_SETS_MISSION_TIMER: int
+      ITEM_PRIMED_BY_MISSION_TIMER: int
+      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
+
+items:
+  - type: STR_KHORNE_CULTISTS_PRIEST_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 20000
+
+  - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 20000
+
+  - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 20000
+
+  - type: STR_KHORNE_CULTISTS_SOLDIER_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 20000
+
+  - type: STR_KHORNE_CULTISTS_FEMCULTIST_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 20000                
+
+  - type: STR_KHORNE_CULTISTS_CULTIST_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 20000
+
+  - type: STR_KHORNE_CULTISTS_CORPSE
+    size: 0.4
+    costSell: 5000
+    weight: 20
+    bigSprite: 46
+    floorSprite: 42
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    listOrder: 19000
+
+  - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
+    spawnUnit: STR_KHORNE_CULTISTS_CULTIST_AC # STR_CULTIST_RITUALIST_SACRIFICES
+    spawnUnitFaction: 1
+    recover: false
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    hitAnimation: {mod: 40k, index: 1992}
+    armor: 255
+
+  - type: STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC
+    recover: false
+    invWidth: 0
+    invHeight: 0
+    battleType: 10
+    hitAnimation: {mod: 40k, index: 1990}
+    armor: 255
+    hiddenOnMinimap: true
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: 10
+      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: 10
+      ITEM_SETS_MISSION_TIMER: 1

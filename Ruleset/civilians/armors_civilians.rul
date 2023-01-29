@@ -1,0 +1,198 @@
+armors:
+  - &STR_CIVILIAN_TROOPER
+    type: STR_CIVILIAN_TROOPER_ARMOR_M_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 9
+    spriteSheet: GUARDPD.PCK
+    spriteInv: PDM0.SPK
+    corpseBattle:
+      - STR_CIVILIAN_TROOPER_CORPSE_AC
+    frontArmor: 20
+    sideArmor: 18
+    rearArmor: 16
+    underArmor: 12
+    drawingRoutine: 0
+    damageModifier: #GUARD ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 0.8 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.1 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_CIVILIAN_TROOPER_ARMOR_F_AC
+    refNode: *STR_CIVILIAN_TROOPER
+    spriteSheet: GUARDPD_F.PCK
+    spriteInv: PDF0.SPK
+
+  - &STR_CIVILIAN
+    type: CIVILIAN_ARMOR_M0_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 9
+    spriteSheet: CIVILIAN_M0
+    spriteInv: CIVILIAN_M0_INV
+    corpseBattle:
+      - STR_CIVILIAN_M0_CORPSE_AC
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier: #GUARD ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 0.8 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.1 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 3 ]
+
+  - type: CIVILIAN_ARMOR_M1_AC
+    refNode: *STR_CIVILIAN
+    spriteSheet: CIVILIAN_M1
+    spriteInv: CIVILIAN_M1_INV
+    corpseBattle:
+      - STR_CIVILIAN_M1_CORPSE_AC
+
+  - type: CIVILIAN_ARMOR_F0_AC
+    refNode: *STR_CIVILIAN
+    spriteSheet: CIVILIAN_F0
+    spriteInv: CIVILIAN_F0_INV
+    corpseBattle:
+      - STR_CIVILIAN_F0_CORPSE_AC
+
+  - type: CIVILIAN_ARMOR_F1_AC
+    refNode: *STR_CIVILIAN
+    spriteSheet: CIVILIAN_F1
+    spriteInv: CIVILIAN_F1_INV
+    corpseBattle:
+      - STR_CIVILIAN_F1_CORPSE_AC
+
+  - type: MONK_ARMOR_1_AC
+    refNode: *STR_CIVILIAN
+    spriteSheet: MONK.PCK
+    spriteInv: MINV.SPK
+    corpseBattle:
+      - STR_MONK_ARMOR_CORPSE_AC
+    drawingRoutine: 4
+
+  - type: MONK_ARMOR_2_AC
+    refNode: *STR_CIVILIAN
+    spriteSheet: MONKW.PCK
+    spriteInv: MWINV.SPK
+    corpseBattle:
+      - STR_MONK_ARMOR2_CORPSE_AC
+    drawingRoutine: 4
+
+  - type: MUNITORIUM_ARMOR_AC
+    spriteSheet: MUNI.PCK
+    allowInv: false
+    zombiImmune: true
+    bleedImmune: true
+    fearImmune: true
+    painImmune: true
+    corpseGeo:  STR_MUNITORIUM_CORPSE_AC
+    corpseBattle:
+      - M_CORPSE1_AC
+      - M_CORPSE2_AC
+      - M_CORPSE3_AC
+      - M_CORPSE4_AC
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 50
+    size: 2
+    allowsMoving: false
+    movementType: 1
+    damageModifier:
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.0 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 3
+
+  - &STR_PENAL_ARMOR
+    type: STR_PENAL_ARMOR_BROWN_M_AC
+    spriteInv: PENITENT_M.SPK
+    spriteSheet: PENITENTS_BROWN.PCK
+    corpseBattle:
+      - STR_PENAL_CORPSE
+    drawingRoutine: 0
+    loftempsSet: [ 3 ]
+    # ufopediaType: STR_PENAL_ARMOR_BROWN_UC
+
+    visibilityAtDay: 40
+    visibilityAtDark: 9
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    damageModifier: #GUARD ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 0.8 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.1 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+
+  - type: STR_PENAL_ARMOR_BROWN_F_AC
+    refNode: *STR_PENAL_ARMOR
+    spriteInv: PENITENT_F.SPK
+    spriteSheet: PENITENTS_BROWN_F.PCK
+
+  - type: TARANTULA_BOLTER_ARMOR_AC
+    visibilityAtDay: 60
+    visibilityAtDark: 60
+    spriteInv: TARANTULAA.SPK
+    spriteSheet: TARANTULABOLTERA.PCK
+    allowInv: false
+    drawingRoutine: 3
+    corpseBattle:
+      - TA_CORPSE1_AC
+      - TA_CORPSE2_AC
+      - TA_CORPSE3_AC
+      - TA_CORPSE4_AC
+    frontArmor: 100
+    sideArmor: 85
+    rearArmor: 70
+    underArmor: 100
+    size: 2
+    damageModifier: #TURRET ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.4 #FLAMES
+      - 1.0 #HE
+      - 1.4 #LASCANON
+      - 1.0 #PLASMA
+      - 0.0 #STUN
+      - 2.0 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 0.2 #IMPACT
+      - 1.2 #MELTA
+    loftempsSet: [ 92, 89, 90, 91 ]

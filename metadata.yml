@@ -1,9 +1,9 @@
-name: "40k ROSIGMA Arbites Campaign"
+name: "40k ROSIGMA - Arbites Campaign"
 version: "0.1"
-author: "Leflair, Buscher, Xom126 and with help from the 40k mod authors, Bulletdesigner, Oharstein23 and all others who's lent their assistance"
-description: "Campaign for the Arbites"
-id: 40k_ROSIGMA_Arbites_Campaign
+author: "Buscher"
+description: "Campaign for the Arbites. Always run with the correct versions of ROSIGMA + 40k"
+id: 40k_Arbites_Campaign
 master: 40k
 isMaster: false
-resourceConfig: Ruleset/vars40k.rul
-reservedSpace: 3
+# resourceConfig: Ruleset/vars40k.rul
+# reservedSpace: 3

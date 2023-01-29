@@ -1,7 +1,7 @@
 research:
   - name: STR_CULTIST_INVESTIGATIONS
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
 
 ### Story Arc - Cultist Menace
@@ -14,10 +14,10 @@ research:
     cost: 200
     points: 100
     dependencies:
-      - STR_SECTOID # any Cultist
-      - STR_SECTOID_CORPSE
+#      - STR_SECTOID # any Cultist
+#      - STR_SECTOID_CORPSE
       - STR_BEGINNING_INVESTIGATION
-      - STR_INTERROGATION_COMPLETED
+#      - STR_INTERROGATION_COMPLETED
     unlocks:
       - STR_JUDGE_RECRUITMENT
       - STR_CYBER_MASTIFF_RECRUITMENT
@@ -26,8 +26,8 @@ research:
     cost: 200
     points: 100
     dependencies:
-      - STR_SECTOID_COMMANDER
-      - STR_SECTOID_ASPIRING_CHAMPION
+ #     - STR_SECTOID_COMMANDER
+ #     - STR_SECTOID_ASPIRING_CHAMPION
       - STR_CULTIST_MENACE
 
   - name: STR_CULTIST_EVIDENCE
@@ -49,52 +49,52 @@ research:
     cost: 0
     points: 0
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
 
   - name: STR_ARBITES_ARC2
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC3
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC4
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC5
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC6
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC7
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC8
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC9
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC10
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC11
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC12
     dependencies:
-      - STR_GENERALLOCK
+      - STR_GENERAL_LOCK_AC
 
 
 

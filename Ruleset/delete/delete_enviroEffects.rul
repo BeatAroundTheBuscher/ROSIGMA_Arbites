@@ -1,0 +1,10 @@
+enviroEffects:
+  - delete: STR_COLONY_ENVIRO
+  - delete: STR_DEEPSPACE_ENVIRO
+  - delete: STR_DESERT_ENVIRO
+  - delete: STR_FOREST_ENVIRO
+  - delete: STR_GUARD_TRAINING_ENVIRONMENT
+  - delete: STR_HANGAR_ENVIRO
+  - delete: STR_INSIDE_ENVIRO
+  - delete: STR_SNOW_ENVIRO
+  - delete: STR_URBAN_ENVIRO

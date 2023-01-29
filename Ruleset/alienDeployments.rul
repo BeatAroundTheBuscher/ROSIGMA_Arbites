@@ -1,10 +1,155 @@
 alienDeployments:
-  - delete: STR_RIOT
-  - delete: STR_SABOTAGE_MISSION
-  - delete: STR_CULTIST_SACRIFICES_LEVEL_1
-  - delete: STR_CATACOMBS
+  - type: STR_CRAFT_DEPLOYMENT_PREVIEW
+    isHidden: true
+    music:
+      - HANGAR
+    briefing:
+      title: STR_HANGAR_TITLE
+      palette: 4
+      desc: STR_HANGAR_DESCRIPTION
+      music: HANGAR
+      showCraft: true
+      showTarget: false
+      background: BACK16.SCR
+    shade: 1
+    terrains:
+      - XHANGAR
+    script: XHANGAR
+    width: 30
+    length: 20
+    height: 9
 
-  - type: STR_RIOT
+
+  - type: STR_BASE_DEFENSE # due to the expanded mapscript of 40k this will always crash in new battle
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: &emptyItemSets
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 60
+    length: 60
+    height: 4
+    terrains:
+      - XBASE
+    shade: 5
+    briefing:
+      palette: 0
+      background: BACK01.SCR
+      music: GMENBASE
+    script: XBASE
+
+
+  - type: STR_SMALL_SCOUT_AC
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 2 #3
+        dQty: 2 #1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 40
+    length: 40
+    height: 9
+
+  - type: STR_RIOT_AC
     briefing:
       title: STR_RIOT_TITLE
       palette: 4
@@ -14,12 +159,12 @@ alienDeployments:
       showTarget: false
       background: BACK169.SCR
     civiliansByType:
-      STR_CIVILIAN_F0: 2
-      STR_CIVILIAN_M0: 2
-      STR_CIVILIAN_F1: 2
-      STR_CIVILIAN_M1: 2
-      STR_MONK1: 2
-      STR_MONK2: 2
+      STR_CIVILIAN_M0_AC: 2
+      STR_CIVILIAN_M1_AC: 2
+      STR_CIVILIAN_F0_AC: 2
+      STR_CIVILIAN_F1_AC: 2
+      STR_MONK1_AC: 2
+      STR_MONK2_AC: 2
     width: 40
     length: 40
     height: 9
@@ -89,11 +234,13 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
 
-  - type: STR_SABOTAGE_MISSION            # RANK1
+  - type: STR_SABOTAGE_MISSION_AC
     width: 40
     length: 40
     height: 6
-    civilians: 6
+    civiliansByType:
+      STR_CIVILIAN_TROOPER_M_AC: 3
+      STR_CIVILIAN_TROOPER_F_AC: 3
     terrains:
       - MUNITORIUM
     alert: STR_ALIENS_SABOTAGE
@@ -226,7 +373,7 @@ alienDeployments:
     despawnPenalty: 250
 
 
-  - type: STR_CITY_SUMMONING_LEVEL_1
+  - type: STR_CITY_SUMMONING_LEVEL_1_AC
     objectiveType: 150 # the small cup before the Chaos Symbol; Altered MCD to reflect that
     abortPenalty: 100
     data:
@@ -277,7 +424,7 @@ alienDeployments:
           cutscene: ""
           showCraft: false
           showTarget: false
-        objectiveDestroyed: true # STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE destroys the target
+        objectiveDestroyed: true # STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_AC destroys the target
         maxRuns: 1
         useSpawnNodes: true
         spawnBlockGroups: [7]
@@ -351,7 +498,7 @@ alienDeployments:
       - XBASE_FILL_ROCK
 
 
-  - type: STR_PRISON_BREAK
+  - type: STR_PRISON_BREAK_AC
     alert: STR_PRISON_BREAK_RIOT
     alertBackground: BACK169.SCR
 #    alertDescription: STR_PRISON_BREAK_DESCRIPTION
@@ -363,7 +510,9 @@ alienDeployments:
       showCraft: true
       showTarget: false
       background: BACK150.SCR
-    civilians: 12
+    civiliansByType:
+      STR_CIVILIAN_TROOPER_M_AC: 6
+      STR_CIVILIAN_TROOPER_F_AC: 6
     shade: 1
     terrains:
       - PRISON_BREAK
@@ -483,23 +632,3 @@ alienDeployments:
     despawnPenalty: 100
     unlockedResearch: STR_CULTIST_DEFEATED
 
-
-
-# undo ROSIGMA changes
-  - &STR_TERROR_MISSION
-    type: STR_TERROR_MISSION
-    civiliansByType:
-      MALE_CIVILIAN: 8
-      FEMALE_CIVILIAN: 8
-
-  - type: STR_TERROR_MISSION_CULTISTS_MARINES
-    refNode: *STR_TERROR_MISSION
-
-  - type: STR_TERROR_MISSION_TRAITOR_GUARD_MARINES
-    refNode: *STR_TERROR_MISSION
-
-  - type: STR_ORK_WAAAGH
-    refNode: *STR_TERROR_MISSION
-    
-  - type: STR_NECRON_TERROR
-    refNode: *STR_TERROR_MISSION

@@ -1,0 +1,219 @@
+units:
+  - &STR_CIVILIAN_TROOPER
+    type: STR_CIVILIAN_TROOPER_M_AC
+    race: STR_CIVILIAN
+    stats:
+      tu: 52
+      stamina: 65
+      health: 30
+      bravery: 60
+      reactions: 40
+      firing: 50
+      throwing: 50
+      strength: 20
+      psiStrength: 50
+      psiSkill: 0
+      melee: 50
+    armor: STR_CIVILIAN_TROOPER_ARMOR_M_AC
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [{mod: 40k, index: 41}, {mod: 40k, index: 42}, {mod: 40k, index: 43}]
+    builtInWeaponSets:
+      - - STR_AUTOGUN_AC
+        - STR_AUTOGUN_CLIP_AC
+        - STR_AUTOGUN_CLIP_AC
+        - STR_FRAG_GRENADE_AC
+      - - STR_AUTOGUN_AC
+        - STR_AUTOGUN_CLIP_AC
+        - STR_AUTOGUN_CLIP_AC
+        - STR_FRAG_GRENADE_AC
+      - - STR_LASGUN_AC
+        - STR_LASGUN_CLIP_AC
+        - STR_LASGUN_CLIP_AC
+        - STR_KRAK_GRENADE_AC
+
+  - type: STR_CIVILIAN_TROOPER_F_AC
+    refNode: *STR_CIVILIAN_TROOPER
+    armor: STR_CIVILIAN_TROOPER_ARMOR_F_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+
+  - &STR_CIVILIAN
+    type: STR_CIVILIAN_M0_AC
+    race: STR_CIVILIAN
+    liveAlien: STR_CIVILIAN_CAPTIVE_AC
+    stats:
+      tu: 52
+      stamina: 65
+      health: 30
+      bravery: 30
+      reactions: 40
+      firing: 48
+      throwing: 42
+      strength: 18
+      psiStrength: 50
+      psiSkill: 0
+      melee: 36
+    armor: CIVILIAN_ARMOR_M0_AC
+    standHeight: 21
+    kneelHeight: 14
+    value: 10
+    intelligence: 4
+    aggression: 3
+    energyRecovery: 20
+    deathSound: [{mod: 40k, index: 41}, {mod: 40k, index: 42}, {mod: 40k, index: 43}]
+
+  - type: STR_CIVILIAN_M1_AC
+    refNode: *STR_CIVILIAN
+    armor: CIVILIAN_ARMOR_M1_AC
+
+  - type: STR_CIVILIAN_F0_AC
+    refNode: *STR_CIVILIAN
+    armor: CIVILIAN_ARMOR_F0_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+
+  - type: STR_CIVILIAN_F1_AC
+    refNode: *STR_CIVILIAN
+    armor: CIVILIAN_ARMOR_F1_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+
+  - type: STR_MONK1_AC
+    refNode: *STR_CIVILIAN
+    armor: MONK_ARMOR_1_AC
+
+  - type: STR_MONK2_AC
+    refNode: *STR_CIVILIAN
+    armor: MONK_ARMOR_1_AC
+
+  - &STR_RIOTER
+    type: STR_RIOTER_M0_AC
+    refNode: *STR_CIVILIAN
+    race: STR_CHAOS_RIOTS_AC
+    liveAlien: STR_CIVILIAN_CAPTIVE_AC
+    moraleLossWhenKilled: 50
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_GRENADE_AC
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_COMBAT_KNIFE_AC
+      - - STR_STUB_RIFLE_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+      - - STR_AUTOPISTOL_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_COMBAT_KNIFE_AC
+
+  - type: STR_RIOTER_M1_AC
+    refNode: *STR_RIOTER
+    armor: CIVILIAN_ARMOR_M1_AC
+
+  - type: STR_RIOTER_F0_AC
+    refNode: *STR_RIOTER
+    armor: CIVILIAN_ARMOR_F0_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+
+  - type: STR_RIOTER_F1_AC
+    refNode: *STR_RIOTER
+    armor: CIVILIAN_ARMOR_F1_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+
+  - type: STR_MUNITORIUM_AC
+    race: STR_MUNITORIUM
+    stats:
+      tu: 1
+      stamina: 1
+      health: 10
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 90
+      psiStrength: 200
+      psiSkill: 0
+      melee: 0
+    armor: MUNITORIUM_ARMOR_AC
+    standHeight: 16
+    kneelHeight: 16
+    value: 100 # was 200
+    specab: 1
+    deathSound: 23
+    intelligence: 1
+    aggression: 1
+    moveSound: 14
+    energyRecovery: 1
+    liveAlien: ""
+    capturable: false
+
+  - &STR_PENAL_PRISONER
+    type: STR_PENAL_PRISONER_M_AC
+    race: STR_RIOTING_PRISONER
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: STR_PENAL_ARMOR_BROWN_M_AC
+    standHeight: 21
+    kneelHeight: 14
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE_AC
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_GRENADE_AC
+      - - STR_AUTOPISTOL_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_PIPEBOMB_AC
+      - - STR_LASPISTOL_AC
+        - STR_LASPISTOL_CLIP_AC
+        - STR_LASPISTOL_CLIP_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_PIPEBOMB_AC
+    liveAlien: STR_CIVILIAN_CAPTIVE_AC
+    specab: 1 #explodes on death
+    moraleLossWhenKilled: 50
+    value: 10
+
+  - type: STR_PENAL_PRISONER_F_AC
+    refNode: *STR_PENAL_PRISONER
+    armor: STR_PENAL_ARMOR_BROWN_F_AC
+
+  - type: STR_TARANTULA_BOLTER_AC
+    race: STR_T_BOLTER
+    stats:
+      tu: 100
+      stamina: 1
+      health: 90
+      bravery: 110
+      reactions: 120
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: TARANTULA_BOLTER_ARMOR_AC
+    standHeight: 14
+    kneelHeight: 14
+    value: 20
+    deathSound: {mod: 40k, index: 23}
+    moveSound: {mod: 40k, index: 14}
+    energyRecovery: 50
