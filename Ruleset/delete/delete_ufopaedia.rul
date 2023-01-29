@@ -599,6 +599,7 @@ ufopaedia:
   - delete: STR_GRAV_AMMO
   - delete: STR_GRAVCANNON_AMMO
   - delete: STR_GRAVCANNON_NURGLE
+  - delete: STR_GRAV_DAMAGE_BONUS
   - delete: STR_GRAVGUN_ADEPTAS
   - delete: STR_GRAVGUN_AOE_AMMO
   - delete: STR_GRAVGUN_AOE_AMMO_SHOTGUN
@@ -856,8 +857,10 @@ ufopaedia:
   - delete: STR_IRON_WARRIOR_WARSMITH_AUTOPSY
   - delete: STR_ISB
   - delete: STR_IW_AUTOCANNON
+  - delete: STR_JETPACK_MECHANIC
   - delete: STR_JUDGE_ARMOR_UC
   - delete: STR_JUDGE_BIKE_ARMOR_UC
+  - delete: STR_JUMP_GAUNTLET_PLUS
   - delete: STR_KHORNE_ARMSISTER
   - delete: STR_KHORNECHAMP_ARMOR_PLAYER
   - delete: STR_KHORNE_GOR
@@ -1255,6 +1258,7 @@ ufopaedia:
   - delete: STR_PYROMANCER
   - delete: STR_PYROMANCER_STAFF
   - delete: STR_RADICAL_INQUISITOR_STRATEGY
+  - delete: STR_RADICAL_RECRUITMENT_IG
   - delete: STR_RAGE_SISTER_AUTOPSY
   - delete: STR_REAPER
   - delete: STR_REAPER_ARMOR
@@ -1634,5 +1638,3 @@ ufopaedia:
   - delete: TARANTULA_BOLTER_ARMOR
   - delete: TG_BATTLESERVITOR_HBARMOR
   - delete: TG_BATTLESERVITOR_MIARMOR
-  - delete: STR_GRAV_DAMAGE_BONUS
-  - delete: STR_JETPACK_MECHANIC

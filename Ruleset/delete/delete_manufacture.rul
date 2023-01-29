@@ -30,12 +30,13 @@ manufacture:
   - delete: STR_ASS_ARMOR
   - delete: STR_ASS_ARMOR_HONOR
   - delete: STR_ASSC
-  - delete: STR_ASSCANNON
+  - delete: STR_ASSCANNON_MANUFACTURE
   - delete: STR_ASSC_CLIP
   - delete: STR_AUTOCANNON_CLIP
   - delete: STR_AUTOCANNON_HANDHELD
   - delete: STR_AUTOGUN_CLIP_DRUM_KRAKEN
   - delete: STR_AVENGER
+  - delete: STR_BANNER
   - delete: STR_BEASTGUARD_HEAVY_ARMOR
   - delete: STR_BEASTGUARD_HEAVY_ARMOR_SLAB
   - delete: STR_BEHEMOTH_TO_HONOR
@@ -132,6 +133,7 @@ manufacture:
   - delete: STR_GRAVGUN_ADEPTAS
   - delete: STR_GRAVGUN_AOE_AMMO
   - delete: STR_GRAVGUN_MC
+  - delete: STR_GREY_KNIGHT_REQUISITION
   - delete: STR_GUARD_ARMORS_MOUNTED_AUTOCANNON
   - delete: STR_GUARD_ARMORS_MOUNTED_LASCANNON
   - delete: STR_GUARD_ARMORS_SENTINEL_AUTOCANNON
@@ -195,7 +197,11 @@ manufacture:
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
   - delete: STR_LIB_ARMOR
+  - delete: STR_LIGHT_BOLTER_AMMO_EX
   - delete: STR_LIGHT_BOLTER_AMMO_MC
+  - delete: STR_LIGHT_BOLTER_AMMO_PEN
+  - delete: STR_LIGHT_BOLTPISTOL_AMMO_AP
+  - delete: STR_LIGHT_BOLTPISTOL_AMMO_EX
   - delete: STR_LIGHT_BOLTPISTOL_AMMO_MC
   - delete: STR_LIGHT_MELTA_AMMO
   - delete: STR_LIGHTNING
@@ -615,4 +621,3 @@ manufacture:
   - delete: STR_WARPTALON_TO_HONOR
   - delete: STR_WEBBER
   - delete: STR_WEBBER_AMMO
-  - delete: STR_BANNER

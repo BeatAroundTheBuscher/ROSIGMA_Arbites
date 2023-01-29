@@ -46,6 +46,7 @@ alienRaces:
   - delete: STR_EARLY_TRAITOR_GUARD_WITH_SQUATS
   - delete: STR_ELDAR
   - delete: STR_ELDAR_ADV
+  - delete: STR_ELDAR_EARLY
   - delete: STR_ETHEREAL
   - delete: STR_FLOATER
   - delete: STR_GENE
@@ -184,4 +185,3 @@ alienRaces:
   - delete: STR_WARPTALON
   - delete: STR_WARWARPTALON
   - delete: STR_WEIRDBOYZ_TEST
-  - delete: STR_ELDAR_EARLY
