@@ -1095,6 +1095,14 @@ items:
 ## unsorted
 
   - type: STR_STUN_ROD_AC
+    size: 0.1
+    weight: 6
+    power: 65
+    damageType: 6
+    accuracyMelee: 100
+    tuMelee: 30
+    battleType: 3
+    clipSize: -1
     categories: [STR_CAT_MELEE, STR_CAT_TACTICAL]
     requiresBuyBaseFunc: [IMPERIUM]
     bigSprite: {mod: 40k, index: 282}
@@ -1114,6 +1122,8 @@ items:
       melee: 1.0
       flatHundred: 0.0
     listOrder: 380
+    requires:
+      - STR_STUN_GEAR
 
   - type: STR_WEBBER_AC
     categories: [STR_CAT_GRAVGUN, STR_CAT_TACTICAL]

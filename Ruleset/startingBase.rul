@@ -44,7 +44,6 @@ startingBase:
         STR_STUB_GUN_AC: 2
         STR_STUB_RIFLE_AC: 2
         STR_STUB_GUN_AMMO_AC: 8
-        STR_STUN_ROD_AC: 4
   items:
     STR_FRAG_GRENADE_AC: 10
     STR_AUTOGUN_CLIP_AC: 8
@@ -105,7 +104,6 @@ startingBaseExperienced:
         STR_STUB_GUN_AC: 2
         STR_STUB_RIFLE_AC: 2
         STR_STUB_GUN_AMMO_AC: 8
-        STR_STUN_ROD_AC: 4
   items:
     STR_FRAG_GRENADE_AC: 10
     STR_AUTOGUN_CLIP_AC: 8
@@ -166,7 +164,6 @@ startingBaseVeteran:
         STR_STUB_GUN_AC: 2
         STR_STUB_RIFLE_AC: 2
         STR_STUB_GUN_AMMO_AC: 8
-        STR_STUN_ROD_AC: 4
   items:
     STR_FRAG_GRENADE_AC: 10
     STR_AUTOGUN_CLIP_AC: 8
@@ -227,7 +224,6 @@ startingBaseGenius:
         STR_STUB_GUN_AC: 2
         STR_STUB_RIFLE_AC: 2
         STR_STUB_GUN_AMMO_AC: 8
-        STR_STUN_ROD_AC: 4
   items:
     STR_FRAG_GRENADE_AC: 10
     STR_AUTOGUN_CLIP_AC: 8
@@ -288,7 +284,6 @@ startingBaseSuperhuman:
         STR_STUB_GUN_AC: 2
         STR_STUB_RIFLE_AC: 2
         STR_STUB_GUN_AMMO_AC: 8
-        STR_STUN_ROD_AC: 4
   items:
     STR_FRAG_GRENADE_AC: 10
     STR_AUTOGUN_CLIP_AC: 8

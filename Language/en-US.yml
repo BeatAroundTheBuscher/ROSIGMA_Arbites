@@ -267,7 +267,7 @@ en-US:
   STR_STUB_GUN_AMMO_WOUND_AC: "Stubber Bleeder Magazine"
   STR_STUB_GUN_AMMO_HP_AC: "Stubber Expander Magazine"
   STR_STUB_GUN_AMMO_INC_AC: "Stubber Tracer Magazine"
-  STR_RIOT_SHIELD_UFOPEDIA: "Riot Shield ToDo{NEWLINE}Abilities:{NEWLINE}- Extended Front{NEWLINE}- Lowers incoming damage by 20{NEWLINE}- Limited Durability"
+  STR_RIOT_SHIELD_UFOPEDIA: "Riot Shield ToDo{NEWLINE}Abilities:{NEWLINE}- Extended Front{NEWLINE}- Lowers incoming damage by 20{NEWLINE}- Limited Durability{NEWLINE}- Only works if shield is visible on the unit. This means that the other hand is not allowed to have a item with a green '2' for twohanded"
   STR_CMAS_TACKLE: "Tackle"
   STR_FLAMETHROWER_CLIP_AC: "Flamer Clip"
 
