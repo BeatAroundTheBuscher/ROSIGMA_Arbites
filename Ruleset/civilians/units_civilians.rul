@@ -43,6 +43,7 @@ units:
   - &STR_CIVILIAN
     type: STR_CIVILIAN_M0_AC
     race: STR_CIVILIAN
+    liveAlien: STR_CIVILIAN_CAPTIVE_AC
     stats:
       tu: 52
       stamina: 65
