@@ -53,7 +53,7 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
-  - name: STR_FLAMER
+  - name: STR_FLAMER_AC
     cost: 100
     points: 10
     dependencies:

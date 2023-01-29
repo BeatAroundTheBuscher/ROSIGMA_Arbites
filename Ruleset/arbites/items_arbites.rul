@@ -473,15 +473,6 @@ items:
 
 ### Flamers
 
-  - type: STR_FLAMETHROWER_AC
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
-      - STR_FLAMER
-
-  - type: STR_FLAMETHROWER_CLIP
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
-      - STR_FLAMER
 
   - type: STR_FLAMETHROWER_PROMETHIUM_CLIP
     requiresBuy:
@@ -892,6 +883,8 @@ items:
     autoRange: 0
     snapRange: 14
     aimRange: 22
+    requires: 
+      - STR_LIGHT_BOLTERS_AC
 
     accuracyAuto: 0
     accuracySnap: 85
@@ -1186,6 +1179,8 @@ items:
     autoShots: 6
     attraction: 7
     listOrder: 10500
+    requires:
+      - STR_FLAMER_AC
   - type: STR_FLAMETHROWER_CHAOS_AC
     categories: [ STR_CAT_FLAMER, STR_CAT_TACTICAL, STR_CAT_CHAOS]
     requires:
@@ -1214,6 +1209,7 @@ items:
     autoShots: 6
     attraction: 7
     listOrder: 10505
+    
 
   - type: STR_FLAMETHROWER_CLIP_AC
     categories: [ STR_CAT_FLAMER, STR_CAT_TACTICAL]
@@ -1244,3 +1240,5 @@ items:
     armor: 15
     attraction: 7
     listOrder: 10520
+    requires:
+      - STR_FLAMER_AC
