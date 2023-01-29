@@ -262,3 +262,8 @@ en-US:
   STR_FLAMETHROWER_CHAOS_AC: "Flamethrower (Chaos)"
   STR_SHOTGUN_CHAOS_AC: "Shotgun (Chaos)"
   STR_HEAVY_STUBBER_AC_CHAOS: "Heavy Stubber (Chaos)"
+
+  STR_STUB_GUN_AMMO_AP_AC: "Stubber Man-Stopper Magazine"
+  STR_STUB_GUN_AMMO_WOUND_AC: "Stubber Bleeder Magazine"
+  STR_STUB_GUN_AMMO_HP_AC: "Stubber Expander Magazine"
+  STR_STUB_GUN_AMMO_INC_AC: "Stubber Tracer Magazine"

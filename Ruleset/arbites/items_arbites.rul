@@ -16,13 +16,10 @@ items:
     costBuy: 1000
     costSell: 200
     weight: 5
-    bigSprite: {mod: 40k, index: 1110}
     floorSprite: {mod: 40k, index: 1110}
     handSprite: {mod: 40k, index: 1880}
     bulletSprite: {mod: 40k, index: 1}
     fireSound: [{mod: 40k, index: 871}, {mod: 40k, index: 872}, {mod: 40k, index: 873}]
-    compatibleAmmo:
-      - STR_STUB_GUN_AMMO_AC
     accuracySnap: 60
     tuSnap: 25
     snapRange: 12
@@ -34,6 +31,15 @@ items:
     bulletSpeed: 30
     attraction: 1
     listOrder: 1000
+    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1001}
+    compatibleAmmo:
+      - STR_STUB_GUN_AMMO_AC
+      - STR_STUB_GUN_AMMO_AP_AC
+      - STR_STUB_GUN_AMMO_WOUND_AC
+      - STR_STUB_GUN_AMMO_HP_AC
+      - STR_STUB_GUN_AMMO_INC_AC
+    tags:
+      ITEM_COLOR_CHANGES_WITH_AMMO_NON_GRAY: 14
 
   - type: STR_STUB_GUN_CHAOS_AC
     refNode: *STR_BALLISTIC_WEAPON_STUB_GUN
@@ -52,7 +58,7 @@ items:
     costBuy: 2000
     costSell: 400
     weight: 10
-    bigSprite: {mod: 40k, index: 1108}
+    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1000}
     floorSprite: {mod: 40k, index: 1108}
     handSprite: {mod: 40k, index: 1864}
     bulletSprite: {mod: 40k, index: 1}
@@ -76,28 +82,7 @@ items:
     handSprite: {mod: 40k, index: 1872}
     listOrder: 2010
 
-  - type: STR_STUB_GUN_AMMO_AC
-    categories: [STR_CAT_AUTO]
-    size: 0.1
-    costBuy: 200
-    costSell: 40
-    weight: 2
-    bigSprite: {mod: 40k, index: 1118}
-    floorSprite: {mod: 40k, index: 1118}
-    handSprite: {mod: 40k, index: 1896}
-    hitSound: {mod: 40k, index: 22}
-    hitAnimation: {mod: 40k, index: 26}
-    damageAlter:
-      ToArmorPre: 0.05
-    power: 42
-    damageType: 1
-    clipSize: 8
-    battleType: 2
-    invWidth: 1
-    invHeight: 1
-    armor: 30
-    attraction: 1
-    listOrder: 1020
+
 
   - &STR_BALLISTIC_WEAPON_AUTO_PISTOL
     type: STR_AUTOPISTOL_AC
@@ -565,26 +550,101 @@ items:
 
 #### Stubber - Special Ammo
 
+  - &STR_STUBBERS_AMMO
+    type: STR_STUB_GUN_AMMO_AC
+    categories: [STR_CAT_AUTO]
+    size: 0.1
+    costBuy: 150
+    costSell: 50
+    weight: 2
+    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1002}
+    floorSprite: {mod: 40k, index: 1118}
+    handSprite: {mod: 40k, index: 1896}
+    hitSound: {mod: 40k, index: 22}
+    hitAnimation: {mod: 40k, index: 26}
+    damageAlter:
+      ToArmorPre: 0.05
+    power: 42
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 30
+    attraction: 1
+    tags:
+      ITEM_AMMO_COLOR: 0
 
-  - type: STR_STUB_GUN_AMMO_AC_AP
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
+  - type: STR_STUB_GUN_AMMO_AP_AC
+    refNode: *STR_STUBBERS_AMMO
+    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1003}
+    listOrder: 10716
+    costBuy: 3000 #hotshot cells cost 4000, has 20 ammo capacity or 10 with aimed mode for longlas
+    costSell: 250
+    tags:
+      ITEM_AMMO_COLOR: 3
+    damageAlter:
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.0
+      ToArmor: 0.0
+      ToHealth: 1.0
+      ToStun: 0.5
+    requires:
       - STR_STUBBER_AMMO_ADVANCED
 
-  - type: STR_STUB_GUN_AMMO_AC_WOUND
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_STUB_GUN_AMMO_WOUND_AC
+    refNode: *STR_STUBBERS_AMMO
+    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1004}
+    listOrder: 10717
+    costBuy: 2000 
+    costSell: 250
+    tags:
+      ITEM_AMMO_COLOR: 2
+    damageAlter:
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0
+      ToArmor: 0
+      ToHealth: 0.2
+      ToStun: 0
+      ToWound: 0.2
+      RandomWound: false
+    requires:
       - STR_STUBBER_AMMO_ADVANCED
 
-  - type: STR_STUB_GUN_AMMO_AC_HP
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_STUB_GUN_AMMO_HP_AC
+    refNode: *STR_STUBBERS_AMMO
+    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1005}
+    listOrder: 10718
+    costBuy: 2000 
+    costSell: 250
+    tags:
+      ITEM_AMMO_COLOR: 8
+    damageAlter:
+      ToArmorPre: 0.05
+      ToHealth: 2.0
+    requires:
       - STR_STUBBER_AMMO_ADVANCED
 
-  - type: STR_STUB_GUN_AMMO_AC_INC
-    requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
+
+  - type: STR_STUB_GUN_AMMO_INC_AC
+    refNode: *STR_STUBBERS_AMMO
+    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1006}
+    listOrder: 10719
+    costBuy: 500
+    costSell: 125
+    tags:
+      ITEM_AMMO_COLOR: 1
+    damageAlter:
+      ToArmorPre: 0.05
+      ResistType: 2 # inc
+      FireThreshold: 1
+      ToTile: 0
+    requires:
       - STR_STUBBER_AMMO_ADVANCED
+
+
 
 
 

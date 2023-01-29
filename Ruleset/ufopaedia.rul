@@ -576,22 +576,22 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     listOrder: 700
 
-  - id: STR_STUB_GUN_AMMO_AC_AP
+  - id: STR_STUB_GUN_AMMO_AP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 710
 
-  - id: STR_STUB_GUN_AMMO_AC_HP
+  - id: STR_STUB_GUN_AMMO_HP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 720
 
-  - id: STR_STUB_GUN_AMMO_AC_INC
+  - id: STR_STUB_GUN_AMMO_INC_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 730
 
-  - id: STR_STUB_GUN_AMMO_AC_WOUND
+  - id: STR_STUB_GUN_AMMO_WOUND_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 740
