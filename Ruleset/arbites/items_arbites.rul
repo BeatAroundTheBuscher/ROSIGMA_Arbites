@@ -378,9 +378,9 @@ items:
     costBuy: 9000
     costSell: 3750
     weight: 20
-    bigSprite: {mod: 40k, index: 1002}
-    floorSprite: {mod: 40k, index: 1002}
-    handSprite: {mod: 40k, index: 1016}
+    bigSprite: {mod: 40k, index: 1130}
+    floorSprite: {mod: 40k, index: 1130}
+    handSprite: {mod: 40k, index: 1944}
     bulletSprite: {mod: 40k, index: 2}
     bulletSpeed: 25
     fireSound: {mod: 40k, index: 4}
