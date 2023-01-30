@@ -8,51 +8,10 @@ extended:
       ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
 
 items:
-  - type: STR_KHORNE_CULTISTS_PRIEST_AC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 30000
-    listOrder: 20000
-
-  - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 30000
-    listOrder: 20000
-
-  - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_AC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 30000
-    listOrder: 20000
-
-  - type: STR_KHORNE_CULTISTS_SOLDIER_AC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 30000
-    listOrder: 20000
-
-  - type: STR_KHORNE_CULTISTS_FEMCULTIST_AC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 30000
-    listOrder: 20000                
-
-  - type: STR_KHORNE_CULTISTS_CULTIST_AC
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 30000
-    listOrder: 20000
-
   - type: STR_KHORNE_CULTISTS_CORPSE_AC # geoItem only
     size: 0.4
     costSell: 5000
+    listOrder: 10010
 
   - &STR_CORPSE # battlescape only
     type: STR_KHORNE_CULTISTS_PRIEST_CORPSE_AC
@@ -64,8 +23,6 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
-    listOrder: 19000
-
   
   - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_COPRSE_AC
     refNode: *STR_CORPSE
@@ -93,9 +50,48 @@ items:
     floorSprite: {mod: 40k, index: 161}
 
 
+  - type: STR_KHORNE_CULTISTS_PRIEST_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 10020
 
+  - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 10030
 
-  - type: STR_KHORNE_CULTISTS_CORPSE_AC
+  - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 10040
+
+  - type: STR_KHORNE_CULTISTS_SOLDIER_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 10050
+
+  - type: STR_KHORNE_CULTISTS_FEMCULTIST_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 10060
+
+  - type: STR_KHORNE_CULTISTS_CULTIST_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 10070
+
 
   - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
     spawnUnit: STR_KHORNE_CULTISTS_CULTIST_AC # STR_CULTIST_RITUALIST_SACRIFICES

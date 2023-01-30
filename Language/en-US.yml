@@ -35,6 +35,10 @@ en-US:
   STR_CIVILIAN_F0_CORPSE_AC: "Corpse"
   STR_CIVILIAN_F1_CORPSE_AC: "Corpse"
 
+  STR_CIVILIAN_TROOPER_F_AC: "Trooper"
+  STR_CIVILIAN_TROOPER_M_AC: "Trooper"
+  STR_CIVILIAN_TROOPER_CORPSE_AC: "Corpse"
+
 
 
 ### Khorne Cultists
@@ -91,7 +95,7 @@ en-US:
   STR_STUB_GUN_AMMO_AC: "Stubber Magazine"
   STR_STUB_SMG_AC: "Stubber SMG"
   STR_STUB_SMG_CHAOS_AC: "Stubber SMG (Chaos)"
-  STR_STUB_GUN_AMMO_LONG_AC: "Stubber SMG Magazine"
+  STR_STUB_SMG_AMMO_AC: "Stubber SMG Magazine"
   STR_HEAVY_STUBBER_AC: "Heavy Stubber"
 
   STR_LASGUN_AC: "Lasgun"
@@ -204,7 +208,7 @@ en-US:
   STR_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
 
   STR_BEGINNING_INVESTIGATION: "Initial Investigations"
-  STR_BEGINNING_INVESTIGATION_TEXT: "The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
+  STR_BEGINNING_INVESTIGATION_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
 
   STR_CULTIST_MENACE: "Cultist Menace"
   STR_CULTIST_MENACE_TEXT: "TODO"
@@ -275,7 +279,8 @@ en-US:
   STR_STUB_GUN_AMMO_WOUND_AC: "Stubber Bleeder Magazine"
   STR_STUB_GUN_AMMO_HP_AC: "Stubber Expander Magazine"
   STR_STUB_GUN_AMMO_INC_AC: "Stubber Tracer Magazine"
-  STR_RIOT_SHIELD_UFOPEDIA: "Riot Shield ToDo{NEWLINE}Abilities:{NEWLINE}- Extended Front{NEWLINE}- Lowers incoming damage by 20{NEWLINE}- Limited Durability{NEWLINE}- Only works if shield is visible on the unit. This means that the other hand is not allowed to have a item with a green '2' for twohanded"
+  STR_RIOT_SHIELD_UFOPEDIA_AC_1: "ToDo Description{NEWLINE}Go to the next page for abilities"
+  STR_RIOT_SHIELD_UFOPEDIA_AC_2: "Riot Shield ToDo{NEWLINE}Abilities:{NEWLINE}- Extended Front{NEWLINE}- Lowers incoming damage by 20{NEWLINE}- Limited Durability{NEWLINE}- Only works if shield is visible on the unit. This means that the other hand is not allowed to have a item with a green '2' for twohanded"
   STR_CMAS_TACKLE: "Tackle"
   STR_FLAMETHROWER_CLIP_AC: "Flamer Clip"
 

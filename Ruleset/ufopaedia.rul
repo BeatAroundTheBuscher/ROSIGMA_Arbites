@@ -338,6 +338,11 @@ ufopaedia:
     image_id: 1FG.SPK
     text: STR_RIOT_SHIELD_UFOPEDIA
     listOrder: 380
+    pages:
+      - title: STR_RIOT_SHIELD_AC
+        text: STR_RIOT_SHIELD_UFOPEDIA_AC_1
+      - title: STR_RIOT_SHIELD_AC
+        text: STR_RIOT_SHIELD_UFOPEDIA_AC_2
 
   - id: STR_FRAG_GRENADE_AC
     type_id: 14
@@ -604,7 +609,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     listOrder: 740
 
-  - id: STR_STUB_GUN_AMMO_LONG_AC
+  - id: STR_STUB_SMG_AMMO_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 750
