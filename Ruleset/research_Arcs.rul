@@ -14,8 +14,8 @@ research:
     cost: 200
     points: 100
     dependencies:
-#      - STR_SECTOID # any Cultist
-#      - STR_SECTOID_CORPSE
+      - STR_KHORNE_CULTISTS_AC
+      - STR_KHORNE_CULTISTS_CORPSE_AC
       - STR_BEGINNING_INVESTIGATION
 #      - STR_INTERROGATION_COMPLETED
     unlocks:
@@ -26,8 +26,8 @@ research:
     cost: 200
     points: 100
     dependencies:
- #     - STR_SECTOID_COMMANDER
- #     - STR_SECTOID_ASPIRING_CHAMPION
+      - STR_KHORNE_CULTISTS_PRIEST_AC
+      - STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
       - STR_CULTIST_MENACE
 
   - name: STR_CULTIST_EVIDENCE

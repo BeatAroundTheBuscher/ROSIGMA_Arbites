@@ -237,7 +237,6 @@ items:
     bigSprite: {mod: 40k, index: 1017}
     floorSprite: {mod: 40k, index: 1017}
     handSprite: {mod: 40k, index: 1136}
-    bulletSprite: {mod: 40k, index: 1}
     listOrder: 130
 
   - type: STR_AUTOPISTOL_CLIP_AC
@@ -251,6 +250,7 @@ items:
     handSprite: {mod: 40k, index: 1104}
     hitSound: {mod: 40k, index: 22}
     hitAnimation: {mod: 40k, index: 26}
+    explosionSpeed: 5
     power: 30
     damageType: 1
     damageAlter:

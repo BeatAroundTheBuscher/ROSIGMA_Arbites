@@ -197,10 +197,10 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
-      - alienRank: 2 # 2-3
-        lowQty: 1
-        highQty: 2
-        dQty: 1
+      - alienRank: 2
+        lowQty: 0
+        highQty: 0
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
       - alienRank: 3 # 2-3
@@ -267,10 +267,10 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
-      - alienRank: 2 # 2-4
-        lowQty: 1
-        highQty: 3
-        dQty: 1
+      - alienRank: 2
+        lowQty: 0
+        highQty: 0
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
       - alienRank: 3 # 2-3

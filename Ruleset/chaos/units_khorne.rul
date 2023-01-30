@@ -25,6 +25,7 @@ units:
     armor: STR_KHORNE_CULTISTS_PRIEST_ARMOR_AC
     standHeight: 21
     kneelHeight: 16
+    deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]
     moraleLossWhenKilled: 150 #Heavy morale loss for cult leader death, 150%
     intelligence: 8
     aggression: 0
@@ -158,10 +159,10 @@ units:
       psiSkill: 0
       melee: 76
     armor: STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC
-    standHeight: 16
-    kneelHeight: 12
+    standHeight: 21
+    kneelHeight: 16
     value: 10
-    deathSound: 10
+    deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]
     intelligence: 3
     aggression: 2
     moraleLossWhenKilled: 50
@@ -248,6 +249,7 @@ units:
     armor: STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC
     standHeight: 21
     kneelHeight: 16
+    deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]
     intelligence: 4
     aggression: 2
     spotter: 1

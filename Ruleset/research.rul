@@ -128,8 +128,35 @@ research:
       - STR_GENERAL_LOCK_AC
 
 
+  - name: STR_KHORNE_CULTISTS_CORPSE_AC
+    cost: 100
+    score: 50
+    needItem: true
 
+  - &STR_CAPTURE
+    name: STR_KHORNE_CULTISTS_PRIEST_AC
+    cost: 100
+    score: 50
+    needItem: true
+    unlocks:
+      - STR_KHORNE_CULTISTS_AC
 
+  - name: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
+    refNode: *STR_CAPTURE
 
+  - name: STR_KHORNE_CULTISTS_DARKDISCIPLE_AC
+    refNode: *STR_CAPTURE
 
+  - name: STR_KHORNE_CULTISTS_SOLDIER_AC
+    refNode: *STR_CAPTURE
+
+  - name: STR_KHORNE_CULTISTS_FEMCULTIST_AC
+    refNode: *STR_CAPTURE
+
+  - name: STR_KHORNE_CULTISTS_CULTIST_AC
+    refNode: *STR_CAPTURE
+
+  - name: STR_KHORNE_CULTISTS_AC
+    dependencies:
+      - STR_GENERAL_LOCK_AC
 

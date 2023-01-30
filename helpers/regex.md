@@ -5,6 +5,8 @@ for Search:
 for Replace:
 `Sprite: {mod: 40k, index: $1}`
 
+`Sprite: {mod: 40k_ROSIGMA_edits, index: $1}`
+
 Note: Don't forget Sound, Animation, etc.
 
 ## Add _AC
