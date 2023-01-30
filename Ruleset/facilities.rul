@@ -49,6 +49,7 @@ facilities:
     monthlyCost: 25000
     crafts: 1
     mapName: XBASE_16
+    workshops: 5
   - type: STR_PRISON_AC
     requiresBaseFunc: [BASE]
     spriteShape: 1

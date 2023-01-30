@@ -55,7 +55,7 @@ startingBase:
     STR_AUTOPISTOL_CLIP_AC: 8
     STR_STUB_GUN_AMMO_AC: 8
   scientists: 10
-  engineers: 0
+  engineers: 5
   lon: 1.4808952852577943
   lat: -0.81762463427609766
   name: "Precinct 14"
@@ -115,7 +115,7 @@ startingBaseExperienced:
     STR_AUTOPISTOL_CLIP_AC: 8
     STR_STUB_GUN_AMMO_AC: 8
   scientists: 10
-  engineers: 0
+  engineers: 5
   lon: 1.4808952852577943
   lat: -0.81762463427609766
   name: "Precinct 14"
@@ -175,7 +175,7 @@ startingBaseVeteran:
     STR_AUTOPISTOL_CLIP_AC: 8
     STR_STUB_GUN_AMMO_AC: 8
   scientists: 10
-  engineers: 0
+  engineers: 5
   lon: 1.4808952852577943
   lat: -0.81762463427609766
   name: "Precinct 14"
@@ -235,7 +235,7 @@ startingBaseGenius:
     STR_AUTOPISTOL_CLIP_AC: 8
     STR_STUB_GUN_AMMO_AC: 8
   scientists: 10
-  engineers: 0
+  engineers: 5
   lon: 1.4808952852577943
   lat: -0.81762463427609766
   name: "Precinct 14"
@@ -295,7 +295,7 @@ startingBaseSuperhuman:
     STR_AUTOPISTOL_CLIP_AC: 8
     STR_STUB_GUN_AMMO_AC: 8
   scientists: 10
-  engineers: 0
+  engineers: 5
   lon: 1.4808952852577943
   lat: -0.81762463427609766
   name: "Precinct 14"

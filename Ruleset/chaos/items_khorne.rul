@@ -24,27 +24,27 @@ items:
     battleType: 11
     armor: 26
   
-  - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_COPRSE_AC
+  - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 46}
     floorSprite: {mod: 40k, index: 42}
 
-  - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_COPRSE_AC
+  - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k_ROSIGMA_edits, index: 2871}
     floorSprite: {mod: 40k_ROSIGMA_edits, index: 2871}
 
-  - type: STR_KHORNE_CULTISTS_SOLDIER_COPRSE_AC
+  - type: STR_KHORNE_CULTISTS_SOLDIER_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 46}
     floorSprite: {mod: 40k, index: 42}
 
-  - type: STR_KHORNE_CULTISTS_FEMCULTIST_COPRSE_AC
+  - type: STR_KHORNE_CULTISTS_FEMCULTIST_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 449}
     floorSprite: {mod: 40k, index: 371}
 
-  - type: STR_KHORNE_CULTISTS_CULTIST_COPRSE_AC
+  - type: STR_KHORNE_CULTISTS_CULTIST_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 293}
     floorSprite: {mod: 40k, index: 161}

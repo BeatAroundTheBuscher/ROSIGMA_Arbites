@@ -66,7 +66,7 @@ soldiers:
 
   - type: STR_PENITENT_AC
     refNode: *STR_SOLDIER_ARBITES
-    costBuy: 10000
+    costBuy: 20000
     costSalary: 2000
     armor: STR_PENAL_ARMOR_UC_AC
     allowPiloting: false
@@ -77,6 +77,7 @@ soldiers:
     rankSprite: {mod: 40k, index: 868}
     rankBattleSprite: {mod: 40k, index: 251}
     rankTinySprite: {mod: 40k, index: 163}
+    requiresBuyBaseFunc: [PENAL]
 
   - type: STR_JUDGE_AC
     refNode: *STR_SOLDIER_ARBITES

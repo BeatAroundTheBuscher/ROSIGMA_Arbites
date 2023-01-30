@@ -2,6 +2,7 @@ extended:
   tags:
     RuleItem:
       ITEM_RECOIL: int
+      ITEM_DOES_KILL_USER: int
 
 # general rule
 # items cost 5 times of their sell value
@@ -320,6 +321,7 @@ items:
     invHeight: 3
     twoHanded: true
     armor: 30
+    listOrder: 131
 
   - &STR_GUN_BUTT
     type: STR_AUTOGUN_AC

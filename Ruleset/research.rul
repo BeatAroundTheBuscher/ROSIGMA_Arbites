@@ -134,27 +134,39 @@ research:
     needItem: true
 
   - &STR_CAPTURE
-    name: STR_KHORNE_CULTISTS_PRIEST_AC
+    name: STR_KHORNE_CULTISTS_CULTIST_AC
     cost: 100
     score: 50
     needItem: true
     unlocks:
       - STR_KHORNE_CULTISTS_AC
 
+  - name: STR_KHORNE_CULTISTS_PRIEST_AC
+    refNode: *STR_CAPTURE
+    dependencies: 
+      - STR_CULTIST_MENACE
+    unlocks: []
+
   - name: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
     refNode: *STR_CAPTURE
+    dependencies: 
+      - STR_CULTIST_MENACE
+    unlocks: []
 
   - name: STR_KHORNE_CULTISTS_DARKDISCIPLE_AC
     refNode: *STR_CAPTURE
+    dependencies: 
+      - STR_CULTIST_MENACE
+    unlocks: []
 
-  - name: STR_KHORNE_CULTISTS_SOLDIER_AC
-    refNode: *STR_CAPTURE
+# Transformed into STR_KHORNE_CULTISTS_AC with liveAlien:
+#  - name: STR_KHORNE_CULTISTS_SOLDIER_AC
+#    refNode: *STR_CAPTURE
 
-  - name: STR_KHORNE_CULTISTS_FEMCULTIST_AC
-    refNode: *STR_CAPTURE
+#  - name: STR_KHORNE_CULTISTS_FEMCULTIST_AC
+#    refNode: *STR_CAPTURE
 
-  - name: STR_KHORNE_CULTISTS_CULTIST_AC
-    refNode: *STR_CAPTURE
+
 
   - name: STR_KHORNE_CULTISTS_AC
     dependencies:

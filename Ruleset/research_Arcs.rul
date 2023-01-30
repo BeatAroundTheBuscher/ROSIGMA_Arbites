@@ -28,7 +28,6 @@ research:
     dependencies:
       - STR_KHORNE_CULTISTS_PRIEST_AC
       - STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
-      - STR_CULTIST_MENACE
 
   - name: STR_CULTIST_EVIDENCE
     cost: 200
@@ -43,7 +42,6 @@ research:
     dependencies:
       - STR_CULTIST_LEADERSHIP
       - STR_CULTIST_EVIDENCE
-      - STR_CULTIST_MENACE
 
   - name: STR_CULTIST_DEFEATED
     cost: 0
