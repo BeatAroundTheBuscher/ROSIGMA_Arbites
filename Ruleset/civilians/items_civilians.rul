@@ -9,11 +9,11 @@ extended:
 
 items:
   - &STR_CIVILIAN
-    type: STR_CIVILIAN_TROOPER_CORPSE_AC
+    type: STR_CIVILIAN_M0_CORPSE_AC
     name: STR_CORPSE
     weight: 30
-    bigSprite: {mod: 40k, index: 631}
-    floorSprite: {mod: 40k, index: 625}
+    bigSprite: {mod: 40k, index: 1303}
+    floorSprite: {mod: 40k, index: 1303}
     invWidth: 2
     invHeight: 3
     armor: 35
@@ -21,10 +21,11 @@ items:
     recover: true
     recoverCorpse: false
 
-  - type: STR_CIVILIAN_M0_CORPSE_AC
+  - type: STR_CIVILIAN_TROOPER_CORPSE_AC
     refNode: *STR_CIVILIAN
-    bigSprite: {mod: 40k, index: 1303}
-    floorSprite: {mod: 40k, index: 1303}
+    bigSprite: {mod: 40k, index: 631}
+    floorSprite: {mod: 40k, index: 625}
+    recover: false
 
   - type: STR_CIVILIAN_M1_CORPSE_AC
     refNode: *STR_CIVILIAN
