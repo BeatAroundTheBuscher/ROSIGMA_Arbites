@@ -14,7 +14,7 @@ units:
       tu: 54
       stamina: 90
       health: 50
-      bravery: 90
+      bravery: 70
       reactions: 60
       firing: 52
       throwing: 58
@@ -58,7 +58,7 @@ units:
       tu: 65
       stamina: 95
       health: 60
-      bravery: 90
+      bravery: 60
       reactions: 68
       firing: 60
       throwing: 62
@@ -105,7 +105,7 @@ units:
       tu: 65
       stamina: 90
       health: 50
-      bravery: 90
+      bravery: 60
       reactions: 64
       firing: 62
       throwing: 50
@@ -150,7 +150,7 @@ units:
       tu: 54
       stamina: 90
       health: 30
-      bravery: 80
+      bravery: 50
       reactions: 63
       firing: 52
       throwing: 58
@@ -193,7 +193,7 @@ units:
       tu: 70
       stamina: 90
       health: 40
-      bravery: 90
+      bravery: 40
       reactions: 64
       firing: 58
       throwing: 45
