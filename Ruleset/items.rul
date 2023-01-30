@@ -39,6 +39,7 @@ items:
     armor: 35
     battleType: 11
     recover: false
+    
   - type: STR_JUDGE_CORPSE_AC
     name: STR_CORPSE
     weight: 30

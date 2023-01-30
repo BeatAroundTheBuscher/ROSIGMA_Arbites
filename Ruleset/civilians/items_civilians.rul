@@ -104,7 +104,7 @@ items:
     costSell: 1000
     listOrder: 20400
 
-  - type: STR_PENAL_CORPSE
+  - type: STR_PENAL_CORPSE_AC
     name: STR_CORPSE
     weight: 30
     bigSprite: {mod: 40k, index: 632}

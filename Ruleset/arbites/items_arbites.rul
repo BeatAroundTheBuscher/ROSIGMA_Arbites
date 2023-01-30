@@ -819,6 +819,7 @@ items:
     flatRate: true
     confMelee:
       name: STR_CMAS_TACKLE
+    listOrder: 281
 
   - type: STR_EXPLOSIVE_COLLAR_AC
     power: 75 # collar
@@ -861,6 +862,7 @@ items:
     fixedWeapon: true
     specialIconSprite: {mod: 40k, index: 100}
     specialUseEmptyHand: true
+    listOrder: 291
 
   - type: STR_COMBAT_KNIFE_AC
     categories: [STR_CAT_MELEE]
@@ -895,6 +897,9 @@ items:
     strengthApplied: false
     attraction: 7
     experienceTrainingMode: 13
+    listOrder: 292
+    costBuy: 500
+    costSell: 100
 
   - type: STR_RIOT_SHIELD_AC
     weight: 10
@@ -914,6 +919,7 @@ items:
     costBuy: 20000
     costSell: 4000
     hidePower: true
+    listOrder: 293
 
   - type: STR_ELECTRO_FLARE_AC
     categories: [ STR_CAT_EQUIPMENT]

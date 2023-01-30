@@ -135,7 +135,7 @@ armors:
     spriteInv: PENITENT_M.SPK
     spriteSheet: PENITENTS_BROWN.PCK
     corpseBattle:
-      - STR_PENAL_CORPSE
+      - STR_PENAL_CORPSE_AC
     drawingRoutine: 0
     loftempsSet: [ 3 ]
     # ufopediaType: STR_PENAL_ARMOR_BROWN_UC

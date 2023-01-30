@@ -24,6 +24,7 @@ en-US:
   STR_PENAL_PRISONER_M: "Prisoner"
   STR_PENAL_PRISONER_F: "Prisoner"
   STR_RIOTING_PRISONER: "Rioting Prisoner"
+  STR_PENAL_CORPSE_AC: "Corpse"
 
   STR_RIOTER_M0_AC: "Rioter"
   STR_RIOTER_M1_AC: "Rioter"
