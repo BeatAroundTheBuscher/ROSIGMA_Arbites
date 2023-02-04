@@ -23,7 +23,7 @@ items:
     listOrder: 15300
     throwRange: 20
 
-  - type: STR_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC
+  - type: STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC
     spawnUnit: STR_KHORNE_CULTISTS_CULTIST_AC
     spawnUnitFaction: 1
     recover: false

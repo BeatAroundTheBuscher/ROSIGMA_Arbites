@@ -22,7 +22,7 @@ terrains:
             - [8, 8, 5]
           STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_LIGHT_AC: # needs to blow up the CHAOS symbol
             - [11, 13, 3]
-          STR_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [8, 7, 5]
             - [6, 5, 4]
             - [5, 12, 3]
@@ -66,3 +66,5 @@ terrains:
             - [5, 5, 1]
         fuseTimers:
           STR_TARANTULA_SPAWNER_CIV_AC: [0, 0]
+
+          

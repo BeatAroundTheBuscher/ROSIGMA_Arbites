@@ -373,7 +373,7 @@ alienDeployments:
     despawnPenalty: 250
 
 
-  - type: STR_CULTIST_SUMMONING_LEVEL_1        #alertSound
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_AC        #alertSound
     objectiveType: 100
     abortPenalty: 100
     data:
