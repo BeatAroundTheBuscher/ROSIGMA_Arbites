@@ -170,3 +170,83 @@ armors:
       - 1.0 #MELTA
     loftempsSet: [ 3 ]
 
+  - type: STR_WINGED_DAEMON_ARMOR_AC
+    visibilityAtDay: 60
+    visibilityAtDark: 60
+    spriteSheet: FDEAMON.PCK
+    spriteInv: DK2.SPK
+    scripts:
+      selectUnitSprite: |
+        var int temp;
+        var int walking;
+        var int floating;
+        unit.isWalking walking;
+        unit.isFloating floating;
+        if and eq walking 0 eq floating 1;
+          unit.getId temp;
+          offsetmod temp 11 0 8; #desync animation of different units
+          add temp anim_frame;
+          wavegen_saw temp 4 4 4;
+          add sprite_offset 1;
+          add sprite_offset temp;
+          add sprite_index sprite_offset;
+        else;
+          add sprite_index sprite_offset;
+        end;
+        return sprite_index;
+    allowInv: false
+    corpseBattle:
+      - WINGED_DAEMON_CORPSE_1_AC
+      - WINGED_DAEMON_CORPSE_2_AC
+      - WINGED_DAEMON_CORPSE_3_AC
+      - WINGED_DAEMON_CORPSE_4_AC
+    corpseGeo: STR_WINGED_DAEMON_CORPSE_AC
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 50
+    drawingRoutine: 20
+    constantAnimation: false
+    movementType: 1
+    size: 2
+    damageModifier: #DAEMON ARMOR LARGE
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.0 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+  - type: STR_BLOODLETTER_DAEMON_ARMOR_AC
+    visibilityAtDay: 60
+    visibilityAtDark: 60
+    spriteSheet: DEAMON4.PCK
+    allowInv: false
+    spriteInv: DK
+    corpseBattle:
+      - STR_BLOODLETTER_DAEMON_CORPSE_AC
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 10
+    drawingRoutine: 4
+    constantAnimation: false
+    damageModifier: #DEAMON ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.0 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 3 ]
