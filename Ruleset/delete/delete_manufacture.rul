@@ -239,6 +239,7 @@ manufacture:
   - delete: STR_OBLITERATOR_TO_HONOR
   - delete: STR_OFFICER_REQUISITION
   - delete: STR_OGRYN_CARAPACE
+  - delete: STR_ORBITAL_BEACON
   - delete: STR_PATCHMORAL
   - delete: STR_PATCHSMOKE
   - delete: STR_PATCHSPEED

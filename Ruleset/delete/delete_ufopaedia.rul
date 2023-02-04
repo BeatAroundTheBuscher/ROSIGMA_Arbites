@@ -979,6 +979,7 @@ ufopaedia:
   - delete: STR_MARAUDER
   - delete: STR_MARINE_ASSAULT
   - delete: STR_MARKET
+  - delete: STR_MARKET_GOODS
   - delete: STR_MARSHAL_ARMOR_UC
   - delete: STR_MC_AMMO
   - delete: STR_MC_BOLTER_DEAZ
@@ -1127,6 +1128,7 @@ ufopaedia:
   - delete: STR_OGRYN_CARAPACE
   - delete: STR_OGRYN_UC
   - delete: STR_OGRYN_UNARMED
+  - delete: STR_ORBITAL_BEACON
   - delete: STR_ORKARDBOY_AUTOPSY
   - delete: STR_ORK_ARMOR_BURNA
   - delete: STR_ORK_ARMOR_DEFFKOPTER

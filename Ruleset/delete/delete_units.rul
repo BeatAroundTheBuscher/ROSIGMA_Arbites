@@ -358,6 +358,7 @@ units:
   - delete: STR_NURGLINGS
   - delete: STR_OBLITERATOR_COMMANDER
   - delete: STR_OBLITERATOR_SOLDIER
+  - delete: STR_ORBITAL_BEACON
   - delete: STR_ORK_ARDBOY
   - delete: STR_ORK_ARDESTBOY
   - delete: STR_ORK_BOY

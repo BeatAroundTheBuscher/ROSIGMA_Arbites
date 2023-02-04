@@ -1501,6 +1501,7 @@ items:
   - delete: STR_MAP2
   - delete: STR_MAP3
   - delete: STR_MARINEZ_CORPSE
+  - delete: STR_MARKET_GOODS
   - delete: STR_MARSHAL_ARMOR
   - delete: STR_MARSHAL_CORPSE
   - delete: STR_MC_BOLTER_DEAZ
@@ -1703,6 +1704,9 @@ items:
   - delete: STR_OGRYN_CARAPACE_CORPSE
   - delete: STR_OGRYN_CORPSE
   - delete: STR_OGRYN_UNARMED
+  - delete: STR_ORBITAL_BEACON
+  - delete: STR_ORBITAL_BEACON_SPAWNER
+  - delete: STR_ORBITAL_STRIKE
   - delete: STR_ORK1_SPAWNER
   - delete: STR_ORK2_SPAWNER
   - delete: STR_ORK3_SPAWNER
