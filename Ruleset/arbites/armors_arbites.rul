@@ -130,7 +130,7 @@ armors:
     builtInWeapons:
       - STR_CMAS_AC
       - STR_CMAS_TACKLE_AC
-      - INV_NULL_2X1_RL_AC
+      - INV_NULL_1X2_RL_AC
       - INV_NULL_2X1_LL_AC
       - INV_NULL_3X3_AC
       - INV_NULL_4X2_AC

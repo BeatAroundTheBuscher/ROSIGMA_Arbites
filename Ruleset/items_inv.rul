@@ -31,6 +31,14 @@ items:
     fixedWeapon: true
     defaultInventorySlot: STR_RIGHT_LEG
     recover: false
+  - type: INV_NULL_1X2_RL_AC
+    weight: 0
+    bigSprite: 201
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_LEG
+    recover: false
   - type: INV_NULL_2X1_B_AC
     weight: 0
     bigSprite: {mod: 40k, index: 821}

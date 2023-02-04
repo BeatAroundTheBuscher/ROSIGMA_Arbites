@@ -2,6 +2,7 @@
   - type: BIGOBS.PCK
     files:
         200: Resources/Bigobs/bigob_small_combat_knife_right.png
+        201: Resources/NULL/Null_Void_1x2_l.png
         203: Resources/Bigobs/bigob_cmas_tackle.png
 
   - type: FLOOROB.PCK
