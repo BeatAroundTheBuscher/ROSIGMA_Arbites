@@ -187,6 +187,7 @@ en-US:
   STR_TRAITOR_OUTPOST_AC: "Traitor Guard Outpost"
   STR_PRISON_BREAK_AC: "Prison Break"
   STR_TRAITOR_OUTPOST: "Traitor Outpost"
+  STR_UNDERHIVE_AC: "Underhive"
 
 ## Research
 
@@ -252,7 +253,7 @@ en-US:
   STR_PRISON_BREAK_RIOT: "Prison Break Detected"
   STR_PRISON_BREAK_SITE: "Prison Break in Progress"
 
-  STR_CATACOMBS: "Catacombs"
+  STR_CATACOMBS_AC: "Catacombs"
   STR_CATACOMB_TITLE: "Heritical Cult"
   STR_CATACOMB_DESCRIPTION: "ToDo2"
   STR_CATACOMB_DETECTED: "Heritical Cult Found"

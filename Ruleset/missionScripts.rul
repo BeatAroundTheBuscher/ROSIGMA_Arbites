@@ -82,7 +82,7 @@ missionScripts:
 
   - type: Prison_Break
     firstMonth: 3 # number of months passed (compare to savegame)
-    lastMonth: 6
+    lastMonth: 5
     executionOdds: 100
     raceWeights:
       0:
@@ -101,7 +101,7 @@ missionScripts:
     executionOdds: 50
     label: 120
     firstMonth: 3
-    lastMonth: 6
+    lastMonth: 5
     missionWeights:
       0:
         STR_CULTIST_SACRIFICES_LEVEL_1: 100
@@ -121,7 +121,7 @@ missionScripts:
     executionOdds: 100
     conditionals: [-120]
     firstMonth: 3
-    lastMonth: 6
+    lastMonth: 5
     missionWeights:
       0:
         STR_CULTIST_SUMMONING_LEVEL_1_AC: 100
@@ -136,6 +136,26 @@ missionScripts:
     useTable: false
     researchTriggers:
       STR_CULTIST_DEFEATED: false
+
+## DANGER LEVEL 2
+
+  - type: Underhive_khorne
+    firstMonth: 6
+    #lastMonth: 10
+    executionOdds: 100
+    #conditionals: [100]
+    raceWeights:
+      0:
+        STR_KHORNE_CULTISTS_AC: 100
+    missionWeights:
+      0:
+        STR_UNDERHIVE_AC: 100
+    regionWeights:
+      0:
+        REGION_HULK_SITES: 100
+    startDelay: 12000
+    randomDelay: 6000
+    useTable: false
 
 ## STORY 
 
@@ -160,12 +180,12 @@ missionScripts:
     randomDelay: 6000
     useTable: false
 
-  - type: STR_CATACOMBS
+  - type: STR_CATACOMBS_AC
     firstMonth: 0
     executionOdds: 100
     missionWeights:
       0:
-        STR_CATACOMBS: 100
+        STR_CATACOMBS_AC: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100
@@ -186,7 +206,7 @@ missionScripts:
         STR_KHORNE_CULTISTS_AC: 100
     missionWeights:
       0:
-        STR_CULTIST_RETALIATION: 100
+        STR_CULTIST_RETALIATION_AC: 100
     researchTriggers:
       STR_CULTIST_DEFEATED: true
     startDelay: 6000
