@@ -1,4 +1,0 @@
-mapScripts cannot be deleted
-
-terrains can but when they are redefined they draw from the current MAP/TERRAINS/ROUTES.
-This means it's better to redefine them
