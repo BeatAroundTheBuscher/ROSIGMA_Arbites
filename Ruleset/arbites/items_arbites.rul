@@ -321,7 +321,7 @@ items:
     invHeight: 3
     twoHanded: true
     armor: 30
-    listOrder: 131
+    listOrder: 140
 
   - &STR_GUN_BUTT
     type: STR_AUTOGUN_AC
@@ -370,7 +370,7 @@ items:
     clipSize: 30
     battleType: 2
     armor: 30
-    listOrder: 140
+    listOrder: 150
 
   - &STR_BALLISTIC_WEAPON_HEAVY_STUBBER
     type: STR_HEAVY_STUBBER_AC
@@ -400,7 +400,7 @@ items:
     autoRange: 18
     autoShots: 25
     sprayWaypoints: 2
-    listOrder: 150
+    listOrder: 160
     requires:
       - STR_HEAVY_STUBBER_AC
     tags:
@@ -428,7 +428,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 30
-    listOrder: 160
+    listOrder: 170
     requires:
       - STR_HEAVY_STUBBER_AC
 
@@ -461,7 +461,7 @@ items:
     invWidth: 1
     invHeight: 2
     blastRadius: 5
-    listOrder: 170
+    listOrder: 180
     throwRange: 20
 
   - type: STR_KRAK_GRENADE_AC
@@ -483,7 +483,7 @@ items:
     invWidth: 1
     invHeight: 2
     blastRadius: 1
-    listOrder: 180
+    listOrder: 190
     throwRange: 20
 
   - type: STR_PROXIMITY_GRENADE_AC
@@ -516,7 +516,7 @@ items:
     invWidth: 1
     invHeight: 2
     blastRadius: 4
-    listOrder: 190
+    listOrder: 200
     throwRange: 16
     damageAlter:
       FireThreshold: 25
@@ -535,7 +535,7 @@ items:
     invWidth: 1
     invHeight: 2
     blastRadius: 6
-    listOrder: 200
+    listOrder: 210
     throwRange: 8
     damageAlter:
       FireThreshold: 25
@@ -570,7 +570,7 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    listOrder: 210
+    listOrder: 220
     snapRange: 8
     dropoff: 5
 
@@ -583,7 +583,7 @@ items:
     bigSprite: {mod: 40k_ROSIGMA_edits, index: 2707}
     floorSprite: {mod: 40k_ROSIGMA_edits, index: 2708}
     handSprite: {mod: 40k_ROSIGMA_edits, index: 500}
-    listOrder: 210
+    listOrder: 230
     tuSnap: 30 #slower fire rate
     snapRange: 10 #better range
 
@@ -606,7 +606,7 @@ items:
     damageType: 1
     clipSize: 8
     battleType: 2
-    listOrder: 220
+    listOrder: 240
     shotgunPellets: 6
 
 
@@ -646,7 +646,7 @@ items:
     battleType: 1
     invWidth: 1
     invHeight: 2
-    listOrder: 230
+    listOrder: 250
 
   - type: STR_LASPISTOL_CLIP_AC
     categories: [STR_CAT_LASGUN, STR_CAT_TACTICAL]
@@ -674,7 +674,7 @@ items:
     armor: 70
     vaporColor: 2
     vaporDensity: 5
-    listOrder: 240
+    listOrder: 260
     requiresBuy:
       - STR_LASGUNS_AC
 
@@ -700,7 +700,7 @@ items:
     tuAuto: 34
     tuSnap: 25
     snapRange: 16
-    listOrder: 250
+    listOrder: 270
     compatibleAmmo:
       - STR_LASGUN_CLIP_AC
     battleType: 1
@@ -733,7 +733,7 @@ items:
     invWidth: 1
     invHeight: 1
     armor: 70
-    listOrder: 260
+    listOrder: 280
     requiresBuy:
       - STR_LASGUNS_AC
 
@@ -763,7 +763,7 @@ items:
     #autoShots: 2 #maybe give the basic solo some rapid shots vs the DMR version to keep it useful aside for price?
     bulletSpeed: 30
     attraction: 1
-    listOrder: 270
+    listOrder: 290
     dropoff: 5
     autoRange: 0
     snapRange: 14
@@ -798,7 +798,7 @@ items:
     invWidth: 2
     invHeight: 3
     flatRate: true
-    listOrder: 280
+    listOrder: 300
 
   - type: STR_CMAS_TACKLE_AC
     bigSprite: 203
@@ -830,14 +830,14 @@ items:
     flatRate: true
     confMelee:
       name: STR_CMAS_TACKLE
-    listOrder: 281
+    listOrder: 310
 
   - type: STR_EXPLOSIVE_COLLAR_AC
     power: 75 # collar
     damageType: 3
     battleType: 1
     blastRadius: 5
-    listOrder: 290
+    listOrder: 320
     maxRange: 1
     fixedWeapon: true
     specialUseEmptyHand: false # no accidential blowups
@@ -873,7 +873,7 @@ items:
     fixedWeapon: true
     specialIconSprite: {mod: 40k, index: 100}
     specialUseEmptyHand: true
-    listOrder: 291
+    listOrder: 330
 
   - type: STR_COMBAT_KNIFE_AC
     categories: [STR_CAT_MELEE]
@@ -908,7 +908,7 @@ items:
     strengthApplied: false
     attraction: 7
     experienceTrainingMode: 13
-    listOrder: 292
+    listOrder: 340
     costBuy: 500
     costSell: 100
 
@@ -930,7 +930,7 @@ items:
     costBuy: 20000
     costSell: 4000
     hidePower: true
-    listOrder: 293
+    listOrder: 350
 
   - type: STR_ELECTRO_FLARE_AC
     categories: [ STR_CAT_EQUIPMENT]
@@ -951,7 +951,7 @@ items:
       defaultBehavior: false
       throwTrigger: true
     armor: 8
-    listOrder: 300
+    listOrder: 360
 
 ## unsorted
 
@@ -982,7 +982,7 @@ items:
     meleeMultiplier:
       melee: 1.0
       flatHundred: 0.0
-    listOrder: 310
+    listOrder: 370
     requires:
       - STR_STUN_GEAR
 
@@ -1008,7 +1008,7 @@ items:
     invWidth: 2
     invHeight: 3
     recoveryPoints: 4
-    listOrder: 320
+    listOrder: 380
   - type: STR_WEBBER_AMMO_AC
     categories: [STR_CAT_GRAVGUN, STR_CAT_TACTICAL]
     requires:
@@ -1034,7 +1034,7 @@ items:
       ToHealth: 0.0
       ToStun: 1.0
       ToWound: 0.0
-    listOrder: 330
+    listOrder: 390
 
   - &STR_FLAMETHROWER
     type: STR_FLAMETHROWER_AC
@@ -1063,7 +1063,7 @@ items:
     armor: 30
     autoShots: 6
     attraction: 7
-    listOrder: 340
+    listOrder: 400
     requires:
       - STR_FLAMER_AC
    
@@ -1096,7 +1096,7 @@ items:
     explosionSpeed: 10
     armor: 15
     attraction: 7
-    listOrder: 350
+    listOrder: 410
     requires:
       - STR_FLAMER_AC
 
@@ -1109,7 +1109,7 @@ items:
     bigSprite: {mod: 40k, index: 1114}
     floorSprite: {mod: 40k, index: 1114}
     handSprite: {mod: 40k, index: 1888}
-    listOrder: 360
+    listOrder: 420
 
   - type: STR_STUB_RIFLE_CHAOS_AC
     refNode: *STR_BALLISTIC_WEAPON_STUB_RIFLE
@@ -1119,7 +1119,7 @@ items:
     bigSprite: {mod: 40k, index: 1109}
     floorSprite: {mod: 40k, index: 1109}
     handSprite: {mod: 40k, index: 1872}
-    listOrder: 370
+    listOrder: 430
 
   - type: STR_STUB_SMG_CHAOS_AC
     refNode: *STR_SMG_STUB
@@ -1128,7 +1128,7 @@ items:
     handSprite: {mod: 40k, index: 1888}
     requires:
       - STR_GENERAL_LOCK_AC
-    listOrder: 380
+    listOrder: 440
 
   - type: STR_AUTOPISTOL_CHAOS_AC
     refNode: *STR_BALLISTIC_WEAPON_AUTO_PISTOL
@@ -1138,7 +1138,7 @@ items:
     bigSprite: {mod: 40k, index: 1017}
     floorSprite: {mod: 40k, index: 1017}
     handSprite: {mod: 40k, index: 1136}
-    listOrder: 390
+    listOrder: 450
 
   - type: STR_AUTOGUN_CHAOS_AC
     refNode: *STR_BALLISTIC_WEAPON_AUTO_GUN
@@ -1147,7 +1147,7 @@ items:
     bigSprite: {mod: 40k, index: 1016}
     floorSprite: {mod: 40k, index: 1016}
     handSprite: {mod: 40k, index: 1128}
-    listOrder: 400
+    listOrder: 460
 
   - type: STR_AUTOGUN_CHAOS_AC
     refNode: *STR_GUN_BUTT
@@ -1159,7 +1159,7 @@ items:
     bigSprite: {mod: 40k, index: 1122}
     floorSprite: {mod: 40k, index: 1122}
     handSprite: {mod: 40k, index: 1920}
-    listOrder: 410
+    listOrder: 470
     tags:
       ITEM_RECOIL: 0 # AI can't handle that
 
@@ -1171,7 +1171,7 @@ items:
     bigSprite: {mod: 40k, index: 1123}
     floorSprite: {mod: 40k, index: 1123}
     handSprite: {mod: 40k, index: 1928}
-    listOrder: 420
+    listOrder: 480
 
   - type: STR_PUMP_SHOTGUN_CHAOS_AC
     refNode: *STR_PUMP_SHOTGUN
@@ -1179,7 +1179,7 @@ items:
       - STR_GENERAL_LOCK_AC
     costSell: 800
     bigSprite: {mod: 40k_ROSIGMA_edits, index: 2712}
-    listOrder: 420
+    listOrder: 490
 
   - type: STR_LASPISTOL_CHAOS_AC
     refNode: *STR_LASPISTOL
@@ -1191,7 +1191,7 @@ items:
     floorSprite: {mod: 40k, index: 162}
     handSprite: {mod: 40k, index: 544}
     bulletSprite: {mod: 40k, index: 13}
-    listOrder: 430
+    listOrder: 500
 
   - type: STR_LASGUN_CHAOS_AC
     refNode: *STR_LASGUN
@@ -1200,7 +1200,7 @@ items:
     bigSprite: {mod: 40k, index: 296}
     floorSprite: {mod: 40k, index: 164}
     handSprite: {mod: 40k, index: 528}
-    listOrder: 440
+    listOrder: 510
 
   - type: STR_FLAMETHROWER_CHAOS_AC
     refNode: *STR_FLAMETHROWER
@@ -1210,4 +1210,4 @@ items:
     bigSprite: {mod: 40k, index: 1121}
     floorSprite: {mod: 40k, index: 1121}
     handSprite: {mod: 40k, index: 1912}
-    listOrder: 450
+    listOrder: 520

@@ -62,6 +62,15 @@ en-US:
   STR_KHORNE_CULTISTS_FEMCULTIST_CORPSE_AC: "Khorne Cultist Corpse"
   STR_KHORNE_CULTISTS_CULTIST_CORPSE_AC: "Khorne Cultist Corpse"
 
+  STR_KHORNE_CULTISTS_PRIEST_ARMOR_AC: "Khorne Priest"
+  STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR: "Khorne Aspiring Champion"
+  STR_KHORNE_CULTISTS_DARKDISCIPLE_ARMOR_AC: "Khorne Dark Disciple"
+  STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC: "Khorne Cultist Soldier"
+  STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC: "Khorne Female Cultist"
+  STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC: "Khorne Cultist"
+  STR_KHORNE_CULTISTS_AUTOPSY_AC: "Khorne Cultists"
+
+
 ## Facilities
 
   STR_ACCESS_LIFT_AC: "Access Lift"
@@ -173,9 +182,11 @@ en-US:
   STR_SABOTAGE_MISSION_AC: "IMPERIAL PROTECTION"
   STR_SMALL_SCOUT_AC: "Small Scout"
   STR_RIOT_AC: "Riot Suppression"
-  STR_CITY_SUMMONING_LEVEL_1_AC: "Minor Summoning"
+  STR_CITY_SUMMONING_LEVEL_1_AC: "Minor City Summoning"
+  STR_CULTIST_SUMMONING_LEVEL_1_AC: "Minor Suburban Summoning"
   STR_TRAITOR_OUTPOST_AC: "Traitor Guard Outpost"
   STR_PRISON_BREAK_AC: "Prison Break"
+  STR_TRAITOR_OUTPOST: "Traitor Outpost"
 
 ## Research
 
