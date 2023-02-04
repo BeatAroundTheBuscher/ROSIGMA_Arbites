@@ -255,6 +255,13 @@ ufopaedia:
     text: STR_SHOTGUN_UFOPEDIA
     listOrder: 290
 
+  - id: STR_PUMP_SHOTGUN_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1SG.SPK
+    text: STR_SHOTGUN_UFOPEDIA
+    listOrder: 290
+
   - id: STR_HEAVY_STUBBER_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -435,6 +442,13 @@ ufopaedia:
     listOrder: 500
 
   - id: STR_SHOTGUN_CHAOS_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
+    image_id: 1SG.SPK
+    text: STR_SHOTGUN_UFOPEDIA
+    listOrder: 510
+
+  - id: STR_PUMP_SHOTGUN_CHAOS_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 1SG.SPK

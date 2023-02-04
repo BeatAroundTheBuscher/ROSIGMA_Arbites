@@ -565,17 +565,28 @@ items:
     compatibleAmmo:
       - STR_SHOTGUN_SHELLS_AC
     accuracySnap: 66
-    accuracyAimed: 80
     tuSnap: 25
-    tuAimed: 33
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
     listOrder: 210
-    aimRange: 10
     snapRange: 8
     dropoff: 5
+
+  - &STR_PUMP_SHOTGUN
+    type: STR_PUMP_SHOTGUN_AC
+    refNode: *STR_SHOTGUN
+    costBuy: 2000
+    costSell: 800
+    weight: 10 #heavier than combat version
+    bigSprite: {mod: 40k_ROSIGMA_edits, index: 2707}
+    floorSprite: {mod: 40k_ROSIGMA_edits, index: 2708}
+    handSprite: {mod: 40k_ROSIGMA_edits, index: 500}
+    listOrder: 210
+    tuSnap: 30 #slower fire rate
+    snapRange: 10 #better range
+
 
   - type: STR_SHOTGUN_SHELLS_AC #                        10710
     categories: [ STR_CAT_SHOTGUN, STR_CAT_SCOUT]
@@ -1154,13 +1165,20 @@ items:
 
   - type: STR_SHOTGUN_CHAOS_AC
     refNode: *STR_SHOTGUN
-    categories: [STR_CAT_SHOTGUN, STR_CAT_CHAOS]
     requires:
       - STR_GENERAL_LOCK_AC
     costSell: 5000
     bigSprite: {mod: 40k, index: 1123}
     floorSprite: {mod: 40k, index: 1123}
     handSprite: {mod: 40k, index: 1928}
+    listOrder: 420
+
+  - type: STR_PUMP_SHOTGUN_CHAOS_AC
+    refNode: *STR_PUMP_SHOTGUN
+    requires:
+      - STR_GENERAL_LOCK_AC
+    costSell: 800
+    bigSprite: {mod: 40k_ROSIGMA_edits, index: 2712}
     listOrder: 420
 
   - type: STR_LASPISTOL_CHAOS_AC

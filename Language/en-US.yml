@@ -84,6 +84,7 @@ en-US:
   STR_AUTOPISTOL_AC: "Autopistol"
   STR_AUTOPISTOL_CLIP_AC: "Autopistol Magazine"
   STR_SHOTGUN_AC: "Shotgun"
+  STR_PUMP_SHOTGUN_CHAOS_AC: "Pump-Action Shotgun"
   STR_SHOTGUN_SHELLS_AC: "Shotgun Shells"
   STR_FRAG_GRENADE_AC: "Frag Grenade"
   STR_COMBAT_KNIFE_AC: "Combat Knife"
@@ -276,6 +277,7 @@ en-US:
   STR_PHOTON_GRENADE_AC: "Photon Grenade"
   STR_FLAMETHROWER_CHAOS_AC: "Flamethrower (Chaos)"
   STR_SHOTGUN_CHAOS_AC: "Shotgun (Chaos)"
+  STR_PUMP_SHOTGUN_CHAOS_AC: "Pump-Action Shotgun (Chaos)"
   STR_HEAVY_STUBBER_AC_CHAOS: "Heavy Stubber (Chaos)"
 
   STR_STUB_GUN_AMMO_AP_AC: "Stubber Man-Stopper Magazine"
