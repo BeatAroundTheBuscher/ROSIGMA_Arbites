@@ -55,9 +55,8 @@ terrains:
         items:        
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_TZEENTCH_CULT_WITCH_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [4, 6, 1]
-          STR_TZEENTCH_ZEALOT_THRALL_RITUALIST_SPAWNER:
             - [4, 4, 1]
             - [6, 7, 1]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
@@ -82,9 +81,8 @@ terrains:
         items:        
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_TZEENTCH_CULT_WITCH_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [5, 6, 0]
-          STR_TZEENTCH_ZEALOT_THRALL_RITUALIST_SPAWNER:
             - [6, 4, 0]
             - [7, 7, 0]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
@@ -107,10 +105,9 @@ terrains:
         items:        
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_TZEENTCH_CULT_WITCH_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [5, 6, 0]
             - [5, 4, 2]
-          STR_TZEENTCH_ZEALOT_THRALL_RITUALIST_SPAWNER:
             - [5, 7, 0]
             - [6, 4, 0]
             - [7, 4, 0]
@@ -138,9 +135,8 @@ terrains:
         items:        
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_TZEENTCH_CULT_WITCH_RITUALIST_SPAWNER: 
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC: 
             - [4, 6, 2]
-          STR_TZEENTCH_ZEALOT_THRALL_RITUALIST_SPAWNER:
             - [5, 4, 2]
             - [4, 7, 2]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
@@ -163,11 +159,9 @@ terrains:
         items:        
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_NURGLE_CULTIST_LEADER_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [3, 6, 0]
-          STR_GREEN_MONK_RITUALIST_SPAWNER:            
             - [4, 6, 0]
-          STR_GREEN_MONK_RITUALIST_BLESSED_SPAWNER: 
             - [3, 7, 0]
             - [6, 4, 0]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
@@ -194,9 +188,8 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_TZEENTCH_CULT_WITCH_RITUALIST_SPAWNER: 
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC: 
             - [3, 6, 0]
-          STR_TZEENTCH_ZEALOT_THRALL_RITUALIST_SPAWNER:
             - [3, 8, 0]
             - [4, 5, 0]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
@@ -230,12 +223,10 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_NURGLE_CULTIST_LEADER_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [6, 4, 2]
-          STR_GREEN_MONK_RITUALIST_SPAWNER:            
             - [5, 5, 2]
             - [8, 5, 2]
-          STR_GREEN_MONK_RITUALIST_BLESSED_SPAWNER: 
             - [7, 7, 2]
             - [6, 7, 2]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
@@ -259,14 +250,10 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_NURGLE_CULTIST_LEADER_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [6, 4, 1]
-          STR_GREEN_MONK_RITUALIST_SPAWNER:            
             - [5, 5, 1]
             - [8, 5, 1]
-          STR_GREEN_MONK_RITUALIST_BLESSED_SPAWNER: 
-            - [7, 7, 1]
-            - [6, 7, 1]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
             - [6, 9, 1]
             - [7, 9, 1]
@@ -317,7 +304,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [2, 3, 1]
             - [4, 2, 1]
             - [6, 2, 1]
@@ -344,12 +331,10 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_NURGLE_CULTIST_LEADER_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [2, 3, 0]
-          STR_GREEN_MONK_RITUALIST_SPAWNER:            
             - [3, 4, 0]
             - [6, 5, 0]
-          STR_GREEN_MONK_RITUALIST_BLESSED_SPAWNER: 
             - [7, 2, 0]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
             - [1, 5, 0]
@@ -371,15 +356,13 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_NURGLE_CULTIST_LEADER_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [2, 3, 0]
             - [4, 2, 2] 
-          STR_GREEN_MONK_RITUALIST_SPAWNER:              
             - [3, 4, 0]
             - [6, 5, 0]
             - [4, 3, 2]
             - [7, 3, 2]     
-          STR_GREEN_MONK_RITUALIST_BLESSED_SPAWNER: 
             - [7, 2, 0]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
             - [1, 5, 0]
@@ -402,10 +385,9 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_TZEENTCH_CULT_WITCH_RITUALIST_SPAWNER: 
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC: 
             - [5, 2, 1]
             - [5, 3, 2] 
-          STR_TZEENTCH_ZEALOT_THRALL_RITUALIST_SPAWNER:         
             - [7, 3, 1]
             - [3, 2, 1]
             - [4, 3, 2]
@@ -435,7 +417,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [12, 8, 0]
             - [13, 8, 0]
             - [16, 7, 0]
@@ -457,31 +439,22 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [8, 7, 0]   
             - [7, 8, 0]
-          STR_SLAANESH_DEMIMONDE_SPAWNER:
             - [4, 7, 0]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER: 
             - [5, 8, 0]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
             - [6, 9, 0]
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER: #daemonette turn after death
+          STR_SACRIFICE_M1_SPAWNER_AC: #daemonette turn after death
             - [3, 7, 0]          
             - [4, 6, 0] 
             - [5, 6, 0]
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER:
             - [9, 7, 0]    
-          STR_SLAANESH_DEMIMONDE_BLESSED_SACRIFICE_SPAWNER: #double trouble
             - [7, 6, 0]  
             - [8, 6, 0]   
         fuseTimers:
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SACRIFICE_SPAWNER: [0, 0]
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER: [0, 0] 
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER: [0, 0]
+          STR_SACRIFICE_M1_SPAWNER_AC: [0, 0]
       - name: INDUSTRIALURBANCULT31C # Big Building  with Slaanesh cult2x 
         width: 20
         length: 20
@@ -489,15 +462,13 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [5, 8, 0]
             - [4, 7, 0]
             - [12, 7, 0] #room 2          
-          STR_SLAANESH_DEMIMONDE_SPAWNER:
             - [8, 7, 0]
             - [16, 7, 0] #room 2
             - [13, 8, 0] #room 2           
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER: 
             - [7, 8, 0]
             - [15, 8, 0] #room 2
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
@@ -505,30 +476,20 @@ terrains:
             - [10, 7, 0]           
             - [14, 9, 0]
             - [18, 7, 0]
-          STR_SLAANESH_SACRIFICE_F_SPAWNER: #Dire Daemonette
+          STR_SACRIFICE_F0_SPAWNER_AC: #Dire Daemonette
             - [5, 6, 0]  
             - [13, 6, 0]  
-          STR_SLAANESH_SACRIFICE_M_SPAWNER:
             - [7, 6, 0] # room 1 
             - [15, 6, 0]  #room 2            
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER: #daemonette turn after death
             - [4, 6, 0] 
             - [11, 7, 0]  #room 2
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER:
             - [3, 7, 0] 
             - [12, 6, 0]  #room 2 
-          STR_SACRIFICE_F1_SPAWNER_AC:
             - [9, 7, 0]
             - [17, 7, 0]  #room 2
             - [16, 6, 0]   
         fuseTimers:
-          STR_SLAANESH_SACRIFICE_F_SPAWNER: [0, 0]
-          STR_SLAANESH_SACRIFICE_M_SPAWNER: [0, 0]
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER: [0, 0]
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER: [0, 0]
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER: [0, 0]
+          STR_SACRIFICE_F0_SPAWNER_AC: [0, 0]
 
       - name: INDUSTRIALURBANCULT31D # Big Building Sacrifice room on top floor
         width: 20
@@ -537,7 +498,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [10, 9, 2]
             - [11, 10, 2]
             - [13, 11, 2]
@@ -567,32 +528,23 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [10, 9, 2] 
             - [13, 11, 2]            
-          STR_SLAANESH_DEMIMONDE_SPAWNER:
             - [11, 10, 2]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER:
             - [14, 10, 2]
-          STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
             - [14, 13, 2]
             - [9, 11, 2]
           STR_SACRIFICE_F1_SPAWNER_AC: #Daemonette
             - [9, 10, 2]          
-            - [12, 10, 2]          
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER:
+            - [12, 10, 2]   
             - [11, 11, 2] 
             - [13, 9, 2]  
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER:   
+
             - [12, 11, 2] 
-            - [15, 10, 2] 
+            - [15, 10, 2]        
         fuseTimers:
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER: [0, 0]
           STR_SACRIFICE_F1_SPAWNER_AC: [0, 0] 
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER: [0, 0] 
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER: [0, 0] 
       - name: INDUSTRIALURBANCULT31H # Big Building extended
         width: 20
         length: 20
@@ -603,11 +555,10 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_SLAANESH_DEMIMONDE_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [7, 16, 1]
             - [13, 16, 1]
             - [10, 15, 1]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER:
             - [10, 17, 1]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
             - [6, 16, 1]
@@ -615,18 +566,12 @@ terrains:
           STR_SACRIFICE_F1_SPAWNER_AC: #Daemonette
             - [10, 14, 1]          
             - [8, 15, 1]
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER:
             - [12, 15, 1]          
             - [8, 16, 1]
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER:   
             - [10, 16, 1]  
             - [12, 16, 1] 
         fuseTimers:
-          STR_SLAANESH_DEMIMONDE_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER: [0, 0]
           STR_SACRIFICE_F1_SPAWNER_AC: [0, 0] 
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER: [0, 0] 
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER: [0, 0] 
       - name: INDUSTRIALURBANCULT31J # Big Building Sacrifice room on middle floor +2 X rooms
         width: 20
         length: 20
@@ -634,14 +579,12 @@ terrains:
         items:
           STR_CULTIST_SUMMONING_LEVEL_1_TIMER:
             - [0, 0, 0]
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [7, 16, 1]     
             - [13, 16, 1]
-          STR_SLAANESH_DEMIMONDE_SPAWNER:
             - [4, 15, 1] #side room
             - [15, 16, 1] #side room 2
             - [10, 15, 1]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER:
             - [10, 17, 1]
             - [5, 16, 1] #side room
             - [15, 15, 1] #side room 2
@@ -650,34 +593,24 @@ terrains:
             - [14, 16, 1]
             - [4, 14, 1]
             - [16, 14, 1]
-          STR_SLAANESH_SACRIFICE_F_SPAWNER: #Dire Daemonette            
+          STR_SACRIFICE_F1_SPAWNER_AC: #Dire Daemonette            
             - [9, 15, 1]  
             - [11, 15, 1]
             - [8, 16, 1]  
             - [12, 16, 1]
-          STR_SLAANESH_SACRIFICE_M_SPAWNER: #Dire Daemonette            
+        
             - [10, 16, 1]             
-          STR_SACRIFICE_F1_SPAWNER_AC: #Daemonette
             - [3, 17, 1] #side room  
             - [12, 16, 1]   
             - [14, 16, 1] #side room 2
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER:
             - [8, 15, 1] 
             - [16, 17, 1] #side room 2  
             - [3, 16, 1] #side room 
             - [12, 15, 1]  
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER:
             - [5, 5, 1]  #side room 
             - [17, 16, 1] #side room 2 
         fuseTimers:
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER: [0, 0]
-          STR_SLAANESH_SACRIFICE_F_SPAWNER: [0, 0]
-          STR_SLAANESH_SACRIFICE_M_SPAWNER: [0, 0]
           STR_SACRIFICE_F1_SPAWNER_AC: [0, 0] 
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER: [0, 0]
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER: [0, 0] 
       - name: INDUSTRIALURBANCULT31K # Big Building extended garage
         width: 20
         length: 20
@@ -688,9 +621,8 @@ terrains:
         items:
           STR_CULTIST_SUMMONING_LEVEL_1_TIMER:
             - [0, 0, 0]
-          STR_NURGLE_CULTIST_LEADER_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [10, 3, 0]     
-          STR_GREEN_MONK_RITUALIST_SPAWNER:  
             - [9, 4, 0] 
             - [12, 4, 0] 
             - [10, 5, 0]
@@ -706,8 +638,6 @@ terrains:
             - [11, 4, 0] 
             - [8, 5, 0] 
         fuseTimers:
-          STR_NURGLE_CULTIST_LEADER_RITUALIST_SPAWNER: [0, 0]
-          STR_GREEN_MONK_RITUALIST_SPAWNER: [0, 0]
           STR_SACRIFICE_M1_SPAWNER_AC: [0, 0] 
       - name: INDUSTRIALURBANCULT31M # Big Building Sacrifice room on top floor nr2 - Alpha Slaanesh edition
         width: 20
@@ -720,19 +650,14 @@ terrains:
             - [14, 13, 2]
             - [9, 9, 2]      
             - [15, 9, 2]
-          STR_DARK_APOSTLE_ALPHA_RITUALIST_SPAWNER: 
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC: 
             - [12, 10, 2]          
-          STR_ALPHA_DAEMONETTE_RITUALIST_SPAWNER:
             - [11, 10, 2]     
             - [13, 10, 2] 
-          STR_CIVILIAN_HEDONITE_BLESSED_ALPHA_SACRIFICE_SPAWNER:
             - [10, 11, 2]
             - [12, 11, 2]
             - [14, 11, 2]                         
-        fuseTimers:
-          STR_DARK_APOSTLE_ALPHA_RITUALIST_SPAWNER: [0, 0]
-          STR_ALPHA_DAEMONETTE_RITUALIST_SPAWNER: [0, 0]
-          STR_CIVILIAN_HEDONITE_BLESSED_ALPHA_SACRIFICE_SPAWNER: [0, 0]
+       # fuseTimers:
           
       - name: INDUSTRIALURBANCULT32 # castle warehouse
         width: 10
@@ -744,7 +669,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [4, 4, 0]
             - [5, 3, 0]
             - [6, 3, 0]
@@ -768,12 +693,10 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_NURGLE_CULTIST_LEADER_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [5, 5, 2]
-          STR_GREEN_MONK_RITUALIST_SPAWNER:  
             - [5, 3, 2]
             - [7, 3, 2]
-          STR_GREEN_MONK_RITUALIST_BLESSED_SPAWNER: 
             - [6, 6, 2]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
             - [4, 6, 2]
@@ -794,9 +717,8 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_DARK_APOSTLE_ALPHA_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [6, 4, 2]
-          STR_SECTOID_DARK_DISCIPLE_NEVERBORN_RITUALIST_SPAWNER:  
             - [6, 5, 2]
             - [7, 4, 2]
             - [6, 3, 2]
@@ -804,13 +726,13 @@ terrains:
             - [4, 6, 2]
             - [8, 1, 2]
             - [8, 8, 2]
-          STR_CLOAKED_WOMAN_SACRIFICE_SPAWNER: #cloaked woman, can move to attract player attention
+          STR_SACRIFICE_M1_SPAWNER_AC: #cloaked woman, can move to attract player attention
             - [5, 5, 2]
             - [5, 3, 2]
             - [7, 3, 2]
             - [7, 6, 2]
         fuseTimers:
-          STR_CLOAKED_WOMAN_SACRIFICE_SPAWNER: [0, 0]
+          STR_SACRIFICE_M1_SPAWNER_AC: [0, 0]
       - name: INDUSTRIALURBANCULT32E # 4 floor
         width: 10
         length: 10
@@ -821,16 +743,14 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [5, 4, 0]          
-          STR_SLAANESH_DEMIMONDE_SPAWNER:
             - [4, 4, 0]
             - [6, 4, 0]
             - [2, 5, 3]
             - [2, 4, 3]
             - [7, 6, 3]
             - [7, 3, 3]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER:
             - [3, 2, 3] 
             - [6, 2, 3]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
@@ -843,14 +763,14 @@ terrains:
             - [8, 2, 3]                
             - [8, 7, 3]  
             - [7, 8, 3]              
-          STR_SLAANESH_SACRIFICE_M_SPAWNER: #Dire Daemonette   
+          STR_SACRIFICE_M1_SPAWNER_AC: #Dire Daemonette   
             - [2, 3, 0]    
             - [7, 3, 0]                
             - [3, 2, 0]       
             - [6, 2, 0]            
             - [4, 3, 0] 
             - [5, 3, 0] 
-          STR_SLAANESH_SACRIFICE_F_SPAWNER:            
+          STR_SACRIFICE_F1_SPAWNER_AC:            
             - [2, 2, 3]          
             - [4, 2, 3] 
             - [5, 2, 3] 
@@ -864,11 +784,8 @@ terrains:
             - [5, 7, 3] 
             - [7, 7, 3]                        
         fuseTimers:
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER: [0, 0]
-          STR_SLAANESH_SACRIFICE_F_SPAWNER: [0, 0] 
-          STR_SLAANESH_SACRIFICE_M_SPAWNER: [0, 0] 
+          STR_SACRIFICE_M1_SPAWNER_AC: [0, 0] 
+          STR_SACRIFICE_F1_SPAWNER_AC: [0, 0] 
           
       - name: INDUSTRIALURBANCULT33 # wood-fence-surrounded warehouse
         width: 10
@@ -880,7 +797,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [3, 3, 0]
             - [3, 6, 0]
             - [5, 3, 0]
@@ -904,7 +821,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [4, 3, 1]
             - [4, 5, 1]
             - [5, 5, 1]
@@ -926,35 +843,26 @@ terrains:
         items:
           STR_CULTIST_SUMMONING_LEVEL_1_TIMER:
             - [0, 0, 0]
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [5, 5, 2] 
             - [7, 3, 2] 
-          STR_SLAANESH_DEMIMONDE_SPAWNER:
             - [6, 5, 2] 
             - [5, 5, 2]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER:
             - [7, 4, 2] 
             - [4, 6, 2]
           STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC:
             - [4, 7, 2]
             - [6, 7, 2]
             - [4, 3, 2]
-          STR_SLAANESH_SACRIFICE_M_SPAWNER: #Dire Daemonette   
+          STR_SACRIFICE_M0_SPAWNER_AC: #Dire Daemonette   
             - [5, 2, 2]        
             - [5, 4, 2]  
             - [6, 3, 2] 
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER:
             - [6, 2, 2] 
             - [5, 6, 2]     
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER:
             - [6, 6, 2]
         fuseTimers:
-          STR_SLAANGOR_BULLGOR_RITUALIST_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_SPAWNER: [0, 0]
-          STR_SLAANESH_DEMIMONDE_BLESSED_SPAWNER: [0, 0]
-          STR_SLAANESH_SACRIFICE_M_SPAWNER: [0, 0] 
-          STR_CIVILIAN_HEDONITE_SACRIFICE_SPAWNER: [0, 0] 
-          STR_CIVILIAN_HEDONITE_BLESSED_SACRIFICE_SPAWNER: [0, 0] 
+          STR_SACRIFICE_M0_SPAWNER_AC: [0, 0]
       - name: INDUSTRIALURBANCULT33F # 1 floor decoy
         width: 10
         length: 10          
@@ -965,13 +873,12 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_TZEENTCH_CULT_WITCH_RITUALIST_SPAWNER: 
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC: 
             - [3, 4, 0]
             - [4, 5, 0] 
             - [4, 3, 0] 
             - [5, 5, 0] 
             - [5, 3, 0]             
-          STR_TZEENTCH_ZEALOT_THRALL_RITUALIST_SPAWNER:         
             - [3, 6, 0]
             - [4, 2, 0]
             - [6, 6, 0]
@@ -994,7 +901,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [1, 3, 0]
             - [3, 3, 0]
             - [2, 5, 0]
@@ -1016,7 +923,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [7, 5, 1]
             - [6, 5, 1]
             - [7, 6, 1]
@@ -1039,7 +946,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [7, 5, 1]
             - [6, 5, 1]
             - [7, 6, 1]
@@ -1070,7 +977,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [4, 3, 0]
             - [6, 3, 0]
             - [6, 5, 0]
@@ -1092,7 +999,7 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [4, 3, 0]
             - [6, 3, 0]
             - [6, 5, 0]
@@ -1117,9 +1024,8 @@ terrains:
         items:
           STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC:
             - [0, 0, 0]
-          STR_NURGLE_CULTIST_LEADER_RITUALIST_SPAWNER:
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
             - [4, 3, 0]
-          STR_GREEN_MONK_RITUALIST_SPAWNER:
             - [6, 3, 0]
             - [6, 5, 0]
             - [3, 5, 0]
@@ -1153,3 +1059,22 @@ terrains:
         width: 10
         length: 10
         groups: 13
+
+
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 7
+        items:
+          STR_CULTIST_SUMMONING_LEVEL_1_TIMER_AC:
+            - [0, 0, 0]
+          STR_CULTIST_SUMMONING_LEVEL_1_TICKER_AC:
+            - [0, 0, 0]
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
+            - [4, 3, 0]
+            - [6, 6, 0]
+        randomizedItems:
+          - position: [4, 4, 0]
+            amount: 1
+            itemList:
+              - STR_CULTIST_SUMMONING_DAEMON_SPAWNER_AC # ??????

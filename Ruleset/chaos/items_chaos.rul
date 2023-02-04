@@ -32,6 +32,8 @@ items:
     battleType: 4
     hitAnimation: {mod: 40k, index: 1990}
     armor: 255
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: -1 
 
   - type: STR_CULTIST_SUMMONING_LEVEL_1_TIMER_AC
     recover: false
@@ -72,3 +74,28 @@ items:
     tags:
       ITEM_PRIMED_AT_BATTLE_START: 1
       ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 2
+
+
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_AC
+    recover: false
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    damageType: 3
+    power: 200
+    damageAlter:
+      RandomType: 3
+      FixRadius: 1
+      ToArmor: 0.0
+      ToHealth: 0.0
+      ToItem: 2.0
+      ToStun: 0.0
+      ToWound: 0.0
+      ToTile: 1.0
+    explosionHitSound: {mod: 40k, index: 737}
+    hitAnimation: {mod: 40k, index: 1992}
+    armor: 255
+    hiddenOnMinimap: true
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: 1
+      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 1

@@ -378,14 +378,14 @@ alienDeployments:
     abortPenalty: 100
     data:
       - alienRank: 2
-        lowQty: 0
-        highQty: 0 #1
+        lowQty: 2
+        highQty: 2 #1
         dQty: 1
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
       - alienRank: 3
-        lowQty: 1
-        highQty: 1 #2
+        lowQty: 5
+        highQty: 5 #2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
@@ -395,10 +395,10 @@ alienDeployments:
         dQty: 2
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
-      - alienRank: 5
-        lowQty: 7 #6
-        highQty: 7 #8
-        dQty: 3
+      - alienRank: 5 # there is enough of them
+        lowQty: 0
+        highQty: 0
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
     reinforcements:

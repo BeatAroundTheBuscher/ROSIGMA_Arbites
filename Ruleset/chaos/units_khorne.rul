@@ -258,21 +258,7 @@ units:
     value: 8
     moraleLossWhenKilled: 50
     builtInWeaponSets:
-      - - STR_STUB_GUN_CHAOS_AC
-        - STR_STUB_GUN_AMMO_AC
-        - STR_STUB_GUN_AMMO_AC
-        - STR_COMBAT_KNIFE_AC
-        - STR_MAKESHIFT_GRENADE_AC
-      - - STR_STUB_SMG_CHAOS_AC
-        - STR_STUB_SMG_AMMO_AC
-        - STR_STUB_SMG_AMMO_AC
-        - STR_MAKESHIFT_GRENADE_AC
-      - - STR_AUTOGUN_CHAOS_AC
-        - STR_AUTOGUN_CLIP_AC
-        - STR_SMOKE_GRENADE_AC
-        - STR_FRAG_GRENADE_AC
-      - - STR_LASPISTOL_CHAOS_AC
-        - STR_LASPISTOL_CLIP_AC
-        - STR_LASPISTOL_CLIP_AC
-        - STR_COMBAT_KNIFE_AC
-        - STR_ALIEN_GRENADE_AC
+      - - STR_COMBAT_KNIFE_AC
+      - - STR_COMBAT_KNIFE_AC
+      - - STR_COMBAT_KNIFE_AC
+      - - STR_COMBAT_KNIFE_AC
