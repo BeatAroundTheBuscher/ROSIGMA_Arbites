@@ -1,0 +1,71 @@
+items:
+  - type: STR_STIMPAK_AC # ToDo: name will be changed
+    tags:
+      ITEM_REDUCE_HEALTH_ON_USE: 10
+
+
+extended:
+  tags:
+    BattleUnit:
+      UNIT_REDUCED_HEALTH_BY: int # only shows correctly on returnFromMissionUnit
+    RuleItem:
+      ITEM_REDUCE_HEALTH_ON_USE: int
+
+  scripts:
+    healUnit: # doesn't work as part of items
+      - new: AC_healU_reduce_health_on_use;
+        offset: 11
+        code: |
+          var int temp;
+          var int reduceHealthBy;
+          var int soldierHealth;
+          var ptre GeoscapeSoldier geoSoldier;
+
+          item.getTag reduceHealthBy Tag.ITEM_REDUCE_HEALTH_ON_USE;
+
+          if eq reduceHealthBy 0;
+            return;
+          end;
+
+           # debug_log "reduced health run";
+
+          target.getGeoscapeSoldier geoSoldier;
+
+          if neq geoSoldier null;
+            target.getTag temp Tag.UNIT_REDUCED_HEALTH_BY;
+            geoSoldier.Stats.getHealth soldierHealth;
+
+            sub soldierHealth temp;
+            sub soldierHealth reduceHealthBy;
+
+            if le temp 0; # kill if max health is below 0
+              target.setHealth 0;
+            end;
+
+            add temp reduceHealthBy;
+            target.setTag Tag.UNIT_REDUCED_HEALTH_BY temp;
+
+            mul reduceHealthBy -1; # negative
+            target.Stats.addHealth reduceHealthBy;
+
+            mul reduceHealthBy -2; # positive again
+            target.addHealth reduceHealthBy; # overboost possible?
+
+            # debug_log "reduced health acted";
+
+          end;
+
+          return;
+
+    returnFromMissionUnit:
+      - new: AC_rFMU_reduce_health_on_use;
+        offset: 11
+        code: |
+          var int temp;
+
+          unit.getTag temp Tag.UNIT_REDUCED_HEALTH_BY;
+          mul temp -1;
+
+          debug_log "AC_rFMU_reduce_health_on_use addHealth" temp;
+          soldier.Stats.addHealth temp;
+          return;

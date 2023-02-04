@@ -1,0 +1,24 @@
+items:
+  - type: STR_STIMPAK_AC # name will be changed
+    size: 0.1
+    costSell: 500
+    transferTime: 48
+    weight: 3
+    bigSprite: 210
+    floorSprite: 210
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    painKiller: 1
+    medikitType: 3
+    # heal: 1
+    # stimulant: 0
+    # woundRecovery: 2
+    # healthRecovery: 6
+    # stunRecovery: 4
+    # energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+    medikitTargetSelf: true
+    isConsumable: true
+    categories: [STR_GOODS, STR_HEALTH_ITEMS]
