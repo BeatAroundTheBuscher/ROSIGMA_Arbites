@@ -1,5 +1,5 @@
 items:
-  - type: STR_STIMPAK_AC # name will be changed
+  - type: STR_STIMPAK_AC # ToDo: name will be changed
     size: 0.1
     costSell: 500
     transferTime: 48

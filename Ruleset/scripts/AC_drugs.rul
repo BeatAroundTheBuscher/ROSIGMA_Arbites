@@ -38,7 +38,7 @@ extended:
             sub soldierHealth temp;
             sub soldierHealth reduceHealthBy;
 
-            if le temp 0; # kill if max health is below 0
+            if le soldierHealth 0; # kill if max health is below 0
               target.setHealth 0;
             end;
 
