@@ -6,4 +6,4 @@ id: 40k_Arbites_Campaign
 master: 40k
 isMaster: false
 # resourceConfig: Ruleset/vars40k.rul
-# reservedSpace: 3
+reservedSpace: 3 # ToDo, change indices so this is not necessary

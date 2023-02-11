@@ -93,7 +93,7 @@ en-US:
   STR_AUTOPISTOL_AC: "Autopistol"
   STR_AUTOPISTOL_CLIP_AC: "Autopistol Magazine"
   STR_SHOTGUN_AC: "Shotgun"
-  STR_PUMP_SHOTGUN_CHAOS_AC: "Pump-Action Shotgun"
+  STR_PUMP_SHOTGUN_AC: "Pump-Action Shotgun"
   STR_SHOTGUN_SHELLS_AC: "Shotgun Shells"
   STR_FRAG_GRENADE_AC: "Frag Grenade"
   STR_COMBAT_KNIFE_AC: "Combat Knife"

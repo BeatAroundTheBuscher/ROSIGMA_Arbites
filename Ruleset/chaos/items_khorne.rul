@@ -31,8 +31,8 @@ items:
 
   - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_CORPSE_AC
     refNode: *STR_CORPSE
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 2871}
-    floorSprite: {mod: 40k_ROSIGMA_edits, index: 2871}
+    bigSprite: 2871
+    floorSprite: 2871
 
   - type: STR_KHORNE_CULTISTS_SOLDIER_CORPSE_AC
     refNode: *STR_CORPSE

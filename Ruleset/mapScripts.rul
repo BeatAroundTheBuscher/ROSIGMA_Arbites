@@ -191,3 +191,23 @@ mapScripts:
       direction: both
       tunnelData:
         level: 1
+
+
+  - type: CATACOMB_SCRIPT
+    commands:
+    - type: addBlock
+      blocks: [0]
+      size: 2
+      executions: 1
+    - type: addBlock
+      blocks: [4]
+      size: 2
+      executions: 1
+    - type: addBlock
+      blocks: [5]
+      size: 2
+      executions: 1
+    - type: fillArea
+      blocks: [1, 2, 3, 6, 7]
+      freqs: [2, 2, 1, 2, 1]
+      # maxUses: [3, 3, 3, 3, 2] # designed with map size 50x50 in mind

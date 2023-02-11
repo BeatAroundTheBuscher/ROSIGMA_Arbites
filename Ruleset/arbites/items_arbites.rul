@@ -55,7 +55,7 @@ items:
     bulletSpeed: 30
     attraction: 1
     listOrder: 30
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1001}
+    bigSprite: 1001
     compatibleAmmo:
       - STR_STUB_GUN_AMMO_AC
       - STR_STUB_GUN_AMMO_AP_AC
@@ -72,7 +72,7 @@ items:
     costBuy: 2000
     costSell: 400
     weight: 10
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1000}
+    bigSprite: 1000
     floorSprite: {mod: 40k, index: 1108}
     handSprite: {mod: 40k, index: 1864}
     bulletSprite: {mod: 40k, index: 1}
@@ -95,7 +95,7 @@ items:
     costBuy: 150
     costSell: 50
     weight: 2
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1002}
+    bigSprite: 1002
     floorSprite: {mod: 40k, index: 1118}
     handSprite: {mod: 40k, index: 1896}
     hitSound: {mod: 40k, index: 22}
@@ -116,7 +116,7 @@ items:
 
   - type: STR_STUB_GUN_AMMO_AP_AC
     refNode: *STR_STUBBERS_AMMO
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1003}
+    bigSprite: 1003
     listOrder: 60
     costBuy: 3000 #hotshot cells cost 4000, has 20 ammo capacity or 10 with aimed mode for longlas
     costSell: 250
@@ -134,7 +134,7 @@ items:
 
   - type: STR_STUB_GUN_AMMO_WOUND_AC
     refNode: *STR_STUBBERS_AMMO
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1004}
+    bigSprite: 1004
     listOrder: 70
     costBuy: 2000 
     costSell: 250
@@ -154,7 +154,7 @@ items:
 
   - type: STR_STUB_GUN_AMMO_HP_AC
     refNode: *STR_STUBBERS_AMMO
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1005}
+    bigSprite: 1005
     listOrder: 80
     costBuy: 2000 
     costSell: 250
@@ -169,7 +169,7 @@ items:
 
   - type: STR_STUB_GUN_AMMO_INC_AC
     refNode: *STR_STUBBERS_AMMO
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 1006}
+    bigSprite: 1006
     listOrder: 90
     costBuy: 500
     costSell: 125
@@ -193,7 +193,7 @@ items:
     costBuy: 500
     costSell: 360
     weight: 5
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 2704}
+    bigSprite: 2704
     floorSprite: {mod: 40k, index: 1110}
     handSprite: {mod: 40k, index: 1880}
     bulletSprite: {mod: 40k, index: 1}
@@ -507,7 +507,7 @@ items:
     categories: [ STR_CAT_GRENADES]
     size: 0.1
     weight: 3
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 2714}
+    bigSprite: 2714
     floorSprite: {mod: 40k, index: 304}
     handSprite: {mod: 40k, index: 904}
     power: 50
@@ -526,7 +526,7 @@ items:
     categories: [ STR_CAT_GRENADES]
     size: 0.1
     weight: 6
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 2715}
+    bigSprite: 2715
     floorSprite: {mod: 40k, index: 304}
     handSprite: {mod: 40k, index: 904}
     power: 80 # Frag Grenade is 70
@@ -580,9 +580,9 @@ items:
     costBuy: 2000
     costSell: 800
     weight: 10 #heavier than combat version
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 2707}
-    floorSprite: {mod: 40k_ROSIGMA_edits, index: 2708}
-    handSprite: {mod: 40k_ROSIGMA_edits, index: 500}
+    bigSprite: 2707
+    floorSprite: 2708
+    handSprite: 500
     listOrder: 230
     tuSnap: 30 #slower fire rate
     snapRange: 10 #better range
@@ -746,9 +746,9 @@ items:
     costBuy: 30000 #Should be a fair bit pricier than both lasguns and heavy stubber, not a general purpose rifle unless bathing in cash
     costSell: 10000
     weight: 15
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 285}
-    floorSprite: {mod: 40k_ROSIGMA_edits, index: 250}
-    handSprite: {mod: 40k_ROSIGMA_edits, index: 304}
+    bigSprite: 285
+    floorSprite: 250
+    handSprite: 304
     bulletSprite: {mod: 40k, index: 6}
     fireSound: {mod: 40k, index: 707}
     compatibleAmmo: #No EX or Mastercraft rounds
@@ -1123,7 +1123,7 @@ items:
 
   - type: STR_STUB_SMG_CHAOS_AC
     refNode: *STR_SMG_STUB
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 2713}
+    bigSprite: 2713
     floorSprite: {mod: 40k, index: 1114}
     handSprite: {mod: 40k, index: 1888}
     requires:
@@ -1178,7 +1178,7 @@ items:
     requires:
       - STR_GENERAL_LOCK_AC
     costSell: 800
-    bigSprite: {mod: 40k_ROSIGMA_edits, index: 2712}
+    bigSprite: 2712
     listOrder: 490
 
   - type: STR_LASPISTOL_CHAOS_AC

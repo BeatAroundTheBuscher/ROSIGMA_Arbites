@@ -8,6 +8,26 @@
       ## FilipH/Nuclear World
       210: Resources/Bigobs/bigob_Stimpak.png
 
+      ## ROSIGMA
+      285: Resources/Bigobs/BOLTERSOLO_GUARD_BIGOB.png
+      1000: Resources/Bigobs/bigobs_stub_rifle.png
+      1001: Resources/Bigobs/bigobs_stub_pistol.png
+      1002: Resources/Bigobs/bigobs_stub_magazine.png
+      1003: Resources/Bigobs/bigobs_stub_magazine_ap.png
+      1004: Resources/Bigobs/bigobs_stub_magazine_bleeder.png
+      1005: Resources/Bigobs/bigobs_stub_magazine_hp.png
+      1006: Resources/Bigobs/bigobs_stub_magazine_tracer.png
+      2703: Resources/Bigobs/BIGOB_GSC_HEAVY_STUBBER.png
+      2704: Resources/Bigobs/BIGOB_GSC_SMG_STUBBER.png
+      2705: Resources/Bigobs/BIGOB_GSC_HEAVY_WEBBER.png
+      2706: Resources/Bigobs/BIGOB_GSC_WEBBER_PISTOL.png
+      2707: Resources/Bigobs/BIGOB_GSC_PUMP_SHOTGUN.png
+      2712: Resources/Bigobs/BIGOB_CHAOS_PUMP_SHOTGUN.png
+      2713: Resources/Bigobs/BIGOB_CHAOS_SMG_STUBBER.png
+      2714: Resources/Bigobs/bigob_makeshift_grenade.png
+      2715: Resources/Bigobs/bigob_makeshift_pipebomb.png
+      2871: Resources/FOES/BigOBDarkDisciple.png
+
   - type: FLOOROB.PCK
     files:
 
@@ -15,6 +35,24 @@
       210: Resources/Floorobs/floorob_Stimpak.png
 
       300: Resources/Floorobs/floorob_riot_shield.png
+
+      # ROSIGMA
+      250: Resources/Floorobs/BOLTERSOLO_GUARD_FLOOROB.png
+      2708: Resources/Floorobs/FLOOROB_GSC_PUMP_SHOTGUN.png
+      2871: Resources/FOES/floorob_darkdisciple.png
+
+
+
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      300: Resources/Handobs/handob_riot_shield.png
+      # ROSIGMA
+      304: Resources/Handobs/BOLTERSOLO_GUARD_HANDOB.png
+      500: Resources/Handobs/HANDOB_GSC_PUMP_SHOTGUN.png
 
   - type: INTICON.PCK
     files:
@@ -33,19 +71,12 @@
   - typeSingle: ENF__3__RIOT_SHIELD
     fileSingle: Resources/UnitSprites/Layers/riot_shield.png
 
-  - type: HANDOB.PCK
-    height: 40
-    width: 256
-    subX: 32
-    subY: 40
-    files:
-      300: Resources/Handobs/handob_riot_shield.png
-
   - type: SPICONS.DAT
     width: 32
     height: 24
     files:
       0: Resources/Spicons/spicon_judge.png
+      202: Resources/Spicons/spicon_boom.png
 
   - type: CustomArmorPreviews
     width: 12
@@ -88,6 +119,14 @@
     files:
       0: Resources/UnitSprites/Armors/Penitent_F.png
 
+  - type: PENITENTS_BROWN.PCK #PENAL
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/penitents_brown.png
+
   - type: PENITENTS_BROWN_F.PCK
     width: 512
     height: 720
@@ -95,3 +134,55 @@
     subY: 40
     files:
       0: Resources/UnitSprites/penitents_brown_f.png
+
+  - typeSingle: 20__1__PENALM_BROWN
+    fileSingle: Resources/UnitSprites/Armors/OM_brown.png
+  - typeSingle: 20__1__PENALMB_BROWN
+    fileSingle: Resources/UnitSprites/Armors/OMB_brown.png
+  - typeSingle: 20__1__PENALMC_BROWN
+    fileSingle: Resources/UnitSprites/Armors/OMC_brown.png
+  - typeSingle: 20__1__PENALF_BROWN
+    fileSingle: Resources/UnitSprites/Armors/OF_brown.png
+  - typeSingle: 20__1__PENALFB_BROWN
+    fileSingle: Resources/UnitSprites/Armors/OFB_brown.png
+  - typeSingle: 20__1__PENALFC_BROWN
+    fileSingle: Resources/UnitSprites/Armors/OFC_brown.png
+
+
+## KHORNE
+
+  - type: FEMCULTIST.PCK #Red Fem Cultist Outfit
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/UnitSprites/FEMCULTIST.png
+
+  - type: CULTIST_ASPIRING_BS.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/UnitSprites/CULTIST_ASPIRING_BS.png
+
+  - type: DARKDISCIPLE_BS.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/UnitSprites/DARKDISCIPLE_BS.png
+
+## Codex
+
+  - type: BOLTER_SOLO.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Codex/BOLTER_SOLO_CODEX.png
+
+  - typeSingle: PENAL_LEGION.SPK
+    fileSingle: Resources/Codex/guardsman_penal.png
