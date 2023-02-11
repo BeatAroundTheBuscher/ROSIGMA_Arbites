@@ -25,6 +25,7 @@ en-US:
   STR_PENAL_PRISONER_F: "Prisoner"
   STR_RIOTING_PRISONER: "Rioting Prisoner"
   STR_PENAL_CORPSE_AC: "Corpse"
+  STR_PENAL_ARMOR_BROWN_UC_UFOPEDIA: "{NEWLINE} Criminals in the Imperial society may be sentenced to military life service. These members of the Penal Legion are considered expendable and no member of the Imperial Guard will flinch if the Penitents perish in battle. They also wear an explosive collar which can be triggered at any time."
 
   STR_RIOTER_M0_AC: "Rioter"
   STR_RIOTER_M1_AC: "Rioter"
@@ -118,6 +119,7 @@ en-US:
   STR_LASPISTOL_CLIP_AC: "Laspistol Power Cell"
 
   STR_BOLTER_LIGHT_AC: "Light Bolter Solo"
+  STR_BOLTER_SOLO_UFOPEDIA: "{NEWLINE} Perinetus Pattern Solo Mark II is unsophisticated and lacks the capability for autofire, allowing it only singleshot firemode. This is made up by the weapon's range, accuracy and reliability in adverse conditions. This pattern of Bolter is intended to be used by normal humans and is sized accordingly. {NEWLINE}{NEWLINE}Recoil: {ALT}20"
 
   STR_ELECTRO_FLARE_AC: "Electro-Flare"
 
@@ -286,6 +288,7 @@ en-US:
   STR_STUN_ROD_AC: "Shock Maul"
   STR_FLAMETHROWER_AC: "Flamethrower"
   STR_PHOSPHOR_GRENADE_AC: "Phosphor Grenade"
+  STR_PHOSPHOR_GRENADE_UFOPEDIA: "{NEWLINE} A favored grenade type by the Adeptas, releasing a cloud of flesh searing phosphorous, it is highly effective against unprotected targets. Designed to wound, inflict morale damage and provide some smoke cover over a medium area, Phosphor Grenades are multipurpose and can be used to flush out enemies as well as provide cover for an assault."
   STR_PHOTON_GRENADE_AC: "Photon Grenade"
   STR_FLAMETHROWER_CHAOS_AC: "Flamethrower (Chaos)"
   STR_SHOTGUN_CHAOS_AC: "Shotgun (Chaos)"
