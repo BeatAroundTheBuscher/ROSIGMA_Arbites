@@ -106,8 +106,8 @@
     width: 320
     height: 200
     files:
-#      0: Resources/Backgrounds/ArbitesBG.png
-      0: Resources/Backgrounds/169.gif
+      0: Resources/Backgrounds/mainmenu.png
+      # changed palette index 15 to 191 for 169.gif
 
   - type: PENITENT_M.SPK
     singleImage: true
