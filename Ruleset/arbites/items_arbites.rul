@@ -486,22 +486,136 @@ items:
     listOrder: 190
     throwRange: 20
 
+
+  - type: STR_SMOKE_GRENADE_AC
+    categories: [ STR_CAT_GRENADES, STR_CAT_TACTICAL]
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+    requiresBuyBaseFunc: [IMPERIUM]
+    size: 0.1
+    costBuy: 1500
+    costSell: 1200
+    explosionHitSound: {mod: 40k, index: 792}
+    hitAnimation:  {mod: 40k, index: 104}
+    weight: 3
+    bigSprite: {mod: 40k, index: 287}
+    floorSprite: {mod: 40k, index: 20}
+    handSprite: {mod: 40k, index: 512}
+    power: 60
+    damageType: 9
+    battleType: 4
+    blastRadius: 5
+    invWidth: 1
+    invHeight: 2
+    listOrder: 13700
+    throwRange: 20
+
   - type: STR_PROXIMITY_GRENADE_AC
     requiresBuy:
       - STR_GENERAL_LOCK_AC
+    categories: [ STR_CAT_GRENADES, STR_CAT_TACTICAL]
+    requiresBuyBaseFunc: [IMPERIUM]
+    size: 0.1
+    costBuy: 15000
+    costSell: 7500
+    weight: 3
+    bigSprite: {mod: 40k, index: 288}
+    floorSprite: {mod: 40k, index: 21}
+    handSprite: {mod: 40k, index: 520}
+    power: 70
+    damageType: 3
+    battleType: 5
+    blastRadius: 5
+    invWidth: 1
+    invHeight: 2
+    listOrder: 13800
+    throwRange: 20
 
-  - type: STR_SMOKE_GRENADE_AC
+  - type: STR_HAYWIRE_MINE_AC
     requiresBuy:
-      - STR_ARBITES_CAMPAIGN
+      - STR_GENERAL_LOCK_AC
+    categories: [ STR_CAT_GRENADES, STR_CAT_TACTICAL]
+    size: 0.1
+    weight: 20
+    bigSprite: {mod: 40k, index: 657}
+    floorSprite: {mod: 40k, index: 666}
+    handSprite: {mod: 40k, index: 1782}
+    power: 100
+    damageAlter:
+      RandomType: 2 #TFTD [50% - 150%]
+      ToArmor: 1.5
+      ToHealth: 1.5
+      ToStun: 1.5
+      ArmorEffectiveness: 0.5
+    damageType: 4
+    battleType: 5
+    blastRadius: 5
+    invWidth: 2
+    invHeight: 3
+    listOrder: 13800
+    throwRange: 20
 
   - type: STR_PHOTON_GRENADE_AC
+    categories: [ STR_CAT_GRENADES, STR_CAT_TACTICAL]
+    requiresBuyBaseFunc: [IMPERIUM]
     requiresBuy:
-#      - STR_ARBITES_CAMPAIGN
       - STR_STUN_GEAR
+    size: 0.1
+    costBuy: 12000
+    costSell: 6000
+    weight: 4
+    bigSprite: {mod: 40k, index: 1009}
+    floorSprite: {mod: 40k, index: 1009}
+    handSprite: {mod: 40k, index: 1072}
+    bulletSprite: {mod: 40k, index: 21}
+    maxRange: 12
+    arcingShot: true
+    clipSize: 1
+    accuracyMultiplier:
+      firing: 0.0
+      throwing: 1.0
+    power: 50
+    damageType: 6
+    damageAlter:
+      ArmorEffectiveness: 0.5
+      ToStun: 0.4
+      ToTime: 0.8
+      RadiusReduction: 5.0
+    blastRadius: 3
+    battleType: 4 # turn into grenade
+    fuseType: -2
+    invWidth: 1
+    invHeight: 2
+    experienceTrainingMode: 7 #throwing
+    listOrder: 13660
 
   - type: STR_PHOSPHOR_GRENADE_AC
     requiresBuy:
       - STR_GENERAL_LOCK_AC
+    categories: [ STR_CAT_GRENADES, STR_CAT_TACTICAL]
+    size: 0.1
+    costBuy: 10000
+    costSell: 5000
+    explosionHitSound: {mod: 40k, index: 792 } #792 Smoke
+    hitAnimation: {mod: 40k, index: 104 } #XSmoke
+    weight: 3
+    bigSprite: 2025
+    floorSprite: 2051
+    handSprite: 2020
+    battleType: 4
+    invWidth: 1
+    invHeight: 2
+    listOrder: 13701
+    power: 80
+    damageType: 8
+    damageAlter:
+      ToMorale: 0.2
+      ToWound: 0.2
+      ToHealth: 0.3
+      FireThreshold: 40
+    blastRadius: 5
+    throwRange: 17
+
 
   - type: STR_MAKESHIFT_GRENADE_AC
     categories: [ STR_CAT_GRENADES]
@@ -751,10 +865,9 @@ items:
     handSprite: 308
     bulletSprite: {mod: 40k, index: 6}
     fireSound: {mod: 40k, index: 707}
-    compatibleAmmo: #No EX or Mastercraft rounds
-#      - STR_LIGHT_BOLTER_AMMO_SHORT #Short magazines, drawback
-#      - STR_LIGHT_BOLTER_AMMO_SHORT_PEN  #Midtier ammo upgrade
-      - STR_STUB_GUN_AMMO_AC
+    compatibleAmmo: 
+      - STR_BOLTER_LIGHT_CLIP_AC
+      - STR_BOLTER_LIGHT_CLIP_KRAKEN_AC
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -768,7 +881,7 @@ items:
     autoRange: 0
     snapRange: 14
     aimRange: 22
-    requires: 
+    requiresBuy: 
       - STR_LIGHT_BOLTERS_AC
     accuracyAuto: 0
     accuracySnap: 85
@@ -778,6 +891,58 @@ items:
     tuAimed: 50
     tags:
       ITEM_RECOIL: 20
+
+  - &STR_BOLTER_AMMO_SOLO
+    type: STR_BOLTER_LIGHT_CLIP_AC
+    categories: [STR_CAT_BOLTER]
+    requiresBuy: 
+      - STR_LIGHT_BOLTERS_AC
+    size: 0.1
+#    requiresBuyBaseFunc: [TRADE]
+    costBuy: 2000 #Intention is costly ammo vs lasguns
+    costSell: 300
+    weight: 2 #weight less
+    bigSprite: 287
+    floorSprite: {mod: 40k, index: 2}
+    handSprite: {mod: 40k, index: 464}
+    hitSound: {mod: 40k, index: 708}
+    hitAnimation: {mod: 40k, index: 26}
+    explosionSpeed: 5
+    clipSize: 10
+    battleType: 2
+    armor: 100
+    invWidth: 1
+    invHeight: 1
+    listOrder: 19180
+    tags:
+      ITEM_AMMO_COLOR: 5
+    power: 60
+    damageAlter:
+      ToArmorPre: 0.05
+      ArmorEffectiveness: 0.9
+      ToArmor: 0.1
+      ToHealth: 1.1
+      ToStun: 0.5
+    damageType: 1
+
+  - type: STR_BOLTER_LIGHT_CLIP_KRAKEN_AC
+    refNode: *STR_BOLTER_AMMO_SOLO
+    requiresBuy: 
+      - STR_LIGHT_BOLTERS_AC
+    costBuy: 7000 #costs less due to 10 rounds less
+    costSell: 300
+    bigSprite: 288
+    listOrder: 19181
+    tags:
+      ITEM_AMMO_COLOR: 1
+    damageAlter: 
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.02
+      ToArmor: 0.05
+      ToHealth: 1.0
+      ToStun: 0.5
+    power: 60
+    damageType: 1
 
   - type: STR_CMAS_AC
     power: 10 # gets its power from damageBonus

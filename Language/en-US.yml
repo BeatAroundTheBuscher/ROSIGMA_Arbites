@@ -121,6 +121,8 @@ en-US:
 
   STR_BOLTER_LIGHT_AC: "Light Bolter Solo"
   STR_BOLTER_SOLO_UFOPEDIA: "{NEWLINE} Perinetus Pattern Solo Mark II is unsophisticated and lacks the capability for autofire, allowing it only singleshot firemode. This is made up by the weapon's range, accuracy and reliability in adverse conditions. This pattern of Bolter is intended to be used by normal humans and is sized accordingly. {NEWLINE}{NEWLINE}Recoil: {ALT}20"
+  STR_BOLTER_LIGHT_CLIP_AC: "Light Bolter Magazine"
+  STR_BOLTER_LIGHT_CLIP_KRAKEN_AC: "Light Bolter Kraken Magazine"
 
   STR_ELECTRO_FLARE_AC: "Electro-Flare"
 
@@ -129,6 +131,7 @@ en-US:
   STR_KRAK_GRENADE_AC: "Krak Grenade"
   STR_SMOKE_GRENADE_AC: "Smoke Grenade"
   STR_ALIEN_GRENADE_AC: "Blight Grenade"
+  STR_HAYWIRE_MINE_AC: "Haywire Mine"
 
   STR_CMAS_AC: "Bite"
   STR_CMAS_TACKLE_AC: "Tackle"
@@ -286,6 +289,7 @@ en-US:
 
 
   STR_WEBBER_AC: "Webber"
+  STR_WEBBER_AMMO_AC: "Webber Dark Mass"
   STR_STUN_ROD_AC: "Shock Maul"
   STR_FLAMETHROWER_AC: "Flamethrower"
   STR_PHOSPHOR_GRENADE_AC: "Phosphor Grenade"

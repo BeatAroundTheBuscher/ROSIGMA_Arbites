@@ -10,6 +10,8 @@
 
       ## ROSIGMA
       285: Resources/Bigobs/BOLTERSOLO_GUARD_BIGOB.png
+      287: Resources/Bigobs/lightbolter_mag_short_bigob.png
+      288: Resources/Bigobs/lightbolter_mag_short_AP_bigob.png
       1000: Resources/Bigobs/bigobs_stub_rifle.png
       1001: Resources/Bigobs/bigobs_stub_pistol.png
       1002: Resources/Bigobs/bigobs_stub_magazine.png
@@ -17,6 +19,7 @@
       1004: Resources/Bigobs/bigobs_stub_magazine_bleeder.png
       1005: Resources/Bigobs/bigobs_stub_magazine_hp.png
       1006: Resources/Bigobs/bigobs_stub_magazine_tracer.png
+      2025: Resources/Bigobs/Phosphor_Grenade.gif
       2703: Resources/Bigobs/BIGOB_GSC_HEAVY_STUBBER.png
       2704: Resources/Bigobs/BIGOB_GSC_SMG_STUBBER.png
       2705: Resources/Bigobs/BIGOB_GSC_HEAVY_WEBBER.png
@@ -38,6 +41,7 @@
 
       # ROSIGMA
       250: Resources/Floorobs/BOLTERSOLO_GUARD_FLOOROB.png
+      2051: Resources/Floorobs/floorob_Phosphor.gif
       2708: Resources/Floorobs/FLOOROB_GSC_PUMP_SHOTGUN.png
       2871: Resources/FOES/floorob_darkdisciple.png
 
@@ -53,6 +57,7 @@
       # ROSIGMA
       308: Resources/Handobs/BOLTERSOLO_GUARD_HANDOB.png
       500: Resources/Handobs/HANDOB_GSC_PUMP_SHOTGUN.png
+      2020: Resources/Handobs/PHGRENADE.png
 
   - type: INTICON.PCK
     files:

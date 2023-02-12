@@ -36,14 +36,14 @@ armors:
     spriteSheet: ENFORCERM.PCK
     customArmorPreviewIndex: {mod: 40k, index: 45}
     storeItem: STR_ENFORCER_MEDIC_ARMOR_AC
-    weight: 10
+    weight: 5
     specialWeapon: STR_ARMOR_MEDI_KIT_AC
     builtInWeapons:
       - INV_NULL_MEDI_KIT_AC
 
   - type: STR_ENFORCER_HEAVY_ARMOR_AC_UC #DR10 ARBITES SUPORT
     refNode: *STR_BASIC_ENFORCER_ARMOR
-    weight: 10
+    weight: 15
     spriteSheet: ENFORCERH.PCK
     customArmorPreviewIndex: {mod: 40k, index: 48}
     corpseBattle:
