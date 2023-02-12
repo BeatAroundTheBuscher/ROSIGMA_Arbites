@@ -108,24 +108,20 @@ research:
       - STR_GENERAL_LOCK_AC
 
 
-#  - name: STR_SECTOID_CORPSE
-#    cost: 180
-#    points: 50
-#    lookup: STR_SECTOID_AUTOPSY
-#    needItem: true
-
-#  - name: STR_CYBERDISC_CORPSE
-#    unlocks: 
-#      - STR_DAEMON_CORPSE_RESEARCHED
-
-#  - name: STR_SILACOID_CORPSE
-#    unlocks: 
-#      - STR_DAEMON_CORPSE_RESEARCHED
-
   - name: STR_DAEMON_CORPSE_RESEARCHED
     dependencies:
       - STR_GENERAL_LOCK_AC
 
+  - &STR_DAEMON_CORPSE
+    name: STR_BLOODLETTER_DAEMON_CORPSE_AC
+    cost: 100
+    score: 50
+    needItem: true
+    unlocks: 
+      - STR_DAEMON_CORPSE_RESEARCHED
+
+  - type: STR_WINGED_DAEMON_CORPSE_AC
+    refNode: *STR_DAEMON_CORPSE
 
   - name: STR_KHORNE_CULTISTS_CORPSE_AC
     cost: 100

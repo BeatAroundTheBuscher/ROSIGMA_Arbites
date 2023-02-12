@@ -418,12 +418,12 @@ alienDeployments:
         spawnBlockGroups: [7]
         spawnNodeRanks: [8]
         data:
-          - alienRank: 6
-            lowQty: 1
-            highQty: 1
-            dQty: 2
-            percentageOutsideUfo: 0
-            itemSets: [[], [], []]
+#          - alienRank: 6
+#            lowQty: 1
+#            highQty: 1
+#            dQty: 2
+#            percentageOutsideUfo: 0
+#            itemSets: [[], [], []]
           - alienRank: 7
             lowQty: 1
             highQty: 1

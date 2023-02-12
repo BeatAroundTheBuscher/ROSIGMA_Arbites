@@ -208,7 +208,7 @@ en-US:
 
   STR_FIGHTER_CRAFT: "Fighter Craft"
   STR_HEAVY_ARMOR_AC: "Heavy Personal Armor"
-  STR_FLAMER: "Flamethrowers"
+  STR_FLAMER_AC: "Flamethrowers"
   STR_STUN_GEAR: "Stun Equipment"
   STR_STUN_GEAR_TEXT: ""
 
