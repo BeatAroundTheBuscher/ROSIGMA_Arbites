@@ -1,0 +1,37 @@
+# alertSound
+# huntAlertSound
+
+# cat ufos_40k.rul | grep -E "type|alertSound|huntAlertSound" | grep "alertSound:" -B1
+# grep -ER "type|takeoffSound" | grep takeoffSound -B1
+
+selectBaseSound: -1
+startDogfightSound: -1
+
+
+interfaces:
+  - type: errorMessages
+    sound: -1
+  - type: craftPatrol
+    sound: -1
+  - type: confirmCydonia
+    sound: -1
+  - type: confirmLanding
+    sound: -1
+  - type: lowFuel
+    sound: -1
+  - type: alienBase
+    sound: -1
+  - type: itemsArriving
+    sound: -1
+  - type: geoResearchComplete
+    sound: -1
+  - type: geoNewCraft
+    sound: -1
+  - type: geoManufactureComplete
+    sound: -1
+  - type: baseNaming
+    sound: -1
+  - type: monthlyReport
+    sound: -1
+  - type: cannotReequip
+    sound: -1

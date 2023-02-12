@@ -451,7 +451,7 @@ items:
     size: 0.1
     costBuy: 10000
     costSell: 2000
-    weight: 4
+    weight: 3
     bigSprite: {mod: 40k, index: 19}
     floorSprite: {mod: 40k, index: 19}
     handSprite: {mod: 40k, index: 336}
@@ -473,7 +473,7 @@ items:
     size: 0.1
     costBuy: 15000
     costSell: 3000
-    weight: 4
+    weight: 3
     bigSprite: {mod: 40k, index: 101}
     floorSprite: {mod: 40k, index: 70}
     handSprite: {mod: 40k, index: 136}
@@ -748,7 +748,7 @@ items:
     weight: 15
     bigSprite: 285
     floorSprite: 250
-    handSprite: 304
+    handSprite: 308
     bulletSprite: {mod: 40k, index: 6}
     fireSound: {mod: 40k, index: 707}
     compatibleAmmo: #No EX or Mastercraft rounds
@@ -844,7 +844,7 @@ items:
     specialIconSprite: {mod: 40k, index: 202}
     clipSize: 1
     confAimed:
-      name: STR_EXPLOSIVE_COLLAR
+      name: STR_EXPLOSIVE_COLLAR_AC
     costAimed:
       time: 1
     accuracyAimed: 100

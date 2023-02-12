@@ -101,6 +101,30 @@ soldiers:
       psiStrength: 50
       psiSkill: 1 # was 0
       melee: 50
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 60
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
     armor: STR_JUDGE_ARMOR_AC_UC
     rankStrings:
       - STR_JUDGE_RANK_0
