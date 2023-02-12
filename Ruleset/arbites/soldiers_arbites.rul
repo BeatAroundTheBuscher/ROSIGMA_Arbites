@@ -209,9 +209,9 @@ soldiers:
     deathFemale: [{mod: 40k, index: 50}]
     rankStrings:
       - STR_AUXILIARY_RANK
-    rankSprite: {mod: 40k, index: 1005}
-    rankBattleSprite: {mod: 40k, index: 1005}
-    rankTinySprite: {mod: 40k, index: 1005} 
+    rankSprite: 1005
+    rankBattleSprite: 1005
+    rankTinySprite: 1005
     value: 20
 
 #soldierTransformation:

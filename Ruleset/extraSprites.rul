@@ -206,3 +206,30 @@
 
   - typeSingle: PENAL_LEGION.SPK
     fileSingle: Resources/Codex/guardsman_penal.png
+
+
+## Ranks
+
+  - type: BASEBITS.PCK
+    width: 192
+    height: 128
+    subX: 32
+    subY: 32
+    files:
+      1000: Resources/Ranks/ranks_basescape.png
+
+  - type: SMOKE.PCK
+    width: 192
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      1000: Resources/Ranks/ranks_battlescape.png
+
+  - type: TinyRanks
+    width: 42
+    height: 28
+    subX: 7
+    subY: 7
+    files:
+      1000: Resources/Ranks/ranks_tiny.png
