@@ -68,6 +68,8 @@ units:
     aggression: 3
     energyRecovery: 20
     deathSound: [{mod: 40k, index: 41}, {mod: 40k, index: 42}, {mod: 40k, index: 43}]
+    canSurrender: true
+    autoSurrender: true
 
   - type: STR_CIVILIAN_M1_AC
     refNode: *STR_CIVILIAN
@@ -195,6 +197,8 @@ units:
     specab: 1 #explodes on death
     moraleLossWhenKilled: 50
     value: 10
+    canSurrender: true
+    autoSurrender: true
 
   - type: STR_PENAL_PRISONER_F_AC
     refNode: *STR_PENAL_PRISONER
