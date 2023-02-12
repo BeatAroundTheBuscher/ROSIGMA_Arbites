@@ -1,4 +1,4 @@
-# ROSIGMA_Arbites
+# Rosigmunda
 Arbites Campaign
 
 ## Credits

@@ -1,8 +1,8 @@
-name: "40k ROSIGMA - Arbites Campaign"
+name: "40k Rosigmunda"
 version: "0.2"
 author: "Buscher"
-description: "Campaign for the Arbites. Always run with the correct versions of ROSIGMA (2.0B) + 40k (034)"
-id: 40k_Arbites_Campaign
+description: "Campaign for the Arbites. Run with  + 40k (034). Doesn't require ROSIGMA (2.0B)"
+id: 40k_rosigmunda
 master: 40k
 isMaster: false
 # resourceConfig: Ruleset/vars40k.rul
