@@ -72,6 +72,10 @@ en-US:
   STR_KHORNE_CULTISTS_AUTOPSY_AC: "Khorne Cultists"
 
 
+  STR_BLOODLETTER_DAEMON_AC: "Bloodletter Daemon"
+  STR_BLOODLETTER_DAEMON_ARMOR_AC: "Bloodletter Daemon"
+  STR_BLOODLETTER_DAEMON_CORPSE_AC: "Bloodletter Daemon Corpse"
+
 ## Facilities
 
   STR_ACCESS_LIFT_AC: "Access Lift"
@@ -213,7 +217,7 @@ en-US:
   STR_SENTINEL_MISSILE: "Sentinel w/ Missile Pod"
 
   STR_JUDGE_RECRUITMENT: "Arbitrator Requisition"
-  STR_CYBER_MASTIFF_RECRUITMENT: "Cyber Mastif Programming"
+  STR_CYBER_MASTIFF_RECRUITMENT: "Cyber Mastiff Programming"
 
 ## Story
 
@@ -233,7 +237,7 @@ en-US:
   STR_BEGINNING_INVESTIGATION_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
 
   STR_CULTIST_MENACE: "Cultist Menace"
-  STR_CULTIST_MENACE_TEXT: "TODO"
+  STR_CULTIST_MENACE_TEXT: "TODO{NEWLINE}Allows Recruitment of:{NEWLINE}- Judges{NEWLINE}Cybermastiff"
 
   STR_CULTIST_LEADERSHIP: "Cultist Leadership"
   STR_CULTIST_LEADERSHIP_TEXT: "TODO" # Priests supported by CSMs

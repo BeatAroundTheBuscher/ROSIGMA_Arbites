@@ -175,7 +175,6 @@ units:
     kneelHeight: 14
     intelligence: 4
     energyRecovery: 20
-    deathSound: [41, 42, 43]
     builtInWeaponSets:
       - - STR_COMBAT_KNIFE_AC
       - - STR_STUB_GUN_AC
@@ -199,10 +198,12 @@ units:
     value: 10
     canSurrender: true
     autoSurrender: false
+    deathSound: [{mod: 40k, index: 41}, {mod: 40k, index: 42}, {mod: 40k, index: 43}]
 
   - type: STR_PENAL_PRISONER_F_AC
     refNode: *STR_PENAL_PRISONER
     armor: STR_PENAL_ARMOR_BROWN_F_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
 
   - type: STR_TARANTULA_BOLTER_AC
     race: STR_T_BOLTER

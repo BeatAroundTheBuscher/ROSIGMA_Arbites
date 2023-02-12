@@ -40,6 +40,9 @@ items:
     battleType: 11
     recover: true
     recoverCorpse: false
+    power: 75
+    blastRadius: 5
+    specialChance: 20
     
   - type: STR_JUDGE_CORPSE_AC
     name: STR_CORPSE

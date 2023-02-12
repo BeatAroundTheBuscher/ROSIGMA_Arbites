@@ -1355,7 +1355,6 @@ items:
     bigSprite: {mod: 40k, index: 298}
     floorSprite: {mod: 40k, index: 162}
     handSprite: {mod: 40k, index: 544}
-    bulletSprite: {mod: 40k, index: 13}
     listOrder: 500
 
   - type: STR_LASGUN_CHAOS_AC
