@@ -69,7 +69,7 @@ units:
     energyRecovery: 20
     deathSound: [{mod: 40k, index: 41}, {mod: 40k, index: 42}, {mod: 40k, index: 43}]
     canSurrender: true
-    autoSurrender: true
+    autoSurrender: false
 
   - type: STR_CIVILIAN_M1_AC
     refNode: *STR_CIVILIAN
@@ -198,7 +198,7 @@ units:
     moraleLossWhenKilled: 50
     value: 10
     canSurrender: true
-    autoSurrender: true
+    autoSurrender: false
 
   - type: STR_PENAL_PRISONER_F_AC
     refNode: *STR_PENAL_PRISONER
