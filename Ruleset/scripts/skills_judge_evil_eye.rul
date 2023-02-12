@@ -35,7 +35,7 @@ extended:
           sub power braveryDefense;
 
           if gt power 0;
-            battle_game.flashMessage "Judgement {0}" power;
+            battle_game.flashMessage "Judgement successful";
 
             unit.setTag Tag.UNIT_EVIL_EYE_DAMAGE power;
             unit.setTag Tag.UNIT_TURNED_TRAITOR 1;

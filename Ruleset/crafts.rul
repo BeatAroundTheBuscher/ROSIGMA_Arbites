@@ -1,7 +1,5 @@
 crafts:
   - type: STR_ARVUS_AC
-    takeoffSound: {mod: 40k, index: 56} #TURBINE SOUND
-    selectSound: [{mod: 40k, index: 62}, {mod: 40k, index: 63}, {mod: 40k, index: 64}] #REGULAR SOUND
     requiresBuyBaseFunc: [HANGAR]
     # marker: 36
     maxSkinIndex: 0

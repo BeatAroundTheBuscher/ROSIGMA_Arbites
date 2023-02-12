@@ -964,6 +964,7 @@ items:
     invHeight: 3
     flatRate: true
     listOrder: 300
+    weight: 0
 
   - type: STR_CMAS_TACKLE_AC
     bigSprite: 203
@@ -996,6 +997,7 @@ items:
     confMelee:
       name: STR_CMAS_TACKLE
     listOrder: 310
+    weight: 0
 
   - type: STR_EXPLOSIVE_COLLAR_AC
     power: 75 # collar

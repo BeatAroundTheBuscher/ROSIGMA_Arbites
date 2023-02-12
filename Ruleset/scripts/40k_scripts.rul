@@ -190,3 +190,91 @@ extended:
           end;
 
           return bonus;
+
+
+    recolorUnitSprite:
+      #*** Handles periodic recolors due to buffs/debuffs on units ***
+      - new: 40kAC_rUS_buffs_debuffs_recolor
+        offset: 10
+        code: |
+          var int frame;
+          var int frameLength;
+          var int recolorPeriod;
+          var int desync;
+          var int color;
+          var int newShade;
+          var int temp;
+
+          # Check to make sure this unit isn't set to be recolored by a hit first
+          unit.getTag frame Tag.UNIT_RECOLOR_START_FRAME;
+          unit.getTag frameLength Tag.UNIT_RECOLOR_FRAME_LENGTH;
+
+          if neq frame 0;
+
+            set temp anim_frame;
+            sub temp frame;
+
+            if lt temp frameLength;
+
+              return new_pixel;
+
+            end;
+
+          end;
+
+          set recolorPeriod 32;
+          set frameLength 4;
+
+          unit.getTag desync Tag.UNIT_RECOLOR_DESYNC;
+          set frame anim_frame;
+          add frame desync;
+          mod frame recolorPeriod;
+
+          # First, a blue flash if the unit has an energy shield
+          unit.getTag temp Tag.UNIT_ENERGY_SHIELD_HP;
+          set color COLOR_X1_BLUE1;
+          if and neq temp 0 lt frame frameLength;
+
+            set temp frameLength;
+            sub temp frame;
+            mul temp 2; # a parameter that creates a nice flash animation
+            get_shade newShade new_pixel;
+            sub newShade temp;
+
+            if and gt newShade 3 lt newShade 16;
+
+              set_shade new_pixel newShade;
+              set_color new_pixel color;
+
+            end;
+
+            return new_pixel;
+
+          end;
+
+          sub frame frameLength;
+          sub frame 1;
+
+          # Next, a red flash if the unit is a traitor
+          unit.getTag temp Tag.UNIT_TURNED_TRAITOR;
+
+          if and neq temp 0 lt frame frameLength;
+
+            set color COLOR_X1_RED;
+
+            set temp frameLength;
+            sub temp frame;
+            mul temp 2; # a parameter that creates a nice flash animation
+            get_shade newShade new_pixel;
+            sub newShade temp;
+
+            if and gt newShade 3 lt newShade 16;
+
+              set_shade new_pixel newShade;
+              set_color new_pixel color;
+
+            end;
+
+          end;
+
+          return new_pixel;
