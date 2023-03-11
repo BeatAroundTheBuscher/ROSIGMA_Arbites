@@ -5,7 +5,7 @@ extended:
 
   scripts:
     damageUnit: # collect this turn's TU damage
-      - new: ROSIGMUNDA_dU_drain_tu_next_turn
+      - new: ROSIGMUNDA_dU_drain_tu_next_turn # ROSIGMA_dU_drain_tu_next_turn
         offset: 70 # high offset so it runs last # can't be 100 or greater (will create error)
         code: |
           var int tuDrainNextTurn;

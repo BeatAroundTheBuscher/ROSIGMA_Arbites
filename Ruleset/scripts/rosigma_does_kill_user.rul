@@ -5,7 +5,7 @@ extended:
 
   scripts:
     damageUnit: 
-      - new: ROSIGMAAC_dU_item_kills_user
+      - new: ROSIGMUNDA_dU_item_kills_user # ROSIGMA_dU_item_kills_user
         offset: 22 
         code: |
           var ptr RuleItem ruleItem;

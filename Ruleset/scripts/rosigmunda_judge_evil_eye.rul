@@ -15,7 +15,8 @@ extended:
 #    skillUseUnit:
 
     hitUnit:
-    - offset: 1 
+    - new: ROSIGMUNDA_hU_judge_evil_eye
+      offset: 1 
       code: |
         var int judgeSkillId;
         var int temp;
@@ -45,7 +46,8 @@ extended:
         return power part side;
 
     newTurnUnit: # evil eye after effect
-    - offset: 1
+    - new: ROSIGMUNDA_nTU_judge_evil_eye
+      offset: 1
       code: |
         var int evilEyeDamage;
         var int braveryDefense;

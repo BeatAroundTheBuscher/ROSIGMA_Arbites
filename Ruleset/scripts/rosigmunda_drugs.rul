@@ -13,7 +13,7 @@ extended:
 
   scripts:
     healUnit: # doesn't work as part of items
-      - new: AC_healU_reduce_health_on_use;
+      - new: ROSIGMUNDA_healU_reduce_health_on_use;
         offset: 11
         code: |
           var int temp;
@@ -58,7 +58,7 @@ extended:
           return;
 
     returnFromMissionUnit:
-      - new: AC_rFMU_reduce_health_on_use;
+      - new: ROSIGMUNDA_rFMU_reduce_health_on_use;
         offset: 11
         code: |
           var int temp;

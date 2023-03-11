@@ -1,7 +1,7 @@
 extended:
   scripts:
     newTurnUnit:
-      - new: ACAMP_nTU_less_start_tus_on_first_turn
+      - new: ROSIGMUNDA_nTU_less_start_tus_on_first_turn
         offset: 2
         code: |
           var int newTUs;
