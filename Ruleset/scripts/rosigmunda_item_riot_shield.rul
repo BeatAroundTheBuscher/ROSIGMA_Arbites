@@ -7,7 +7,7 @@ extended:
 
   scripts:
     hitUnit:
-    - new: ACAMP_hU_riot_shield_reduces_damage
+    - new: ROSIGMUNDA_hU_riot_shield_reduces_damage
       offset: 1 # Extend Front Armor facing (40k script) + Reduce incoming damage
       code: |   # use Shield Ammo as HP, if HP lower than attack power, shield doesn't protect
         var int unitDirection;
