@@ -225,6 +225,8 @@ ufopaedia:
   - delete: STR_DOUBLE_AMMO
   - delete: STR_DOUSE_FLAMES
   - delete: STR_DREAD_MELEE_WEAPON
+  - delete: STR_DW_CAP_ARMOR_ULTRA_UC
+  - delete: STR_DW_WM_ARMOR_ULTRA_UC
   - delete: STR_ELDARACCESS
   - delete: STR_ELDAR_ARMOR
   - delete: STR_ELDAR_ARMOR2

@@ -156,10 +156,56 @@ armors:
   - delete: STR_DEV_ARMOR_UC
   - delete: STR_DIVINER
   - delete: STR_DREAD_GK_ARMOR_UC
+  - delete: STR_DW_APOT_ARMOR_ULTRA_UC
+  - delete: STR_DW_ASS_ARMOR_BA_UC
+  - delete: STR_DW_ASS_ARMOR_BT_UC
+  - delete: STR_DW_ASS_ARMOR_IF_UC
+  - delete: STR_DW_ASS_ARMOR_SALA_UC
   - delete: STR_DW_ASS_ARMOR_ULTRA_UC
+  - delete: STR_DW_ASS_ARMOR_WS_UC
+  - delete: STR_DW_CAP_ARMOR_BA_UC
+  - delete: STR_DW_CAP_ARMOR_IF_UC
+  - delete: STR_DW_CAP_ARMOR_ULTRA_UC
+  - delete: STR_DW_DEV_ARMOR_BA_UC
+  - delete: STR_DW_DEV_ARMOR_BT_UC
+  - delete: STR_DW_DEV_ARMOR_IF_UC
+  - delete: STR_DW_DEV_ARMOR_SALA_UC
   - delete: STR_DW_DEV_ARMOR_ULTRA_UC
+  - delete: STR_DW_DEV_ARMOR_WS_UC
+  - delete: STR_DW_TAC_ARMOR_BA_UC
+  - delete: STR_DW_TAC_ARMOR_BT_UC
+  - delete: STR_DW_TAC_ARMOR_IF_UC
+  - delete: STR_DW_TAC_ARMOR_SALA_UC
   - delete: STR_DW_TAC_ARMOR_ULTRA_UC
+  - delete: STR_DW_TAC_ARMOR_WS_UC
+  - delete: STR_DW_TASS_ARMOR_BA_UC
+  - delete: STR_DW_TASS_ARMOR_BT_UC
+  - delete: STR_DW_TASS_ARMOR_IF_UC
+  - delete: STR_DW_TASS_ARMOR_SALA_UC
+  - delete: STR_DW_TASS_ARMOR_ULTRA_UC
+  - delete: STR_DW_TASS_ARMOR_WS_UC
+  - delete: STR_DW_TECH_ARMOR_BA_UC
+  - delete: STR_DW_TECH_ARMOR_BT_UC
+  - delete: STR_DW_TECH_ARMOR_IF_UC
+  - delete: STR_DW_TECH_ARMOR_SALA_UC
+  - delete: STR_DW_TECH_ARMOR_ULTRA_UC
+  - delete: STR_DW_TECH_ARMOR_WS_UC
+  - delete: STR_DW_TER_ARMOR_BA_UC
+  - delete: STR_DW_TER_ARMOR_BT_UC
+  - delete: STR_DW_TER_ARMOR_IF_UC
+  - delete: STR_DW_TER_ARMOR_SALA_UC
   - delete: STR_DW_TER_ARMOR_ULTRA_UC
+  - delete: STR_DW_TER_ARMOR_WS_UC
+  - delete: STR_DW_TSARGENT_ARMOR_BA_UC
+  - delete: STR_DW_TSARGENT_ARMOR_BT_UC
+  - delete: STR_DW_TSARGENT_ARMOR_IF_UC
+  - delete: STR_DW_TSARGENT_ARMOR_SALA_UC
+  - delete: STR_DW_TSARGENT_ARMOR_ULTRA_UC
+  - delete: STR_DW_TSARGENT_ARMOR_WS_UC
+  - delete: STR_DW_WM_ARMOR_BA_UC
+  - delete: STR_DW_WM_ARMOR_IF_UC
+  - delete: STR_DW_WM_ARMOR_SALA_UC
+  - delete: STR_DW_WM_ARMOR_ULTRA_UC
   - delete: STR_ELDAR_ARMOR
   - delete: STR_ELDAR_ARMOR2
   - delete: STR_ELDAR_ARMOR2_P
@@ -263,6 +309,8 @@ armors:
   - delete: STR_MKX_BIKE_LV4_UC
   - delete: STR_MKX_BIKE_UC
   - delete: STR_MKX_CHP_UC
+  - delete: STR_MKX_DW_TAC_IF_UC
+  - delete: STR_MKX_DW_TAC_ULTRA_UC
   - delete: STR_MKX_GRV_LV1_UC
   - delete: STR_MKX_GRV_LV2_UC
   - delete: STR_MKX_GRV_LV3_UC

@@ -97,6 +97,7 @@ items:
   - delete: AUX_SENTINEL_STOMP
   - delete: AUX_SERVITOR_KIT
   - delete: AUX_SHIELD
+  - delete: AUX_SHIELD_DW
   - delete: AUX_SHIELDPD
   - delete: AUX_STARCANNON
   - delete: AUX_TANK_CANNON
@@ -320,6 +321,7 @@ items:
   - delete: STR_AMMO_BIT50
   - delete: STR_APOT_ARMOR
   - delete: STR_APOT_CORPSE
+  - delete: STR_APOT_DW_CORPSE
   - delete: STR_ARBITOR_ARMOR
   - delete: STR_ARBITOR_CORPSE
   - delete: STR_ASS_ARMOR
@@ -380,6 +382,7 @@ items:
   - delete: STR_BW_CORPSE
   - delete: STR_CANNON
   - delete: STR_CANNON_ROUNDS_X50
+  - delete: STR_CAP_DW_CORPSE
   - delete: STR_CAPTAIN_CORPSE
   - delete: STR_CAPTAIN_SUIT
   - delete: STR_CARNI_CORPSE
@@ -448,6 +451,7 @@ items:
   - delete: STR_CIVILIAN_M1_CORPSE
   - delete: STR_CLASCAN
   - delete: STR_CLAWS
+  - delete: STR_CLAWS_DW
   - delete: STR_CMAS
   - delete: STR_CMAS_CORPSE
   - delete: STR_COBRA_CANNON
@@ -508,10 +512,8 @@ items:
   - delete: STR_DREAD_MELEE_WEAPON
   - delete: STR_DROPPOD_DEPLOY_CHARGE
   - delete: STR_DSTARCANNON
-  - delete: STR_DW_ASS_ARMOR_UC
-  - delete: STR_DW_DEV_ARMOR_UC
-  - delete: STR_DW_TAC_ARMOR_UC
-  - delete: STR_DW_TER_ARMOR_UC
+  - delete: STR_DW_CAP_ARMOR_UC
+  - delete: STR_DW_WM_ARMOR_UC
   - delete: STR_ELDAR_ARMOR_F
   - delete: STR_ELDAR_BANSHEE
   - delete: STR_ELDAR_CHAINSWORD
@@ -838,6 +840,10 @@ items:
   - delete: STR_MKX_BIKE_DISABLED
   - delete: STR_MKX_CHP_ARMOR
   - delete: STR_MKX_CHP_CORPSE
+  - delete: STR_MKX_DW_GRV_CORPSE
+  - delete: STR_MKX_DW_INC_CORPSE
+  - delete: STR_MKX_DW_PHB_CORPSE
+  - delete: STR_MKX_DW_TAC_CORPSE
   - delete: STR_MKX_GRV_ARMOR
   - delete: STR_MKX_GRV_CORPSE
   - delete: STR_MKX_GRV_CORPSE_Z
@@ -1190,6 +1196,7 @@ items:
   - delete: STR_T_BOLTER_I
   - delete: STR_TECH_ARMOR
   - delete: STR_TECH_CORPSE
+  - delete: STR_TECH_DW_CORPSE
   - delete: STR_TELEKINE_STAFF
   - delete: STR_TELEKINETIC_SHIELD
   - delete: STR_TELEPATH_STAFF
@@ -1224,6 +1231,7 @@ items:
   - delete: STR_TRIPLE_GAUSS_CANNON
   - delete: STR_TRUKK_UFO_DATA
   - delete: STR_TSARGENT
+  - delete: STR_TSARGENT_DW_CORPSE
   - delete: STR_T_SEC
   - delete: STR_T_SEC2
   - delete: STR_TT_SPAWNER
@@ -1258,6 +1266,7 @@ items:
   - delete: STR_WEBBER_AMMO
   - delete: STR_WHIRLWINDPD_SPAWNER
   - delete: STR_WHIRLWIND_SPAWNER
+  - delete: STR_WM_DW_CORPSE
   - delete: STR_WRAITHGUARD_CORPSE
   - delete: STR_WRAITHGUARD_CORPSE_P
   - delete: STR_WRAITH_MELEE_WEAPON
