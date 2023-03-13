@@ -1,7 +1,6 @@
 facilities:
   - delete: STR_ACCESS_LIFT
   - delete: STR_ACCESS_OUTP
-  - delete: STR_ADEPTAS_CONVENT
   - delete: STR_ALIEN_CONTAINMENT
   - delete: STR_APOC_BAY
   - delete: STR_ARMORY
@@ -43,14 +42,9 @@ facilities:
   - delete: STR_MISSILE_DEFENSES
   - delete: STR_OUTPOST
   - delete: STR_OUTPOST_ADEPTAS
-  - delete: STR_OUTPOST_ADEPTAS_HYPER
-  - delete: STR_OUTPOST_ARBITES_HYPER
   - delete: STR_OUTPOST_GK
   - delete: STR_OUTPOST_GUARD
-  - delete: STR_OUTPOST_GUARD_HYPER
   - delete: STR_OUTPOST_MARINES
-  - delete: STR_OUTPOST_MARINES_HYPER
-  - delete: STR_OUTPOST_TEMP_STORAGE
   - delete: STR_PLASMA_DEFENSES
   - delete: STR_POWERG
   - delete: STR_PRISION

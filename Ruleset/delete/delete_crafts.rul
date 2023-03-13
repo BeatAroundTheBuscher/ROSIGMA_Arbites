@@ -1,5 +1,4 @@
 crafts:
-  - delete: STR_ADEPTAS_RHINO_CRAFT
   - delete: STR_ADEPTAS_THUNDERHAWNK
   - delete: STR_ARMOR_COLUMN
   - delete: STR_ARMY_P
@@ -8,16 +7,13 @@ crafts:
   - delete: STR_ARVUS_GK
   - delete: STR_AVENGER
   - delete: STR_AVENGER_ADEPTAS
-  - delete: STR_CASTIGATOR_AUTOCANNON_CRAFT
   - delete: STR_CHAOS_THUNDERHAWNK
   - delete: STR_CHAPTERARMY
   - delete: STR_CHIMERA
-  - delete: STR_CHIMERA_LIGHT_IG
   - delete: STR_CHIMERAPD
   - delete: STR_CHIMERAPDH
   - delete: STR_CORVUS
   - delete: STR_DROP
-  - delete: STR_DROPPODS_ADEPTAS
   - delete: STR_FIRESTORM
   - delete: STR_GORGON
   - delete: STR_GUARD_TRAINING
@@ -34,7 +30,6 @@ crafts:
   - delete: STR_OLDTHUNDERHAWNK
   - delete: STR_REPULSOR
   - delete: STR_REPULSOR_T
-  - delete: STR_RHINO_NO_TT
   - delete: STR_SKYRANGER
   - delete: STR_SPEEDC
   - delete: STR_STORMEAGLE
@@ -63,6 +58,5 @@ crafts:
   - delete: STR_VALKYRIE_TANITH_CONVOYAMBUSH
   - delete: STR_VALKYRIE_TANITH_MISSION0
   - delete: STR_VULTURE
-  - delete: STR_VULTURE_IG
   - delete: STR_WAVESERPENT
   - delete: STR_XIPHON_GK

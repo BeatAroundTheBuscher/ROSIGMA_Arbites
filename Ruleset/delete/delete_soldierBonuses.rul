@@ -3,6 +3,3 @@ soldierBonuses:
   - delete: STR_BLESSING_SAINT
   - delete: STR_BLESSING_SPEED
   - delete: STR_BLESSING_STRENGTH
-  - delete: STR_BONUS_BIONICS
-  - delete: STR_BONUS_BIONICS_ADEPTAS
-  - delete: STR_BONUS_PERSONAL_SHIELD
