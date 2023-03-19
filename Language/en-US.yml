@@ -202,17 +202,27 @@ en-US:
 ## Research
 
   STR_STUBBER_AMMO_ADVANCED: "Advanced Stubber Ammo"
-  STR_STUBBER_AMMO_ADVANCED_TEXT: "TODO"
+  STR_STUBBER_AMMO_ADVANCED_TEXT: "{NEWLINE}With the increased use of Gutterforged and more sophisticated types of armor we require more advanced kinds of ammunition to combat our foes.
+    {NEWLINE}{NEWLINE}Stubber/Stub Rifle Ammo:
+    {NEWLINE}{ALT}> Man-Stopper{ALT}{NEWLINE}\t\tImproved Penetration
+    {NEWLINE}{ALT}> Bleeder{ALT}{NEWLINE}\t\tImproved Fatal Wounds
+    {NEWLINE}{ALT}> Expander{ALT}{NEWLINE}\t\tImproved Health Damage
+    {NEWLINE}{ALT}> Tracer{ALT}{NEWLINE}\t\tIncendiary Tips"
+
+  STR_STUN_GEAR: "Stun Equipment"
+  # STR_STUN_GEAR_TEXT: ""
+
+  STR_STUN_GEAR_ADVANCED: "Advanced Stun Equipment"
+  # STR_STUN_GEAR_ADVANCED_TEXT: "Advanced Stun Equipment"
 
   STR_DAEMON_CORPSE_RESEARCHED: "(Daemon Corpse Researched)"
 
   STR_FIGHTER_CRAFT: "Fighter Craft"
   STR_HEAVY_ARMOR_AC: "Heavy Personal Armor"
   STR_FLAMER_AC: "Flamethrowers"
-  STR_STUN_GEAR: "Stun Equipment"
-  STR_STUN_GEAR_TEXT: ""
 
-  STR_STUN_GEAR_ADVANCED: "Advanced Stun Equipment"
+
+  
   STR_ANTI_ARMOR: "Anti Armor Weapons"
   STR_SENTINEL_MISSILE: "Sentinel w/ Missile Pod"
 
@@ -317,8 +327,8 @@ en-US:
   STR_STUB_GUN_AMMO_WOUND_AC: "Stubber Bleeder Magazine"
   STR_STUB_GUN_AMMO_HP_AC: "Stubber Expander Magazine"
   STR_STUB_GUN_AMMO_INC_AC: "Stubber Tracer Magazine"
-  STR_RIOT_SHIELD_UFOPEDIA_AC_1: "ToDo Description{NEWLINE}Go to the next page for abilities"
-  STR_RIOT_SHIELD_UFOPEDIA_AC_2: "Riot Shield ToDo{NEWLINE}Abilities:{NEWLINE}- Extended Front{NEWLINE}- Lowers incoming damage by 20{NEWLINE}- Limited Durability{NEWLINE}- Only works if shield is visible on the unit. This means that the other hand is not allowed to have a item with a green '2' for twohanded"
+  STR_RIOT_SHIELD_UFOPEDIA_AC_1: "{NEWLINE}The \"Lockshield\" is a heavy ceramite riot shield worn on one arm. It provides additional protection while still allowing one-handed weapons to be operated without penalty.{NEWLINE}{NEWLINE}Abilities: >>"
+  STR_RIOT_SHIELD_UFOPEDIA_AC_2: "{NEWLINE}Abilities:{NEWLINE}- Extended Front{NEWLINE}- Lowers incoming damage by 20{NEWLINE}- Limited Durability{NEWLINE}- Only works if shield is visible on the unit. {NEWLINE}This means that the other hand is not allowed to have a item with a green or red '2' for two-handed"
   STR_CMAS_TACKLE: "Tackle"
   STR_FLAMETHROWER_CLIP_AC: "Flamer Clip"
 
@@ -327,6 +337,6 @@ en-US:
 
   STR_HEAVY_STUBBER_CLIP_AC: "Heavy Stubber Belt"
   IMPERIUM: "Loyality to the Imperium"
-  STR_MAKESHIFT_GRENADE_UFOPEDIA: "ToDo Description"
-  STR_MAKESHIFT_PIPEBOMB_UFOPEDIA: "ToDo Description"
+  STR_MAKESHIFT_GRENADE_UFOPEDIA: "{NEWLINE} Gangers and Cultists cobble together makeshift grenades when the black market cannot provide military grenades in sufficient amounts. The makeshift grenade causes a fiery explosion that may also set things ablaze."
+  STR_MAKESHIFT_PIPEBOMB_UFOPEDIA: "{NEWLINE} Similar to the Makeshift Grenade, the Pipebomb is cobbled together inside the criminal underworld. It causes a bigger explosion compared to the grenade version but the bomb can also not be thrown as far due to its weight."
 

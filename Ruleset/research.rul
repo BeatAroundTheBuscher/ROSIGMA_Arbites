@@ -17,12 +17,6 @@ research:
     points: 0
     needItem: true 
 
-  - name: STR_WEBBER_AC
-    cost: 200
-    points: 100
-    dependencies:
-      - STR_STUN_GEAR_ADVANCED
-    
   - name: STR_STUBBER_AMMO_ADVANCED
     cost: 200
     points: 100
@@ -45,10 +39,26 @@ research:
   - name: STR_STUN_GEAR
     cost: 200
     points: 100
-#    dependencies:
-#      - STR_INTERROGATION_COMPLETED
+    lookup: STR_PHOTON_GRENADE_AC
+#    unlocks:
+#      - STR_STUN_GEAR_ADVANCED
+  
+  - name: STR_PHOTON_GRENADE_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_STUN_GEAR_ADVANCED
+    cost: 200
+    points: 100
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+    lookup: STR_WEBBER_AC
+
+  - name: STR_WEBBER_AC
+    cost: 0
+    points: 0
     dependencies:
       - STR_GENERAL_LOCK_AC
 
@@ -57,6 +67,13 @@ research:
     points: 10
     dependencies:
       - STR_DAEMON_CORPSE_RESEARCHED
+    lookup: STR_FLAMETHROWER_AC
+
+  - name: STR_FLAMETHROWER_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_HEAVY_STUBBER_AC
     cost: 100

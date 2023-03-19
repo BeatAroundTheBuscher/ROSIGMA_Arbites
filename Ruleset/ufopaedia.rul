@@ -73,140 +73,59 @@ ufopaedia:
     requires:
       - STR_CULTIST_PLOT
 
-  - id: STR_ARBITES_ARC2
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 90
-    requires:
-      - STR_ARBITES_ARC2
+#  - id: STR_STUN_GEAR
+#    type_id: 10
+#    section: STR_INVESTIGATIONS
+#    image_id: 2ARB.SPK
+#    text: STR_STUN_GEAR_TEXT
+#    requires:
+#      - STR_STUN_GEAR
+#    listOrder: 190
 
-  - id: STR_ARBITES_ARC3
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 100
-    requires:
-      - STR_ARBITES_ARC3
+#  - id: STR_STUN_GEAR_ADVANCED
+#    type_id: 10
+#    section: STR_INVESTIGATIONS
+#    image_id: 2ARB.SPK
+#    text: STR_STUN_GEAR_ADVANCED_TEXT
+#    requires:
+#      - STR_STUN_GEAR_ADVANCED
+#    listOrder: 200
 
-  - id: STR_ARBITES_ARC4
+  - id: STR_STUBBER_AMMO_ADVANCED
     type_id: 10
     section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 110
+    image_id: 1AMMO.SPK
+    text: STR_STUBBER_AMMO_ADVANCED_TEXT
     requires:
-      - STR_ARBITES_ARC4
+      - STR_STUBBER_AMMO_ADVANCED
+    listOrder: 201
 
-  - id: STR_ARBITES_ARC5
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 120
-    requires:
-      - STR_ARBITES_ARC5
+#  - id: STR_ANTI_ARMOR
+#    type_id: 10
+#    section: STR_INVESTIGATIONS
+#    image_id: 2ARB.SPK
+#    text: STR_ANTI_ARMOR_TEXT
+#    requires:
+#      - STR_ANTI_ARMOR
+#    listOrder: 210
 
-  - id: STR_ARBITES_ARC7
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 130
-    requires:
-      - STR_ARBITES_ARC7
+#  - id: STR_ANTI_ARMOR_ADVANCED
+#    type_id: 10
+#    section: STR_INVESTIGATIONS
+#    image_id: 2ARB.SPK
+#    text: STR_ANTI_ARMOR_ADVANCED_TEXT
+#    requires:
+#      - STR_ANTI_ARMOR_ADVANCED
+#    listOrder: 220
 
-  - id: STR_ARBITES_ARC8
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 140
-    requires:
-      - STR_ARBITES_ARC8
-
-  - id: STR_ARBITES_ARC9
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 150
-    requires:
-      - STR_ARBITES_ARC9
-
-  - id: STR_ARBITES_ARC10
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 160
-    requires:
-      - STR_ARBITES_ARC10
-
-  - id: STR_ARBITES_ARC11
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 170
-    requires:
-      - STR_ARBITES_ARC11
-
-  - id: STR_ARBITES_ARC12
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 4ARB.SPK
-    text: STR_ARBITES_TEXT
-    listOrder: 180
-    requires:
-      - STR_ARBITES_ARC12
-
-  - id: STR_STUN_GEAR
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 2ARB.SPK
-    text: STR_STUN_GEAR_TEXT
-    requires:
-      - STR_STUN_GEAR
-    listOrder: 190
-
-  - id: STR_STUN_GEAR_ADVANCED
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 2ARB.SPK
-    text: STR_STUN_GEAR_ADVANCED_TEXT
-    requires:
-      - STR_STUN_GEAR_ADVANCED
-    listOrder: 200
-
-  - id: STR_ANTI_ARMOR
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 2ARB.SPK
-    text: STR_ANTI_ARMOR_TEXT
-    requires:
-      - STR_ANTI_ARMOR
-    listOrder: 210
-
-  - id: STR_ANTI_ARMOR_ADVANCED
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 2ARB.SPK
-    text: STR_ANTI_ARMOR_ADVANCED_TEXT
-    requires:
-      - STR_ANTI_ARMOR_ADVANCED
-    listOrder: 220
-
-  - id: STR_FLAMER_AC
-    type_id: 10
-    section: STR_INVESTIGATIONS
-    image_id: 2ARB.SPK
-    text: STR_FLAMER_ADVANCED_TEXT
-    requires:
-      - STR_FLAMER_AC
-    listOrder: 230
+#  - id: STR_FLAMER_AC
+#    type_id: 10
+#    section: STR_INVESTIGATIONS
+#    image_id: 2ARB.SPK
+#    text: STR_FLAMER_ADVANCED_TEXT
+#    requires:
+#      - STR_FLAMER_AC
+#    listOrder: 230
 
 
 ### Weapons
@@ -674,21 +593,29 @@ ufopaedia:
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 800
+    requires:
+      - STR_STUBBER_AMMO_ADVANCED
 
   - id: STR_STUB_GUN_AMMO_HP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 810
+    requires:
+      - STR_STUBBER_AMMO_ADVANCED
 
   - id: STR_STUB_GUN_AMMO_INC_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 820
+    requires:
+      - STR_STUBBER_AMMO_ADVANCED
 
   - id: STR_STUB_GUN_AMMO_WOUND_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 830
+    requires:
+      - STR_STUBBER_AMMO_ADVANCED
 
   - id: STR_STUB_SMG_AMMO_AC
     type_id: 14
@@ -729,6 +656,18 @@ ufopaedia:
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 910
+
+  - id: STR_BOLTER_LIGHT_CLIP_AC
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+    listOrder: 910
+
+  - id: STR_BOLTER_LIGHT_CLIP_KRAKEN_AC
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+    listOrder: 910
+
+     
 
 ### Enemies
 ## TODO

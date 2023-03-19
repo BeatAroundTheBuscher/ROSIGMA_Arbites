@@ -388,17 +388,21 @@ items:
     fireSound: {mod: 40k, index: 4}
     compatibleAmmo:
       - STR_HEAVY_STUBBER_CLIP_AC
-    accuracyAuto: 45 #15 handle kneeling bonus by recoil script instead
-    tuAuto: 85
-    #kneelBonus: 300
+    accuracyAuto: 40
+    accuracySnap: 55
+    tuAuto: 45
+    tuSnap: 30
     battleType: 1
     twoHanded: true
     blockBothHands: true
     invWidth: 2
     invHeight: 3
     armor: 60
-    autoRange: 18
-    autoShots: 25
+    autoRange: 15
+    snapRange: 15
+    autoShots: 10
+    confSnap:
+      shots: 4
     sprayWaypoints: 2
     listOrder: 160
     requires:
@@ -725,14 +729,6 @@ items:
 
 
 #### Heavy Stubbers
-
-  - type: STR_HEAVY_STUBBER_AC_HANDHELD
-    requiresBuy: 
-      - STR_HEAVY_STUBBER_AC
-
-  - type: STR_HEAVY_STUBBER_CLIP_AC
-    requiresBuy: 
-      - STR_HEAVY_STUBBER_AC
 
   - &STR_LASPISTOL
     type: STR_LASPISTOL_AC
@@ -1150,8 +1146,6 @@ items:
       melee: 1.0
       flatHundred: 0.0
     listOrder: 370
-    requires:
-      - STR_STUN_GEAR
 
   - type: STR_WEBBER_AC
     categories: [STR_CAT_GRAVGUN, STR_CAT_TACTICAL]
