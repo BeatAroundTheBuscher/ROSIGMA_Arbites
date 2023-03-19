@@ -45,6 +45,8 @@ en-US:
 
 
 
+  STR_CODEX_ARMOR_DETAIL_TEXT:  "{NEWLINE}{NEWLINE} CODEX ARMOR DETAIL"
+
 ### Khorne Cultists
 
   STR_KHORNE_CULTISTS_AC: "Khorne Cultists"
@@ -75,6 +77,10 @@ en-US:
   STR_BLOODLETTER_DAEMON_AC: "Bloodletter Daemon"
   STR_BLOODLETTER_DAEMON_ARMOR_AC: "Bloodletter Daemon"
   STR_BLOODLETTER_DAEMON_CORPSE_AC: "Bloodletter Daemon Corpse"
+
+  STR_WINGED_DAEMON_AC: "Winged Daemon"
+  STR_WINGED_DAEMON_ARMOR_AC: "Winged Daemon"
+  STR_WINGED_DAEMON_CORPSE_AC: "Winged Daemon Corpse"
 
 ## Facilities
 

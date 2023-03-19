@@ -493,7 +493,7 @@ ufopaedia:
     requires:
       - STR_KHORNE_CULTISTS_PRIEST_AC
     image_id: UP024.SPK
-    text: STR_SECTOID_UFOPEDIA
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 650
 
   - id: STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR
@@ -502,7 +502,7 @@ ufopaedia:
     requires:
       - STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
     image_id: UP024.SPK
-    text: STR_SECTOID_UFOPEDIA
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 660
 
   - id: STR_KHORNE_CULTISTS_DARKDISCIPLE_ARMOR_AC
@@ -511,7 +511,7 @@ ufopaedia:
     requires:
       - STR_KHORNE_CULTISTS_DARKDISCIPLE_AC
     image_id: UP024.SPK
-    text: STR_SECTOID_UFOPEDIA
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 670
 
   - id: STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC
@@ -520,7 +520,7 @@ ufopaedia:
     requires:
       - STR_KHORNE_CULTISTS_CULTIST_AC
     image_id: UP024.SPK
-    text: STR_SECTOID_UFOPEDIA
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 680
 
   - id: STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC
@@ -529,7 +529,7 @@ ufopaedia:
     requires:
       - STR_KHORNE_CULTISTS_CULTIST_AC
     image_id: UP024.SPK
-    text: STR_SECTOID_UFOPEDIA
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 690
 
   - id: STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC
@@ -538,8 +538,26 @@ ufopaedia:
     requires:
       - STR_KHORNE_CULTISTS_CULTIST_AC
     image_id: UP024.SPK
-    text: STR_SECTOID_UFOPEDIA
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 700
+
+  - id: STR_BLOODLETTER_DAEMON_ARMOR_AC
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_KHORNE_CULTISTS_CULTIST_AC
+    image_id: UP028.SPK
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
+    listOrder: 710
+
+  - id: STR_WINGED_DAEMON_ARMOR_AC
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_KHORNE_CULTISTS_CULTIST_AC
+    image_id: UP041.SPK
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
+    listOrder: 720
 
 
 ### Stats for Nerds only

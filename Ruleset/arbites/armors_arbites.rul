@@ -94,10 +94,10 @@ armors:
 
     visibilityAtDay: 40
     visibilityAtDark: 9
-    frontArmor: 15
-    sideArmor: 10
-    rearArmor: 10
-    underArmor: 10
+    frontArmor: 10
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
     damageModifier: #GUARD ARMOR
       - 1.0 #none
       - 1.0 #AP

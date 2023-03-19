@@ -262,7 +262,7 @@ units:
       - - STR_COMBAT_KNIFE_AC
 
   - type: STR_WINGED_DAEMON_AC
-    race: STR_CYBERDISC
+    race: STR_WINGED_DAEMON_AC
     rank: STR_LIVE_TERRORIST
     isLeeroyJenkins: true
     stats:
@@ -294,7 +294,7 @@ units:
     
 
   - type: STR_BLOODLETTER_DAEMON_AC
-    race: STR_BLOODLETTER
+    race: STR_BLOODLETTER_AC
     rank: STR_LIVE_TERRORIST
     stats:
       tu: 80
