@@ -25,7 +25,7 @@ en-US:
   STR_PENAL_PRISONER_F: "Prisoner"
   STR_RIOTING_PRISONER: "Rioting Prisoner"
   STR_PENAL_CORPSE_AC: "Corpse"
-  STR_PENAL_ARMOR_BROWN_UC_UFOPEDIA: "{NEWLINE} Criminals in the Imperial society may be sentenced to military life service. These members of the Penal Legion are considered expendable and no member of the Imperial Guard will flinch if the Penitents perish in battle. They also wear an explosive collar which can be triggered at any time."
+  STR_PENAL_ARMOR_BROWN_UC_UFOPEDIA: "{NEWLINE} Criminals in the Imperial society may be sentenced to military life service. These members of the Penal Legion are considered expendable and nobody will flinch if the they perish in battle. They also wear an explosive collar which can be triggered at any time."
 
   STR_RIOTER_M0_AC: "Rioter"
   STR_RIOTER_M1_AC: "Rioter"
@@ -256,16 +256,18 @@ en-US:
   STR_BEGINNING_INVESTIGATION_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
 
   STR_CULTIST_MENACE: "Cultist Menace"
-  STR_CULTIST_MENACE_TEXT: "TODO{NEWLINE}Allows Recruitment of:{NEWLINE}- Judges{NEWLINE}Cybermastiff"
+  STR_CULTIST_MENACE_TEXT: "{NEWLINE} There has been a cult lurking for some time now on this very planet. While the interrogated cultists could not provide much information behind the monetary and political support, they were able to provide a glimpse in their rank structure. Considering that this menace is much greater than anticipated more judges and mastiffs will be necessary to enforce Just Judgement.
+   {NEWLINE}{NEWLINE}Allows Recruitment of:{NEWLINE}> Judges{NEWLINE}> Cybermastiff"
 
   STR_CULTIST_LEADERSHIP: "Cultist Leadership"
-  STR_CULTIST_LEADERSHIP_TEXT: "TODO" # Priests supported by CSMs
+  STR_CULTIST_LEADERSHIP_TEXT: "{NEWLINE} The Leadership of Cultists consists of their priests and their aspiring champions who are fanatically loyal to their cause. During interrogation they spoke in incoherent sentences. With more evidence we might be able to resolve how they fit into the bigger puzzle."
 
   STR_CULTIST_EVIDENCE: "Cultist Evidence"
-  STR_CULTIST_EVIDENCE_TEXT: "TODO" # Priests supported by CSMs
+  STR_CULTIST_EVIDENCE_TEXT: "{NEWLINE} The evidences consists of scripts and chants as well their sacrifices commited in their summonings. With this we can piece the puzzle on the plot of the Cultists together."
 
   STR_CULTIST_PLOT: "Cultist Plot"
-  STR_CULTIST_PLOT_TEXT: "TODO" # Priests supported by CSMs
+  STR_CULTIST_PLOT_TEXT: "{NEWLINE} It is now obvious that the Cultists are supported by some other faction to destabilize the society. For this purpose the cultists incite rebellious acts in the hives to collect sacrifices for their summons. The Aspiring Champions are made ready for their transformations into daemons to open pathways to the Warp.
+    {NEWLINE}{NEWLINE}Also we were able to pin point the source of these undoings. We should have found them by the end of next month."
 
   STR_CULTIST_DEFEATED: "Cultist Menace Defeated"
   STR_CULTIST_DEFEATED_TEXT: "TODO"
@@ -278,13 +280,15 @@ en-US:
 # markerName
   STR_PRISON_BREAK: "Prison Break"
   STR_PRISON_BREAK_TITLE: "Prison Break in Progress"
-  STR_PRISON_BREAK_DESCRIPTION: "ToDo2"
+  STR_PRISON_BREAK_DESCRIPTION: "Multiple prisoners managed to escape their cells and are making a prison break. The local forces are in disarray and will need our support to quell the prisoners. Be aware that the prisoners are wearing explosive collars which may be triggered by a stray shot.
+    {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
   STR_PRISON_BREAK_RIOT: "Prison Break Detected"
   STR_PRISON_BREAK_SITE: "Prison Break in Progress"
 
   STR_CATACOMBS_AC: "Catacombs"
   STR_CATACOMB_TITLE: "Heritical Cult"
-  STR_CATACOMB_DESCRIPTION: "ToDo2"
+  STR_CATACOMB_DESCRIPTION: "We have found the source of the heritical cult. Here we can find the source of their power and quell them for good. Be aware of any greater powers as they had surely enough time to summon further daemons. Kill the Heretic! Purge the Unclean!
+    {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
   STR_CATACOMB_DETECTED: "Heritical Cult Found"
   STR_CATACOMB_SITE: "Heritical Cult"
 
@@ -327,13 +331,20 @@ en-US:
   STR_STUB_GUN_AMMO_WOUND_AC: "Stubber Bleeder Magazine"
   STR_STUB_GUN_AMMO_HP_AC: "Stubber Expander Magazine"
   STR_STUB_GUN_AMMO_INC_AC: "Stubber Tracer Magazine"
-  STR_RIOT_SHIELD_UFOPEDIA_AC_1: "{NEWLINE}The \"Lockshield\" is a heavy ceramite riot shield worn on one arm. It provides additional protection while still allowing one-handed weapons to be operated without penalty.{NEWLINE}{NEWLINE}Abilities: >>"
-  STR_RIOT_SHIELD_UFOPEDIA_AC_2: "{NEWLINE}Abilities:{NEWLINE}- Extended Front{NEWLINE}- Lowers incoming damage by 20{NEWLINE}- Limited Durability{NEWLINE}- Only works if shield is visible on the unit. {NEWLINE}This means that the other hand is not allowed to have a item with a green or red '2' for two-handed"
+  STR_RIOT_SHIELD_UFOPEDIA_AC_1: "{NEWLINE}The \"Lockshield\" is a heavy ceramite riot shield worn on one arm. It provides additional protection while still allowing one-handed weapons to be operated without penalty.
+    {NEWLINE}{NEWLINE}Abilities: >>"
+  STR_RIOT_SHIELD_UFOPEDIA_AC_2: "{NEWLINE} Abilities:
+    {NEWLINE}> Extended Front
+    {NEWLINE}> Lowers incoming damage by 20
+    {NEWLINE}> Limited Durability
+    {NEWLINE}> Only works if shield is visible on the unit. {NEWLINE}This means that the other hand is not allowed to have a item with a green or red '2' for two-handed"
   STR_CMAS_TACKLE: "Tackle"
   STR_FLAMETHROWER_CLIP_AC: "Flamer Clip"
 
-  STR_JUDGE_ARMOR_UFOPEDIA_AC_1: "ToDo Description{NEWLINE}Go to the next page for abilities"
-  STR_JUDGE_ARMOR_UFOPEDIA_AC_2: "Abilities:{NEWLINE}- Stern Judgement{NEWLINE}Judging low morale enemies may cause them to panic over the turns till they are stunned. Successful Judging is indicated by red flashing of the target."
+  # # " They enforce the Imperial Law by hunting down rebels and heretics. Their Carapace armor is reinforced providing superior protection.
+  STR_JUDGE_ARMOR_UFOPEDIA_AC_1: "{NEWLINE} The Judges of the Adeptus Arbites serve as judge, jury and execitioner bringing Emperor's Justice to all worlds of Imperium of Man.
+    {NEWLINE}{NEWLINE}Abilities: >>"
+  STR_JUDGE_ARMOR_UFOPEDIA_AC_2: "{NEWLINE} Abilities:{NEWLINE}> Stern Judgement{NEWLINE}Judging low morale enemies may cause them to panic over the turns till they are stunned. Successful Judging is indicated by red flashing of the target."
 
   STR_HEAVY_STUBBER_CLIP_AC: "Heavy Stubber Belt"
   IMPERIUM: "Loyality to the Imperium"
