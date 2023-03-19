@@ -92,6 +92,19 @@ items:
     costSell: 30000
     listOrder: 10070
 
+  - type: STR_BLOODLETTER_DAEMON_AC
+    size: 0.0
+    recover: false
+    liveAlien: false
+    costSell: 30000
+    listOrder: 10060
+
+  - type: STR_WINGED_DAEMON_AC
+    size: 0.0
+    recover: false
+    liveAlien: false
+    costSell: 30000
+    listOrder: 10070
 
   - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
     spawnUnit: STR_KHORNE_CULTISTS_CULTIST_AC # STR_CULTIST_RITUALIST_SACRIFICES
@@ -122,6 +135,7 @@ items:
     battleType: 11
     power: 120
     blastRadius: 6
+    recover: true
   - type: WINGED_DAEMON_CORPSE_1_AC
     name: STR_WINGED_DAEMON_CORPSE
     floorSprite: {mod: 40k, index: 56}
@@ -163,6 +177,8 @@ items:
     battleType: 11
     armor: 26
     listOrder: 19910
+    recover: true
+    liveAlien: ""
 
 
   - type: STR_WINGED_DAEMON_WEAPON_AC

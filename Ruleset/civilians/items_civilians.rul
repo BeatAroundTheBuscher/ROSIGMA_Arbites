@@ -202,15 +202,15 @@ items:
     spawnUnit: STR_CIVILIAN_F1_AC
 
   - &STR_CIVILIAN_CAPTURES
-    type: STR_CIVILIAN_F0_CORPSE
+    type: STR_CIVILIAN_F0_CORPSE_AC
     recover: true
     recoverCorpse: false
 
-  - type: STR_CIVILIAN_M0_CORPSE
+  - type: STR_CIVILIAN_M0_CORPSE_AC
     refNode: *STR_CIVILIAN_CAPTURES
 
-  - type: STR_CIVILIAN_F1_CORPSE
+  - type: STR_CIVILIAN_F1_CORPSE_AC
     refNode: *STR_CIVILIAN_CAPTURES
 
-  - type: STR_CIVILIAN_M1_CORPSE
+  - type: STR_CIVILIAN_M1_CORPSE_AC
     refNode: *STR_CIVILIAN_CAPTURES

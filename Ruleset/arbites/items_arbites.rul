@@ -3,7 +3,7 @@ extended:
     RuleItem:
       ITEM_RECOIL: int
       ITEM_DOES_KILL_USER: int
-
+      ITEM_COLOR_CHANGES_WITH_AMMO_NON_GRAY: int
 # general rule
 # items cost 5 times of their sell value
 # chaos tainted weapons are only worth half
