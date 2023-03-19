@@ -304,7 +304,7 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
 
-  - type: STR_CULTIST_SACRIFICES_LEVEL_1
+  - type: STR_CULTIST_SACRIFICES_LEVEL_1_AC
     data:
       - alienRank: 0 # 2-2
         lowQty: 2

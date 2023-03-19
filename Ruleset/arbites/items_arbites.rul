@@ -1094,6 +1094,7 @@ items:
     costSell: 4000
     hidePower: true
     listOrder: 350
+    clipSize: 201
 
   - type: STR_ELECTRO_FLARE_AC
     categories: [ STR_CAT_EQUIPMENT]
