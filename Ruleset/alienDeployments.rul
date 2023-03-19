@@ -427,7 +427,7 @@ alienDeployments:
           - alienRank: 7
             lowQty: 1
             highQty: 1
-            dQty: 2
+            dQty: 0
             percentageOutsideUfo: 0
             itemSets: [[], [], []]
     width: 50

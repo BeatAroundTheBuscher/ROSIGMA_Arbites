@@ -1,33 +1,6 @@
 armors:
-  - type: STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC
-    visibilityAtDay: 40
-    visibilityAtDark: 20
-    spriteSheet: SECTOID.PCK
-    spriteInv: CULTI1
-    corpseGeo: STR_KHORNE_CULTISTS_CORPSE_AC
-    corpseBattle:
-      - STR_KHORNE_CULTISTS_SOLDIER_CORPSE_AC
-    frontArmor: 4
-    sideArmor: 3
-    rearArmor: 2
-    underArmor: 2
-    drawingRoutine: 0
-    damageModifier: #CULTIST ARMOR
-      - 1.0 #none
-      - 1.0 #AP
-      - 2.0 #FLAMES
-      - 1.0 #HE
-      - 1.0 #LASCANON
-      - 1.0 #PLASMA
-      - 1.0 #STUN
-      - 1.2 #MELEE
-      - 1.0 #ACID
-      - 0.0 #SMOKE
-      - 1.0 #IMPACT
-      - 1.0 #MELTA
-    loftempsSet: [ 2 ]
-
-  - type: STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC
+  - &STR_KHORNE_CULTIST_ARMOR
+    type: STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC
     visibilityAtDay: 40
     visibilityAtDark: 20
     spriteSheet: CUTIST2.PCK
@@ -40,7 +13,7 @@ armors:
     rearArmor: 3
     underArmor: 3
     drawingRoutine: 0
-    damageModifier: #CULTIST ARMOR
+    damageModifier: # CULTIST ARMOR
       - 1.0 #none
       - 1.0 #AP
       - 2.0 #FLAMES
@@ -55,23 +28,28 @@ armors:
       - 1.0 #MELTA
     loftempsSet: [ 2 ]
 
-  - type: STR_KHORNE_CULTISTS_PRIEST_ARMOR_AC
-    visibilityAtDay: 40
-    visibilityAtDark: 20
-    spriteSheet: PRIEST.PCK
-    spriteInv: CULTI4
-    corpseGeo: STR_KHORNE_CULTISTS_CORPSE_AC
+  - type: STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC
+    refNode: *STR_KHORNE_CULTIST_ARMOR
+    spriteSheet: FEMCULTIST.PCK
+    spriteInv: ARepentiaLightK.SPK
     corpseBattle:
-      - STR_KHORNE_CULTISTS_PRIEST_CORPSE_AC
+      - STR_KHORNE_CULTISTS_FEMCULTIST_CORPSE_AC
+
+  - &STR_KHORNE_CULTIST_GUTTERFORGE_ARMOR
+    type: STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC
+    refNode: *STR_KHORNE_CULTIST_ARMOR
+    spriteSheet: SECTOID.PCK
+    spriteInv: CULTI1
+    corpseBattle:
+      - STR_KHORNE_CULTISTS_SOLDIER_CORPSE_AC
     frontArmor: 20
-    sideArmor: 20
-    rearArmor: 20
-    underArmor: 20
-    drawingRoutine: 1
-    damageModifier: #CULTIST ARMOR
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 15
+    damageModifier: # GUTTERFORGE
       - 1.0 #none
-      - 1.0 #AP
-      - 2.0 #FLAMES
+      - 0.9 #AP
+      - 1.2 #FLAMES
       - 1.0 #HE
       - 1.0 #LASCANON
       - 1.0 #PLASMA
@@ -83,67 +61,35 @@ armors:
       - 1.0 #MELTA
     loftempsSet: [ 3 ]
 
-  - type: STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC
-    visibilityAtDay: 40
-    visibilityAtDark: 15
-    spriteSheet: FEMCULTIST.PCK
-    spriteInv: ARepentiaLightK.SPK
+  - type: STR_KHORNE_CULTISTS_PRIEST_ARMOR_AC
+    refNode: *STR_KHORNE_CULTIST_ARMOR
+    spriteSheet: PRIEST.PCK
+    spriteInv: CULTI4
     corpseGeo: STR_KHORNE_CULTISTS_CORPSE_AC
     corpseBattle:
-      - STR_KHORNE_CULTISTS_FEMCULTIST_CORPSE_AC
-    frontArmor: 25
-    sideArmor: 15
-    rearArmor: 5
-    underArmor: 5
-    drawingRoutine: 0
-    damageModifier: #CULTIST ARMOR
-      - 1.0 #none
-      - 0.8 #AP
-      - 1.5 #FLAMES
-      - 1.2 #HE
-      - 1.0 #LASCANON
-      - 1.1 #PLASMA
-      - 1.0 #STUN
-      - 1.2 #MELEE
-      - 1.0 #ACID
-      - 0.0 #SMOKE
-      - 1.0 #IMPACT
-      - 1.0 #MELTA
+      - STR_KHORNE_CULTISTS_PRIEST_CORPSE_AC
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 1
     loftempsSet: [ 3 ]
 
+
   - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_ARMOR_AC
-    visibilityAtDay: 40
-    visibilityAtDark: 20
-    camouflageAtDay: 15
-    camouflageAtDark: 7
+    refNode: *STR_KHORNE_CULTIST_GUTTERFORGE_ARMOR
     spriteSheet: DARKDISCIPLE_BS.PCK
     spriteInv: DARKDISCIPLE_INV
     corpseGeo: STR_KHORNE_CULTISTS_CORPSE_AC
     corpseBattle:
       - STR_KHORNE_CULTISTS_DARKDISCIPLE_CORPSE_AC
-    frontArmor: 55
-    sideArmor: 45
+    frontArmor: 40 # sophisticated
+    sideArmor: 35
     rearArmor: 30
-    underArmor: 5
-    drawingRoutine: 0
-    damageModifier: #CULTIST ARMOR
-      - 1.0 #none
-      - 1.0 #AP
-      - 1.1 #FLAMES
-      - 1.0 #HE
-      - 1.0 #LASCANON
-      - 1.1 #PLASMA
-      - 1.0 #STUN
-      - 1.2 #MELEE
-      - 1.0 #ACID
-      - 0.0 #SMOKE
-      - 1.0 #IMPACT
-      - 1.0 #MELTA
-    loftempsSet: [ 3 ]
+    underArmor: 30
 
   - type: STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR
-    visibilityAtDay: 40
-    visibilityAtDark: 20
+    refNode: *STR_KHORNE_CULTIST_GUTTERFORGE_ARMOR
     heatVision: 10
     spriteSheet: CULTIST_ASPIRING_BS.PCK
     spriteInv: CULTASPIRING_INV
@@ -154,75 +100,10 @@ armors:
     sideArmor: 30
     rearArmor: 25
     underArmor: 20
-    drawingRoutine: 0
-    damageModifier: #CULTIST ARMOR
-      - 1.0 #none
-      - 1.0 #AP
-      - 1.5 #FLAMES
-      - 0.9 #HE
-      - 1.0 #LASCANON
-      - 1.0 #PLASMA
-      - 1.0 #STUN
-      - 1.2 #MELEE
-      - 1.0 #ACID
-      - 0.0 #SMOKE
-      - 1.0 #IMPACT
-      - 1.0 #MELTA
     loftempsSet: [ 3 ]
 
-  - type: STR_WINGED_DAEMON_ARMOR_AC
-    visibilityAtDay: 60
-    visibilityAtDark: 60
-    spriteSheet: FDEAMON.PCK
-    spriteInv: DK2.SPK
-    scripts:
-      selectUnitSprite: |
-        var int temp;
-        var int walking;
-        var int floating;
-        unit.isWalking walking;
-        unit.isFloating floating;
-        if and eq walking 0 eq floating 1;
-          unit.getId temp;
-          offsetmod temp 11 0 8; #desync animation of different units
-          add temp anim_frame;
-          wavegen_saw temp 4 4 4;
-          add sprite_offset 1;
-          add sprite_offset temp;
-          add sprite_index sprite_offset;
-        else;
-          add sprite_index sprite_offset;
-        end;
-        return sprite_index;
-    allowInv: false
-    corpseBattle:
-      - WINGED_DAEMON_CORPSE_1_AC
-      - WINGED_DAEMON_CORPSE_2_AC
-      - WINGED_DAEMON_CORPSE_3_AC
-      - WINGED_DAEMON_CORPSE_4_AC
-    corpseGeo: STR_WINGED_DAEMON_CORPSE_AC
-    frontArmor: 50
-    sideArmor: 50
-    rearArmor: 50
-    underArmor: 50
-    drawingRoutine: 20
-    constantAnimation: false
-    movementType: 1
-    size: 2
-    damageModifier: #DAEMON ARMOR LARGE
-      - 1.0 #none
-      - 1.0 #AP
-      - 0.6 #FLAMES
-      - 1.0 #HE
-      - 1.0 #LASCANON
-      - 1.0 #PLASMA
-      - 1.0 #STUN
-      - 1.0 #MELEE
-      - 1.0 #ACID
-      - 0.0 #SMOKE
-    loftempsSet: [ 92, 89, 90, 91 ]
-
-  - type: STR_BLOODLETTER_DAEMON_ARMOR_AC
+  - &STR_DAEMON_ARMOR
+    type: STR_BLOODLETTER_DAEMON_ARMOR_AC
     visibilityAtDay: 60
     visibilityAtDark: 60
     spriteSheet: DEAMON4.PCK
@@ -250,3 +131,43 @@ armors:
       - 1.0 #IMPACT
       - 1.0 #MELTA
     loftempsSet: [ 3 ]
+
+  - type: STR_WINGED_DAEMON_ARMOR_AC
+    refNode: *STR_DAEMON_ARMOR
+    spriteSheet: FDEAMON.PCK
+    spriteInv: DK2.SPK
+    allowInv: false
+    corpseBattle:
+      - WINGED_DAEMON_CORPSE_1_AC
+      - WINGED_DAEMON_CORPSE_2_AC
+      - WINGED_DAEMON_CORPSE_3_AC
+      - WINGED_DAEMON_CORPSE_4_AC
+    corpseGeo: STR_WINGED_DAEMON_CORPSE_AC
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 25
+    drawingRoutine: 20
+    constantAnimation: false
+    movementType: 1
+    size: 2
+    loftempsSet: [ 92, 89, 90, 91 ]
+    scripts:
+      selectUnitSprite: |
+        var int temp;
+        var int walking;
+        var int floating;
+        unit.isWalking walking;
+        unit.isFloating floating;
+        if and eq walking 0 eq floating 1;
+          unit.getId temp;
+          offsetmod temp 11 0 8; #desync animation of different units
+          add temp anim_frame;
+          wavegen_saw temp 4 4 4;
+          add sprite_offset 1;
+          add sprite_offset temp;
+          add sprite_index sprite_offset;
+        else;
+          add sprite_index sprite_offset;
+        end;
+        return sprite_index;
