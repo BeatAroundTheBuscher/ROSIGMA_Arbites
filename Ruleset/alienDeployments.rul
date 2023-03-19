@@ -639,6 +639,7 @@ alienDeployments:
     markerName: STR_PRISON_BREAK_SITE
 
   - type: STR_CATACOMBS_AC
+    winCutscene: winGame # temporary
 #    markerIcon: 54
     script: CATACOMB_SCRIPT
     terrains:

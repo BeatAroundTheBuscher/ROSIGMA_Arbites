@@ -223,6 +223,15 @@ en-US:
 
   STR_INVESTIGATIONS: "INVESTIGATIONS AND REPORTS"
 
+### Victory
+
+  STR_VICTORY_1: "The local Khorne Cultists have been stopped... for now."
+  STR_VICTORY_2: "This is the end of demo. More things are planned!"
+
+### Loss
+
+
+
 ### ARC 1
 
 
