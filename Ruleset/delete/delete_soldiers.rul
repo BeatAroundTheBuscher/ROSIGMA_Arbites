@@ -22,8 +22,6 @@ soldiers:
   - delete: STR_GUARDPD
   - delete: STR_GUARDSM
   - delete: STR_GUARD_VETERAN
-  - delete: STR_IMPERIALF
-  - delete: STR_IMPERIALF_PRIMARIS
   - delete: STR_JUDGE
   - delete: STR_OGRYN
   - delete: STR_PENITENT
@@ -37,5 +35,3 @@ soldiers:
   - delete: STR_SOLDIER
   - delete: STR_SOLDIER_JOAN
   - delete: STR_STORMTROOPER
-  - delete: STR_ULTRAMARINE
-  - delete: STR_ULTRAMARINE_PRIMARIS

@@ -18,7 +18,7 @@ manufacture:
   - delete: STR_ASS_ARMOR
   - delete: STR_ASS_ARMOR_HONOR
   - delete: STR_ASSC
-  - delete: STR_ASSCANNON_MANUFACTURE
+  - delete: STR_ASSCANNON
   - delete: STR_ASSC_CLIP
   - delete: STR_AUTOCANNON_CLIP
   - delete: STR_AUTOCANNON_HANDHELD

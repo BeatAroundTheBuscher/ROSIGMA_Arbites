@@ -33,6 +33,7 @@ research:
   - delete: STR_AMMO_BIT50
   - delete: STR_APOC_BAY
   - delete: STR_APOTHECARY
+  - delete: STR_APOTHECARY_DW
   - delete: STR_APOTHECARY_GK
   - delete: STR_ARBITES
   - delete: STR_ARBITES_BUST
@@ -40,7 +41,6 @@ research:
   - delete: STR_ARBITES_MIDTIER
   - delete: STR_ARBITOR_ARMOR
   - delete: STR_ASS_ARMOR
-  - delete: STR_ASS_ARMOR_DW
   - delete: STR_ASSAULT
   - delete: STR_ASSC
   - delete: STR_ASSC_CLIP
@@ -120,15 +120,12 @@ research:
   - delete: STR_DEFENSE_CORRIDORR
   - delete: STR_DESTROYER_CORPSE
   - delete: STR_DEV_ARMOR
-  - delete: STR_DEV_ARMOR_DW
   - delete: STR_DEVASTATOR
   - delete: STR_DISTRESSDATA
   - delete: STR_DMONOLITH_DATA
   - delete: STR_DONTSHOWYET
   - delete: STR_DOOMSDAY_MONOLITH
-  - delete: STR_DW_CAP_ARMOR
   - delete: STR_DW_HIGHTIER
-  - delete: STR_DW_WM_ARMOR
   - delete: STR_ELDAR_ALLIANCE
   - delete: STR_ELDAR_BANSHEE
   - delete: STR_ELDAR_CHAINSWORD
@@ -257,7 +254,6 @@ research:
   - delete: STR_LORD_CORPSE
   - delete: STR_MARAUDER_REQUISITION
   - delete: STR_MARINES_AND_ADEPTAS
-  - delete: STR_MARINES_AND_DEATHWATCH
   - delete: STR_MARINES_STRATEGY
   - delete: STR_MARSHAL_ARMOR
   - delete: STR_MASTER_CRAFTING
@@ -321,7 +317,6 @@ research:
   - delete: STR_ORKNOBBOY_CORPSE
   - delete: STR_ORK_RL
   - delete: STR_PERSONAL_ARMOR
-  - delete: STR_PERSONAL_ARMOR_DW
   - delete: STR_PHOTON_GRENADE_REQUISITION
   - delete: STR_PICK_STRATEGY
   - delete: STR_PICK_STRATEGY_CM
@@ -342,7 +337,6 @@ research:
   - delete: STR_PRIEST_CORPSE
   - delete: STR_PRIMARIS
   - delete: STR_PRIMARIS_AND_ADEPTAS
-  - delete: STR_PRIMARIS_AND_DEATHWATCH
   - delete: STR_PRIMARIS_ARMOR
   - delete: STR_PSI_AMP
   - delete: STR_PSI_LAB
@@ -425,7 +419,6 @@ research:
   - delete: STR_TEC_BAY_CHAMBER_R
   - delete: STR_TEC_BAYR
   - delete: STR_TELEPORTDATA
-  - delete: STR_TER_ARMOR_DW
   - delete: STR_TERROR_SHIP
   - delete: STR_TERROR_SHIP_DATA
   - delete: STR_THE_MARTIAN_SOLUTION
@@ -440,7 +433,6 @@ research:
   - delete: STR_TRUKK_UFO
   - delete: STR_TRUKK_UFO_DATA
   - delete: STR_TSARGENT
-  - delete: STR_TSARGENT_DW
   - delete: STR_TZEENTCH_LEADER
   - delete: STR_TZEENTCH_SOLDIER
   - delete: STR_UFO_CONSTRUCTION
