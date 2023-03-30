@@ -1,0 +1,38 @@
+extended:
+  tags:
+    RuleItem:
+      ITEM_DOT_IN_INVENTORY: int
+
+  scripts:
+    newTurnUnit: 
+      - new: ROSIGMUNDA_nTU_dot_in_inventory
+        offset: 1
+        code: |
+          var int temp;
+          var int numInventoryItems;
+          var int highestDotInInventory;
+
+          var ptre BattleItem tempItem;
+          var ptr RuleItem rItem;
+
+          if neq side FACTION_PLAYER;
+            return;
+          end;
+
+          # scan inventory for leaky items and pick the highest value
+          unit.getInventoryItem.size numInventoryItems;
+          loop var i numInventoryItems;
+            unit.getInventoryItem tempItem i;
+            tempItem.getRuleItem rItem;
+            rItem.getTag temp Tag.ITEM_DOT_IN_INVENTORY;
+            if gt temp highestDotInInventory;
+              set highestDotInInventory temp;
+              debug_log "Found: " rItem;
+              debug_log "New Dot: " highestDotInInventory;
+            end;
+          end;
+
+          mul highestDotInInventory -1;
+          unit.addHealth highestDotInInventory;
+
+          return;

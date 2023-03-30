@@ -4,6 +4,13 @@ extended:
       ITEM_RECOIL: int
       ITEM_DOES_KILL_USER: int
       ITEM_COLOR_CHANGES_WITH_AMMO_NON_GRAY: int
+
+      ITEM_AUTO_POWER_BONUS: int #percent bonus to damage equal to this amount for this fire mode
+      ITEM_SNAP_POWER_BONUS: int
+      ITEM_AIMED_POWER_BONUS: int
+
+      ITEM_DOT_IN_INVENTORY: int
+
 # general rule
 # items cost 5 times of their sell value
 # chaos tainted weapons are only worth half
@@ -856,6 +863,9 @@ items:
     confSnap:
       spendPerShot: 2
     listOrder: 281
+    tags:
+      ITEM_SNAP_POWER_BONUS: 10
+      ITEM_DOT_IN_INVENTORY: 1
 
   - type: STR_NIHILUS_LASGUN_AC
     refNode: *STR_LASGUN
@@ -869,6 +879,10 @@ items:
       shots: 2
       spendPerShot: 2
     listOrder: 282
+    tags:
+      ITEM_SNAP_POWER_BONUS: 10
+      ITEM_AUTO_POWER_BONUS: 10
+      ITEM_DOT_IN_INVENTORY: 2
 
   - type: STR_BOLTER_LIGHT_AC
     categories: [STR_CAT_BOLTER]
