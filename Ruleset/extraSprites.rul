@@ -1,4 +1,13 @@
   extraSprites:
+
+  - type: SMOKE.PCK
+    width: 128
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      200: Resources/Smoke/HIT.PNG
+
   - type: BIGOBS.PCK
     files:
       200: Resources/Bigobs/bigob_small_combat_knife_right.png

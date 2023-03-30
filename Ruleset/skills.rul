@@ -6,7 +6,6 @@ extended:
 skills:
   - type: STR_JUDGE_EVIL_EYE # inbuilt
     psiAttackName: STR_JUDGE_EVIL_EYE
-    hitSound: {mod: 40k, index: 37}
     targetMode: 11
     costUse:
       time: 40
@@ -19,7 +18,6 @@ skills:
 
   - type: STR_JUDGE_KEEN_EYE # inbuilt
     psiAttackName: STR_JUDGE_KEEN_EYE
-    hitSound: {mod: 40k, index: 37}
     targetMode: 11
     costUse:
       time: 25
@@ -42,6 +40,8 @@ items:
 #    bigSprite: 201
 #    floorSprite: 32
 #    handSprite: 88
+    hitAnimation: 200 # SMOKE.PCK
+    hitAnimFrames: 4
     invHeight: 0
     invWidth: 0
     fixedWeapon: true

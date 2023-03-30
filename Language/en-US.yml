@@ -21,8 +21,8 @@ en-US:
 ### Civilians
 
   STR_CIVILIAN_CAPTIVE_AC: "Detained Criminal"
-  STR_PENAL_PRISONER_M: "Prisoner"
-  STR_PENAL_PRISONER_F: "Prisoner"
+  STR_PENAL_PRISONER_M_AC: "Prisoner"
+  STR_PENAL_PRISONER_F_AC: "Prisoner"
   STR_RIOTING_PRISONER: "Rioting Prisoner"
   STR_PENAL_CORPSE_AC: "Corpse"
   STR_PENAL_ARMOR_BROWN_UC_UFOPEDIA: "{NEWLINE} Criminals in the Imperial society may be sentenced to military life service. These members of the Penal Legion are considered expendable and nobody will flinch if the they perish in battle. They also wear an explosive collar which can be triggered at any time."
