@@ -11,7 +11,7 @@ missionScripts:
     label: 100
     raceWeights:
       0:
-        STR_CHAOS_RIOTS_AC: 100
+        STR_KHORNE_RIOTS_AC: 100
     missionWeights:
       0:
         STR_RIOT_AC: 100
@@ -49,7 +49,7 @@ missionScripts:
     conditionals: [110]
     raceWeights:
       0:
-        STR_CHAOS_RIOTS_AC: 100
+        STR_KHORNE_RIOTS_AC: 100
     missionWeights:
       0:
         STR_RIOT_AC: 100

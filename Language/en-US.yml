@@ -32,7 +32,7 @@ en-US:
   STR_RIOTER_F0_AC: "Rioter"
   STR_RIOTER_F1_AC: "Rioter"
 
-  STR_CHAOS_RIOTS_AC:  "Rioters"
+  STR_KHORNE_RIOTS_AC:  "Rioters"
 
   STR_CIVILIAN_M0_CORPSE_AC: "Corpse"
   STR_CIVILIAN_M1_CORPSE_AC: "Corpse"
@@ -350,15 +350,17 @@ en-US:
   STR_TRAITOR_OUTPOST: "Traitor Outpost"
 
   STR_UNDERHIVE_AC: "Underhive"
+  STR_UNDERHIVE_TITLE: "Problems in the Underhive"
   STR_UNDERHIVE_BRIEFING: "Thriving in the dark corner of this Imperial hive city a cult is growing. This presence won´t be tolerated! Purge the cult with haste and once it for all. Glory to the Emperor!
     {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
+  STR_UNDERHIVE_DETECTED: "Prison Break Detected"
+  STR_UNDERHIVE_SITE: "Prison Break in Progress"
 
   STR_PRISON_BREAK_AC: "Prison Break"
-  STR_PRISON_BREAK: "Prison Break"
   STR_PRISON_BREAK_TITLE: "Prison Break in Progress"
   STR_PRISON_BREAK_DESCRIPTION: "Multiple prisoners managed to escape their cells and are making a prison break. The local forces are in disarray and will need our support to quell the prisoners. Be aware that the prisoners are wearing explosive collars which may be triggered by a stray shot.
     {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
-  STR_PRISON_BREAK_RIOT: "Prison Break Detected"
+  STR_PRISON_BREAK_DETECTED: "Prison Break Detected"
   STR_PRISON_BREAK_SITE: "Prison Break in Progress"
 
   STR_CATACOMBS_AC: "Catacombs"

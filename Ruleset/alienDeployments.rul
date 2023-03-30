@@ -575,7 +575,7 @@ alienDeployments:
 
 
   - type: STR_PRISON_BREAK_AC
-    alert: STR_PRISON_BREAK_RIOT
+    alert: STR_PRISON_BREAK_DETECTED
     alertBackground: BACK169.SCR
 #    alertDescription: STR_PRISON_BREAK_DESCRIPTION
     briefing:
