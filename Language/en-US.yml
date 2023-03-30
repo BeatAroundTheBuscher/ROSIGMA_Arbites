@@ -432,6 +432,9 @@ en-US:
 ### Assistance
 
   STR_HELP_MAP_AC: "Cartography"
+
+  STR_HELP_FIRST_TURN_AC: "First Turn"
+  STR_HELP_FIRST_TURN_UFOPEDIA: " {NEWLINE} While our forces deploy the enemies will try to get into position or be surprised. As a consequence enemies will begin the first turn with 25 % of their time units."
   STR_HELP_RECOIL_PENALTY_AC: "Weapon Strength Requirements"
   STR_HELP_TERRAIN_DESTRUCTION_AC: "Destroying Terrain"
   STR_HELP_DAMAGE_TIME_UNITS_CARRY_OVER_AC: "Carrying Over TU Damage"

@@ -601,13 +601,30 @@ ufopaedia:
     text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 720
 
+
+### Crafts
+
+  - id: STR_ARVUS_AC
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_ARVUS_UFOPEDIA
+    listOrder: 800
+    image_id: 2ARVUS.SPK
+
 ### Assistance
 
-  - id: STR_HELP_MAP_AC          #HELP 50010
+  - id: STR_HELP_MAP_AC
     type_id: 10
     section: STR_HELP
     image_id: 3MAP.SPK
     listOrder: 50010
+
+  - id: STR_HELP_FIRST_TURN_AC
+    type_id: 10
+    section: STR_HELP
+    image_id: 2ARVUS.SPK
+    listOrder: 50011
+    text: STR_HELP_FIRST_TURN_UFOPEDIA
 
   - id: STR_HELP_RECOIL_PENALTY_AC
     type_id: 10
