@@ -559,6 +559,42 @@ ufopaedia:
     text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 720
 
+### Assistance
+
+  - id: STR_HELP_RECOIL_PENALTY_AC
+    type_id: 10
+    section: STR_HELP
+    image_id: RECOIL_PENALTY.SPK
+    text: STR_RECOIL_PENALTY_UFOPEDIA
+    listOrder: 52100
+
+  - id: STR_HELP_TERRAIN_DESTRUCTION_AC
+    type_id: 10
+    section: STR_HELP
+    image_id: TERRAIN_DESTRUCTION.SPK
+    text: STR_TERRAIN_DESTRUCTION_UFOPEDIA
+    listOrder: 52200
+
+  - id: STR_HELP_DAMAGE_TIME_UNITS_CARRY_OVER_AC
+    type_id: 10
+    section: STR_HELP
+    image_id: 1WEB.SPK
+    text: STR_HELP_DAMAGE_TIME_UNITS_CARRY_OVER_UFOPEDIA
+    listOrder: 52916
+
+  - id: STR_HELP_EXTINGUISHING_MEDIKIT_AC
+    type_id: 10
+    section: STR_HELP
+    image_id: 0ENFM.SPK
+    text: STR_HELP_EXTINGUISHING_MEDIKIT_UFOPEDIA
+    listOrder: 52918
+
+  - id: STR_HELP_ARMOR_ABILITIES_AC
+    type_id: 10
+    section: STR_HELP
+    image_id: 0ENFM.SPK #should use something else
+    text: STR_HELP_ARMOR_ABILITIES_UFOPEDIA
+    listOrder: 52919
 
 ### Stats for Nerds only
 

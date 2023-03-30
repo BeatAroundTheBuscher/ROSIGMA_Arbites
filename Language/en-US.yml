@@ -357,3 +357,15 @@ en-US:
   STR_MAKESHIFT_GRENADE_UFOPEDIA: "{NEWLINE} Gangers and Cultists cobble together makeshift grenades when the black market cannot provide military grenades in sufficient amounts. The makeshift grenade causes a fiery explosion that may also set things ablaze."
   STR_MAKESHIFT_PIPEBOMB_UFOPEDIA: "{NEWLINE} Similar to the Makeshift Grenade, the Pipebomb is cobbled together inside the criminal underworld. It causes a bigger explosion compared to the grenade version but the bomb can also not be thrown as far due to its weight."
 
+
+### Assistance
+
+  STR_HELP_RECOIL_PENALTY_AC: "Weapon Strength Requirements"
+  STR_HELP_TERRAIN_DESTRUCTION_AC: "Destroying Terrain"
+  STR_HELP_DAMAGE_TIME_UNITS_CARRY_OVER_AC: "Carrying Over TU Damage"
+  STR_HELP_DAMAGE_TIME_UNITS_CARRY_OVER_UFOPEDIA: "{NEWLINE} Any weapons doing Time Units damage such as the Webber, Photon Flash or Shotgun Stun ammunition will carry 50 % of the TU damage to the next turn. This means that by continue applying TU damage a unit will not be able to act at all. Once all TUs for the next turn are depleted by the carry over damage, a unit will flash in a grey color similar to the blue shield flash."
+  STR_HELP_EXTINGUISHING_MEDIKIT_AC: "Medikits Extinguish Fires"
+  STR_HELP_EXTINGUISHING_MEDIKIT_UFOPEDIA: "{NEWLINE} When soldiers are on fire each medikit contains necessary foam agents and ointments. Using the heal button a medkit will turn out the fire instead of healing a fatal wound. Only then fatal woulds will be treated as usual."
+  STR_HELP_ARMOR_ABILITIES_AC: "Armor Abilities"
+  STR_HELP_ARMOR_ABILITIES_UFOPEDIA: "{NEWLINE} Armor Abilities are extra weapons tied to your armor and all function the same as hand-held weapons. The stats of these weapons can be viewed by looking at the info section of the codex for that armor."
+

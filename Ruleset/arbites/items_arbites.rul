@@ -876,15 +876,15 @@ items:
     dropoff: 5
     autoRange: 0
     snapRange: 14
-    aimRange: 22
+    aimRange: 0
     requiresBuy: 
       - STR_LIGHT_BOLTERS_AC
     accuracyAuto: 0
     accuracySnap: 85
-    accuracyAimed: 105
+    accuracyAimed: 0
     tuAuto: 0
     tuSnap: 25
-    tuAimed: 50
+    tuAimed: 0
     tags:
       ITEM_RECOIL: 20
 
@@ -1190,12 +1190,14 @@ items:
     recoveryPoints: 1
     damageAlter: #GRAV GUN
       RandomType: 2 #TFTD [50% - 150%]
-      ArmorEffectiveness: 0.0
+      ArmorEffectiveness: 0.1
       ToArmorPre: 0.0
-      ToArmor: 0.0
-      ToHealth: 0.0
-      ToStun: 1.0
-      ToWound: 0.0
+      ToHealth: 0.05
+      ToStun: 0.5
+      ToWound: 0.05
+      ToEnergy: 2.0
+      ToTime: 1.0
+      ToMorale: 0.5
     listOrder: 390
 
   - &STR_FLAMETHROWER
