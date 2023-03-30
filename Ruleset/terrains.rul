@@ -32,39 +32,79 @@ terrains:
             #- [11, 12, 0]
             #- [5, 11, 0]
 
-  - name: PRISON_BREAK
+  - name: HIVE
     enviroEffects: STR_URBAN_ENVIRO
     mapDataSets:
       - BLANKS
-      - XBASES01
-      - XBASES02
-      - XBASES03
-      - XBASES04
-      - XBASES05
-    script: PRISON_BREAK_SCRIPT
+      - 04HIVE
+      - 04IRON
+      - 04ITENS
+      - 04STORAGE
+      - 04PIPES
+      - 04ENGINE
+      - SPECIAL
+    script: HIVE_SCRIPT
     mapBlocks:
-      - name: PRISON_BREAK_00 # Living Space
-        width: 10
-        length: 10
-      - name: PRISON_BREAK_01 # General Store
-        width: 10
-        length: 10
-      - name: PRISON_BREAK_02 # Prison 1 # 26
-        width: 10
-        length: 10
-      - name: PRISON_BREAK_03 # Hangar 
-        width: 30
+      - name: HIVE00
+        width: 20
         length: 20
-      - name: PRISON_BREAK_04 # Prison 2 # 36
+      - name: HIVE01
+        width: 20
+        length: 20
+      - name: HIVE02
+        width: 20
+        length: 20
+      - name: HIVE03
         width: 10
         length: 10
-      - name: PRISON_BREAK_05 # Defense Corridor
+      - name: HIVE04
         width: 10
         length: 10
-        items:
-          STR_TARANTULA_SPAWNER_CIV_AC:
-            - [5, 5, 1]
-        fuseTimers:
-          STR_TARANTULA_SPAWNER_CIV_AC: [0, 0]
-
-          
+      - name: HIVE05
+        width: 10
+        length: 10
+      - name: HIVE06
+        width: 10
+        length: 10
+      - name: HIVE07
+        width: 10
+        length: 10
+      - name: HIVE08
+        width: 10
+        length: 10
+      - name: HIVE09
+        width: 10
+        length: 10
+      - name: HIVE10
+        width: 10
+        length: 10
+        groups: 2
+      - name: HIVE11
+        width: 10
+        length: 10
+        groups: 3
+      - name: HIVE12
+        width: 10
+        length: 10
+        groups: 4
+      - name: HIVE13
+        width: 10
+        length: 10
+      - name: HIVE14
+        width: 10
+        length: 10
+      - name: HIVE15
+        width: 10
+        length: 10
+      - name: HIVE16
+        width: 10
+        length: 10
+      - name: HIVE17
+        width: 10
+        length: 10
+      - name: HIVE18
+        width: 10
+        length: 10
+      - name: HIVE19
+        width: 30
+        length: 30

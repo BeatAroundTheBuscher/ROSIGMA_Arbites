@@ -43,6 +43,11 @@ en-US:
   STR_CIVILIAN_TROOPER_M_AC: "Trooper"
   STR_CIVILIAN_TROOPER_CORPSE_AC: "Corpse"
 
+  STR_CIVILIAN_M0_AC: "Civilian"
+  STR_CIVILIAN_M1_AC: "Civilian"
+  STR_CIVILIAN_F0_AC: "Civilian"
+  STR_CIVILIAN_F1_AC: "Civilian"
+
 
 
   STR_CODEX_ARMOR_DETAIL_TEXT:  "{NEWLINE}{NEWLINE} CODEX ARMOR DETAIL"
@@ -199,18 +204,6 @@ en-US:
   STR_PENITENT_EVENT_AC: "Cultist Repents"
   STR_PENITENT_EVENT_DESCRIPTION_AC: "One of the interrogated Cultists is willing to repent. We are willing to accept them as a Penitent."
 
-## Missions
-
-  STR_SABOTAGE_MISSION_AC: "IMPERIAL PROTECTION"
-  STR_SMALL_SCOUT_AC: "Small Scout"
-  STR_RIOT_AC: "Riot Suppression"
-  STR_CITY_SUMMONING_LEVEL_1_AC: "Minor City Summoning"
-  STR_CULTIST_SUMMONING_LEVEL_1_AC: "Minor Suburban Summoning"
-  STR_TRAITOR_OUTPOST_AC: "Traitor Guard Outpost"
-  STR_PRISON_BREAK_AC: "Prison Break"
-  STR_TRAITOR_OUTPOST: "Traitor Outpost"
-  STR_UNDERHIVE_AC: "Underhive"
-
 ## Research
 
   STR_STUBBER_AMMO_ADVANCED: "Advanced Stubber Ammo"
@@ -290,6 +283,22 @@ en-US:
 # briefing description
 # alert
 # markerName
+
+## Missions
+
+  STR_SABOTAGE_MISSION_AC: "IMPERIAL PROTECTION"
+  STR_SMALL_SCOUT_AC: "Small Scout"
+  STR_RIOT_AC: "Riot Suppression"
+  STR_CITY_SUMMONING_LEVEL_1_AC: "Minor City Summoning"
+  STR_CULTIST_SUMMONING_LEVEL_1_AC: "Minor Suburban Summoning"
+  STR_TRAITOR_OUTPOST_AC: "Traitor Guard Outpost"
+  STR_TRAITOR_OUTPOST: "Traitor Outpost"
+
+  STR_UNDERHIVE_AC: "Underhive"
+  STR_UNDERHIVE_BRIEFING: "Thriving in the dark corner of this Imperial hive city a cult is growing. This presence won´t be tolerated! Purge the cult with haste and once it for all. Glory to the Emperor!
+    {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
+
+  STR_PRISON_BREAK_AC: "Prison Break"
   STR_PRISON_BREAK: "Prison Break"
   STR_PRISON_BREAK_TITLE: "Prison Break in Progress"
   STR_PRISON_BREAK_DESCRIPTION: "Multiple prisoners managed to escape their cells and are making a prison break. The local forces are in disarray and will need our support to quell the prisoners. Be aware that the prisoners are wearing explosive collars which may be triggered by a stray shot.

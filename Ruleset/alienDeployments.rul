@@ -751,15 +751,15 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets  
       - alienRank: 6
-        lowQty: 1
-        highQty: 2 #2
-        dQty: 3 #2
+        lowQty: 0
+        highQty: 1 #2
+        dQty: 1 #2
         percentageOutsideUfo: 50
         itemSets: *emptyItemSets  
       - alienRank: 7
-        lowQty: 1
-        highQty: 2 #2
-        dQty: 3 #2
+        lowQty: 0
+        highQty: 1 #2
+        dQty: 1 #2
         percentageOutsideUfo: 50
         itemSets: *emptyItemSets  
     width: 40
@@ -770,7 +770,7 @@ alienDeployments:
     script: HIVE_SCRIPT
     briefing:
       cutscene: HIVECITY
-      desc: STR_GENE_HIVE_BRIEFING
+      desc: STR_UNDERHIVE_BRIEFING
       music: gmstory2
       showCraft: true
       showTarget: false

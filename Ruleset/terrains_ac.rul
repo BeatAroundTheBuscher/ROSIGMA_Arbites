@@ -39,3 +39,38 @@ terrains:
       - name: CATACOMB_07
         width: 10
         length: 10
+
+  - name: PRISON_BREAK
+    enviroEffects: STR_URBAN_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+    script: PRISON_BREAK_SCRIPT
+    mapBlocks:
+      - name: PRISON_BREAK_00 # Living Space
+        width: 10
+        length: 10
+      - name: PRISON_BREAK_01 # General Store
+        width: 10
+        length: 10
+      - name: PRISON_BREAK_02 # Prison 1 # 26
+        width: 10
+        length: 10
+      - name: PRISON_BREAK_03 # Hangar 
+        width: 30
+        length: 20
+      - name: PRISON_BREAK_04 # Prison 2 # 36
+        width: 10
+        length: 10
+      - name: PRISON_BREAK_05 # Defense Corridor
+        width: 10
+        length: 10
+        items:
+          STR_TARANTULA_SPAWNER_CIV_AC:
+            - [5, 5, 1]
+        fuseTimers:
+          STR_TARANTULA_SPAWNER_CIV_AC: [0, 0]
