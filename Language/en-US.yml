@@ -134,14 +134,17 @@ en-US:
   STR_BOLTER_LIGHT_CLIP_AC: "Light Bolter Magazine"
   STR_BOLTER_LIGHT_CLIP_KRAKEN_AC: "Light Bolter Kraken Magazine"
 
-  STR_ELECTRO_FLARE_AC: "Electro-Flare"
-
   STR_MAKESHIFT_GRENADE_AC: "Makeshift Grenade"
   STR_MAKESHIFT_PIPEBOMB_AC: "Makeshift Pipebomb"
   STR_KRAK_GRENADE_AC: "Krak Grenade"
   STR_SMOKE_GRENADE_AC: "Smoke Grenade"
+  STR_SMOKE_GRENADE_UFOPEDIA: "{NEWLINE} Smoke grenades are useful for providing cover in exposed combat situations. Use with care because they can benefit the enemy as well."
+  STR_PROXIMITY_GRENADE_AC: "Proximity Grenade"
+  STR_PROXIMITY_GRENADE_UFOPEDIA: "{NEWLINE} A proximity grenade can be thrown like an ordinary grenade but is triggered by nearby movement after it lands. Great skill and care is required to use these devices properly."
   STR_ALIEN_GRENADE_AC: "Blight Grenade"
   STR_HAYWIRE_MINE_AC: "Haywire Mine"
+  STR_ELECTRO_FLARE_AC: "Electro-Flare"
+  STR_ELECTRO_FLARE_UFOPEDIA: "{NEWLINE} This compact device produces a bright flare light when it is thrown. This will highlight enemy units in the vicinity of the electro-flare during night time missions."
 
   STR_CMAS_AC: "Bite"
   STR_CMAS_TACKLE_AC: "Tackle"
@@ -172,6 +175,9 @@ en-US:
   STR_ENFORCER_ARMOR_AC_UC: "Enforcer Armor"
   STR_ENFORCER_HEAVY_ARMOR_AC_UC: "Heavy Enforcer Armor"
   STR_ENFORCER_MEDIC_ARMOR_AC_UC: "Enforcer Armor/Medic"
+  STR_ENFORCER_ARMOR_UFOPEDIA: "{NEWLINE} Carapace variant for the arbites forces, also made of densely layered plates of armaplas, ceramite or some other kind of highly durable material."
+  STR_ENFORCER_MEDIC_ARMOR_UFOPEDIA: "{NEWLINE} Carapace variant for the arbites forces, equipped with a medic-kit"
+  STR_ENFORCER_HEAVY_ARMOR_UFOPEDIA: "{NEWLINE} Reinforced Enforcer armor providing some extra protection for it's user."
 
 
 ## Armor Items
@@ -318,7 +324,6 @@ en-US:
   STR_PENAL_ARMOR_UC_AC: "Penal Clothing"
   STR_LASGUN_CHAOS_AC: "Lasgun (Chaos)"
   STR_AUTOPISTOL_CHAOS_AC: "Autopistol (Chaos)"
-  STR_PROXIMITY_GRENADE_AC: "Proximity Grenade"
 
 
   STR_WEBBER_AC: "Webber"
