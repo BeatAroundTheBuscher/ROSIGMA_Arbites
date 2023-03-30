@@ -4,6 +4,6 @@ author: "Buscher"
 description: "Campaign for the Arbites. Run with 40k (034). Doesn't require ROSIGMA (2.0B)"
 id: 40k_rosigmunda
 master: 40k
-isMaster: false
+isMaster: true
 # resourceConfig: Ruleset/vars40k.rul
 reservedSpace: 3 # ToDo, change indices so this is not necessary
