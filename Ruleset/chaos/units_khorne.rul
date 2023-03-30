@@ -64,7 +64,7 @@ units:
       psiStrength: 65
       psiSkill: 0
       melee: 80
-    armor: STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR
+    armor: STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
     standHeight: 21
     kneelHeight: 16
     deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]

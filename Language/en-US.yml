@@ -71,7 +71,7 @@ en-US:
   STR_KHORNE_CULTISTS_CULTIST_CORPSE_AC: "Khorne Cultist Corpse"
 
   STR_KHORNE_CULTISTS_PRIEST_ARMOR_AC: "Khorne Priest"
-  STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR: "Khorne Aspiring Champion"
+  STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC: "Khorne Aspiring Champion"
   STR_KHORNE_CULTISTS_DARKDISCIPLE_ARMOR_AC: "Khorne Dark Disciple"
   STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC: "Khorne Cultist Soldier"
   STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC: "Khorne Female Cultist"
@@ -151,6 +151,12 @@ en-US:
     {NEWLINE}  Doubled Ammo consumption
     {NEWLINE}> Leaks Radiation (hurts user)"
   STR_NIHILUS_LONGLAS_AC: "Nihilus Longlas"
+
+  STR_STUB_CANNON_AC: "Stub Cannon"
+  STR_STUB_CANNON_UFOPEDIA: "{NEWLINE} I like big guns and I cannot lie"
+  STR_STUB_CANNON_JUDGESLAYER_AC: "Judgeslayer Stub Cannon"
+  STR_STUB_CANNON_JUDGESLAYER_UFOPEDIA: "{NEWLINE} I like big guns and I cannot lie"
+  STR_STUB_CANNON_JUDGESLAYER_CLIP_AC: "Judgeslayer Bullet"
 
   STR_BOLTER_LIGHT_AC: "Light Bolter Solo"
   STR_BOLTER_SOLO_UFOPEDIA: "{NEWLINE} Perinetus Pattern Solo Mark II is unsophisticated and lacks the capability for autofire, allowing it only singleshot firemode. This is made up by the weapon's range, accuracy and reliability in adverse conditions. This pattern of Bolter is intended to be used by normal humans and is sized accordingly. {NEWLINE}{NEWLINE}Recoil: {ALT}20"

@@ -278,6 +278,97 @@ items:
     attraction: 1
     listOrder: 110
 
+  - type: STR_STUB_CANNON_AC
+    categories: [STR_CAT_AUTO]
+    dropoff: 5
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+    size: 0.2
+    costBuy: 20000
+    costSell: 5000
+    weight: 15
+    bigSprite: 247
+    floorSprite: 262
+    handSprite: 668
+    bulletSprite: {mod: 40k, index: 1}
+    fireSound: 200
+    compatibleAmmo:
+      - STR_STUB_CANNON_JUDGESLAYER_CLIP_AC
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    armor: 200
+    autoRange: 0
+    snapRange: 16
+    aimRange: 0
+    accuracyAuto: 0
+    accuracySnap: 40
+    accuracyAimed: 0
+    tuAuto: 0
+    tuSnap: 25
+    tuAimed: 0
+    autoShots: 1
+    bulletSpeed: 30
+    attraction: 1
+    listOrder: 111
+
+  - type: STR_STUB_CANNON_JUDGESLAYER_AC
+    categories: [STR_CAT_AUTO]
+    dropoff: 5
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
+    size: 0.2
+    costBuy: 20000
+    costSell: 5000
+    weight: 15
+    bigSprite: 204
+    floorSprite: 204
+    handSprite: 204
+    bulletSprite: {mod: 40k, index: 1}
+    fireSound: 200
+    compatibleAmmo:
+      - STR_STUB_CANNON_JUDGESLAYER_CLIP_AC
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    armor: 200
+    autoRange: 0
+    snapRange: 8
+    aimRange: 0
+    accuracyAuto: 0
+    accuracySnap: 30
+    accuracyAimed: 0
+    tuAuto: 0
+    tuSnap: 25
+    tuAimed: 0
+    autoShots: 1
+    bulletSpeed: 30
+    attraction: 1
+    listOrder: 112
+
+  - type: STR_STUB_CANNON_JUDGESLAYER_CLIP_AC
+    categories: [STR_CAT_AUTO]
+    size: 0.1
+    costBuy: 300
+    costSell: 60
+    weight: 3
+    bigSprite: 205
+    floorSprite: {mod: 40k, index: 1013}
+    handSprite: {mod: 40k, index: 1104}
+    hitSound: 13
+    hitAnimation: 26
+    power: 50
+    damageType: 1
+    damageAlter:
+      ToArmorPre: 0.1
+      ArmorEffectiveness: 0.90
+    clipSize: 1
+    battleType: 2
+    armor: 30
+    listOrder: 113
+
 
   - &STR_BALLISTIC_WEAPON_AUTO_PISTOL
     type: STR_AUTOPISTOL_AC

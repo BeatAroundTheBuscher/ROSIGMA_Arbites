@@ -153,6 +153,20 @@ ufopaedia:
     text: STR_STUB_RIFLE_UFOPEDIA
     listOrder: 260
 
+  - id: STR_STUB_CANNON_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: STUB_GUN.SPK
+    text: STR_STUB_CANNON_UFOPEDIA
+    listOrder: 261
+
+  - id: STR_STUB_CANNON_JUDGESLAYER_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: STUB_GUN.SPK
+    text: STR_STUB_CANNON_JUDGESLAYER_UFOPEDIA
+    listOrder: 262
+
   - id: STR_AUTOPISTOL_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -524,7 +538,7 @@ ufopaedia:
     text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 650
 
-  - id: STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR
+  - id: STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
     type_id: 15
     section: STR_ALIEN_LIFE_FORMS
     requires:
@@ -749,6 +763,10 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     listOrder: 910
 
+  - id: STR_STUB_CANNON_JUDGESLAYER_CLIP_AC
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+    listOrder: 910
      
 
 ### Enemies

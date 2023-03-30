@@ -36,3 +36,6 @@ items:
 
   - type: STR_BOLTER_LIGHT_AC
     refNode: *STR_ITEM_CHANGE_COLOR
+
+  - type: STR_STUB_CANNON_AC
+    refNode: *STR_ITEM_CHANGE_COLOR

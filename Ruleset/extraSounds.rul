@@ -1,4 +1,8 @@
 extraSounds:
   - type: BATTLE.CAT
     files:
-      2261: Resources/Sound/F_MWLAS4.wav #2243
+      # XCF
+      200: Resources/Sound/XCF/Magnumfire.wav
+
+      # ROSIGMA
+      2261: Resources/Sound/F_MWLAS4.wav
