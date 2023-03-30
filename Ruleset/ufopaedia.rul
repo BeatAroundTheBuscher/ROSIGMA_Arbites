@@ -469,7 +469,7 @@ ufopaedia:
 ### ARMORS
 #### Convention by the game is to add _UC at the end
 
-  - id: STR_PENAL_ARMOR_UC_AC
+  - id: STR_PENAL_ARMOR_AC_UC
     type_id: 15
     section: STR_ARMORPEDIA
     image_id: PENAL_LEGION.SPK
@@ -602,6 +602,12 @@ ufopaedia:
     listOrder: 720
 
 ### Assistance
+
+  - id: STR_HELP_MAP_AC          #HELP 50010
+    type_id: 10
+    section: STR_HELP
+    image_id: 3MAP.SPK
+    listOrder: 50010
 
   - id: STR_HELP_RECOIL_PENALTY_AC
     type_id: 10

@@ -385,7 +385,7 @@ en-US:
   STR_ARBITES_ARC3: "Todo"
   STR_ARBITES_ARC2: "Todo"
   STR_ANTI_ARMOR_ADVANCED: "Advanced Anti Armor Weapons"
-  STR_PENAL_ARMOR_UC_AC: "Penal Clothing"
+  STR_PENAL_ARMOR_AC_UC: "Penal Clothing"
   STR_LASGUN_CHAOS_AC: "Lasgun (Chaos)"
   STR_AUTOPISTOL_CHAOS_AC: "Autopistol (Chaos)"
 
@@ -406,7 +406,7 @@ en-US:
   STR_STUB_GUN_AMMO_WOUND_AC: "Stubber Bleeder Magazine"
   STR_STUB_GUN_AMMO_HP_AC: "Stubber Expander Magazine"
   STR_STUB_GUN_AMMO_INC_AC: "Stubber Tracer Magazine"
-  STR_RIOT_SHIELD_UFOPEDIA_AC_1: "{NEWLINE}The \"Lockshield\" is a heavy ceramite riot shield worn on one arm. It provides additional protection while still allowing one-handed weapons to be operated without penalty.
+  STR_RIOT_SHIELD_UFOPEDIA_AC_1: "{NEWLINE} The \"Lockshield\" is a heavy ceramite riot shield worn on one arm. It provides additional protection while still allowing one-handed weapons to be operated without penalty.
     {NEWLINE}{NEWLINE}Abilities: >>"
   STR_RIOT_SHIELD_UFOPEDIA_AC_2: "{NEWLINE} Abilities:
     {NEWLINE}> Extended Front
@@ -429,6 +429,7 @@ en-US:
 
 ### Assistance
 
+  STR_HELP_MAP_AC: "Cartography"
   STR_HELP_RECOIL_PENALTY_AC: "Weapon Strength Requirements"
   STR_HELP_TERRAIN_DESTRUCTION_AC: "Destroying Terrain"
   STR_HELP_DAMAGE_TIME_UNITS_CARRY_OVER_AC: "Carrying Over TU Damage"

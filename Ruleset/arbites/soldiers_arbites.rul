@@ -68,7 +68,7 @@ soldiers:
     refNode: *STR_SOLDIER_ARBITES
     costBuy: 20000
     costSalary: 2000
-    armor: STR_PENAL_ARMOR_UC_AC
+    armor: STR_PENAL_ARMOR_AC_UC
     allowPiloting: false
     allowPromotion: true
     rankStrings:

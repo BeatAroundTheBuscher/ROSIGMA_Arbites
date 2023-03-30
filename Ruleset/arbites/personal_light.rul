@@ -14,7 +14,7 @@ armors:
   - type: STR_JUDGE_ARMOR_AC_UC
     refNode: *STR_PERSONAL_LIGHT
 
-  - type: STR_PENAL_ARMOR_UC_AC
+  - type: STR_PENAL_ARMOR_AC_UC
     refNode: *STR_PERSONAL_LIGHT
 
   - type: STR_CMAS_ARMOR_AC_UC

@@ -107,7 +107,7 @@ armors:
       F8: ["0", "JUDGEF", "F8_FACE"]
       F9: ["0", "JUDGEF", "F9_FACE"]
 
-  - type: STR_PENAL_ARMOR_UC_AC 
+  - type: STR_PENAL_ARMOR_AC_UC 
     refNode: *STR_ARBITES_ARMOR
     layersDefaultPrefix: 20
     layersSpecificPrefix:

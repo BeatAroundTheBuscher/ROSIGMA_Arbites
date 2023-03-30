@@ -38,7 +38,7 @@ armors:
     annoyedMale:        [{mod: 40k, index: 1194}]
     annoyedFemale:      [{mod: 40k, index: 1194}]
 
-  - type: STR_PENAL_ARMOR_UC_AC
+  - type: STR_PENAL_ARMOR_AC_UC
     selectUnitMale:     [{mod: 40k, index: 211}, {mod: 40k, index: 212}, {mod: 40k, index: 213}, {mod: 40k, index: 214}, {mod: 40k, index: 215}]
     selectUnitFemale:   [{mod: 40k, index: 231}, {mod: 40k, index: 232}, {mod: 40k, index: 233}, {mod: 40k, index: 234}, {mod: 40k, index: 235}]
     startMovingMale:    [{mod: 40k, index: 206}, {mod: 40k, index: 207}, {mod: 40k, index: 208}, {mod: 40k, index: 209}, {mod: 40k, index: 210}]

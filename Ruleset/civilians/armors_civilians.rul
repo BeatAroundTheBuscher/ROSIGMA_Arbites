@@ -138,7 +138,7 @@ armors:
       - STR_PENAL_CORPSE_AC
     drawingRoutine: 0
     loftempsSet: [ 3 ]
-    ufopediaType: STR_PENAL_ARMOR_UC_AC
+    ufopediaType: STR_PENAL_ARMOR_AC_UC
 
     visibilityAtDay: 40
     visibilityAtDark: 9

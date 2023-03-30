@@ -79,7 +79,7 @@ armors:
     loftempsSet: [ 3 ]
     drawingRoutine: 0
 
-  - type: STR_PENAL_ARMOR_UC_AC
+  - type: STR_PENAL_ARMOR_AC_UC
     spriteSheet: PENITENTS_BROWN.PCK
     customArmorPreviewIndex: {mod: 40k, index: 52}
     corpseBattle:
