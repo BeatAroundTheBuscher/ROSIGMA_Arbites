@@ -69,7 +69,7 @@ extended:
         abs unitDirection; # range should be {-1, 0, +1} to take effect
 
         if lt unitDirection 2; # {abs(-1), 0, +1} # hitting shield facing
-          set side SIDE_FRONT;
+          # set side SIDE_FRONT;
 
           # new part
 
