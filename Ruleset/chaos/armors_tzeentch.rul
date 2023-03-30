@@ -1,0 +1,133 @@
+armors:
+  - &STR_TZEENTCH_CULTIST_ARMOR
+    type: STR_TZEENTCH_CULTISTS_ZEALOT_ARMOR_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 20
+    spriteSheet: CULTIST_THRALL_BS.PCK
+    spriteInv: CULTISTTZEENTCH_INV.SPK
+    corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
+    corpseBattle:
+      - STR_TZEENTCH_CULTISTS_CULTIST_CORPSE_AC
+    frontArmor: 5
+    sideArmor: 4
+    rearArmor: 3
+    underArmor: 3
+    drawingRoutine: 0
+    damageModifier: # CULTIST ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 2.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 2 ]
+
+  - type: STR_TZEENTCH_CULTISTS_FEMCULTIST_ARMOR_AC
+    refNode: *STR_TZEENTCH_CULTIST_ARMOR
+    spriteSheet: FEMCULTIST.PCK
+    spriteInv: ARepentiaLightK.SPK
+    corpseBattle:
+      - STR_TZEENTCH_CULTISTS_FEMCULTIST_CORPSE_AC
+
+  - &STR_TZEENTCH_CULTIST_GUTTERFORGE_ARMOR
+    type: STR_TZEENTCH_CULTISTS_SOLDIER_ARMOR_AC
+    refNode: *STR_TZEENTCH_CULTIST_ARMOR
+    spriteSheet: SECTOID.PCK
+    spriteInv: CULTI1
+    corpseBattle:
+      - STR_TZEENTCH_CULTISTS_SOLDIER_CORPSE_AC
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 15
+    damageModifier: # GUTTERFORGE
+      - 1.0 #none
+      - 0.9 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 3 ]
+
+  - type: STR_TZEENTCH_CULTISTS_PRIEST_ARMOR_AC
+    refNode: *STR_TZEENTCH_CULTIST_ARMOR
+    spriteSheet: PRIEST.PCK
+    spriteInv: CULTI4
+    corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
+    corpseBattle:
+      - STR_TZEENTCH_CULTISTS_PRIEST_CORPSE_AC
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 1
+    loftempsSet: [ 3 ]
+
+
+  - type: STR_TZEENTCH_CULTISTS_DARKDISCIPLE_ARMOR_AC
+    refNode: *STR_TZEENTCH_CULTIST_GUTTERFORGE_ARMOR
+    spriteSheet: DARKDISCIPLE_BS.PCK
+    spriteInv: DARKDISCIPLE_INV
+    corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
+    corpseBattle:
+      - STR_TZEENTCH_CULTISTS_DARKDISCIPLE_CORPSE_AC
+    frontArmor: 40 # sophisticated
+    sideArmor: 35
+    rearArmor: 30
+    underArmor: 30
+
+  - type: STR_TZEENTCH_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
+    refNode: *STR_TZEENTCH_CULTIST_GUTTERFORGE_ARMOR
+    heatVision: 10
+    spriteSheet: CULTIST_ASPIRING_BS.PCK
+    spriteInv: CULTASPIRING_INV
+    corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
+    corpseBattle:
+      - STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_CORPSE_AC
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 20
+    loftempsSet: [ 3 ]
+
+  - &STR_DAEMON_ARMOR
+    type: STR_FLAMER_DAEMON_ARMOR_AC
+    visibilityAtDay: 60
+    visibilityAtDark: 60
+    spriteSheet: DEAMON4.PCK
+    allowInv: false
+    spriteInv: DK
+    corpseBattle:
+      - STR_FLAMER_DAEMON_CORPSE_AC
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 10
+    drawingRoutine: 4
+    constantAnimation: false
+    damageModifier: #DEAMON ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.0 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 3 ]

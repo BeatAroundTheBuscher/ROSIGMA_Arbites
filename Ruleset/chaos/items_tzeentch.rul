@@ -8,13 +8,13 @@ extended:
       ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
 
 items:
-  - type: STR_KHORNE_CULTISTS_CORPSE_AC # geoItem only
+  - type: STR_TZEENTCH_CULTISTS_CORPSE_AC # geoItem only
     size: 0.4
     costSell: 5000
     listOrder: 10010
 
   - &STR_CORPSE # battlescape only
-    type: STR_KHORNE_CULTISTS_PRIEST_CORPSE_AC
+    type: STR_TZEENTCH_CULTISTS_PRIEST_CORPSE_AC
     weight: 20
     bigSprite: {mod: 40k, index: 213}
     floorSprite: {mod: 40k, index: 101}
@@ -24,90 +24,83 @@ items:
     battleType: 11
     armor: 26
   
-  - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_CORPSE_AC
+  - type: STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 46}
     floorSprite: {mod: 40k, index: 42}
 
-  - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_CORPSE_AC
+  - type: STR_TZEENTCH_CULTISTS_DARKDISCIPLE_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: 2871
     floorSprite: 2871
 
-  - type: STR_KHORNE_CULTISTS_SOLDIER_CORPSE_AC
+  - type: STR_TZEENTCH_CULTISTS_SOLDIER_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 46}
     floorSprite: {mod: 40k, index: 42}
 
-  - type: STR_KHORNE_CULTISTS_FEMCULTIST_CORPSE_AC
+  - type: STR_TZEENTCH_CULTISTS_FEMCULTIST_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 449}
     floorSprite: {mod: 40k, index: 371}
 
-  - type: STR_KHORNE_CULTISTS_CULTIST_CORPSE_AC
+  - type: STR_TZEENTCH_CULTISTS_CULTIST_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 293}
     floorSprite: {mod: 40k, index: 161}
 
 
-  - type: STR_KHORNE_CULTISTS_PRIEST_AC
+  - type: STR_TZEENTCH_CULTISTS_PRIEST_AC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 10020
 
-  - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
+  - type: STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_AC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 10030
 
-  - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_AC
+  - type: STR_TZEENTCH_CULTISTS_DARKDISCIPLE_AC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 10040
 
-  - type: STR_KHORNE_CULTISTS_SOLDIER_AC
+  - type: STR_TZEENTCH_CULTISTS_SOLDIER_AC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 10050
 
-  - type: STR_KHORNE_CULTISTS_FEMCULTIST_AC
+  - type: STR_TZEENTCH_CULTISTS_FEMCULTIST_AC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 10060
 
-  - type: STR_KHORNE_CULTISTS_CULTIST_AC
+  - type: STR_TZEENTCH_CULTISTS_ZEALOT_AC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 10070
 
-  - type: STR_BLOODLETTER_DAEMON_AC
+  - type: STR_FLAMER_DAEMON_AC
     size: 0.0
     recover: false
     liveAlien: false
     costSell: 30000
     listOrder: 10060
-
-  - type: STR_WINGED_DAEMON_AC
-    size: 0.0
-    recover: false
-    liveAlien: false
-    costSell: 30000
-    listOrder: 10070
 
   - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
-    spawnUnit: STR_KHORNE_CULTISTS_CULTIST_AC # STR_CULTIST_RITUALIST_SACRIFICES
+    spawnUnit: STR_TZEENTCH_CULTISTS_ZEALOT_AC # STR_CULTIST_RITUALIST_SACRIFICES
     spawnUnitFaction: 1
     recover: false
     invWidth: 0
@@ -129,42 +122,7 @@ items:
       ITEM_PRIMED_AT_BATTLE_START_VARIANCE: 10
       ITEM_SETS_MISSION_TIMER: 1
 
-  - type: STR_WINGED_DAEMON_CORPSE_AC
-    size: 1
-    costSell: 20000
-    battleType: 11
-    power: 120
-    blastRadius: 6
-    recover: true
-  - type: WINGED_DAEMON_CORPSE_1_AC
-    name: STR_WINGED_DAEMON_CORPSE
-    floorSprite: {mod: 40k, index: 56}
-    invWidth: 0
-    invHeight: 0
-    battleType: 11
-    recoveryPoints: 3
-  - type: WINGED_DAEMON_CORPSE_2_AC
-    floorSprite: {mod: 40k, index: 57}
-    invWidth: 0
-    invHeight: 0
-    battleType: 11
-    recover: false
-  - type: WINGED_DAEMON_CORPSE_3_AC
-    name: STR_WINGED_DAEMON_CORPSE
-    floorSprite: {mod: 40k, index: 58}
-    invWidth: 0
-    invHeight: 0
-    battleType: 11
-    recover: false
-  - type: WINGED_DAEMON_CORPSE_4_AC
-    name: STR_WINGED_DAEMON_CORPSE
-    floorSprite: {mod: 40k, index: 59}
-    invWidth: 0
-    invHeight: 0
-    battleType: 11
-    recover: false
-
-  - type: STR_BLOODLETTER_DAEMON_CORPSE_AC
+  - type: STR_FLAMER_DAEMON_CORPSE_AC
      #19910
     size: 0.4
     costSell: 20000
@@ -181,34 +139,7 @@ items:
     liveAlien: ""
 
 
-  - type: STR_WINGED_DAEMON_WEAPON_AC
-    weight: 3
-    bigSprite: {mod: 40k, index: 251}
-    bulletSprite: -1
-    fireSound: {mod: 40k, index: 753}
-    hitSound: {mod: 40k, index: 754}
-    meleeSound: {mod: 40k, index: 753}
-    hitAnimation: {mod: 40k, index: 80}
-    meleeAnimation: {mod: 40k, index: 4}
-    power: 150
-    damageType: 7
-    damageAlter:
-      IgnoreSelfDestruct: false
-    accuracySnap: 75
-    accuracyAimed: 110
-    accuracyMelee: 80
-    tuMelee: 30
-    tuSnap: 30
-    tuAimed: 60
-    clipSize: -1
-    battleType: 3
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    maxRange: 2
-    recover: false
-
-  - type: STR_BLOODLETTER_WEAPON_AC #Deamon Blade
+  - type: STR_FLAMER_WEAPON_AC #Deamon Blade
     meleeSound: {mod: 40k, index: 753} #753 Powerswrod miss
     meleeHitSound: {mod: 40k, index: 754} #744 Powerswrod hit
     power: 150

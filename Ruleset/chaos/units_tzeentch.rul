@@ -7,8 +7,8 @@
 # units.rul:    rank: STR_LIVE_TERRORIST
 
 units:
-  - type: STR_KHORNE_CULTISTS_PRIEST_AC
-    race: STR_KHORNE_CULTISTS_AC
+  - type: STR_TZEENTCH_CULTISTS_PRIEST_AC
+    race: STR_TZEENTCH_CULTISTS_AC
     rank: STR_LIVE_COMMANDER
     stats:
       tu: 54
@@ -22,7 +22,7 @@ units:
       psiStrength: 50
       psiSkill: 30
       melee: 76
-    armor: STR_KHORNE_CULTISTS_PRIEST_ARMOR_AC
+    armor: STR_TZEENTCH_CULTISTS_PRIEST_ARMOR_AC
     standHeight: 21
     kneelHeight: 16
     deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]
@@ -49,8 +49,8 @@ units:
         - STR_STUB_GUN_AMMO_AC
         - STR_ALIEN_GRENADE_AC
 
-  - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
-    race: STR_KHORNE_CULTISTS_AC
+  - type: STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_AC
+    race: STR_TZEENTCH_CULTISTS_AC
     rank: STR_LIVE_LEADER
     stats:
       tu: 65
@@ -64,7 +64,7 @@ units:
       psiStrength: 65
       psiSkill: 0
       melee: 80
-    armor: STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
+    armor: STR_TZEENTCH_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
     standHeight: 21
     kneelHeight: 16
     deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]
@@ -96,8 +96,8 @@ units:
         - STR_COMBAT_KNIFE_AC
         - STR_ALIEN_GRENADE_AC
 
-  - type: STR_KHORNE_CULTISTS_DARKDISCIPLE_AC     #CHAOS FEMALE CULTIST DARK DISCIPLE
-    race: STR_KHORNE_CULTISTS_AC
+  - type: STR_TZEENTCH_CULTISTS_DARKDISCIPLE_AC     #CHAOS FEMALE CULTIST DARK DISCIPLE
+    race: STR_TZEENTCH_CULTISTS_AC
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 65
@@ -111,7 +111,7 @@ units:
       psiStrength: 80
       psiSkill: 0
       melee: 75
-    armor: STR_KHORNE_CULTISTS_DARKDISCIPLE_ARMOR_AC
+    armor: STR_TZEENTCH_CULTISTS_DARKDISCIPLE_ARMOR_AC
     standHeight: 20
     kneelHeight: 15
     value: 15
@@ -141,8 +141,8 @@ units:
         - STR_COMBAT_KNIFE_AC
         - STR_ALIEN_GRENADE_AC
 
-  - type: STR_KHORNE_CULTISTS_SOLDIER_AC
-    race: STR_KHORNE_CULTISTS_AC
+  - type: STR_TZEENTCH_CULTISTS_SOLDIER_AC
+    race: STR_TZEENTCH_CULTISTS_AC
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 54
@@ -156,7 +156,7 @@ units:
       psiStrength: 40
       psiSkill: 0
       melee: 76
-    armor: STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC
+    armor: STR_TZEENTCH_CULTISTS_SOLDIER_ARMOR_AC
     standHeight: 21
     kneelHeight: 16
     value: 10
@@ -183,10 +183,10 @@ units:
         - STR_LASPISTOL_CLIP_AC
         - STR_COMBAT_KNIFE_AC
         - STR_ALIEN_GRENADE_AC
-    liveAlien: STR_KHORNE_CULTISTS_CULTIST_AC
+    liveAlien: STR_TZEENTCH_CULTISTS_ZEALOT_AC
 
-  - type: STR_KHORNE_CULTISTS_FEMCULTIST_AC
-    race: STR_KHORNE_CULTISTS_AC
+  - type: STR_TZEENTCH_CULTISTS_FEMCULTIST_AC
+    race: STR_TZEENTCH_CULTISTS_AC
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 70
@@ -200,7 +200,7 @@ units:
       psiStrength: 75
       psiSkill: 0
       melee: 75
-    armor: STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC
+    armor: STR_TZEENTCH_CULTISTS_FEMCULTIST_ARMOR_AC
     standHeight: 20
     kneelHeight: 15
     value: 8
@@ -229,10 +229,10 @@ units:
         - STR_LASPISTOL_CLIP_AC
         - STR_COMBAT_KNIFE_AC
         - STR_ALIEN_GRENADE_AC
-    liveAlien: STR_KHORNE_CULTISTS_CULTIST_AC
+    liveAlien: STR_TZEENTCH_CULTISTS_ZEALOT_AC
 
-  - type: STR_KHORNE_CULTISTS_CULTIST_AC
-    race: STR_KHORNE_CULTISTS_AC
+  - type: STR_TZEENTCH_CULTISTS_ZEALOT_AC
+    race: STR_TZEENTCH_CULTISTS_AC
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 54
@@ -246,7 +246,7 @@ units:
       psiStrength: 40
       psiSkill: 0
       melee: 76
-    armor: STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC
+    armor: STR_TZEENTCH_CULTISTS_ZEALOT_ARMOR_AC
     standHeight: 21
     kneelHeight: 16
     deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]
@@ -261,40 +261,8 @@ units:
       - - STR_COMBAT_KNIFE_AC
       - - STR_COMBAT_KNIFE_AC
 
-  - type: STR_WINGED_DAEMON_AC
-    race: STR_WINGED_DAEMON_AC
-    rank: STR_LIVE_TERRORIST
-    isLeeroyJenkins: true
-    stats:
-      tu: 82
-      stamina: 90
-      health: 120
-      bravery: 110
-      reactions: 64
-      firing: 60
-      throwing: 0
-      strength: 90
-      psiStrength: 100
-      psiSkill: 0
-      melee: 80
-    armor: STR_WINGED_DAEMON_ARMOR_AC
-    standHeight: 15
-    kneelHeight: 15
-    floatHeight: 2
-    value: 20
-    deathSound: {mod: 40k, index: 737}
-    moveSound: {mod: 40k, index: 828}
-    intelligence: 5
-    aggression: 5
-    energyRecovery: 50
-    specab: 2
-    livingWeapon: false
-    builtInWeaponSets:
-      - - STR_WINGED_DAEMON_WEAPON_AC
-    
-
-  - type: STR_BLOODLETTER_DAEMON_AC
-    race: STR_BLOODLETTER_AC
+  - type: STR_FLAMER_DAEMON_AC
+    race: STR_FLAMER_AC
     rank: STR_LIVE_TERRORIST
     stats:
       tu: 80
@@ -308,7 +276,7 @@ units:
       psiStrength: 80
       psiSkill: 0
       melee: 80
-    armor: STR_BLOODLETTER_DAEMON_ARMOR_AC
+    armor: STR_FLAMER_DAEMON_ARMOR_AC
     standHeight: 10
     kneelHeight: 10
     value: 20
