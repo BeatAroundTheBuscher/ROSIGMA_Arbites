@@ -377,7 +377,7 @@ ufopaedia:
   - id: STR_AUTOPISTOL_CHAOS_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: AUTOGUN.SPK
+    image_id: AUTOPISTOL.SPK
     text: STR_AUTOGUN_UFOPEDIA
     listOrder: 500
 
