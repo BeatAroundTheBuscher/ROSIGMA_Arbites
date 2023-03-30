@@ -30,6 +30,8 @@
       2714: Resources/Bigobs/bigob_makeshift_grenade.png
       2715: Resources/Bigobs/bigob_makeshift_pipebomb.png
       2871: Resources/FOES/BigOBDarkDisciple.png
+      2940: Resources/Bigobs/TZEENTCH_NIHILIUS_LASPISTOL_BIGOB.png
+      2941: Resources/Bigobs/TZEENTCH_NIHILIS_LASGUN_BIGOB.png
 
   - type: FLOOROB.PCK
     files:
@@ -44,6 +46,8 @@
       2051: Resources/Floorobs/floorob_Phosphor.gif
       2708: Resources/Floorobs/FLOOROB_GSC_PUMP_SHOTGUN.png
       2871: Resources/FOES/floorob_darkdisciple.png
+      2940: Resources/Floorobs/TZEENTCH_NIHILIUS_LASPISTOL_FLOOROB.png
+      2941: Resources/Floorobs/TZEENTCH_NIHILIS_LASGUN_FLOOROB.png
 
 
 
@@ -58,6 +62,8 @@
       308: Resources/Handobs/BOLTERSOLO_GUARD_HANDOB.png
       500: Resources/Handobs/HANDOB_GSC_PUMP_SHOTGUN.png
       2020: Resources/Handobs/PHGRENADE.png
+      2900: Resources/Handobs/TZEENTCH_NIHILIUS_LASPISTOL_HANDOB.png
+      2910: Resources/Handobs/TZEENTCH_NIHILIS_LASGUN_HANDOB.png
 
   - type: INTICON.PCK
     files:

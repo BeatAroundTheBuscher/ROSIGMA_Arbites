@@ -1,0 +1,4 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      2261: Resources/Sound/F_MWLAS4.wav #2243

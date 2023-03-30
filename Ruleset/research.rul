@@ -118,6 +118,12 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
+  - name: STR_NIHILUS_LASGUNS_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
   - name: STR_LIGHT_BOLTERS_AC
     cost: 0
     points: 0

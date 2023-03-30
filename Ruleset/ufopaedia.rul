@@ -208,6 +208,34 @@ ufopaedia:
     text: STR_LASER_RIFLE_UFOPEDIA
     listOrder: 330
 
+  - id: STR_NIHILUS_LASPISTOL_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1LP.SPK
+    requires:
+      - STR_LASGUNS_AC
+      - STR_NIHILUS_LASGUNS_AC
+    pages:
+      - title: STR_NIHILUS_LASPISTOL_AC
+        text: STR_NIHILUS_LASPISTOL_UFOPEDIA_1
+      - title: STR_NIHILUS_LASPISTOL_AC
+        text: STR_NIHILUS_LASPISTOL_UFOPEDIA_2
+    listOrder: 331
+
+  - id: STR_NIHILUS_LASGUN_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1LG.SPK
+    requires:
+      - STR_LASGUNS_AC
+      - STR_NIHILUS_LASGUNS_AC
+    pages:
+      - title: STR_NIHILUS_LASGUN_AC
+        text: STR_NIHILUS_LASGUN_UFOPEDIA_1
+      - title: STR_NIHILUS_LASGUN_AC
+        text: STR_NIHILUS_LASGUN_UFOPEDIA_2
+    listOrder: 332
+
 #### Bolters
 
   - id: STR_BOLTER_LIGHT_AC

@@ -134,6 +134,24 @@ en-US:
   STR_LASPISTOL_CHAOS_AC: "Laspistol (Chaos)"
   STR_LASPISTOL_CLIP_AC: "Laspistol Power Cell"
 
+  STR_NIHILUS_LASPISTOL_AC: "Nihilus Laspistol"
+  STR_NIHILUS_LASPISTOL_UFOPEDIA_1: "{NEWLINE} Nihilus Weapons have become prolific through out the underhives, among high-ranking gang lords, cult leaders, or worse, for their ability to reliably put down fully shielded arbites with a few well-placed shots.
+    {NEWLINE}{NEWLINE}Abilities: >>"
+  STR_NIHILUS_LASPISTOL_UFOPEDIA_2: "{NEWLINE} Abilities:
+    {NEWLINE}> Above-average Combat Efficacy
+    {NEWLINE}  Improved Power by 10
+    {NEWLINE}  Doubled Ammo consumption
+    {NEWLINE}> Leaks Radiation (hurts user)"
+  STR_NIHILUS_LASGUN_AC: "Nihilus Lasgun"
+  STR_NIHILUS_LASGUN_UFOPEDIA_1: "{NEWLINE} Nihilus Weapon does not refer to one pattern or even type of weapon, but a whole range of archeotech the mechanics has deemed defiled but not in need of immediate need of purification. And as such it has become a locally accepted pattern of item.
+    {NEWLINE}{NEWLINE}Abilities: >>"
+  STR_NIHILUS_LASGUN_UFOPEDIA_2: "{NEWLINE} Abilities:
+    {NEWLINE}> Above-average Combat Efficacy
+    {NEWLINE}  Improved Power by 10
+    {NEWLINE}  Doubled Ammo consumption
+    {NEWLINE}> Leaks Radiation (hurts user)"
+  STR_NIHILUS_LONGLAS_AC: "Nihilus Longlas"
+
   STR_BOLTER_LIGHT_AC: "Light Bolter Solo"
   STR_BOLTER_SOLO_UFOPEDIA: "{NEWLINE} Perinetus Pattern Solo Mark II is unsophisticated and lacks the capability for autofire, allowing it only singleshot firemode. This is made up by the weapon's range, accuracy and reliability in adverse conditions. This pattern of Bolter is intended to be used by normal humans and is sized accordingly. {NEWLINE}{NEWLINE}Recoil: {ALT}20"
   STR_BOLTER_LIGHT_CLIP_AC: "Light Bolter Magazine"

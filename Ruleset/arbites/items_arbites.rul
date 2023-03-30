@@ -770,14 +770,14 @@ items:
     handSprite: {mod: 40k, index: 1144}
     hitSound: {mod: 40k, index: 19}
     hitAnimation: {mod: 40k, index: 36}
-    power: 50
+    power: 40
     damageType: 4
     damageAlter: #DA LAS
       ToArmorPre: 0.15
       ToHealth: 1.0
       ToArmor: 0.0
       ToStun: 0.0
-    clipSize: 10
+    clipSize: 20
     battleType: 2
     invWidth: 1
     invHeight: 1
@@ -831,14 +831,14 @@ items:
     handSprite: {mod: 40k, index: 1152}
     hitSound: {mod: 40k, index: 19}
     hitAnimation: {mod: 40k, index: 36}
-    power: 50
+    power: 40
     damageType: 4
     damageAlter: #DA LAS
       ToArmorPre: 0.15
       ToHealth: 1.0
       ToArmor: 0.0
       ToStun: 0.0
-    clipSize: 30
+    clipSize: 60
     battleType: 2
     invWidth: 1
     invHeight: 1
@@ -846,6 +846,29 @@ items:
     listOrder: 280
     requiresBuy:
       - STR_LASGUNS_AC
+
+  - type: STR_NIHILUS_LASPISTOL_AC
+    refNode: *STR_LASPISTOL
+    bigSprite: 2940
+    floorSprite: 2940
+    handSprite: 2900
+    fireSound: 2261
+    confSnap:
+      spendPerShot: 2
+    listOrder: 281
+
+  - type: STR_NIHILUS_LASGUN_AC
+    refNode: *STR_LASGUN
+    bigSprite: 2941
+    floorSprite: 2941
+    handSprite: 2910
+    fireSound: 2261
+    confSnap:
+      spendPerShot: 2
+    confAuto:
+      shots: 2
+      spendPerShot: 2
+    listOrder: 282
 
   - type: STR_BOLTER_LIGHT_AC
     categories: [STR_CAT_BOLTER]
