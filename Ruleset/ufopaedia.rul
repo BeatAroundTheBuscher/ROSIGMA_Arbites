@@ -510,6 +510,8 @@ ufopaedia:
         text: STR_JUDGE_ARMOR_UFOPEDIA_AC_1
       - title: STR_JUDGE_ARMOR_AC_UC
         text: STR_JUDGE_ARMOR_UFOPEDIA_AC_2
+      - title: STR_JUDGE_ARMOR_AC_UC
+        text: STR_JUDGE_ARMOR_UFOPEDIA_AC_3
 
   - id: STR_CMAS_ARMOR_AC_UC
     type_id: 15
@@ -678,6 +680,11 @@ ufopaedia:
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 730
+
+  - id: STR_JUDGE_MIND_PROBE
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+    listOrder: 731
 
   - id: STR_CMAS_TACKLE
     type_id: 14

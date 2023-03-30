@@ -71,6 +71,7 @@ armors:
     underArmor: 50 
     builtInWeapons:
       - STR_JUDGE_PSI_AMP
+      - STR_JUDGE_MIND_PROBE
     units:
       - STR_JUDGE_AC
     spriteFaceGroup: 6

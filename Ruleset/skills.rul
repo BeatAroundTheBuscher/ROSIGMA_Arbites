@@ -9,14 +9,26 @@ skills:
     hitSound: {mod: 40k, index: 37}
     targetMode: 11
     costUse:
-      time: 50
-      energy: 30
+      time: 40
     isPsiRequired: false
     checkHandsOnly: false
     compatibleWeapons:
       - STR_JUDGE_PSI_AMP
     tags:
       SKILL_JUDGE: 1
+
+  - type: STR_JUDGE_KEEN_EYE # inbuilt
+    psiAttackName: STR_JUDGE_KEEN_EYE
+    hitSound: {mod: 40k, index: 37}
+    targetMode: 11
+    costUse:
+      time: 25
+    isPsiRequired: false
+    checkHandsOnly: false
+    compatibleWeapons:
+      - STR_JUDGE_MIND_PROBE
+    tags:
+      SKILL_JUDGE: 2
 
 items:
   - type: STR_JUDGE_PSI_AMP
@@ -36,7 +48,6 @@ items:
     hitSound: {mod: 40k, index: 37} # 36
     tuPanic: 0 # don't show up
     tuMindControl: 0 # don't show up
-    flatRate: true
     defaultInventorySlot: STR_BELT
     experienceTrainingMode: 19 # bravery x 1 # 20 # bravery x 2
     damageAlter:
@@ -55,5 +66,18 @@ items:
       ToItem: 0
 
       ResistType: 19
+    targetMatrix: 6 # 1 Friend # 2 Enemy # 4 Neutral
+    maxRange: 20
+
+  - type: STR_JUDGE_MIND_PROBE
+    weight: 0
+    hitSound: 37
+    battleType: 8
+    tuUse: 0
+    invHeight: 0
+    invWidth: 0
+    fixedWeapon: true
+    LOSRequired: true
+    defaultInventorySlot: STR_BELT
     targetMatrix: 6 # 1 Friend # 2 Enemy # 4 Neutral
     maxRange: 20

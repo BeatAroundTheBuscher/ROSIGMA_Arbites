@@ -209,8 +209,10 @@ en-US:
   STR_CMAS_AC: "Bite"
   STR_CMAS_TACKLE_AC: "Tackle"
 
-  STR_JUDGE_PSI_AMP: "Judgement"
+  STR_JUDGE_PSI_AMP: "Stern Judgement"
+  STR_JUDGE_MIND_PROBE: "Keen Eye"
   STR_JUDGE_EVIL_EYE: "Stern Judgement"
+  STR_JUDGE_KEEN_EYE: "Keen Eye"
 
   STR_GUN_BUTT: "Gun Butt"
 
@@ -419,9 +421,10 @@ en-US:
   STR_FLAMETHROWER_CLIP_AC: "Flamer Clip"
 
   # # " They enforce the Imperial Law by hunting down rebels and heretics. Their Carapace armor is reinforced providing superior protection.
-  STR_JUDGE_ARMOR_UFOPEDIA_AC_1: "{NEWLINE} The Judges of the Adeptus Arbites serve as judge, jury and execitioner bringing Emperor's Justice to all worlds of Imperium of Man.
+  STR_JUDGE_ARMOR_UFOPEDIA_AC_1: "{NEWLINE} The Judges of the Adeptus Arbites serve as judge, jury and executioner bringing Emperor's Justice to all worlds of Imperium of Man.
     {NEWLINE}{NEWLINE}Abilities: >>"
-  STR_JUDGE_ARMOR_UFOPEDIA_AC_2: "{NEWLINE} Abilities:{NEWLINE}> Stern Judgement{NEWLINE}Judging low morale enemies may cause them to panic over the turns till they are stunned. Successful Judging is indicated by red flashing of the target."
+  STR_JUDGE_ARMOR_UFOPEDIA_AC_2: "{NEWLINE} Abilities:{NEWLINE}> Keen Eye{NEWLINE}Judging requires reading the body language and state of the mind of criminals. With the Judge's Keen Eye all statistics will be revealed."
+  STR_JUDGE_ARMOR_UFOPEDIA_AC_3: "{NEWLINE} Abilities:{NEWLINE}> Stern Judgement{NEWLINE}Judging low morale enemies may cause them to panic over the turns till they are stunned. Successful Judging is indicated by red flashing of the target."
 
   STR_HEAVY_STUBBER_CLIP_AC: "Heavy Stubber Belt"
   IMPERIUM: "Loyality to the Imperium"

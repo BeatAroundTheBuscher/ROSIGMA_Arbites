@@ -88,6 +88,7 @@ soldiers:
     skillIconSprite: 0
     skills:
       - STR_JUDGE_EVIL_EYE
+      - STR_JUDGE_KEEN_EYE
 #    specialWeapon: STR_PSI_AMP_DUMMY
     minStats:
       tu: 50
