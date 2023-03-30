@@ -6,6 +6,7 @@
 ## Enemies
 ## Crafts
 ## Craft Weapons
+## Assistance
 
 ### I&R
 
@@ -790,9 +791,3 @@ ufopaedia:
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 910
-     
-
-### Enemies
-## TODO
-## Live
-## Corpse

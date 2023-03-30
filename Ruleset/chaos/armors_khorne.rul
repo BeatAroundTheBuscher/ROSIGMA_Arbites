@@ -16,12 +16,12 @@ armors:
     damageModifier: # CULTIST ARMOR
       - 1.0 #none
       - 1.0 #AP
-      - 2.0 #FLAMES
+      - 1.5 #FLAMES
       - 1.0 #HE
       - 1.0 #LASCANON
       - 1.0 #PLASMA
       - 1.0 #STUN
-      - 1.2 #MELEE
+      - 1.0 #MELEE
       - 1.0 #ACID
       - 0.0 #SMOKE
       - 1.0 #IMPACT
@@ -49,12 +49,12 @@ armors:
     damageModifier: # GUTTERFORGE
       - 1.0 #none
       - 0.9 #AP
-      - 1.2 #FLAMES
+      - 1.0 #FLAMES
       - 1.0 #HE
       - 1.0 #LASCANON
       - 1.0 #PLASMA
       - 1.0 #STUN
-      - 1.2 #MELEE
+      - 1.0 #MELEE
       - 1.0 #ACID
       - 0.0 #SMOKE
       - 1.0 #IMPACT

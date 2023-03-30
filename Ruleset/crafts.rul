@@ -38,7 +38,7 @@ crafts:
       - [5, 5, 0, 0]
       - [4, 6, 0, 0]
       - [5, 6, 0, 0]
-    craftInventoryTile: [4, 4, 0] # move it a bit back
+    craftInventoryTile: [4, 3, 0]
     spacecraft: false
     requires:
       - STR_ARBITES_CAMPAIGN

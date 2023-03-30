@@ -16,13 +16,13 @@ armors:
     drawingRoutine: 0
     damageModifier: #GUARD ARMOR
       - 1.0 #none
-      - 1.0 #AP
-      - 1.2 #FLAMES
+      - 0.9 #AP
+      - 1.0 #FLAMES
       - 1.0 #HE
-      - 0.8 #LASCANON
+      - 1.0 #LASCANON
       - 1.0 #PLASMA
       - 1.0 #STUN
-      - 1.1 #MELEE
+      - 1.0 #MELEE
       - 1.0 #ACID
       - 0.0 #SMOKE
       - 1.0 #IMPACT
@@ -57,6 +57,7 @@ armors:
 
 
   - type: STR_JUDGE_ARMOR_AC_UC
+    refNode: *STR_BASIC_ENFORCER_ARMOR
     visibilityAtDay: 60
     visibilityAtDark: 60
     customArmorPreviewIndex: {mod: 40k, index: 53}
@@ -101,19 +102,16 @@ armors:
     damageModifier: #GUARD ARMOR
       - 1.0 #none
       - 1.0 #AP
-      - 1.2 #FLAMES
+      - 1.5 #FLAMES
       - 1.0 #HE
-      - 0.8 #LASCANON
+      - 1.0 #LASCANON
       - 1.0 #PLASMA
       - 1.0 #STUN
-      - 1.1 #MELEE
+      - 1.0 #MELEE
       - 1.0 #ACID
       - 0.0 #SMOKE
       - 1.0 #IMPACT
       - 1.0 #MELTA
-
-    stats:
-       bravery: -20 #always multiples of 10
     specialWeapon: STR_EXPLOSIVE_COLLAR_AC
     builtInWeapons:
       - INV_NULL_3X3_AC
@@ -152,15 +150,15 @@ armors:
     drawingRoutine: 4
     constantAnimation: false
     damageModifier: #NURGLE ARMOR
-      - 0.9 #none
+      - 1.0 #none
       - 0.9 #AP
-      - 1.5 #FLAMES
-      - 0.9 #HE
-      - 0.9 #LASCANON
-      - 0.9 #PLASMA
-      - 0.9 #STUN
-      - 0.9 #MELEE
-      - 0.1 #ACID
+      - 1.0 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.0 #MELEE
+      - 1.0 #ACID
       - 0.0 #SMOKE
       - 1.0 #IMPACT
       - 1.0 #MELTA
