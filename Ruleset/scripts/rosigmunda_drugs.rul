@@ -62,12 +62,10 @@ extended:
           
           item.getTag temp Tag.ITEM_FUSE_SIDE;
 
-          if or eq bUnit null eq unitFaction FACTION_PLAYER eq temp 0; # don't do it for the player
-            if eq rInvId "STR_GROUND"; #presumely fell down
-              item.setFuseEnabled 0;
-              item.setFuseTimer -1;
-              debug_log "rInvId" rInvId;
-            end;
+          if or eq bUnit null eq unitFaction FACTION_PLAYER eq temp 0 eq rInvId "STR_GROUND"; # don't do it for the player
+            item.setFuseEnabled 0;
+            item.setFuseTimer -1;
+            debug_log "rInvId" rInvId;
             return;
           end;
 

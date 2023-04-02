@@ -437,6 +437,11 @@ en-US:
   STR_MAKESHIFT_PIPEBOMB_UFOPEDIA: "{NEWLINE} Similar to the Makeshift Grenade, the Pipebomb is cobbled together inside the criminal underworld. It causes a bigger explosion compared to the grenade version but the bomb can also not be thrown as far due to its weight."
 
 
+### Drugs
+
+  STR_SLAUGHT_AC: "Drug: Slaught"
+  STR_SLAUGHT_AI_AC: "Drug: Slaught (Dirty)"
+
 ### Assistance
 
   STR_HELP_MAP_AC: "Cartography"

@@ -40,10 +40,11 @@ items:
     hitAnimation: 200 # X1.PCK
     hitAnimFrames: 8
     defaultInventorySlot: STR_BELT  
-    inventoryMoveCost: # cannot be moved
-      basePercent: 10000 #TU multiplier of base cost
     supportedInventorySections:
+      - STR_RIGHT_LEG
+      - STR_LEFT_LEG
       - STR_BELT
+      - STR_LEFT_LEG
 #    fixedWeapon: true
     recover: true
     recoveryTransformations:
