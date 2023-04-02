@@ -1,9 +1,12 @@
 name: "40k Rosigmunda"
-version: "0.2"
+version: "0.3"
 author: "Buscher"
-description: "Campaign for the Arbites. Run with 40k (034). Doesn't require ROSIGMA (2.0B)"
+description: "Campaign for the Arbites. Run with 40k (034). Don't run with ROSIGMA, cutscenes, etc."
 id: 40k_rosigmunda
 master: 40k
 isMaster: true
 # resourceConfig: Ruleset/vars40k.rul
 reservedSpace: 3 # ToDo, change indices so this is not necessary
+requiredExtendedVersion: "7.8.9"
+requiredExtendedEngine: "Extended"
+requiredMasterModVersion: "034"

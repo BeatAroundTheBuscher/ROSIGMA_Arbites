@@ -1,8 +1,13 @@
 items:
-  - type: STR_SLAUGHT_AI_AC # ToDo: name will be changed
+  - &STR_SLAUGHT
+    type: STR_SLAUGHT_AC
     tags:
-      ITEM_BOOST_MELEE: 100
+      ITEM_BOOST_MELEE: 40
       ITEM_REDUCE_HEALTH_ON_USE: 10
+
+  - type: STR_SLAUGHT_AI_AC # ToDo: name will be changed
+    refNode: *STR_SLAUGHT
+    tags:
       ITEM_FUSE_MINIMUM: 2
       ITEM_FUSE_MAXIMUM: 10
       ITEM_FUSE_SIDE: 1 # Hostile
@@ -12,6 +17,7 @@ extended:
   tags:
     BattleUnit:
       UNIT_REDUCED_HEALTH_BY: int # only shows correctly on returnFromMissionUnit
+      UNIT_CURRENT_BOOST_MELEE: int
     RuleItem:
       ITEM_REDUCE_HEALTH_ON_USE: int
       ITEM_FUSE_MINIMUM: int
@@ -22,7 +28,7 @@ extended:
 
   scripts:
     hitUnit:
-      - new: tester
+      - new: ROSIGMUNDA_hU_handle_effect_for_ai_drugs
         offset: 1
         code: |    
           var int temp;
@@ -30,59 +36,63 @@ extended:
           damaging_item.getTag temp Tag.ITEM_BOOST_MELEE;
           if gt temp 0;
             unit.Stats.addMelee temp;
+            unit.setTag Tag.UNIT_CURRENT_BOOST_MELEE temp;
           end;
 
           return power part side;
 
 
     newTurnItem:
-      - new: tester
+      - new: ROSIGMUNDA_nTI_prime_fuse_on_ai_drugs
         offset: 1
         code: |
           var int fuseMin;
           var int fuseMax;
-          var int fuseSide;
           var ptr RuleInventory rInv;
           var text rInvId;
-          var int rInvType;
           var int temp;
+          var ptr BattleUnit bUnit;
+          var int unitFaction;
+
+          item.getOwner bUnit;
+          bUnit.getFaction unitFaction;
+          item.getTag temp Tag.ITEM_FUSE_SIDE;
+          if neq unitFaction temp;
+            return;
+          end;
 
           item.getSlot rInv;
           rInv.getId rInvId;
-          rInv.getType rInvType;
-
 
           item.getTag fuseMin Tag.ITEM_FUSE_MINIMUM;
           item.getTag fuseMax Tag.ITEM_FUSE_MAXIMUM;
-          item.getTag fuseSide Tag.ITEM_FUSE_SIDE;
+
 
           item.isFuseEnabled temp;
 
           if and gt fuseMin 0 neq rInvId "STR_GROUND" eq temp 0;
+            battle_game.randomRange temp fuseMin fuseMax;
+
             item.setFuseEnabled 1;
-            item.setFuseTimer fuseMin;
-            debug_log "rInv" rInv;
-            debug_log "rInvId" rInvId;
-            debug_log "rInvType" rInvType;
+            item.setFuseTimer temp;
           end;
 
-          item.getFuseTimer fuseMin;
-          if gt fuseMin 0;
-            debug_log "current fuse" fuseMin;
+          if eq rInvId "STR_GROUND"; #presumely fell down
+            item.setFuseEnabled 0;
+            item.setFuseTimer -1;
           end;
-
 
           return;
 
 
     healUnit: # doesn't work as part of items
-      - new: ROSIGMUNDA_healU_reduce_health_on_use;
+      - new: ROSIGMUNDA_healU_handle_effect_for_player_drugs;
         offset: 11
         code: |
           var int temp;
           var int reduceHealthBy;
           var int soldierHealth;
-          var ptre GeoscapeSoldier geoSoldier;
+          var ptr GeoscapeSoldier geoSoldier;
 
           item.getTag reduceHealthBy Tag.ITEM_REDUCE_HEALTH_ON_USE;
 
@@ -101,18 +111,36 @@ extended:
             sub soldierHealth temp;
             sub soldierHealth reduceHealthBy;
 
-            if le soldierHealth 0; # kill if max health is below 0
-              target.setHealth 0;
-            end;
+            debug_log "soldierHealth" soldierHealth;
+
+            # sanity by the engine check only allows values > 1
+            # if le soldierHealth 0; # kill if max health is below 0
+            #  target.setHealth 0;
+            #end;
 
             add temp reduceHealthBy;
             target.setTag Tag.UNIT_REDUCED_HEALTH_BY temp;
+            debug_log "reduced health" temp;
 
             mul reduceHealthBy -1; # negative
             target.Stats.addHealth reduceHealthBy;
 
-            mul reduceHealthBy -2; # positive again
-            target.addHealth reduceHealthBy; # overboost possible?
+            # mul reduceHealthBy -2; # positive again
+            # target.addHealth reduceHealthBy; # overboost possible?
+
+            # lazy
+            geoSoldier.Stats.getHealth soldierHealth;
+            target.getTag temp Tag.UNIT_REDUCED_HEALTH_BY;
+            item.getTag reduceHealthBy Tag.ITEM_REDUCE_HEALTH_ON_USE;
+
+            if gt temp soldierHealth;
+              battle_game.flashLongMessage "Unit will suffer a fatal cardiac arrest after this turn ends!";
+            else;
+              add temp reduceHealthBy;
+              if gt temp soldierHealth;
+                battle_game.flashLongMessage "Next shot will cause a cardiac arrest after this turn ends!";
+              end;
+            end;
 
             debug_log "reduced health acted";
 
@@ -132,3 +160,22 @@ extended:
           debug_log "AC_rFMU_reduce_health_on_use addHealth" temp;
           soldier.Stats.addHealth temp;
           return;
+
+    newTurnUnit:
+      - new: ROSIGMUNDA_nTU_cardiac_arrest;
+        offset: 1
+        code: |
+          var int soldierHealth;
+          var int reducedHealthByDrugs;
+          var ptr GeoscapeSoldier geoSoldier;
+
+          unit.getGeoscapeSoldier geoSoldier;
+          geoSoldier.Stats.getHealth soldierHealth;
+          unit.getTag reducedHealthByDrugs Tag.UNIT_REDUCED_HEALTH_BY;
+
+          if gt reducedHealthByDrugs soldierHealth;
+            unit.setHealth 0;
+          end;
+
+          return;
+

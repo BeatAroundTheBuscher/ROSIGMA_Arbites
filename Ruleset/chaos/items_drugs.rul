@@ -1,6 +1,6 @@
 items:
   - &STR_SLAUGHT
-    type: STR_SLAUGHT_AC # ToDo: name will be changed
+    type: STR_SLAUGHT_AC
     size: 0.1
     costSell: 500
     transferTime: 48
@@ -28,7 +28,7 @@ items:
     hitAnimation: 200 # X1.PCK
     hitAnimFrames: 8
 
-  - type: STR_SLAUGHT_AI_AC # ToDo: name will be changed
+  - type: STR_SLAUGHT_AI_AC
     refNode: *STR_SLAUGHT
     battleType: 4
     isExplodingInHands: true
@@ -37,8 +37,6 @@ items:
     damageType: 0 # DT_NONE only hit but don't do damage
     damageAlter:
       FixRadius: 1
-    recoveryTransformations:
-      STR_SLAUGHT_AC: [1]
     hitAnimation: 200 # X1.PCK
     hitAnimFrames: 8
     defaultInventorySlot: STR_BELT  
@@ -48,3 +46,5 @@ items:
       - STR_BELT
 #    fixedWeapon: true
     recover: true
+    recoveryTransformations:
+      STR_SLAUGHT_AC: [1]
