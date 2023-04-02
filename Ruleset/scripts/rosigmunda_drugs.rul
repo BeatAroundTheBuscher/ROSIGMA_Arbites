@@ -1,7 +1,11 @@
 items:
-  - type: STR_STIMPAK_AC # ToDo: name will be changed
+  - type: STR_SLAUGHT_AI_AC # ToDo: name will be changed
     tags:
+      ITEM_BOOST_MELEE: 100
       ITEM_REDUCE_HEALTH_ON_USE: 10
+      ITEM_FUSE_MINIMUM: 2
+      ITEM_FUSE_MAXIMUM: 10
+      ITEM_FUSE_SIDE: 1 # Hostile
 
 
 extended:
@@ -10,8 +14,67 @@ extended:
       UNIT_REDUCED_HEALTH_BY: int # only shows correctly on returnFromMissionUnit
     RuleItem:
       ITEM_REDUCE_HEALTH_ON_USE: int
+      ITEM_FUSE_MINIMUM: int
+      ITEM_FUSE_MAXIMUM: int
+      ITEM_FUSE_SIDE: int
+
+      ITEM_BOOST_MELEE: int
 
   scripts:
+    hitUnit:
+      - new: tester
+        offset: 1
+        code: |    
+          var int temp;
+
+          damaging_item.getTag temp Tag.ITEM_BOOST_MELEE;
+          if gt temp 0;
+            unit.Stats.addMelee temp;
+          end;
+
+          return power part side;
+
+
+    newTurnItem:
+      - new: tester
+        offset: 1
+        code: |
+          var int fuseMin;
+          var int fuseMax;
+          var int fuseSide;
+          var ptr RuleInventory rInv;
+          var text rInvId;
+          var int rInvType;
+          var int temp;
+
+          item.getSlot rInv;
+          rInv.getId rInvId;
+          rInv.getType rInvType;
+
+
+          item.getTag fuseMin Tag.ITEM_FUSE_MINIMUM;
+          item.getTag fuseMax Tag.ITEM_FUSE_MAXIMUM;
+          item.getTag fuseSide Tag.ITEM_FUSE_SIDE;
+
+          item.isFuseEnabled temp;
+
+          if and gt fuseMin 0 neq rInvId "STR_GROUND" eq temp 0;
+            item.setFuseEnabled 1;
+            item.setFuseTimer fuseMin;
+            debug_log "rInv" rInv;
+            debug_log "rInvId" rInvId;
+            debug_log "rInvType" rInvType;
+          end;
+
+          item.getFuseTimer fuseMin;
+          if gt fuseMin 0;
+            debug_log "current fuse" fuseMin;
+          end;
+
+
+          return;
+
+
     healUnit: # doesn't work as part of items
       - new: ROSIGMUNDA_healU_reduce_health_on_use;
         offset: 11
@@ -27,7 +90,7 @@ extended:
             return;
           end;
 
-           # debug_log "reduced health run";
+           debug_log "reduced health run";
 
           target.getGeoscapeSoldier geoSoldier;
 
@@ -51,7 +114,7 @@ extended:
             mul reduceHealthBy -2; # positive again
             target.addHealth reduceHealthBy; # overboost possible?
 
-            # debug_log "reduced health acted";
+            debug_log "reduced health acted";
 
           end;
 

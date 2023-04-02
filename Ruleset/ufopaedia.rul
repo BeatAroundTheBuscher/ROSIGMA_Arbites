@@ -132,6 +132,13 @@ ufopaedia:
 ### Weapons
 
 #### Ballistics
+  - id: STR_SLAUGHT_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: STUB_GUN.SPK
+    text: STR_STUB_GUN_UFOPEDIA
+    listOrder: 240
+
 
   - id: STR_STUB_GUN_AC
     type_id: 14

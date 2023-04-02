@@ -8,6 +8,16 @@
     files:
       200: Resources/Smoke/HIT.PNG
 
+  - type: X1.PCK
+    width: 1024
+    height: 64
+    subX: 128
+    subY: 64
+    files:
+      200: Resources/X1/inject.png
+
+
+
   - type: BIGOBS.PCK
     files:
       200: Resources/Bigobs/bigob_small_combat_knife_right.png

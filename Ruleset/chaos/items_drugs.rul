@@ -1,5 +1,6 @@
 items:
-  - type: STR_STIMPAK_AC # ToDo: name will be changed
+  - &STR_SLAUGHT
+    type: STR_SLAUGHT_AC # ToDo: name will be changed
     size: 0.1
     costSell: 500
     transferTime: 48
@@ -22,3 +23,28 @@ items:
     medikitTargetSelf: true
     isConsumable: true
     categories: [STR_GOODS, STR_HEALTH_ITEMS]
+    hitSound: 201
+    explosionHitSound: 201
+    hitAnimation: 200 # X1.PCK
+    hitAnimFrames: 8
+
+  - type: STR_SLAUGHT_AI_AC # ToDo: name will be changed
+    refNode: *STR_SLAUGHT
+    battleType: 4
+    isExplodingInHands: true
+    fuseType: -3
+    power: 1
+    damageType: 0 # DT_NONE only hit but don't do damage
+    damageAlter:
+      FixRadius: 1
+    recoveryTransformations:
+      STR_SLAUGHT_AC: [1]
+    hitAnimation: 200 # X1.PCK
+    hitAnimFrames: 8
+    defaultInventorySlot: STR_BELT  
+    inventoryMoveCost: # cannot be moved
+      basePercent: 10000 #TU multiplier of base cost
+    supportedInventorySections:
+      - STR_BELT
+#    fixedWeapon: true
+    recover: true
