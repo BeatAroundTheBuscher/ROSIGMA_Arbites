@@ -452,3 +452,8 @@ en-US:
   STR_HELP_ARMOR_ABILITIES_AC: "Armor Abilities"
   STR_HELP_ARMOR_ABILITIES_UFOPEDIA: "{NEWLINE} Armor Abilities are extra weapons tied to your armor and all function the same as hand-held weapons. The stats of these weapons can be viewed by looking at the info section of the codex for that armor."
 
+### Script Messages
+
+  STR_SCRIPT_SHIELD_REMAINING_HP: "Remaining Shield Points: {0}"
+  STR_SCRIPT_DRUGS_CARDIAC_ARREST_WARNING: "Next shot will cause a cardiac arrest after this turn ends!"
+  STR_SCRIPT_DRUGS_CARDIAC_ARREST_DONE_FOR: "Unit will suffer a fatal cardiac arrest after this turn ends!"
