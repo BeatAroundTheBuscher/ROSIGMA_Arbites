@@ -1451,6 +1451,7 @@ items:
     floorSprite: {mod: 40k, index: 1016}
     handSprite: {mod: 40k, index: 1128}
     listOrder: 460
+    ufopediaType: STR_AUTOGUN_AC
 
   - type: STR_AUTOGUN_CHAOS_AC
     refNode: *STR_GUN_BUTT
