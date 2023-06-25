@@ -440,7 +440,27 @@ en-US:
 ### Drugs
 
   STR_SLAUGHT_AC: "Drug: Slaught"
+  STR_SLAUGHT_UFOPEDIA: " {NEWLINE}This syringe contains a drug improving awareness and reaction time, speeding up the user.\
+    {NEWLINE}{NEWLINE} Abilities:\
+    {NEWLINE}> Increased Reactions\
+    {NEWLINE}> Increased Time Units\
+    {NEWLINE}> Reduces Maximum Health\
+    {NEWLINE}> May cause Cardiac Arrest"
   STR_SLAUGHT_AI_AC: "Drug: Slaught (Dirty)"
+  STR_FRENZON_AC: "Drug: Frenzon"
+  STR_FRENZON_UFOPEDIA: " {NEWLINE}This syringe contains a variety of combat drugs often used within Penal Legions. The user becomes fearless and fanatical in combat.\
+    {NEWLINE}{NEWLINE} Abilities:\
+    {NEWLINE}> Fear Immunity\
+    {NEWLINE}> Increased Melee Accuracy\
+    {NEWLINE}> Increased Reactions\
+    {NEWLINE}> Increased Time Units\
+    {NEWLINE}> Increased Strength\
+    {NEWLINE}> Reduces Maximum Health\
+    {NEWLINE}> May cause Cardiac Arrest"
+  STR_FRENZON_AI_AC: "Drug: Frezon (Dirty)"
+  STR_RANDOM_DRUG_AC: "Unlabeled Drug"
+  STR_RANDOM_DRUG_AI_AC: "Unlabeled Drug (Dirty)"
+  STR_HEALTH_ITEMS: "Drugs"
 
 ### Assistance
 

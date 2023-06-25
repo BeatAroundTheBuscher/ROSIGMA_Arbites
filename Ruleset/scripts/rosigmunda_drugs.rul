@@ -1,43 +1,117 @@
 items:
+## Slaught (TU, Reaction, becomes tired after 3 turns ???)
+## "lasts for 1d10 minutes"
   - &STR_SLAUGHT
     type: STR_SLAUGHT_AC
     tags:
-      ITEM_BOOST_MELEE: 40
+      ITEM_BOOST_TIMEUNITS: 20
+      ITEM_BOOST_REACTION: 20
       ITEM_REDUCE_HEALTH_ON_USE: 10
 
-  - type: STR_SLAUGHT_AI_AC # ToDo: name will be changed
+## AI probably gets double effective time because they use it randomly
+  - type: STR_SLAUGHT_AI_AC
     refNode: *STR_SLAUGHT
     tags:
       ITEM_FUSE_MINIMUM: 2
       ITEM_FUSE_MAXIMUM: 10
       ITEM_FUSE_SIDE: 1 # Hostile
 
+## Frenzon (fear immunity, bravery = 110 Frenzy talent (Combat bonuses) - MA + ??)
+  - &STR_FRENZON
+    type: STR_FRENZON_AC
+    tags:
+      ITEM_BOOST_BRAVERY: 110
+      ITEM_BOOST_MELEE: 20
+      ITEM_BOOST_TIMEUNITS: 10
+      ITEM_BOOST_REACTION: 10
+      ITEM_BOOST_STRENGTH: 10
+      ITEM_REDUCE_HEALTH_ON_USE: 10
+
+  - type: STR_FRENZON_AI_AC
+    refNode: *STR_FRENZON
+    tags:
+      ITEM_FUSE_MINIMUM: 2
+      ITEM_FUSE_MAXIMUM: 10
+      ITEM_FUSE_SIDE: 1 # Hostile
 
 extended:
   tags:
     BattleUnit:
       UNIT_REDUCED_HEALTH_BY: int # only shows correctly on returnFromMissionUnit
+      UNIT_CURRENT_BOOST_BRAVERY: int
       UNIT_CURRENT_BOOST_MELEE: int
+      UNIT_CURRENT_BOOST_TIMEUNITS: int
+      UNIT_CURRENT_BOOST_REACTION: int
+      UNIT_CURRENT_BOOST_STRENGTH: int
     RuleItem:
       ITEM_REDUCE_HEALTH_ON_USE: int
       ITEM_FUSE_MINIMUM: int
       ITEM_FUSE_MAXIMUM: int
       ITEM_FUSE_SIDE: int
 
+      ITEM_BOOST_BRAVERY: int
       ITEM_BOOST_MELEE: int
+      ITEM_BOOST_TIMEUNITS: int
+      ITEM_BOOST_REACTION: int
+      ITEM_BOOST_STRENGTH: int
 
   scripts:
     hitUnit:
       - new: ROSIGMUNDA_hU_handle_effect_for_ai_drugs
         offset: 1
         code: |    
-          var int temp;
+          var int newBoost;
+          var int currentBoost;
 
-          damaging_item.getTag temp Tag.ITEM_BOOST_MELEE;
-          if gt temp 0;
-            unit.Stats.addMelee temp;
-            unit.setTag Tag.UNIT_CURRENT_BOOST_MELEE temp;
+          damaging_item.getTag newBoost Tag.ITEM_BOOST_BRAVERY;
+          unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_BRAVERY;
+          if and gt newBoost 0 gt newBoost currentBoost; # I suppose newBoost > 0 isn't necessary due to the second condition
+
+            # 110 bravery is considered fear immune (even for AI I hope)
+            unit.Stats.getBravery currentBoost; # currentBravery
+            add currentBoost newBoost;
+            if gt currentBoost 110;
+              unit.Stats.setBravery 110;
+              unit.setTag Tag.UNIT_CURRENT_BOOST_BRAVERY 110;
+            else;
+              unit.Stats.addBravery newBoost;
+              unit.setTag Tag.UNIT_CURRENT_BOOST_BRAVERY newBoost;
+            end;
+
           end;
+
+          damaging_item.getTag newBoost Tag.ITEM_BOOST_MELEE;
+          unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_MELEE;
+          if and gt newBoost 0 gt newBoost currentBoost; # I suppose newBoost > 0 isn't necessary due to the second condition
+            sub newBoost currentBoost;
+            unit.Stats.addMelee newBoost;
+            unit.setTag Tag.UNIT_CURRENT_BOOST_MELEE newBoost;
+          end;
+
+          damaging_item.getTag newBoost Tag.ITEM_BOOST_TIMEUNITS;
+          unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TIMEUNITS;
+          if and gt newBoost 0 gt newBoost currentBoost; 
+            sub newBoost currentBoost;
+            unit.Stats.addTimeUnits newBoost;
+            unit.setTag Tag.UNIT_CURRENT_BOOST_TIMEUNITS newBoost;
+          end;
+
+          damaging_item.getTag newBoost Tag.ITEM_BOOST_REACTION;
+          unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_REACTION;
+          if and gt newBoost 0 gt newBoost currentBoost;
+            sub newBoost currentBoost;
+            unit.Stats.addReactions newBoost;
+            unit.setTag Tag.UNIT_CURRENT_BOOST_REACTION newBoost;
+          end;
+
+          damaging_item.getTag newBoost Tag.ITEM_BOOST_STRENGTH;
+          unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STRENGTH;
+          if and gt newBoost 0 gt newBoost currentBoost;
+            sub newBoost currentBoost;
+            unit.Stats.addStrength newBoost;
+            unit.setTag Tag.UNIT_CURRENT_BOOST_STRENGTH newBoost;
+          end;
+          
 
           return power part side;
 
@@ -65,7 +139,7 @@ extended:
           if or eq bUnit null eq unitFaction FACTION_PLAYER eq temp 0 eq rInvId "STR_GROUND"; # don't do it for the player
             item.setFuseEnabled 0;
             item.setFuseTimer -1;
-            debug_log "rInvId" rInvId;
+            # debug_log "rInvId" rInvId;
             return;
           end;
 
@@ -80,9 +154,9 @@ extended:
             item.setFuseTimer temp;
           end;
 
-          debug_log "item" item;
-          debug_log "rInv" rInv;
-          debug_log "bUnit" bUnit;
+          # debug_log "item" item;
+          # debug_log "rInv" rInv;
+          # debug_log "bUnit" bUnit;
 
 
 
@@ -94,7 +168,8 @@ extended:
         offset: 11
         code: |
           var int temp;
-          var int statBoost;
+          var int newBoost;
+          var int currentBoost;
           var int reduceHealthBy;
           var int soldierHealth;
           var ptr GeoscapeSoldier geoSoldier;
@@ -143,14 +218,60 @@ extended:
               end;
             end;
 
-            item.getTag statBoost Tag.ITEM_BOOST_MELEE;
-            if gt statBoost 0;
-              target.setTag Tag.UNIT_CURRENT_BOOST_MELEE statBoost;
-              geoSoldier.Stats.getMelee temp;
-              add temp statBoost;
-              target.Stats.setMelee temp;
+            # copied from other part
+            # additional tab
+            # damaging_item -> item
+            # unit -> target
+
+            item.getTag newBoost Tag.ITEM_BOOST_BRAVERY;
+            target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_BRAVERY;
+            if and gt newBoost 0 gt newBoost currentBoost; # I suppose newBoost > 0 isn't necessary due to the second condition
+
+              # 110 bravery is considered fear immune (even for AI I hope)
+              target.Stats.getBravery currentBoost; # currentBravery
+              add currentBoost newBoost;
+              if gt currentBoost 110;
+                target.Stats.setBravery 110;
+                target.setTag Tag.UNIT_CURRENT_BOOST_BRAVERY 110;
+              else;
+                target.Stats.addBravery newBoost;
+                target.setTag Tag.UNIT_CURRENT_BOOST_BRAVERY newBoost;
+              end;
+
+            end;
+
+            item.getTag newBoost Tag.ITEM_BOOST_MELEE;
+            target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_MELEE;
+            if and gt newBoost 0 gt newBoost currentBoost; 
+              sub newBoost currentBoost;
+              target.Stats.addMelee newBoost;
+              target.setTag Tag.UNIT_CURRENT_BOOST_MELEE newBoost;
             end;
           end;
+
+            item.getTag newBoost Tag.ITEM_BOOST_TIMEUNITS;
+            target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TIMEUNITS;
+            if and gt newBoost 0 gt newBoost currentBoost; 
+              sub newBoost currentBoost;
+              target.Stats.addTimeUnits newBoost;
+              target.setTag Tag.UNIT_CURRENT_BOOST_TIMEUNITS newBoost;
+            end;
+
+            item.getTag newBoost Tag.ITEM_BOOST_REACTION;
+            target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_REACTION;
+            if and gt newBoost 0 gt newBoost currentBoost;
+              sub newBoost currentBoost;
+              target.Stats.addReactions newBoost;
+              target.setTag Tag.UNIT_CURRENT_BOOST_REACTION newBoost;
+            end;
+
+            item.getTag newBoost Tag.ITEM_BOOST_STRENGTH;
+            target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STRENGTH;
+            if and gt newBoost 0 gt newBoost currentBoost;
+              sub newBoost currentBoost;
+              target.Stats.addStrength newBoost;
+              target.setTag Tag.UNIT_CURRENT_BOOST_STRENGTH newBoost;
+            end;
 
           return;
 

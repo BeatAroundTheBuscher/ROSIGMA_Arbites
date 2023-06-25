@@ -190,3 +190,17 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
+## drugs
+
+  - name: STR_SLAUGHT_AC
+    cost: 100
+    score: 50
+    needItem: true
+
+  - name: STR_FRENZON_AC
+    cost: 100
+    score: 50
+    needItem: true
+    # unlocks:
+    #  - STR_KHORNE_CULTISTS_AC
+

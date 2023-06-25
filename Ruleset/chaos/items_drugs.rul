@@ -1,5 +1,5 @@
 items:
-  - &STR_SLAUGHT
+  - &STR_DRUG
     type: STR_SLAUGHT_AC
     size: 0.1
     costSell: 500
@@ -28,8 +28,9 @@ items:
     hitAnimation: 200 # X1.PCK
     hitAnimFrames: 8
 
-  - type: STR_SLAUGHT_AI_AC
-    refNode: *STR_SLAUGHT
+  - &STR_DRUG_AI
+    type: STR_SLAUGHT_AI_AC
+    refNode: *STR_DRUG
     battleType: 4
     isExplodingInHands: true
     fuseType: -3
@@ -49,3 +50,37 @@ items:
     recover: true
     recoveryTransformations:
       STR_SLAUGHT_AC: [1]
+    ufopediaType: STR_SLAUGHT_AC
+
+  - type: STR_FRENZON_AC
+    refNode: *STR_DRUG
+
+  - type: STR_FRENZON_AI_AC
+    refNode: *STR_DRUG_AI
+    recoveryTransformations:
+      STR_FRENZON_AC: [1]
+    ufopediaType: STR_FRENZON_AC
+
+
+# Dark Heresy - Book of Judgement (p70)
+## Clear (not relevant for combat)
+## Eazielle (not relevant for combat)
+## Holdfast (not relevant for combat)
+## Hyperexia (not relevant for combat; not a short-term drug)
+## Karrikian Red-Eye (increased infre-red vision, seems hard to implement)
+## Leatherwort (damage resistance, but not instant injectable, should be rather a soldier-transformation)
+## Sandstone (Bravery, immunity to new fatal wounds, lasts hours aka no tired effect)
+## Scav-Gylsten (not relevant for combat)
+## Scraper-Ripper (TU, reaction? But there is Slaught already for that)
+## Sisk Ash (not relevant for combat)
+## The Truth Revealed (not relevant for combat)
+## Zumthorian Greyve (damage resist, increased stamina recovery, lasts hours -  tired afterwards)
+
+# Dark Heresy - Core Rulebook (p148)
+## De-Tox (probably not necessary)
+
+## Injector, Lho-Sticks, Medikit#
+## Obscura (not relevant for combat)
+
+## Spook (Psi Strength ???)
+## Stimm (Stun Immunity, Damage Resistance ???, becomes tired after 3 turns ???)

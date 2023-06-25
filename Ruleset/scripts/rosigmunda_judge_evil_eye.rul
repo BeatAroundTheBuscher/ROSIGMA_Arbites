@@ -61,8 +61,8 @@ extended:
         unit.getTag evilEyeDamage Tag.UNIT_EVIL_EYE_DAMAGE;
 
         if gt evilEyeDamage 0; # Evil Eye attacks again
-          debug_log "ID" unit;
-          debug_log "Current evilEyeDamage" evilEyeDamage;
+          # debug_log "ID" unit;
+          # debug_log "Current evilEyeDamage" evilEyeDamage;
           # roll 50-200 %
           battle_game.randomRange temp 50 200;
           muldiv evilEyeDamage temp 100;
@@ -76,43 +76,43 @@ extended:
           # damage unit
           if gt evilEyeDamage 0;
 
-            debug_log "new evilEyeDamage" evilEyeDamage;
+            # debug_log "new evilEyeDamage" evilEyeDamage;
 
             # stun
             set temp evilEyeDamage;
             muldiv temp 1 10;
             unit.getStun currentStatValue;
-            debug_log "getStun" currentStatValue;
+            # debug_log "getStun" currentStatValue;
             add currentStatValue temp;
             unit.setStun currentStatValue;
-            debug_log "setStun" currentStatValue;
+            # debug_log "setStun" currentStatValue;
 
             # time
             set temp evilEyeDamage;
             muldiv temp 5 10;
             unit.getTimeUnits currentStatValue;
-            debug_log "getTimeUnits" currentStatValue;
+            # debug_log "getTimeUnits" currentStatValue;
             sub currentStatValue temp;
             unit.setTimeUnits currentStatValue;
-            debug_log "setTimeUnits" currentStatValue;
+            # debug_log "setTimeUnits" currentStatValue;
 
             # energy
             set temp evilEyeDamage;
             muldiv temp 5 10;
             unit.getEnergy currentStatValue;
-            debug_log "getEnergy" currentStatValue;
+            # debug_log "getEnergy" currentStatValue;
             sub currentStatValue temp;
             unit.setEnergy currentStatValue;
-            debug_log "setEnergy" currentStatValue;
+            # debug_log "setEnergy" currentStatValue;
 
             # morale
             set temp evilEyeDamage;
             muldiv temp 5 10;
             unit.getMorale currentStatValue;
-            debug_log "getMorale" currentStatValue;
+            # debug_log "getMorale" currentStatValue;
             sub currentStatValue temp;
             unit.setMorale currentStatValue;
-            debug_log "setMorale" currentStatValue;
+            # debug_log "setMorale" currentStatValue;
 
             unit.setTag Tag.UNIT_EVIL_EYE_DAMAGE evilEyeDamage;
 

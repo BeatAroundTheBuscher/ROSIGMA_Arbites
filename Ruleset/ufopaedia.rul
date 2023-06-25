@@ -366,8 +366,9 @@ ufopaedia:
 
 #### Ballistics
 
-# done by ufopediaType
+# Chaos versions of the weapons are done by ufopediaType
 # items need to have the same values otherwise it shows wrong info
+# https://openxcom.org/forum/index.php/topic,8707.msg154796.html#msg154796
 
 #### Lasguns
 
@@ -394,9 +395,20 @@ ufopaedia:
   - id: STR_SLAUGHT_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: STUB_GUN.SPK
-    text: STR_STUB_GUN_UFOPEDIA
+    image_id: 0ENFM.SPK
+    text: STR_SLAUGHT_UFOPEDIA
     listOrder: 520
+    requires:
+      - STR_SLAUGHT_AC
+
+  - id: STR_FRENZON_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
+    image_id: 0ENFM.SPK
+    text: STR_FRENZON_UFOPEDIA
+    listOrder: 521
+    requires:
+      - STR_FRENZON_AC
 
 ### ARMORS
 #### Convention by the game is to add _UC at the end
