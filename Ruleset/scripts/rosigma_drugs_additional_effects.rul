@@ -2,19 +2,30 @@ extended:
   tagsFile: Ruleset/scripts/rosigmunda_drugs.rul
 
   scripts:
-    hitUnit:
-      - new: ROSIGMUNDA_hU_drug_effects_damage_threshold
+    damageUnit:
+      - new: ROSIGMUNDA_dU_drug_effects_damage_threshold
         offset: 2
         code: |    
           var int currentBoost;
 
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
-          sub power currentBoost;
-          if lt power 0;
-            set power 0;
+
+          if eq currentBoost 0;
+            return;
           end;
 
-          return power part side;
+          sub to_health currentBoost;
+          limit_lower to_health 0;
+
+          div currentBoost 2; # 50 %
+          sub to_stun currentBoost;
+          limit_lower to_stun 0;
+
+          div currentBoost 5; # 10 %
+          sub to_wound currentBoost;
+          limit_lower to_stun 0;
+
+          return;
 
     newTurnUnit:
       - new: ROSIGMUNDA_nTU_drug_effects_stamina_recovery

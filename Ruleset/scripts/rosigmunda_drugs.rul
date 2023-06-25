@@ -204,7 +204,7 @@ extended:
 
     healUnit: # doesn't work as part of items
       - new: ROSIGMUNDA_healU_handle_effect_for_player_drugs;
-        offset: 11
+        offset: 1
         code: |
           var int temp;
           var int newBoost;
@@ -312,8 +312,14 @@ extended:
               target.setTag Tag.UNIT_CURRENT_BOOST_STRENGTH newBoost;
             end;
 
+
+            
             item.getTag newBoost Tag.ITEM_BOOST_TOUGHNESS;
             target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
+
+            debug_log "newBoost 1" newBoost;
+            debug_log "currentBoost" currentBoost;
+
             if and gt newBoost 0 gt newBoost currentBoost;
               sub newBoost currentBoost;
               # There is a sanity check for addArmor for values between 0 and armorMax
@@ -323,6 +329,9 @@ extended:
               # target.addArmor SIDE_REAR newBoost;
               target.setTag Tag.UNIT_CURRENT_BOOST_TOUGHNESS newBoost;
             end;
+
+            debug_log "newBoost 2" newBoost;
+            debug_log "currentBoost" currentBoost;
 
             item.getTag newBoost Tag.ITEM_BOOST_STAMINA_RECOVERY;
             target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY;

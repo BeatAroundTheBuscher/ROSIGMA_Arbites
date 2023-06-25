@@ -27,6 +27,7 @@ items:
     explosionHitSound: 201
     hitAnimation: 200 # X1.PCK
     hitAnimFrames: 8
+    medikitTargetMatrix: 0 # syringes can only used by oneself on oneself
 
   - &STR_DRUG_AI
     type: STR_SLAUGHT_AI_AC
