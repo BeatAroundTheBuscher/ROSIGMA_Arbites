@@ -14,7 +14,7 @@ soldiers:
       strength: 20
       psiStrength: 0
       psiSkill: 0
-      melee: 20
+      melee: 30
     maxStats:
       tu: 60
       stamina: 70
@@ -26,7 +26,7 @@ soldiers:
       strength: 40
       psiStrength: 100
       psiSkill: 16
-      melee: 40
+      melee: 50
     statCaps:
       tu: 80
       stamina: 100
