@@ -1,1 +1,9 @@
 eventScripts:
+  - delete: STR_DW_EVENT_SCRIPTBA
+  - delete: STR_DW_EVENT_SCRIPTBT
+  - delete: STR_DW_EVENT_SCRIPTCF
+  - delete: STR_DW_EVENT_SCRIPTDA
+  - delete: STR_DW_EVENT_SCRIPTIF
+  - delete: STR_DW_EVENT_SCRIPTSALA
+  - delete: STR_DW_EVENT_SCRIPTSW
+  - delete: STR_DW_EVENT_SCRIPTWS

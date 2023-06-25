@@ -33,7 +33,6 @@ research:
   - delete: STR_AMMO_BIT50
   - delete: STR_APOC_BAY
   - delete: STR_APOTHECARY
-  - delete: STR_APOTHECARY_DW
   - delete: STR_APOTHECARY_GK
   - delete: STR_ARBITES
   - delete: STR_ARBITES_BUST
@@ -44,6 +43,7 @@ research:
   - delete: STR_ASSAULT
   - delete: STR_ASSC
   - delete: STR_ASSC_CLIP
+  - delete: STR_ASSCTZ
   - delete: STR_AUTOCANNON_GUARD
   - delete: STR_AXE
   - delete: STR_BANSHEE_CORPSE
@@ -63,6 +63,7 @@ research:
   - delete: STR_CARNI_CORPSE
   - delete: STR_CARNI_TERRORIST
   - delete: STR_CASSC
+  - delete: STR_CASS_R
   - delete: STR_CATAPULT
   - delete: STR_CATAPULT_PISTOL
   - delete: STR_CELATID
@@ -115,6 +116,8 @@ research:
   - delete: STR_CYDONIA_OR_BUST
   - delete: STR_DAVENGER_CORPSE
   - delete: STR_DEATHWATCH
+  - delete: STR_DEATHWATCH_AND_ADEPTAS
+  - delete: STR_DEATHWATCH_BUST
   - delete: STR_DEFENSE_CORRIDORBR
   - delete: STR_DEFENSE_CORRIDORGK
   - delete: STR_DEFENSE_CORRIDORR
@@ -125,7 +128,12 @@ research:
   - delete: STR_DMONOLITH_DATA
   - delete: STR_DONTSHOWYET
   - delete: STR_DOOMSDAY_MONOLITH
+  - delete: STR_DREAD_R
+  - delete: STR_DREAD_R_GK
+  - delete: STR_DW_CAP_ARMOR
   - delete: STR_DW_HIGHTIER
+  - delete: STR_DW_PRIMARIS
+  - delete: STR_DW_WM_ARMOR
   - delete: STR_ELDAR_ALLIANCE
   - delete: STR_ELDAR_BANSHEE
   - delete: STR_ELDAR_CHAINSWORD
@@ -200,6 +208,7 @@ research:
   - delete: STR_HARVESTER_DATA
   - delete: STR_HB
   - delete: STR_HB_CLIP
+  - delete: STR_HB_DW
   - delete: STR_HEAVY_LASER
   - delete: STR_HEAVY_PLASMA
   - delete: STR_HEAVY_PLASMA_CLIP
@@ -239,6 +248,7 @@ research:
   - delete: STR_KILLA_CORPSE
   - delete: STR_LANDRAIDER_ADEPTAS
   - delete: STR_LANDRAIDER_ARBITES
+  - delete: STR_LANDRAIDER_DW
   - delete: STR_LARGE_SCOUT
   - delete: STR_LARGE_SCOUT_DATA
   - delete: STR_LASCAN
@@ -254,6 +264,7 @@ research:
   - delete: STR_LORD_CORPSE
   - delete: STR_MARAUDER_REQUISITION
   - delete: STR_MARINES_AND_ADEPTAS
+  - delete: STR_MARINES_AND_DEATHWATCH
   - delete: STR_MARINES_STRATEGY
   - delete: STR_MARSHAL_ARMOR
   - delete: STR_MASTER_CRAFTING
@@ -293,6 +304,7 @@ research:
   - delete: STR_NECRON_DEATHMARK_CORPSE
   - delete: STR_NECRON_IMORTAL_CORPSE
   - delete: STR_NECRON_LYCHGUARD_CORPSE
+  - delete: STR_NECRON_SCARAB_CORPSE
   - delete: STR_NECRON_WARRIOR_CORPSE
   - delete: STR_NEW_FIGHTER_CRAFT
   - delete: STR_NEW_FIGHTER_PD
@@ -332,11 +344,13 @@ research:
   - delete: STR_PLAT_CORPSE
   - delete: STR_POWER_SUIT
   - delete: STR_POWER_SWORD
+  - delete: STR_POWER_SWORD_CM
   - delete: STR_PREDATOR_CORPSE
   - delete: STR_PREDATORSIDE_CORPSE
   - delete: STR_PRIEST_CORPSE
   - delete: STR_PRIMARIS
   - delete: STR_PRIMARIS_AND_ADEPTAS
+  - delete: STR_PRIMARIS_AND_DEATHWATCH
   - delete: STR_PRIMARIS_ARMOR
   - delete: STR_PSI_AMP
   - delete: STR_PSI_LAB
@@ -405,8 +419,10 @@ research:
   - delete: STR_SPELLSR
   - delete: STR_STEELMILLR
   - delete: STR_STORMEAGLE_INTERCEPTOR
+  - delete: STR_STORMEAGLE_INTERCEPTOR_DW
   - delete: STR_STORMEAGLE_INTERCEPTOR_GK
   - delete: STR_STORMHAWKR
+  - delete: STR_STORMRAVEN_DW
   - delete: STR_STORMRAVEN_GK
   - delete: STR_STORMTROOPER_REQUISITION
   - delete: STR_STUN_BOMB

@@ -1,8 +1,16 @@
 soldiers:
   - delete: STR_ADEPTAS
+  - delete: STR_BLACKT
+  - delete: STR_BLACKT_PRIMARIS
+  - delete: STR_BLOODANGELS
+  - delete: STR_BLOODANGELS_PRIMARIS
   - delete: STR_CANONESS
   - delete: STR_CHAOS_MARINE
   - delete: STR_COMMISSAR
+  - delete: STR_CRISMONF
+  - delete: STR_CRISMONF_PRIMARIS
+  - delete: STR_DARKANGELS
+  - delete: STR_DARKANGELS_PRIMARIS
   - delete: STR_ELDAR_AVANGER_MF
   - delete: STR_ELDAR_BANSHEE_F
   - delete: STR_ELDAR_F
@@ -12,6 +20,7 @@ soldiers:
   - delete: STR_ELDAR_SCORPION_M
   - delete: STR_ELDAR_SEER_F
   - delete: STR_FALLEN
+  - delete: STR_FALLEN_DW
   - delete: STR_FALLEN_GK
   - delete: STR_GK_LV1
   - delete: STR_GK_LV2
@@ -22,6 +31,8 @@ soldiers:
   - delete: STR_GUARDPD
   - delete: STR_GUARDSM
   - delete: STR_GUARD_VETERAN
+  - delete: STR_IMPERIALF
+  - delete: STR_IMPERIALF_PRIMARIS
   - delete: STR_JUDGE
   - delete: STR_OGRYN
   - delete: STR_PENITENT
@@ -32,6 +43,14 @@ soldiers:
   - delete: STR_PRIMARISLV5
   - delete: STR_PSYKER
   - delete: STR_SAINT
+  - delete: STR_SALAMANDAR
+  - delete: STR_SALAMANDAR_PRIMARIS
   - delete: STR_SOLDIER
   - delete: STR_SOLDIER_JOAN
+  - delete: STR_SPACEW
+  - delete: STR_SPACEW_PRIMARIS
   - delete: STR_STORMTROOPER
+  - delete: STR_ULTRAMARINE
+  - delete: STR_ULTRAMARINE_PRIMARIS
+  - delete: STR_WHITES
+  - delete: STR_WHITES_PRIMARIS

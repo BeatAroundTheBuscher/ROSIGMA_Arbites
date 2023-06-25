@@ -30,6 +30,8 @@ units:
   - delete: STR_CYBERDISC_TERRORIST
   - delete: STR_DAMOCLES
   - delete: STR_DAMOCLESPD
+  - delete: STR_DW_ZOMBIE_TACTICAL
+  - delete: STR_DW_ZOMBIE_TER
   - delete: STR_ELDAR_BANSHEE
   - delete: STR_ELDAR_DAVENGER
   - delete: STR_ELDAR_GUARDIAN
@@ -114,10 +116,14 @@ units:
   - delete: STR_MUTON_NAVIGATOR
   - delete: STR_MUTON_SOLDIER
   - delete: STR_MUTON_SOLDIER_NW
+  - delete: STR_NECRON_ARCHITECT
   - delete: STR_NECRON_DEATHMARK
   - delete: STR_NECRON_DESTROYER
   - delete: STR_NECRON_IMORTAL
   - delete: STR_NECRON_LYCHGUARD
+  - delete: STR_NECRON_SCARAB1
+  - delete: STR_NECRON_SCARAB3
+  - delete: STR_NECRON_SCARAB5
   - delete: STR_NECRON_WARRIOR
   - delete: STR_NURGLE_CHAMP
   - delete: STR_NURGLE_SISTER
@@ -136,6 +142,10 @@ units:
   - delete: STR_PIPELINE_DESTRUCTIBLE
   - delete: STR_PRED_TURRET
   - delete: STR_PRED_TURRETBASE
+  - delete: STR_PRIMARIS_ZOMBIE_DW_GRV
+  - delete: STR_PRIMARIS_ZOMBIE_DW_INC
+  - delete: STR_PRIMARIS_ZOMBIE_DW_PHB
+  - delete: STR_PRIMARIS_ZOMBIE_DW_TAC
   - delete: STR_PRIMARIS_ZOMBIE_GRV
   - delete: STR_PRIMARIS_ZOMBIE_INC
   - delete: STR_PRIMARIS_ZOMBIE_PHB
@@ -191,6 +201,7 @@ units:
   - delete: STR_T_BOLTER
   - delete: STR_T_BOLTER_I
   - delete: STR_THUNDERFIRE
+  - delete: STR_THUNDERFIRE_DW
   - delete: STR_THUNDERFIRE_P
   - delete: STR_TRAITOR_CHIMERA_TURRET
   - delete: STR_TTURRETPD

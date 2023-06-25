@@ -18,7 +18,7 @@ manufacture:
   - delete: STR_ASS_ARMOR
   - delete: STR_ASS_ARMOR_HONOR
   - delete: STR_ASSC
-  - delete: STR_ASSCANNON
+  - delete: STR_ASSCANNON_MANUFACTURE
   - delete: STR_ASSC_CLIP
   - delete: STR_AUTOCANNON_CLIP
   - delete: STR_AUTOCANNON_HANDHELD
@@ -55,6 +55,7 @@ manufacture:
   - delete: STR_CRAFT_AUTOCANNON_ROUNDS
   - delete: STR_CRAFT_QUADLASER
   - delete: STR_CRATED_ARVUS_GK
+  - delete: STR_CRATED_CORVUS
   - delete: STR_CRATED_DROPPODS
   - delete: STR_CRATED_IMPULSOR
   - delete: STR_CRATED_LANDSPEEDER
@@ -68,6 +69,10 @@ manufacture:
   - delete: STR_DREAD4_ARMOR
   - delete: STR_DREAD5_ARMOR
   - delete: STR_DREAD_TO_HONOR
+  - delete: STR_DW_CAP_ARMOR_UC
+  - delete: STR_DW_LANDRAIDER
+  - delete: STR_DW_THUNDERHAWNK
+  - delete: STR_DW_WM_ARMOR_UC
   - delete: STR_ENFORCER_ARMOR
   - delete: STR_ENFORCER_HEAVY_ARMOR
   - delete: STR_ENFORCER_MEDIC_ARMOR
@@ -151,6 +156,7 @@ manufacture:
   - delete: STR_MIND_PROBE
   - delete: STR_MKX_APO_ARMOR
   - delete: STR_MKX_CHP_ARMOR
+  - delete: STR_MKX_DW_CAP_ARMOR_UC
   - delete: STR_MKX_GRV_ARMOR
   - delete: STR_MKX_INC_ARMOR
   - delete: STR_MKX_LIB_ARMOR
@@ -190,7 +196,9 @@ manufacture:
   - delete: STR_RAPTOR_TO_HONOR
   - delete: STR_REAPER_TO_HONOR
   - delete: STR_REPULSOR
+  - delete: STR_REPULSOR_DW
   - delete: STR_REPULSOR_T
+  - delete: STR_REPULSOR_T_DW
   - delete: STR_RETICULE
   - delete: STR_RIFLE_CLIP_MC
   - delete: STR_SARGENT_ARMOR

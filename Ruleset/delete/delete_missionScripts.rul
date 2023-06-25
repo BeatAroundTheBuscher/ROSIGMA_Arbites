@@ -9,6 +9,7 @@ missionScripts:
   - delete: finalMissionArbites
   - delete: finalMissionChamber
   - delete: finalMissionChaos
+  - delete: finalMissionDeathwatch
   - delete: finalMissionGuard
   - delete: finalMissionMarines
   - delete: firstMonthTerror

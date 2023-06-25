@@ -6,4 +6,5 @@ enviroEffects:
   - delete: STR_HANGAR_ENVIRO
   - delete: STR_INSIDE_ENVIRO
   - delete: STR_SNOW_ENVIRO
+  - delete: STR_TOMB
   - delete: STR_URBAN_ENVIRO

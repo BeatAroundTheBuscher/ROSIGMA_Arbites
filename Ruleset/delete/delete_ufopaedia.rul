@@ -148,6 +148,7 @@ ufopaedia:
   - delete: STR_BOOKSOB
   - delete: STR_BOOKSOC
   - delete: STR_BOOKSOPD
+  - delete: STR_BT
   - delete: STR_BUCKLER
   - delete: STR_BULLGRYN_BUCKLER
   - delete: STR_BULLGRYN_RIOT
@@ -163,6 +164,7 @@ ufopaedia:
   - delete: STR_CELATID
   - delete: STR_CELATID_ARMOR
   - delete: STR_CELATID_AUTOPSY
+  - delete: STR_CF
   - delete: STR_CHAINSWORD
   - delete: STR_CHAINSWORD_MC
   - delete: STR_CHAOS_CROZIUS
@@ -209,8 +211,10 @@ ufopaedia:
   - delete: STR_CYBERDISC
   - delete: STR_CYBERDISC_AUTOPSY
   - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_DA
   - delete: STR_DAVENGER_AUTOPSY
   - delete: STR_DEATHWATCH
+  - delete: STR_DEATHWATCH_BUST
   - delete: STR_DEFENSE_CORRIDOR
   - delete: STR_DEFENSE_CORRIDORB
   - delete: STR_DEFENSE_CORRIDORGK
@@ -224,7 +228,13 @@ ufopaedia:
   - delete: STR_DOOMSDAY_MONOLITH
   - delete: STR_DOUBLE_AMMO
   - delete: STR_DOUSE_FLAMES
+  - delete: STR_DREAD_GK_ARMOR_UC
   - delete: STR_DREAD_MELEE_WEAPON
+  - delete: STR_DW_CAP_ARMOR_ULTRA_UC
+  - delete: STR_DW_LANDRAIDER
+  - delete: STR_DW_QUARTERS
+  - delete: STR_DW_THUNDERHAWNK
+  - delete: STR_DW_WM_ARMOR_ULTRA_UC
   - delete: STR_ELDARACCESS
   - delete: STR_ELDAR_ARMOR
   - delete: STR_ELDAR_ARMOR2
@@ -406,6 +416,7 @@ ufopaedia:
   - delete: STR_LAS_AMMO
   - delete: STR_LASCAN
   - delete: STR_LASCAN_CLIP
+  - delete: STR_LASCAN_DW
   - delete: STR_LASCANNON_CLIP_SMALL
   - delete: STR_LASCANNON_HANDHELD
   - delete: STR_LASCARBINE
@@ -506,6 +517,8 @@ ufopaedia:
   - delete: STR_NECRON_IMORTAL_AUTOPSY
   - delete: STR_NECRON_LYCHGUARD_ARMOR
   - delete: STR_NECRON_LYCHGUARD_AUTOPSY
+  - delete: STR_NECRON_SCARAB_ARMOR1
+  - delete: STR_NECRON_SCARAB_AUTOPSY
   - delete: STR_NECRON_WARRIOR_ARMOR
   - delete: STR_NECRON_WARRIOR_AUTOPSY
   - delete: STR_OBLITERATOR
@@ -683,6 +696,7 @@ ufopaedia:
   - delete: STR_STUN_BOMB
   - delete: STR_STUN_ROD
   - delete: STR_SUPPLY_SHIP
+  - delete: STR_SW
   - delete: STR_SYNAPTIC_DISINTEGRATOR
   - delete: STR_TANITH_CAMO_ARMOR
   - delete: STR_TANITH_MEDIC_ARMOR
@@ -718,7 +732,6 @@ ufopaedia:
   - delete: STR_THUNDERFIRE
   - delete: STR_THUNDERFIRE_SHELL
   - delete: STR_THUNDERHAWNK
-  - delete: STR_THUNDERHAWNK_DW
   - delete: STR_THUNDERHAWNK_GK
   - delete: STR_TRAINCAMP
   - delete: STR_TRAINFACILITY
@@ -756,6 +769,7 @@ ufopaedia:
   - delete: STR_WRAITHGUARD_ARMOR
   - delete: STR_WRAITHGUARD_AUTOPSY
   - delete: STR_WRAITH_MELEE_WEAPON
+  - delete: STR_WS
   - delete: STR_XENO_AUTOPSY
   - delete: STR_XENO_SOLDIER
   - delete: STR_XIPHON_GK

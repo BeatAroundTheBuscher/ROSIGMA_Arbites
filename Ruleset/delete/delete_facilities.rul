@@ -13,6 +13,16 @@ facilities:
   - delete: STR_DEFENSE_CORRIDORGK
   - delete: STR_DEFENSE_HALL
   - delete: STR_DIRT
+  - delete: STR_DW_QUARTERS
+  - delete: STR_DW_QUARTERS_BA
+  - delete: STR_DW_QUARTERS_BT
+  - delete: STR_DW_QUARTERS_CF
+  - delete: STR_DW_QUARTERS_DA
+  - delete: STR_DW_QUARTERS_IF
+  - delete: STR_DW_QUARTERS_SALA
+  - delete: STR_DW_QUARTERS_SW
+  - delete: STR_DW_QUARTERS_ULTRA
+  - delete: STR_DW_QUARTERS_WS
   - delete: STR_ELDARACCESS
   - delete: STR_ELDARDIRT
   - delete: STR_ELDARHANGAR

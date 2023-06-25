@@ -78,6 +78,11 @@ items:
   - delete: AUX_DOUBLE_STARCANNON
   - delete: AUX_DREAD_ASSC
   - delete: AUX_DREAD_FLAMER
+  - delete: AUX_DW_DREAD_ASSC
+  - delete: AUX_DW_DREAD_FLAMER
+  - delete: AUX_DW_DREAD_LASER
+  - delete: AUX_DW_DREAD_LAUNCHER
+  - delete: AUX_DW_DREAD_PLASMA
   - delete: AUX_ELDAR_KIT
   - delete: AUX_ELDAR_SHIELD
   - delete: AUX_HOVERTANK_LASER
@@ -97,6 +102,7 @@ items:
   - delete: AUX_SENTINEL_STOMP
   - delete: AUX_SERVITOR_KIT
   - delete: AUX_SHIELD
+  - delete: AUX_SHIELD_DW
   - delete: AUX_SHIELDPD
   - delete: AUX_STARCANNON
   - delete: AUX_TANK_CANNON
@@ -130,6 +136,10 @@ items:
   - delete: DREAD_CORPSE_GK2
   - delete: DREAD_CORPSE_GK3
   - delete: DREAD_CORPSE_GK4
+  - delete: DREAD_DW_CORPSE1
+  - delete: DREAD_DW_CORPSE2
+  - delete: DREAD_DW_CORPSE3
+  - delete: DREAD_DW_CORPSE4
   - delete: ELDART_CORPSE1
   - delete: ELDART_CORPSE1_P
   - delete: ELDART_CORPSE2
@@ -320,8 +330,10 @@ items:
   - delete: STR_AMMO_BIT50
   - delete: STR_APOT_ARMOR
   - delete: STR_APOT_CORPSE
+  - delete: STR_APOT_DW_CORPSE
   - delete: STR_ARBITOR_ARMOR
   - delete: STR_ARBITOR_CORPSE
+  - delete: STR_ARCHITECT_SPAWNER
   - delete: STR_ASS_ARMOR
   - delete: STR_ASS_ARMOR_HONOR
   - delete: STR_ASSAULT_BOLTER
@@ -332,6 +344,7 @@ items:
   - delete: STR_ASSCTZ
   - delete: STR_AUTO_CANNON
   - delete: STR_AUTOCANNON_CLIP
+  - delete: STR_AUTO_CANNON_DW
   - delete: STR_AUTOCANNON_GUARD
   - delete: STR_AUTOCANNON_HANDHELD
   - delete: STR_AUTOCANNON_TAUROX
@@ -362,6 +375,7 @@ items:
   - delete: STR_BLASTER_LAUNCHER_TERRAN
   - delete: STR_BLESS
   - delete: STR_BLIGHT_ROCKET
+  - delete: STR_BLOOD_GAUNTLET_PLUS
   - delete: STR_BOLTERC
   - delete: STR_BOLTER_DEAZ
   - delete: STR_BOLTER_DEAZ_MC
@@ -380,6 +394,7 @@ items:
   - delete: STR_BW_CORPSE
   - delete: STR_CANNON
   - delete: STR_CANNON_ROUNDS_X50
+  - delete: STR_CAP_DW_CORPSE
   - delete: STR_CAPTAIN_CORPSE
   - delete: STR_CAPTAIN_SUIT
   - delete: STR_CARNI_CORPSE
@@ -448,6 +463,7 @@ items:
   - delete: STR_CIVILIAN_M1_CORPSE
   - delete: STR_CLASCAN
   - delete: STR_CLAWS
+  - delete: STR_CLAWS_DW
   - delete: STR_CMAS
   - delete: STR_CMAS_CORPSE
   - delete: STR_COBRA_CANNON
@@ -470,6 +486,7 @@ items:
   - delete: STR_CRAFT_QUADLASER
   - delete: STR_CRAFT_SHIELD
   - delete: STR_CRATED_ARVUS_GK
+  - delete: STR_CRATED_CORVUS
   - delete: STR_CRATED_DROPPODS
   - delete: STR_CRATED_IMPULSOR
   - delete: STR_CRATED_LANDSPEEDER
@@ -508,6 +525,16 @@ items:
   - delete: STR_DREAD_MELEE_WEAPON
   - delete: STR_DROPPOD_DEPLOY_CHARGE
   - delete: STR_DSTARCANNON
+  - delete: STR_DW_CAP_ARMOR_UC
+  - delete: STR_DW_DREAD_MELEE
+  - delete: STR_DW_MARINEZ_CORPSE
+  - delete: STR_DW_MKX_GRV_CORPSE_Z
+  - delete: STR_DW_MKX_INC_CORPSE_Z
+  - delete: STR_DW_MKX_PHB_CORPSE_Z
+  - delete: STR_DW_MKX_TAC_CORPSE_Z
+  - delete: STR_DW_NOARMOR_UC
+  - delete: STR_DW_TERMINATORZ_CORPSE
+  - delete: STR_DW_WM_ARMOR_UC
   - delete: STR_ELDAR_ARMOR_F
   - delete: STR_ELDAR_BANSHEE
   - delete: STR_ELDAR_CHAINSWORD
@@ -627,9 +654,12 @@ items:
   - delete: STR_GORGON_HEAVY_STUBBER_RIGHT_CORPSE
   - delete: STR_GORGON_HEAVY_STUBBER_RIGHT_SPAWNER
   - delete: STR_GRAV_AUTOC
+  - delete: STR_GRAV_AUTOC_DW
   - delete: STR_GRAV_BOLTER
+  - delete: STR_GRAV_BOLTER_DW
   - delete: STR_GRAVDROP_DEPLOY_CHARGE
   - delete: STR_GRAV_FLAMER
+  - delete: STR_GRAV_FLAMER_DW
   - delete: STR_GRAVGUN_MC
   - delete: STR_GRENADE
   - delete: STR_GRENADE_LAUNCHER
@@ -751,6 +781,7 @@ items:
   - delete: STR_LARGE_SCOUT_DATA
   - delete: STR_LASCAN
   - delete: STR_LASCAN_CLIP
+  - delete: STR_LASCAN_DW
   - delete: STR_LASCANNON_CLIP_SMALL
   - delete: STR_LASCANNON_HANDHELD
   - delete: STR_LASCANNON_TAUROS
@@ -822,6 +853,8 @@ items:
   - delete: STR_MISSION7REPORT
   - delete: STR_MISSION9REPORT
   - delete: STR_MK7_CORPSE
+  - delete: STR_MK7_DW_CORPSE
+  - delete: STR_MK7NH_DW_CORPSE
   - delete: STR_MKX_APO_ARMOR
   - delete: STR_MKX_APO_CORPSE
   - delete: STR_MKX_BIKE_ARMOR
@@ -833,6 +866,15 @@ items:
   - delete: STR_MKX_BIKE_DISABLED
   - delete: STR_MKX_CHP_ARMOR
   - delete: STR_MKX_CHP_CORPSE
+  - delete: STR_MKX_DW_APO_CORPSE
+  - delete: STR_MKX_DW_CAP_ARMOR_UC
+  - delete: STR_MKX_DW_CHP_CORPSE
+  - delete: STR_MKX_DW_GRV_CORPSE
+  - delete: STR_MKX_DW_INC_CORPSE
+  - delete: STR_MKX_DW_LIB_CORPSE
+  - delete: STR_MKX_DW_PHB_CORPSE
+  - delete: STR_MKX_DW_TAC_CORPSE
+  - delete: STR_MKX_DW_TEC_CORPSE
   - delete: STR_MKX_GRV_ARMOR
   - delete: STR_MKX_GRV_CORPSE
   - delete: STR_MKX_GRV_CORPSE_Z
@@ -872,6 +914,8 @@ items:
   - delete: STR_MUTON_SOLDIER
   - delete: STR_MUTON_SOLDIER_NW
   - delete: STR_NAVIGATOR_CORPSE
+  - delete: STR_NECRON_ARCHITECT
+  - delete: STR_NECRON_ARCHITECT_CORPSE
   - delete: STR_NECRON_DEATHMARK
   - delete: STR_NECRON_DEATHMARK_CORPSE
   - delete: STR_NECRON_DESTROYER
@@ -879,6 +923,10 @@ items:
   - delete: STR_NECRON_IMORTAL_CORPSE
   - delete: STR_NECRON_LYCHGUARD
   - delete: STR_NECRON_LYCHGUARD_CORPSE
+  - delete: STR_NECRON_SCARAB1
+  - delete: STR_NECRON_SCARAB3
+  - delete: STR_NECRON_SCARAB5
+  - delete: STR_NECRON_SCARAB_CORPSE
   - delete: STR_NECRON_WARRIOR
   - delete: STR_NECRON_WARRIOR_CORPSE
   - delete: STR_NOVA_BOMB
@@ -995,6 +1043,7 @@ items:
   - delete: STR_RIFLE_CLIP_N
   - delete: STR_RIFLE_CLIP_R
   - delete: STR_RIFLED
+  - delete: STR_RIFLEDW
   - delete: STR_RIGHT_STORMTALON_SPAWNER
   - delete: STR_RIGHT_THUNDERHAWK_SPAWNER
   - delete: STR_RIPPER_GUN
@@ -1017,6 +1066,9 @@ items:
   - delete: STR_SARGENT_ARMOR
   - delete: STR_SARGENT_CORPSE
   - delete: STR_SCANNER
+  - delete: STR_SCARAB_L_WEAPON
+  - delete: STR_SCARAB_R_WEAPON
+  - delete: STR_SCARAB_SPAWNER
   - delete: STR_SCORPION_CORPSE
   - delete: STR_SCORPION_CORPSE_P
   - delete: STR_SCOUT_CORPSE
@@ -1185,21 +1237,25 @@ items:
   - delete: STR_T_BOLTER_I
   - delete: STR_TECH_ARMOR
   - delete: STR_TECH_CORPSE
+  - delete: STR_TECH_DW_CORPSE
   - delete: STR_TELEKINE_STAFF
   - delete: STR_TELEKINETIC_SHIELD
   - delete: STR_TELEPATH_STAFF
   - delete: STR_TELEPORT_CHARGE
   - delete: STR_TELEPORTDATA
   - delete: STR_TERMINATOR_CORPSE
+  - delete: STR_TERMINATOR_DW_CORPSE
   - delete: STR_TERMINATOR_SARGENT_CORPSE
   - delete: STR_TERMINATORZ_CORPSE
   - delete: STR_TERROR_SHIP_DATA
+  - delete: STR_TF_DW_SPAWNER
   - delete: STR_TF_SPAWNER
   - delete: STR_THRUSTER
   - delete: STR_THUNDER_CANNON
   - delete: STR_THUNDER_CHARGE
   - delete: STR_THUNDER_CHARGE2
   - delete: STR_THUNDERFIRE
+  - delete: STR_THUNDERFIRE_DW
   - delete: STR_THUNDERFIRE_P
   - delete: STR_THUNDERFIRE_SHELL
   - delete: STR_TRAITOR_CHIMERA_DATA
@@ -1218,8 +1274,10 @@ items:
   - delete: STR_TRIPLE_GAUSS_CANNON
   - delete: STR_TRUKK_UFO_DATA
   - delete: STR_TSARGENT
+  - delete: STR_TSARGENT_DW_CORPSE
   - delete: STR_T_SEC
   - delete: STR_T_SEC2
+  - delete: STR_TT_DW_SPAWNER
   - delete: STR_TT_SPAWNER
   - delete: STR_TTURRETPD_SPAWNER
   - delete: STR_TURRET1_SPAWNER
@@ -1252,6 +1310,7 @@ items:
   - delete: STR_WEBBER_AMMO
   - delete: STR_WHIRLWINDPD_SPAWNER
   - delete: STR_WHIRLWIND_SPAWNER
+  - delete: STR_WM_DW_CORPSE
   - delete: STR_WRAITHGUARD_CORPSE
   - delete: STR_WRAITHGUARD_CORPSE_P
   - delete: STR_WRAITH_MELEE_WEAPON

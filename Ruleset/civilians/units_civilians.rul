@@ -176,22 +176,7 @@ units:
     intelligence: 4
     energyRecovery: 20
     builtInWeaponSets:
-      - - STR_COMBAT_KNIFE_AC
-      - - STR_STUB_GUN_AC
-        - STR_STUB_GUN_AMMO_AC
-        - STR_STUB_GUN_AMMO_AC
-        - STR_COMBAT_KNIFE_AC
-        - STR_MAKESHIFT_GRENADE_AC
-      - - STR_AUTOPISTOL_AC
-        - STR_AUTOPISTOL_CLIP_AC
-        - STR_AUTOPISTOL_CLIP_AC
-        - STR_COMBAT_KNIFE_AC
-        - STR_MAKESHIFT_PIPEBOMB_AC
-      - - STR_LASPISTOL_AC
-        - STR_LASPISTOL_CLIP_AC
-        - STR_LASPISTOL_CLIP_AC
-        - STR_COMBAT_KNIFE_AC
-        - STR_MAKESHIFT_PIPEBOMB_AC
+      - - STR_SLAUGHT_AI_AC
     liveAlien: STR_CIVILIAN_CAPTIVE_AC
     specab: 1 #explodes on death
     moraleLossWhenKilled: 50

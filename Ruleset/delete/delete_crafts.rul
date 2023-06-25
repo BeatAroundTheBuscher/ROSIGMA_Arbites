@@ -14,6 +14,9 @@ crafts:
   - delete: STR_CHIMERAPDH
   - delete: STR_CORVUS
   - delete: STR_DROP
+  - delete: STR_DW_LANDRAIDER
+  - delete: STR_DW_THUNDERHAWNK
+  - delete: STR_DW_TT
   - delete: STR_FIRESTORM
   - delete: STR_GORGON
   - delete: STR_GUARD_TRAINING
@@ -21,6 +24,7 @@ crafts:
   - delete: STR_HIDRAPD
   - delete: STR_HORNET
   - delete: STR_IMPULSOR
+  - delete: STR_IMPULSOR_DW
   - delete: STR_IMPULSORS
   - delete: STR_INTERCEPTOR
   - delete: STR_LANDRAIDER
@@ -29,7 +33,9 @@ crafts:
   - delete: STR_MARAUDER
   - delete: STR_OLDTHUNDERHAWNK
   - delete: STR_REPULSOR
+  - delete: STR_REPULSOR_DW
   - delete: STR_REPULSOR_T
+  - delete: STR_REPULSOR_T_DW
   - delete: STR_SKYRANGER
   - delete: STR_SPEEDC
   - delete: STR_STORMEAGLE
@@ -46,7 +52,6 @@ crafts:
   - delete: STR_THUNDERBOLT_INTERCEPTOR
   - delete: STR_THUNDERBOLTPD
   - delete: STR_THUNDERHAWNK
-  - delete: STR_THUNDERHAWNK_DW
   - delete: STR_THUNDERHAWNK_GK
   - delete: STR_TTA
   - delete: STR_TTASS
