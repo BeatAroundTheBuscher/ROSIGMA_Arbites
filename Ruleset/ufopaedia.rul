@@ -132,14 +132,6 @@ ufopaedia:
 ### Weapons
 
 #### Ballistics
-  - id: STR_SLAUGHT_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: STUB_GUN.SPK
-    text: STR_STUB_GUN_UFOPEDIA
-    listOrder: 240
-
-
   - id: STR_STUB_GUN_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -374,100 +366,37 @@ ufopaedia:
 
 #### Ballistics
 
-  
-  - id: STR_STUB_GUN_CHAOS_AC  
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: STUB_GUN.SPK
-    text: STR_STUB_GUN_UFOPEDIA
-    listOrder: 470
-
-  - id: STR_STUB_SMG_CHAOS_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: AUTOPISTOL.SPK
-    text: STR_STUB_GUN_UFOPEDIA
-    listOrder: 480
-
-  - id: STR_STUB_RIFLE_CHAOS_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: STUB_RIFLE.SPK
-    text: STR_STUB_RIFLE_UFOPEDIA
-    listOrder: 490
-
-  - id: STR_AUTOPISTOL_CHAOS_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: AUTOPISTOL.SPK
-    text: STR_AUTOGUN_UFOPEDIA
-    listOrder: 500
-
-
-
-  - id: STR_SHOTGUN_CHAOS_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: 1SG.SPK
-    text: STR_SHOTGUN_UFOPEDIA
-    listOrder: 520
-
-  - id: STR_PUMP_SHOTGUN_CHAOS_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: 1SG.SPK
-    text: STR_SHOTGUN_UFOPEDIA
-    listOrder: 530
-
-  - id: STR_HEAVY_STUBBER_AC_CHAOS
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: HEAVY_STUBBER.SPK
-    text: STR_HEAVY_STUBBER_UFOPEDIA
-    listOrder: 540
+# done by ufopediaType
+# items need to have the same values otherwise it shows wrong info
 
 #### Lasguns
 
-  - id: STR_LASPISTOL_CHAOS_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: 1LP.SPK
-    requires:
-      - STR_LASGUNS_AC
-    text: STR_LASER_PISTOL_UFOPEDIA
-    listOrder: 550
-
-  - id: STR_LASGUN_CHAOS_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: 1LG.SPK
-    requires:
-      - STR_LASGUNS_AC
-    text: STR_LASER_RIFLE_UFOPEDIA
-    listOrder: 560
+# done by ufopediaType
 
 #### Utility
 
-  - id: STR_FLAMETHROWER_CHAOS_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
-    image_id: 1MF.SPK
-    text: STR_FLAMETHROWER_UFOPEDIA
-    listOrder: 570
-    requires:
-      - STR_FLAMER_AC
+# done by ufopediaType
 
   - id: STR_MAKESHIFT_GRENADE_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 1OK4.SPK
     text: STR_MAKESHIFT_GRENADE_UFOPEDIA
+    listOrder: 500
 
   - id: STR_MAKESHIFT_PIPEBOMB_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 1OK4.SPK
     text: STR_MAKESHIFT_PIPEBOMB_UFOPEDIA
+    listOrder: 510
+
+  - id: STR_SLAUGHT_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
+    image_id: STUB_GUN.SPK
+    text: STR_STUB_GUN_UFOPEDIA
+    listOrder: 520
 
 ### ARMORS
 #### Convention by the game is to add _UC at the end
