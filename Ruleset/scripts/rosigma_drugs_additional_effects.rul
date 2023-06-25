@@ -1,0 +1,34 @@
+extended:
+  tagsFile: Ruleset/scripts/rosigmunda_drugs.rul
+
+  scripts:
+    hitUnit:
+      - new: ROSIGMUNDA_hU_drug_effects_damage_threshold
+        offset: 2
+        code: |    
+          var int currentBoost;
+
+          unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
+          sub power currentBoost;
+          if lt power 0;
+            set power 0;
+          end;
+
+          return power part side;
+
+    newTurnUnit:
+      - new: ROSIGMUNDA_nTU_drug_effects_stamina_recovery
+        offset: 2
+        code: |    
+          var int currentBoost;
+          var int faction;
+
+          unit.getFaction faction;
+          if neq side faction;
+            return;
+          end;
+
+          unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY;
+          unit.addEnergy currentBoost;
+
+          return;

@@ -458,6 +458,15 @@ en-US:
     {NEWLINE}> Reduces Maximum Health\
     {NEWLINE}> May cause Cardiac Arrest"
   STR_FRENZON_AI_AC: "Drug: Frezon (Dirty)"
+  STR_ZUMTHORIAN_GREYVE_AC: "Drug: Zumthorian Greyve"
+  STR_ZUMTHORIAN_GREYVE_UFOPEDIA: " {NEWLINE}This syringe contains a drug numbing the senses for pain and fatigue.\
+    {NEWLINE}{NEWLINE} Abilities:\
+    {NEWLINE}> Increased Toughness\
+    {NEWLINE}> Increased Stamina Recovery\
+    {NEWLINE}> Reduces Maximum Health\
+    {NEWLINE}> May cause Cardiac Arrest"
+  STR_ZUMTHORIAN_GREYVE_AI_AC: "Drug: Zumthorian Greyve (Dirty)"
+
   STR_RANDOM_DRUG_AC: "Unlabeled Drug"
   STR_RANDOM_DRUG_AI_AC: "Unlabeled Drug (Dirty)"
   STR_HEALTH_ITEMS: "Drugs"

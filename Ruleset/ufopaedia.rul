@@ -410,6 +410,15 @@ ufopaedia:
     requires:
       - STR_FRENZON_AC
 
+  - id: STR_ZUMTHORIAN_GREYVE_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
+    image_id: 0ENFM.SPK
+    text: STR_ZUMTHORIAN_GREYVE_UFOPEDIA
+    listOrder: 522
+    requires:
+      - STR_ZUMTHORIAN_GREYVE_AC
+
 ### ARMORS
 #### Convention by the game is to add _UC at the end
 

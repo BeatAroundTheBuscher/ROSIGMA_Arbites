@@ -61,6 +61,15 @@ items:
       STR_FRENZON_AC: [1]
     ufopediaType: STR_FRENZON_AC
 
+  - type: STR_ZUMTHORIAN_GREYVE_AC
+    refNode: *STR_DRUG
+
+  - type: STR_ZUMTHORIAN_GREYVE_AI_AC
+    refNode: *STR_DRUG_AI
+    recoveryTransformations:
+      STR_ZUMTHORIAN_GREYVE_AC: [1]
+    ufopediaType: STR_ZUMTHORIAN_GREYVE_AC
+
 
 # Dark Heresy - Book of Judgement (p70)
 ## Clear (not relevant for combat)

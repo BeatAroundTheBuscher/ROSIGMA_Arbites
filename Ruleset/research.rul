@@ -201,6 +201,11 @@ research:
     cost: 100
     score: 50
     needItem: true
+
+  - name: STR_ZUMTHORIAN_GREYVE_AC
+    cost: 100
+    score: 50
+    needItem: true
     # unlocks:
     #  - STR_KHORNE_CULTISTS_AC
 

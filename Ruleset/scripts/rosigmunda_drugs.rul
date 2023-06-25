@@ -34,6 +34,21 @@ items:
       ITEM_FUSE_MAXIMUM: 10
       ITEM_FUSE_SIDE: 1 # Hostile
 
+  - &STR_ZUMTHORIAN_GREYVE
+    type: STR_ZUMTHORIAN_GREYVE_AC
+    tags:
+      ITEM_BOOST_TOUGHNESS: 20
+      ITEM_BOOST_STAMINA_RECOVERY: 10
+      ITEM_REDUCE_HEALTH_ON_USE: 10
+
+  - type: STR_ZUMTHORIAN_GREYVE_AI_AC
+    refNode: *STR_ZUMTHORIAN_GREYVE
+    tags:
+      ITEM_FUSE_MINIMUM: 2
+      ITEM_FUSE_MAXIMUM: 10
+      ITEM_FUSE_SIDE: 1 # Hostile
+
+
 extended:
   tags:
     BattleUnit:
@@ -43,6 +58,8 @@ extended:
       UNIT_CURRENT_BOOST_TIMEUNITS: int
       UNIT_CURRENT_BOOST_REACTION: int
       UNIT_CURRENT_BOOST_STRENGTH: int
+      UNIT_CURRENT_BOOST_TOUGHNESS: int
+      UNIT_CURRENT_BOOST_STAMINA_RECOVERY: int
     RuleItem:
       ITEM_REDUCE_HEALTH_ON_USE: int
       ITEM_FUSE_MINIMUM: int
@@ -54,6 +71,8 @@ extended:
       ITEM_BOOST_TIMEUNITS: int
       ITEM_BOOST_REACTION: int
       ITEM_BOOST_STRENGTH: int
+      ITEM_BOOST_TOUGHNESS: int
+      ITEM_BOOST_STAMINA_RECOVERY: int
 
   scripts:
     hitUnit:
@@ -110,6 +129,26 @@ extended:
             sub newBoost currentBoost;
             unit.Stats.addStrength newBoost;
             unit.setTag Tag.UNIT_CURRENT_BOOST_STRENGTH newBoost;
+          end;
+
+          
+          damaging_item.getTag newBoost Tag.ITEM_BOOST_TOUGHNESS;
+          unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
+          if and gt newBoost 0 gt newBoost currentBoost;
+            sub newBoost currentBoost;
+            # There is a sanity check for addArmor for values between 0 and armorMax
+            # unit.addArmor SIDE_FRONT newBoost;
+            # unit.addArmor SIDE_LEFT newBoost;
+            # unit.addArmor SIDE_RIGHT newBoost;
+            # unit.addArmor SIDE_REAR newBoost;
+            unit.setTag Tag.UNIT_CURRENT_BOOST_TOUGHNESS newBoost;
+          end;
+
+          damaging_item.getTag newBoost Tag.ITEM_BOOST_STAMINA_RECOVERY;
+          unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY;
+          if and gt newBoost 0 gt newBoost currentBoost;
+            sub newBoost currentBoost;
+            unit.setTag Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY newBoost;
           end;
           
 
@@ -271,6 +310,25 @@ extended:
               sub newBoost currentBoost;
               target.Stats.addStrength newBoost;
               target.setTag Tag.UNIT_CURRENT_BOOST_STRENGTH newBoost;
+            end;
+
+            item.getTag newBoost Tag.ITEM_BOOST_TOUGHNESS;
+            target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
+            if and gt newBoost 0 gt newBoost currentBoost;
+              sub newBoost currentBoost;
+              # There is a sanity check for addArmor for values between 0 and armorMax
+              # target.addArmor SIDE_FRONT newBoost;
+              # target.addArmor SIDE_LEFT newBoost;
+              # target.addArmor SIDE_RIGHT newBoost;
+              # target.addArmor SIDE_REAR newBoost;
+              target.setTag Tag.UNIT_CURRENT_BOOST_TOUGHNESS newBoost;
+            end;
+
+            item.getTag newBoost Tag.ITEM_BOOST_STAMINA_RECOVERY;
+            target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY;
+            if and gt newBoost 0 gt newBoost currentBoost;
+              sub newBoost currentBoost;
+              target.setTag Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY newBoost;
             end;
 
           return;
