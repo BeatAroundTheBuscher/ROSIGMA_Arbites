@@ -4,6 +4,7 @@ craftWeapons:
   - delete: STR_CANNON_UC
   - delete: STR_COBRA_CANNON_UC
   - delete: STR_CRAFT_AUTOCANNON_UC
+  - delete: STR_CRAFT_HMISSILE_UC
   - delete: STR_CRAFT_MULTILASER_UC
   - delete: STR_CRAFT_QUADLASER_UC
   - delete: STR_CRAFT_SHIELD_UC

@@ -194,6 +194,8 @@ research:
   - delete: STR_GK_CHP_ARMOR
   - delete: STR_GK_HIGHTIER
   - delete: STR_GK_SOLDIER
+  - delete: STR_GOLIATH_UFO
+  - delete: STR_GOLIATH_UFO_DATA
   - delete: STR_GRAV_SHIELD
   - delete: STR_GRETCHIN
   - delete: STR_GRETCHIN_CORPSE
@@ -345,6 +347,8 @@ research:
   - delete: STR_POWER_SUIT
   - delete: STR_POWER_SWORD
   - delete: STR_POWER_SWORD_CM
+  - delete: STR_PREATOR_PD_R
+  - delete: STR_PREATOR_R
   - delete: STR_PREDATOR_CORPSE
   - delete: STR_PREDATORSIDE_CORPSE
   - delete: STR_PRIEST_CORPSE
@@ -444,8 +448,12 @@ research:
   - delete: STR_THUNDERHAWKTYPE1
   - delete: STR_THUNDERHAWKTYPE2
   - delete: STR_TRAINFACILITYR
+  - delete: STR_TRAITOR_CASSIUM
+  - delete: STR_TRAITOR_CASSIUM_DATA
   - delete: STR_TRAITOR_CHIMERA
   - delete: STR_TRAITOR_CHIMERA_DATA
+  - delete: STR_TRAITOR_CONVOY
+  - delete: STR_TRAITOR_CONVOY_DATA
   - delete: STR_TRUKK_UFO
   - delete: STR_TRUKK_UFO_DATA
   - delete: STR_TSARGENT

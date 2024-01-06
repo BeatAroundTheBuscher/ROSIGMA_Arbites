@@ -159,6 +159,8 @@ ufopaedia:
   - delete: STR_CARNI_AUTOPSY
   - delete: STR_CARNI_TERRORIST
   - delete: STR_CASSC
+  - delete: STR_CASSIUM
+  - delete: STR_CASSIUMPD
   - delete: STR_CATAPULT
   - delete: STR_CATAPULT_PISTOL
   - delete: STR_CELATID
@@ -204,6 +206,7 @@ ufopaedia:
   - delete: STR_CORRIDOR
   - delete: STR_CORVUS
   - delete: STR_CRAFT_AUTOCANNON_UC
+  - delete: STR_CRAFT_HMISSILE_UC
   - delete: STR_CRAFT_LANDING
   - delete: STR_CRAFT_MULTILASER_UC
   - delete: STR_CRAFT_QUADLASER_UC
@@ -303,6 +306,7 @@ ufopaedia:
   - delete: STR_GK_LIB_LV1_UC
   - delete: STR_GK_TAC_LV1_UC
   - delete: STR_GK_TEC_LV1_UC
+  - delete: STR_GOLIATH_UFO
   - delete: STR_GORGON
   - delete: STR_GRAV_AMMO
   - delete: STR_GRAVGUN_MC
@@ -581,6 +585,8 @@ ufopaedia:
   - delete: STR_POWER_SWORD
   - delete: STR_POWER_SWORD_MC
   - delete: STR_POWER_SWORD_SUP
+  - delete: STR_PREATOR
+  - delete: STR_PREATORPD
   - delete: STR_PREDATOR
   - delete: STR_PREDATORSIDE
   - delete: STR_PRIMARIS
@@ -624,6 +630,8 @@ ufopaedia:
   - delete: STR_SARGENT_ARMOR_UC
   - delete: STR_SCANNER_UC
   - delete: STR_SCION_CARAPACE_ARMOR
+  - delete: STR_SCION_CARAPACE_ARMOR_HELLGUN
+  - delete: STR_SCION_CARAPACE_ARMOR_VOLLEYGUN
   - delete: STR_SCORPION_AUTOPSY
   - delete: STR_SCOUT
   - delete: STR_SCOUTH_UC
@@ -735,7 +743,9 @@ ufopaedia:
   - delete: STR_THUNDERHAWNK_GK
   - delete: STR_TRAINCAMP
   - delete: STR_TRAINFACILITY
+  - delete: STR_TRAITOR_CASSIUM
   - delete: STR_TRAITOR_CHIMERA
+  - delete: STR_TRAITOR_CONVOY
   - delete: STR_TRUKK_UFO
   - delete: STR_TSARGENT_UC
   - delete: STR_TTA

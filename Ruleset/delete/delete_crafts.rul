@@ -7,6 +7,8 @@ crafts:
   - delete: STR_ARVUS_GK
   - delete: STR_AVENGER
   - delete: STR_AVENGER_ADEPTAS
+  - delete: STR_CASSIUM
+  - delete: STR_CASSIUMPD
   - delete: STR_CHAOS_THUNDERHAWNK
   - delete: STR_CHAPTERARMY
   - delete: STR_CHIMERA
@@ -32,6 +34,8 @@ crafts:
   - delete: STR_LIGHTNING_INTERCEPTOR
   - delete: STR_MARAUDER
   - delete: STR_OLDTHUNDERHAWNK
+  - delete: STR_PREATOR
+  - delete: STR_PREATORPD
   - delete: STR_REPULSOR
   - delete: STR_REPULSOR_DW
   - delete: STR_REPULSOR_T

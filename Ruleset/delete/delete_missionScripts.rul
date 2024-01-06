@@ -17,6 +17,7 @@ missionScripts:
   - delete: gameStartCultist
   - delete: gameStartOrk
   - delete: gameStartTraitorGuard
+  - delete: GeneBASES
   - delete: geniusRetaliation
   - delete: GuardTrainingMission
   - delete: Inquisition
