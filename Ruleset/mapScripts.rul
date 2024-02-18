@@ -211,3 +211,43 @@ mapScripts:
       blocks: [1, 2, 3, 6, 7]
       freqs: [2, 2, 1, 2, 1]
       # maxUses: [3, 3, 3, 3, 2] # designed with map size 50x50 in mind
+
+  - type: HIVE_SCRIPT
+    commands:
+    - type: addBlock #entrace
+      blocks: [11]
+      rects:
+        - [0,0,1,1]
+      executions: 1
+      maxUses: [1]
+      size: [1, 1]
+    - type: addBlock #entrace LEFT
+      blocks: [11]
+      rects:
+        - [0,1,1,1]
+      executions: 1
+      maxUses: [1]
+      size: [1, 1]
+    - type: addBlock #entrace RIGHT
+      blocks: [11]
+      rects:
+        - [0,2,1,1]
+      executions: 1
+      maxUses: [1]
+      size: [1, 1]
+    - type: addBlock #entrace RIGHT
+      blocks: [12, 13]
+      rects:
+        - [0,3,1,1]
+      executions: 1
+      maxUses: [1]
+      size: [1, 1]
+    - type: addBlock
+      blocks: [0, 1, 2]
+      executions: 1
+      maxUses: [1]
+      size: 2
+    - type: fillArea
+      blocks: [ 4, 5, 6, 7, 8, 9, 10, 14, 15, 16, 17, 18]
+      freqs: [ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
