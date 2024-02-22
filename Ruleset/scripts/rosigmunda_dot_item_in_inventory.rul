@@ -15,6 +15,10 @@ extended:
           var ptre BattleItem tempItem;
           var ptr RuleItem rItem;
 
+          if neq turn 1;
+            return;
+          end;
+
           if neq side FACTION_PLAYER;
             return;
           end;
