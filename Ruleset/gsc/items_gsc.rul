@@ -14,17 +14,17 @@ items:
     listOrder: 10010
 
   - &STR_CORPSE # battlescape only
-    type: STR_GENE_CULTISTS_PRIEST_CORPSE_AC
+    type: STR_GENE_CULTISTS_HYBRID_LEADER_CORPSE_AC
     weight: 20
-    bigSprite: {mod: 40k, index: 213}
-    floorSprite: {mod: 40k, index: 101}
+    bigSprite: 2724 
+    floorSprite: 2726
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
     battleType: 11
     armor: 26
   
-  - type: STR_GENE_CULTISTS_ASPIRING_CHAMPION_CORPSE_AC
+  - type: STR_GENE_CULTISTS_HYBRID_SOLDIER_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 46}
     floorSprite: {mod: 40k, index: 42}
@@ -49,22 +49,43 @@ items:
     bigSprite: {mod: 40k, index: 750}
     floorSprite: {mod: 40k, index: 333}
 
+  - type: STR_GENE_CULTISTS_M0_CORPSE_AC
+    refNode: *STR_CORPSE
+    bigSprite: {mod: 40k, index: 1304}
+    floorSprite: {mod: 40k, index: 1304}
 
-  - type: STR_GENE_CULTISTS_PRIEST_AC
+  - type: STR_GENE_CULTISTS_M1_CORPSE_AC
+    refNode: *STR_CORPSE
+    bigSprite: {mod: 40k, index: 1306}
+    floorSprite: {mod: 40k, index: 1306}
+
+  - type: STR_GENE_CULTISTS_F0_CORPSE_AC
+    refNode: *STR_CORPSE
+    bigSprite: {mod: 40k, index: 1303}
+    floorSprite: {mod: 40k, index: 1303}
+
+  - type: STR_GENE_CULTISTS_F1_CORPSE_AC
+    refNode: *STR_CORPSE
+    bigSprite: {mod: 40k, index: 1305}
+    floorSprite: {mod: 40k, index: 1305}
+
+
+
+  - type: STR_GENE_CULTISTS_HYBRID_LEADER_AC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 10020
 
-  - type: STR_GENE_CULTISTS_ASPIRING_CHAMPION_AC
+  - type: STR_GENE_CULTISTS_HYBRID_SOLDIER_AC
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 10030
 
-  - type: STR_GENE_CULTISTS_DARKDISCIPLE_AC
+  - type: STR_GENE_CULTISTS_KELERMORPH_AC
     size: 0.0
     recover: true
     liveAlien: true
@@ -164,69 +185,35 @@ items:
     battleType: 11
     recover: false
 
-  - type: STR_BLOODLETTER_DAEMON_CORPSE_AC
-     #19910
-    size: 0.4
-    costSell: 20000
-    weight: 40
-    bigSprite: {mod: 40k, index: 51}
-    floorSprite: {mod: 40k, index: 47}
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 3
-    battleType: 11
-    armor: 26
-    listOrder: 19910
-    recover: true
-    liveAlien: ""
-
-
-  - type: STR_WINGED_DAEMON_WEAPON_AC
-    weight: 3
-    bigSprite: {mod: 40k, index: 251}
-    bulletSprite: -1
-    fireSound: {mod: 40k, index: 753}
-    hitSound: {mod: 40k, index: 754}
-    meleeSound: {mod: 40k, index: 753}
-    hitAnimation: {mod: 40k, index: 80}
-    meleeAnimation: {mod: 40k, index: 4}
-    power: 150
-    damageType: 7
-    damageAlter:
-      IgnoreSelfDestruct: false
-    accuracySnap: 75
-    accuracyAimed: 110
-    accuracyMelee: 80
-    tuMelee: 30
-    tuSnap: 30
-    tuAimed: 60
+  - type: STR_GENE_TANK_AC
+    categories: [STR_CAT_AUXILIARY]
+    bigSprite: {mod: 40k, index: 606}
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: {mod: 40k, index: 6}
+    bulletSpeed: 50
+    hitSound: {mod: 40k, index: 708}
+    hitAnimation: {mod: 40k, index: 26}
+    fireSound: [{mod: 40k, index: 868}, {mod: 40k, index: 869}, {mod: 40k, index: 870}]
+    power: 50
+    explosionSpeed: 5
+    damageAlter: #DA BOLTER  DOUBLE SHOT
+      RandomType: 6
+      ToArmorPre: 0.1
+      ArmorEffectiveness: 0.9
+      ToArmor: 0.2
+      ToHealth: 2.0
+      ToStun: 1.0
+    accuracyAimed: 115
+    accuracySnap: 80
+    accuracyAuto: 70
+    tuAimed: 50
+    tuSnap: 40
+    tuAuto: 60
+    autoShots: 5
+    battleType: 1
     clipSize: -1
-    battleType: 3
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
-    maxRange: 2
-    recover: false
-
-  - type: STR_BLOODLETTER_WEAPON_AC #Deamon Blade
-    meleeSound: {mod: 40k, index: 753} #753 Powerswrod miss
-    meleeHitSound: {mod: 40k, index: 754} #744 Powerswrod hit
-    power: 150
-    meleeAnimation: {mod: 40k, index: 4}
-    weight: 3
-    bigSprite: {mod: 40k, index: 251}
-    floorSprite: {mod: 40k, index: 31}
-    handSprite: {mod: 40k, index: 1000}
-    strengthApplied: false
-    damageType: 7
-    damageAlter:
-      IgnoreSelfDestruct: false
-    accuracyMelee: 100
-    tuMelee: 15
-    clipSize: -1
-    battleType: 3
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    recover: false
-    flatRate: true
+    turretType: 0

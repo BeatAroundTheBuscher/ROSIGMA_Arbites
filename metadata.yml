@@ -1,7 +1,7 @@
 name: "40k Rosigmunda"
 version: "0.4"
 author: "Buscher"
-description: "Campaign for the Arbites. Run with 40k (035.1). Don't run with ROSIGMA, cutscenes, etc."
+description: "Campaign for the Arbites. Run with 40k (036)."
 id: 40k_rosigmunda
 master: 40k
 isMaster: true
@@ -9,4 +9,4 @@ isMaster: true
 reservedSpace: 3 # ToDo, change indices so this is not necessary
 requiredExtendedVersion: "7.8.19"
 requiredExtendedEngine: "Extended"
-requiredMasterModVersion: "034" # current mod.io release is still labeled 034 instead of 035
+requiredMasterModVersion: "036"

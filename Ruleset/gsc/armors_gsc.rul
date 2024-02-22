@@ -1,5 +1,55 @@
 armors:
   - &STR_GENE_CULTIST_ARMOR
+    type: STR_GENE_CULTISTS_M0_ARMOR_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 20
+    spriteSheet: GSC_CIVILIAN_M0_ARMOR_BS.PCK
+    spriteInv: GSC_INFECTED_MALE_CIVILIAN_INV.SPK
+    corpseGeo: STR_GENE_CULTISTS_CORPSE_AC
+    corpseBattle:
+      - STR_GENE_CULTISTS_CULTIST_CORPSE_AC
+    frontArmor: 5
+    sideArmor: 4
+    rearArmor: 3
+    underArmor: 3
+    drawingRoutine: 0
+    damageModifier: # FLAK ARMOR
+      - 1.0 #none
+      - 0.8 #AP
+      - 1.2 #FLAMES
+      - 1.0 #HE
+      - 1.0 #LASCANON
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.0 #MELTA
+    loftempsSet: [ 2 ]
+
+  - type: STR_GENE_CULTISTS_M1_ARMOR_AC
+    refNode: *STR_GENE_CULTIST_ARMOR
+    spriteSheet: GSC_CIVILIAN_M1_ARMOR_BS.PCK
+    spriteInv: GSC_INFECTED_MALE2_CIVILIAN_INV.SPK
+    corpseBattle:
+      - STR_GENE_CULTISTS_CULTIST_CORPSE_AC
+
+  - type: STR_GENE_CULTISTS_F0_ARMOR_AC
+    refNode: *STR_GENE_CULTIST_ARMOR
+    spriteSheet: GSC_CIVILIAN_F0_ARMOR_BS.PCK
+    spriteInv: GSC_INFECTED_FEM_CIVILIAN_INV.SPK
+    corpseBattle:
+      - STR_GENE_CULTISTS_CULTIST_CORPSE_AC
+
+  - type: STR_GENE_CULTISTS_F1_ARMOR_AC
+    refNode: *STR_GENE_CULTIST_ARMOR
+    spriteSheet: GSC_CIVILIAN_F1_ARMOR_BS.PCK
+    spriteInv: GSC_INFECTED_FEM2_CIVILIAN_INV.SPK
+    corpseBattle:
+      - STR_GENE_CULTISTS_CULTIST_CORPSE_AC
+
+  - &STR_GENE_FLAK_ARMOR
     type: STR_GENE_CULTISTS_BLOOD_BROTHER_ARMOR_AC
     visibilityAtDay: 40
     visibilityAtDark: 20
@@ -29,7 +79,7 @@ armors:
     loftempsSet: [ 2 ]
 
   - type: STR_GENE_CULTISTS_FEMCULTIST_ARMOR_AC
-    refNode: *STR_GENE_CULTIST_ARMOR
+    refNode: *STR_GENE_FLAK_ARMOR
     spriteSheet: GENEDR2.PCK
     spriteInv: GENE5.SPK
     corpseBattle:
@@ -61,13 +111,13 @@ armors:
       - 1.0 #MELTA
     loftempsSet: [ 3 ]
 
-  - type: STR_GENE_CULTISTS_PRIEST_ARMOR_AC
+  - type: STR_GENE_CULTISTS_HYBRID_LEADER_AC
     refNode: *STR_GENE_CULTIST_ARMOR
-    spriteSheet: PRIEST.PCK
-    spriteInv: CULTI4
+    spriteSheet: GSC_HYBRID_ACOLYTE_LEADER_BS.PCK
+    spriteInv: GSC_HYBRID_ACOLYTE_LEADER_INV.SPK
     corpseGeo: STR_GENE_CULTISTS_CORPSE_AC
     corpseBattle:
-      - STR_GENE_CULTISTS_PRIEST_CORPSE_AC
+      - STR_GENE_CULTISTS_HYBRID_LEADER_CORPSE_AC
     frontArmor: 10
     sideArmor: 10
     rearArmor: 10
@@ -75,11 +125,25 @@ armors:
     drawingRoutine: 1
     loftempsSet: [ 3 ]
 
-
-  - type: STR_GENE_CULTISTS_DARKDISCIPLE_ARMOR_AC
+  - type: STR_GENE_CULTISTS_HYBRID_SOLDIER_ARMOR_AC
     refNode: *STR_KHORNE_CULTIST_GUTTERFORGE_ARMOR
-    spriteSheet: DARKDISCIPLE_BS.PCK
-    spriteInv: DARKDISCIPLE_INV
+    heatVision: 10
+    spriteSheet: GSC_HYBRID_ACOLYTE_BS.PCK
+    spriteInv: GSC_HYBRID_ACOLYTE_INV.SPK
+    corpseGeo: STR_GENE_CULTISTS_CORPSE_AC
+    corpseBattle:
+      - STR_GENE_CULTISTS_HYBRID_SOLDIER_AC
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 20
+    loftempsSet: [ 3 ]
+
+
+  - type: STR_GENE_CULTISTS_KELERMORPH_ARMOR_AC
+    refNode: *STR_KHORNE_CULTIST_GUTTERFORGE_ARMOR
+    spriteSheet: GENEDR4.PCK
+    spriteInv: GSC_KELERMORPH_INV.SPK
     corpseGeo: STR_GENE_CULTISTS_CORPSE_AC
     corpseBattle:
       - STR_GENE_CULTISTS_DARKDISCIPLE_CORPSE_AC
@@ -88,21 +152,9 @@ armors:
     rearArmor: 30
     underArmor: 30
 
-  - type: STR_GENE_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
-    refNode: *STR_KHORNE_CULTIST_GUTTERFORGE_ARMOR
-    heatVision: 10
-    spriteSheet: CULTIST_ASPIRING_BS.PCK
-    spriteInv: CULTASPIRING_INV
-    corpseGeo: STR_GENE_CULTISTS_CORPSE_AC
-    corpseBattle:
-      - STR_GENE_CULTISTS_ASPIRING_CHAMPION_CORPSE_AC
-    frontArmor: 40
-    sideArmor: 30
-    rearArmor: 25
-    underArmor: 20
-    loftempsSet: [ 3 ]
 
-  - type: STR_GENETANK_ARMOR_AC
+
+  - type: STR_GENESTEALER_ARMOR_AC
     visibilityAtDay: 60
     visibilityAtDark: 60
     spriteSheet: GENE.PCK
@@ -131,7 +183,9 @@ armors:
       - 1.0 #MELTA
     loftempsSet: [ 3 ]
 
-  - type: STR_WINGED_DAEMON_ARMOR_AC
+  - type: STR_GENETANK_ARMOR_AC
+    visibilityAtDay: 40
+    visibilityAtDark: 30
     spriteSheet: GENEBUG.PCK
     fearImmune: true
     bleedImmune: true
@@ -151,4 +205,19 @@ armors:
     underArmor: 80
     drawingRoutine: 11
     size: 2
+    damageModifier: #DREADNOUGHT ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.2 #FLAMES
+      - 1.0 #HE
+      - 1.2 #LASCANON
+      - 1.0 #PLASMA
+      - 0.0 #STUN
+      - 0.8 #MELEE
+      - 1.0 #ACID
+      - 0.0 #SMOKE
+      - 1.0 #IMPACT
+      - 1.2 #MELTA
     loftempsSet: [ 92, 89, 90, 91 ]
+    builtInWeapons:
+      - STR_GENE_TANK_AC

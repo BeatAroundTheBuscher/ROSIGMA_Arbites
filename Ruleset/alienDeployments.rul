@@ -750,6 +750,12 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets  
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets  
       - alienRank: 6
         lowQty: 0
         highQty: 1 #2

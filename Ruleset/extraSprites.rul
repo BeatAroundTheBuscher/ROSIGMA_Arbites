@@ -51,6 +51,7 @@
       2713: Resources/Bigobs/BIGOB_CHAOS_SMG_STUBBER.png
       2714: Resources/Bigobs/bigob_makeshift_grenade.png
       2715: Resources/Bigobs/bigob_makeshift_pipebomb.png
+      2724: Resources/FOES/GSC_HYBRID_ACOLYTE_BIGOB.png
       2871: Resources/FOES/BigOBDarkDisciple.png
       2940: Resources/Bigobs/TZEENTCH_NIHILIUS_LASPISTOL_BIGOB.png
       2941: Resources/Bigobs/TZEENTCH_NIHILIS_LASGUN_BIGOB.png
@@ -69,6 +70,8 @@
       262: Resources/Floorobs/FLOOROB_STUBCANNON.png
       2051: Resources/Floorobs/floorob_Phosphor.gif
       2708: Resources/Floorobs/FLOOROB_GSC_PUMP_SHOTGUN.png
+      2725: Resources/FOES/GSC_HYBRID_ACOLYTE_FLOOROB.png
+      2726: Resources/FOES/GSC_HYBRID_ACOLYTE_LEADER_FLOOROB.png
       2871: Resources/FOES/floorob_darkdisciple.png
       2940: Resources/Floorobs/TZEENTCH_NIHILIUS_LASPISTOL_FLOOROB.png
       2941: Resources/Floorobs/TZEENTCH_NIHILIS_LASGUN_FLOOROB.png
@@ -253,6 +256,101 @@
     singleImage: true
     files:
       0: Resources/FOES/Inventory/CULTISTTZEENTCH_INV.png
+
+
+## GSC
+
+  - type: GSC_CIVILIAN_F0_ARMOR_BS.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/FOES/UnitSprites/GSC_CIVILIAN_F0_ARMOR_BS.png
+  - type: GSC_CIVILIAN_F1_ARMOR_BS.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/FOES/UnitSprites/GSC_CIVILIAN_F1_ARMOR_BS.png
+  - type: GSC_CIVILIAN_M0_ARMOR_BS.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/FOES/UnitSprites/GSC_CIVILIAN_M0_ARMOR_BS.png
+  - type: GSC_CIVILIAN_M1_ARMOR_BS.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/FOES/UnitSprites/GSC_CIVILIAN_M1_ARMOR_BS.png
+  - type: GSC_HYBRID_ACOLYTE_BS.PCK  #HRUD VERMINKIN NURGLE BASIC SKAVEN
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/UnitSprites/GSC_HYBRID_ACOLYTE.png
+
+  - type: GSC_HYBRID_ACOLYTE_LEADER_BS.PCK  #HRUD VERMINKIN NURGLE BASIC SKAVEN
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/UnitSprites/GSC_HYBRID_ACOLYTE_LEADER_BS.png
+
+
+  - type: GSC_INFECTED_FEM_CIVILIAN_INV.SPK
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/GSC_INFECTED_FEM_CIVILIAN_INV.png
+
+  - type: GSC_INFECTED_FEM2_CIVILIAN_INV.SPK
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/GSC_INFECTED_FEM_CIVILIAN2_INV.png
+
+  - type: GSC_INFECTED_MALE_CIVILIAN_INV.SPK
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/GSC_INFECTED_MALE_CIVILIAN_INV.png
+
+  - type: GSC_INFECTED_MALE2_CIVILIAN_INV.SPK
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/GSC_INFECTED_MALE_CIVILIAN2_INV.png
+
+  - type: GSC_HYBRID_ACOLYTE_INV.SPK #FOES INV
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/GSC_HYBRID_ACOLYTE_INV.png
+
+  - type: GSC_HYBRID_ACOLYTE_LEADER_INV.SPK #FOES INV
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/GSC_HYBRID_ACOLYTE_LEADER_INV.png
+
+  - type: GSC_KELERMORPH_INV.SPK
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/GSC_KELERMORPH_INV.png
+
+  - type: GSC_SABOTEUR_F_INV.SPK #INV GSC SABOTEUR
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/GSC_SABOTEUR_F_INV.png
+
+  - type: KELERMORPH_CODEX.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Codex/KELERMORPH_CODEX.png
 
 ## Codex
 

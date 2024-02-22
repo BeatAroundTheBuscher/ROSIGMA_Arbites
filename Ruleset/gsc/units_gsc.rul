@@ -7,7 +7,7 @@
 # units.rul:    rank: STR_LIVE_TERRORIST
 
 units:
-  - type: STR_GENE_CULTISTS_PRIEST_AC
+  - type: STR_GENE_CULTISTS_HYBRID_LEADER_AC
     race: STR_GENE_CULTISTS_AC
     rank: STR_LIVE_COMMANDER
     stats:
@@ -22,7 +22,7 @@ units:
       psiStrength: 50
       psiSkill: 30
       melee: 76
-    armor: STR_GENE_CULTISTS_PRIEST_ARMOR_AC
+    armor: STR_GENE_CULTISTS_HYBRID_LEADER_AC
     standHeight: 21
     kneelHeight: 16
     deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]
@@ -32,24 +32,24 @@ units:
     spotter: 2
     value: 20
     builtInWeaponSets:
-      - - STR_STUB_RIFLE_CHAOS_AC
+      - - STR_STUB_RIFLE_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_STUB_RIFLE_CHAOS_AC
+      - - STR_STUB_RIFLE_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_STUB_RIFLE_CHAOS_AC
+      - - STR_STUB_RIFLE_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_FRAG_GRENADE_AC
-      - - STR_STUB_RIFLE_CHAOS_AC
+      - - STR_STUB_RIFLE_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_ALIEN_GRENADE_AC
 
-  - type: STR_GENE_CULTISTS_ASPIRING_CHAMPION_AC
+  - type: STR_GENE_CULTISTS_HYBRID_SOLDIER_AC
     race: STR_GENE_CULTISTS_AC
     rank: STR_LIVE_LEADER
     stats:
@@ -64,7 +64,7 @@ units:
       psiStrength: 65
       psiSkill: 0
       melee: 80
-    armor: STR_GENE_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
+    armor: STR_GENE_CULTISTS_HYBRID_SOLDIER_ARMOR_AC
     standHeight: 21
     kneelHeight: 16
     deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]
@@ -77,26 +77,26 @@ units:
     value: 12
     moraleLossWhenKilled: 50
     builtInWeaponSets:
-      - - STR_STUB_GUN_CHAOS_AC
+      - - STR_STUB_GUN_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_COMBAT_KNIFE_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_STUB_SMG_CHAOS_AC
+      - - STR_STUB_SMG_AC
         - STR_STUB_SMG_AMMO_AC
         - STR_STUB_SMG_AMMO_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_AUTOGUN_CHAOS_AC
+      - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
         - STR_SMOKE_GRENADE_AC
         - STR_FRAG_GRENADE_AC
-      - - STR_LASPISTOL_CHAOS_AC
+      - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_COMBAT_KNIFE_AC
         - STR_ALIEN_GRENADE_AC
 
-  - type: STR_GENE_CULTISTS_DARKDISCIPLE_AC     #CHAOS FEMALE CULTIST DARK DISCIPLE
+  - type: STR_GENE_CULTISTS_KELERMORPH_AC     #CHAOS FEMALE CULTIST DARK DISCIPLE
     race: STR_GENE_CULTISTS_AC
     rank: STR_LIVE_SOLDIER
     stats:
@@ -111,7 +111,7 @@ units:
       psiStrength: 80
       psiSkill: 0
       melee: 75
-    armor: STR_GENE_CULTISTS_DARKDISCIPLE_ARMOR_AC
+    armor: STR_GENE_CULTISTS_KELERMORPH_ARMOR_AC
     standHeight: 20
     kneelHeight: 15
     value: 15
@@ -122,20 +122,20 @@ units:
     energyRecovery: 40
     moraleLossWhenKilled: 50
     builtInWeaponSets:
-      - - STR_STUB_GUN_CHAOS_AC
+      - - STR_STUB_GUN_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_COMBAT_KNIFE_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_STUB_SMG_CHAOS_AC
+      - - STR_STUB_SMG_AC
         - STR_STUB_SMG_AMMO_AC
         - STR_STUB_SMG_AMMO_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_AUTOGUN_CHAOS_AC
+      - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
         - STR_SMOKE_GRENADE_AC
         - STR_FRAG_GRENADE_AC
-      - - STR_LASPISTOL_CHAOS_AC
+      - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_COMBAT_KNIFE_AC
@@ -165,20 +165,20 @@ units:
     aggression: 2
     moraleLossWhenKilled: 50
     builtInWeaponSets:
-      - - STR_STUB_GUN_CHAOS_AC
+      - - STR_STUB_GUN_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_COMBAT_KNIFE_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_STUB_SMG_CHAOS_AC
+      - - STR_STUB_SMG_AC
         - STR_STUB_SMG_AMMO_AC
         - STR_STUB_SMG_AMMO_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_AUTOGUN_CHAOS_AC
+      - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
         - STR_SMOKE_GRENADE_AC
         - STR_FRAG_GRENADE_AC
-      - - STR_LASPISTOL_CHAOS_AC
+      - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_COMBAT_KNIFE_AC
@@ -211,20 +211,20 @@ units:
     energyRecovery: 40
     moraleLossWhenKilled: 50
     builtInWeaponSets:
-      - - STR_STUB_GUN_CHAOS_AC
+      - - STR_STUB_GUN_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_COMBAT_KNIFE_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_STUB_SMG_CHAOS_AC
+      - - STR_STUB_SMG_AC
         - STR_STUB_SMG_AMMO_AC
         - STR_STUB_SMG_AMMO_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_AUTOGUN_CHAOS_AC
+      - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
         - STR_SMOKE_GRENADE_AC
         - STR_FRAG_GRENADE_AC
-      - - STR_LASPISTOL_CHAOS_AC
+      - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_COMBAT_KNIFE_AC
@@ -322,3 +322,108 @@ units:
     builtInWeaponSets:
       - - STR_BLOODLETTER_WEAPON_AC
 
+
+  - &STR_GSC_CIVILIAN
+    type: STR_GSC_CIVILIAN_M0_AC
+    race: STR_GENE_CULTISTS_AC
+    stats:
+      tu: 55
+      stamina: 65
+      health: 40 
+      bravery: 90
+      reactions: 40
+      firing: 48
+      throwing: 42
+      strength: 30
+      psiStrength: 50
+      psiSkill: 0
+      melee: 44
+    armor: STR_GENE_CULTISTS_M0_ARMOR_AC
+    standHeight: 21
+    kneelHeight: 14
+    value: 2
+    intelligence: 0
+    aggression: 3
+    energyRecovery: 40
+    moraleLossWhenKilled: 10 #No GSC cares
+    deathSound: [{mod: 40k, index: 41}, {mod: 40k, index: 42}, {mod: 40k, index: 43}]
+    livingWeapon: true
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE_AC
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_MAKESHIFT_GRENADE_AC
+      - - STR_PUMP_SHOTGUN_AC
+        - STR_SHOTGUN_SHELLS_AC
+        - STR_MAKESHIFT_GRENADE_AC
+
+  - type: STR_GSC_CIVILIAN_M1_AC
+    refNode: *STR_GSC_CIVILIAN
+    armor: STR_GENE_CULTISTS_M1_ARMOR_AC
+    builtInWeaponSets:
+#      - - STR_LASCUTTER
+#        - STR_LASCUTTER_BIG_AMMO
+#        - STR_MAKESHIFT_GRENADE_AC
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_MAKESHIFT_PIPEBOMB_AC
+      - - STR_STUB_SMG_AC
+        - STR_STUB_SMG_AMMO_AC
+        - STR_MAKESHIFT_PIPEBOMB_AC
+
+  - type: STR_GSC_CIVILIAN_F0_AC
+    refNode: *STR_GSC_CIVILIAN
+    armor: STR_GENE_CULTISTS_F0_ARMOR_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+    builtInWeaponSets:
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_MAKESHIFT_GRENADE_AC
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_COMBAT_KNIFE_AC
+      - - STR_STUB_SMG_AC
+        - STR_STUB_SMG_AMMO_AC
+        - STR_MAKESHIFT_PIPEBOMB_AC
+
+
+
+  - type: STR_GSC_CIVILIAN_F1_AC
+    refNode: *STR_GSC_CIVILIAN
+    armor: STR_GENE_CULTISTS_F1_ARMOR_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+    builtInWeaponSets:
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+      - - STR_STUB_SMG_AC
+        - STR_STUB_SMG_AMMO_AC
+        - STR_COMBAT_KNIFE_AC
+      - - STR_PUMP_SHOTGUN_AC
+        - STR_SHOTGUN_SHELLS_AC
+        - STR_MAKESHIFT_GRENADE_AC
+
+  - type: STR_GENE_TANK_AC
+    race: STR_GENE_CULTISTS_AC
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 100
+      stamina: 90
+      health: 80
+      bravery: 110
+      reactions: 64
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: STR_GENETANK_ARMOR_AC
+    standHeight: 14
+    kneelHeight: 14
+    value: 20
+    deathSound: 23
+    moveSound: 14
+    energyRecovery: 50
