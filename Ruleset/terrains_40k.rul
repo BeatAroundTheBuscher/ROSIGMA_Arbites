@@ -2098,11 +2098,11 @@ terrains:
             - [8, 8, 0]
           STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_AC:
             - [8, 8, 0]
-          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
-            - [8, 4, 0]
-            - [12, 8, 0]
-            - [8, 12, 0]
-            - [4, 8, 0]
+          # STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
+            # - [8, 4, 0]
+            # - [12, 8, 0]
+            # - [8, 12, 0]
+            # - [4, 8, 0]
             #- [5, 5, 0]
             #- [11, 5, 0]
             #- [11, 12, 0]
