@@ -307,13 +307,8 @@ en-US:
   STR_SCIENTISTS_ARRIVE_EVENT_DESCRIPTION_AC: "With the first cult defeated, we are left with traces that will need more effort spent on investigating. As such we are willing to provide more Adepts to piece things together quicker."
 ## Research
 
-  STR_DRUGS_AC: "Advanced Stubber Ammo"
-  STR_DRUGS_TEXT_AC: "{NEWLINE}With the increased use of Gutterforged and more sophisticated types of armor we require more advanced kinds of ammunition to combat our foes.
-    {NEWLINE}{NEWLINE}Stubber/Stub Rifle Ammo:
-    {NEWLINE}{ALT}> Man-Stopper{ALT}{NEWLINE}\t\tImproved Penetration
-    {NEWLINE}{ALT}> Bleeder{ALT}{NEWLINE}\t\tImproved Fatal Wounds
-    {NEWLINE}{ALT}> Expander{ALT}{NEWLINE}\t\tImproved Health Damage
-    {NEWLINE}{ALT}> Tracer{ALT}{NEWLINE}\t\tIncendiary Tips"
+  STR_DRUGS_AC: "Combat Drugs"
+  STR_DRUGS_TEXT_AC: "{NEWLINE}We have found combat drugs on the field of battle used by the enemy. These drugs enhance the performance of the user but they also suffer major impact to their short and long-lasting health. Overuse of combat drugs may cause cardiac arrest, killing the user on the spot."
 
   STR_STUBBER_AMMO_ADVANCED_AC: "Advanced Stubber Ammo"
   STR_STUBBER_AMMO_ADVANCED_TEXT_AC: "{NEWLINE}With the increased use of Gutterforged and more sophisticated types of armor we require more advanced kinds of ammunition to combat our foes.

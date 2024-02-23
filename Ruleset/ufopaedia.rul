@@ -132,7 +132,7 @@ ufopaedia:
     type_id: 10
     section: STR_INVESTIGATIONS_AC
     image_id: 0ENFM.SPK
-    text: STR_DRUGS_TEXT
+    text: STR_DRUGS_TEXT_AC
     listOrder: 80
     requires:
       - STR_DRUGS_AC

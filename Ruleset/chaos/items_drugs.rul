@@ -28,6 +28,8 @@ items:
     hitAnimation: 200 # X1.PCK
     hitAnimFrames: 8
     medikitTargetMatrix: 0 # syringes can only used by oneself on oneself
+    requires:
+      - STR_SLAUGHT_AC
 
   - &STR_DRUG_AI
     type: STR_SLAUGHT_AI_AC
@@ -52,9 +54,13 @@ items:
     recoveryTransformations:
       STR_SLAUGHT_AC: [1]
     ufopediaType: STR_SLAUGHT_AC
+    requires:
+      - STR_GENERAL_LOCK_AC
 
   - type: STR_FRENZON_AC
     refNode: *STR_DRUG
+    requires:
+      - STR_FRENZON_AC
 
   - type: STR_FRENZON_AI_AC
     refNode: *STR_DRUG_AI
@@ -64,6 +70,8 @@ items:
 
   - type: STR_ZUMTHORIAN_GREYVE_AC
     refNode: *STR_DRUG
+    requires:
+      - STR_ZUMTHORIAN_GREYVE_AC
 
   - type: STR_ZUMTHORIAN_GREYVE_AI_AC
     refNode: *STR_DRUG_AI
@@ -74,6 +82,8 @@ items:
   - type: STR_RANDOM_DRUG_AC
     refNode: *STR_DRUG
     tuUse: 0
+    requires:
+      - STR_GENERAL_LOCK_AC
 
 
   - type: STR_RANDOM_DRUG_AI_AC
