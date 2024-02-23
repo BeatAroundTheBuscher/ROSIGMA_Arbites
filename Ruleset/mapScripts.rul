@@ -290,16 +290,25 @@ mapScripts:
       maxUses: [1]
       size: [1, 1]
     - type: addBlock
-      blocks: [24] # north
+      blocks: [24] # middle
       executions: 1
       maxUses: [1]
       rects:
         - [2,0,2,1]
     - type: addBlock
+      blocks: [20] # north
+      executions: 1
+      maxUses: [1]
+      size: 2
+    - type: addBlock
       blocks: [23] # middle
       executions: 1
       maxUses: [1]
-      rects:
-        - [2,1,2,2]
+      size: 2
+#    - type: digTunnel
+#      direction: both
+#      tunnelData:
+#        level: 0
     - type: fillArea
-      blocks: [22]
+      blocks: [22, 24, 25, 26]
+      freqs: [3, 2, 1, 2]

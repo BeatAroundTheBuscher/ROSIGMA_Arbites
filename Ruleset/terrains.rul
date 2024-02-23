@@ -121,5 +121,11 @@ terrains:
         width: 20
         length: 20
       - name: HIVE04AC # 24
-        width: 20
+        width: 10
+        length: 10
+      - name: HIVE05AC # 25
+        width: 10
+        length: 10
+      - name: HIVE06AC # 26
+        width: 10
         length: 10
