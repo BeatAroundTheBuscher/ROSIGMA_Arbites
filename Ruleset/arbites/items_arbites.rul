@@ -1410,6 +1410,7 @@ items:
     floorSprite: {mod: 40k, index: 1114}
     handSprite: {mod: 40k, index: 1888}
     listOrder: 420
+    ufopediaType: STR_STUB_GUN_AC
 
   - type: STR_STUB_RIFLE_CHAOS_AC
     refNode: *STR_BALLISTIC_WEAPON_STUB_RIFLE
@@ -1420,6 +1421,7 @@ items:
     floorSprite: {mod: 40k, index: 1109}
     handSprite: {mod: 40k, index: 1872}
     listOrder: 430
+    ufopediaType: STR_STUB_RIFLE_AC
 
   - type: STR_STUB_RIFLE_CHAOS_AC
     refNode: *STR_GUN_BUTT
@@ -1432,6 +1434,7 @@ items:
     requires:
       - STR_GENERAL_LOCK_AC
     listOrder: 440
+    ufopediaType: STR_STUB_SMG_AC
 
   - type: STR_AUTOPISTOL_CHAOS_AC
     refNode: *STR_BALLISTIC_WEAPON_AUTO_PISTOL
@@ -1442,6 +1445,8 @@ items:
     floorSprite: {mod: 40k, index: 1017}
     handSprite: {mod: 40k, index: 1136}
     listOrder: 450
+    ufopediaType: STR_AUTOPISTOL_AC
+
 
   - type: STR_AUTOGUN_CHAOS_AC
     refNode: *STR_BALLISTIC_WEAPON_AUTO_GUN
@@ -1466,6 +1471,8 @@ items:
     listOrder: 470
     tags:
       ITEM_RECOIL: 0 # AI can't handle that
+    ufopediaType: STR_HEAVY_STUBBER_AC
+    
 
   - type: STR_SHOTGUN_CHAOS_AC
     refNode: *STR_SHOTGUN
@@ -1476,6 +1483,8 @@ items:
     floorSprite: {mod: 40k, index: 1123}
     handSprite: {mod: 40k, index: 1928}
     listOrder: 480
+    ufopediaType: STR_SHOTGUN_AC
+
 
   - type: STR_PUMP_SHOTGUN_CHAOS_AC
     refNode: *STR_PUMP_SHOTGUN
@@ -1484,6 +1493,8 @@ items:
     costSell: 800
     bigSprite: 2712
     listOrder: 490
+    ufopediaType: STR_PUMP_SHOTGUN_AC
+
 
   - type: STR_LASPISTOL_CHAOS_AC
     refNode: *STR_LASPISTOL
@@ -1495,6 +1506,8 @@ items:
     floorSprite: {mod: 40k, index: 162}
     handSprite: {mod: 40k, index: 544}
     listOrder: 500
+    ufopediaType: STR_LASPISTOL_AC
+
 
   - type: STR_LASGUN_CHAOS_AC
     refNode: *STR_LASGUN
@@ -1504,6 +1517,8 @@ items:
     floorSprite: {mod: 40k, index: 164}
     handSprite: {mod: 40k, index: 528}
     listOrder: 510
+    ufopediaType: STR_LASGUN_AC
+
 
   - type: STR_LASGUN_CHAOS_AC
     refNode: *STR_GUN_BUTT
@@ -1517,3 +1532,5 @@ items:
     floorSprite: {mod: 40k, index: 1121}
     handSprite: {mod: 40k, index: 1912}
     listOrder: 520
+    ufopediaType: STR_FLAMETHROWER_AC
+

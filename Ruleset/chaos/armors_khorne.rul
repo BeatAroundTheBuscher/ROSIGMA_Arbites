@@ -32,6 +32,7 @@ armors:
     refNode: *STR_KHORNE_CULTIST_ARMOR
     spriteSheet: FEMCULTIST.PCK
     spriteInv: ARepentiaLightK.SPK
+    corpseGeo: STR_KHORNE_CULTISTS_CORPSE_AC
     corpseBattle:
       - STR_KHORNE_CULTISTS_FEMCULTIST_CORPSE_AC
 
@@ -40,6 +41,7 @@ armors:
     refNode: *STR_KHORNE_CULTIST_ARMOR
     spriteSheet: SECTOID.PCK
     spriteInv: CULTI1
+    corpseGeo: STR_KHORNE_CULTISTS_CORPSE_AC
     corpseBattle:
       - STR_KHORNE_CULTISTS_SOLDIER_CORPSE_AC
     frontArmor: 20

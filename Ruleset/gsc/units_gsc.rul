@@ -88,7 +88,6 @@ units:
         - STR_MAKESHIFT_GRENADE_AC
       - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
-        - STR_SMOKE_GRENADE_AC
         - STR_FRAG_GRENADE_AC
       - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
@@ -133,7 +132,6 @@ units:
         - STR_MAKESHIFT_GRENADE_AC
       - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
-        - STR_SMOKE_GRENADE_AC
         - STR_FRAG_GRENADE_AC
       - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
@@ -176,7 +174,6 @@ units:
         - STR_MAKESHIFT_GRENADE_AC
       - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
-        - STR_SMOKE_GRENADE_AC
         - STR_FRAG_GRENADE_AC
       - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
@@ -222,7 +219,6 @@ units:
         - STR_MAKESHIFT_GRENADE_AC
       - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
-        - STR_SMOKE_GRENADE_AC
         - STR_FRAG_GRENADE_AC
       - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
@@ -267,7 +263,6 @@ units:
         - STR_MAKESHIFT_GRENADE_AC
       - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
-        - STR_SMOKE_GRENADE_AC
         - STR_FRAG_GRENADE_AC
       - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
