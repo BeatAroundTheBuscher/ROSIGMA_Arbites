@@ -31,8 +31,8 @@ extended:
             rItem.getTag temp Tag.ITEM_DOT_IN_INVENTORY;
             if gt temp highestDotInInventory;
               set highestDotInInventory temp;
-              debug_log "Found: " rItem;
-              debug_log "New Dot: " highestDotInInventory;
+              # debug_log "Found: " rItem;
+              # debug_log "New Dot: " highestDotInInventory;
             end;
           end;
 

@@ -787,3 +787,81 @@ alienDeployments:
     shade: 7
     markerName: STR_UNDER_HIVE_SITE_AC
     points: 1
+
+  - type: STR_UNDERHIVE_RAIL_AC
+    civiliansByType:
+      STR_CIVILIAN_M0_AC: 2
+      STR_CIVILIAN_M1_AC: 2
+      STR_CIVILIAN_F0_AC: 2
+      STR_CIVILIAN_F1_AC: 2
+      STR_MONK1_AC: 2
+      STR_MONK2_AC: 2
+    # markerIcon: 75
+    data:
+      - alienRank: 5
+        lowQty: 8
+        highQty: 10 #6
+        dQty: 2 #1
+        percentageOutsideUfo: 70
+        itemSets: *emptyItemSets  
+      - alienRank: 4
+        lowQty: 2
+        highQty: 3 #2
+        dQty: 1 #0
+        percentageOutsideUfo: 20
+        itemSets: *emptyItemSets  
+      - alienRank: 3
+        lowQty: 2
+        highQty: 3 #3
+        dQty: 2 #1
+        percentageOutsideUfo: 20
+        itemSets: *emptyItemSets  
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: *emptyItemSets  
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets  
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets  
+      - alienRank: 6
+        lowQty: 0
+        highQty: 1 #2
+        dQty: 1 #2
+        percentageOutsideUfo: 50
+        itemSets: *emptyItemSets  
+      - alienRank: 7
+        lowQty: 0
+        highQty: 1 #2
+        dQty: 1 #2
+        percentageOutsideUfo: 50
+        itemSets: *emptyItemSets  
+    width: 50
+    length: 50
+    height: 4
+    terrains:
+      - HIVE
+    script: HIVE_SCRIPT_RAIL
+    briefing:
+      cutscene: HIVECITY
+      desc: STR_UNDERHIVE_BRIEFING
+      music: gmstory2
+      showCraft: true
+      showTarget: false
+      background: BACK173.SCR
+      title: STR_ALIEN_BASE_ASSAULT
+      textOffset: -16
+      palette: 4
+    shade: 7
+    markerName: STR_UNDER_HIVE_SITE_AC
+    points: 1
