@@ -919,3 +919,69 @@ alienDeployments:
     length: 50
     height: 6
     points: 1
+
+  - type: STR_LOST_PRECINCT_AC
+    enviroEffects: STR_INSIDE_ENVIRO
+    isHidden: false
+    width: 60
+    length: 60
+    height: 4
+    terrains:
+      - XBASE
+    shade: 5
+    briefing:
+      palette: 0
+      background: BACK01.SCR
+      music: GMENBASE
+      desc: STR_BASE_DEFENSE_BRIEFING
+      title: STR_BASE_DEFENSE
+    script: LOST_PRECINCT_AC
+    data:
+      - alienRank: 5
+        lowQty: 10 #4
+        highQty: 10 #8
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: *emptyItemSets
+      - alienRank: 4
+        lowQty: 4 #1
+        highQty: 4 #2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: *emptyItemSets
+      - alienRank: 3
+        lowQty: 4
+        highQty: 4 #2
+        dQty: 0 #0
+        percentageOutsideUfo: 20
+        itemSets: *emptyItemSets
+      - alienRank: 2
+        lowQty: 3
+        highQty: 3 #2
+        dQty: 1 #0
+        percentageOutsideUfo: 20
+        itemSets: *emptyItemSets
+      - alienRank: 1
+        lowQty: 2 #1
+        highQty: 2 #3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 6
+        lowQty: 2 #0
+        highQty: 2 #2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: *emptyItemSets
+      - alienRank: 7
+        lowQty: 2 #0
+        highQty: 2 #2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: *emptyItemSets

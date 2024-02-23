@@ -407,6 +407,7 @@ en-US:
   STR_TRAITOR_OUTPOST_AC: "Traitor Guard Outpost"
   STR_TRAITOR_OUTPOST: "Traitor Outpost"
   STR_CULTIST_CHURCH_AC: "Cultist Church"
+  STR_LOST_PRECINCT_AC: "Lost Precinct"
 
   STR_UNDERHIVE_AC: "Underhive"
   STR_UNDERHIVE_RAIL_AC: "Underhive (Rails)"

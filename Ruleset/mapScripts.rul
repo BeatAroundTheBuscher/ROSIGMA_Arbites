@@ -312,3 +312,102 @@ mapScripts:
     - type: fillArea
       blocks: [22, 24, 25, 26]
       freqs: [3, 2, 1, 2]
+
+  - type: LOST_PRECINCT_AC
+    commands:
+    - type: addCraft
+      rects:
+        - [2,0,1,1] #[x,y,mapSize_width,mapSize_heigth]
+    - type: removeBlock
+      size: [3,2]
+      rects:
+        - [1, 0, 3, 2]
+    - type: addBlock
+      size: [3,2]
+      rects:
+        - [1, 0, 3, 2]
+      terrain: PRISON_BREAK
+      blocks: [3]
+    - type: addBlock # sw hangar
+      rects:
+        - [0, 4, 1, 1] 
+      size: 1
+      blocks: 16 
+    - type: addBlock # sw hangar
+      rects:
+        - [1, 4, 1, 1] 
+      size: 1
+      blocks: 17
+    - type: addBlock # sw hangar
+      rects:
+        - [0, 5, 1, 1] 
+      size: 1
+      blocks: 18
+    - type: addBlock # sw hangar
+      rects:
+        - [1, 5, 1, 1] 
+      size: 1
+      blocks: 19
+    - type: addBlock # se hangar
+      rects:
+        - [4, 4, 1, 1] 
+      size: 1
+      blocks: 16 
+    - type: addBlock # se hangar
+      rects:
+        - [5, 4, 1, 1] 
+      size: 1
+      blocks: 17
+    - type: addBlock # se hangar
+      rects:
+        - [4, 5, 1, 1] 
+      size: 1
+      blocks: 18
+    - type: addBlock # se hangar
+      rects:
+        - [5, 5, 1, 1] 
+      size: 1
+      blocks: 19
+    - type: addBlock # access
+      rects:
+        - [2, 2, 1, 1] 
+      size: 1
+      blocks: 0
+    - type: addBlock # living
+      rects:
+        - [3, 2, 1, 1] 
+      size: 1
+      blocks: 1
+    - type: addBlock # stores
+      rects:
+        - [2, 3, 1, 1] 
+      size: 1
+      blocks: 7
+    - type: addBlock # lab
+      rects:
+        - [3, 3, 1, 1] 
+      size: 1
+      blocks: 2
+    - type: addBlock # workshop
+      rects:
+        - [4, 3, 1, 1] 
+      size: 1
+      blocks: 3
+    - type: addBlock # radar
+      rects:
+        - [1, 3, 1, 1] 
+      size: 1
+      blocks: 4
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 1
+        MCDReplacements:
+          - type: westWall
+            set: 1
+            entry: 13
+          - type: northWall
+            set: 1
+            entry: 14
+    - type: fillArea
+      blocks: 20

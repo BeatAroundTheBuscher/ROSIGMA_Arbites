@@ -54,11 +54,20 @@ crafts:
   - type: STR_CHIMERA_AC
     requires:
       - STR_GENERAL_LOCK_AC
+    fuelMax: 1800
+    damageMax: 400
+    speedMax: 600
+    accel: 2
+    weapons: 0
+    refuelRate: 1000
+    transferTime: 96
+    score: 200
+    repairRate: 4
     maxSkinIndex: 0
     skinSprites: []   # default empty, contains all sprites except for the first (index zero)
     sprite: 201
     soldiers: 8
-    vehicles: 1
+    vehicles: 0
     battlescapeTerrainData:
       name: CHIMERAPD
       mapDataSets:
@@ -73,7 +82,7 @@ crafts:
               - [4, 5, 1]
           fuseTimers:
             STR_CHIMERA_TURRET_SPAWNER_AC: [0, 0]
-    craftInventoryTile: [4, 4, 0]
+    craftInventoryTile: [5, 6, 0]
     deployment:
       - [4, 3, 0, 0]
       - [5, 3, 0, 0]
@@ -83,17 +92,27 @@ crafts:
       - [5, 5, 0, 0]
       - [4, 6, 0, 0]
       - [5, 6, 0, 0]
+    spacecraft: true
 
   - type: STR_TAUROX_AC
     requires:
       - STR_GENERAL_LOCK_AC
+    fuelMax: 1800
+    damageMax: 400
+    speedMax: 600
+    accel: 2
+    weapons: 0
+    refuelRate: 1000
+    transferTime: 96
+    score: 200
+    repairRate: 4
     maxSkinIndex: 0
     skinSprites: []   # default empty, contains all sprites except for the first (index zero)
     sprite: 549
     soldiers: 12
     vehicles: 0
     battlescapeTerrainData:
-      name: CHIMERAPD
+      name: TAUROXPD_SINGLE
       mapDataSets:
         - BLANKS
         - TAUROXPD
@@ -107,7 +126,7 @@ crafts:
               - [3, 6, 2]
           fuseTimers:
             STR_TAUROX_TURRET_SPAWNER_AC: [0, 0]
-    craftInventoryTile: [4, 4, 0]
+    craftInventoryTile: [3, 6, 1]
     deployment:
       - [2, 4, 1, 0]
       - [3, 4, 1, 0]
@@ -121,6 +140,7 @@ crafts:
       - [7, 2, 1, 0]
       - [6, 3, 1, 0]
       - [7, 3, 1, 0]
+    spacecraft: true
 
 
   - type: STR_AVENGER_AC
