@@ -75,7 +75,7 @@ extended:
       UNIT_CURRENT_BOOST_STRENGTH: int
       UNIT_CURRENT_BOOST_TOUGHNESS: int
       UNIT_CURRENT_BOOST_STAMINA_RECOVERY: int
-      
+
     BattleItem: # BLEH # can't setTag RuleItem in BattleItem
       ITEM_REDUCED_HEALTH_BY: int
       ITEM_CURRENT_BOOST_BRAVERY: int
@@ -191,7 +191,7 @@ extended:
           var int currentBoost;
 
           damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_BRAVERY;
-          debug_log "ITEM_CURRENT_BOOST_BRAVERY" newBoost;
+          # debug_log "ITEM_CURRENT_BOOST_BRAVERY" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_BRAVERY;
           if and gt newBoost 0 gt newBoost currentBoost; # I suppose newBoost > 0 isn't necessary due to the second condition
 
@@ -209,7 +209,7 @@ extended:
           end;
 
           damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_MELEE;
-          debug_log "ITEM_CURRENT_BOOST_MELEE" newBoost;
+          # debug_log "ITEM_CURRENT_BOOST_MELEE" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_MELEE;
           if and gt newBoost 0 gt newBoost currentBoost; # I suppose newBoost > 0 isn't necessary due to the second condition
             sub newBoost currentBoost;
@@ -218,7 +218,7 @@ extended:
           end;
 
           damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_TIMEUNITS;
-          debug_log "ITEM_CURRENT_BOOST_TIMEUNITS" newBoost;
+          # debug_log "ITEM_CURRENT_BOOST_TIMEUNITS" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TIMEUNITS;
           if and gt newBoost 0 gt newBoost currentBoost; 
             sub newBoost currentBoost;
@@ -227,7 +227,7 @@ extended:
           end;
 
           damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_REACTION;
-          debug_log "ITEM_CURRENT_BOOST_REACTION" newBoost;
+          # debug_log "ITEM_CURRENT_BOOST_REACTION" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_REACTION;
           if and gt newBoost 0 gt newBoost currentBoost;
             sub newBoost currentBoost;
@@ -236,7 +236,7 @@ extended:
           end;
 
           damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_STRENGTH;
-          debug_log "ITEM_CURRENT_BOOST_STRENGTH" newBoost;
+          # debug_log "ITEM_CURRENT_BOOST_STRENGTH" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STRENGTH;
           if and gt newBoost 0 gt newBoost currentBoost;
             sub newBoost currentBoost;
@@ -246,7 +246,7 @@ extended:
 
           
           damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_TOUGHNESS;
-          debug_log "ITEM_CURRENT_BOOST_TOUGHNESS" newBoost;
+          # debug_log "ITEM_CURRENT_BOOST_TOUGHNESS" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
           if and gt newBoost 0 gt newBoost currentBoost;
             sub newBoost currentBoost;
@@ -259,7 +259,7 @@ extended:
           end;
 
           damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_STAMINA_RECOVERY;
-          debug_log "ITEM_CURRENT_BOOST_STAMINA_RECOVERY" newBoost;
+          # debug_log "ITEM_CURRENT_BOOST_STAMINA_RECOVERY" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY;
           if and gt newBoost 0 gt newBoost currentBoost;
             sub newBoost currentBoost;
@@ -350,7 +350,7 @@ extended:
 
             add temp reduceHealthBy;
             target.setTag Tag.UNIT_REDUCED_HEALTH_BY temp;
-            debug_log "reduced health" temp;
+            # debug_log "reduced health" temp;
 
             mul reduceHealthBy -1; # negative
             target.Stats.addHealth reduceHealthBy;
@@ -432,8 +432,8 @@ extended:
             item.getTag newBoost Tag.ITEM_BOOST_TOUGHNESS;
             target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
 
-            debug_log "newBoost 1" newBoost;
-            debug_log "currentBoost" currentBoost;
+            # debug_log "newBoost 1" newBoost;
+            # debug_log "currentBoost" currentBoost;
 
             if and gt newBoost 0 gt newBoost currentBoost;
               sub newBoost currentBoost;
@@ -445,8 +445,8 @@ extended:
               target.setTag Tag.UNIT_CURRENT_BOOST_TOUGHNESS newBoost;
             end;
 
-            debug_log "newBoost 2" newBoost;
-            debug_log "currentBoost" currentBoost;
+            # debug_log "newBoost 2" newBoost;
+            # debug_log "currentBoost" currentBoost;
 
             item.getTag newBoost Tag.ITEM_BOOST_STAMINA_RECOVERY;
             target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY;
@@ -466,7 +466,7 @@ extended:
           unit.getTag temp Tag.UNIT_REDUCED_HEALTH_BY;
           mul temp -1;
 
-          debug_log "AC_rFMU_reduce_health_on_use addHealth" temp;
+          # debug_log "AC_rFMU_reduce_health_on_use addHealth" temp;
           soldier.Stats.addHealth temp;
           return;
 
