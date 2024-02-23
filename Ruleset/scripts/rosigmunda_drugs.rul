@@ -48,6 +48,21 @@ items:
       ITEM_FUSE_MAXIMUM: 10
       ITEM_FUSE_SIDE: 1 # Hostile
 
+  - &STR_RANDOM_DRUG
+    type: STR_RANDOM_DRUG_AC
+    tags:
+      ITEM_IS_RANDOM_DRUG: 1
+      ITEM_CAN_BE_SLAUGHT_CHANCE: 40 # manufacture: STR_IDENTIFY_DRUG_AC
+      ITEM_CAN_BE_FRENZON_CHANCE: 40
+      ITEM_CAN_BE_ZUMTHORIAN_GREYVE: 20
+
+  - type: STR_RANDOM_DRUG_AI_AC
+    refNode: *STR_RANDOM_DRUG
+    tags:
+      ITEM_FUSE_MINIMUM: 2
+      ITEM_FUSE_MAXIMUM: 10
+      ITEM_FUSE_SIDE: 1 # Hostile
+
 
 extended:
   tags:
@@ -60,12 +75,19 @@ extended:
       UNIT_CURRENT_BOOST_STRENGTH: int
       UNIT_CURRENT_BOOST_TOUGHNESS: int
       UNIT_CURRENT_BOOST_STAMINA_RECOVERY: int
+      
+    BattleItem: # BLEH # can't setTag RuleItem in BattleItem
+      ITEM_REDUCED_HEALTH_BY: int
+      ITEM_CURRENT_BOOST_BRAVERY: int
+      ITEM_CURRENT_BOOST_MELEE: int
+      ITEM_CURRENT_BOOST_TIMEUNITS: int
+      ITEM_CURRENT_BOOST_REACTION: int
+      ITEM_CURRENT_BOOST_STRENGTH: int
+      ITEM_CURRENT_BOOST_TOUGHNESS: int
+      ITEM_CURRENT_BOOST_STAMINA_RECOVERY: int
+
     RuleItem:
       ITEM_REDUCE_HEALTH_ON_USE: int
-      ITEM_FUSE_MINIMUM: int
-      ITEM_FUSE_MAXIMUM: int
-      ITEM_FUSE_SIDE: int
-
       ITEM_BOOST_BRAVERY: int
       ITEM_BOOST_MELEE: int
       ITEM_BOOST_TIMEUNITS: int
@@ -74,15 +96,102 @@ extended:
       ITEM_BOOST_TOUGHNESS: int
       ITEM_BOOST_STAMINA_RECOVERY: int
 
+      ITEM_FUSE_MINIMUM: int
+      ITEM_FUSE_MAXIMUM: int
+      ITEM_FUSE_SIDE: int
+
+      ITEM_IS_RANDOM_DRUG: int
+      ITEM_CAN_BE_SLAUGHT_CHANCE: int
+      ITEM_CAN_BE_FRENZON_CHANCE: int
+      ITEM_CAN_BE_ZUMTHORIAN_GREYVE: int
+
   scripts:
     hitUnit:
+      - new: ROSIGMUNDA_hU_roll_random_drug
+        offset: 10
+        code: |
+          var int random;
+          var int randomMin;
+          var int randomMax;
+          var ptr RuleItem chosenDrug;
+
+          damaging_item.getTag random Tag.ITEM_IS_RANDOM_DRUG;
+
+          if eq random 0;
+            return power part side;
+          end;
+
+          # weighted distribution
+          damaging_item.getTag random Tag.ITEM_CAN_BE_SLAUGHT_CHANCE;
+          add randomMax random;
+          damaging_item.getTag random Tag.ITEM_CAN_BE_FRENZON_CHANCE;
+          add randomMax random;
+          damaging_item.getTag random Tag.ITEM_CAN_BE_ZUMTHORIAN_GREYVE;
+          add randomMax random;
+
+          battle_game.randomRange random 0 randomMax;
+          set randomMin 0;
+          damaging_item.getTag randomMax Tag.ITEM_CAN_BE_SLAUGHT_CHANCE;
+          # debug_log "Rolling for slaught";
+          # debug_log "random: " random;
+          # debug_log "randomMin: " randomMin;
+          # debug_log "randomMax: " randomMax;
+          if and ge random randomMin lt random randomMax;
+            rules.getRuleItem chosenDrug "STR_SLAUGHT_AC";
+            # debug_log "Rolled slaught";
+          end;
+
+          set randomMin randomMax;
+          damaging_item.getTag randomMax Tag.ITEM_CAN_BE_FRENZON_CHANCE;
+          add randomMax randomMin;
+          # debug_log "Rolling for frenzon";
+          # debug_log "random: " random;
+          # debug_log "randomMin: " randomMin;
+          # debug_log "randomMax: " randomMax;
+          if and ge random randomMin lt random randomMax;
+            rules.getRuleItem chosenDrug "STR_FRENZON_AC";
+            # debug_log "Rolled frenzon";
+          end;
+
+          set randomMin randomMax;
+          damaging_item.getTag randomMax Tag.ITEM_CAN_BE_ZUMTHORIAN_GREYVE;
+          add randomMax randomMin;
+          # debug_log "Rolling for greyve";
+          # debug_log "random: " random;
+          # debug_log "randomMin: " randomMin;
+          # debug_log "randomMax: " randomMax;
+          if and ge random randomMin lt random randomMax;
+            rules.getRuleItem chosenDrug "STR_ZUMTHORIAN_GREYVE_AC";
+            # debug_log "Rolled greyve";
+          end;
+          
+          chosenDrug.getTag random Tag.ITEM_REDUCE_HEALTH_ON_USE; 
+          damaging_item.setTag Tag.ITEM_REDUCED_HEALTH_BY random;
+          chosenDrug.getTag random Tag.ITEM_BOOST_BRAVERY;
+          damaging_item.setTag Tag.ITEM_CURRENT_BOOST_BRAVERY random;
+          chosenDrug.getTag random Tag.ITEM_BOOST_MELEE;
+          damaging_item.setTag Tag.ITEM_CURRENT_BOOST_MELEE random;
+          chosenDrug.getTag random Tag.ITEM_BOOST_TIMEUNITS;
+          damaging_item.setTag Tag.ITEM_CURRENT_BOOST_TIMEUNITS random;
+          chosenDrug.getTag random Tag.ITEM_BOOST_REACTION;
+          damaging_item.setTag Tag.ITEM_CURRENT_BOOST_REACTION random;
+          chosenDrug.getTag random Tag.ITEM_BOOST_STRENGTH;
+          damaging_item.setTag Tag.ITEM_CURRENT_BOOST_STRENGTH random;
+          chosenDrug.getTag random Tag.ITEM_BOOST_TOUGHNESS;
+          damaging_item.setTag Tag.ITEM_CURRENT_BOOST_TOUGHNESS random;
+          chosenDrug.getTag random Tag.ITEM_BOOST_STAMINA_RECOVERY;
+          damaging_item.setTag Tag.ITEM_CURRENT_BOOST_STAMINA_RECOVERY random;
+
+          return power part side;
+
       - new: ROSIGMUNDA_hU_handle_effect_for_ai_drugs
-        offset: 1
+        offset: 11 # needs to be higher than ROSIGMUNDA_hU_roll_random_drug
         code: |    
           var int newBoost;
           var int currentBoost;
 
-          damaging_item.getTag newBoost Tag.ITEM_BOOST_BRAVERY;
+          damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_BRAVERY;
+          debug_log "ITEM_CURRENT_BOOST_BRAVERY" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_BRAVERY;
           if and gt newBoost 0 gt newBoost currentBoost; # I suppose newBoost > 0 isn't necessary due to the second condition
 
@@ -99,7 +208,8 @@ extended:
 
           end;
 
-          damaging_item.getTag newBoost Tag.ITEM_BOOST_MELEE;
+          damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_MELEE;
+          debug_log "ITEM_CURRENT_BOOST_MELEE" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_MELEE;
           if and gt newBoost 0 gt newBoost currentBoost; # I suppose newBoost > 0 isn't necessary due to the second condition
             sub newBoost currentBoost;
@@ -107,7 +217,8 @@ extended:
             unit.setTag Tag.UNIT_CURRENT_BOOST_MELEE newBoost;
           end;
 
-          damaging_item.getTag newBoost Tag.ITEM_BOOST_TIMEUNITS;
+          damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_TIMEUNITS;
+          debug_log "ITEM_CURRENT_BOOST_TIMEUNITS" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TIMEUNITS;
           if and gt newBoost 0 gt newBoost currentBoost; 
             sub newBoost currentBoost;
@@ -115,7 +226,8 @@ extended:
             unit.setTag Tag.UNIT_CURRENT_BOOST_TIMEUNITS newBoost;
           end;
 
-          damaging_item.getTag newBoost Tag.ITEM_BOOST_REACTION;
+          damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_REACTION;
+          debug_log "ITEM_CURRENT_BOOST_REACTION" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_REACTION;
           if and gt newBoost 0 gt newBoost currentBoost;
             sub newBoost currentBoost;
@@ -123,7 +235,8 @@ extended:
             unit.setTag Tag.UNIT_CURRENT_BOOST_REACTION newBoost;
           end;
 
-          damaging_item.getTag newBoost Tag.ITEM_BOOST_STRENGTH;
+          damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_STRENGTH;
+          debug_log "ITEM_CURRENT_BOOST_STRENGTH" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STRENGTH;
           if and gt newBoost 0 gt newBoost currentBoost;
             sub newBoost currentBoost;
@@ -132,7 +245,8 @@ extended:
           end;
 
           
-          damaging_item.getTag newBoost Tag.ITEM_BOOST_TOUGHNESS;
+          damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_TOUGHNESS;
+          debug_log "ITEM_CURRENT_BOOST_TOUGHNESS" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
           if and gt newBoost 0 gt newBoost currentBoost;
             sub newBoost currentBoost;
@@ -144,7 +258,8 @@ extended:
             unit.setTag Tag.UNIT_CURRENT_BOOST_TOUGHNESS newBoost;
           end;
 
-          damaging_item.getTag newBoost Tag.ITEM_BOOST_STAMINA_RECOVERY;
+          damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_STAMINA_RECOVERY;
+          debug_log "ITEM_CURRENT_BOOST_STAMINA_RECOVERY" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY;
           if and gt newBoost 0 gt newBoost currentBoost;
             sub newBoost currentBoost;
@@ -213,7 +328,7 @@ extended:
           var int soldierHealth;
           var ptr GeoscapeSoldier geoSoldier;
 
-          item.getTag reduceHealthBy Tag.ITEM_REDUCE_HEALTH_ON_USE;
+          item.getTag reduceHealthBy Tag.ITEM_REDUCED_HEALTH_BY;
 
           if eq reduceHealthBy 0;
             return;
@@ -246,7 +361,7 @@ extended:
             # lazy
             geoSoldier.Stats.getHealth soldierHealth;
             target.getTag temp Tag.UNIT_REDUCED_HEALTH_BY;
-            item.getTag reduceHealthBy Tag.ITEM_REDUCE_HEALTH_ON_USE;
+            item.getTag reduceHealthBy Tag.ITEM_REDUCED_HEALTH_BY;
 
             if gt temp soldierHealth;
               battle_game.flashLongMessage "STR_SCRIPT_DRUGS_CARDIAC_ARREST_DONE_FOR";

@@ -205,31 +205,31 @@ units:
     deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
 
   - &STR_PENAL_PRISONER_DRUG
-    type: STR_PENAL_PRISONER_DRUG_M_AC
+    type: STR_PENAL_PRISONER_M_DRUG_AC
     refNode: *STR_PENAL_PRISONER
     builtInWeaponSets:
       - - STR_COMBAT_KNIFE_AC
-        - STR_SLAUGHT_AI_AC
+        - STR_RANDOM_DRUG_AI_AC
       - - STR_STUB_GUN_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_COMBAT_KNIFE_AC
         - STR_MAKESHIFT_GRENADE_AC
-        - STR_SLAUGHT_AI_AC
+        - STR_RANDOM_DRUG_AI_AC
       - - STR_AUTOPISTOL_AC
         - STR_AUTOPISTOL_CLIP_AC
         - STR_AUTOPISTOL_CLIP_AC
         - STR_COMBAT_KNIFE_AC
         - STR_MAKESHIFT_PIPEBOMB_AC
-        - STR_FRENZON_AC
+        - STR_RANDOM_DRUG_AI_AC
       - - STR_LASPISTOL_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_LASPISTOL_CLIP_AC
         - STR_COMBAT_KNIFE_AC
         - STR_MAKESHIFT_PIPEBOMB_AC
-        - STR_ZUMTHORIAN_GREYVE_AC
+        - STR_RANDOM_DRUG_AI_AC
 
-  - type: STR_PENAL_PRISONER_DRUG_F_AC
+  - type: STR_PENAL_PRISONER_F_DRUG_AC
     refNode: *STR_PENAL_PRISONER_DRUG
     armor: STR_PENAL_ARMOR_BROWN_F_AC
     deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]

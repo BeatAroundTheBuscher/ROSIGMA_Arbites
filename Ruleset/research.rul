@@ -130,6 +130,17 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
+  - id: STR_DRUGS_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_RANDOM_DRUG_AC
+    cost: 100
+    score: 50
+    needItem: true
+
 
   - name: STR_DAEMON_CORPSE_RESEARCHED
     dependencies:

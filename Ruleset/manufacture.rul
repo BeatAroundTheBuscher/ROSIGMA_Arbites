@@ -9,5 +9,19 @@ manufacture:
     requiredItems:
       STR_CIVILIAN_CAPTIVE_AC: 1
     spawnedPersonType: STR_PENITENT_AC
-    producedItems:
-      STR_COMBAT_KNIFE_AC: 1 # need to manufacture anything
+    producedItems: {}
+
+  - name: STR_IDENTIFY_DRUG_AC
+    category: STR_ADVANCEMENT
+    requires:
+      - STR_RANDOM_DRUG_AC
+    space: 0
+    time: 1
+    cost: 100
+    requiredItems:
+      STR_RANDOM_DRUG_AC: 1
+    randomProducedItems:
+      - [40, {STR_SLAUGHT_AC: 1}]
+      - [40, {STR_FRENZON_AC: 1}]
+      - [20, {STR_ZUMTHORIAN_GREYVE_AC: 1}]
+    producedItems: {}

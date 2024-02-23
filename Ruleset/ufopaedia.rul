@@ -128,6 +128,14 @@ ufopaedia:
 #      - STR_FLAMER_AC
 #    listOrder: 230
 
+  - id: STR_DRUGS_AC
+    type_id: 10
+    section: STR_INVESTIGATIONS
+    image_id: 0ENFM.SPK
+    text: STR_DRUGS_TEXT
+    listOrder: 80
+    requires:
+      - STR_DRUGS_AC
 
 ### Weapons
 
