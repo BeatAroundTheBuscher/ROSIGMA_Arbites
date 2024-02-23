@@ -1,0 +1,9 @@
+eventScripts:
+  - type: STR_SCIENTISTS_ARRIVE_EVENTSCRIPT_AC
+    eventWeights:
+      0:
+        STR_SCIENTISTS_ARRIVE_EVENT_AC: 100
+    executionOdds: 100
+    counterMax: 1
+    researchTriggers: 
+      - STR_CULTIST_KHORNE_DEFEATED_AC: true

@@ -115,7 +115,7 @@ missionScripts:
     randomDelay: 6000
     useTable: false
     researchTriggers:
-      STR_CULTIST_DEFEATED: false
+      STR_CULTIST_KHORNE_DEFEATED_AC: false
 
   - type: Summoning
     executionOdds: 100
@@ -135,7 +135,7 @@ missionScripts:
     randomDelay: 6000
     useTable: false
     researchTriggers:
-      STR_CULTIST_DEFEATED: false
+      STR_CULTIST_KHORNE_DEFEATED_AC: false
 
 ## DANGER LEVEL 2
 
@@ -175,7 +175,7 @@ missionScripts:
       STR_BEGINNING_INVESTIGATION: true
       STR_CULTIST_MENACE: true
       STR_CULTIST_PLOT: false
-      STR_CULTIST_DEFEATED: false
+      STR_CULTIST_KHORNE_DEFEATED_AC: false
     startDelay: 12000
     randomDelay: 6000
     useTable: false
@@ -194,7 +194,7 @@ missionScripts:
         STR_KHORNE_CULTISTS_AC: 100
     researchTriggers:
       STR_CULTIST_PLOT: true
-      STR_CULTIST_DEFEATED: false
+      STR_CULTIST_KHORNE_DEFEATED_AC: false
     startDelay: 12000
     randomDelay: 6000
     useTable: false
@@ -208,7 +208,7 @@ missionScripts:
       0:
         STR_CULTIST_RETALIATION_AC: 100
     researchTriggers:
-      STR_CULTIST_DEFEATED: true
+      STR_CULTIST_KHORNE_DEFEATED_AC: true
     startDelay: 6000
     randomDelay: 3000
     targetBaseOdds: 100

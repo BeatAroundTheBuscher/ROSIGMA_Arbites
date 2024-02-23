@@ -43,7 +43,7 @@ research:
       - STR_CULTIST_LEADERSHIP
       - STR_CULTIST_EVIDENCE
 
-  - name: STR_CULTIST_DEFEATED
+  - name: STR_CULTIST_KHORNE_DEFEATED_AC
     cost: 0
     points: 0
     dependencies:

@@ -707,7 +707,7 @@ alienDeployments:
     markerName: STR_CATACOMB_SITE
     duration: [120, 240]
     despawnPenalty: 100
-    unlockedResearch: STR_CULTIST_DEFEATED
+    unlockedResearch: STR_CULTIST_KHORNE_DEFEATED_AC
 
 
   - type: STR_UNDERHIVE_AC

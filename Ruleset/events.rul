@@ -6,3 +6,11 @@ events:
     spawnedPersonType: STR_PENITENT_AC
     timer: 720
     timerRandom: 60
+
+  - name: STR_SCIENTISTS_ARRIVE_EVENT_AC
+    description: STR_SCIENTISTS_ARRIVE_EVENT_DESCRIPTION_AC
+    background: BACK05.SCR
+    spawnedPersons: 15
+    spawnedPersonType: STR_SCIENTIST
+    timer: 720
+    timerRandom: 60

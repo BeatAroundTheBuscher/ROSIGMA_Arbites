@@ -303,6 +303,8 @@ en-US:
   STR_PENITENT_EVENT_AC: "Cultist Repents"
   STR_PENITENT_EVENT_DESCRIPTION_AC: "One of the interrogated Cultists is willing to repent. We are willing to accept them as a Penitent."
 
+  STR_SCIENTISTS_ARRIVE_EVENT_AC: "Scientists Arrive"
+  STR_SCIENTISTS_ARRIVE_EVENT_DESCRIPTION_AC: "With the first cult defeated, we are left with traces that will need more effort spent on investigating. As such we are willing to provide more Adepts to piece things together quicker."
 ## Research
 
   STR_DRUGS_AC: "Advanced Stubber Ammo"
@@ -381,8 +383,8 @@ en-US:
   STR_CULTIST_PLOT_TEXT: "{NEWLINE} It is now obvious that the Cultists are supported by some other faction to destabilize the society. For this purpose the cultists incite rebellious acts in the hives to collect sacrifices for their summons. The Aspiring Champions are made ready for their transformations into daemons to open pathways to the Warp.
     {NEWLINE}{NEWLINE}Also we were able to pin point the source of these undoings. We should have found them by the end of next month."
 
-  STR_CULTIST_DEFEATED: "Cultist Menace Defeated"
-  STR_CULTIST_DEFEATED_TEXT: "TODO"
+  STR_CULTIST_KHORNE_DEFEATED_AC: "Khorne Cultist Menace Defeated"
+  STR_CULTIST_KHORNE_DEFEATED_AC_TEXT: "TODO"
 
 ## Missions
 # type
