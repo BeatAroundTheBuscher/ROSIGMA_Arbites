@@ -127,6 +127,42 @@ units:
     armor: CIVILIAN_ARMOR_F1_AC
     deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
 
+  - &STR_RIOTER_DRUG
+    type: STR_RIOTER_M0_DRUG_AC
+    refNode: *STR_RIOTER
+    builtInWeaponSets:
+      - - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_GRENADE_AC
+        - STR_RANDOM_DRUG_AC
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_RANDOM_DRUG_AC
+      - - STR_STUB_RIFLE_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_RANDOM_DRUG_AC
+      - - STR_AUTOPISTOL_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_AUTOPISTOL_CLIP_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_RANDOM_DRUG_AC
+
+  - type: STR_RIOTER_M1_DRUG_AC
+    refNode: *STR_RIOTER_DRUG
+    armor: CIVILIAN_ARMOR_M1_AC
+
+  - type: STR_RIOTER_F0_DRUG_AC
+    refNode: *STR_RIOTER
+    armor: CIVILIAN_ARMOR_F0_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+
+  - type: STR_RIOTER_F1_DRUG_AC
+    refNode: *STR_RIOTER
+    armor: CIVILIAN_ARMOR_F1_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+
   - type: STR_MUNITORIUM_AC
     race: STR_MUNITORIUM
     stats:
