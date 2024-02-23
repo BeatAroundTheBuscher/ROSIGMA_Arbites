@@ -406,6 +406,7 @@ en-US:
   STR_CULTIST_SACRIFICES_LEVEL_1_AC: "Cultist Sacrifice"
   STR_TRAITOR_OUTPOST_AC: "Traitor Guard Outpost"
   STR_TRAITOR_OUTPOST: "Traitor Outpost"
+  STR_CULTIST_CHURCH_AC: "Cultist Church"
 
   STR_UNDERHIVE_AC: "Underhive"
   STR_UNDERHIVE_RAIL_AC: "Underhive (Rails)"

@@ -865,3 +865,57 @@ alienDeployments:
     shade: 7
     markerName: STR_UNDER_HIVE_SITE_AC
     points: 1
+
+  - type: STR_CULTIST_CHURCH_AC
+    markerIcon: 54
+    terrains:
+      - INDUSTRIALURBANDIO
+      #- CULTIST_TEMPLE
+    script: CULTIST_BASE_LEVEL_1
+    alienBase: true
+    objectiveType: 100
+    objectiveComplete: [STR_CULTIST_BASE_DESTROYED, 250]
+    objectivePopup: STR_CULTIST_LEADERS_KILLED
+    #objectiveFailed:
+    #  - STR_CULTIST_BASE_NOT_DESTROYED
+    #  - 0
+    data: 
+      - alienRank: 2
+        lowQty: 3 #2
+        highQty: 3 #4
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets  
+      - alienRank: 3
+        lowQty: 3 #2
+        highQty: 3 #4
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 4
+        lowQty: 4 #3
+        highQty: 4 #5
+        dQty: 3
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+      - alienRank: 5
+        lowQty: 9 #6
+        highQty: 9 #12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets: *emptyItemSets
+    briefing:
+      cutscene: CULTBASE
+      music: gmstory2
+      title: STR_ALIEN_BASE_ASSAULT
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      desc: STR_CULTIST_BASE_ASSAULT_BRIEFING
+    missionBountyItem: STR_KILLPOINT_TOKEN
+    missionBountyItemCount: 60
+    markerName: STR_ALIEN_BASE
+    width: 50
+    length: 50
+    height: 6
+    points: 1
