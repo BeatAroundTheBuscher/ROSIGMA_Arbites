@@ -1,0 +1,20 @@
+armors:
+  - type: STR_CHIMERA_ARMOR_AC
+    scripts:
+      selectUnitSprite:
+        var int temp;
+        unit.isCollapsing temp;
+        if eq temp 0;
+          unit.isAiming temp;
+          if or eq blit_part blit_large_torso_0 eq blit_part blit_large_torso_1 eq blit_part blit_large_torso_2 eq blit_part blit_large_torso_3;
+            if neq 0 temp;
+              add sprite_offset 32;
+            end;
+          else or eq blit_part blit_large_propulsion_0 eq blit_part blit_large_propulsion_1 eq blit_part blit_large_propulsion_2 eq blit_part blit_large_propulsion_3;
+            set sprite_index 32;
+            set sprite_offset 0;
+          end;
+        end;
+        add sprite_index sprite_offset;
+
+        return sprite_index;

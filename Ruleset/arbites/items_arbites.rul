@@ -1560,3 +1560,127 @@ items:
     listOrder: 520
     ufopediaType: STR_FLAMETHROWER_AC
 
+
+
+  - type: STR_CHIMERA_TURRET_SPAWNER_AC
+    spawnUnit: STR_CHIMERA_TURRET_AC
+    spawnUnitFaction: 0
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    hitAnimation: {mod: 40k, index: 1990}
+    armor: 255
+
+  - type: STR_CHIMERA_TURRET_CORPSE_AC
+    battleType: 11
+    power: 60
+    blastRadius: 2
+
+  - &STR_CHIMERA_TURRET_CORPSE_TILES
+    type: STR_CHIMERA_TURRET_CORPSE_1_AC
+    name: STR_BIKE_CORPSE
+    weight: 200
+    armor: 255
+    floorSprite: {mod: 40k, index: 643}
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_CHIMERA_TURRET_CORPSE_2_AC
+    refNode: *STR_CHIMERA_TURRET_CORPSE_TILES
+    floorSprite: {mod: 40k, index: 644}
+  - type: STR_CHIMERA_TURRET_CORPSE_3_AC
+    refNode: *STR_CHIMERA_TURRET_CORPSE_TILES
+    floorSprite: {mod: 40k, index: 645}
+  - type: STR_CHIMERA_TURRET_CORPSE_4_AC
+    refNode: *STR_CHIMERA_TURRET_CORPSE_TILES
+    floorSprite: {mod: 40k, index: 646}
+
+  - type: STR_TAUROX_TURRET_SPAWNER_AC
+    spawnUnit: STR_TAUROX_TURRET_AC
+    spawnUnitFaction: 0
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    hitAnimation: {mod: 40k, index: 1990}
+    armor: 255
+
+  - type: STR_TAUROX_TURRET_CORPSE_AC
+    battleType: 11
+    power: 60
+    blastRadius: 2
+
+  - &STR_TAUROX_TURRET_CORPSE_TILES
+    type: STR_TAUROX_TURRET_CORPSE_1_AC
+    name: STR_BIKE_CORPSE
+    weight: 200
+    armor: 255
+    floorSprite: {mod: 40k, index: 647}
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_TAUROX_TURRET_CORPSE_2_AC
+    refNode: *STR_TAUROX_TURRET_CORPSE_TILES
+    floorSprite: {mod: 40k, index: 648}
+  - type: STR_TAUROX_TURRET_CORPSE_3_AC
+    refNode: *STR_TAUROX_TURRET_CORPSE_TILES
+    floorSprite: {mod: 40k, index: 649}
+  - type: STR_TAUROX_TURRET_CORPSE_4_AC
+    refNode: *STR_TAUROX_TURRET_CORPSE_TILES
+    floorSprite: {mod: 40k, index: 650}
+
+  - type: STR_CHIMERA_TURRET_BOLTER_AC
+    weight: 0
+    size: 0
+    bigSprite: {mod: 40k, index: 640}
+    bulletSprite: {mod: 40k, index: 6}
+    fireSound: {mod: 40k, index: 707}
+    explosionSpeed: 5
+    bulletSpeed: 50
+    hitAnimation: {mod: 40k, index: 26}
+    hitSound: {mod: 40k, index: 13}
+    accuracyAuto: 50
+    tuAuto: 50
+    battleType: 1
+    damageType: 1
+    power: 60
+    damageAlter: #DA BOLTER
+      ToArmorPre: 0.05
+      ArmorEffectiveness: 0.9
+      ToArmor: 0.1
+      ToHealth: 1.0
+      ToStun: 0.5
+    autoShots: 10
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    twoHanded: false
+    fixedWeapon: true
+    recover: false
+
+  - type: STR_TAUROX_TURRET_AUTOCANNON_AC     #STORMRAVEN ASSAULT CAN
+    size: 0.6
+    dropoff: 5
+    weight: 10
+    bigSprite: {mod: 40k, index: 643}
+    bulletSprite: {mod: 40k, index: 6}
+    fireSound: {mod: 40k, index: 12}
+    accuracyAuto: 50
+    tuAuto: 45
+    autoRange: 30
+    autoShots: 10
+    sprayWaypoints: 3
+    battleType: 1
+    hitSound: {mod: 40k, index: 13}
+    hitAnimation: {mod: 40k, index: 26}
+    power: 90
+    damageType: 1
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    twoHanded: false
+    fixedWeapon: true
+    bulletSpeed: 50
+    clipSize: -1

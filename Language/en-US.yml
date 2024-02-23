@@ -164,6 +164,14 @@ en-US:
 
 ## Crafts
   STR_ARVUS_AC: "ARVUS"
+  STR_CHIMERA_AC: "CHIMERA"
+  STR_TAUROX_AC: "TAUROX"
+
+  STR_CHIMERA_TURRET_AC: "Chimera Turret"
+  STR_CHIMERA_TURRET_BOLTER_AC: "Chimera Bolter"
+
+  STR_TAUROX_TURRET_AC: "Taurox Turret"
+  STR_TAUROX_TURRET_AUTOCANNON_AC: "Taurox Autocannon"
 
 ## Items
 

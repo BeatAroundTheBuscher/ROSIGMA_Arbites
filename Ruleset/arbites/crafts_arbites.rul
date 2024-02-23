@@ -1,0 +1,123 @@
+crafts:
+  - type: STR_ARVUS_AC
+    requiresBuyBaseFunc: [HANGAR]
+    # marker: 36
+    maxSkinIndex: 0
+    skinSprites: []
+    sprite: 200
+    fuelMax: 1800
+    damageMax: 400
+    speedMax: 600
+    accel: 2
+    weapons: 0
+    soldiers: 8
+    vehicles: 1
+    pilots: 0
+    costBuy: 600000
+    costRent: 360000
+    refuelRate: 50
+    transferTime: 96
+    score: 300
+    listOrder: 210
+    battlescapeTerrainData:
+      name: ARVUS
+      mapDataSets:
+        - BLANKS
+        - ARVUS
+        - ARVUS_DOORS
+      mapBlocks:
+        - name: ARVUS_SINGLE
+          width: 10
+          length: 10
+    deployment:
+      - [4, 3, 0, 0]
+      - [5, 3, 0, 0]
+      - [4, 4, 0, 0]
+      - [5, 4, 0, 0]
+      - [4, 5, 0, 0]
+      - [5, 5, 0, 0]
+      - [4, 6, 0, 0]
+      - [5, 6, 0, 0]
+    craftInventoryTile: [4, 3, 0]
+    spacecraft: false
+    requires:
+      - STR_ARBITES_CAMPAIGN
+
+#  - type: STR_AVENGER_ADEPTAS
+#    forceShowInMonthlyCosts: true
+#    requires:
+#      - STR_ARBITES_CAMPAIGN
+#      - STR_FIGHTER_CRAFT_AC
+
+
+
+  - type: STR_CHIMERA_AC
+    requires:
+      - STR_GENERAL_LOCK_AC
+    maxSkinIndex: 0
+    skinSprites: []   # default empty, contains all sprites except for the first (index zero)
+    sprite: 201
+    soldiers: 8
+    vehicles: 1
+    battlescapeTerrainData:
+      name: CHIMERAPD
+      mapDataSets:
+        - BLANKS
+        - CHIMERAPD
+      mapBlocks:
+        - name: CHIMERAPD_SINGLE
+          width: 10
+          length: 10
+          items:
+            STR_CHIMERA_TURRET_SPAWNER_AC:
+              - [4, 5, 1]
+          fuseTimers:
+            STR_CHIMERA_TURRET_SPAWNER_AC: [0, 0]
+    craftInventoryTile: [4, 4, 0]
+    deployment:
+      - [4, 3, 0, 0]
+      - [5, 3, 0, 0]
+      - [4, 4, 0, 0]
+      - [5, 4, 0, 0]
+      - [4, 5, 0, 0]
+      - [5, 5, 0, 0]
+      - [4, 6, 0, 0]
+      - [5, 6, 0, 0]
+
+  - type: STR_TAUROX_AC
+    requires:
+      - STR_GENERAL_LOCK_AC
+    maxSkinIndex: 0
+    skinSprites: []   # default empty, contains all sprites except for the first (index zero)
+    sprite: 201
+    soldiers: 12
+    vehicles: 0
+    battlescapeTerrainData:
+      name: CHIMERAPD
+      mapDataSets:
+        - BLANKS
+        - TAUROXPD
+        - VHTPDEX
+      mapBlocks:
+        - name: TAUROXPD_SINGLE
+          width: 10
+          length: 10
+          items:
+            STR_TAUROX_TURRET_SPAWNER_AC:
+              - [3, 6, 2]
+          fuseTimers:
+            STR_TAUROX_TURRET_SPAWNER_AC: [0, 0]
+    craftInventoryTile: [4, 4, 0]
+    deployment:
+      - [2, 4, 1, 0]
+      - [3, 4, 1, 0]
+      - [2, 5, 1, 0]
+      - [3, 5, 1, 0]
+      - [2, 6, 1, 0]
+      - [3, 6, 1, 0]
+      - [6, 1, 1, 0]
+      - [7, 1, 1, 0]
+      - [6, 2, 1, 0]
+      - [7, 2, 1, 0]
+      - [6, 3, 1, 0]
+      - [7, 3, 1, 0]
