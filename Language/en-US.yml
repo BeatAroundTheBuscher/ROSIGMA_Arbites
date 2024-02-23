@@ -170,8 +170,10 @@ en-US:
   STR_CAT_GRANADES: "Grenades"
 
   STR_AUTOGUN_AC: "Autogun"
+  STR_AUTOGUN_HIGHGRADE_AC: "Autogun (Highgrade)"
   STR_AUTOGUN_CHAOS_AC: "Autogun (Chaos)"
   STR_AUTOGUN_CLIP_AC: "Autogun Magazine"
+  STR_AUTOGUN_DRUM_AC: "Autogun Drum"
   STR_AUTOPISTOL_AC: "Autopistol"
   STR_AUTOPISTOL_CLIP_AC: "Autopistol Magazine"
   STR_SHOTGUN_AC: "Shotgun"

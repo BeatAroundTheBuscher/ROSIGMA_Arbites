@@ -451,7 +451,26 @@ items:
   - type: STR_AUTOGUN_AC
     refNode: *STR_GUN_BUTT
 
-  - type: STR_AUTOGUN_CLIP_AC
+  - type: STR_AUTOGUN_HIGHGRADE_AC
+    refNode: *STR_BALLISTIC_WEAPON_AUTO_GUN
+    bigSprite: 207
+    floorSprite: 259
+    handSprite: 524
+    compatibleAmmo:
+      - STR_AUTOGUN_CLIP_AC
+      - STR_AUTOGUN_DRUM_AC
+    accuracySnap: 70
+    accuracyAuto: 50
+    confAuto:
+      shots: 6
+    listOrder: 141  
+
+  - type: STR_AUTOGUN_HIGHGRADE_AC
+    refNode: *STR_GUN_BUTT
+
+
+  - &STR_AUTOGUN_CLIP
+    type: STR_AUTOGUN_CLIP_AC
     categories: [STR_CAT_AUTO]
     size: 0.1
     costBuy: 300
@@ -472,6 +491,13 @@ items:
     battleType: 2
     armor: 30
     listOrder: 150
+
+  - type: STR_AUTOGUN_DRUM_AC
+    refNode: *STR_AUTOGUN_CLIP
+    bigSprite: 208
+    weight: 6
+    clipSize: 50
+    listOrder: 151
 
   - &STR_BALLISTIC_WEAPON_HEAVY_STUBBER
     type: STR_HEAVY_STUBBER_AC

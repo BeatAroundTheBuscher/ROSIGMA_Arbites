@@ -25,6 +25,9 @@
       203: Resources/Bigobs/bigob_cmas_tackle.png
       204: Resources/Bigobs/bigobs_judgeslayer.png
       205: Resources/Bigobs/bigobs_judgeslayer_bullet_standard.png
+      206: Resources/Bigobs/BIGOB_HIGHGRADE_AUTOGUN_clip.png
+      207: Resources/Bigobs/BIGOB_HIGHGRADE_AUTOGUN_drum.png
+      208: Resources/Bigobs/BIGOB_AUTOGUN_CLIP_DRUM.png
 
       ## FilipH/Nuclear World
       210: Resources/Bigobs/bigob_Stimpak.png
@@ -67,6 +70,7 @@
 
       # ROSIGMA
       250: Resources/Floorobs/BOLTERSOLO_GUARD_FLOOROB.png
+      259: Resources/Floorobs/FLOOROB_AUTOGUN_HG.png
       262: Resources/Floorobs/FLOOROB_STUBCANNON.png
       2051: Resources/Floorobs/floorob_Phosphor.gif
       2708: Resources/Floorobs/FLOOROB_GSC_PUMP_SHOTGUN.png
@@ -91,6 +95,7 @@
       # ROSIGMA
       308: Resources/Handobs/BOLTERSOLO_GUARD_HANDOB.png
       500: Resources/Handobs/HANDOB_GSC_PUMP_SHOTGUN.png
+      524: Resources/Handobs/HANDOB_AUTOGUN_HG.png
       668: Resources/Handobs/HANDOB_STUBCANNON_GUARD.png
       2020: Resources/Handobs/PHGRENADE.png
       2900: Resources/Handobs/TZEENTCH_NIHILIUS_LASPISTOL_HANDOB.png

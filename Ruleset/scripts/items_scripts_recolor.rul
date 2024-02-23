@@ -39,3 +39,6 @@ items:
 
   - type: STR_STUB_CANNON_AC
     refNode: *STR_ITEM_CHANGE_COLOR
+
+  - type: STR_AUTOGUN_HIGHGRADE_AC
+    refNode: *STR_ITEM_CHANGE_COLOR  
