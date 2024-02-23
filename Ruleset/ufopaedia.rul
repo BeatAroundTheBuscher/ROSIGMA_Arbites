@@ -13,7 +13,7 @@
 ufopaedia:
   - id: STR_ARBITES_CAMPAIGN                   #2000      40k INTRO
     type_id: 10
-    section: STR_INVESTIGATIONS
+    section: STR_INVESTIGATIONS_AC
     image_id: 2ARB.SPK
     text: STR_ARBITES_CAMPAIGN_TEXT
     requires:
@@ -22,7 +22,7 @@ ufopaedia:
 
   - id: STR_CULTIST_INVESTIGATIONS
     type_id: 10
-    section: STR_INVESTIGATIONS
+    section: STR_INVESTIGATIONS_AC
     image_id: 4ARB.SPK
     text: STR_CULTIST_INVESTIGATIONS_TEXT
     listOrder: 30
@@ -31,7 +31,7 @@ ufopaedia:
 
   - id: STR_BEGINNING_INVESTIGATION
     type_id: 10
-    section: STR_INVESTIGATIONS
+    section: STR_INVESTIGATIONS_AC
     image_id: 4ARB.SPK
     text: STR_BEGINNING_INVESTIGATION_TEXT
     listOrder: 40
@@ -40,7 +40,7 @@ ufopaedia:
 
   - id: STR_CULTIST_MENACE
     type_id: 10
-    section: STR_INVESTIGATIONS
+    section: STR_INVESTIGATIONS_AC
     image_id: UP025.SPK
     text: STR_CULTIST_MENACE_TEXT
     listOrder: 50
@@ -49,7 +49,7 @@ ufopaedia:
 
   - id: STR_CULTIST_LEADERSHIP
     type_id: 10
-    section: STR_INVESTIGATIONS
+    section: STR_INVESTIGATIONS_AC
     image_id: UP088.SPK
     text: STR_CULTIST_LEADERSHIP_TEXT
     listOrder: 60
@@ -58,7 +58,7 @@ ufopaedia:
 
   - id: STR_CULTIST_EVIDENCE
     type_id: 10
-    section: STR_INVESTIGATIONS
+    section: STR_INVESTIGATIONS_AC
     image_id: UP088.SPK
     text: STR_CULTIST_EVIDENCE_TEXT
     listOrder: 70
@@ -67,61 +67,61 @@ ufopaedia:
 
   - id: STR_CULTIST_PLOT
     type_id: 10
-    section: STR_INVESTIGATIONS
+    section: STR_INVESTIGATIONS_AC
     image_id: UP088.SPK
     text: STR_CULTIST_PLOT_TEXT
     listOrder: 80
     requires:
       - STR_CULTIST_PLOT
 
-#  - id: STR_STUN_GEAR
+#  - id: STR_STUN_GEAR_AC
 #    type_id: 10
-#    section: STR_INVESTIGATIONS
+#    section: STR_INVESTIGATIONS_AC
 #    image_id: 2ARB.SPK
-#    text: STR_STUN_GEAR_TEXT
+#    text: STR_STUN_GEAR_TEXT_AC
 #    requires:
-#      - STR_STUN_GEAR
+#      - STR_STUN_GEAR_AC
 #    listOrder: 190
 
-#  - id: STR_STUN_GEAR_ADVANCED
+#  - id: STR_STUN_GEAR_ADVANCED_AC
 #    type_id: 10
-#    section: STR_INVESTIGATIONS
+#    section: STR_INVESTIGATIONS_AC
 #    image_id: 2ARB.SPK
-#    text: STR_STUN_GEAR_ADVANCED_TEXT
+#    text: STR_STUN_GEAR_ADVANCED_TEXT_AC
 #    requires:
-#      - STR_STUN_GEAR_ADVANCED
+#      - STR_STUN_GEAR_ADVANCED_AC
 #    listOrder: 200
 
-  - id: STR_STUBBER_AMMO_ADVANCED
+  - id: STR_STUBBER_AMMO_ADVANCED_AC
     type_id: 10
-    section: STR_INVESTIGATIONS
+    section: STR_INVESTIGATIONS_AC
     image_id: 1AMMO.SPK
-    text: STR_STUBBER_AMMO_ADVANCED_TEXT
+    text: STR_STUBBER_AMMO_ADVANCED_TEXT_AC
     requires:
-      - STR_STUBBER_AMMO_ADVANCED
+      - STR_STUBBER_AMMO_ADVANCED_AC
     listOrder: 201
 
-#  - id: STR_ANTI_ARMOR
+#  - id: STR_ANTI_ARMOR_AC
 #    type_id: 10
-#    section: STR_INVESTIGATIONS
+#    section: STR_INVESTIGATIONS_AC
 #    image_id: 2ARB.SPK
-#    text: STR_ANTI_ARMOR_TEXT
+#    text: STR_ANTI_ARMOR_TEXT_AC
 #    requires:
-#      - STR_ANTI_ARMOR
+#      - STR_ANTI_ARMOR_AC
 #    listOrder: 210
 
-#  - id: STR_ANTI_ARMOR_ADVANCED
+#  - id: STR_ANTI_ARMOR_ADVANCED_AC
 #    type_id: 10
-#    section: STR_INVESTIGATIONS
+#    section: STR_INVESTIGATIONS_AC
 #    image_id: 2ARB.SPK
-#    text: STR_ANTI_ARMOR_ADVANCED_TEXT
+#    text: STR_ANTI_ARMOR_ADVANCED_TEXT_AC
 #    requires:
-#      - STR_ANTI_ARMOR_ADVANCED
+#      - STR_ANTI_ARMOR_ADVANCED_AC
 #    listOrder: 220
 
 #  - id: STR_FLAMER_AC
 #    type_id: 10
-#    section: STR_INVESTIGATIONS
+#    section: STR_INVESTIGATIONS_AC
 #    image_id: 2ARB.SPK
 #    text: STR_FLAMER_ADVANCED_TEXT
 #    requires:
@@ -130,7 +130,7 @@ ufopaedia:
 
   - id: STR_DRUGS_AC
     type_id: 10
-    section: STR_INVESTIGATIONS
+    section: STR_INVESTIGATIONS_AC
     image_id: 0ENFM.SPK
     text: STR_DRUGS_TEXT
     listOrder: 80
@@ -681,28 +681,28 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     listOrder: 800
     requires:
-      - STR_STUBBER_AMMO_ADVANCED
+      - STR_STUBBER_AMMO_ADVANCED_AC
 
   - id: STR_STUB_GUN_AMMO_HP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 810
     requires:
-      - STR_STUBBER_AMMO_ADVANCED
+      - STR_STUBBER_AMMO_ADVANCED_AC
 
   - id: STR_STUB_GUN_AMMO_INC_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 820
     requires:
-      - STR_STUBBER_AMMO_ADVANCED
+      - STR_STUBBER_AMMO_ADVANCED_AC
 
   - id: STR_STUB_GUN_AMMO_WOUND_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 830
     requires:
-      - STR_STUBBER_AMMO_ADVANCED
+      - STR_STUBBER_AMMO_ADVANCED_AC
 
   - id: STR_STUB_SMG_AMMO_AC
     type_id: 14

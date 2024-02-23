@@ -47,5 +47,5 @@ crafts:
 #    forceShowInMonthlyCosts: true
 #    requires:
 #      - STR_ARBITES_CAMPAIGN
-#      - STR_FIGHTER_CRAFT
+#      - STR_FIGHTER_CRAFT_AC
 

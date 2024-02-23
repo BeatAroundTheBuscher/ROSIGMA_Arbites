@@ -163,7 +163,7 @@ items:
       ToHealth: 1.0
       ToStun: 0.5
     requires:
-      - STR_STUBBER_AMMO_ADVANCED
+      - STR_STUBBER_AMMO_ADVANCED_AC
 
 
   - type: STR_STUB_GUN_AMMO_WOUND_AC
@@ -183,7 +183,7 @@ items:
       ToWound: 0.2
       RandomWound: false
     requires:
-      - STR_STUBBER_AMMO_ADVANCED
+      - STR_STUBBER_AMMO_ADVANCED_AC
 
 
   - type: STR_STUB_GUN_AMMO_HP_AC
@@ -198,7 +198,7 @@ items:
       ToArmorPre: 0.05
       ToHealth: 2.0
     requires:
-      - STR_STUBBER_AMMO_ADVANCED
+      - STR_STUBBER_AMMO_ADVANCED_AC
 
 
   - type: STR_STUB_GUN_AMMO_INC_AC
@@ -215,7 +215,7 @@ items:
       FireThreshold: 1
       ToTile: 0
     requires:
-      - STR_STUBBER_AMMO_ADVANCED
+      - STR_STUBBER_AMMO_ADVANCED_AC
 
 
 
@@ -574,7 +574,7 @@ items:
     categories: [ STR_CAT_GRENADES, STR_CAT_TACTICAL]
     requiresBuy:
       - STR_ARBITES_CAMPAIGN
-      - STR_ANTI_ARMOR
+      - STR_ANTI_ARMOR_AC
     size: 0.1
     costBuy: 15000
     costSell: 3000
@@ -664,7 +664,7 @@ items:
     categories: [ STR_CAT_GRENADES, STR_CAT_TACTICAL]
     requiresBuyBaseFunc: [IMPERIUM]
     requiresBuy:
-      - STR_STUN_GEAR
+      - STR_STUN_GEAR_AC
     size: 0.1
     costBuy: 12000
     costSell: 6000

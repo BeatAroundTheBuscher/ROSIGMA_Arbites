@@ -5,43 +5,36 @@ research:
   - name: STR_GENERAL_LOCK_AC
     needItem: true
 
-  - name: STR_HIDE_LOCK
-    needItem: true
-
-  - name: STR_STANDARD_SMALL_ARMS_RESEARCH_REQ
-    dependencies:
-      - STR_HIDE_LOCK
-
   - name: STR_ARBITES_CAMPAIGN
     cost: 0
     points: 0
     needItem: true 
 
-  - name: STR_STUBBER_AMMO_ADVANCED
+  - name: STR_STUBBER_AMMO_ADVANCED_AC
     cost: 200
     points: 100
     dependencies:
       - STR_BEGINNING_INVESTIGATION
       - STR_CULTIST_MENACE
 
-  - name: STR_ANTI_ARMOR
+  - name: STR_ANTI_ARMOR_AC
     cost: 0
     points: 0
     dependencies:
       - STR_GENERAL_LOCK_AC
 
-  - name: STR_ANTI_ARMOR_ADVANCED
+  - name: STR_ANTI_ARMOR_ADVANCED_AC
     cost: 0
     points: 0
     dependencies:
       - STR_GENERAL_LOCK_AC
 
-  - name: STR_STUN_GEAR
+  - name: STR_STUN_GEAR_AC
     cost: 200
     points: 100
     lookup: STR_PHOTON_GRENADE_AC
 #    unlocks:
-#      - STR_STUN_GEAR_ADVANCED
+#      - STR_STUN_GEAR_ADVANCED_AC
   
   - name: STR_PHOTON_GRENADE_AC
     cost: 0
@@ -49,7 +42,7 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
-  - name: STR_STUN_GEAR_ADVANCED
+  - name: STR_STUN_GEAR_ADVANCED_AC
     cost: 200
     points: 100
     dependencies:
@@ -66,7 +59,7 @@ research:
     cost: 100
     points: 10
     dependencies:
-      - STR_DAEMON_CORPSE_RESEARCHED
+      - STR_DAEMON_CORPSE_RESEARCHED_AC
     lookup: STR_FLAMETHROWER_AC
 
   - name: STR_FLAMETHROWER_AC
@@ -79,7 +72,7 @@ research:
     cost: 100
     points: 10
     dependencies:
-      - STR_DAEMON_CORPSE_RESEARCHED
+      - STR_DAEMON_CORPSE_RESEARCHED_AC
 
   - name: STR_HEAVY_ARMOR_AC
     cost: 0
@@ -87,7 +80,7 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
-  - name: STR_FIGHTER_CRAFT
+  - name: STR_FIGHTER_CRAFT_AC
     cost: 0
     points: 0
     dependencies:
@@ -99,13 +92,13 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
-  - name: STR_JUDGE_RECRUITMENT
+  - name: STR_JUDGE_RECRUITMENT_AC
     cost: 0
     points: 0
     dependencies:
       - STR_GENERAL_LOCK_AC
 
-  - name: STR_CYBER_MASTIFF_RECRUITMENT
+  - name: STR_CYBER_MASTIFF_RECRUITMENT_AC
     cost: 0
     points: 0
     dependencies:
@@ -136,7 +129,7 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
-  - name: STR_DAEMON_CORPSE_RESEARCHED
+  - name: STR_DAEMON_CORPSE_RESEARCHED_AC
     dependencies:
       - STR_GENERAL_LOCK_AC
 
@@ -146,7 +139,7 @@ research:
     score: 50
     needItem: true
     unlocks: 
-      - STR_DAEMON_CORPSE_RESEARCHED
+      - STR_DAEMON_CORPSE_RESEARCHED_AC
 
   - type: STR_WINGED_DAEMON_CORPSE_AC
     refNode: *STR_DAEMON_CORPSE

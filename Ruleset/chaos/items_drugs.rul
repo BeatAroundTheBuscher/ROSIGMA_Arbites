@@ -22,7 +22,7 @@ items:
     flatRate: true
     medikitTargetSelf: true
     isConsumable: true
-    categories: [STR_GOODS, STR_HEALTH_ITEMS]
+    categories: [STR_DRUG_ITEMS]
     hitSound: 201
     explosionHitSound: 201
     hitAnimation: 200 # X1.PCK
