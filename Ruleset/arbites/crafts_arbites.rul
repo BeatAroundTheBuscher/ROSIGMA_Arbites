@@ -1,7 +1,7 @@
 crafts:
   - type: STR_ARVUS_AC
     requiresBuyBaseFunc: [HANGAR]
-    # marker: 36
+    marker: 36
     maxSkinIndex: 0
     skinSprites: []
     sprite: 200
@@ -89,7 +89,7 @@ crafts:
       - STR_GENERAL_LOCK_AC
     maxSkinIndex: 0
     skinSprites: []   # default empty, contains all sprites except for the first (index zero)
-    sprite: 201
+    sprite: 549
     soldiers: 12
     vehicles: 0
     battlescapeTerrainData:
@@ -121,3 +121,36 @@ crafts:
       - [7, 2, 1, 0]
       - [6, 3, 1, 0]
       - [7, 3, 1, 0]
+
+
+  - type: STR_AVENGER_AC
+    requires:
+      - STR_GENERAL_LOCK_AC
+      - STR_FIGHTER_CRAFT
+    requiresBuyBaseFunc: [HANGAR]
+    marker: 40
+    sprite: 508
+    fuelMax: 1000
+    damageMax: 150
+    speedMax: 2400
+    accel: 5
+    weapons: 3
+    weaponTypes:
+      - 0
+      - 0
+      - [4, 5, 13]
+    weaponStrings:
+      - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
+      - STR_WEAPON_THREE
+    costBuy: 500000
+    costRent: 250000
+    costSell: 42500
+    soldiers: 2
+    vehicles: 0
+    refuelRate: 200
+    transferTime: 96
+    score: 250
+    pilots: 2
+    allowLanding: false
+    listOrder: 230
