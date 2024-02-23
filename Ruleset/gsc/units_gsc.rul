@@ -256,76 +256,31 @@ units:
     value: 8
     moraleLossWhenKilled: 50
     builtInWeaponSets:
-      - - STR_COMBAT_KNIFE_AC
-      - - STR_COMBAT_KNIFE_AC
-      - - STR_COMBAT_KNIFE_AC
-      - - STR_COMBAT_KNIFE_AC
+      - - STR_STUB_GUN_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_STUB_GUN_AMMO_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_MAKESHIFT_GRENADE_AC
+      - - STR_STUB_SMG_AC
+        - STR_STUB_SMG_AMMO_AC
+        - STR_STUB_SMG_AMMO_AC
+        - STR_MAKESHIFT_GRENADE_AC
+      - - STR_AUTOGUN_AC
+        - STR_AUTOGUN_CLIP_AC
+        - STR_SMOKE_GRENADE_AC
+        - STR_FRAG_GRENADE_AC
+      - - STR_LASPISTOL_AC
+        - STR_LASPISTOL_CLIP_AC
+        - STR_LASPISTOL_CLIP_AC
+        - STR_COMBAT_KNIFE_AC
+        - STR_ALIEN_GRENADE_AC
 
-  - type: STR_WINGED_DAEMON_AC
-    race: STR_WINGED_DAEMON_AC
-    rank: STR_LIVE_TERRORIST
-    isLeeroyJenkins: true
-    stats:
-      tu: 82
-      stamina: 90
-      health: 120
-      bravery: 110
-      reactions: 64
-      firing: 60
-      throwing: 0
-      strength: 90
-      psiStrength: 100
-      psiSkill: 0
-      melee: 80
-    armor: STR_WINGED_DAEMON_ARMOR_AC
-    standHeight: 15
-    kneelHeight: 15
-    floatHeight: 2
-    value: 20
-    deathSound: {mod: 40k, index: 737}
-    moveSound: {mod: 40k, index: 828}
-    intelligence: 5
-    aggression: 5
-    energyRecovery: 50
-    specab: 2
-    livingWeapon: false
-    builtInWeaponSets:
-      - - STR_WINGED_DAEMON_WEAPON_AC
-    
-
-  - type: STR_BLOODLETTER_DAEMON_AC
-    race: STR_BLOODLETTER_AC
-    rank: STR_LIVE_TERRORIST
-    stats:
-      tu: 80
-      stamina: 80
-      health: 114
-      bravery: 100
-      reactions: 40
-      firing: 70
-      throwing: 70
-      strength: 70
-      psiStrength: 80
-      psiSkill: 0
-      melee: 80
-    armor: STR_BLOODLETTER_DAEMON_ARMOR_AC
-    standHeight: 10
-    kneelHeight: 10
-    value: 20
-    deathSound: {mod: 40k, index: 737}
-    moveSound: -1
-    intelligence: 3
-    aggression: 5
-    energyRecovery: 40
-    specab: 2
-    livingWeapon: false
-    builtInWeaponSets:
-      - - STR_BLOODLETTER_WEAPON_AC
 
 
   - &STR_GSC_CIVILIAN
     type: STR_GSC_CIVILIAN_M0_AC
     race: STR_GENE_CULTISTS_AC
+    liveAlien: STR_CIVILIAN_CAPTIVE_AC
     stats:
       tu: 55
       stamina: 65
@@ -427,3 +382,54 @@ units:
     deathSound: 23
     moveSound: 14
     energyRecovery: 50
+
+  - &STR_GENE_STEALER
+    type: STR_GENE_STEALER_YOUNG_AC
+    race: STR_GENE_STEALER_AC
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 90
+      health: 70
+      bravery: 100
+      reactions: 60
+      firing: 54
+      throwing: 62
+      strength: 70
+      psiStrength: 25
+      psiSkill: 0
+      melee: 76
+    armor: STR_GENE_STEALER_YOUNG_ARMOR_AC
+    standHeight: 21
+    kneelHeight: 16
+    value: 15
+    deathSound: [{mod: 40k, index: 756}, {mod: 40k, index: 757}]
+    intelligence: 5
+    aggression: 2
+    energyRecovery: 40
+
+  - type: STR_GENE_STEALER_MATURE_AC
+    refNode: *STR_GENE_STEALER
+    race: STR_GENE
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 90
+      health: 70
+      bravery: 100
+      reactions: 60
+      firing: 54
+      throwing: 62
+      strength: 70
+      psiStrength: 25
+      psiSkill: 0
+      melee: 80
+    armor: STR_GENE_STEALER_MATURE_ARMOR_AC
+    standHeight: 10
+    kneelHeight: 10
+    value: 20
+    moveSound: -1
+    intelligence: 3
+    aggression: 5
+
+

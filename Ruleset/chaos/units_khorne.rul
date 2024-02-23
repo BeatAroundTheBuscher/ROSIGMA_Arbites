@@ -294,7 +294,7 @@ units:
     
 
   - type: STR_BLOODLETTER_DAEMON_AC
-    race: STR_BLOODLETTER_AC
+    race: STR_BLOODLETTER_DAEMON_AC
     rank: STR_LIVE_TERRORIST
     stats:
       tu: 80

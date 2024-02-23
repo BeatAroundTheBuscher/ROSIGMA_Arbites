@@ -97,7 +97,6 @@ units:
     type: STR_RIOTER_M0_AC
     refNode: *STR_CIVILIAN
     race: STR_KHORNE_RIOTS_AC
-    liveAlien: STR_CIVILIAN_CAPTIVE_AC
     moraleLossWhenKilled: 50
     builtInWeaponSets:
       - - STR_COMBAT_KNIFE_AC

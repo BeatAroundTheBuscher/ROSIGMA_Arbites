@@ -130,11 +130,19 @@ en-US:
   # STR_WINGED_DAEMON_AC # 2x2 # car
   # STR_BLOODLETTER_DAEMON_AC # 1x1 # chrys
 
+
+
+
+
   STR_GENE_CULTISTS_M0_CORPSE_AC: "GSC Cultist Corpse"
   STR_GENE_CULTISTS_M1_CORPSE_AC: "GSC Cultist Corpse"
   STR_GENE_CULTISTS_F0_CORPSE_AC: "GSC Cultist Corpse"
   STR_GENE_CULTISTS_F1_CORPSE_AC: "GSC Cultist Corpse"
 
+  STR_GENE_STEALER_AC: "Genestealer"
+  STR_GENE_STEALER_SPIT_AC: "Genestealer Spit"
+  STR_GENE_STEALER_CLAWS_AC: "Genestealer Claws"
+  STR_GENE_STEALER_CORPSE_AC: "Genestealer Corpse"
 
 ## Facilities
 
@@ -371,15 +379,21 @@ en-US:
   STR_RIOT_AC: "Riot Suppression"
   STR_CITY_SUMMONING_LEVEL_1_AC: "Minor City Summoning"
   STR_CULTIST_SUMMONING_LEVEL_1_AC: "Minor Suburban Summoning"
+  STR_CULTIST_SACRIFICES_LEVEL_1_AC: "Cultist Sacrifice"
   STR_TRAITOR_OUTPOST_AC: "Traitor Guard Outpost"
   STR_TRAITOR_OUTPOST: "Traitor Outpost"
 
   STR_UNDERHIVE_AC: "Underhive"
+  STR_UNDERHIVE_RAIL_AC: "Underhive (Rails)"
   STR_UNDERHIVE_TITLE: "Problems in the Underhive"
   STR_UNDERHIVE_BRIEFING: "Thriving in the dark corner of this Imperial hive city a cult is growing. This presence won´t be tolerated! Purge the cult with haste and once it for all. Glory to the Emperor!
     {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
   STR_UNDERHIVE_DETECTED: "Prison Break Detected"
   STR_UNDERHIVE_SITE: "Prison Break in Progress"
+
+ 
+  
+  
 
   STR_PRISON_BREAK_AC: "Prison Break"
   STR_PRISON_BREAK_TITLE: "Prison Break in Progress"
@@ -395,6 +409,7 @@ en-US:
   STR_CATACOMB_DETECTED: "Heritical Cult Found"
   STR_CATACOMB_SITE: "Heritical Cult"
 
+  MAP_CATACOMB: "Catacombs"
 
 ## Unsorted
 

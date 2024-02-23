@@ -69,6 +69,11 @@ items:
     bigSprite: {mod: 40k, index: 1305}
     floorSprite: {mod: 40k, index: 1305}
 
+  - type: STR_GENE_STEALER_CORPSE_AC
+    refNode: *STR_CORPSE
+    bigSprite: {mod: 40k, index: 258}
+    floorSprite: {mod: 40k, index: 142}
+
 
 
   - type: STR_GENE_CULTISTS_HYBRID_LEADER_AC
@@ -113,42 +118,20 @@ items:
     costSell: 30000
     listOrder: 10070
 
-  - type: STR_BLOODLETTER_DAEMON_AC
+  - type: STR_GENE_STEALER_YOUNG_AC
     size: 0.0
-    recover: false
-    liveAlien: false
-    costSell: 30000
-    listOrder: 10060
-
-  - type: STR_WINGED_DAEMON_AC
-    size: 0.0
-    recover: false
-    liveAlien: false
+    recover: true
+    liveAlien: true
     costSell: 30000
     listOrder: 10070
 
-  - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
-    spawnUnit: STR_GENE_CULTISTS_CULTIST_AC # STR_CULTIST_RITUALIST_SACRIFICES
-    spawnUnitFaction: 1
-    recover: false
-    invWidth: 0
-    invHeight: 0
-    battleType: 4
-    hitAnimation: {mod: 40k, index: 1992}
-    armor: 255
+  - type: STR_GENE_STEALER_MATURE_AC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 10070
 
-  - type: STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC
-    recover: false
-    invWidth: 0
-    invHeight: 0
-    battleType: 10
-    hitAnimation: {mod: 40k, index: 1990}
-    armor: 255
-    hiddenOnMinimap: true
-    tags:
-      ITEM_PRIMED_AT_BATTLE_START: 10
-      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: 10
-      ITEM_SETS_MISSION_TIMER: 1
 
   - type: STR_GSC_TANK_CORPSE_AC
     size: 1
@@ -217,3 +200,52 @@ items:
     invWidth: 2
     invHeight: 3
     turretType: 0
+
+  - type: STR_GENE_STEALER_CLAWS_AC
+    weight: 3
+    bigSprite: {mod: 40k, index: 817}
+    meleeSound: {mod: 40k, index: 48}
+    meleeAnimation: {mod: 40k, index: 12}
+    clipSize: -1
+    strengthApplied: true
+    power: 70
+    damageType: 7
+    damageAlter:
+      IgnoreSelfDestruct: false
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+
+  - type: STR_GENE_STEALER_SPIT_AC  #TYRANID SPIT
+    weight: 3
+    bigSprite: {mod: 40k, index: 814}
+    floorSprite: {mod: 40k, index: 31}
+    handSprite: {mod: 40k, index: 104}
+    bulletSprite: {mod: 40k, index: 8}
+    fireSound: {mod: 40k, index: 51}
+    hitSound: {mod: 40k, index: 19}
+    hitAnimation: {mod: 40k, index: 46}
+    power: 90
+    damageAlter: #DA SPIT
+      RandomType: 2 #TFTD [50% - 150%]
+      ToArmor: 0.3
+      ToHealth: 0.3
+      ToStun: 0.2
+      ArmorEffectiveness: 0.8
+    damageType: 8
+    accuracySnap: 55
+    accuracyAimed: 90
+    tuSnap: 25
+    tuAimed: 55
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    arcingShot: true
