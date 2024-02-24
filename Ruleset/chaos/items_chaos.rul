@@ -22,6 +22,8 @@ items:
     blastRadius: 5
     listOrder: 15300
     throwRange: 20
+    requires:
+      - STR_GENERAL_LOCK_AC
 
   - type: STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC
     spawnUnit: STR_KHORNE_CULTISTS_CULTIST_AC

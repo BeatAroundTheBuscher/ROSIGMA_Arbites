@@ -36,11 +36,11 @@ facilities:
     buildCost: 150000
     buildTime: 10
     monthlyCost: 5000
-    storage: 50
+    storage: 100
     mapName: XBASE_07
   - type: STR_HANGAR_AC
     requiresBaseFunc: [BASE]
-    provideBaseFunc: [HANGAR, IMPERIUM]
+    provideBaseFunc: [HANGAR]
     spriteShape: 9
     spriteFacility: {mod: 40k, index: 9}
     size: 2

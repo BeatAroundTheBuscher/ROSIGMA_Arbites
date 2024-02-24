@@ -17,6 +17,14 @@ research:
       - STR_BEGINNING_INVESTIGATION
       - STR_CULTIST_MENACE
 
+  - name: STR_BALLISTIC_WEAPONS_ADVANCED_AC
+    cost: 200
+    points: 100
+    dependencies:
+      - STR_BEGINNING_INVESTIGATION
+      - STR_CULTIST_MENACE
+      - STR_GENERAL_LOCK_AC
+
   - name: STR_ANTI_ARMOR_AC
     cost: 0
     points: 0
