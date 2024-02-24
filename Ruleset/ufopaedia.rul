@@ -189,6 +189,13 @@ ufopaedia:
     text: STR_AUTOGUN_UFOPEDIA
     listOrder: 280
 
+  - id: STR_AUTOGUN_HIGHGRADE_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: AUTOGUN.SPK
+    text: STR_AUTOGUN_UFOPEDIA
+    listOrder: 281
+
   - id: STR_SHOTGUN_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -660,6 +667,11 @@ ufopaedia:
     type_id: 14
     section: STR_NOT_AVAILABLE
     listOrder: 760
+
+  - id: STR_AUTOGUN_DRUM_AC
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+    listOrder: 761
 
   - id: STR_AUTOPISTOL_CLIP_AC
     type_id: 14

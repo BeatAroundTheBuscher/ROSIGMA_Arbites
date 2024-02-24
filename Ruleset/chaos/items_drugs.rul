@@ -84,6 +84,7 @@ items:
     tuUse: 0
     requires:
       - STR_GENERAL_LOCK_AC
+    ufopediaType: STR_DRUGS_AC
 
 
   - type: STR_RANDOM_DRUG_AI_AC

@@ -328,7 +328,7 @@ extended:
           var int soldierHealth;
           var ptr GeoscapeSoldier geoSoldier;
 
-          item.getTag reduceHealthBy Tag.ITEM_REDUCED_HEALTH_BY;
+          item.getTag reduceHealthBy Tag.ITEM_REDUCE_HEALTH_ON_USE;
 
           if eq reduceHealthBy 0;
             return;
@@ -361,7 +361,7 @@ extended:
             # lazy
             geoSoldier.Stats.getHealth soldierHealth;
             target.getTag temp Tag.UNIT_REDUCED_HEALTH_BY;
-            item.getTag reduceHealthBy Tag.ITEM_REDUCED_HEALTH_BY;
+            item.getTag reduceHealthBy Tag.ITEM_REDUCE_HEALTH_ON_USE;
 
             if gt temp soldierHealth;
               battle_game.flashLongMessage "STR_SCRIPT_DRUGS_CARDIAC_ARREST_DONE_FOR";
