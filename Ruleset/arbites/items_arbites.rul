@@ -1483,7 +1483,7 @@ items:
     invHeight: 3
     ufopediaType: STR_STUB_GUN_AC
     twoHanded: false
-    blockBothHands: true
+    blockBothHands: false
     tags:
       ITEM_AKIMBO: 1
     fixedWeapon: true
@@ -1745,3 +1745,7 @@ items:
     fixedWeapon: true
     bulletSpeed: 50
     clipSize: -1
+
+  - type: STR_NOT_AVAILABLE_AC
+    requires:
+      - STR_GENERAL_LOCK_AC
