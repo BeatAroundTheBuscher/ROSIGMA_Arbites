@@ -1306,8 +1306,8 @@ items:
     armor: 20
     skillApplied: true
     meleeMultiplier:
-      melee: 0.5
-      flatHundred: 0.5
+      melee: 0.66
+      flatHundred: 0.33
     listOrder: 370
 
   - type: STR_WEBBER_AC

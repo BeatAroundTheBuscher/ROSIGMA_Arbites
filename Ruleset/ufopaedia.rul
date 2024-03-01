@@ -613,7 +613,7 @@ ufopaedia:
     type_id: 16
     section: STR_BASE_FACILITIES
     image_id: 026.SPK
-    text: STR_ALIEN_CONTAINMENT_UFOPEDIA
+    text: STR_PRISON_UFOPEDIA_AC
     listOrder: 680
   - id: STR_LABORATORY_AC
     type_id: 16
@@ -683,6 +683,13 @@ ufopaedia:
     image_id: 0ENFM.SPK #should use something else
     text: STR_HELP_ARMOR_ABILITIES_UFOPEDIA
     listOrder: 780
+
+  - id: STR_HELP_ARMOR_EXTENDED_FRONT_AC
+    type_id: 10
+    section: STR_HELP
+    image_id: 0ENFM.SPK #should use something else
+    text: STR_HELP_ARMOR_EXTENDED_FRONT_UFOPEDIA_AC
+    listOrder: 781
 
 ### Stats for Nerds only
 
