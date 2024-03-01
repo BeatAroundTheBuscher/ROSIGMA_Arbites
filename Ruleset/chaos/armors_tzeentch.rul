@@ -3,8 +3,8 @@ armors:
     type: STR_TZEENTCH_CULTISTS_ZEALOT_ARMOR_AC
     visibilityAtDay: 40
     visibilityAtDark: 20
-    spriteSheet: CULTIST_THRALL_BS.PCK
-    spriteInv: CULTISTTZEENTCH_INV.SPK
+    spriteSheet: SECTOID.PCK
+    spriteInv: CULTI1
     corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
     corpseBattle:
       - STR_TZEENTCH_CULTISTS_CULTIST_CORPSE_AC
@@ -38,8 +38,8 @@ armors:
   - &STR_TZEENTCH_CULTIST_GUTTERFORGE_ARMOR
     type: STR_TZEENTCH_CULTISTS_SOLDIER_ARMOR_AC
     refNode: *STR_TZEENTCH_CULTIST_ARMOR
-    spriteSheet: SECTOID.PCK
-    spriteInv: CULTI1
+    spriteSheet: CULTIST_THRALL_BS.PCK
+    spriteInv: CULTISTTZEENTCH_INV.SPK
     corpseBattle:
       - STR_TZEENTCH_CULTISTS_SOLDIER_CORPSE_AC
     frontArmor: 20
@@ -61,13 +61,13 @@ armors:
       - 1.0 #MELTA
     loftempsSet: [ 3 ]
 
-  - type: STR_TZEENTCH_CULTISTS_PRIEST_ARMOR_AC
+  - type: STR_TZEENTCH_CULTISTS_WITCH_ARMOR_AC
     refNode: *STR_TZEENTCH_CULTIST_ARMOR
     spriteSheet: PRIEST.PCK
     spriteInv: CULTI4
     corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
     corpseBattle:
-      - STR_TZEENTCH_CULTISTS_PRIEST_CORPSE_AC
+      - STR_TZEENTCH_CULTISTS_WITCH_CORPSE_AC
     frontArmor: 10
     sideArmor: 10
     rearArmor: 10
@@ -78,8 +78,8 @@ armors:
 
   - type: STR_TZEENTCH_CULTISTS_DARKDISCIPLE_ARMOR_AC
     refNode: *STR_TZEENTCH_CULTIST_GUTTERFORGE_ARMOR
-    spriteSheet: DARKDISCIPLE_BS.PCK
-    spriteInv: DARKDISCIPLE_INV
+    spriteSheet: TZEENTCH_FEM_CULTIST_1BS.PCK
+    spriteInv: TZEENTCH_HELOT_INV.SPK
     corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
     corpseBattle:
       - STR_TZEENTCH_CULTISTS_DARKDISCIPLE_CORPSE_AC
@@ -91,8 +91,8 @@ armors:
   - type: STR_TZEENTCH_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
     refNode: *STR_TZEENTCH_CULTIST_GUTTERFORGE_ARMOR
     heatVision: 10
-    spriteSheet: CULTIST_ASPIRING_BS.PCK
-    spriteInv: CULTASPIRING_INV
+    spriteSheet: tzeentchfemguardcommandoBS.PCK
+    spriteInv: TZCOMMANDO_INV.SPK
     corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
     corpseBattle:
       - STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_CORPSE_AC
@@ -106,9 +106,9 @@ armors:
     type: STR_FLAMER_DAEMON_ARMOR_AC
     visibilityAtDay: 60
     visibilityAtDark: 60
-    spriteSheet: DEAMON4.PCK
+    spriteSheet: FLAMER.PCK
     allowInv: false
-    spriteInv: DK
+    spriteInv: DT
     corpseBattle:
       - STR_FLAMER_DAEMON_CORPSE_AC
     frontArmor: 30

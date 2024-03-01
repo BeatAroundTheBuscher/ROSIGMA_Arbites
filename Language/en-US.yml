@@ -99,24 +99,24 @@ en-US:
 ## Tzeentch Cultists
 
   STR_TZEENTCH_CULTISTS_AC: "Tzeentch Cultists"
-  STR_TZEENTCH_CULTISTS_PRIEST_AC: "Tzeentch Priest"
+  STR_TZEENTCH_CULTISTS_WITCH_AC: "Tzeentch Witch"
   STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_AC: "Tzeentch Aspiring Champion"
-  STR_TZEENTCH_CULTISTS_DARKDISCIPLE_AC: "Tzeentch Dark Disciple"
+  STR_TZEENTCH_CULTISTS_DARKDISCIPLE_AC: "Tzeentch Helot"
   STR_TZEENTCH_CULTISTS_SOLDIER_AC: "Tzeentch Cultist"
   STR_TZEENTCH_CULTISTS_FEMCULTIST_AC: "Tzeentch Cultist"
   STR_TZEENTCH_CULTISTS_CULTIST_AC: "Tzeentch Cultist"
 
   STR_TZEENTCH_CULTISTS_CORPSE_AC: "Tzeentch Cultist Corpse"
-  STR_TZEENTCH_CULTISTS_PRIEST_CORPSE_AC: "Tzeentch Cultist Corpse"
+  STR_TZEENTCH_CULTISTS_WITCH_CORPSE_AC: "Tzeentch Cultist Corpse"
   STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_CORPSE_AC: "Tzeentch Cultist Corpse"
   STR_TZEENTCH_CULTISTS_DARKDISCIPLE_CORPSE_AC: "Tzeentch Cultist Corpse"
   STR_TZEENTCH_CULTISTS_SOLDIER_CORPSE_AC: "Tzeentch Cultist Corpse"
   STR_TZEENTCH_CULTISTS_FEMCULTIST_CORPSE_AC: "Tzeentch Cultist Corpse"
   STR_TZEENTCH_CULTISTS_CULTIST_CORPSE_AC: "Tzeentch Cultist Corpse"
 
-  STR_TZEENTCH_CULTISTS_PRIEST_ARMOR_AC: "Tzeentch Priest"
+  STR_TZEENTCH_CULTISTS_WITCH_ARMOR_AC: "Tzeentch Witch"
   STR_TZEENTCH_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC: "Tzeentch Aspiring Champion"
-  STR_TZEENTCH_CULTISTS_DARKDISCIPLE_ARMOR_AC: "Tzeentch Dark Disciple"
+  STR_TZEENTCH_CULTISTS_DARKDISCIPLE_ARMOR_AC: "Tzeentch Helot"
   STR_TZEENTCH_CULTISTS_SOLDIER_ARMOR_AC: "Tzeentch Cultist Soldier"
   STR_TZEENTCH_CULTISTS_FEMCULTIST_ARMOR_AC: "Tzeentch Female Cultist"
   STR_TZEENTCH_CULTISTS_CULTIST_ARMOR_AC: "Tzeentch Cultist"
@@ -158,6 +158,7 @@ en-US:
   STR_ACCESS_LIFT_AC: "Access Lift"
   STR_LABORATORY_AC: "Laboratory"
   STR_PRISON_AC: "Prison"
+  STR_PRISON_UFOPEDIA_AC: "{NEWLINE} Live xenos and agents of Chaos must be detained in secure cells prior to the completion of their interrogation. This facility provides 20 self-contained units for this purpose."
   STR_GENERAL_STORES_AC: "General Stores"
   STR_LIVING_QUARTERS_AC: "Living Quarters"
   STR_HANGAR_AC: "Hangar"
@@ -546,6 +547,8 @@ en-US:
   STR_HELP_EXTINGUISHING_MEDIKIT_UFOPEDIA: "{NEWLINE} When soldiers are on fire each medikit contains necessary foam agents and ointments. Using the heal button a medkit will turn out the fire instead of healing a fatal wound. Only then fatal woulds will be treated as usual."
   STR_HELP_ARMOR_ABILITIES_AC: "Armor Abilities"
   STR_HELP_ARMOR_ABILITIES_UFOPEDIA: "{NEWLINE} Armor Abilities are extra weapons tied to your armor and all function the same as hand-held weapons. The stats of these weapons can be viewed by looking at the info section of the codex for that armor."
+  STR_HELP_ARMOR_EXTENDED_FRONT_AC: "Extended Front Side"
+  STR_HELP_ARMOR_EXTENDED_FRONT_UFOPEDIA_AC: "{NEWLINE} Armors with big hand shields (such as the Bullgryn with Slab Shield) as well as Mounted Guns with front shields (such as the Mounted Lascannon) have an extended front side for determining hits. This means that oblique front hits are considered front hits instead of side hits per chance."
 
 ### Script Messages
 

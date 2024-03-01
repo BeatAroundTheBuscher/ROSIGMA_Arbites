@@ -7,7 +7,7 @@
 # units.rul:    rank: STR_LIVE_TERRORIST
 
 units:
-  - type: STR_TZEENTCH_CULTISTS_PRIEST_AC
+  - type: STR_TZEENTCH_CULTISTS_WITCH_AC
     race: STR_TZEENTCH_CULTISTS_AC
     rank: STR_LIVE_COMMANDER
     stats:
@@ -22,7 +22,7 @@ units:
       psiStrength: 50
       psiSkill: 30
       melee: 76
-    armor: STR_TZEENTCH_CULTISTS_PRIEST_ARMOR_AC
+    armor: STR_TZEENTCH_CULTISTS_WITCH_ARMOR_AC
     standHeight: 21
     kneelHeight: 16
     deathSound: [{mod: 40k, index: 733}, {mod: 40k, index: 734},{mod: 40k, index: 735}, {mod: 40k, index: 736}]

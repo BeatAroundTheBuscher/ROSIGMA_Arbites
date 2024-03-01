@@ -14,7 +14,7 @@ items:
     listOrder: 10010
 
   - &STR_CORPSE # battlescape only
-    type: STR_TZEENTCH_CULTISTS_PRIEST_CORPSE_AC
+    type: STR_TZEENTCH_CULTISTS_WITCH_CORPSE_AC
     weight: 20
     bigSprite: {mod: 40k, index: 213}
     floorSprite: {mod: 40k, index: 101}
@@ -50,7 +50,7 @@ items:
     floorSprite: {mod: 40k, index: 161}
 
 
-  - type: STR_TZEENTCH_CULTISTS_PRIEST_AC
+  - type: STR_TZEENTCH_CULTISTS_WITCH_AC
     size: 0.0
     recover: true
     liveAlien: true
@@ -139,25 +139,33 @@ items:
     liveAlien: ""
 
 
-  - type: STR_FLAMER_WEAPON_AC #Deamon Blade
-    meleeSound: {mod: 40k, index: 753} #753 Powerswrod miss
-    meleeHitSound: {mod: 40k, index: 754} #744 Powerswrod hit
-    power: 150
-    meleeAnimation: {mod: 40k, index: 4}
-    weight: 3
-    bigSprite: {mod: 40k, index: 251}
-    floorSprite: {mod: 40k, index: 31}
-    handSprite: {mod: 40k, index: 1000}
-    strengthApplied: false
-    damageType: 7
-    damageAlter:
-      IgnoreSelfDestruct: false
-    accuracyMelee: 100
-    tuMelee: 15
-    clipSize: -1
-    battleType: 3
-    fixedWeapon: true
+  - type: STR_FLAMER_WEAPON_AC
+    categories: [ STR_CAT_FLAMER, STR_CAT_TACTICAL]
+    weight: 0
+    vaporColorSurface: 0
+    vaporDensitySurface: 4
+    vaporProbabilitySurface: 100
+    bigSprite: {mod: 40k, index: 377}
+    bulletSprite: 5
+    fireSound: {mod: 40k, index: 706}
+    accuracyAuto: 60
+    tuAuto: 35
+    battleType: 1
+    twoHanded: false
+    arcingShot: true
+    maxRange: 9
     invWidth: 2
     invHeight: 3
+    autoShots: 6
+    hitSound: {mod: 40k, index: 12}
+    hitAnimation: {mod: 40k, index: 88} #XFIRE
+    power: 60
+    damageType: 2
+    damageAlter:
+      IgnoreSelfDestruct: false
+    blastRadius: 2
+    clipSize: -1
+    bulletSpeed: 50
+    explosionSpeed: 10
     recover: false
-    flatRate: true
+    fixedWeapon: true

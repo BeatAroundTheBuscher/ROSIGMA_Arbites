@@ -268,10 +268,24 @@
     singleImage: true
     files:
       0: Resources/FOES/Inventory/TZEENTCH_WITCH_INV.png
+
   - type: TZEENTCH_CULTIST_LEADER_INV.SPK #FOES INV
     singleImage: true
     files:
       0: Resources/FOES/Inventory/TZEENTCH_CULTIST_LEADER_INV.png
+
+  - type: TZEENTCH_HELOT_INV.SPK #FOES INV
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/TZEENTCH_HELOT_INV.png
+
+  - type: TZEENTCH_FEM_CULTIST_1BS.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/UnitSprites/tzeentchfemcultist1BS.png
 
   - type: CULTIST_THRALL_BS.PCK
     width: 512
@@ -285,6 +299,19 @@
     singleImage: true
     files:
       0: Resources/FOES/Inventory/CULTISTTZEENTCH_INV.png
+
+  - type: tzeentchfemguardcommandoBS.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/UnitSprites/tzeentchfemguardcommandoBS.png
+
+  - type: TZCOMMANDO_INV.SPK #FOES INV
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/TZCOMMANDO_INV.png
 
 
 ## GSC
