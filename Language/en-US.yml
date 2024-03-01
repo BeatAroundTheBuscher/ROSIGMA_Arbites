@@ -29,6 +29,8 @@ en-US:
   STR_PENAL_CORPSE_AC: "Corpse"
   STR_PENAL_ARMOR_BROWN_UC_UFOPEDIA: "{NEWLINE} Criminals in the Imperial society may be sentenced to military life service. These members of the Penal Legion are considered expendable and nobody will flinch if the they perish in battle. They also wear an explosive collar which can be triggered at any time."
 
+  STR_GUNGHO_STRANGER_ARMOR_AC: "Gung Ho Stranger"
+
   STR_RIOTER_M0_AC: "Rioter"
   STR_RIOTER_M1_AC: "Rioter"
   STR_RIOTER_F0_AC: "Rioter"
@@ -195,6 +197,7 @@ en-US:
 
   
   STR_STUB_GUN_AC: "Stubber"
+  STR_STUB_GUN_AKIMBO_AC: "Stubber (Akimbo)"
   STR_STUB_GUN_CHAOS_AC: "Stubber (Chaos)"
 
   STR_STUB_RIFLE_AC: "Stub Rifle"
@@ -475,6 +478,13 @@ en-US:
   STR_STUB_GUN_AMMO_WOUND_AC: "Stubber Bleeder Magazine"
   STR_STUB_GUN_AMMO_HP_AC: "Stubber Expander Magazine"
   STR_STUB_GUN_AMMO_INC_AC: "Stubber Tracer Magazine"
+
+  STR_STUB_GUN_AMMO_AKIMBO_AC: "Stubber Mags (Akimbo)"
+  STR_STUB_GUN_AMMO_AP_AKIMBO_AC: "Stubber Man-Stopper Mags (Akimbo)"
+  STR_STUB_GUN_AMMO_WOUND_AKIMBO_AC: "Stubber Bleeder Mags (Akimbo)"
+  STR_STUB_GUN_AMMO_HP_AKIMBO_AC: "Stubber Expander Mags (Akimbo)"
+  STR_STUB_GUN_AMMO_INC_AKIMBO_AC: "Stubber Tracer Mags (Akimbo)"
+
   STR_RIOT_SHIELD_UFOPEDIA_AC_1: "{NEWLINE} The \"Lockshield\" is a heavy ceramite riot shield worn on one arm. It provides additional protection while still allowing one-handed weapons to be operated without penalty.
     {NEWLINE}{NEWLINE}Abilities: >>"
   STR_RIOT_SHIELD_UFOPEDIA_AC_2: "{NEWLINE} Abilities:

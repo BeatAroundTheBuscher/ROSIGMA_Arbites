@@ -227,6 +227,19 @@
     fileSingle: Resources/UnitSprites/Armors/OFC_brown.png
 
 
+  - type: GUNGHO_STRANGER.PCK #Red Fem Cultist Outfit
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UnitSprites/gungho_stranger.png
+
+  - type: GUNGHO_STRANGER.SPK #INV Repentia Light Khorne Sister
+    singleImage: true
+    files:
+      0: Resources/UnitSprites/Armors/GUNGHO_STRANGER_INV.png
+
 ## KHORNE
 
   - type: FEMCULTIST.PCK #Red Fem Cultist Outfit
