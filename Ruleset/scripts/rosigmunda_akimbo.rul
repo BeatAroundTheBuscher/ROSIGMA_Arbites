@@ -4,7 +4,7 @@ extended:
       ITEM_AKIMBO: int
   scripts:
     selectUnitSprite: # apply tag
-      - new: tester
+      - new: ROSIGMUNDA_sUS_move_left_arm_sprite_to_gun_position
         offset: 10
         code: |
           var ptr BattleItem myItem;
