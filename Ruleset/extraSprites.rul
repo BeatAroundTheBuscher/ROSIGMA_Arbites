@@ -58,6 +58,12 @@
       1004: Resources/Bigobs/bigobs_stub_magazine_bleeder.png
       1005: Resources/Bigobs/bigobs_stub_magazine_hp.png
       1006: Resources/Bigobs/bigobs_stub_magazine_tracer.png
+      1011: Resources/Bigobs/bigobs_stub_pistol_akimbo.png
+      1012: Resources/Bigobs/bigobs_stub_magazine.png
+      1013: Resources/Bigobs/bigobs_stub_magazine_ap.png
+      1014: Resources/Bigobs/bigobs_stub_magazine_bleeder.png
+      1015: Resources/Bigobs/bigobs_stub_magazine_hp.png
+      1016: Resources/Bigobs/bigobs_stub_magazine_tracer.png
       2025: Resources/Bigobs/Phosphor_Grenade.gif
       2703: Resources/Bigobs/BIGOB_GSC_HEAVY_STUBBER.png
       2704: Resources/Bigobs/BIGOB_GSC_SMG_STUBBER.png
@@ -104,6 +110,7 @@
     files:
       # unused 40k
       204: Resources/Handobs/handob_stub_gun_grey.png
+      212: Resources/Handobs/handob_stub_gun_grey_akimbo.png
 
       300: Resources/Handobs/handob_riot_shield.png
       # ROSIGMA

@@ -77,23 +77,23 @@ units:
     value: 12
     moraleLossWhenKilled: 50
     builtInWeaponSets:
-      - - STR_STUB_GUN_AC
-        - STR_STUB_GUN_AMMO_AC
-        - STR_STUB_GUN_AMMO_AC
+      - - STR_STUB_GUN_AKIMBO_AC
+        - STR_STUB_GUN_AMMO_AKIMBO_AC
+        - STR_STUB_GUN_AMMO_AKIMBO_AC
         - STR_COMBAT_KNIFE_AC
         - STR_MAKESHIFT_GRENADE_AC
-      - - STR_STUB_SMG_AC
-        - STR_STUB_SMG_AMMO_AC
-        - STR_STUB_SMG_AMMO_AC
-        - STR_MAKESHIFT_GRENADE_AC
-      - - STR_AUTOGUN_AC
-        - STR_AUTOGUN_CLIP_AC
-        - STR_FRAG_GRENADE_AC
-      - - STR_LASPISTOL_AC
-        - STR_LASPISTOL_CLIP_AC
-        - STR_LASPISTOL_CLIP_AC
-        - STR_COMBAT_KNIFE_AC
-        - STR_ALIEN_GRENADE_AC
+#      - - STR_STUB_SMG_AC
+#        - STR_STUB_SMG_AMMO_AC
+#        - STR_STUB_SMG_AMMO_AC
+#        - STR_MAKESHIFT_GRENADE_AC
+#      - - STR_AUTOGUN_AC
+#        - STR_AUTOGUN_CLIP_AC
+#        - STR_FRAG_GRENADE_AC
+#      - - STR_LASPISTOL_AC
+#        - STR_LASPISTOL_CLIP_AC
+#        - STR_LASPISTOL_CLIP_AC
+#        - STR_COMBAT_KNIFE_AC
+#        - STR_ALIEN_GRENADE_AC
 
   - type: STR_GENE_CULTISTS_KELERMORPH_AC     #CHAOS FEMALE CULTIST DARK DISCIPLE
     race: STR_GENE_CULTISTS_AC

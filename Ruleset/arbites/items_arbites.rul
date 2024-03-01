@@ -11,6 +11,8 @@ extended:
 
       ITEM_DOT_IN_INVENTORY: int
 
+      ITEM_AKIMBO: int
+
 # general rule
 # items cost 5 times of their sell value
 # chaos tainted weapons are only worth half
@@ -148,7 +150,14 @@ items:
       ITEM_AMMO_COLOR: 0
     listOrder: 50
 
-  - type: STR_STUB_GUN_AMMO_AP_AC
+  - type: STR_STUB_GUN_AMMO_AKIMBO_AC
+    refNode: *STR_STUBBERS_AMMO
+    clipSize: 16
+    recoveryTransformation:
+      STR_STUB_GUN_AMMO_AC [2]
+
+  - &STR_STUBBERS_AMMO_AP
+    type: STR_STUB_GUN_AMMO_AP_AC
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1003
     listOrder: 60
@@ -165,8 +174,14 @@ items:
     requires:
       - STR_STUBBER_AMMO_ADVANCED_AC
 
+  - type: STR_STUB_GUN_AMMO_AP_AKIMBO_AC
+    refNode: *STR_STUBBERS_AMMO_AP
+    clipSize: 16
+    recoveryTransformation:
+      STR_STUB_GUN_AMMO_AP_AC [2]
 
-  - type: STR_STUB_GUN_AMMO_WOUND_AC
+  - &STR_STUBBERS_AMMO_WOUND
+    type: STR_STUB_GUN_AMMO_WOUND_AC
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1004
     listOrder: 70
@@ -185,8 +200,14 @@ items:
     requires:
       - STR_STUBBER_AMMO_ADVANCED_AC
 
+  - type: STR_STUB_GUN_AMMO_WOUND_AKIMBO_AC
+    refNode: *STR_STUBBERS_AMMO_WOUND
+    clipSize: 16
+    recoveryTransformation:
+      STR_STUBBERS_AMMO_WOUND [2]
 
-  - type: STR_STUB_GUN_AMMO_HP_AC
+  - &STR_STUBBERS_AMMO_HP
+    type: STR_STUB_GUN_AMMO_HP_AC
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1005
     listOrder: 80
@@ -200,8 +221,15 @@ items:
     requires:
       - STR_STUBBER_AMMO_ADVANCED_AC
 
+  - type: STR_STUB_GUN_AMMO_HP_AKIMBO_AC
+    refNode: *STR_STUBBERS_AMMO_HP
+    clipSize: 16
+    recoveryTransformation:
+      STR_STUB_GUN_AMMO_HP_AC [2]
 
-  - type: STR_STUB_GUN_AMMO_INC_AC
+
+  - &STR_STUBBERS_AMMO_INC
+    type: STR_STUB_GUN_AMMO_INC_AC
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1006
     listOrder: 90
@@ -217,6 +245,11 @@ items:
     requires:
       - STR_STUBBER_AMMO_ADVANCED_AC
 
+  - type: STR_STUB_GUN_AMMO_INC_AKIMBO_AC
+    refNode: *STR_STUBBERS_AMMO_INC
+    clipSize: 16
+    recoveryTransformation:
+      STR_STUB_GUN_AMMO_INC_AC [2]
 
 
   - &STR_SMG_STUB
@@ -1433,10 +1466,38 @@ items:
       - STR_GENERAL_LOCK_AC
     costSell: 100
     bigSprite: {mod: 40k, index: 1114}
-    floorSprite: {mod: 40k, index: 1114}
     handSprite: {mod: 40k, index: 1888}
     listOrder: 420
     ufopediaType: STR_STUB_GUN_AC
+
+  - type: STR_STUB_GUN_AKIMBO_AC
+    refNode: *STR_BALLISTIC_WEAPON_STUB_GUN
+    requires:
+      - STR_GENERAL_LOCK_AC
+    costSell: 100
+    bigSprite: 1011
+    floorSprite: {mod: 40k, index: 1114}
+    handSprite: 212
+    listOrder: 420
+    invWidth: 2
+    invHeight: 3
+    ufopediaType: STR_STUB_GUN_AC
+    twoHanded: false
+    blockBothHands: true
+    tags:
+      ITEM_AKIMBO: 1
+    fixedWeapon: true
+    fixedWeaponShow: true
+    defaultInventorySlot: STR_RIGHT_HAND
+    compatibleAmmo:
+      - STR_STUB_GUN_AMMO_AKIMBO_AC
+      - STR_STUB_GUN_AMMO_AP_AKIMBO_AC
+      - STR_STUB_GUN_AMMO_WOUND_AKIMBO_AC
+      - STR_STUB_GUN_AMMO_HP_AKIMBO_AC
+      - STR_STUB_GUN_AMMO_INC_AKIMBO_AC
+    confSnap:
+      shots: 2
+
 
   - type: STR_STUB_RIFLE_CHAOS_AC
     refNode: *STR_BALLISTIC_WEAPON_STUB_RIFLE

@@ -1,0 +1,62 @@
+extended:
+  tags:
+    RuleItem:
+      ITEM_AKIMBO: int
+  scripts:
+    selectUnitSprite: # apply tag
+      - new: tester
+        offset: 10
+        code: |
+          var ptr BattleItem myItem;
+          var int myTag;
+          var int temp;
+
+          unit.getRightHandWeapon myItem;
+          myItem.getTag temp Tag.ITEM_AKIMBO;
+          add myTag temp; # b01
+
+          unit.getLeftHandWeapon myItem;
+          myItem.getTag temp Tag.ITEM_AKIMBO;
+          add myTag temp;
+          add myTag temp; # b10
+
+          if gt myTag 0;
+            if or eq blit_part blit_rightarm eq blit_part blit_leftarm;
+              # debug_log "direction" sprite_offset;
+              unit.getDirection temp;
+              set sprite_offset temp;
+            end;
+
+            if eq blit_part blit_rightarm;
+              # debug_log "blit_rightarm" sprite_index;
+              set sprite_index 232;
+              add sprite_index sprite_offset;
+            end;
+
+            if eq blit_part blit_leftarm;
+              # debug_log "blit_leftarm" sprite_index;
+              set sprite_index 240;
+              add sprite_index sprite_offset;
+            end;
+
+
+            unit.isWalking temp;
+
+            if gt temp 0;
+
+              if eq blit_part blit_rightarm;
+                # debug_log "blit_rightarm" sprite_index;
+                # debug_log "sprite_offset" sprite_offset;
+                
+              end;
+
+              if eq blit_part blit_leftarm;
+                # debug_log "blit_leftarm" sprite_index;
+                # debug_log "sprite_offset" sprite_offset;
+              end;
+            end;
+
+          end;
+
+          # add sprite_index sprite_offset;
+          return sprite_index;  
