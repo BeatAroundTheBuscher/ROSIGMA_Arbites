@@ -11,6 +11,11 @@ en-US:
 
   STR_GENERAL_LOCK_AC: "(Needs Special Unlock)"
 
+  # https://openxcom.org/forum/index.php?topic=10723.0
+  STR_SHOT_TYPE_AUTO: "Auto (x{0})/{1}"
+  STR_SHOT_TYPE_SNAP: "Snap (x{0})/{1}"
+  STR_SHOT_TYPE_AIMED: "Aimed (x{0})/{1}"
+
 ## Other Items
 
   
