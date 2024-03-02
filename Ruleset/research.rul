@@ -131,7 +131,19 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
-  - id: STR_DRUGS_AC
+  - name: STR_DRUGS_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_BREACHER_TOOLS_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_MOTION_SCANNER_AC
     cost: 0
     points: 0
     dependencies:
@@ -193,10 +205,6 @@ research:
 
 
   - name: STR_KHORNE_CULTISTS_AC
-    dependencies:
-      - STR_GENERAL_LOCK_AC
-
-  - name: STR_DRUGS_AC
     dependencies:
       - STR_GENERAL_LOCK_AC
 

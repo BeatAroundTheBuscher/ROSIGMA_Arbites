@@ -51,6 +51,9 @@
       285: Resources/Bigobs/BOLTERSOLO_GUARD_BIGOB.png
       287: Resources/Bigobs/lightbolter_mag_short_bigob.png
       288: Resources/Bigobs/lightbolter_mag_short_AP_bigob.png
+      921: Resources/Bigobs/BIGOB_LASCUTTER.png
+      922: Resources/Bigobs/BIGOB_LASCUTTER_BATTERY.png
+      923: Resources/Bigobs/BIGOB_LASCUTTER_BATTERY_HUGE.png
       1000: Resources/Bigobs/bigobs_stub_rifle_no_scope.png
       1001: Resources/Bigobs/bigobs_stub_pistol.png
       1002: Resources/Bigobs/bigobs_stub_magazine.png
@@ -92,6 +95,7 @@
       250: Resources/Floorobs/BOLTERSOLO_GUARD_FLOOROB.png
       259: Resources/Floorobs/FLOOROB_AUTOGUN_HG.png
       262: Resources/Floorobs/FLOOROB_STUBCANNON.png
+      921: Resources/Floorobs/FLOOROB_LASCUTTER.png
       2051: Resources/Floorobs/floorob_Phosphor.gif
       2708: Resources/Floorobs/FLOOROB_GSC_PUMP_SHOTGUN.png
       2725: Resources/FOES/GSC_HYBRID_ACOLYTE_FLOOROB.png
@@ -117,6 +121,7 @@
       308: Resources/Handobs/BOLTERSOLO_GUARD_HANDOB.png
       500: Resources/Handobs/HANDOB_GSC_PUMP_SHOTGUN.png
       524: Resources/Handobs/HANDOB_AUTOGUN_HG.png
+      640: Resources/Handobs/HANDOB_LASCUTTER.png
       668: Resources/Handobs/HANDOB_STUBCANNON_GUARD.png
       2020: Resources/Handobs/PHGRENADE.png
       2900: Resources/Handobs/TZEENTCH_NIHILIUS_LASPISTOL_HANDOB.png
@@ -439,6 +444,13 @@
 
   - typeSingle: PENAL_LEGION.SPK
     fileSingle: Resources/Codex/guardsman_penal.png
+
+  - type: CODEX_LASCUTTER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Codex/CODEX_LASCUTTER.png
 
 
 ## Ranks

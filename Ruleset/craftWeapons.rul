@@ -1,0 +1,46 @@
+craftWeapons:
+  - type: STR_STINGRAY_AC
+    sprite: 0
+    sound: 5
+    damage: 60
+    range: 40
+    accuracy: 65
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 6
+    launcher: STR_STINGRAY_LAUNCHER_AC
+    clip: STR_STINGRAY_MISSILES_AC
+    projectileType: 0
+    projectileSpeed: 8
+  - type: STR_AVALANCHE_AC
+    sprite: 1
+    sound: 5
+    damage: 100
+    range: 50
+    accuracy: 75
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 3
+    launcher: STR_AVALANCHE_LAUNCHER_AC
+    clip: STR_AVALANCHE_MISSILES_AC
+    projectileType: 1
+    projectileSpeed: 8
+  - type: STR_CANNON_AC
+    sprite: 2
+    sound: 4
+    damage: 20
+    range: 30
+    accuracy: 40
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 8
+    ammoMax: 50
+    rearmRate: 100
+    launcher: STR_CANNON_AC
+    clip: STR_CANNON_ROUNDS_AC
+    projectileType: 2
+    projectileSpeed: 8
+    bulletSaving: true
+

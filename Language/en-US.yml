@@ -57,6 +57,8 @@ en-US:
   STR_CIVILIAN_F0_AC: "Civilian"
   STR_CIVILIAN_F1_AC: "Civilian"
 
+  STR_MUNITORIUM_AC: "Munitorium"
+
 
 
   STR_CODEX_ARMOR_DETAIL_TEXT:  "{NEWLINE}{NEWLINE} CODEX ARMOR DETAIL"
@@ -169,12 +171,24 @@ en-US:
   STR_ARVUS_AC: "ARVUS"
   STR_CHIMERA_AC: "CHIMERA"
   STR_TAUROX_AC: "TAUROX"
+  STR_AVENGER_AC: "AVENGER"
 
   STR_CHIMERA_TURRET_AC: "Chimera Turret"
   STR_CHIMERA_TURRET_BOLTER_AC: "Chimera Bolter"
 
   STR_TAUROX_TURRET_AC: "Taurox Turret"
   STR_TAUROX_TURRET_AUTOCANNON_AC: "Taurox Autocannon"
+
+## Craft Weapons
+
+  STR_CANNON_AC: "Twin Heavy Bolter"
+  STR_CANNON_ROUNDS_AC: "Craft Bolter Rounds (x50)"
+  STR_STINGRAY_LAUNCHER_AC: "Krak Missile Launcher"
+  STR_STINGRAY_MISSILES_AC: "Krak Missiles"
+  STR_STINGRAY_AC: "Krak Missiles"
+  STR_AVALANCHE_LAUNCHER_AC: "Plasma Missile Launcher"
+  STR_AVALANCHE_MISSILES_AC: "Plasma Missiles"
+  STR_AVALANCHE_AC: "Plasma Missiles"
 
 ## Items
 
@@ -288,6 +302,7 @@ en-US:
 
   STR_JUDGE_ARMOR_AC_UC: "Judge Armor"
   STR_CMAS_ARMOR_AC_UC: "Cyber Mastiff"
+  STR_FLAK_ARMOR_AC_UC: "Flak Armor"
   STR_ENFORCER_ARMOR_AC_UC: "Enforcer Armor"
   STR_ENFORCER_HEAVY_ARMOR_AC_UC: "Heavy Enforcer Armor"
   STR_ENFORCER_MEDIC_ARMOR_AC_UC: "Enforcer Armor/Medic"
@@ -349,6 +364,9 @@ en-US:
 
   STR_JUDGE_RECRUITMENT_AC: "Arbitrator Requisition"
   STR_CYBER_MASTIFF_RECRUITMENT_AC: "Cyber Mastiff Programming"
+
+  STR_BREACHER_TOOLS_AC: "Breacher Tools"
+  STR_MOTION_SCANNER_AC: "Motion Scanner"
 
 ## Story
 
@@ -485,6 +503,11 @@ en-US:
   STR_STUB_GUN_AMMO_HP_AKIMBO_AC: "Stubber Expander Mags (Akimbo)"
   STR_STUB_GUN_AMMO_INC_AKIMBO_AC: "Stubber Tracer Mags (Akimbo)"
 
+  STR_LASCUTTER_AC: "Lascutter"
+  STR_LASCUTTER_SMALL_AMMO_AC: "Lascutter Battery"
+  STR_LASCUTTER_BIG_AMMO_AC: "Lascutter Battery (Big)"
+  STR_LASCUTTER_CODEX: "{NEWLINE} These breaching weapons make use of disruption field-assisted short range laser arcs to cut through their target's dense molecular structure like a hot knife through butter. Commonly issued for boarding actions or building-clearance missions, at point-blank range a Lascutter is capable of slicing through plasteel and ceramite in seconds."
+
   STR_RIOT_SHIELD_UFOPEDIA_AC_1: "{NEWLINE} The \"Lockshield\" is a heavy ceramite riot shield worn on one arm. It provides additional protection while still allowing one-handed weapons to be operated without penalty.
     {NEWLINE}{NEWLINE}Abilities: >>"
   STR_RIOT_SHIELD_UFOPEDIA_AC_2: "{NEWLINE} Abilities:
@@ -539,7 +562,7 @@ en-US:
 
   STR_RANDOM_DRUG_AC: "Unlabeled Drug"
   STR_RANDOM_DRUG_AI_AC: "Unlabeled Drug (Dirty)"
-  STR_DRUG_ITEMS: "Drugs"
+
 
   STR_IDENTIFY_DRUG_AC: "Identify Drug"
 
@@ -559,9 +582,15 @@ en-US:
   STR_HELP_ARMOR_ABILITIES_UFOPEDIA: "{NEWLINE} Armor Abilities are extra weapons tied to your armor and all function the same as hand-held weapons. The stats of these weapons can be viewed by looking at the info section of the codex for that armor."
   STR_HELP_ARMOR_EXTENDED_FRONT_AC: "Extended Front Side"
   STR_HELP_ARMOR_EXTENDED_FRONT_UFOPEDIA_AC: "{NEWLINE} Armors with big hand shields (such as the Bullgryn with Slab Shield) as well as Mounted Guns with front shields (such as the Mounted Lascannon) have an extended front side for determining hits. This means that oblique front hits are considered front hits instead of side hits per chance."
+  STR_HELP_AKIMBO_WEAPONS_AC: "Akimbo Weapons"
+  STR_HELP_AKIMBO_WEAPONS_UFOPEDIA_AC: "{NEWLINE} Some people are sufficiently capable of using pistols ambidextrously. They use both pistols for the same time unit costs. Everything else is considered to be the same."
 
 ### Script Messages
 
   STR_SCRIPT_SHIELD_REMAINING_HP: "Remaining Shield Points: {0}"
   STR_SCRIPT_DRUGS_CARDIAC_ARREST_WARNING: "Next shot will cause a cardiac arrest after this turn ends!"
   STR_SCRIPT_DRUGS_CARDIAC_ARREST_DONE_FOR: "Unit will suffer a fatal cardiac arrest after this turn ends!"
+
+### Categories
+
+  STR_DRUG_ITEMS: "Drugs"

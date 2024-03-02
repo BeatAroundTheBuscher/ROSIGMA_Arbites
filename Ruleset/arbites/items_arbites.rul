@@ -19,6 +19,78 @@ extended:
 
 items:
 
+## Craft Weapons
+
+  - type: STR_CANNON_AC
+    categories: [ STR_CRAFT_WEAPONS]
+    size: 1.5
+    requiresBuyBaseFunc: [HANGAR]
+    costBuy: 30000
+    costSell: 22500
+    transferTime: 48
+    listOrder: 10
+    ufopediaType: STR_CANNON_AC
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+  - type: STR_CANNON_ROUNDS_AC
+    categories: [ STR_CRAFT_WEAPONS]
+    requiresBuyBaseFunc: [HANGAR]
+    size: 0.1
+    costBuy: 1240
+    costSell: 1012
+    transferTime: 96
+    clipSize: 50
+    listOrder: 20
+    ufopediaType: STR_CANNON_AC
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+  - type: STR_STINGRAY_LAUNCHER_AC
+    categories: [ STR_CRAFT_WEAPONS]
+    size: 0.8
+    requiresBuyBaseFunc: [HANGAR]
+    costBuy: 16000
+    costSell: 12000
+    transferTime: 48
+    listOrder: 30
+    ufopediaType: STR_STINGRAY_AC
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+  - type: STR_STINGRAY_MISSILES_AC
+    categories: [ STR_CRAFT_WEAPONS]
+    size: 0.4
+    requiresBuyBaseFunc: [HANGAR]
+    costBuy: 3000
+    costSell: 2400
+    transferTime: 48
+    clipSize: 1
+    listOrder: 40
+    ufopediaType: STR_STINGRAY_AC
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+  - type: STR_AVALANCHE_LAUNCHER_AC
+    categories: [ STR_CRAFT_WEAPONS]
+    size: 1
+    requiresBuyBaseFunc: [HANGAR]
+    costBuy: 17000
+    costSell: 12750
+    transferTime: 48
+    listOrder: 50
+    ufopediaType: STR_AVALANCHE_AC
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+  - type: STR_AVALANCHE_MISSILES_AC
+    categories: [ STR_CRAFT_WEAPONS]
+    size: 1.5
+    requiresBuyBaseFunc: [HANGAR]
+    costBuy: 9000
+    costSell: 7200
+    transferTime: 48
+    clipSize: 1
+    listOrder: 60
+    ufopediaType: STR_AVALANCHE_AC
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+
 ## Armors
 
   - type: STR_ENFORCER_MEDIC_ARMOR_AC
@@ -27,7 +99,7 @@ items:
     costBuy: 5000
     costSell: 1000
     size: 0.3
-    listOrder: 10
+    listOrder: 70
 
   - type: STR_ENFORCER_HEAVY_ARMOR_AC
     requiresBuy:
@@ -36,7 +108,7 @@ items:
     costBuy: 25000
     costSell: 5000
     size: 0.3
-    listOrder: 20
+    listOrder: 80
 
 
 ## Stubbers, Autoguns
@@ -63,7 +135,7 @@ items:
     armor: 30
     bulletSpeed: 30
     attraction: 1
-    listOrder: 30
+    listOrder: 90
     bigSprite: 1001
     compatibleAmmo:
       - STR_STUB_GUN_AMMO_AC
@@ -93,7 +165,7 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    listOrder: 40
+    listOrder: 100
 
   - &STR_GUN_BUTT
     type: STR_STUB_RIFLE_AC
@@ -148,7 +220,7 @@ items:
     attraction: 1
     tags:
       ITEM_AMMO_COLOR: 0
-    listOrder: 50
+    listOrder: 110
 
   - type: STR_STUB_GUN_AMMO_AKIMBO_AC
     refNode: *STR_STUBBERS_AMMO
@@ -160,7 +232,7 @@ items:
     type: STR_STUB_GUN_AMMO_AP_AC
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1003
-    listOrder: 60
+    listOrder: 120
     costBuy: 3000 #hotshot cells cost 4000, has 20 ammo capacity or 10 with aimed mode for longlas
     costSell: 250
     tags:
@@ -184,7 +256,7 @@ items:
     type: STR_STUB_GUN_AMMO_WOUND_AC
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1004
-    listOrder: 70
+    listOrder: 130
     costBuy: 2000 
     costSell: 250
     tags:
@@ -210,7 +282,7 @@ items:
     type: STR_STUB_GUN_AMMO_HP_AC
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1005
-    listOrder: 80
+    listOrder: 140
     costBuy: 2000 
     costSell: 250
     tags:
@@ -232,7 +304,7 @@ items:
     type: STR_STUB_GUN_AMMO_INC_AC
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1006
-    listOrder: 90
+    listOrder: 150
     costBuy: 500
     costSell: 125
     tags:
@@ -283,7 +355,7 @@ items:
     armor: 30
     bulletSpeed: 50
     attraction: 1
-    listOrder: 100
+    listOrder: 160
 
 
   - type: STR_STUB_SMG_AMMO_AC
@@ -309,7 +381,7 @@ items:
     invHeight: 1
     armor: 30
     attraction: 1
-    listOrder: 110
+    listOrder: 170
 
   - type: STR_STUB_CANNON_AC
     categories: [STR_CAT_AUTO]
@@ -344,7 +416,7 @@ items:
     autoShots: 1
     bulletSpeed: 30
     attraction: 1
-    listOrder: 111
+    listOrder: 180
 
   - type: STR_STUB_CANNON_JUDGESLAYER_AC
     categories: [STR_CAT_AUTO]
@@ -379,7 +451,7 @@ items:
     autoShots: 1
     bulletSpeed: 30
     attraction: 1
-    listOrder: 112
+    listOrder: 190
 
   - type: STR_STUB_CANNON_JUDGESLAYER_CLIP_AC
     categories: [STR_CAT_AUTO]
@@ -400,7 +472,7 @@ items:
     clipSize: 1
     battleType: 2
     armor: 30
-    listOrder: 113
+    listOrder: 200
 
 
   - &STR_BALLISTIC_WEAPON_AUTO_PISTOL
@@ -426,7 +498,7 @@ items:
     tuAuto: 34
     confAuto:
       shots: 5
-    listOrder: 120
+    listOrder: 210
 
   - type: STR_AUTOPISTOL_CLIP_AC
     categories: [STR_CAT_AUTO]
@@ -448,7 +520,7 @@ items:
     clipSize: 20
     battleType: 2
     armor: 30
-    listOrder: 130
+    listOrder: 220
 
   - &STR_BALLISTIC_WEAPON_AUTO_GUN
     type: STR_AUTOGUN_AC
@@ -479,7 +551,7 @@ items:
     invHeight: 3
     twoHanded: true
     armor: 30
-    listOrder: 140
+    listOrder: 230
 
   - type: STR_AUTOGUN_AC
     refNode: *STR_GUN_BUTT
@@ -496,7 +568,7 @@ items:
     accuracyAuto: 50
     confAuto:
       shots: 6
-    listOrder: 141  
+    listOrder: 240
 
   - type: STR_AUTOGUN_HIGHGRADE_AC
     refNode: *STR_GUN_BUTT
@@ -523,14 +595,14 @@ items:
     clipSize: 30
     battleType: 2
     armor: 30
-    listOrder: 150
+    listOrder: 250
 
   - type: STR_AUTOGUN_DRUM_AC
     refNode: *STR_AUTOGUN_CLIP
     bigSprite: 208
     weight: 6
     clipSize: 50
-    listOrder: 151
+    listOrder: 260
 
   - &STR_BALLISTIC_WEAPON_HEAVY_STUBBER
     type: STR_HEAVY_STUBBER_AC
@@ -564,7 +636,7 @@ items:
     confSnap:
       shots: 4
     sprayWaypoints: 2
-    listOrder: 160
+    listOrder: 270
     requires:
       - STR_HEAVY_STUBBER_AC
     tags:
@@ -592,7 +664,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 30
-    listOrder: 170
+    listOrder: 280
     requires:
       - STR_HEAVY_STUBBER_AC
 
@@ -625,7 +697,7 @@ items:
     invWidth: 1
     invHeight: 2
     blastRadius: 5
-    listOrder: 180
+    listOrder: 290
     throwRange: 20
 
   - type: STR_KRAK_GRENADE_AC
@@ -647,7 +719,7 @@ items:
     invWidth: 1
     invHeight: 2
     blastRadius: 1
-    listOrder: 190
+    listOrder: 300
     throwRange: 20
 
 
@@ -671,7 +743,7 @@ items:
     blastRadius: 5
     invWidth: 1
     invHeight: 2
-    listOrder: 13700
+    listOrder: 310
     throwRange: 20
 
   - type: STR_PROXIMITY_GRENADE_AC
@@ -692,7 +764,7 @@ items:
     blastRadius: 5
     invWidth: 1
     invHeight: 2
-    listOrder: 13800
+    listOrder: 320
     throwRange: 20
 
   - type: STR_HAYWIRE_MINE_AC
@@ -716,7 +788,7 @@ items:
     blastRadius: 5
     invWidth: 2
     invHeight: 3
-    listOrder: 13800
+    listOrder: 330
     throwRange: 20
 
   - type: STR_PHOTON_GRENADE_AC
@@ -751,7 +823,7 @@ items:
     invWidth: 1
     invHeight: 2
     experienceTrainingMode: 7 #throwing
-    listOrder: 13660
+    listOrder: 340
 
   - type: STR_PHOSPHOR_GRENADE_AC
     requiresBuy:
@@ -769,7 +841,7 @@ items:
     battleType: 4
     invWidth: 1
     invHeight: 2
-    listOrder: 13701
+    listOrder: 350
     power: 80
     damageType: 8
     damageAlter:
@@ -794,7 +866,7 @@ items:
     invWidth: 1
     invHeight: 2
     blastRadius: 4
-    listOrder: 200
+    listOrder: 360
     throwRange: 16
     damageAlter:
       FireThreshold: 25
@@ -813,7 +885,7 @@ items:
     invWidth: 1
     invHeight: 2
     blastRadius: 6
-    listOrder: 210
+    listOrder: 370
     throwRange: 8
     damageAlter:
       FireThreshold: 25
@@ -848,7 +920,7 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    listOrder: 220
+    listOrder: 380
     snapRange: 8
     dropoff: 5
 
@@ -861,9 +933,10 @@ items:
     bigSprite: 2707
     floorSprite: 2708
     handSprite: 500
-    listOrder: 230
+    listOrder: 390
     tuSnap: 30 #slower fire rate
     snapRange: 10 #better range
+    accuracySnap: 70
 
 
   - type: STR_SHOTGUN_SHELLS_AC #                        10710
@@ -884,7 +957,7 @@ items:
     damageType: 1
     clipSize: 8
     battleType: 2
-    listOrder: 240
+    listOrder: 400
     shotgunPellets: 6
 
 
@@ -916,7 +989,7 @@ items:
     battleType: 1
     invWidth: 1
     invHeight: 2
-    listOrder: 250
+    listOrder: 410
 
   - type: STR_LASPISTOL_CLIP_AC
     categories: [STR_CAT_LASGUN, STR_CAT_TACTICAL]
@@ -944,7 +1017,7 @@ items:
     armor: 70
     vaporColor: 2
     vaporDensity: 5
-    listOrder: 260
+    listOrder: 420
     requiresBuy:
       - STR_LASGUNS_AC
 
@@ -970,7 +1043,7 @@ items:
     tuAuto: 34
     tuSnap: 25
     snapRange: 16
-    listOrder: 270
+    listOrder: 430
     compatibleAmmo:
       - STR_LASGUN_CLIP_AC
     twoHanded: true
@@ -1005,7 +1078,7 @@ items:
     invWidth: 1
     invHeight: 1
     armor: 70
-    listOrder: 280
+    listOrder: 440
     requiresBuy:
       - STR_LASGUNS_AC
 
@@ -1017,7 +1090,7 @@ items:
     fireSound: 2261
     confSnap:
       spendPerShot: 2
-    listOrder: 281
+    listOrder: 450
     tags:
       ITEM_SNAP_POWER_BONUS: 10
       ITEM_DOT_IN_INVENTORY: 1
@@ -1033,7 +1106,7 @@ items:
     confAuto:
       shots: 2
       spendPerShot: 2
-    listOrder: 282
+    listOrder: 460
     tags:
       ITEM_SNAP_POWER_BONUS: 10
       ITEM_AUTO_POWER_BONUS: 10
@@ -1067,7 +1140,7 @@ items:
     #autoShots: 2 #maybe give the basic solo some rapid shots vs the DMR version to keep it useful aside for price?
     bulletSpeed: 30
     attraction: 1
-    listOrder: 290
+    listOrder: 470
     dropoff: 5
     autoRange: 0
     snapRange: 14
@@ -1104,7 +1177,7 @@ items:
     armor: 100
     invWidth: 1
     invHeight: 1
-    listOrder: 19180
+    listOrder: 480
     tags:
       ITEM_AMMO_COLOR: 5
     power: 60
@@ -1123,7 +1196,7 @@ items:
     costBuy: 7000 #costs less due to 10 rounds less
     costSell: 300
     bigSprite: 288
-    listOrder: 19181
+    listOrder: 490
     tags:
       ITEM_AMMO_COLOR: 1
     damageAlter: 
@@ -1154,7 +1227,7 @@ items:
     invWidth: 2
     invHeight: 3
     flatRate: true
-    listOrder: 300
+    listOrder: 500
     weight: 0
 
   - type: STR_CMAS_TACKLE_AC
@@ -1187,7 +1260,7 @@ items:
     flatRate: true
     confMelee:
       name: STR_CMAS_TACKLE
-    listOrder: 310
+    listOrder: 510
     weight: 0
 
   - type: STR_EXPLOSIVE_COLLAR_AC
@@ -1195,7 +1268,7 @@ items:
     damageType: 3
     battleType: 1
     blastRadius: 5
-    listOrder: 320
+    listOrder: 520
     maxRange: 1
     fixedWeapon: true
     specialUseEmptyHand: false # no accidential blowups
@@ -1231,7 +1304,7 @@ items:
     fixedWeapon: true
     specialIconSprite: {mod: 40k, index: 100}
     specialUseEmptyHand: true
-    listOrder: 330
+    listOrder: 530
 
   - type: STR_COMBAT_KNIFE_AC
     categories: [STR_CAT_MELEE]
@@ -1266,7 +1339,7 @@ items:
     strengthApplied: false
     attraction: 7
     experienceTrainingMode: 13
-    listOrder: 340
+    listOrder: 540
     costBuy: 500
     costSell: 100
 
@@ -1288,7 +1361,7 @@ items:
     costBuy: 20000
     costSell: 4000
     hidePower: true
-    listOrder: 350
+    listOrder: 550
     clipSize: 201
 
   - type: STR_ELECTRO_FLARE_AC
@@ -1310,7 +1383,7 @@ items:
       defaultBehavior: false
       throwTrigger: true
     armor: 8
-    listOrder: 360
+    listOrder: 560
 
 ## unsorted
 
@@ -1341,7 +1414,7 @@ items:
     meleeMultiplier:
       melee: 0.66
       flatHundred: 0.33
-    listOrder: 370
+    listOrder: 570
 
   - type: STR_WEBBER_AC
     categories: [STR_CAT_GRAVGUN, STR_CAT_TACTICAL]
@@ -1365,7 +1438,7 @@ items:
     invWidth: 2
     invHeight: 3
     recoveryPoints: 4
-    listOrder: 380
+    listOrder: 580
   - type: STR_WEBBER_AMMO_AC
     categories: [STR_CAT_GRAVGUN, STR_CAT_TACTICAL]
     requires:
@@ -1393,7 +1466,7 @@ items:
       ToEnergy: 2.0
       ToTime: 1.0
       ToMorale: 0.5
-    listOrder: 390
+    listOrder: 590
 
   - &STR_FLAMETHROWER
     type: STR_FLAMETHROWER_AC
@@ -1422,7 +1495,7 @@ items:
     armor: 30
     autoShots: 6
     attraction: 7
-    listOrder: 400
+    listOrder: 600
     requires:
       - STR_FLAMER_AC
    
@@ -1455,9 +1528,128 @@ items:
     explosionSpeed: 10
     armor: 15
     attraction: 7
-    listOrder: 410
+    listOrder: 610
     requires:
       - STR_FLAMER_AC
+
+  - type: STR_LASCUTTER_AC
+    categories: [STR_CAT_MELTA, STR_CAT_TACTICAL, STR_CAT_ADEPTAS]
+    requiresBuy:
+      - STR_BREACHER_TOOLS_AC
+    size: 0.3
+    requiresBuyBaseFunc: [TRADE]
+    costBuy: 150000 #150k, more expensive than meltagun
+    costSell: 10000
+    weight: 35 #heavy weight
+    bigSprite: 921
+    floorSprite: 921
+    handSprite: 640
+    bulletSprite: {mod: 40k, index: 16}
+    bulletSpeed: 100
+    fireSound: {mod: 40k, index: 739}
+    compatibleAmmo:
+      - STR_LASCUTTER_SMALL_AMMO_AC
+      - STR_LASCUTTER_BIG_AMMO_AC
+    dropoff: 10 #+1
+    autoRange: 0
+    snapRange: 0 #no snapfire
+    aimRange: 4 #Very short ranged
+    accuracyAuto: 0
+    accuracySnap: 0
+    accuracyAimed: 75
+    tuAuto: 0
+    tuSnap: 0
+    tuAimed: 50
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 200
+    listOrder: 620
+
+  - type: STR_LASCUTTER_SMALL_AMMO_AC
+    categories: [STR_CAT_MELTA, STR_CAT_TACTICAL]
+    hitSound: {mod: 40k, index: 19}
+    hitAnimation: {mod: 40k, index: 110}
+    size: 0.1
+    requiresBuy:
+      - STR_BREACHER_TOOLS_AC
+    requiresBuyBaseFunc: [TRADE]
+    costBuy: 5000
+    costSell: 1500
+    vaporColorSurface: 1
+    vaporDensitySurface: 2
+    vaporProbabilitySurface: 85
+    bigSprite: 922
+    floorSprite: {mod: 40k, index: 128}
+    handSprite: {mod: 40k, index: 456}
+    power: 100
+    damageType: 4 #LAS
+    damageAlter: #DA LAS
+      RandomType: 2
+      ToArmorPre: 1.5
+      ToHealth: 0.5
+      ToTile: 5.0 #500 tile damage
+      ToWound: 0.05
+      RandomWound: false
+      TileDamageMethod: 2
+    powerRangeReduction: 30.0
+    powerRangeThreshold: 4.0
+    invWidth: 2
+    invHeight: 1
+    weight: 5
+    clipSize: 2 #small
+    battleType: 2
+    listOrder: 630
+
+  - type: STR_LASCUTTER_BIG_AMMO_AC
+    size: 0.2
+    requiresBuy:
+     - STR_BREACHER_TOOLS_AC
+    requiresBuyBaseFunc: [TRADE]
+    costBuy: 10000
+    costSell: 2500
+    hitSound: {mod: 40k, index: 19}
+    hitAnimation: {mod: 40k, index: 110}
+    vaporColorSurface: 1
+    vaporDensitySurface: 2
+    vaporProbabilitySurface: 85
+    bigSprite: 923
+    floorSprite: {mod: 40k, index: 128}
+    handSprite: {mod: 40k, index: 456}
+    power: 120
+    damageType: 4 #LAS
+    damageAlter: #DA LAS
+      RandomType: 2
+      ToArmorPre: 1.5
+      ToHealth: 0.5
+      ToTile: 5.0 #500+ power
+      ToWound: 0.05
+      RandomWound: false
+      TileDamageMethod: 2
+    powerRangeReduction: 30.0
+    powerRangeThreshold: 4.0
+    invWidth: 2
+    invHeight: 2
+    weight: 10
+    clipSize: 4 #small
+    battleType: 2
+    listOrder: 640
+
+  - type: STR_MOTION_SCANNER_AC
+    categories: [ STR_CAT_EQUIPMENT]
+    size: 0.1
+    costSell: 31600
+    weight: 3
+    bigSprite: {mod: 40k, index: 23}
+    floorSprite: {mod: 40k, index: 157}
+    handSprite: {mod: 40k, index: 504}
+    battleType: 7
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    tuUse: 25
+    listOrder: 650
 
 
   - type: STR_STUB_GUN_CHAOS_AC
@@ -1467,7 +1659,7 @@ items:
     costSell: 100
     bigSprite: {mod: 40k, index: 1114}
     handSprite: {mod: 40k, index: 1888}
-    listOrder: 420
+    listOrder: 660
     ufopediaType: STR_STUB_GUN_AC
 
   - type: STR_STUB_GUN_AKIMBO_AC
@@ -1478,7 +1670,7 @@ items:
     bigSprite: 1011
     floorSprite: {mod: 40k, index: 1114}
     handSprite: 212
-    listOrder: 420
+    listOrder: 670
     invWidth: 2
     invHeight: 3
     ufopediaType: STR_STUB_GUN_AC
@@ -1507,7 +1699,7 @@ items:
     bigSprite: {mod: 40k, index: 1109}
     floorSprite: {mod: 40k, index: 1109}
     handSprite: {mod: 40k, index: 1872}
-    listOrder: 430
+    listOrder: 680
     ufopediaType: STR_STUB_RIFLE_AC
 
   - type: STR_STUB_RIFLE_CHAOS_AC
@@ -1520,7 +1712,7 @@ items:
     handSprite: {mod: 40k, index: 1888}
     requires:
       - STR_GENERAL_LOCK_AC
-    listOrder: 440
+    listOrder: 690
     ufopediaType: STR_STUB_SMG_AC
 
   - type: STR_AUTOPISTOL_CHAOS_AC
@@ -1531,7 +1723,7 @@ items:
     bigSprite: {mod: 40k, index: 1017}
     floorSprite: {mod: 40k, index: 1017}
     handSprite: {mod: 40k, index: 1136}
-    listOrder: 450
+    listOrder: 700
     ufopediaType: STR_AUTOPISTOL_AC
 
 
@@ -1542,7 +1734,7 @@ items:
     bigSprite: {mod: 40k, index: 1016}
     floorSprite: {mod: 40k, index: 1016}
     handSprite: {mod: 40k, index: 1128}
-    listOrder: 460
+    listOrder: 710
     ufopediaType: STR_AUTOGUN_AC
 
   - type: STR_AUTOGUN_CHAOS_AC
@@ -1555,7 +1747,7 @@ items:
     bigSprite: {mod: 40k, index: 1122}
     floorSprite: {mod: 40k, index: 1122}
     handSprite: {mod: 40k, index: 1920}
-    listOrder: 470
+    listOrder: 720
     tags:
       ITEM_RECOIL: 0 # AI can't handle that
     ufopediaType: STR_HEAVY_STUBBER_AC
@@ -1569,7 +1761,7 @@ items:
     bigSprite: {mod: 40k, index: 1123}
     floorSprite: {mod: 40k, index: 1123}
     handSprite: {mod: 40k, index: 1928}
-    listOrder: 480
+    listOrder: 730
     ufopediaType: STR_SHOTGUN_AC
 
 
@@ -1579,7 +1771,7 @@ items:
       - STR_GENERAL_LOCK_AC
     costSell: 800
     bigSprite: 2712
-    listOrder: 490
+    listOrder: 740
     ufopediaType: STR_PUMP_SHOTGUN_AC
 
 
@@ -1592,7 +1784,7 @@ items:
     bigSprite: {mod: 40k, index: 298}
     floorSprite: {mod: 40k, index: 162}
     handSprite: {mod: 40k, index: 544}
-    listOrder: 500
+    listOrder: 750
     ufopediaType: STR_LASPISTOL_AC
 
 
@@ -1603,7 +1795,7 @@ items:
     bigSprite: {mod: 40k, index: 296}
     floorSprite: {mod: 40k, index: 164}
     handSprite: {mod: 40k, index: 528}
-    listOrder: 510
+    listOrder: 760
     ufopediaType: STR_LASGUN_AC
 
 
@@ -1618,7 +1810,7 @@ items:
     bigSprite: {mod: 40k, index: 1121}
     floorSprite: {mod: 40k, index: 1121}
     handSprite: {mod: 40k, index: 1912}
-    listOrder: 520
+    listOrder: 770
     ufopediaType: STR_FLAMETHROWER_AC
 
 

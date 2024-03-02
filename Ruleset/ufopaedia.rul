@@ -296,6 +296,27 @@ ufopaedia:
       - STR_WEBBER_AC
     listOrder: 320
 
+#### Special Weapons
+
+
+  - id: STR_FLAMETHROWER_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1MF.SPK
+    text: STR_FLAMETHROWER_UFOPEDIA
+    listOrder: 321
+    requires:
+      - STR_FLAMER_AC
+
+  - id: STR_LASCUTTER_AC
+    type_id: 14
+    requires:
+      - STR_BREACHER_TOOLS_AC
+    text: STR_LASCUTTER_CODEX
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: CODEX_LASCUTTER.SPK
+    listOrder: 322
+
 #### Melee
 
   - id: STR_COMBAT_KNIFE_AC
@@ -313,15 +334,6 @@ ufopaedia:
     listOrder: 340
 
 #### Utility
-
-  - id: STR_FLAMETHROWER_AC
-    type_id: 14
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: 1MF.SPK
-    text: STR_FLAMETHROWER_UFOPEDIA
-    listOrder: 350
-    requires:
-      - STR_FLAMER_AC
 
   - id: STR_RIOT_SHIELD_AC
     type_id: 14
@@ -383,6 +395,15 @@ ufopaedia:
     image_id: 1FL.SPK
     text: STR_ELECTRO_FLARE_UFOPEDIA
     listOrder: 430
+
+  - id: STR_MOTION_SCANNER_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: 1MS.SPK
+    requires:
+      - STR_MOTION_SCANNER_AC
+    text: STR_MOTION_SCANNER_UFOPEDIA
+    listOrder: 431
 
 
 ## ENEMY Weapons
@@ -451,6 +472,13 @@ ufopaedia:
     image_id: PENAL_LEGION.SPK
     text: STR_PENAL_ARMOR_BROWN_UC_UFOPEDIA
     listOrder: 490
+
+  - id: STR_FLAK_ARMOR_AC_UC
+    type_id: 15
+    section: STR_ARMORPEDIA
+    image_id: 0GU.SPK
+    text: STR_GUARD_ARMORSM_UFOPEDIA
+    listOrder: 491
 
   - id: STR_ENFORCER_ARMOR_AC_UC
     type_id: 15
@@ -589,6 +617,63 @@ ufopaedia:
     listOrder: 640
     image_id: 2ARVUS.SPK
 
+  - id: STR_CHIMERA_AC
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_CHIMERA_UFOPEDIA
+    listOrder: 641
+    image_id: 2CHIMERA.SPK
+    requires: 
+      - STR_GENERAL_LOCK_AC
+
+  - id: STR_TAUROX_AC
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_TAUROX_UFOPEDIA
+    listOrder: 642
+    image_id: TAUROX.SPK
+    requires: 
+      - STR_GENERAL_LOCK_AC
+
+  - id: STR_AVENGER_AC
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_AVENGER_ADEPTAS_UFOPEDIA
+    listOrder: 643
+    image_id: 2AVENGER.SPK
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+
+  - id: STR_CANNON_AC
+    type_id: 12
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: CC00.SPK
+    text: STR_CANNON_UFOPEDIA
+    listOrder: 644
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+
+  - id: STR_STINGRAY_AC
+    type_id: 12
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: CC01.SPK
+    text: STR_STINGRAY_UFOPEDIA
+    listOrder: 645
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+
+  - id: STR_AVALANCHE_AC
+    type_id: 12
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: CC02.SPK
+    text: STR_AVALANCHE_UFOPEDIA
+    listOrder: 646
+    requires: 
+      - STR_FIGHTER_CRAFT_AC
+
+
+    
+
 ### Facilities:
 
   - id: STR_ACCESS_LIFT_AC
@@ -690,6 +775,13 @@ ufopaedia:
     image_id: 0ENFM.SPK #should use something else
     text: STR_HELP_ARMOR_EXTENDED_FRONT_UFOPEDIA_AC
     listOrder: 781
+
+  - id: STR_HELP_AKIMBO_WEAPONS_AC
+    type_id: 10
+    section: STR_HELP
+    image_id: STUB_GUN.SPK
+    text: STR_HELP_AKIMBO_WEAPONS_UFOPEDIA_AC
+    listOrder: 782
 
 ### Stats for Nerds only
 
@@ -831,3 +923,10 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
     listOrder: 1040
 
+  - id: STR_LASCUTTER_SMALL_AMMO_AC
+    type_id: 14
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_LASCUTTER_BIG_AMMO_AC
+    type_id: 14
+    section: STR_NOT_AVAILABLE
