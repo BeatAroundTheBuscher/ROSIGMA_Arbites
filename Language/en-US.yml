@@ -396,25 +396,28 @@ en-US:
   STR_CULTIST_INVESTIGATIONS: "Cultist Investigation"
   STR_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
 
-  STR_BEGINNING_INVESTIGATION: "Initial Investigations"
-  STR_BEGINNING_INVESTIGATION_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
+  STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC: "Initial Investigations"
+  STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
 
-  STR_CULTIST_MENACE: "Cultist Menace"
-  STR_CULTIST_MENACE_TEXT: "{NEWLINE} There has been a cult lurking for some time now on this very planet. While the interrogated cultists could not provide much information behind the monetary and political support, they were able to provide a glimpse in their rank structure. Considering that this menace is much greater than anticipated more judges and mastiffs will be necessary to enforce Just Judgement.
+  STR_KHORNE_CULTISTS_PREREQUISITE_1_AC: "One Khorne Cultist interrogated"
+  STR_KHORNE_CULTISTS_PREREQUISITE_2_AC: "Multiple Khorne Cultists interrogated"
+
+  STR_KHORNE_CULTISTS_MENACE_AC: "Cultist Menace"
+  STR_KHORNE_CULTISTS_MENACE_AC_TEXT: "{NEWLINE} There has been a cult lurking for some time now on this very planet. While the interrogated cultists could not provide much information behind the monetary and political support, they were able to provide a glimpse in their rank structure. Considering that this menace is much greater than anticipated more judges and mastiffs will be necessary to enforce Just Judgement.
    {NEWLINE}{NEWLINE}Allows Recruitment of:{NEWLINE}> Judges{NEWLINE}> Cybermastiff"
 
-  STR_CULTIST_LEADERSHIP: "Cultist Leadership"
-  STR_CULTIST_LEADERSHIP_TEXT: "{NEWLINE} The Leadership of Cultists consists of their priests and their aspiring champions who are fanatically loyal to their cause. During interrogation they spoke in incoherent sentences. With more evidence we might be able to resolve how they fit into the bigger puzzle."
+  STR_KHORNE_CULTISTS_LEADERSHIP_AC: "Cultist Leadership"
+  STR_KHORNE_CULTISTS_LEADERSHIP_AC_TEXT: "{NEWLINE} The Leadership of Cultists consists of their priests and their aspiring champions who are fanatically loyal to their cause. During interrogation they spoke in incoherent sentences. With more evidence we might be able to resolve how they fit into the bigger puzzle."
 
-  STR_CULTIST_EVIDENCE: "Cultist Evidence"
-  STR_CULTIST_EVIDENCE_TEXT: "{NEWLINE} The evidences consists of scripts and chants as well their sacrifices commited in their summonings. With this we can piece the puzzle on the plot of the Cultists together."
+  STR_KHORNE_CULTISTS_EVIDENCE_AC: "Cultist Evidence"
+  STR_KHORNE_CULTISTS_EVIDENCE_AC_TEXT: "{NEWLINE} The evidences consists of scripts and chants as well their sacrifices commited in their summonings. With this we can piece the puzzle on the plot of the Cultists together."
 
-  STR_CULTIST_PLOT: "Cultist Plot"
-  STR_CULTIST_PLOT_TEXT: "{NEWLINE} It is now obvious that the Cultists are supported by some other faction to destabilize the society. For this purpose the cultists incite rebellious acts in the hives to collect sacrifices for their summons. The Aspiring Champions are made ready for their transformations into daemons to open pathways to the Warp.
+  STR_KHORNE_CULTISTS_PLOT_AC: "Cultist Plot"
+  STR_KHORNE_CULTISTS_PLOT_AC_TEXT: "{NEWLINE} It is now obvious that the Cultists are supported by some other faction to destabilize the society. For this purpose the cultists incite rebellious acts in the hives to collect sacrifices for their summons. The Aspiring Champions are made ready for their transformations into daemons to open pathways to the Warp.
     {NEWLINE}{NEWLINE}Also we were able to pin point the source of these undoings. We should have found them by the end of next month."
 
-  STR_CULTIST_KHORNE_DEFEATED_AC: "Khorne Cultist Menace Defeated"
-  STR_CULTIST_KHORNE_DEFEATED_AC_TEXT: "TODO"
+  STR_KHORNE_CULTISTS_DEFEATED_AC: "Khorne Cultist Menace Defeated"
+  STR_KHORNE_CULTISTS_DEFEATED_AC_TEXT: "TODO"
 
 ## Missions
 # type

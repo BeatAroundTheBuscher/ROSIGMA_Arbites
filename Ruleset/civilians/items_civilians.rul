@@ -95,7 +95,7 @@ items:
     damageType: 3
     recover: false
 
-  - type: STR_CULTIST_EVIDENCE
+  - type: STR_KHORNE_CULTISTS_EVIDENCE_AC
 
   - type: STR_CIVILIAN_CAPTIVE_AC
     size: 0.0

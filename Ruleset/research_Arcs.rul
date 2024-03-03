@@ -6,44 +6,54 @@ research:
 
 ### Story Arc - Cultist Menace
 
-  - name: STR_BEGINNING_INVESTIGATION
+  - name: STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC
     cost: 100
     points: 50
 
-  - name: STR_CULTIST_MENACE
+  - name: STR_KHORNE_CULTISTS_PREREQUISITE_1_AC # first one gives soldier info
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_KHORNE_CULTISTS_PREREQUISITE_2_AC # second gives plot advancement
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_KHORNE_CULTISTS_MENACE_AC
     cost: 200
     points: 100
     dependencies:
-      - STR_KHORNE_CULTISTS_AC
+      # - STR_KHORNE_CULTISTS_AC
+      - STR_KHORNE_CULTISTS_PREREQUISITE_1_AC
+      - STR_KHORNE_CULTISTS_PREREQUISITE_2_AC
       - STR_KHORNE_CULTISTS_CORPSE_AC
-      - STR_BEGINNING_INVESTIGATION
+      - STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC
 #      - STR_INTERROGATION_COMPLETED
     unlocks:
       - STR_JUDGE_RECRUITMENT_AC
       - STR_CYBER_MASTIFF_RECRUITMENT_AC
 
-  - name: STR_CULTIST_LEADERSHIP
+  - name: STR_KHORNE_CULTISTS_LEADERSHIP_AC
     cost: 200
     points: 100
     dependencies:
       - STR_KHORNE_CULTISTS_PRIEST_AC
       - STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
 
-  - name: STR_CULTIST_EVIDENCE
+  - name: STR_KHORNE_CULTISTS_EVIDENCE_AC
     cost: 200
     points: 100
     needItem: true
     dependencies:
-      - STR_CULTIST_MENACE
+      - STR_KHORNE_CULTISTS_MENACE_AC
 
-  - name: STR_CULTIST_PLOT
+  - name: STR_KHORNE_CULTISTS_PLOT_AC
     cost: 200
     points: 100
     dependencies:
-      - STR_CULTIST_LEADERSHIP
-      - STR_CULTIST_EVIDENCE
+      - STR_KHORNE_CULTISTS_LEADERSHIP_AC
+      - STR_KHORNE_CULTISTS_EVIDENCE_AC
 
-  - name: STR_CULTIST_KHORNE_DEFEATED_AC
+  - name: STR_KHORNE_CULTISTS_DEFEATED_AC
     cost: 0
     points: 0
     dependencies:

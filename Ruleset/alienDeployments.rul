@@ -529,7 +529,7 @@ alienDeployments:
     markerName: STR_CULTIST_RITUALS
     duration: [48, 72]
     despawnPenalty: 250
-    missionBountyItem: STR_CULTIST_EVIDENCE
+    missionBountyItem: STR_KHORNE_CULTISTS_EVIDENCE_AC
 
 
   - type: STR_TRAITOR_OUTPOST
@@ -707,7 +707,7 @@ alienDeployments:
     markerName: STR_CATACOMB_SITE
     duration: [120, 240]
     despawnPenalty: 100
-    unlockedResearch: STR_CULTIST_KHORNE_DEFEATED_AC
+    unlockedResearch: STR_KHORNE_CULTISTS_DEFEATED_AC
 
 
   - type: STR_UNDERHIVE_AC

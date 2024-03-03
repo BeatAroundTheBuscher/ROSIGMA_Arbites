@@ -14,15 +14,15 @@ research:
     cost: 200
     points: 100
     dependencies:
-      - STR_BEGINNING_INVESTIGATION
-      - STR_CULTIST_MENACE
+      - STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC
+      - STR_KHORNE_CULTISTS_MENACE_AC
 
   - name: STR_BALLISTIC_WEAPONS_ADVANCED_AC
     cost: 200
     points: 100
     dependencies:
-      - STR_BEGINNING_INVESTIGATION
-      - STR_CULTIST_MENACE
+      - STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC
+      - STR_KHORNE_CULTISTS_MENACE_AC
       - STR_GENERAL_LOCK_AC
 
   - name: STR_ANTI_ARMOR_AC
@@ -177,22 +177,28 @@ research:
     unlocks:
       - STR_KHORNE_CULTISTS_AC
 
+  - name: STR_KHORNE_CULTISTS_CULTIST_AC
+    sequentialGetOneFree: true
+    getOneFree:
+      - STR_KHORNE_CULTISTS_PREREQUISITE_1_AC
+      - STR_KHORNE_CULTISTS_PREREQUISITE_2_AC
+
   - name: STR_KHORNE_CULTISTS_PRIEST_AC
     refNode: *STR_CAPTURE
     dependencies: 
-      - STR_CULTIST_MENACE
+      - STR_KHORNE_CULTISTS_MENACE_AC
     unlocks: []
 
   - name: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
     refNode: *STR_CAPTURE
     dependencies: 
-      - STR_CULTIST_MENACE
+      - STR_KHORNE_CULTISTS_MENACE_AC
     unlocks: []
 
   - name: STR_KHORNE_CULTISTS_DARKDISCIPLE_AC
     refNode: *STR_CAPTURE
     dependencies: 
-      - STR_CULTIST_MENACE
+      - STR_KHORNE_CULTISTS_MENACE_AC
     unlocks: []
 
 # Transformed into STR_KHORNE_CULTISTS_AC with liveAlien:
