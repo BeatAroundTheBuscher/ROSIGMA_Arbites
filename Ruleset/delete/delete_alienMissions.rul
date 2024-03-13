@@ -1,13 +1,17 @@
 alienMissions:
   - delete: STR_ADEPTAS_WAR
   - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_ABDUCTION_K
   - delete: STR_ALIEN_ARTIFACT
   - delete: STR_ALIEN_BASE
   - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_HARVEST_N
   - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_INFILTRATION_S
   - delete: STR_ALIEN_INTERCEPTION
   - delete: STR_ALIEN_PATROL
   - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_RESEARCH_T
   - delete: STR_ALIEN_RETALIATION
   - delete: STR_ALIEN_SABOTAGE
   - delete: STR_ALIEN_SUPPLY

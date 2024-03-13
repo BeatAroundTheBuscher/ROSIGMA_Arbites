@@ -157,7 +157,6 @@ ufopaedia:
   - delete: STR_CANNON_UC
   - delete: STR_CAPTAIN_UC
   - delete: STR_CARNI_AUTOPSY
-  - delete: STR_CARNI_TERRORIST
   - delete: STR_CASSC
   - delete: STR_CASSIUM
   - delete: STR_CASSIUMPD
@@ -200,6 +199,7 @@ ufopaedia:
   - delete: STR_CHRYSSALID_AUTOPSY
   - delete: STR_CLAWS
   - delete: STR_CMAS
+  - delete: STR_COBRA
   - delete: STR_COMMISSAR_CARAPACE_UC
   - delete: STR_COMMISSAR_UC
   - delete: STR_COMUNICATIONS
@@ -283,6 +283,8 @@ ufopaedia:
   - delete: STR_EXAMINATION_ROOM
   - delete: STR_EXECUTING_TRAITORS
   - delete: STR_FIRESTORM
+  - delete: STR_FLAMER_ARMOR
+  - delete: STR_FLAMER_AUTOPSY
   - delete: STR_FLAMETHROWER
   - delete: STR_FLAMETHROWER_CLIP
   - delete: STR_FLARE_LAUNCH_UC
@@ -367,6 +369,7 @@ ufopaedia:
   - delete: STR_HELP1
   - delete: STR_HELP10
   - delete: STR_HELP11
+  - delete: STR_HELP12
   - delete: STR_HELP15
   - delete: STR_HELP17
   - delete: STR_HELP2
@@ -406,7 +409,6 @@ ufopaedia:
   - delete: STR_ISB
   - delete: STR_JUDGE_ARMOR_UC
   - delete: STR_JUDGE_BIKE_ARMOR_UC
-  - delete: STR_KHRONE_TERRORIST
   - delete: STR_KHRONE_TERRORIST_AUTOPSY
   - delete: STR_KILLA_AUTOPSY
   - delete: STR_KNIF
@@ -546,6 +548,7 @@ ufopaedia:
   - delete: STR_ORK_RL
   - delete: STR_OUTPOST
   - delete: STR_OUTPOST_ADEPTAS
+  - delete: STR_OUTPOST_GK
   - delete: STR_OUTPOST_GUARD
   - delete: STR_OUTPOST_MARINES
   - delete: STR_OVERWEIGHT_PENALTY
@@ -587,8 +590,6 @@ ufopaedia:
   - delete: STR_POWER_SWORD_SUP
   - delete: STR_PREATOR
   - delete: STR_PREATORPD
-  - delete: STR_PREDATOR
-  - delete: STR_PREDATORSIDE
   - delete: STR_PRIMARIS
   - delete: STR_PRISION
   - delete: STR_PROMOTE_OFFICER
@@ -622,6 +623,7 @@ ufopaedia:
   - delete: STR_RIFLE_CLIP_N
   - delete: STR_RIFLE_CLIP_R
   - delete: STR_RIFLED
+  - delete: STR_RIFLEDW
   - delete: STR_RIPPER_GUN
   - delete: STR_RIPPER_GUN_CLIP
   - delete: STR_ROCKET_LAUNCHER
@@ -632,10 +634,13 @@ ufopaedia:
   - delete: STR_SCION_CARAPACE_ARMOR
   - delete: STR_SCION_CARAPACE_ARMOR_HELLGUN
   - delete: STR_SCION_CARAPACE_ARMOR_VOLLEYGUN
+  - delete: STR_SCORPION
   - delete: STR_SCORPION_AUTOPSY
   - delete: STR_SCOUT
   - delete: STR_SCOUTH_UC
   - delete: STR_SCOUT_UC
+  - delete: STR_SCREAMER_ARMOR
+  - delete: STR_SCREAMER_AUTOPSY
   - delete: STR_SECTOID
   - delete: STR_SECTOID_ARMOR0
   - delete: STR_SECTOID_ARMORP
@@ -766,7 +771,6 @@ ufopaedia:
   - delete: STR_VULTURE
   - delete: STR_WAGGON_CONVOY_UFO
   - delete: STR_WAGGON_UFO
-  - delete: STR_WARPTALON
   - delete: STR_WARPTALON_ARMOR
   - delete: STR_WARPTALON_AUTOPSY
   - delete: STR_WEAPON_EMPLACEMENTS
@@ -781,5 +785,4 @@ ufopaedia:
   - delete: STR_WRAITH_MELEE_WEAPON
   - delete: STR_WS
   - delete: STR_XENO_AUTOPSY
-  - delete: STR_XENO_SOLDIER
   - delete: STR_XIPHON_GK

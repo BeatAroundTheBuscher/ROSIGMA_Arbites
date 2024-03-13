@@ -1,5 +1,9 @@
 alienDeployments:
   - delete: STR_ABDUCTOR
+  - delete: STR_ABDUCTOR_K
+  - delete: STR_ABDUCTOR_N
+  - delete: STR_ABDUCTOR_S
+  - delete: STR_ABDUCTOR_T
   - delete: STR_ADEPTAS_WAR
   - delete: STR_ALIEN_BASE_ASSAULT
   - delete: STR_ALIEN_BASE_ASSAULT2
@@ -8,6 +12,10 @@ alienDeployments:
   - delete: STR_ARTIFACT_SITE_P2
   - delete: STR_BASE_DEFENSE
   - delete: STR_BATTLESHIP
+  - delete: STR_BATTLESHIP_K
+  - delete: STR_BATTLESHIP_N
+  - delete: STR_BATTLESHIP_S
+  - delete: STR_BATTLESHIP_T
   - delete: STR_BULLGRYN_RIOT
   - delete: STR_CAT
   - delete: STR_CHAOS_FINAL_ASSAULT
@@ -44,10 +52,26 @@ alienDeployments:
   - delete: STR_GUARD_TRAINING
   - delete: STR_HANGAR
   - delete: STR_HARVESTER
+  - delete: STR_HARVESTER_K
+  - delete: STR_HARVESTER_N
+  - delete: STR_HARVESTER_S
+  - delete: STR_HARVESTER_T
   - delete: STR_HELLS
+  - delete: STR_HELLS_K
+  - delete: STR_HELLS_N
+  - delete: STR_HELLS_S
+  - delete: STR_HELLS_T
   - delete: STR_HELLT
+  - delete: STR_HELLT_K
+  - delete: STR_HELLT_N
+  - delete: STR_HELLT_S
+  - delete: STR_HELLT_T
   - delete: STR_LARGE_SCOUT
   - delete: STR_LARGE_SCOUT_CULTISTS_MARINES
+  - delete: STR_LARGE_SCOUT_K
+  - delete: STR_LARGE_SCOUT_N
+  - delete: STR_LARGE_SCOUT_S
+  - delete: STR_LARGE_SCOUT_T
   - delete: STR_LARGE_SCOUT_TRAITOR_GUARD_MARINES
   - delete: STR_MARINE_ASSAULT_SITE
   - delete: STR_MARS_CYDONIA_ENTRANCE
@@ -61,6 +85,10 @@ alienDeployments:
   - delete: STR_MARS_THE_FINAL_ASSAULT
   - delete: STR_MEDIUM_SCOUT
   - delete: STR_MEDIUM_SCOUT_CULTISTS_MARINES
+  - delete: STR_MEDIUM_SCOUT_K
+  - delete: STR_MEDIUM_SCOUT_N
+  - delete: STR_MEDIUM_SCOUT_S
+  - delete: STR_MEDIUM_SCOUT_T
   - delete: STR_MEDIUM_SCOUT_TRAITOR_GUARD_MARINES
   - delete: STR_MONOLITH
   - delete: STR_NECRON_TERROR
@@ -83,7 +111,10 @@ alienDeployments:
   - delete: STR_RIOT
   - delete: STR_SABOTAGE_MISSION
   - delete: STR_SMALL_SCOUT
-  - delete: STR_SMALL_SCOUT2
+  - delete: STR_SMALL_SCOUT_K
+  - delete: STR_SMALL_SCOUT_N
+  - delete: STR_SMALL_SCOUT_S
+  - delete: STR_SMALL_SCOUT_T
   - delete: STR_SPACESHIP_M7
   - delete: STR_SPACESHIP_M8
   - delete: STR_SPACESHIP_M8_PART2
@@ -91,6 +122,10 @@ alienDeployments:
   - delete: STR_SPACESHIP_M9_PART2
   - delete: STR_STORMRAVEN_UFO
   - delete: STR_SUPPLY_SHIP
+  - delete: STR_SUPPLY_SHIP_K
+  - delete: STR_SUPPLY_SHIP_N
+  - delete: STR_SUPPLY_SHIP_S
+  - delete: STR_SUPPLY_SHIP_T
   - delete: STR_TANITH_MISSION0
   - delete: STR_TANITH_MISSION_CONVOYAMBUSH
   - delete: STR_TANKHUNT
@@ -99,6 +134,10 @@ alienDeployments:
   - delete: STR_TERROR_MISSION_TRAITOR_GUARD_MARINES
   - delete: STR_TERROR_SHIP
   - delete: STR_TERROR_SHIP_CULTISTS_MARINES
+  - delete: STR_TERROR_SHIP_K
+  - delete: STR_TERROR_SHIP_N
+  - delete: STR_TERROR_SHIP_S
+  - delete: STR_TERROR_SHIP_T
   - delete: STR_TERROR_SHIP_TRAITOR_GUARD_MARINES
   - delete: STR_TOMB_NECRON
   - delete: STR_TRAIN_MISSION
@@ -110,6 +149,7 @@ alienDeployments:
   - delete: STR_TRAITOR_GUARD_BASE_LEVEL_1
   - delete: STR_TRAITOR_GUARD_BASE_LEVEL_2
   - delete: STR_TRAITOR_GUARD_BASE_LEVEL_3
+  - delete: STR_TRAITOR_GUARD_BASE_LEVEL_4
   - delete: STR_TRAITOR_GUARD_BASE_START
   - delete: STR_TRAITOR_GUARD_FIRING_RANGE
   - delete: STR_TRUKK_UFO

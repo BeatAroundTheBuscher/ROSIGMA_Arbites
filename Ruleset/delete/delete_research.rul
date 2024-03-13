@@ -12,6 +12,7 @@ research:
   - delete: STR_ADEPTAS_ARMORSUP
   - delete: STR_ADEPTAS_HIGHTIER
   - delete: STR_ADEPTAS_MIDTIER
+  - delete: STR_ADV_DROPPODS
   - delete: STR_ALIEN_ABDUCTION
   - delete: STR_ALIEN_ALLOYS
   - delete: STR_ALIEN_BASE
@@ -172,6 +173,8 @@ research:
   - delete: STR_ETHEREAL_SOLDIER
   - delete: STR_ETHEREAL_SOLDIER_NW
   - delete: STR_EXAMINATION_ROOM
+  - delete: STR_FLAMER_CORPSE
+  - delete: STR_FLAMER_TERRORIST
   - delete: STR_FLOATER
   - delete: STR_FLOATER_AUTOPSY
   - delete: STR_FLOATER_COMMANDER
@@ -375,8 +378,11 @@ research:
   - delete: STR_REINFORCEMENT_9
   - delete: STR_SARGENT_ARMOR
   - delete: STR_SCORPION_CORPSE
+  - delete: STR_SCORPION_R
   - delete: STR_SCOUT
   - delete: STR_SCOUTH_RESEARCH
+  - delete: STR_SCREAMER_CORPSE
+  - delete: STR_SCREAMER_TERRORIST
   - delete: STR_SECTOID
   - delete: STR_SECTOID_AUTOPSY
   - delete: STR_SECTOID_COMMANDER

@@ -14,8 +14,10 @@ crafts:
   - delete: STR_CHIMERA
   - delete: STR_CHIMERAPD
   - delete: STR_CHIMERAPDH
+  - delete: STR_COBRA
   - delete: STR_CORVUS
   - delete: STR_DROP
+  - delete: STR_DROPPODS
   - delete: STR_DW_LANDRAIDER
   - delete: STR_DW_THUNDERHAWNK
   - delete: STR_DW_TT
@@ -40,6 +42,7 @@ crafts:
   - delete: STR_REPULSOR_DW
   - delete: STR_REPULSOR_T
   - delete: STR_REPULSOR_T_DW
+  - delete: STR_SCORPION
   - delete: STR_SKYRANGER
   - delete: STR_SPEEDC
   - delete: STR_STORMEAGLE

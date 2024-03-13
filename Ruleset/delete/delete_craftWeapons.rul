@@ -19,6 +19,7 @@ craftWeapons:
   - delete: STR_PLASMA_BEAM_UC
   - delete: STR_RETICULE_UC
   - delete: STR_SCANNER_UC
+  - delete: STR_SCORPION_PULSAR_UC
   - delete: STR_STINGRAY
   - delete: STR_TARGETER_UC
   - delete: STR_THRUSTER_UC

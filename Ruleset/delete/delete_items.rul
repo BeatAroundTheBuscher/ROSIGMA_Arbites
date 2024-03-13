@@ -59,6 +59,10 @@ items:
   - delete: 8_CENT2
   - delete: 8_CENT3
   - delete: 8_CENT4
+  - delete: 8_SCREAMER1
+  - delete: 8_SCREAMER2
+  - delete: 8_SCREAMER3
+  - delete: 8_SCREAMER4
   - delete: 9_ORK1
   - delete: 9_ORK2
   - delete: 9_ORK3
@@ -128,6 +132,10 @@ items:
   - delete: DEFILER_WEAPON_L
   - delete: DEFILER_WEAPON_R
   - delete: DM_WEAPON
+  - delete: DP_CORPSE1
+  - delete: DP_CORPSE2
+  - delete: DP_CORPSE3
+  - delete: DP_CORPSE4
   - delete: DREAD_CORPSE1
   - delete: DREAD_CORPSE2
   - delete: DREAD_CORPSE3
@@ -538,7 +546,10 @@ items:
   - delete: STR_DREAD5_ARMOR
   - delete: STR_DREAD_CORPSE
   - delete: STR_DREAD_MELEE_WEAPON
+  - delete: STR_DROPPOD_CORPSE
   - delete: STR_DROPPOD_DEPLOY_CHARGE
+  - delete: STR_DROPPOD_SPAWNER
+  - delete: STR_DROPPOD_WEAPON
   - delete: STR_DSTARCANNON
   - delete: STR_DW_CAP_ARMOR_UC
   - delete: STR_DW_DREAD_MELEE
@@ -1096,6 +1107,7 @@ items:
   - delete: STR_SCARAB_SPAWNER
   - delete: STR_SCORPION_CORPSE
   - delete: STR_SCORPION_CORPSE_P
+  - delete: STR_SCORPION_PULSAR
   - delete: STR_SCOUT_CORPSE
   - delete: STR_SCOUTH
   - delete: STR_SCOUTHB
@@ -1105,6 +1117,10 @@ items:
   - delete: STR_SCOUTHW
   - delete: STR_SCOUTHY
   - delete: STR_SCOUTZ_CORPSE
+  - delete: STR_SCREAMER_CORPSE
+  - delete: STR_SCREAMER_SPAWNER
+  - delete: STR_SCREAMER_TERRORIST
+  - delete: STR_SCREAMER_WEAPON
   - delete: STR_SECTOID_COMMANDER
   - delete: STR_SECTOID_CORPSE
   - delete: STR_SECTOID_ENGINEER

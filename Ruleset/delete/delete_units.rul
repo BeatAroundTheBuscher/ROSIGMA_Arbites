@@ -38,6 +38,7 @@ units:
   - delete: STR_CYBERDISC_TERRORIST
   - delete: STR_DAMOCLES
   - delete: STR_DAMOCLESPD
+  - delete: STR_DROPPOD
   - delete: STR_DW_ZOMBIE_TACTICAL
   - delete: STR_DW_ZOMBIE_TER
   - delete: STR_ELDAR_BANSHEE
@@ -168,6 +169,7 @@ units:
   - delete: STR_RIOTER_M1
   - delete: STR_RTS
   - delete: STR_RTT
+  - delete: STR_SCREAMER_TERRORIST
   - delete: STR_SECTOID_COMMANDER
   - delete: STR_SECTOID_ENGINEER
   - delete: STR_SECTOID_LEADER
