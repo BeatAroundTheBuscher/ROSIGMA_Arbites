@@ -1,12 +1,12 @@
 name: "40k Rosigmunda"
 version: "0.4"
 author: "Buscher"
-description: "Campaign for the Arbites. Run with 40k (036)."
+description: "Campaign for the Arbites. Run with 40k (037)."
 id: 40k_rosigmunda
 master: 40k
 isMaster: true
 # resourceConfig: Ruleset/vars40k.rul
 reservedSpace: 3 # ToDo, change indices so this is not necessary
-requiredExtendedVersion: "7.8.19"
+requiredExtendedVersion: "7.12"
 requiredExtendedEngine: "Extended"
-requiredMasterModVersion: "036"
+requiredMasterModVersion: "037"
