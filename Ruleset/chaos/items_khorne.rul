@@ -1,12 +1,3 @@
-extended:
-  tags:
-    RuleItem:
-      ITEM_PRIMED_AT_BATTLE_START: int
-      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: int
-      ITEM_SETS_MISSION_TIMER: int
-      ITEM_PRIMED_BY_MISSION_TIMER: int
-      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
-
 items:
   - type: STR_KHORNE_CULTISTS_CORPSE_AC # geoItem only
     size: 0.4
@@ -116,18 +107,7 @@ items:
     hitAnimation: {mod: 40k, index: 1992}
     armor: 255
 
-  - type: STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC
-    recover: false
-    invWidth: 0
-    invHeight: 0
-    battleType: 10
-    hitAnimation: {mod: 40k, index: 1990}
-    armor: 255
-    hiddenOnMinimap: true
-    tags:
-      ITEM_PRIMED_AT_BATTLE_START: 10
-      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: 10
-      ITEM_SETS_MISSION_TIMER: 1
+
 
   - type: STR_WINGED_DAEMON_CORPSE_AC
     size: 1

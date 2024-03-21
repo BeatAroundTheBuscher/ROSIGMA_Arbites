@@ -786,3 +786,4 @@ ufopaedia:
   - delete: STR_WS
   - delete: STR_XENO_AUTOPSY
   - delete: STR_XIPHON_GK
+  - delete: STR_AUTO_CANNON_DW

@@ -1,12 +1,3 @@
-extended:
-  tags:
-    RuleItem:
-      ITEM_PRIMED_AT_BATTLE_START: int
-      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: int
-      ITEM_SETS_MISSION_TIMER: int
-      ITEM_PRIMED_BY_MISSION_TIMER: int
-      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
-
 items:
   - type: STR_GENE_CULTISTS_CORPSE_AC # geoItem only
     size: 0.4
