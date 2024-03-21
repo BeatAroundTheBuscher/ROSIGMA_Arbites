@@ -174,7 +174,7 @@ items:
 
   - &STR_SACRIFICE_SPAWNER
     type: STR_SACRIFICE_M0_SPAWNER_AC
-    spawnUnit: STR_CIVILIAN_M0_AC # STR_CIVILIAN_SACRIFICE_M0
+    spawnUnit: STR_SACRIFICE_M0_AC # STR_CIVILIAN_SACRIFICE_M0
     spawnUnitFaction: 2
     recover: false
     invWidth: 0
@@ -182,20 +182,18 @@ items:
     battleType: 4
     hitAnimation: {mod: 40k, index: 1992}
     armor: 255
-    tags:
-      ITEM_PRIMED_AT_BATTLE_START: -1
 
   - type: STR_SACRIFICE_M1_SPAWNER_AC
     refNode: *STR_SACRIFICE_SPAWNER
-    spawnUnit: STR_CIVILIAN_M1_AC
+    spawnUnit: STR_SACRIFICE_M1_AC
 
   - type: STR_SACRIFICE_F0_SPAWNER_AC
     refNode: *STR_SACRIFICE_SPAWNER
-    spawnUnit: STR_CIVILIAN_F0_AC
+    spawnUnit: STR_SACRIFICE_F0_AC
 
   - type: STR_SACRIFICE_F1_SPAWNER_AC
     refNode: *STR_SACRIFICE_SPAWNER
-    spawnUnit: STR_CIVILIAN_F1_AC
+    spawnUnit: STR_SACRIFICE_F1_AC
 
   - &STR_CIVILIAN_CAPTURES
     type: STR_CIVILIAN_F0_CORPSE_AC

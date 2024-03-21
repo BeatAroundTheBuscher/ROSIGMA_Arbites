@@ -62,6 +62,12 @@ en-US:
   STR_CIVILIAN_F0_AC: "Civilian"
   STR_CIVILIAN_F1_AC: "Civilian"
 
+  STR_SACRIFICE_M0_AC: "Civilian"
+  STR_SACRIFICE_M1_AC: "Civilian"
+  STR_SACRIFICE_F0_AC: "Civilian"
+  STR_SACRIFICE_F1_AC: "Civilian"
+
+
   STR_MUNITORIUM_AC: "Munitorium"
 
 
@@ -79,6 +85,7 @@ en-US:
   STR_KHORNE_CULTISTS_CULTIST_AC: "Khorne Cultist"
   STR_KHORNE_CULTISTS_FEMCULTIST_DRUG_AC: "Khorne Cultist"
   STR_KHORNE_CULTISTS_CULTIST_DRUG_AC: "Khorne Cultist"
+  STR_KHORNE_CULTISTS_RITUALIST_AC: "Khorne Cultist"
 
   STR_KHORNE_CULTISTS_CORPSE_AC: "Khorne Cultist Corpse"
   STR_KHORNE_CULTISTS_PRIEST_CORPSE_AC: "Khorne Cultist Corpse"
@@ -94,7 +101,9 @@ en-US:
   STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC: "Khorne Cultist Soldier"
   STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC: "Khorne Female Cultist"
   STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC: "Khorne Cultist"
+  STR_KHORNE_CULTISTS_RITUALIST_ARMOR_AC: "Khorne Cultist"
   STR_KHORNE_CULTISTS_AUTOPSY_AC: "Khorne Cultists"
+  
 
 
   STR_BLOODLETTER_DAEMON_AC: "Bloodletter Daemon"

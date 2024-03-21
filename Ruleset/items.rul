@@ -1,12 +1,3 @@
-extended:
-  tags:
-    RuleItem:
-      ITEM_PRIMED_AT_BATTLE_START: int
-      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: int
-      ITEM_SETS_MISSION_TIMER: int
-      ITEM_PRIMED_BY_MISSION_TIMER: int
-      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
-
 items:
   - type: STR_ENFORCER_CORPSE_AC
     name: STR_CORPSE
@@ -112,9 +103,6 @@ items:
     hitAnimation: {mod: 40k, index: 113}
     armor: 255
     hiddenOnMinimap: true
-    tags:
-      ITEM_PRIMED_AT_BATTLE_START: 1
-      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 1
 
   - type: STR_CULTIST_SUMMONING_LEVEL_1_TIMER_AC
     recover: false
@@ -124,10 +112,6 @@ items:
     hitAnimation: {mod: 40k, index: 1990}
     armor: 255
     hiddenOnMinimap: true
-    tags:
-      ITEM_PRIMED_AT_BATTLE_START: 2
-      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: 10
-      ITEM_SETS_MISSION_TIMER: 1
 
   - type: STR_CULTIST_SUMMONING_LEVEL_1_TICKER_AC
     recover: false
@@ -137,8 +121,6 @@ items:
     hitAnimation: {mod: 40k, index: 1990}
     armor: 255
     hiddenOnMinimap: true
-    tags:
-      ITEM_NEW_TURN_CHANGES_MISSION_TIMER: 1
 
   - type: STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC
     recover: false
@@ -158,9 +140,6 @@ items:
     hitAnimation: {mod: 40k, index: 1992}
     armor: 255
     hiddenOnMinimap: true
-    tags:
-      ITEM_PRIMED_AT_BATTLE_START: 1
-      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 2
 
 
   - type: STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_AC
@@ -183,9 +162,6 @@ items:
     hitAnimation: {mod: 40k, index: 1992}
     armor: 255
     hiddenOnMinimap: true
-    tags:
-      ITEM_PRIMED_AT_BATTLE_START: 1
-      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 1
 
   - type: STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC
     recover: false
@@ -195,10 +171,6 @@ items:
     hitAnimation: {mod: 40k, index: 1990}
     armor: 255
     hiddenOnMinimap: true
-    tags:
-      ITEM_PRIMED_AT_BATTLE_START: 2
-      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: 10
-      ITEM_SETS_MISSION_TIMER: 1
 
   - type: STR_TARANTULA_SPAWNER_ENEMY_AC
     spawnUnit: STR_TARANTULA_BOLTER_AC

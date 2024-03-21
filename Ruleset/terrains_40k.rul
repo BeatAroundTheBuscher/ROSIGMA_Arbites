@@ -2094,19 +2094,19 @@ terrains:
         items:
           STR_CULTIST_SUMMONING_LEVEL_1_TIMER_AC:
             - [8, 8, 0]
-          STR_CULTIST_SUMMONING_LEVEL_1_TICKER_AC:
-            - [8, 8, 0]
+#          STR_CULTIST_SUMMONING_LEVEL_1_TICKER_AC: # this adds time to the MISSION_TIMER Tag
+#            - [8, 8, 0]
           STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_AC:
             - [8, 8, 0]
-          # STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
-            # - [8, 4, 0]
-            # - [12, 8, 0]
-            # - [8, 12, 0]
-            # - [4, 8, 0]
-            #- [5, 5, 0]
-            #- [11, 5, 0]
-            #- [11, 12, 0]
-            #- [5, 11, 0]
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
+            - [8, 4, 0]
+            - [12, 8, 0]
+            - [8, 12, 0]
+            - [4, 8, 0]
+            # - [5, 5, 0]
+            # - [11, 5, 0]
+            # - [11, 12, 0]
+            # - [5, 11, 0]
 
   - name: INDUSTRIALURBANDIO
     mapDataSets:

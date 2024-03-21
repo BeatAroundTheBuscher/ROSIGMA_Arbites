@@ -1,0 +1,424 @@
+extended:
+  tagsFile: Ruleset/scripts/tags.rul
+  scripts:
+    createItem:
+#*** Sets tags items to have a primed fuse at the beginning of battle ***
+#*** Mostly used for scripted missions ***
+      - new: 40k_cI_prime_fuse_at_beginning
+        offset: 1
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int fuseTimer;
+          var int fuseTimerVariance;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag fuseTimer Tag.ITEM_PRIMED_AT_BATTLE_START;
+          itemRuleset.getTag fuseTimerVariance Tag.ITEM_PRIMED_AT_BATTLE_START_VARIANCE;
+
+          if neq 0 fuseTimer;
+
+            limit_lower fuseTimer 0;
+            battle_game.randomRange fuseTimerVariance 0 fuseTimerVariance;
+            add fuseTimer fuseTimerVariance;
+
+            item.setFuseTimer fuseTimer;
+
+          end;
+
+          return;
+
+#*** Sets a tag on the save game for timed objectives ***
+      - new: 40k_cI_save_timed_objectives
+        offset: 2
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int itemSetsMissionTimer;
+          var int fuseTimer;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag itemSetsMissionTimer Tag.ITEM_SETS_MISSION_TIMER;
+
+          if neq 0 itemSetsMissionTimer;
+
+            item.getFuseTimer fuseTimer;
+            battle_game.setTag Tag.MISSION_TIMER fuseTimer;
+
+          end;
+
+          return;
+
+#*** Primes items that are meant to be set according to the mission timer ***
+      - new: 40k_cI_prime_fuse_for_mission_timer
+        offset: 3
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int itemPrimedByMissionTimer;
+          var int missionTimer;
+          var int fuseTimerVariance;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag itemPrimedByMissionTimer Tag.ITEM_PRIMED_BY_MISSION_TIMER;
+          itemRuleset.getTag fuseTimerVariance Tag.ITEM_PRIMED_AT_BATTLE_START_VARIANCE;
+          battle_game.getTag missionTimer Tag.MISSION_TIMER;
+
+          if and neq 0 itemPrimedByMissionTimer neq 0 missionTimer;
+
+            if gt itemPrimedByMissionTimer 0;
+
+              sub itemPrimedByMissionTimer 1;
+
+            end;
+
+            battle_game.randomRange fuseTimerVariance 0 fuseTimerVariance;
+            add missionTimer itemPrimedByMissionTimer;
+            add missionTimer fuseTimerVariance;
+
+            item.setFuseTimer missionTimer;
+
+          end;
+
+          return;
+
+      #*** Sets timers for reinforcements spawned by items placed on battle maps ***
+      #*** Start by picking a turn for all the spawners for a given mission ***
+      - new: 40k_cI_map_placed_reinforcements_timer_tagger
+        offset: 4
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int earliestReinforcementTurn;
+          var int latestReinforcementTurn;
+          var int reinforcementTurn;
+
+          battle_game.getTag reinforcementTurn Tag.GAME_REINFORCEMENT_TURN;
+          if neq 0 reinforcementTurn;
+            return;
+          end;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag earliestReinforcementTurn Tag.ITEM_EARLIEST_REINFORCEMENT_TURN;
+          itemRuleset.getTag latestReinforcementTurn Tag.ITEM_LATEST_REINFORCEMENT_TURN;
+          if neq 0 earliestReinforcementTurn;
+
+            limit_lower latestReinforcementTurn earliestReinforcementTurn;
+            battle_game.randomRange reinforcementTurn earliestReinforcementTurn latestReinforcementTurn;
+            battle_game.setTag Tag.GAME_REINFORCEMENT_TURN reinforcementTurn;
+
+          end;
+
+          return;
+
+      - new: 40k_cI_map_placed_reinforcements_timer_prime_fuse
+        offset: 5
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int earliestReinforcementTurn;
+          var int reinforcementTurn;
+          var int reinforcementChance;
+
+          battle_game.getTag reinforcementTurn Tag.GAME_REINFORCEMENT_TURN;
+          if eq 0 reinforcementTurn;
+            return;
+          end;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag earliestReinforcementTurn Tag.ITEM_EARLIEST_REINFORCEMENT_TURN;
+          if neq 0 earliestReinforcementTurn;
+
+            # Make a random roll for whether or not this reinforcement spawner will be used
+            # Based on difficulty - 50% for lowest, 100% for highest
+            battle_game.difficultyLevel reinforcementChance;
+            muldiv reinforcementChance 50 4; # 50/4 = 12.5 -> difficulty 4 gets +50% chance
+            add reinforcementChance 50;
+
+            battle_game.randomChance reinforcementChance;
+            if neq 0 reinforcementChance;
+
+              item.setFuseTimer reinforcementTurn;
+
+            end;
+
+          end;
+
+          return;
+
+    createUnit:
+#*** Immobilizes a unit at the start of battle when scripted to activate later by mission timer ***
+      - new: 40k_cU_immobilize_till_mission_timer
+        offset: 1
+        code: |
+          var ptr RuleArmor armorRuleset;
+          var int unitImmobilizedUntilMissionTimer;
+
+          unit.getRuleArmor armorRuleset;
+          armorRuleset.getTag unitImmobilizedUntilMissionTimer Tag.UNIT_IMMOBILIZED_UNTIL_MISSION_TIMER;
+
+          if neq 0 unitImmobilizedUntilMissionTimer;
+
+            unit.setTimeUnits 0;
+
+          end;
+
+          return;
+
+    newTurnItem:
+#*** Changes the mission timer based on certain items existing ***
+      - new: 40k_nTI_change_mission_timer_depending_on_items
+        offset: 1
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int itemNewTurnChangesMissionTimer;
+          var int missionTimer;
+
+          var int fuseTimer;
+
+          # Don't run during neutral side's turn
+          if eq 2 side;
+            return;
+          end;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag itemNewTurnChangesMissionTimer Tag.ITEM_NEW_TURN_CHANGES_MISSION_TIMER;
+          battle_game.getTag missionTimer Tag.MISSION_TIMER;
+
+          if and neq 0 itemNewTurnChangesMissionTimer neq 0 missionTimer;
+
+            add missionTimer itemNewTurnChangesMissionTimer;
+            battle_game.setTag Tag.MISSION_TIMER missionTimer;
+
+          end;
+
+          return;
+
+      #*** Make sure we don't un-set the mission timer by making it 0 ***
+      - new: 40k_nTI_change_mission_timer_sanity_check
+        offset: 2
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int itemNewTurnChangesMissionTimer;
+          var int missionTimer;
+
+          # Don't run during neutral side's turn
+          if eq 2 side;
+            return;
+          end;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag itemNewTurnChangesMissionTimer Tag.ITEM_NEW_TURN_CHANGES_MISSION_TIMER;
+          battle_game.getTag missionTimer Tag.MISSION_TIMER;
+
+          if and neq 0 itemNewTurnChangesMissionTimer lt missionTimer 1;
+
+            set missionTimer 1;
+            battle_game.setTag Tag.MISSION_TIMER missionTimer;
+
+          end;
+
+          return;
+
+#*** Keeps fuses from reaching 0 until the mission timer is reached ***
+      - new: 40k_nTI_prevent_fuses_cooking_off_till_mission_timer
+        offset: 3
+        code: |
+          var ptr RuleItem itemRuleset;
+          var int itemFuseDelayedUntilMissionTimer;
+          var int fuseTimer;
+          var int missionTimer;
+          var int turnTimer;
+
+          # Don't run during neutral side's turn
+          if eq 2 side;
+            return;
+          end;
+
+          item.getRuleItem itemRuleset;
+          itemRuleset.getTag itemFuseDelayedUntilMissionTimer Tag.ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER;
+          item.getFuseTimer fuseTimer;
+          battle_game.getTag missionTimer Tag.MISSION_TIMER;
+
+          if and neq 0 itemFuseDelayedUntilMissionTimer  neq -1 fuseTimer neq 0 missionTimer;
+
+            if gt itemFuseDelayedUntilMissionTimer 0;
+
+              sub itemFuseDelayedUntilMissionTimer 1;
+
+            end;
+
+            add missionTimer itemFuseDelayedUntilMissionTimer;
+
+            # missionTimer is given in terms of grenade timers, need to convert turn and side to half turns
+            set turnTimer turn;
+            mul turnTimer 2;
+            add turnTimer side;
+
+            if and lt turnTimer missionTimer;
+
+              add fuseTimer 1;
+              item.setFuseTimer fuseTimer;
+
+            end;
+
+          end;
+
+          return;
+
+    newTurnUnit:
+#*** Changes the mission timer based on certain units existing ***
+#*** Runs before any of the items change the timer ***
+      - new: 40k_nTU_change_mission_timer_depending_on_units
+        offset: 1
+        code: |
+          var ptr RuleArmor armorRuleset;
+          var int unitNewTurnChangesMissionTimer;
+          var int unitNewTurnChangesMissionTimerMustBeConscious;
+          var int missionTimer;
+          var int unitHealth;
+          var int unitStun;
+
+          # Don't run during neutral side's turn
+          if eq 2 side;
+            return;
+          end;
+
+          unit.getRuleArmor armorRuleset;
+          armorRuleset.getTag unitNewTurnChangesMissionTimer Tag.UNIT_NEW_TURN_CHANGES_MISSION_TIMER;
+          battle_game.getTag missionTimer Tag.MISSION_TIMER;
+
+          armorRuleset.getTag unitNewTurnChangesMissionTimerMustBeConscious Tag.UNIT_NEW_TURN_CHANGES_MISSION_TIMER_MUST_BE_CONSCIOUS;
+          if neq 0 unitNewTurnChangesMissionTimerMustBeConscious;
+
+            unit.getHealth unitHealth;
+            unit.getStun unitStun;
+
+            if lt unitHealth unitStun;
+              return;
+            end;
+
+          end;
+
+          if and neq 0 unitNewTurnChangesMissionTimer neq 0 missionTimer;
+
+            add missionTimer unitNewTurnChangesMissionTimer;
+            battle_game.setTag Tag.MISSION_TIMER missionTimer;
+
+          end;
+
+          return;
+
+#*** Immobilizes a unit by zeroing their time units until a turn related to the mission timer ***
+      - new: 40k_nTU_immobilize_till_mission_timer
+        offset: 2
+        code: |
+          var ptr RuleArmor armorRuleset;
+          var int unitImmobilizedUntilMissionTimer;
+          var int missionTimer;
+          var int turnTimer;
+
+          unit.getRuleArmor armorRuleset;
+          armorRuleset.getTag unitImmobilizedUntilMissionTimer Tag.UNIT_IMMOBILIZED_UNTIL_MISSION_TIMER;
+          battle_game.getTag missionTimer Tag.MISSION_TIMER;
+
+          if and neq 0 unitImmobilizedUntilMissionTimer neq 0 missionTimer;
+
+            if gt unitImmobilizedUntilMissionTimer 0;
+
+              sub unitImmobilizedUntilMissionTimer 1;
+
+            end;
+
+            add missionTimer unitImmobilizedUntilMissionTimer;
+
+            # missionTimer is given in terms of grenade timers, need to convert turn and side to half turns
+            set turnTimer turn;
+            mul turnTimer 2;
+            add turnTimer side;
+
+            if and lt turnTimer missionTimer;
+
+              unit.setTimeUnits 0;
+
+            end;
+
+          end;
+
+          return;
+
+
+armors:
+  - type: STR_KHORNE_CULTISTS_RITUALIST_ARMOR_AC
+    tags:
+      UNIT_IMMOBILIZED_UNTIL_MISSION_TIMER: 1
+
+items:
+  - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: -1
+
+  - &STR_SACRIFICE_SPAWNER
+    type: STR_SACRIFICE_M0_SPAWNER_AC
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: -1
+
+  - type: STR_SACRIFICE_M1_SPAWNER_AC
+    refNode: *STR_SACRIFICE_SPAWNER
+    spawnUnit: STR_CIVILIAN_M1_AC
+
+  - type: STR_SACRIFICE_F0_SPAWNER_AC
+    refNode: *STR_SACRIFICE_SPAWNER
+    spawnUnit: STR_CIVILIAN_F0_AC
+
+  - type: STR_SACRIFICE_F1_SPAWNER_AC
+    refNode: *STR_SACRIFICE_SPAWNER
+    spawnUnit: STR_CIVILIAN_F1_AC
+
+
+#  - type: STR_SACRIFICE_FLAMER_SPAWNER
+#    tags:
+#      ITEM_PRIMED_AT_BATTLE_START: -1
+
+  - type: STR_SACRIFICE_BLOODLETTER_SPAWNER_AC
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: -1
+
+#  - type: STR_SACRIFICE_DAEMONETTE_SPAWNER
+#    tags:
+#      ITEM_PRIMED_AT_BATTLE_START: -1
+
+#  - type: STR_SACRIFICE_PLAGUEBEARER_SPAWNER
+#    tags:
+#      ITEM_PRIMED_AT_BATTLE_START: -1
+
+#  - type: STR_CULTIST_RITUALIST_SUMMONING_SPAWNER
+#    tags:
+#      ITEM_PRIMED_AT_BATTLE_START: -1
+
+
+  - type: STR_CULTIST_SACRIFICES_LEVEL_1_TIMER_AC # Cultists start killing and free the spawner grenades in civ inventory
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: 10 # 10/2 = 5 minimum turns
+      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: 10
+      ITEM_SETS_MISSION_TIMER: 1
+
+  - type: STR_CULTIST_SACRIFICES_DOOR_CHARGE_AC # doesn't really seem to work
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: 1
+      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 2
+
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_TIMER_AC
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: 10
+      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: 10
+      ITEM_SETS_MISSION_TIMER: 1
+
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_TICKER_AC
+    tags:
+      ITEM_NEW_TURN_CHANGES_MISSION_TIMER: 1
+
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_LIGHT_AC
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: 1
+      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 1
+
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_AC
+    tags:
+      ITEM_PRIMED_AT_BATTLE_START: 1
+      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: 1

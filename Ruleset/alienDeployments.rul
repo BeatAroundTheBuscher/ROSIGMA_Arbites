@@ -306,9 +306,9 @@ alienDeployments:
 
   - type: STR_CULTIST_SACRIFICES_LEVEL_1_AC
     data:
-      - alienRank: 0 # 2-2
-        lowQty: 2
-        highQty: 2
+      - alienRank: 0 # 1
+        lowQty: 1
+        highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
@@ -340,18 +340,6 @@ alienDeployments:
         lowQty: 4 #6
         highQty: 8 #8
         dQty: 4
-        percentageOutsideUfo: 0
-        itemSets: *emptyItemSets
-      - alienRank: 6 # 1-3
-        lowQty: 1 #6
-        highQty: 3 #8
-        dQty: 0
-        percentageOutsideUfo: 0
-        itemSets: *emptyItemSets
-      - alienRank: 7 # 1-3
-        lowQty: 1 #6
-        highQty: 3 #8
-        dQty: 0
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
     width: 50

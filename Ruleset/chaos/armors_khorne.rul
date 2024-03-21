@@ -28,6 +28,9 @@ armors:
       - 1.0 #MELTA
     loftempsSet: [ 2 ]
 
+  - type: STR_KHORNE_CULTISTS_RITUALIST_ARMOR_AC # same as STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC
+    refNode: *STR_KHORNE_CULTIST_ARMOR # except for tags
+
   - type: STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC
     refNode: *STR_KHORNE_CULTIST_ARMOR
     spriteSheet: FEMCULTIST.PCK

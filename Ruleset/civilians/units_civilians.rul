@@ -85,6 +85,27 @@ units:
     armor: CIVILIAN_ARMOR_F1_AC
     deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
 
+  - &STR_SACRIFICE
+    type: STR_SACRIFICE_M0_AC
+    refNode: *STR_CIVILIAN
+    armor: CIVILIAN_ARMOR_M1_AC
+    builtInWeaponSets:
+      - - STR_SACRIFICE_BLOODLETTER_SPAWNER_AC
+
+  - type: STR_SACRIFICE_M1_AC
+    refNode: *STR_SACRIFICE
+    armor: CIVILIAN_ARMOR_M1_AC
+
+  - type: STR_SACRIFICE_F0_AC
+    refNode: *STR_SACRIFICE
+    armor: CIVILIAN_ARMOR_F0_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+
+  - type: STR_SACRIFICE_F1_AC
+    refNode: *STR_SACRIFICE
+    armor: CIVILIAN_ARMOR_F1_AC
+    deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
+
   - type: STR_MONK1_AC
     refNode: *STR_CIVILIAN
     armor: MONK_ARMOR_1_AC

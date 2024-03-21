@@ -1,0 +1,24 @@
+extended:
+  tags:
+    BattleGame:
+      MISSION_TIMER: int
+
+#*** Tag for handling reinforcments by spawner items ***
+      GAME_REINFORCEMENT_TURN: int
+
+    RuleArmor:
+      UNIT_IMMOBILIZED_UNTIL_MISSION_TIMER: int
+      UNIT_NEW_TURN_CHANGES_MISSION_TIMER: int
+      UNIT_NEW_TURN_CHANGES_MISSION_TIMER_MUST_BE_CONSCIOUS: int
+
+    RuleItem:
+      ITEM_PRIMED_AT_BATTLE_START: int
+      ITEM_PRIMED_AT_BATTLE_START_VARIANCE: int
+      ITEM_SETS_MISSION_TIMER: int
+      ITEM_PRIMED_BY_MISSION_TIMER: int
+      ITEM_FUSE_DELAYED_UNTIL_MISSION_TIMER: int
+      ITEM_NEW_TURN_CHANGES_MISSION_TIMER: int
+
+#*** Tags for handling picking a random turn for reinforcements by spawner to show up ***
+      ITEM_EARLIEST_REINFORCEMENT_TURN: int
+      ITEM_LATEST_REINFORCEMENT_TURN: int

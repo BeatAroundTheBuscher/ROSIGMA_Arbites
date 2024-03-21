@@ -98,7 +98,7 @@ items:
     listOrder: 10070
 
   - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
-    spawnUnit: STR_KHORNE_CULTISTS_CULTIST_AC # STR_CULTIST_RITUALIST_SACRIFICES
+    spawnUnit: STR_KHORNE_CULTISTS_RITUALIST_AC # STR_CULTIST_RITUALIST_SACRIFICES
     spawnUnitFaction: 1
     recover: false
     invWidth: 0
@@ -210,3 +210,25 @@ items:
     invHeight: 3
     recover: false
     flatRate: true
+
+  - type: STR_SACRIFICE_BLOODLETTER_SPAWNER_AC
+    spawnUnit: STR_BLOODLETTER_DAEMON_AC
+    spawnUnitFaction: 1
+    recover: false
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    damageType: 3
+    power: 50
+    damageAlter:
+      FixRadius: 1
+      ToArmor: 0.0
+      ToHealth: 0.0
+      ToItem: 1.0
+      ToStun: 0.0
+      ToTile: 0.0
+      ToWound: 0.0
+    hitAnimation: {mod: 40k, index: 1992}
+    explosionHitSound: {mod: 40k, index: 737}
+    armor: 255
+    hiddenOnMinimap: true

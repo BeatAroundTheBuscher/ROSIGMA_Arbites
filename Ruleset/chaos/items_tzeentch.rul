@@ -90,15 +90,15 @@ items:
     costSell: 30000
     listOrder: 10060
 
-  - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
-    spawnUnit: STR_TZEENTCH_CULTISTS_ZEALOT_AC # STR_CULTIST_RITUALIST_SACRIFICES
-    spawnUnitFaction: 1
-    recover: false
-    invWidth: 0
-    invHeight: 0
-    battleType: 4
-    hitAnimation: {mod: 40k, index: 1992}
-    armor: 255
+#  - type: STR_CULTIST_RITUALIST_SACRIFICES_SPAWNER_AC
+#    spawnUnit: STR_TZEENTCH_CULTISTS_ZEALOT_AC # STR_CULTIST_RITUALIST_SACRIFICES
+#    spawnUnitFaction: 1
+#    recover: false
+#    invWidth: 0
+#    invHeight: 0
+#    battleType: 4
+#    hitAnimation: {mod: 40k, index: 1992}
+#    armor: 255
 
   - type: STR_FLAMER_DAEMON_CORPSE_AC
      #19910

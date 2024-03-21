@@ -1,18 +1,30 @@
 extended:
+  tagsFile: Ruleset/scripts/tags.rul
+
   scripts:
     newTurnUnit:
       - new: ROSIGMUNDA_nTU_less_start_tus_on_first_turn
         offset: 2
         code: |
+          var ptr RuleArmor rArmor;
           var int newTUs;
-          var int faction;
+          var int temp;
 
-          unit.getFaction faction;
+          unit.getFaction temp;
 
-          if and eq turn 1 eq faction FACTION_HOSTILE;
-            unit.getTimeUnitsMax newTUs;
-            muldiv newTUs 25 100;
-            unit.setTimeUnits newTUs;
+          if and eq turn 1 eq temp FACTION_HOSTILE;
+            unit.getRuleArmor rArmor;
+
+            rArmor.getTag temp Tag.UNIT_IMMOBILIZED_UNTIL_MISSION_TIMER;
+            if neq temp 0;
+              # debug_log "found Tag UNIT_IMMOBILIZED_UNTIL_MISSION_TIMER";
+              unit.setTimeUnits 0;
+              return;
+            else;
+              unit.getTimeUnitsMax newTUs;
+              muldiv newTUs 25 100;
+              unit.setTimeUnits newTUs;
+            end;
           end;
 
           return;

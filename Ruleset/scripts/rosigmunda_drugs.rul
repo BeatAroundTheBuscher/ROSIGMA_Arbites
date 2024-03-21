@@ -100,6 +100,7 @@ extended:
       ITEM_FUSE_MAXIMUM: int
       ITEM_FUSE_SIDE: int
 
+      ITEM_IS_DRUG: int
       ITEM_IS_RANDOM_DRUG: int
       ITEM_CAN_BE_SLAUGHT_CHANCE: int
       ITEM_CAN_BE_FRENZON_CHANCE: int
@@ -281,6 +282,11 @@ extended:
           var int temp;
           var ptr BattleUnit bUnit;
           var int unitFaction;
+
+          item.getTag temp Tag.ITEM_IS_DRUG;
+          if eq temp 0;
+            return;
+          end;
 
           item.getSlot rInv;
           rInv.getId rInvId;

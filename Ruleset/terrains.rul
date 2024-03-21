@@ -18,20 +18,13 @@ terrains:
         items:
           STR_CULTIST_SUMMONING_LEVEL_1_TIMER_AC:
             - [8, 8, 5]
-          STR_CULTIST_SUMMONING_LEVEL_1_TICKER_AC:
-            - [8, 8, 5]
+#          STR_CULTIST_SUMMONING_LEVEL_1_TICKER_AC: # this adds time to the MISSION_TIMER Tag
+#            - [8, 8, 5]
           STR_CULTIST_SUMMONING_LEVEL_1_OBJECTIVE_CHARGE_LIGHT_AC: # needs to blow up the CHAOS symbol
             - [11, 13, 3]
-          # STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
-            # - [8, 7, 5]
-            # - [6, 5, 4]
-            # - [5, 12, 3]
-            # - [11, 11, 5]
-            #- [5, 5, 0]
-            #- [11, 5, 0]
-            #- [11, 12, 0]
-            #- [5, 11, 0]
-
+          STR_KHORNE_CULTIST_RITUALIST_SUMMONING_SPAWNER_AC:
+            - [9, 13, 3]
+            - [9, 15, 3]
   - name: HIVE
     enviroEffects: STR_URBAN_ENVIRO
     mapDataSets:
