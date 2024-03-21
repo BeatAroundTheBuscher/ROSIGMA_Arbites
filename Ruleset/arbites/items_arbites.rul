@@ -226,7 +226,7 @@ items:
     refNode: *STR_STUBBERS_AMMO
     clipSize: 16
     recoveryTransformation:
-      STR_STUB_GUN_AMMO_AC [2]
+      STR_STUB_GUN_AMMO_AC: [2]
     requiresBuy:
       - STR_GENERAL_LOCK_AC
 
@@ -252,7 +252,7 @@ items:
     refNode: *STR_STUBBERS_AMMO_AP
     clipSize: 16
     recoveryTransformation:
-      STR_STUB_GUN_AMMO_AP_AC [2]
+      STR_STUB_GUN_AMMO_AP_AC: [2]
     requiresBuy:
       - STR_GENERAL_LOCK_AC
 
@@ -280,7 +280,7 @@ items:
     refNode: *STR_STUBBERS_AMMO_WOUND
     clipSize: 16
     recoveryTransformation:
-      STR_STUBBERS_AMMO_WOUND [2]
+      STR_STUBBERS_AMMO_WOUND: [2]
     requiresBuy:
       - STR_GENERAL_LOCK_AC
 
@@ -303,7 +303,7 @@ items:
     refNode: *STR_STUBBERS_AMMO_HP
     clipSize: 16
     recoveryTransformation:
-      STR_STUB_GUN_AMMO_HP_AC [2]
+      STR_STUB_GUN_AMMO_HP_AC: [2]
     requiresBuy:
       - STR_GENERAL_LOCK_AC
 
@@ -329,7 +329,7 @@ items:
     refNode: *STR_STUBBERS_AMMO_INC
     clipSize: 16
     recoveryTransformation:
-      STR_STUB_GUN_AMMO_INC_AC [2]
+      STR_STUB_GUN_AMMO_INC_AC: [2]
     requiresBuy:
       - STR_GENERAL_LOCK_AC
 

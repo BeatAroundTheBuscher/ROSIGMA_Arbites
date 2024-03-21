@@ -83,8 +83,7 @@ missionScripts:
   - type: Prison_Break
     firstMonth: 3 # number of months passed (compare to savegame)
     lastMonth: 5
-    executionOdds: 50
-    label: 101
+    executionOdds: 100
     raceWeights:
       0:
         STR_PRISON_BREAK_AC: 100
@@ -100,7 +99,6 @@ missionScripts:
 
   - type: Summoning
     executionOdds: 100
-    conditionals: [-101]
     firstMonth: 3
     lastMonth: 5
     missionWeights:
@@ -122,12 +120,12 @@ missionScripts:
 
   - type: Underhive_khorne
     firstMonth: 5
-    #lastMonth: 10
+    lastMonth: 20
     executionOdds: 100
     #conditionals: [100]
     raceWeights:
       0:
-        STR_KHORNE_CULTISTS_AC: 100
+        STR_GENE_CULTISTS_AC: 100
     missionWeights:
       0:
         STR_UNDERHIVE_AC: 100
@@ -139,10 +137,9 @@ missionScripts:
     useTable: false
 
   - type: Sacrifice
-    executionOdds: 50
-    label: 120
+    executionOdds: 100
     firstMonth: 5
-    # lastMonth: 5
+    lastMonth: 20
     missionWeights:
       0:
         STR_CULTIST_SACRIFICES_LEVEL_1_AC: 100
@@ -177,7 +174,7 @@ missionScripts:
       STR_KHORNE_CULTISTS_MENACE_AC: true
       STR_KHORNE_CULTISTS_PLOT_AC: false
       STR_KHORNE_CULTISTS_DEFEATED_AC: false
-    startDelay: 12000
+    startDelay: 15000
     randomDelay: 6000
     useTable: false
 

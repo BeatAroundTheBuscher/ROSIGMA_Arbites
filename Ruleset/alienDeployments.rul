@@ -569,6 +569,7 @@ alienDeployments:
 
 
   - type: STR_PRISON_BREAK_AC
+    markerName: STR_PRISON_BREAK_SITE
     alert: STR_PRISON_BREAK_DETECTED
     alertBackground: BACK169.SCR
 #    alertDescription: STR_PRISON_BREAK_DESCRIPTION
@@ -630,7 +631,6 @@ alienDeployments:
     enviroEffects: STR_HANGAR_ENVIRO
     duration: [48, 72]
     despawnPenalty: 250
-    markerName: STR_PRISON_BREAK_SITE
 
   - type: STR_CATACOMBS_AC
     winCutscene: winGame # temporary
@@ -769,18 +769,21 @@ alienDeployments:
       - HIVE
     script: HIVE_SCRIPT
     briefing:
-      cutscene: HIVECITY
       desc: STR_UNDERHIVE_BRIEFING
       music: gmstory2
       showCraft: true
       showTarget: false
-      background: BACK173.SCR
-      title: STR_ALIEN_BASE_ASSAULT
-      textOffset: -16
+      background: BACK150.SCR
+      title: STR_UNDERHIVE_TITLE
       palette: 4
+    alert: STR_UNDERHIVE_DETECTED
+    alertBackground: BACK169.SCR
+    # alertDescription: STR_UNDERHIVE_BRIEFING
     shade: 7
-    markerName: STR_UNDER_HIVE_SITE_AC
+    markerName: STR_UNDERHIVE_SITE
     points: 1
+    duration: [120, 240]
+
 
   - type: STR_UNDERHIVE_RAIL_AC
     civiliansByType:

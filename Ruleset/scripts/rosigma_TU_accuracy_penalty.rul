@@ -1,0 +1,71 @@
+
+
+items:
+  - type: STR_HEAVY_STUBBER_AC # HW
+    tags:
+      ITEM_IS_HEAVY_WEAPON: 1
+
+extended:
+  tagsFile: Ruleset/scripts/tags.rul
+  scripts:
+    accuracyMultiplierBonusStats:
+      - new: ROSIGMA_aMBS_tu_accuracy_penalty
+        offset: 31
+        code: |
+          var int temp;
+          var int currentTU;
+          var int accuracyScore;
+          var int weaponWithBipod;
+          var int kneeling;
+
+          var ptr RuleItem rItem;
+
+          weapon.getRuleItem rItem;
+          rItem.getTag temp Tag.ITEM_IS_HEAVY_WEAPON;
+          if eq temp 0;
+            return bonus; # final accuracy
+          end;
+
+          unit.isKneeled kneeling; # 1 when kneeling
+          rItem.getTag weaponWithBipod Tag.ITEM_HAS_BIPOD;
+
+          unit.getTimeUnits currentTU; # absolute
+          unit.getTimeUnitsMax temp;
+          muldiv currentTU 100 temp; # relative
+          # debug_log "currenTU %" currentTU;
+
+          set temp bonus; # starting bonus
+
+          if and gt currentTU 20 le currentTU 80;
+            add currentTU 20; # start with 100 (80 + 20) % bonus
+            muldiv bonus currentTU 100;
+            # debug_log "Altered currenTU %" currentTU;
+            # debug_log "20-80 bonus" bonus;
+            sub currentTU 20;
+          end;
+
+          if le currentTU 20;
+            muldiv bonus 40 100; # lower range is 40 (20 + 20)
+            # debug_log "20 bonus" bonus;
+          end;
+
+
+          if and eq kneeling 1 eq weaponWithBipod 1;
+            add bonus temp; # (current bonus + starting bonus * 2) / 3
+            add bonus temp;
+            div bonus 3;
+            # debug_log "kneel+bipod bonus";
+          end;
+
+          if and eq kneeling 1 eq weaponWithBipod 0;
+            add bonus temp; # (current bonus + starting bonus) / 2
+            div bonus 2;
+          end;
+
+
+          return bonus; # final accuracy
+
+
+
+
+

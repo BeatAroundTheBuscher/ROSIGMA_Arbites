@@ -22,3 +22,7 @@ extended:
 #*** Tags for handling picking a random turn for reinforcements by spawner to show up ***
       ITEM_EARLIEST_REINFORCEMENT_TURN: int
       ITEM_LATEST_REINFORCEMENT_TURN: int
+
+      ITEM_RECOIL: int
+      ITEM_HAS_BIPOD: int
+      ITEM_IS_HEAVY_WEAPON: int # infantry but not mounted/vehicle heavy weapons
