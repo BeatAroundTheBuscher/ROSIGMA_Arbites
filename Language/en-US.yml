@@ -226,6 +226,7 @@ en-US:
   STR_STUB_SMG_CHAOS_AC: "Stubber SMG (Chaos)"
   STR_STUB_SMG_AMMO_AC: "Stubber SMG Magazine"
   STR_HEAVY_STUBBER_AC: "Heavy Stubber"
+  STR_HEAVY_STUBBER_UFOPEDIA: "{NEWLINE} The Heavy Stubber is a heavy-barreled, fully automatic weapon used for sustained fire, ideal for fighting off large numbers of infantry or even lightly armored vehicles. It makes up for a lack of power and armor piercing abilities with an impressive rate of fire.{NEWLINE}{NEWLINE}Recoil: {ALT}40"
 
   STR_LASGUN_AC: "Lasgun"
   STR_LASGUN_CLIP_AC: "Lasgun Power Cell"

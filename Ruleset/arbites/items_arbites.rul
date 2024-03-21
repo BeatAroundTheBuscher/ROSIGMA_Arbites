@@ -656,7 +656,7 @@ items:
     requires:
       - STR_HEAVY_STUBBER_AC
     tags:
-      ITEM_RECOIL: 30
+      ITEM_RECOIL: 40
 
   - type: STR_HEAVY_STUBBER_CLIP_AC
     categories: [STR_CAT_AUTO]
@@ -708,13 +708,26 @@ items:
     floorSprite: {mod: 40k, index: 19}
     handSprite: {mod: 40k, index: 336}
     power: 70
-    damageType: 3
     battleType: 4
     invWidth: 1
     invHeight: 2
     blastRadius: 5
     listOrder: 290
     throwRange: 20
+    damageType: 1 # ROSIGMA values
+    damageAlter:
+      FixRadius: 5
+      ToArmorPre: 0.05 #small ablation
+      ArmorEffectiveness: 1.1 #concussive + shrapnel everywhere
+      ToHealth: 0.7 #much damage dealt in the form of debuffs
+      ToTime: 0.2 #painful
+      ToStun: 0.4 #painful
+      ToMorale: 0.5 #painful
+      ToEnergy: 0.4 #painful
+      ToWound: 0.4 #shrapnel
+      RandomWound: false
+      ToTile: 0.25 #it's shrapnel; deals relatively little damage to the terrain.
+      ToItem: 0.25
 
   - type: STR_KRAK_GRENADE_AC
     requiresBuyBaseFunc: [IMPERIUM]
@@ -1504,7 +1517,7 @@ items:
     battleType: 1
     twoHanded: true
     experienceTrainingMode: 6
-    arcingShot: false
+    arcingShot: true
     maxRange: 9
     invWidth: 2
     invHeight: 3
@@ -1531,10 +1544,7 @@ items:
     handSprite: {mod: 40k, index: 440}
     hitSound: {mod: 40k, index: 12}
     hitAnimation: {mod: 40k, index: 88} #XFIRE
-    power: 60
-    damageType: 2
-    damageAlter:
-      IgnoreSelfDestruct: false
+ 
     blastRadius: 2
     clipSize: 20
     battleType: 2
@@ -1547,6 +1557,26 @@ items:
     listOrder: 610
     requires:
       - STR_FLAMER_AC
+    power: 50 # ROSIGMA values
+    powerRangeReduction: 12 
+    powerRangeThreshold: 12
+    damageType: 2
+    damageAlter:
+      FireBlastCalc: false
+      IgnoreOverKill: false
+      RandomType: 6 #Gaussian
+      # IgnoreSelfDestruct: false
+      IgnoreDirection: false
+      FixRadius: 3
+      ToHealth: 1.5
+      ToTile: 0.3
+      ToItem: 0.3
+      ToArmor: 0.0 #damages armor on the way in
+      ToMorale: 5.0
+      ToStun: 0.4
+      ToTime: 0.2 #debilitating pain
+      ArmorEffectiveness: 1.0
+      ToArmorPre: 0.01
 
   - type: STR_LASCUTTER_AC
     categories: [STR_CAT_MELTA, STR_CAT_TACTICAL, STR_CAT_ADEPTAS]

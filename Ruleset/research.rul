@@ -176,12 +176,14 @@ research:
     needItem: true
     unlocks:
       - STR_KHORNE_CULTISTS_AC
+    spawnedEvent: STR_PENITENT_EVENT_AC
 
   - name: STR_KHORNE_CULTISTS_CULTIST_AC
     sequentialGetOneFree: true
     getOneFree:
       - STR_KHORNE_CULTISTS_PREREQUISITE_1_AC
       - STR_KHORNE_CULTISTS_PREREQUISITE_2_AC
+    
 
   - name: STR_KHORNE_CULTISTS_PRIEST_AC
     refNode: *STR_CAPTURE

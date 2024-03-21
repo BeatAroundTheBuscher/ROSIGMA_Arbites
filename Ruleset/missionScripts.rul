@@ -6,7 +6,7 @@ missionScripts:
 
   - type: Riot_early
     firstMonth: 1 # number of months passed (compare to savegame)
-    lastMonth: 2
+    lastMonth: 5
     executionOdds: 50
     label: 100
     raceWeights:
@@ -25,7 +25,7 @@ missionScripts:
 
   - type: Sabotage_early
     firstMonth: 1
-    lastMonth: 2
+    lastMonth: 5
     executionOdds: 100
     label: 110
     conditionals: [-100]
@@ -44,7 +44,7 @@ missionScripts:
 
   - type: Riot_later
     firstMonth: 1
-    lastMonth: 2
+    lastMonth: 5
     executionOdds: 100
     conditionals: [110]
     raceWeights:
@@ -62,7 +62,7 @@ missionScripts:
 
   - type: Sabotage_later
     firstMonth: 1
-    lastMonth: 2
+    lastMonth: 5
     executionOdds: 100
     conditionals: [100]
     raceWeights:
@@ -83,7 +83,8 @@ missionScripts:
   - type: Prison_Break
     firstMonth: 3 # number of months passed (compare to savegame)
     lastMonth: 5
-    executionOdds: 100
+    executionOdds: 50
+    label: 101
     raceWeights:
       0:
         STR_PRISON_BREAK_AC: 100
@@ -97,29 +98,9 @@ missionScripts:
     randomDelay: 3000
     useTable: false
 
-  - type: Sacrifice
-    executionOdds: 50
-    label: 120
-    firstMonth: 3
-    lastMonth: 5
-    missionWeights:
-      0:
-        STR_CULTIST_SACRIFICES_LEVEL_1_AC: 100
-    regionWeights:
-      0:
-        REGION_HULK_SITES: 100
-    raceWeights:
-      0:
-        STR_KHORNE_CULTISTS_AC: 100
-    startDelay: 12000
-    randomDelay: 6000
-    useTable: false
-    researchTriggers:
-      STR_KHORNE_CULTISTS_DEFEATED_AC: false
-
   - type: Summoning
     executionOdds: 100
-    conditionals: [-120]
+    conditionals: [-101]
     firstMonth: 3
     lastMonth: 5
     missionWeights:
@@ -140,7 +121,7 @@ missionScripts:
 ## DANGER LEVEL 2
 
   - type: Underhive_khorne
-    firstMonth: 6
+    firstMonth: 5
     #lastMonth: 10
     executionOdds: 100
     #conditionals: [100]
@@ -156,6 +137,26 @@ missionScripts:
     startDelay: 12000
     randomDelay: 6000
     useTable: false
+
+  - type: Sacrifice
+    executionOdds: 50
+    label: 120
+    firstMonth: 5
+    # lastMonth: 5
+    missionWeights:
+      0:
+        STR_CULTIST_SACRIFICES_LEVEL_1_AC: 100
+    regionWeights:
+      0:
+        REGION_HULK_SITES: 100
+    raceWeights:
+      0:
+        STR_KHORNE_CULTISTS_AC: 100
+    startDelay: 12000
+    randomDelay: 6000
+    useTable: false
+    researchTriggers:
+      STR_KHORNE_CULTISTS_DEFEATED_AC: false
 
 ## STORY 
 

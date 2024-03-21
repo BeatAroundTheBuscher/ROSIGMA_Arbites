@@ -12,7 +12,7 @@ manufacture:
     producedItems: {}
 
   - name: STR_IDENTIFY_DRUG_AC
-    category: STR_ADVANCEMENT
+    category: STR_EQUIPMENT
     requires:
       - STR_RANDOM_DRUG_AC
     space: 0
