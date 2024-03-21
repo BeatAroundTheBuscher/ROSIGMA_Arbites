@@ -63,6 +63,7 @@ soldiers:
     rankSprite: {mod: 40k, index: 862}
     rankBattleSprite: {mod: 40k, index: 245}
     rankTinySprite: {mod: 40k, index: 157}
+    value: 30
 
   - type: STR_PENITENT_AC
     refNode: *STR_SOLDIER_ARBITES
@@ -78,6 +79,7 @@ soldiers:
     rankBattleSprite: {mod: 40k, index: 251}
     rankTinySprite: {mod: 40k, index: 163}
     requiresBuyBaseFunc: [PENAL]
+    value: 10
 
   - type: STR_JUDGE_AC
     refNode: *STR_SOLDIER_ARBITES
@@ -137,6 +139,7 @@ soldiers:
     rankSprite: {mod: 40k, index: 856}
     rankBattleSprite: {mod: 40k, index: 239}
     rankTinySprite: {mod: 40k, index: 151}
+    value: 40
 
 
   - type: STR_MASTIFF_AC
@@ -213,7 +216,7 @@ soldiers:
     rankSprite: 1005
     rankBattleSprite: 1005
     rankTinySprite: 1005
-    value: 20
+    value: 40
 
 #soldierTransformation:
 #  - name: STR_INDOCTRINATE_GUARDSMAN

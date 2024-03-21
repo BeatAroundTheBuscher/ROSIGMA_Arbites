@@ -227,6 +227,8 @@ items:
     clipSize: 16
     recoveryTransformation:
       STR_STUB_GUN_AMMO_AC [2]
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
 
   - &STR_STUBBERS_AMMO_AP
     type: STR_STUB_GUN_AMMO_AP_AC
@@ -251,6 +253,8 @@ items:
     clipSize: 16
     recoveryTransformation:
       STR_STUB_GUN_AMMO_AP_AC [2]
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
 
   - &STR_STUBBERS_AMMO_WOUND
     type: STR_STUB_GUN_AMMO_WOUND_AC
@@ -277,6 +281,8 @@ items:
     clipSize: 16
     recoveryTransformation:
       STR_STUBBERS_AMMO_WOUND [2]
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
 
   - &STR_STUBBERS_AMMO_HP
     type: STR_STUB_GUN_AMMO_HP_AC
@@ -298,6 +304,8 @@ items:
     clipSize: 16
     recoveryTransformation:
       STR_STUB_GUN_AMMO_HP_AC [2]
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
 
 
   - &STR_STUBBERS_AMMO_INC
@@ -322,6 +330,8 @@ items:
     clipSize: 16
     recoveryTransformation:
       STR_STUB_GUN_AMMO_INC_AC [2]
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
 
 
   - &STR_SMG_STUB
@@ -473,6 +483,8 @@ items:
     battleType: 2
     armor: 30
     listOrder: 200
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
 
 
   - &STR_BALLISTIC_WEAPON_AUTO_PISTOL
@@ -569,6 +581,8 @@ items:
     confAuto:
       shots: 6
     listOrder: 240
+    requiresBuy:
+      - STR_BALLISTIC_WEAPONS_ADVANCED_AC
 
   - type: STR_AUTOGUN_HIGHGRADE_AC
     refNode: *STR_GUN_BUTT
@@ -603,6 +617,8 @@ items:
     weight: 6
     clipSize: 50
     listOrder: 260
+    requiresBuy:
+      - STR_GENERAL_LOCK_AC
 
   - &STR_BALLISTIC_WEAPON_HEAVY_STUBBER
     type: STR_HEAVY_STUBBER_AC
@@ -1493,7 +1509,7 @@ items:
     invWidth: 2
     invHeight: 3
     armor: 30
-    autoShots: 6
+    autoShots: 3
     attraction: 7
     listOrder: 600
     requires:
@@ -1520,7 +1536,7 @@ items:
     damageAlter:
       IgnoreSelfDestruct: false
     blastRadius: 2
-    clipSize: 40
+    clipSize: 20
     battleType: 2
     invWidth: 1
     invHeight: 2

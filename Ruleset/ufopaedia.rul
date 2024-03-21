@@ -593,7 +593,7 @@ ufopaedia:
     type_id: 15
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_KHORNE_CULTISTS_CULTIST_AC
+      - STR_BLOODLETTER_DAEMON_CORPSE_AC
     image_id: UP028.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 620
@@ -602,7 +602,7 @@ ufopaedia:
     type_id: 15
     section: STR_ALIEN_LIFE_FORMS
     requires:
-      - STR_KHORNE_CULTISTS_CULTIST_AC
+      - STR_WINGED_DAEMON_CORPSE_AC
     image_id: UP041.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
     listOrder: 630

@@ -6,4 +6,4 @@ eventScripts:
     executionOdds: 100
     counterMax: 1
     researchTriggers: 
-      - STR_KHORNE_CULTISTS_DEFEATED_AC: true
+      STR_KHORNE_CULTISTS_DEFEATED_AC: true

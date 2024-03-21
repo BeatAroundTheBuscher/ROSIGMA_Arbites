@@ -373,7 +373,7 @@ alienDeployments:
     despawnPenalty: 250
 
 
-  - type: STR_CULTIST_SUMMONING_LEVEL_1_AC        #alertSound
+  - type: STR_CULTIST_SUMMONING_LEVEL_1_AC
     objectiveType: 100
     abortPenalty: 100
     data:
@@ -438,7 +438,7 @@ alienDeployments:
     script: SUMMONING_LEVEL_1_SCRIPT
     alert: STR_CULTIST_RITUALS_STARTING
     alertBackground: BACK150.SCR # change to something else later?
-    alertSound: 44
+    # alertSound: 44
     briefing:
       palette: 2
       music: GMENBASE

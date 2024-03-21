@@ -42,3 +42,32 @@ items:
 
   - type: STR_AUTOGUN_HIGHGRADE_AC
     refNode: *STR_ITEM_CHANGE_COLOR  
+
+  - &STR_FRENZON
+    type: STR_FRENZON_AC
+    refNode: *STR_ITEM_CHANGE_COLOR
+    tags:
+      ITEM_SPRITE_COLOR: 2
+      ITEM_NEW_COLOR: 3
+
+  - type: STR_FRENZON_AI_AC
+    refNode: *STR_FRENZON
+
+  - &STR_ZUMTHORIAN_GREYVE
+    type: STR_ZUMTHORIAN_GREYVE_AC
+    refNode: *STR_ITEM_CHANGE_COLOR
+    tags:
+      ITEM_SPRITE_COLOR: 2
+      ITEM_NEW_COLOR: 5
+
+  - type: STR_ZUMTHORIAN_GREYVE_AI_AC
+    refNode: *STR_ZUMTHORIAN_GREYVE
+
+  - &STR_RANDOM_DRUG
+    type: STR_RANDOM_DRUG_AC
+    tags:
+      ITEM_SPRITE_COLOR: 2
+      ITEM_NEW_COLOR: 10
+
+  - type: STR_RANDOM_DRUG_AI_AC
+    refNode: *STR_RANDOM_DRUG
