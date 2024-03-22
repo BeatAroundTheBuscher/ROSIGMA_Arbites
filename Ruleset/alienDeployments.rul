@@ -786,13 +786,6 @@ alienDeployments:
 
 
   - type: STR_UNDERHIVE_RAIL_AC
-    civiliansByType:
-      STR_CIVILIAN_M0_AC: 2
-      STR_CIVILIAN_M1_AC: 2
-      STR_CIVILIAN_F0_AC: 2
-      STR_CIVILIAN_F1_AC: 2
-      STR_MONK1_AC: 2
-      STR_MONK2_AC: 2
     # markerIcon: 75
     data:
       - alienRank: 5

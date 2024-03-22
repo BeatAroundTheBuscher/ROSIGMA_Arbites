@@ -231,8 +231,6 @@ ufopaedia:
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1LP.SPK
-    requires:
-      - STR_LASGUNS_AC
     text: STR_LASER_PISTOL_UFOPEDIA
     listOrder: 270
 
@@ -240,10 +238,15 @@ ufopaedia:
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1LG.SPK
-    requires:
-      - STR_LASGUNS_AC
     text: STR_LASER_RIFLE_UFOPEDIA
     listOrder: 280
+
+  - id: STR_LASGUN_VOSS_AC
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: LASGUN_VOSS.SPK
+    text: STR_LASER_RIFLE_UFOPEDIA
+    listOrder: 281
 
   - id: STR_NIHILUS_LASPISTOL_AC
     type_id: 14

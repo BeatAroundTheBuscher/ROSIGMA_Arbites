@@ -26,3 +26,16 @@ extended:
       ITEM_RECOIL: int
       ITEM_HAS_BIPOD: int
       ITEM_IS_HEAVY_WEAPON: int # infantry but not mounted/vehicle heavy weapons
+
+      ITEM_DOES_KILL_USER: int
+      ITEM_COLOR_CHANGES_WITH_AMMO_NON_GRAY: int
+
+      ITEM_AUTO_POWER_BONUS: int #percent bonus to damage equal to this amount for this fire mode
+      ITEM_SNAP_POWER_BONUS: int
+      ITEM_AIMED_POWER_BONUS: int
+
+      ITEM_DOT_IN_INVENTORY: int
+
+      ITEM_AKIMBO: int
+
+      ITEM_ADD_TO_BIGOB_INDEX_WHEN_IN_HANDS: int

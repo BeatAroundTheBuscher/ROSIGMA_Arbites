@@ -30,7 +30,14 @@
     files:
       200: Resources/X1/inject.png
 
-
+  - type: BIGOBS.PCK
+    height: 48
+    width: 64
+    subX: 32
+    subY: 48
+    files:
+      220: Resources/Bigobs/bigob_lasgun_voss_extended.png
+      # 221
 
   - type: BIGOBS.PCK
     files:
@@ -42,6 +49,7 @@
       206: Resources/Bigobs/BIGOB_HIGHGRADE_AUTOGUN_clip.png
       207: Resources/Bigobs/BIGOB_HIGHGRADE_AUTOGUN_drum.png
       208: Resources/Bigobs/BIGOB_AUTOGUN_CLIP_DRUM.png
+
 
       ## FilipH/Nuclear World
       210: Resources/Bigobs/bigob_Stimpak.png

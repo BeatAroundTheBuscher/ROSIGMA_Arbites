@@ -1,17 +1,5 @@
 extended:
-  tags:
-    RuleItem:
-      ITEM_RECOIL: int
-      ITEM_DOES_KILL_USER: int
-      ITEM_COLOR_CHANGES_WITH_AMMO_NON_GRAY: int
-
-      ITEM_AUTO_POWER_BONUS: int #percent bonus to damage equal to this amount for this fire mode
-      ITEM_SNAP_POWER_BONUS: int
-      ITEM_AIMED_POWER_BONUS: int
-
-      ITEM_DOT_IN_INVENTORY: int
-
-      ITEM_AKIMBO: int
+  tagsFile: Ruleset/scripts/tags.rul
 
 # general rule
 # items cost 5 times of their sell value
@@ -1082,6 +1070,33 @@ items:
 
   - type: STR_LASGUN_AC
     refNode: *STR_GUN_BUTT
+
+  - type: STR_LASGUN_VOSS_AC # Carbine
+    categories: [STR_CAT_LASGUN, STR_CAT_TACTICAL]
+    dropoff: 5
+    costSell: 6000
+    weight: 4
+    bigSprite: 220
+    floorSprite: {mod: 40k, index: 1025}
+    handSprite: {mod: 40k, index: 1200}
+    bulletSprite: 12
+    fireSound: {mod: 40k, index: 741}
+    accuracySnap: 70
+    tuSnap: 22
+    snapRange: 12
+    compatibleAmmo:
+      - STR_LASGUN_CLIP_AC
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 85
+    invWidth: 1
+    invHeight: 2
+    bulletSpeed: 50
+    listOrder: 10930
+    confSnap:
+      shots: 2
+    tags:
+      ITEM_ADD_TO_BIGOB_INDEX_WHEN_IN_HANDS: 1
 
   - type: STR_LASGUN_CLIP_AC
     categories: [STR_CAT_LASGUN, STR_CAT_TACTICAL]

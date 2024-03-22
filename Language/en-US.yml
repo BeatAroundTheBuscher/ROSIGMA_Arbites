@@ -238,6 +238,7 @@ en-US:
   STR_HEAVY_STUBBER_UFOPEDIA: "{NEWLINE} The Heavy Stubber is a heavy-barreled, fully automatic weapon used for sustained fire, ideal for fighting off large numbers of infantry or even lightly armored vehicles. It makes up for a lack of power and armor piercing abilities with an impressive rate of fire.{NEWLINE}{NEWLINE}Recoil: {ALT}40"
 
   STR_LASGUN_AC: "Lasgun"
+  STR_LASGUN_VOSS_AC: "Lascarbine"
   STR_LASGUN_CLIP_AC: "Lasgun Power Cell"
   STR_LASPISTOL_AC: "Laspistol"
   STR_LASPISTOL_CHAOS_AC: "Laspistol (Chaos)"

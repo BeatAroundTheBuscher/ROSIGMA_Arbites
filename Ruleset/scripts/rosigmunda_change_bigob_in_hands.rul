@@ -1,0 +1,30 @@
+extended:
+  tagsFile: Ruleset/scripts/tags.rul
+
+
+items:
+  - type: STR_LASGUN_VOSS_AC
+    scripts:
+      selectItemSprite: |
+        var int temp;
+        var ptr RuleInventory rInv;
+        var text rInvId;
+
+        item.getTag temp Tag.ITEM_ADD_TO_BIGOB_INDEX_WHEN_IN_HANDS;
+
+        if eq temp 0;
+          return sprite_index;
+        end;
+
+        item.getSlot rInv;
+        rInv.getId rInvId;
+
+        if eq blit_part blit_item_big;
+          if or eq rInvId "STR_LEFT_HAND" eq rInvId "STR_RIGHT_HAND";
+            add sprite_index temp;
+            debug_log "sprite_index" sprite_index;
+            return sprite_index;
+          end;
+        end;
+        add sprite_index sprite_offset;
+        return sprite_index;
