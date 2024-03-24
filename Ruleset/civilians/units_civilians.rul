@@ -298,9 +298,9 @@ units:
       - - STR_STUB_RIFLE_AC
         - STR_STUB_GUN_AMMO_AC
         - STR_STUB_GUN_AMMO_AC
-      - - STR_AUTOGUN_AC
-        - STR_AUTOGUN_CLIP_AC
-        - STR_AUTOGUN_CLIP_AC
+      - - STR_PUMP_SHOTGUN_AC
+        - STR_SHOTGUN_SHELLS_AC
+        - STR_SHOTGUN_SHELLS_AC
         - STR_MAKESHIFT_GRENADE_AC
       - - STR_AUTOGUN_AC
         - STR_AUTOGUN_CLIP_AC
@@ -318,7 +318,7 @@ units:
     deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
 
   - &STR_PENAL_PRISONER_RIFLE_DRUG
-    type: STR_PENAL_PRISONER_DRUG_M_AC
+    type: STR_PENAL_PRISONER_RIFLE_DRUG_M_AC
     refNode: *STR_PENAL_PRISONER
     builtInWeaponSets:
       - - STR_STUB_RIFLE_AC
