@@ -149,6 +149,63 @@ alienDeployments:
     length: 40
     height: 9
 
+  - type: TAUROXPD_PRISONER_AC
+    civiliansByType:
+      STR_CIVILIAN_TROOPER_M_AC: 2
+      STR_CIVILIAN_TROOPER_F_AC: 2
+    data:
+      - alienRank: 2
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 6
+        highQty: 12
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 9
+
   - type: STR_RIOT_AC
     briefing:
       title: STR_RIOT_TITLE
@@ -589,9 +646,21 @@ alienDeployments:
       - PRISON_BREAK
     script: PRISON_BREAK_SCRIPT
     data:
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
       - alienRank: 5
-        lowQty: 10
-        highQty: 20
+        lowQty: 6
+        highQty: 12
         dQty: 4
         percentageOutsideUfo: 0
         itemSets:
