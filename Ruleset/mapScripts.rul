@@ -411,3 +411,71 @@ mapScripts:
             entry: 14
     - type: fillArea
       blocks: 20
+
+
+  - type: PRISONER_BUS
+    commands:
+    - type: addUFO
+    - type: checkBlock # find ufo N-S
+      rects: 
+        - [0, 0, 1, 5]
+      label: 1
+    - type: checkBlock 
+      rects: 
+        - [1, 0, 1, 5]
+      label: 2
+    - type: checkBlock 
+      rects: 
+        - [2, 0, 1, 5]
+      label: 3
+    - type: checkBlock 
+      rects: 
+        - [3, 0, 1, 5]
+      label: 4
+    - type: checkBlock 
+      rects: 
+        - [4, 0, 1, 5]
+      label: 5
+    - type: removeBlock # remove the blocks created by the UFO
+      rects:
+        - [0, 0, 5, 5]
+    - type: addLine # N-S only
+      direction: vertical
+      terrain: CITY_AC
+      blocks: [0]
+      rects: 
+        - [0, 0, 1, 5]
+      conditionals: [1]
+    - type: addLine # N-S only
+      direction: vertical
+      terrain: CITY_AC
+      blocks: [0]
+      rects: 
+        - [1, 0, 1, 5]
+      conditionals: [2]
+    - type: addLine # N-S only
+      direction: vertical
+      terrain: CITY_AC
+      blocks: [0]
+      rects: 
+        - [2, 0, 1, 5]
+      conditionals: [3]
+    - type: addLine # N-S only
+      direction: vertical
+      terrain: CITY_AC
+      blocks: [0]
+      rects: 
+        - [3, 0, 1, 5]
+      conditionals: [4]
+    - type: addLine # N-S only
+      direction: vertical
+      terrain: CITY_AC
+      blocks: [0]
+      rects: 
+        - [4, 0, 1, 5]
+      conditionals: [5]
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 2
+    - type: fillArea

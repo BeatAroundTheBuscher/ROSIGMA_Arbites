@@ -74,3 +74,21 @@ terrains:
             - [5, 5, 1]
         fuseTimers:
           STR_TARANTULA_SPAWNER_CIV_AC: [0, 0]
+
+  - name: CITY_AC
+#    enviroEffects: STR_URBAN_ENVIRO
+    mapDataSets:
+      - BLANKS
+      - SKY
+      - 04WALL
+      - 04FLOOR
+      - 04IRON
+      - 04ITENS
+      - 04STORAGE
+      - 04PIPES
+      - 04ENGINE
+    mapBlocks:
+      - name: CITY11RA # 0
+        width: 10
+        length: 10
+        groups: [3]
