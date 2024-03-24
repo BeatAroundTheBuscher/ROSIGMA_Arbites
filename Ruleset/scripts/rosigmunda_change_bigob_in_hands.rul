@@ -22,7 +22,6 @@ items:
         if eq blit_part blit_item_big;
           if or eq rInvId "STR_LEFT_HAND" eq rInvId "STR_RIGHT_HAND";
             add sprite_index temp;
-            debug_log "sprite_index" sprite_index;
             return sprite_index;
           end;
         end;

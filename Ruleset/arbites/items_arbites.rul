@@ -1998,6 +1998,7 @@ items:
     fixedWeapon: true
     bulletSpeed: 50
     clipSize: -1
+    explosionSpeed: 5
 
   - type: STR_NOT_AVAILABLE_AC
     requires:
