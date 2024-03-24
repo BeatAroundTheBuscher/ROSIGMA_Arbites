@@ -1,0 +1,73 @@
+# https://github.com/BeatAroundTheBuscher/ROSIGMA/blob/b00cb353b183404dd6f3b4d23c8e241ac4a40f89/Ruleset/scripts/scripts_bomberman.rul
+
+extended:
+  tagsFile: Ruleset/scripts/tags.rul
+
+
+  scripts:
+    hitUnit: 
+      - new: ROSIGMA_hU_bomberman_attack # not used for now
+        offset: 43 
+        code: |
+          var ptr RuleItem ruleItem;
+          var int temp;
+          var ptre BattleItem someItem;
+          var int numInventoryItems;
+
+          damaging_item.getRuleItem ruleItem; 
+          ruleItem.getTag temp Tag.ITEM_IS_FOR_BOMBER;
+
+          if eq temp 1;
+            attacker.getInventoryItem.size numInventoryItems;
+            # debug_log "numInventoryItems" numInventoryItems;
+            loop var i numInventoryItems;
+              attacker.getInventoryItem someItem i;
+              someItem.getTag temp Tag.ITEM_IS_BOMB;
+              # attacker.setTag Tag.UNIT_TURNED_TRAITOR 1; # doesn't recolor fast enough
+              if eq temp 1;
+                attacker.setTimeUnits 0;
+                someItem.setFuseTimer 0;
+                someItem.setFuseEnabled 1;
+                return 0 part side;
+              end;
+            end;
+          end;
+
+          return power part side;
+
+
+items: 
+  - type: STR_EXPLOSIVE_COLLAR_PRISONER_AC
+    scripts:
+      createItem: | # will fuse on random turn
+        var int temp;
+        battle_game.randomRange temp 2 40;
+        item.setTag Tag.ITEM_WILL_FUSE_ON_TURN temp;
+        return;
+
+      newTurnItem: |
+        var int currentHealth;
+        var int currentStun;
+        var int fuseOnTurn;
+        var int temp;
+        
+        var ptr BattleUnit bOwner;
+
+        item.getTag fuseOnTurn Tag.ITEM_WILL_FUSE_ON_TURN;
+
+        item.getOwner bOwner;
+        bOwner.getHealth currentHealth;
+        bOwner.getStun currentStun;
+
+        item.isFuseEnabled temp;
+
+        # whenever turn is greater than the rolled value
+        # FACTION_PLAYER instead of FACTION_HOSTILE because then they will blow up instantly
+        # stunned units will not explode till they wake up (that's a decision)
+        # and the fuse is not set yet
+        if and gt turn fuseOnTurn eq side FACTION_PLAYER lt currentStun currentHealth neq temp 1;
+          item.setFuseTimer 0;
+          item.setFuseEnabled 1;
+        end;
+
+        return;

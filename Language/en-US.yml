@@ -226,6 +226,7 @@ en-US:
   STR_COMBAT_KNIFE_AC: "Combat Knife"
   STR_RIOT_SHIELD_AC: "Riot Shield"
   STR_EXPLOSIVE_COLLAR_AC: "Explosive Collar"
+  STR_EXPLOSIVE_COLLAR_PRISONER_AC: "Explosive Collar"
 
   
   STR_STUB_GUN_AC: "Stubber"

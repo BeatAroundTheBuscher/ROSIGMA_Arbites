@@ -39,3 +39,9 @@ extended:
       ITEM_AKIMBO: int
 
       ITEM_ADD_TO_BIGOB_INDEX_WHEN_IN_HANDS: int
+
+      ITEM_IS_FOR_BOMBER: int
+      ITEM_IS_BOMB: int
+
+    BattleItem:
+      ITEM_WILL_FUSE_ON_TURN: int

@@ -1307,7 +1307,8 @@ items:
     listOrder: 510
     weight: 0
 
-  - type: STR_EXPLOSIVE_COLLAR_AC
+  - &STR_EXPLOSIVE_COLLAR
+    type: STR_EXPLOSIVE_COLLAR_AC
     power: 75 # collar
     damageType: 3
     battleType: 1
@@ -1330,6 +1331,20 @@ items:
     recover: false
     tags:
       ITEM_DOES_KILL_USER: 1
+
+  - type: STR_EXPLOSIVE_COLLAR_PRISONER_AC
+    refNode: *STR_EXPLOSIVE_COLLAR
+    battleType: 4 # grenade
+    recover: false
+    tuPrime: 999
+    fixedWeapon: true
+    isExplodingInHands: true
+    hiddenOnMinimap: true
+    defaultInventorySlot: STR_BELT
+    invWidth: 0
+    invHeight: 0
+#    tags:
+#      ITEM_IS_BOMB: 1
 
   - type: STR_ARMOR_MEDI_KIT_AC
     battleType: 6

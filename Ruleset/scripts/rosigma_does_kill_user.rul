@@ -1,7 +1,6 @@
 extended:
-  tags:
-    RuleItem:
-      ITEM_DOES_KILL_USER: int
+  tagsFile: Ruleset/scripts/tags.rul
+      
 
   scripts:
     damageUnit: 
