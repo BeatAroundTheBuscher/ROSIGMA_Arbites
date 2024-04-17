@@ -168,7 +168,7 @@ ufopaedia:
     text: STR_STUB_CANNON_UFOPEDIA
     listOrder: 190
     requires:
-      - STR_GENERL_LOCK_AC
+      - STR_GENERAL_LOCK_AC
 
   - id: STR_STUB_CANNON_JUDGESLAYER_AC
     type_id: 14
@@ -177,7 +177,7 @@ ufopaedia:
     text: STR_STUB_CANNON_JUDGESLAYER_UFOPEDIA
     listOrder: 200
     requires:
-      - STR_GENERL_LOCK_AC
+      - STR_GENERAL_LOCK_AC
 
   - id: STR_AUTOPISTOL_AC
     type_id: 14

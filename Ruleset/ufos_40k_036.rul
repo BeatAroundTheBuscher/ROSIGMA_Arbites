@@ -1,0 +1,21 @@
+ufos:
+  - type: STR_MUNI2_UFO
+    size: STR_VERY_SMALL
+    modSprite: InterceptionUFO-01
+    damageMax: 160
+    speedMax: 1
+    accel: 3
+    power: 5
+    range: 65
+    score: 50
+    reload: 12
+    breakOffTime: 600
+    battlescapeTerrainData:
+      name: MUNIUFO2
+      mapDataSets:
+        - BLANKS
+        - MUNI5
+      mapBlocks:
+        - name: MUNIUFO2
+          width: 10
+          length: 10

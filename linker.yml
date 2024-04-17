@@ -1,0 +1,7 @@
+# https://github.com/pedroterzero/oxce-yaml-helper/wiki/linker.yml
+
+# linker.yml
+config:
+  builtinTypes: # noqa stuff
+    facilities.spriteFacility.mod: "40k"
+    events.spawnedPersonType: "STR_SCIENTIST"

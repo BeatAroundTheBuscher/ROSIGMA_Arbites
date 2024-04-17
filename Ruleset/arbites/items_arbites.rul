@@ -1079,7 +1079,7 @@ items:
     bigSprite: 220
     floorSprite: {mod: 40k, index: 1025}
     handSprite: {mod: 40k, index: 1200}
-    bulletSprite: 12
+    bulletSprite: {mod: 40k, index: 12}
     fireSound: {mod: 40k, index: 741}
     accuracySnap: 70
     tuSnap: 22
@@ -1609,7 +1609,7 @@ items:
       ToArmorPre: 0.01
 
   - type: STR_LASCUTTER_AC
-    categories: [STR_CAT_MELTA, STR_CAT_TACTICAL, STR_CAT_ADEPTAS]
+    categories: [STR_CAT_MELTA, STR_CAT_TACTICAL]
     requiresBuy:
       - STR_BREACHER_TOOLS_AC
     size: 0.3

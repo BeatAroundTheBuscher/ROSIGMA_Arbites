@@ -972,8 +972,8 @@ alienDeployments:
       background: BACK01.SCR
       showTarget: false
       desc: STR_CULTIST_BASE_ASSAULT_BRIEFING
-    missionBountyItem: STR_KILLPOINT_TOKEN
-    missionBountyItemCount: 60
+    # missionBountyItem: STR_KILLPOINT_TOKEN
+    # missionBountyItemCount: 60
     markerName: STR_ALIEN_BASE
     width: 50
     length: 50
