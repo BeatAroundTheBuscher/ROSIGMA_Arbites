@@ -30,7 +30,7 @@ ufos:
           width: 10
           length: 10
 
-  - type: TAUROXPD_PRISONER_AC
+  - type: STR_TAUROXPD_PRISONER_AC
     # marker: 14
     # markerLand: 19
     # markerCrash: 24

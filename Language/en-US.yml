@@ -448,7 +448,7 @@ en-US:
 
   STR_SABOTAGE_MISSION_AC: "Sabotage"
   STR_SMALL_SCOUT_AC: "Small Scout"
-  TAUROXPD_PRISONER_AC: "Prisoner Bus"
+  STR_TAUROXPD_PRISONER_AC: "Prisoner Bus"
   STR_RIOT_AC: "Riot Suppression"
   STR_CITY_SUMMONING_LEVEL_1_AC: "Minor City Summoning"
   STR_CULTIST_SUMMONING_LEVEL_1_AC: "Minor Suburban Summoning"

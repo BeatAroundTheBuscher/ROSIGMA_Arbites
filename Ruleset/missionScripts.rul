@@ -12,6 +12,7 @@ missionScripts:
     raceWeights:
       0:
         STR_KHORNE_RIOTS_AC: 100
+        STR_TZEENTCH_RIOTS_AC: 100
     missionWeights:
       0:
         STR_RIOT_AC: 100
@@ -32,6 +33,7 @@ missionScripts:
     raceWeights:
       0:
         STR_KHORNE_CULTISTS_AC: 100
+        STR_TZEENTCH_CULTISTS_AC: 100
     missionWeights:
       0:
         STR_ALIEN_SABOTAGE_AC: 100
@@ -50,6 +52,7 @@ missionScripts:
     raceWeights:
       0:
         STR_KHORNE_RIOTS_AC: 100
+        STR_TZEENTCH_RIOTS_AC: 100
     missionWeights:
       0:
         STR_RIOT_AC: 100
@@ -68,6 +71,7 @@ missionScripts:
     raceWeights:
       0:
         STR_KHORNE_CULTISTS_AC: 100
+        STR_TZEENTCH_CULTISTS_AC: 100
     missionWeights:
       0:
         STR_ALIEN_SABOTAGE_AC: 100
@@ -75,6 +79,25 @@ missionScripts:
       0:
         REGION_HULK_SITES: 100
     startDelay: 12000
+    randomDelay: 6000
+    useTable: false
+
+  - type: Prison_Bus
+    firstMonth: 1
+    lastMonth: 5
+    executionOdds: 100
+    conditionals: [100]
+    raceWeights:
+      0:
+        STR_PRISON_BREAK_FEW_DRUGS_AC: 100
+        STR_PRISON_BREAK_AC: 30
+    missionWeights:
+      0:
+        STR_TAUROXPD_PRISONER_AC: 100
+    regionWeights:
+      0:
+        REGION_HULK_SITES: 100
+    startDelay: 9000
     randomDelay: 6000
     useTable: false
 
@@ -86,6 +109,7 @@ missionScripts:
     executionOdds: 100
     raceWeights:
       0:
+        STR_PRISON_BREAK_FEW_DRUGS_AC: 100
         STR_PRISON_BREAK_AC: 100
     missionWeights:
       0:
@@ -118,7 +142,7 @@ missionScripts:
 
 ## DANGER LEVEL 2
 
-  - type: Underhive_khorne
+  - type: Underhive
     firstMonth: 5
     lastMonth: 20
     executionOdds: 100
