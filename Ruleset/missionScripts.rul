@@ -36,7 +36,7 @@ missionScripts:
         STR_TZEENTCH_CULTISTS_AC: 100
     missionWeights:
       0:
-        STR_ALIEN_SABOTAGE_AC: 100
+        STR_SABOTAGE_MISSION_AC: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100
@@ -74,7 +74,7 @@ missionScripts:
         STR_TZEENTCH_CULTISTS_AC: 100
     missionWeights:
       0:
-        STR_ALIEN_SABOTAGE_AC: 100
+        STR_SABOTAGE_MISSION_AC: 100
     regionWeights:
       0:
         REGION_HULK_SITES: 100

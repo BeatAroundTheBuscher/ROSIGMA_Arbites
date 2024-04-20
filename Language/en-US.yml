@@ -50,7 +50,8 @@ en-US:
   STR_RIOTER_DRUG_F0_AC: "Rioter"
   STR_RIOTER_DRUG_F1_AC: "Rioter"
 
-  STR_KHORNE_RIOTS_AC:  "Rioters"
+  STR_KHORNE_RIOTS_AC:  "Rioters (Khorne)"
+  STR_TZEENTCH_RIOTS_AC:  "Rioters (Tzeentch)"
 
   STR_CIVILIAN_M0_CORPSE_AC: "Corpse"
   STR_CIVILIAN_M1_CORPSE_AC: "Corpse"
@@ -71,8 +72,32 @@ en-US:
   STR_SACRIFICE_F0_AC: "Civilian"
   STR_SACRIFICE_F1_AC: "Civilian"
 
+  CIVILIAN_ARMOR_M0_AC: "Civilian"
+  CIVILIAN_ARMOR_M1_AC: "Civilian"
+  CIVILIAN_ARMOR_F0_AC: "Civilian"
+  CIVILIAN_ARMOR_F1_AC: "Civilian"
+
+  STR_MONK1_AC: "Monk"
+  STR_MONK2_AC: "Monk"
+
+  STR_MONK_ARMOR_CORPSE_AC: "Corpse"
+  STR_MONK_ARMOR2_CORPSE_AC: "Corpse"
+
+  MONK_ARMOR_1_AC: "Monk"
+  MONK_ARMOR_2_AC: "Monk"
 
   STR_MUNITORIUM_AC: "Munitorium"
+  MUNITORIUM_ARMOR_AC: "Munitorium"
+  M_CORPSE1_AC: "Destroyed Equipment"
+  M_CORPSE2_AC: "Destroyed Equipment"
+  M_CORPSE3_AC: "Destroyed Equipment"
+  M_CORPSE4_AC: "Destroyed Equipment"
+
+  STR_DESTROYED_EQUIPMENT: "Destroyed Equipment"
+
+  STR_TARANTULA_BOLTER_AC: "Tarantula (Bolter)"
+  TARANTULA_BOLTER_ARMOR_AC: "Tarantula (Bolter)"
+
 
 
 
@@ -117,6 +142,10 @@ en-US:
   STR_WINGED_DAEMON_AC: "Winged Daemon"
   STR_WINGED_DAEMON_ARMOR_AC: "Winged Daemon"
   STR_WINGED_DAEMON_CORPSE_AC: "Winged Daemon Corpse"
+  WINGED_DAEMON_CORPSE_1_AC: "Winged Daemon Corpse"
+  WINGED_DAEMON_CORPSE_2_AC: "Winged Daemon Corpse"
+  WINGED_DAEMON_CORPSE_3_AC: "Winged Daemon Corpse"
+  WINGED_DAEMON_CORPSE_4_AC: "Winged Daemon Corpse"
 
 ## Tzeentch Cultists
 
@@ -126,7 +155,7 @@ en-US:
   STR_TZEENTCH_CULTISTS_DARKDISCIPLE_AC: "Tzeentch Helot"
   STR_TZEENTCH_CULTISTS_SOLDIER_AC: "Tzeentch Cultist"
   STR_TZEENTCH_CULTISTS_FEMCULTIST_AC: "Tzeentch Cultist"
-  STR_TZEENTCH_CULTISTS_CULTIST_AC: "Tzeentch Cultist"
+  STR_TZEENTCH_CULTISTS_ZEALOT_AC: "Tzeentch Cultist"
 
   STR_TZEENTCH_CULTISTS_CORPSE_AC: "Tzeentch Cultist Corpse"
   STR_TZEENTCH_CULTISTS_WITCH_CORPSE_AC: "Tzeentch Cultist Corpse"
@@ -141,7 +170,7 @@ en-US:
   STR_TZEENTCH_CULTISTS_DARKDISCIPLE_ARMOR_AC: "Tzeentch Helot"
   STR_TZEENTCH_CULTISTS_SOLDIER_ARMOR_AC: "Tzeentch Cultist Soldier"
   STR_TZEENTCH_CULTISTS_FEMCULTIST_ARMOR_AC: "Tzeentch Female Cultist"
-  STR_TZEENTCH_CULTISTS_CULTIST_ARMOR_AC: "Tzeentch Cultist"
+  STR_TZEENTCH_CULTISTS_CULTIST_ARMOR_AC: "Tzeentch Zealot"
   STR_TZEENTCH_CULTISTS_AUTOPSY_AC: "Tzeentch Cultists"
 
 
@@ -154,11 +183,11 @@ en-US:
   STR_GENE_CULTISTS_AC: "Genestealer Cultists"
   STR_GENE_CULTISTS_HYBRID_LEADER_AC: "Genestealer Cult Leader"
   STR_GENE_CULTISTS_HYBRID_SOLDIER_AC: "Genestealer Hybrid"
-  STR_GENE_CULTISTS_KELERMORPH_AC: "GSC Kelermorph"
-  STR_GENE_CULTISTS_SOLDIER_AC: "GSC Soldier"
-  STR_GENE_CULTISTS_FEMCULTIST_AC: "GSC Cultist"
-  STR_GENE_CULTISTS_CULTIST_AC: "GSC Cultist"
-  STR_GENE_TANK_AC: "Armored Car"
+  STR_GENE_CULTISTS_KELERMORPH_AC: "Genestealer Kelermorph"
+  STR_GENE_CULTISTS_SOLDIER_AC: "Genestealer Soldier"
+  STR_GENE_CULTISTS_FEMCULTIST_AC: "Genestealer Cultist"
+  STR_GENE_CULTISTS_CULTIST_AC: "Genestealer Cultist"
+  
   STR_GENE_STEALER_YOUNG_AC: "Young Genestealer"
 
   STR_GENE_STEALER_AC: "Genestealer"
@@ -166,12 +195,23 @@ en-US:
   STR_GENE_STEALER_CLAWS_AC: "Genestealer Claws"
   STR_GENE_STEALER_CORPSE_AC: "Genestealer Corpse"
 
-
+  STR_GSC_CIVILIAN_M0_AC: "Civilian"
+  STR_GSC_CIVILIAN_M1_AC: "Civilian"
+  STR_GSC_CIVILIAN_F0_AC: "Civilian"
+  STR_GSC_CIVILIAN_F1_AC: "Civilian"
 
   STR_GENE_CULTISTS_M0_CORPSE_AC: "GSC Cultist Corpse"
   STR_GENE_CULTISTS_M1_CORPSE_AC: "GSC Cultist Corpse"
   STR_GENE_CULTISTS_F0_CORPSE_AC: "GSC Cultist Corpse"
   STR_GENE_CULTISTS_F1_CORPSE_AC: "GSC Cultist Corpse"
+
+  STR_GENE_TANK_AC: "Armored Car"
+  STR_GENETANK_ARMOR_AC: "Armored Car"
+  STR_GSC_TANK_CORPSE_AC: "Destroyed Armored Car"
+  GSC_TANK_CORPSE_1_AC: "Destroyed Armored Car"
+  GSC_TANK_CORPSE_2_AC: "Destroyed Armored Car"
+  GSC_TANK_CORPSE_3_AC: "Destroyed Armored Car"
+  GSC_TANK_CORPSE_4_AC: "Destroyed Armored Car"
 
 
 
@@ -248,6 +288,10 @@ en-US:
   STR_LASPISTOL_AC: "Laspistol"
   STR_LASPISTOL_CHAOS_AC: "Laspistol (Chaos)"
   STR_LASPISTOL_CLIP_AC: "Laspistol Power Cell"
+  STR_LASGUNS_AC: "Lasguns"
+
+
+
 
   STR_NIHILUS_LASPISTOL_AC: "Nihilus Laspistol"
   STR_NIHILUS_LASPISTOL_UFOPEDIA_1: "{NEWLINE} Nihilus Weapons have become prolific through out the underhives, among high-ranking gang lords, cult leaders, or worse, for their ability to reliably put down fully shielded arbites with a few well-placed shots.
@@ -266,6 +310,7 @@ en-US:
     {NEWLINE}  Doubled Ammo consumption
     {NEWLINE}> Leaks Radiation (hurts user)"
   STR_NIHILUS_LONGLAS_AC: "Nihilus Longlas"
+  STR_NIHILUS_LASGUNS_AC: "Nihilus Lasguns"
 
   STR_STUB_CANNON_AC: "Stub Cannon"
   STR_STUB_CANNON_UFOPEDIA: "{NEWLINE} I like big guns and I cannot lie"
@@ -277,6 +322,7 @@ en-US:
   STR_BOLTER_SOLO_UFOPEDIA: "{NEWLINE} Perinetus Pattern Solo Mark II is unsophisticated and lacks the capability for autofire, allowing it only singleshot firemode. This is made up by the weapon's range, accuracy and reliability in adverse conditions. This pattern of Bolter is intended to be used by normal humans and is sized accordingly. {NEWLINE}{NEWLINE}Recoil: {ALT}20"
   STR_BOLTER_LIGHT_CLIP_AC: "Light Bolter Magazine"
   STR_BOLTER_LIGHT_CLIP_KRAKEN_AC: "Light Bolter Kraken Magazine"
+  STR_BOLTERS_LIGHT_AC: "Light Bolters"
 
   STR_MAKESHIFT_GRENADE_AC: "Makeshift Grenade"
   STR_MAKESHIFT_PIPEBOMB_AC: "Makeshift Pipebomb"
@@ -331,11 +377,15 @@ en-US:
   STR_ENFORCER_MEDIC_ARMOR_UFOPEDIA: "{NEWLINE} Carapace variant for the arbites forces, equipped with a medic-kit"
   STR_ENFORCER_HEAVY_ARMOR_UFOPEDIA: "{NEWLINE} Reinforced Enforcer armor providing some extra protection for it's user."
 
+  STR_CIVILIAN_TROOPER_ARMOR_M_AC: "Flak Armor"
+  STR_CIVILIAN_TROOPER_ARMOR_F_AC: "Flak Armor"
+
 
 ## Armor Items
 
 
   STR_ENFORCER_MEDIC_ARMOR_AC: "Enforcer Armor/Medic"
+  STR_ARMOR_MEDI_KIT_AC: "Medikit"
 
 ## HWPs
 
@@ -411,8 +461,8 @@ en-US:
   STR_ARBITES_CAMPAIGN: "Orders for the Local Precinct"
   STR_ARBITES_CAMPAIGN_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} With the newly established Precinct of the Adeptus Arbites we expect that you will investigate any unlawful actions, insurrections and actions of Heresy.{NEWLINE}{NEWLINE} We trust that you have only the Law in mind and will dispense Just Judgement to the criminals."
 
-  STR_CULTIST_INVESTIGATIONS: "Cultist Investigation"
-  STR_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
+  STR_KHORNE_CULTIST_INVESTIGATIONS: "Cultist Investigation"
+  STR_KHORNE_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
 
   STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC: "Initial Investigations"
   STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
@@ -437,6 +487,61 @@ en-US:
   STR_KHORNE_CULTISTS_DEFEATED_AC: "Khorne Cultist Menace Defeated"
   STR_KHORNE_CULTISTS_DEFEATED_AC_TEXT: "TODO"
 
+  STR_TZEENTCH_CULTIST_INVESTIGATIONS: "Cultist Investigation"
+  STR_TZEENTCH_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
+
+  STR_TZEENTCH_CULTISTS_BEGINNING_INVESTIGATION_AC: "Initial Investigations"
+  STR_TZEENTCH_CULTISTS_BEGINNING_INVESTIGATION_AC_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
+
+  STR_TZEENTCH_CULTISTS_PREREQUISITE_1_AC: "One Khorne Cultist interrogated"
+  STR_TZEENTCH_CULTISTS_PREREQUISITE_2_AC: "Multiple Khorne Cultists interrogated"
+
+  STR_TZEENTCH_CULTISTS_MENACE_AC: "Cultist Menace"
+  STR_TZEENTCH_CULTISTS_MENACE_AC_TEXT: "{NEWLINE} There has been a cult lurking for some time now on this very planet. While the interrogated cultists could not provide much information behind the monetary and political support, they were able to provide a glimpse in their rank structure. Considering that this menace is much greater than anticipated more judges and mastiffs will be necessary to enforce Just Judgement.
+   {NEWLINE}{NEWLINE}Allows Recruitment of:{NEWLINE}> Judges{NEWLINE}> Cybermastiff"
+
+  STR_TZEENTCH_CULTISTS_LEADERSHIP_AC: "Cultist Leadership"
+  STR_TZEENTCH_CULTISTS_LEADERSHIP_AC_TEXT: "{NEWLINE} The Leadership of Cultists consists of their priests and their aspiring champions who are fanatically loyal to their cause. During interrogation they spoke in incoherent sentences. With more evidence we might be able to resolve how they fit into the bigger puzzle."
+
+  STR_TZEENTCH_CULTISTS_EVIDENCE_AC: "Cultist Evidence"
+  STR_TZEENTCH_CULTISTS_EVIDENCE_AC_TEXT: "{NEWLINE} The evidences consists of scripts and chants as well their sacrifices commited in their summonings. With this we can piece the puzzle on the plot of the Cultists together."
+
+  STR_TZEENTCH_CULTISTS_PLOT_AC: "Cultist Plot"
+  STR_TZEENTCH_CULTISTS_PLOT_AC_TEXT: "{NEWLINE} It is now obvious that the Cultists are supported by some other faction to destabilize the society. For this purpose the cultists incite rebellious acts in the hives to collect sacrifices for their summons. The Aspiring Champions are made ready for their transformations into daemons to open pathways to the Warp.
+    {NEWLINE}{NEWLINE}Also we were able to pin point the source of these undoings. We should have found them by the end of next month."
+
+  STR_TZEENTCH_CULTISTS_DEFEATED_AC: "Khorne Cultist Menace Defeated"
+  STR_TZEENTCH_CULTISTS_DEFEATED_AC_TEXT: "TODO"
+
+### ARC 2
+
+  STR_GENE_CULTIST_INVESTIGATIONS: "Cultist Investigation"
+  STR_GENE_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
+
+  STR_GENE_CULTISTS_BEGINNING_INVESTIGATION_AC: "Initial Investigations"
+  STR_GENE_CULTISTS_BEGINNING_INVESTIGATION_AC_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
+
+  STR_GENE_CULTISTS_PREREQUISITE_1_AC: "One Khorne Cultist interrogated"
+  STR_GENE_CULTISTS_PREREQUISITE_2_AC: "Multiple Khorne Cultists interrogated"
+
+  STR_GENE_CULTISTS_MENACE_AC: "Cultist Menace"
+  STR_GENE_CULTISTS_MENACE_AC_TEXT: "{NEWLINE} There has been a cult lurking for some time now on this very planet. While the interrogated cultists could not provide much information behind the monetary and political support, they were able to provide a glimpse in their rank structure. Considering that this menace is much greater than anticipated more judges and mastiffs will be necessary to enforce Just Judgement.
+   {NEWLINE}{NEWLINE}Allows Recruitment of:{NEWLINE}> Judges{NEWLINE}> Cybermastiff"
+
+  STR_GENE_CULTISTS_LEADERSHIP_AC: "Cultist Leadership"
+  STR_GENE_CULTISTS_LEADERSHIP_AC_TEXT: "{NEWLINE} The Leadership of Cultists consists of their priests and their aspiring champions who are fanatically loyal to their cause. During interrogation they spoke in incoherent sentences. With more evidence we might be able to resolve how they fit into the bigger puzzle."
+
+  STR_GENE_CULTISTS_EVIDENCE_AC: "Cultist Evidence"
+  STR_GENE_CULTISTS_EVIDENCE_AC_TEXT: "{NEWLINE} The evidences consists of scripts and chants as well their sacrifices commited in their summonings. With this we can piece the puzzle on the plot of the Cultists together."
+
+  STR_GENE_CULTISTS_PLOT_AC: "Cultist Plot"
+  STR_GENE_CULTISTS_PLOT_AC_TEXT: "{NEWLINE} It is now obvious that the Cultists are supported by some other faction to destabilize the society. For this purpose the cultists incite rebellious acts in the hives to collect sacrifices for their summons. The Aspiring Champions are made ready for their transformations into daemons to open pathways to the Warp.
+    {NEWLINE}{NEWLINE}Also we were able to pin point the source of these undoings. We should have found them by the end of next month."
+
+  STR_GENE_CULTISTS_DEFEATED_AC: "Khorne Cultist Menace Defeated"
+  STR_GENE_CULTISTS_DEFEATED_AC_TEXT: "TODO"
+
+
 ## Missions
 # type
 # briefing title
@@ -457,6 +562,7 @@ en-US:
   STR_TRAITOR_OUTPOST: "Traitor Outpost"
   STR_CULTIST_CHURCH_AC: "Cultist Church"
   STR_LOST_PRECINCT_AC: "Lost Precinct"
+  STR_CULTIST_RETALIATION_AC: "Retaliation"
 
   STR_UNDERHIVE_AC: "Underhive"
   STR_UNDERHIVE_RAIL_AC: "Underhive (Rails)"
@@ -465,7 +571,6 @@ en-US:
     {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
   STR_UNDERHIVE_DETECTED: "Problems in the Underhive"
   STR_UNDERHIVE_SITE: "Problems in the Underhive"
-
  
   
   
@@ -476,6 +581,8 @@ en-US:
     {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
   STR_PRISON_BREAK_DETECTED: "Prison Break Detected"
   STR_PRISON_BREAK_SITE: "Prison Break in Progress"
+
+  STR_PRISON_BREAK_FEW_DRUGS_AC: "Prison Break (Few Drugs)"
 
   STR_CATACOMBS_AC: "Catacombs"
   STR_CATACOMB_TITLE: "Heritical Cult"
@@ -544,6 +651,7 @@ en-US:
     {NEWLINE}> Only works if shield is visible on the unit. {NEWLINE}This means that the other hand is not allowed to have a item with a green or red '2' for two-handed"
   STR_CMAS_TACKLE: "Tackle"
   STR_FLAMETHROWER_CLIP_AC: "Flamer Clip"
+  STR_FLAMETHROWER_PROMETHIUM_CLIP_AC: "Promethium Flamer Clip"
 
   # # " They enforce the Imperial Law by hunting down rebels and heretics. Their Carapace armor is reinforced providing superior protection.
   STR_JUDGE_ARMOR_UFOPEDIA_AC_1: "{NEWLINE} The Judges of the Adeptus Arbites serve as judge, jury and executioner bringing Emperor's Justice to all worlds of Imperium of Man.

@@ -923,7 +923,7 @@ alienDeployments:
       textOffset: -16
       palette: 4
     shade: 7
-    markerName: STR_UNDER_HIVE_SITE_AC
+    markerName: STR_UNDERHIVE_SITE
     points: 1
 
   - type: STR_CULTIST_CHURCH_AC

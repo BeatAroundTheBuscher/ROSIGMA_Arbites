@@ -1190,7 +1190,7 @@ items:
     snapRange: 14
     aimRange: 0
     requiresBuy: 
-      - STR_LIGHT_BOLTERS_AC
+      - STR_BOLTERS_LIGHT_AC
     accuracyAuto: 0
     accuracySnap: 85
     accuracyAimed: 0
@@ -1204,7 +1204,7 @@ items:
     type: STR_BOLTER_LIGHT_CLIP_AC
     categories: [STR_CAT_BOLTER]
     requiresBuy: 
-      - STR_LIGHT_BOLTERS_AC
+      - STR_BOLTERS_LIGHT_AC
     size: 0.1
 #    requiresBuyBaseFunc: [TRADE]
     costBuy: 2000 #Intention is costly ammo vs lasguns
@@ -1236,7 +1236,7 @@ items:
   - type: STR_BOLTER_LIGHT_CLIP_KRAKEN_AC
     refNode: *STR_BOLTER_AMMO_SOLO
     requiresBuy: 
-      - STR_LIGHT_BOLTERS_AC
+      - STR_BOLTERS_LIGHT_AC
     costBuy: 7000 #costs less due to 10 rounds less
     costSell: 300
     bigSprite: 288

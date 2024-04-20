@@ -146,7 +146,7 @@ crafts:
   - type: STR_AVENGER_AC
     requires:
       - STR_GENERAL_LOCK_AC
-      - STR_FIGHTER_CRAFT
+      - STR_FIGHTER_CRAFT_AC
     requiresBuyBaseFunc: [HANGAR]
     marker: 40
     sprite: 508

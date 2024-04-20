@@ -284,7 +284,7 @@ ufopaedia:
     image_id: BOLTER_SOLO.SPK
     text: STR_BOLTER_SOLO_UFOPEDIA
     requires:
-      - STR_LIGHT_BOLTERS_AC
+      - STR_BOLTERS_LIGHT_AC
     listOrder: 310
 
 #### Webbers

@@ -27,7 +27,6 @@ research:
       - STR_KHORNE_CULTISTS_PREREQUISITE_2_AC
       - STR_KHORNE_CULTISTS_CORPSE_AC
       - STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC
-#      - STR_INTERROGATION_COMPLETED
     unlocks:
       - STR_JUDGE_RECRUITMENT_AC
       - STR_CYBER_MASTIFF_RECRUITMENT_AC
@@ -59,8 +58,111 @@ research:
     dependencies:
       - STR_GENERAL_LOCK_AC
 
+  - name: STR_TZEENTCH_CULTISTS_BEGINNING_INVESTIGATION_AC
+    cost: 100
+    points: 50
+
+  - name: STR_TZEENTCH_CULTISTS_PREREQUISITE_1_AC # first one gives soldier info
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_TZEENTCH_CULTISTS_PREREQUISITE_2_AC # second gives plot advancement
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_TZEENTCH_CULTISTS_MENACE_AC
+    cost: 200
+    points: 100
+    dependencies:
+      # - STR_TZEENTCH_CULTISTS_AC
+      - STR_TZEENTCH_CULTISTS_PREREQUISITE_1_AC
+      - STR_TZEENTCH_CULTISTS_PREREQUISITE_2_AC
+      - STR_TZEENTCH_CULTISTS_CORPSE_AC
+      - STR_TZEENTCH_CULTISTS_BEGINNING_INVESTIGATION_AC
+    unlocks:
+      - STR_JUDGE_RECRUITMENT_AC
+      - STR_CYBER_MASTIFF_RECRUITMENT_AC
+
+  - name: STR_TZEENTCH_CULTISTS_LEADERSHIP_AC
+    cost: 200
+    points: 100
+    dependencies:
+      - STR_TZEENTCH_CULTISTS_WITCH_AC
+      - STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_AC
+
+  - name: STR_TZEENTCH_CULTISTS_EVIDENCE_AC
+    cost: 200
+    points: 100
+    needItem: true
+    dependencies:
+      - STR_TZEENTCH_CULTISTS_MENACE_AC
+
+  - name: STR_TZEENTCH_CULTISTS_PLOT_AC
+    cost: 200
+    points: 100
+    dependencies:
+      - STR_TZEENTCH_CULTISTS_LEADERSHIP_AC
+      - STR_TZEENTCH_CULTISTS_EVIDENCE_AC
+
+  - name: STR_TZEENTCH_CULTISTS_DEFEATED_AC
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_GENERAL_LOCK_AC
 
   - name: STR_ARBITES_ARC2
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_GENE_CULTISTS_BEGINNING_INVESTIGATION_AC
+    cost: 100
+    points: 50
+
+  - name: STR_GENE_CULTISTS_PREREQUISITE_1_AC # first one gives soldier info
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_GENE_CULTISTS_PREREQUISITE_2_AC # second gives plot advancement
+    dependencies:
+      - STR_GENERAL_LOCK_AC
+
+  - name: STR_GENE_CULTISTS_MENACE_AC
+    cost: 200
+    points: 100
+    dependencies:
+      # - STR_GENE_CULTISTS_AC
+      - STR_GENE_CULTISTS_PREREQUISITE_1_AC
+      - STR_GENE_CULTISTS_PREREQUISITE_2_AC
+      - STR_GENE_CULTISTS_CORPSE_AC
+      - STR_GENE_CULTISTS_BEGINNING_INVESTIGATION_AC
+    unlocks:
+      - STR_JUDGE_RECRUITMENT_AC
+      - STR_CYBER_MASTIFF_RECRUITMENT_AC
+
+  - name: STR_GENE_CULTISTS_LEADERSHIP_AC
+    cost: 200
+    points: 100
+    dependencies:
+      - STR_GENE_CULTISTS_HYBRID_LEADER_AC
+      - STR_GENE_CULTISTS_HYBRID_SOLDIER_AC
+
+  - name: STR_GENE_CULTISTS_EVIDENCE_AC
+    cost: 200
+    points: 100
+    needItem: true
+    dependencies:
+      - STR_GENE_CULTISTS_MENACE_AC
+
+  - name: STR_GENE_CULTISTS_PLOT_AC
+    cost: 200
+    points: 100
+    dependencies:
+      - STR_GENE_CULTISTS_LEADERSHIP_AC
+      - STR_GENE_CULTISTS_EVIDENCE_AC
+
+  - name: STR_GENE_CULTISTS_DEFEATED_AC
+    cost: 0
+    points: 0
     dependencies:
       - STR_GENERAL_LOCK_AC
 
