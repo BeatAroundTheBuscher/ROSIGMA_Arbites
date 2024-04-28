@@ -476,7 +476,10 @@ mapScripts:
         - [4, 0, 1, 5]
       conditionals: [5]
     - type: addCraft
+      terrain: globeTerrain
     - type: addBlock
       size: 2
       executions: 2
+      terrain: globeTerrain
     - type: fillArea
+      terrain: globeTerrain
