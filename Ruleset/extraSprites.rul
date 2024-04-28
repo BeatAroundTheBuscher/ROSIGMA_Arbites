@@ -50,6 +50,8 @@
       207: Resources/Bigobs/BIGOB_HIGHGRADE_AUTOGUN_drum.png
       208: Resources/Bigobs/BIGOB_AUTOGUN_CLIP_DRUM.png
 
+      
+
 
       ## FilipH/Nuclear World
       210: Resources/Bigobs/bigob_Stimpak.png
@@ -59,6 +61,11 @@
       285: Resources/Bigobs/BOLTERSOLO_GUARD_BIGOB.png
       287: Resources/Bigobs/lightbolter_mag_short_bigob.png
       288: Resources/Bigobs/lightbolter_mag_short_AP_bigob.png
+
+      ## Rosigmunda
+      300: Resources/FOES/bigob_tzeentch_corpse_zealot.png
+
+      ## ROSIGMA
       921: Resources/Bigobs/BIGOB_LASCUTTER.png
       922: Resources/Bigobs/BIGOB_LASCUTTER_BATTERY.png
       923: Resources/Bigobs/BIGOB_LASCUTTER_BATTERY_HUGE.png
@@ -87,6 +94,23 @@
       2715: Resources/Bigobs/bigob_makeshift_pipebomb.png
       2724: Resources/FOES/GSC_HYBRID_ACOLYTE_BIGOB.png
       2871: Resources/FOES/BigOBDarkDisciple.png
+      2904: Resources/FOES/bigob_thrall.png
+      2905: Resources/FOES/bigob_acolyte.png
+      2906: Resources/FOES/bigob_cult_tzeentch_leader.png
+      2907: Resources/FOES/bigob_cult_tzeentch_witch.png
+      2908: Resources/FOES/bigob_tzeentch_lesser_daemon.png
+      2909: Resources/FOES/bigob_tzaangor.png
+      2910: Resources/FOES/bigob_tzfem_helot.png
+      2911: Resources/FOES/bigob_tzbluehorror.png
+      2912: Resources/FOES/bigob_tzpinkhorror.png
+      2920: Resources/FOES/bigobs_tztraitorguard_corpse1.png
+      2921: Resources/FOES/bigob_tztraitorguard_corpse.png
+      2922: Resources/FOES/bigob_tztraitorguard_fheavy.png
+      2923: Resources/FOES/bigob_tztraitorguard_commando.png
+      2924: Resources/FOES/bigob_tztraitorguard_scout.png
+      2925: Resources/FOES/bigob_tztraitorguard_fcara.png
+      2926: Resources/FOES/bigob_tztraitorguard_officer.png
+
       2940: Resources/Bigobs/TZEENTCH_NIHILIUS_LASPISTOL_BIGOB.png
       2941: Resources/Bigobs/TZEENTCH_NIHILIS_LASGUN_BIGOB.png
 
@@ -320,6 +344,14 @@
     files:
       0: Resources/FOES/UnitSprites/tzeentchfemcultist1BS.png
 
+  - type: TZEENTCH_ZEALOT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/UnitSprites/tzeentch_zealot_BS.png
+
   - type: CULTIST_THRALL_BS.PCK
     width: 512
     height: 720
@@ -328,10 +360,15 @@
     files:
       0: Resources/FOES/UnitSprites/CULTIST_THRALL_BS.png
 
-  - type: CULTISTTZEENTCH_INV.SPK #FOES INV
+  - type: CULTIST_TZEENTCH_INV.SPK #FOES INV
     singleImage: true
     files:
-      0: Resources/FOES/Inventory/CULTISTTZEENTCH_INV.png
+      0: Resources/FOES/Inventory/CULTIST_TZEENTCH_INV.png
+
+  - type: CULTIST_TZEENTCH_ARMOR_INV.SPK
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/CULTIST_TZEENTCH_ARMOR_INV.png
 
   - type: tzeentchfemguardcommandoBS.PCK
     width: 512
@@ -346,6 +383,19 @@
     files:
       0: Resources/FOES/Inventory/TZCOMMANDO_INV.png
 
+
+  - type: TZEENTCH_ACOLYTE_BS.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOES/UnitSprites/TZEENTCH_ACOLYTE_BS.png
+
+  - type: ACOLYTE_INV.SPK #FOES INV
+    singleImage: true
+    files:
+      0: Resources/FOES/Inventory/ACOLYTE_INV.png
 
 ## GSC
 

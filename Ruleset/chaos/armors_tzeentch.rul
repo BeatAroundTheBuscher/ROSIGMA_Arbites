@@ -3,8 +3,8 @@ armors:
     type: STR_TZEENTCH_CULTISTS_ZEALOT_ARMOR_AC
     visibilityAtDay: 40
     visibilityAtDark: 20
-    spriteSheet: SECTOID.PCK
-    spriteInv: CULTI1
+    spriteSheet: TZEENTCH_ZEALOT.PCK
+    spriteInv: CULTIST_TZEENTCH_INV.SPK
     corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
     corpseBattle:
       - STR_TZEENTCH_CULTISTS_CULTIST_CORPSE_AC
@@ -30,8 +30,8 @@ armors:
 
   - type: STR_TZEENTCH_CULTISTS_FEMCULTIST_ARMOR_AC
     refNode: *STR_TZEENTCH_CULTIST_ARMOR
-    spriteSheet: FEMCULTIST.PCK
-    spriteInv: ARepentiaLightK.SPK
+    spriteSheet: TZEENTCH_FEM_CULTIST_1BS.PCK
+    spriteInv: TZEENTCH_HELOT_INV.SPK
     corpseBattle:
       - STR_TZEENTCH_CULTISTS_FEMCULTIST_CORPSE_AC
 
@@ -39,7 +39,7 @@ armors:
     type: STR_TZEENTCH_CULTISTS_SOLDIER_ARMOR_AC
     refNode: *STR_TZEENTCH_CULTIST_ARMOR
     spriteSheet: CULTIST_THRALL_BS.PCK
-    spriteInv: CULTISTTZEENTCH_INV.SPK
+    spriteInv: CULTIST_TZEENTCH_ARMOR_INV.SPK
     corpseBattle:
       - STR_TZEENTCH_CULTISTS_SOLDIER_CORPSE_AC
     frontArmor: 20
@@ -78,8 +78,8 @@ armors:
 
   - type: STR_TZEENTCH_CULTISTS_DARKDISCIPLE_ARMOR_AC
     refNode: *STR_TZEENTCH_CULTIST_GUTTERFORGE_ARMOR
-    spriteSheet: TZEENTCH_FEM_CULTIST_1BS.PCK
-    spriteInv: TZEENTCH_HELOT_INV.SPK
+    spriteSheet: TZEENTCH_ACOLYTE_BS.PCK
+    spriteInv: ACOLYTE_INV.SPK
     corpseGeo: STR_TZEENTCH_CULTISTS_CORPSE_AC
     corpseBattle:
       - STR_TZEENTCH_CULTISTS_DARKDISCIPLE_CORPSE_AC

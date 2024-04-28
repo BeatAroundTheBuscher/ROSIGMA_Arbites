@@ -229,7 +229,7 @@ units:
 
   - type: STR_TZEENTCH_CULTISTS_ZEALOT_AC
     race: STR_TZEENTCH_CULTISTS_AC
-    rank: STR_LIVE_SOLDIER
+    rank: STR_RANK_ZEALOT_AC
     stats:
       tu: 54
       stamina: 90

@@ -2,7 +2,7 @@ arcScripts:
   - type: arbitesCampaign            
     sequentialArcs:                  
       - STR_ARBITES_CAMPAIGN
-      - STR_CULTIST_INVESTIGATIONS
+      - STR_CULTIST_INVESTIGATIONS_AC
     firstMonth: 0       
     lastMonth: 1       
     executionOdds: 100  

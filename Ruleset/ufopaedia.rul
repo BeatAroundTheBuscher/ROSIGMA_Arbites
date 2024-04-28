@@ -20,20 +20,20 @@ ufopaedia:
       - STR_ARBITES_CAMPAIGN
     listOrder: 20
 
-  - id: STR_CULTIST_INVESTIGATIONS
+  - id: STR_CULTIST_INVESTIGATIONS_AC
     type_id: 10
     section: STR_INVESTIGATIONS_AC
     image_id: 4ARB.SPK
-    text: STR_CULTIST_INVESTIGATIONS_TEXT
+    text: STR_CULTIST_INVESTIGATIONS_TEXT_AC
     listOrder: 30
     requires:
-      - STR_CULTIST_INVESTIGATIONS
+      - STR_CULTIST_INVESTIGATIONS_AC
 
   - id: STR_CULTISTS_BEGINNING_INVESTIGATION_AC
     type_id: 10
     section: STR_INVESTIGATIONS_AC
     image_id: 4ARB.SPK
-    text: STR_CULTISTS_BEGINNING_INVESTIGATION_AC_TEXT
+    text: STR_CULTISTS_BEGINNING_INVESTIGATION_TEXT_AC
     listOrder: 40
     requires:
       - STR_CULTISTS_BEGINNING_INVESTIGATION_AC
@@ -42,7 +42,7 @@ ufopaedia:
     type_id: 10
     section: STR_INVESTIGATIONS_AC
     image_id: UP025.SPK
-    text: STR_KHORNE_CULTISTS_MENACE_AC_TEXT
+    text: STR_KHORNE_CULTISTS_MENACE_TEXT_AC
     listOrder: 50
     requires:
       - STR_KHORNE_CULTISTS_MENACE_AC
@@ -51,7 +51,7 @@ ufopaedia:
     type_id: 10
     section: STR_INVESTIGATIONS_AC
     image_id: UP088.SPK
-    text: STR_KHORNE_CULTISTS_LEADERSHIP_AC_TEXT
+    text: STR_KHORNE_CULTISTS_LEADERSHIP_TEXT_AC
     listOrder: 60
     requires:
       - STR_KHORNE_CULTISTS_LEADERSHIP_AC
@@ -60,7 +60,7 @@ ufopaedia:
     type_id: 10
     section: STR_INVESTIGATIONS_AC
     image_id: UP088.SPK
-    text: STR_KHORNE_CULTISTS_EVIDENCE_AC_TEXT
+    text: STR_KHORNE_CULTISTS_EVIDENCE_TEXT_AC
     listOrder: 70
     requires:
       - STR_KHORNE_CULTISTS_EVIDENCE_AC
@@ -69,7 +69,7 @@ ufopaedia:
     type_id: 10
     section: STR_INVESTIGATIONS_AC
     image_id: UP088.SPK
-    text: STR_KHORNE_CULTISTS_PLOT_AC_TEXT
+    text: STR_KHORNE_CULTISTS_PLOT_TEXT_AC
     listOrder: 80
     requires:
       - STR_KHORNE_CULTISTS_PLOT_AC

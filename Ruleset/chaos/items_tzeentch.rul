@@ -7,7 +7,7 @@ items:
   - &STR_CORPSE # battlescape only
     type: STR_TZEENTCH_CULTISTS_WITCH_CORPSE_AC
     weight: 20
-    bigSprite: {mod: 40k, index: 213}
+    bigSprite: 2907
     floorSprite: {mod: 40k, index: 101}
     invWidth: 2
     invHeight: 3
@@ -22,22 +22,22 @@ items:
 
   - type: STR_TZEENTCH_CULTISTS_DARKDISCIPLE_CORPSE_AC
     refNode: *STR_CORPSE
-    bigSprite: 2871
+    bigSprite: 2905
     floorSprite: 2871
 
   - type: STR_TZEENTCH_CULTISTS_SOLDIER_CORPSE_AC
     refNode: *STR_CORPSE
-    bigSprite: {mod: 40k, index: 46}
+    bigSprite: 2923
     floorSprite: {mod: 40k, index: 42}
 
   - type: STR_TZEENTCH_CULTISTS_FEMCULTIST_CORPSE_AC
     refNode: *STR_CORPSE
-    bigSprite: {mod: 40k, index: 449}
+    bigSprite: 2910
     floorSprite: {mod: 40k, index: 371}
 
   - type: STR_TZEENTCH_CULTISTS_CULTIST_CORPSE_AC
     refNode: *STR_CORPSE
-    bigSprite: {mod: 40k, index: 293}
+    bigSprite: 300
     floorSprite: {mod: 40k, index: 161}
 
 
