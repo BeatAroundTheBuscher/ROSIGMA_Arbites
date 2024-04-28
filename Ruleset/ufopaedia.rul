@@ -246,7 +246,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: LASGUN_VOSS.SPK
     text: STR_LASER_RIFLE_UFOPEDIA
-    listOrder: 281
+    listOrder: 290
 
   - id: STR_NIHILUS_LASPISTOL_AC
     type_id: 14
@@ -260,7 +260,7 @@ ufopaedia:
         text: STR_NIHILUS_LASPISTOL_UFOPEDIA_1
       - title: STR_NIHILUS_LASPISTOL_AC
         text: STR_NIHILUS_LASPISTOL_UFOPEDIA_2
-    listOrder: 290
+    listOrder: 300
 
   - id: STR_NIHILUS_LASGUN_AC
     type_id: 14
@@ -274,7 +274,7 @@ ufopaedia:
         text: STR_NIHILUS_LASGUN_UFOPEDIA_1
       - title: STR_NIHILUS_LASGUN_AC
         text: STR_NIHILUS_LASGUN_UFOPEDIA_2
-    listOrder: 300
+    listOrder: 310
 
 #### Bolters
 
@@ -285,7 +285,7 @@ ufopaedia:
     text: STR_BOLTER_SOLO_UFOPEDIA
     requires:
       - STR_BOLTERS_LIGHT_AC
-    listOrder: 310
+    listOrder: 320
 
 #### Webbers
 
@@ -297,7 +297,7 @@ ufopaedia:
     text: STR_WEBBER_UFOPEDIA
     requires:
       - STR_WEBBER_AC
-    listOrder: 320
+    listOrder: 330
 
 #### Special Weapons
 
@@ -307,7 +307,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1MF.SPK
     text: STR_FLAMETHROWER_UFOPEDIA
-    listOrder: 321
+    listOrder: 340
     requires:
       - STR_FLAMER_AC
 
@@ -318,7 +318,7 @@ ufopaedia:
     text: STR_LASCUTTER_CODEX
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: CODEX_LASCUTTER.SPK
-    listOrder: 322
+    listOrder: 350
 
 #### Melee
 
@@ -327,14 +327,14 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1CK.SPK
     text: STR_KNIF_UFOPEDIA
-    listOrder: 330
+    listOrder: 360
 
   - id: STR_STUN_ROD_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1PB.SPK
     text: STR_STUN_ROD_UFOPEDIA
-    listOrder: 340
+    listOrder: 370
 
 #### Utility
 
@@ -343,7 +343,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1FG.SPK
     text: STR_RIOT_SHIELD_UFOPEDIA
-    listOrder: 360
+    listOrder: 380
     pages:
       - title: STR_RIOT_SHIELD_AC
         text: STR_RIOT_SHIELD_UFOPEDIA_AC_1
@@ -355,49 +355,49 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1FG.SPK
     text: STR_GRENADE_UFOPEDIA
-    listOrder: 370
+    listOrder: 390
 
   - id: STR_KRAK_GRENADE_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1KG.SPK
     text: STR_KRAK_GRENADE_UFOPEDIA
-    listOrder: 380
+    listOrder: 400
 
   - id: STR_SMOKE_GRENADE_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1SG2.SPK
     text: STR_SMOKE_GRENADE_UFOPEDIA
-    listOrder: 390
+    listOrder: 410
 
   - id: STR_PROXIMITY_GRENADE_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1PG.SPK
     text: STR_PROXIMITY_GRENADE_UFOPEDIA
-    listOrder: 400
+    listOrder: 420
 
   - id: STR_PHOSPHOR_GRENADE_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1SG2.SPK
     text: STR_PHOSPHOR_GRENADE_UFOPEDIA
-    listOrder: 410
+    listOrder: 430
 
   - id: STR_PHOTON_GRENADE_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: PHOTON_GRENADE.SPK
     text: STR_PHOTON_GRENADE_UFOPEDIA
-    listOrder: 420
+    listOrder: 440
 
   - id: STR_ELECTRO_FLARE_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     image_id: 1FL.SPK
     text: STR_ELECTRO_FLARE_UFOPEDIA
-    listOrder: 430
+    listOrder: 450
 
   - id: STR_MOTION_SCANNER_AC
     type_id: 14
@@ -406,7 +406,7 @@ ufopaedia:
     requires:
       - STR_MOTION_SCANNER_AC
     text: STR_MOTION_SCANNER_UFOPEDIA
-    listOrder: 431
+    listOrder: 460
 
 
 ## ENEMY Weapons
@@ -430,21 +430,21 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 1OK4.SPK
     text: STR_MAKESHIFT_GRENADE_UFOPEDIA
-    listOrder: 440
+    listOrder: 470
 
   - id: STR_MAKESHIFT_PIPEBOMB_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 1OK4.SPK
     text: STR_MAKESHIFT_PIPEBOMB_UFOPEDIA
-    listOrder: 450
+    listOrder: 480
 
   - id: STR_SLAUGHT_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 0ENFM.SPK
     text: STR_SLAUGHT_UFOPEDIA
-    listOrder: 460
+    listOrder: 490
     requires:
       - STR_SLAUGHT_AC
 
@@ -453,7 +453,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 0ENFM.SPK
     text: STR_FRENZON_UFOPEDIA
-    listOrder: 470
+    listOrder: 500
     requires:
       - STR_FRENZON_AC
 
@@ -462,7 +462,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT_ENEMY
     image_id: 0ENFM.SPK
     text: STR_ZUMTHORIAN_GREYVE_UFOPEDIA
-    listOrder: 480
+    listOrder: 510
     requires:
       - STR_ZUMTHORIAN_GREYVE_AC
 
@@ -474,28 +474,28 @@ ufopaedia:
     section: STR_ARMORPEDIA
     image_id: PENAL_LEGION.SPK
     text: STR_PENAL_ARMOR_BROWN_UC_UFOPEDIA
-    listOrder: 490
+    listOrder: 520
 
   - id: STR_FLAK_ARMOR_AC_UC
     type_id: 15
     section: STR_ARMORPEDIA
     image_id: 0GU.SPK
     text: STR_GUARD_ARMORSM_UFOPEDIA
-    listOrder: 491
+    listOrder: 530
 
   - id: STR_ENFORCER_ARMOR_AC_UC
     type_id: 15
     section: STR_ARMORPEDIA
     image_id: 0ENF.SPK
     text: STR_ENFORCER_ARMOR_UFOPEDIA
-    listOrder: 500
+    listOrder: 540
 
   - id: STR_ENFORCER_MEDIC_ARMOR_AC_UC
     type_id: 15
     section: STR_ARMORPEDIA
     image_id: 0ENFM.SPK
     text: STR_ENFORCER_MEDIC_ARMOR_UFOPEDIA
-    listOrder: 510
+    listOrder: 550
 
   - id: STR_ENFORCER_HEAVY_ARMOR_AC_UC
     requires:
@@ -504,13 +504,13 @@ ufopaedia:
     section: STR_ARMORPEDIA
     image_id: 0ENF2.SPK
     text: STR_ENFORCER_HEAVY_ARMOR_UFOPEDIA
-    listOrder: 520
+    listOrder: 560
 
   - id: STR_JUDGE_ARMOR_AC_UC
     type_id: 15
     section: STR_ARMORPEDIA
     image_id: 0JDG.SPK
-    listOrder: 530
+    listOrder: 570
     pages:
       - title: STR_JUDGE_ARMOR_AC_UC
         text: STR_JUDGE_ARMOR_UFOPEDIA_AC_1
@@ -524,10 +524,12 @@ ufopaedia:
     section: STR_ARMORPEDIA
     image_id: C13.SPK
     text: STR_CMAS_UFOPEDIA
-    listOrder: 540
+    listOrder: 580
 
 
 ### Enemies
+
+#### Khorne
 
   - id: STR_KHORNE_CULTISTS_AUTOPSY_AC
     type_id: 10
@@ -536,7 +538,7 @@ ufopaedia:
     text: STR_SECTOID_AUTOPSY_UFOPEDIA
     requires:
       - STR_KHORNE_CULTISTS_CORPSE_AC
-    listOrder: 550
+    listOrder: 590
 
   - id: STR_KHORNE_CULTISTS_PRIEST_ARMOR_AC
     type_id: 15
@@ -545,7 +547,7 @@ ufopaedia:
       - STR_KHORNE_CULTISTS_PRIEST_AC
     image_id: UP024.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
-    listOrder: 560
+    listOrder: 600
 
   - id: STR_KHORNE_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
     type_id: 15
@@ -554,7 +556,7 @@ ufopaedia:
       - STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
     image_id: UP024.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
-    listOrder: 570
+    listOrder: 610
 
   - id: STR_KHORNE_CULTISTS_DARKDISCIPLE_ARMOR_AC
     type_id: 15
@@ -563,7 +565,7 @@ ufopaedia:
       - STR_KHORNE_CULTISTS_DARKDISCIPLE_AC
     image_id: UP024.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
-    listOrder: 580
+    listOrder: 620
 
   - id: STR_KHORNE_CULTISTS_SOLDIER_ARMOR_AC
     type_id: 15
@@ -572,7 +574,7 @@ ufopaedia:
       - STR_KHORNE_CULTISTS_CULTIST_AC
     image_id: UP024.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
-    listOrder: 590
+    listOrder: 630
 
   - id: STR_KHORNE_CULTISTS_FEMCULTIST_ARMOR_AC
     type_id: 15
@@ -581,7 +583,7 @@ ufopaedia:
       - STR_KHORNE_CULTISTS_CULTIST_AC
     image_id: UP024.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
-    listOrder: 600
+    listOrder: 640
 
   - id: STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC
     type_id: 15
@@ -590,7 +592,7 @@ ufopaedia:
       - STR_KHORNE_CULTISTS_CULTIST_AC
     image_id: UP024.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
-    listOrder: 610
+    listOrder: 650
 
   - id: STR_BLOODLETTER_DAEMON_ARMOR_AC
     type_id: 15
@@ -599,7 +601,7 @@ ufopaedia:
       - STR_BLOODLETTER_DAEMON_CORPSE_AC
     image_id: UP028.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
-    listOrder: 620
+    listOrder: 660
 
   - id: STR_WINGED_DAEMON_ARMOR_AC
     type_id: 15
@@ -608,8 +610,73 @@ ufopaedia:
       - STR_WINGED_DAEMON_CORPSE_AC
     image_id: UP041.SPK
     text: STR_CODEX_ARMOR_DETAIL_TEXT
-    listOrder: 630
+    listOrder: 670
 
+
+#### Tzeentch
+
+  - id: STR_TZEENTCH_CULTISTS_AUTOPSY_AC
+    type_id: 10
+    section: STR_ALIEN_LIFE_FORMS
+    image_id: UP025.SPK
+    text: STR_SECTOID_AUTOPSY_UFOPEDIA
+    requires:
+      - STR_TZEENTCH_CULTISTS_CORPSE_AC
+    listOrder: 680
+
+  - id: STR_TZEENTCH_CULTISTS_WITCH_ARMOR_AC
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_TZEENTCH_CULTISTS_WITCH_AC
+    image_id: UP024.SPK
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
+    listOrder: 690
+
+  - id: STR_TZEENTCH_CULTISTS_ASPIRINGCHAMPION_ARMOR_AC
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_AC
+    image_id: UP024.SPK
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
+    listOrder: 700
+
+  - id: STR_TZEENTCH_CULTISTS_DARKDISCIPLE_ARMOR_AC
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_TZEENTCH_CULTISTS_DARKDISCIPLE_AC
+    image_id: UP024.SPK
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
+    listOrder: 710
+
+  - id: STR_TZEENTCH_CULTISTS_SOLDIER_ARMOR_AC
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_TZEENTCH_CULTISTS_ZEALOT_AC
+    image_id: UP024.SPK
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
+    listOrder: 720
+
+  - id: STR_TZEENTCH_CULTISTS_FEMCULTIST_ARMOR_AC
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_TZEENTCH_CULTISTS_ZEALOT_AC
+    image_id: UP024.SPK
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
+    listOrder: 730
+
+  - id: STR_TZEENTCH_CULTISTS_ZEALOT_ARMOR_AC
+    type_id: 15
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_TZEENTCH_CULTISTS_ZEALOT_AC
+    image_id: UP024.SPK
+    text: STR_CODEX_ARMOR_DETAIL_TEXT
+    listOrder: 740
 
 ### Crafts
 
@@ -617,14 +684,14 @@ ufopaedia:
     type_id: 11
     section: STR_XCOM_CRAFT_ARMAMENT
     text: STR_ARVUS_UFOPEDIA
-    listOrder: 640
+    listOrder: 750
     image_id: 2ARVUS.SPK
 
   - id: STR_CHIMERA_AC
     type_id: 11
     section: STR_XCOM_CRAFT_ARMAMENT
     text: STR_CHIMERA_UFOPEDIA
-    listOrder: 641
+    listOrder: 760
     image_id: 2CHIMERA.SPK
     requires: 
       - STR_GENERAL_LOCK_AC
@@ -633,7 +700,7 @@ ufopaedia:
     type_id: 11
     section: STR_XCOM_CRAFT_ARMAMENT
     text: STR_TAUROX_UFOPEDIA
-    listOrder: 642
+    listOrder: 770
     image_id: TAUROX.SPK
     requires: 
       - STR_GENERAL_LOCK_AC
@@ -642,7 +709,7 @@ ufopaedia:
     type_id: 11
     section: STR_XCOM_CRAFT_ARMAMENT
     text: STR_AVENGER_ADEPTAS_UFOPEDIA
-    listOrder: 643
+    listOrder: 780
     image_id: 2AVENGER.SPK
     requires: 
       - STR_FIGHTER_CRAFT_AC
@@ -652,7 +719,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: CC00.SPK
     text: STR_CANNON_UFOPEDIA
-    listOrder: 644
+    listOrder: 790
     requires: 
       - STR_FIGHTER_CRAFT_AC
 
@@ -661,7 +728,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: CC01.SPK
     text: STR_STINGRAY_UFOPEDIA
-    listOrder: 645
+    listOrder: 800
     requires: 
       - STR_FIGHTER_CRAFT_AC
 
@@ -670,7 +737,7 @@ ufopaedia:
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: CC02.SPK
     text: STR_AVALANCHE_UFOPEDIA
-    listOrder: 646
+    listOrder: 810
     requires: 
       - STR_FIGHTER_CRAFT_AC
 
@@ -684,43 +751,43 @@ ufopaedia:
     section: STR_BASE_FACILITIES
     image_id: 00.SPK
     text: STR_ACCESS_LIFT_UFOPEDIA
-    listOrder: 650
+    listOrder: 820
   - id: STR_LIVING_QUARTERS_AC
     type_id: 16
     section: STR_BASE_FACILITIES
     image_id: 01.SPK
     text: STR_LIVING_QUARTERS_UFOPEDIA
-    listOrder: 660
+    listOrder: 830
   - id: STR_GENERAL_STORES_AC
     type_id: 16
     section: STR_BASE_FACILITIES
     image_id: 07.SPK
     text: STR_GENERAL_STORES_UFOPEDIA
-    listOrder: 670
+    listOrder: 840
   - id: STR_PRISON_AC
     type_id: 16
     section: STR_BASE_FACILITIES
     image_id: 026.SPK
     text: STR_PRISON_UFOPEDIA_AC
-    listOrder: 680
+    listOrder: 850
   - id: STR_LABORATORY_AC
     type_id: 16
     section: STR_BASE_FACILITIES
     image_id: 02.SPK
     text: STR_LABORATORY_UFOPEDIA
-    listOrder: 690
+    listOrder: 860
 #  - id: STR_WORKSHOP_AC
 #    type_id: 16
 #    section: STR_BASE_FACILITIES
 #    image_id: 03.SPK
 #    text: STR_WORKSHOP_UFOPEDIA
-#    listOrder: 700
+#    listOrder: 870
   - id: STR_HANGAR_AC
     type_id: 16
     section: STR_BASE_FACILITIES
     image_id: 016.SPK
     text: STR_HANGAR_UFOPEDIA
-    listOrder: 710
+    listOrder: 880
 
 ### Assistance
 
@@ -728,13 +795,13 @@ ufopaedia:
     type_id: 10
     section: STR_HELP
     image_id: 3MAP.SPK
-    listOrder: 720
+    listOrder: 890
 
   - id: STR_HELP_FIRST_TURN_AC
     type_id: 10
     section: STR_HELP
     image_id: 2ARVUS.SPK
-    listOrder: 730
+    listOrder: 900
     text: STR_HELP_FIRST_TURN_UFOPEDIA
 
   - id: STR_HELP_RECOIL_PENALTY_AC
@@ -742,189 +809,189 @@ ufopaedia:
     section: STR_HELP
     image_id: RECOIL_PENALTY.SPK
     text: STR_RECOIL_PENALTY_UFOPEDIA
-    listOrder: 740
+    listOrder: 910
 
   - id: STR_HELP_TERRAIN_DESTRUCTION_AC
     type_id: 10
     section: STR_HELP
     image_id: TERRAIN_DESTRUCTION.SPK
     text: STR_TERRAIN_DESTRUCTION_UFOPEDIA
-    listOrder: 750
+    listOrder: 920
 
   - id: STR_HELP_DAMAGE_TIME_UNITS_CARRY_OVER_AC
     type_id: 10
     section: STR_HELP
     image_id: 1WEB.SPK
     text: STR_HELP_DAMAGE_TIME_UNITS_CARRY_OVER_UFOPEDIA
-    listOrder: 760
+    listOrder: 930
 
   - id: STR_HELP_EXTINGUISHING_MEDIKIT_AC
     type_id: 10
     section: STR_HELP
     image_id: 0ENFM.SPK
     text: STR_HELP_EXTINGUISHING_MEDIKIT_UFOPEDIA
-    listOrder: 770
+    listOrder: 940
 
   - id: STR_HELP_ARMOR_ABILITIES_AC
     type_id: 10
     section: STR_HELP
     image_id: 0ENFM.SPK #should use something else
     text: STR_HELP_ARMOR_ABILITIES_UFOPEDIA
-    listOrder: 780
+    listOrder: 950
 
   - id: STR_HELP_ARMOR_EXTENDED_FRONT_AC
     type_id: 10
     section: STR_HELP
     image_id: 0ENFM.SPK #should use something else
     text: STR_HELP_ARMOR_EXTENDED_FRONT_UFOPEDIA_AC
-    listOrder: 781
+    listOrder: 960
 
   - id: STR_HELP_AKIMBO_WEAPONS_AC
     type_id: 10
     section: STR_HELP
     image_id: STUB_GUN.SPK
     text: STR_HELP_AKIMBO_WEAPONS_UFOPEDIA_AC
-    listOrder: 782
+    listOrder: 970
 
 ### Stats for Nerds only
 
   - id: STR_CMAS_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 790
+    listOrder: 980
 
   - id: STR_CMAS_TACKLE_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 800
+    listOrder: 990
 
   - id: STR_JUDGE_PSI_AMP
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 810
+    listOrder: 1000
 
   - id: STR_JUDGE_MIND_PROBE
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 820
+    listOrder: 1010
 
   - id: STR_CMAS_TACKLE
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 830
+    listOrder: 1020
 
   - id: STR_ARMOR_MEDI_KIT_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 840
+    listOrder: 1030
 
   - id: STR_AUTOGUN_CLIP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 850
+    listOrder: 1040
 
   - id: STR_AUTOGUN_DRUM_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 860
+    listOrder: 1050
 
   - id: STR_AUTOPISTOL_CLIP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 870
+    listOrder: 1060
 
   - id: STR_EXPLOSIVE_COLLAR_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 880
+    listOrder: 1070
 
   - id: STR_STUB_GUN_AMMO_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 890
+    listOrder: 1080
 
   - id: STR_STUB_GUN_AMMO_AP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 900
+    listOrder: 1090
     requires:
       - STR_STUBBER_AMMO_ADVANCED_AC
 
   - id: STR_STUB_GUN_AMMO_HP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 910
+    listOrder: 1100
     requires:
       - STR_STUBBER_AMMO_ADVANCED_AC
 
   - id: STR_STUB_GUN_AMMO_INC_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 920
+    listOrder: 1110
     requires:
       - STR_STUBBER_AMMO_ADVANCED_AC
 
   - id: STR_STUB_GUN_AMMO_WOUND_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 930
+    listOrder: 1120
     requires:
       - STR_STUBBER_AMMO_ADVANCED_AC
 
   - id: STR_STUB_SMG_AMMO_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 940
+    listOrder: 1130
 
   - id: STR_SHOTGUN_SHELLS_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 950
+    listOrder: 1140
 
   - id: STR_LASGUN_CLIP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 960
+    listOrder: 1150
 
   - id: STR_LASPISTOL_CLIP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 970
+    listOrder: 1160
 
   - id: STR_WEBBER_AMMO_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 980
+    listOrder: 1170
 
   - id: STR_FLAMETHROWER_CLIP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 990
+    listOrder: 1180
 
   - id: STR_FLAMETHROWER_PROMETHIUM_CLIP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 1000
+    listOrder: 1190
 
   - id: STR_HEAVY_STUBBER_CLIP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 1010
+    listOrder: 1200
 
   - id: STR_BOLTER_LIGHT_CLIP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 1020
+    listOrder: 1210
 
   - id: STR_BOLTER_LIGHT_CLIP_KRAKEN_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 1030
+    listOrder: 1220
 
   - id: STR_STUB_CANNON_JUDGESLAYER_CLIP_AC
     type_id: 14
     section: STR_NOT_AVAILABLE
-    listOrder: 1040
+    listOrder: 1230
 
   - id: STR_LASCUTTER_SMALL_AMMO_AC
     type_id: 14

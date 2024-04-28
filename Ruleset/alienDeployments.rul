@@ -150,6 +150,14 @@ alienDeployments:
     height: 9
 
   - type: STR_TAUROXPD_PRISONER_AC
+    markerName: STR_PRISON_BUS_SITE
+    alert: STR_PRISON_BUS_DETECTED
+    briefing:
+      music: gmstory2
+      palette: 2
+      desc: STR_PRISON_BUS_DESCRIPTION
+      title: STR_PRISON_BUS_TITLE
+    alertBackground: BACK169.SCR
     civiliansByType:
       STR_CIVILIAN_TROOPER_M_AC: 2
       STR_CIVILIAN_TROOPER_F_AC: 2

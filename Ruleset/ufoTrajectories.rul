@@ -1,0 +1,7 @@
+ufoTrajectories:
+  - id: DIRECT_TO_TERROR_SITE_TRAJECTORY_HULK
+    groundTimer: 0
+    waypoints:
+      - [0, 1, 100]
+      - [0, 1, 100]
+      - [0, 0, 100]

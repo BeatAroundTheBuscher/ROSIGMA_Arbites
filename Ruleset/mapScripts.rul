@@ -416,6 +416,7 @@ mapScripts:
   - type: PRISONER_BUS
     commands:
     - type: addUFO
+      UFOName: STR_TAUROXPD_PRISONER_AC
     - type: checkBlock # find ufo N-S
       rects: 
         - [0, 0, 1, 5]

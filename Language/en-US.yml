@@ -170,7 +170,7 @@ en-US:
   STR_TZEENTCH_CULTISTS_DARKDISCIPLE_ARMOR_AC: "Tzeentch Helot"
   STR_TZEENTCH_CULTISTS_SOLDIER_ARMOR_AC: "Tzeentch Cultist Soldier"
   STR_TZEENTCH_CULTISTS_FEMCULTIST_ARMOR_AC: "Tzeentch Female Cultist"
-  STR_TZEENTCH_CULTISTS_CULTIST_ARMOR_AC: "Tzeentch Zealot"
+  STR_TZEENTCH_CULTISTS_ZEALOT_ARMOR_AC: "Tzeentch Zealot"
   STR_TZEENTCH_CULTISTS_AUTOPSY_AC: "Tzeentch Cultists"
 
   STR_RANK_ZEALOT_AC: "Zealot"
@@ -486,8 +486,8 @@ en-US:
   STR_KHORNE_CULTISTS_DEFEATED_AC: "Khorne Cultist Menace Defeated"
   STR_KHORNE_CULTISTS_DEFEATED_TEXT_AC: "TODO"
 
-  STR_TZEENTCH_CULTISTS_PREREQUISITE_1_AC: "One Khorne Cultist interrogated"
-  STR_TZEENTCH_CULTISTS_PREREQUISITE_2_AC: "Multiple Khorne Cultists interrogated"
+  STR_TZEENTCH_CULTISTS_PREREQUISITE_1_AC: "One Tzeentch Cultist interrogated"
+  STR_TZEENTCH_CULTISTS_PREREQUISITE_2_AC: "Multiple Tzeentch Cultists interrogated"
 
   STR_TZEENTCH_CULTISTS_MENACE_AC: "Tzeentch Cult Menace"
   STR_TZEENTCH_CULTISTS_MENACE_TEXT_AC: "{NEWLINE} There has been a cult lurking for some time now on this very planet. While the interrogated cultists could not provide much information behind the monetary and political support, they were able to provide a glimpse in their rank structure. Considering that this menace is much greater than anticipated more judges and mastiffs will be necessary to enforce Just Judgement.
@@ -508,8 +508,8 @@ en-US:
 
 ### ARC 2
 
-  STR_GENE_CULTISTS_PREREQUISITE_1_AC: "One Khorne Cultist interrogated"
-  STR_GENE_CULTISTS_PREREQUISITE_2_AC: "Multiple Khorne Cultists interrogated"
+  STR_GENE_CULTISTS_PREREQUISITE_1_AC: "One Genestealer Cultist interrogated"
+  STR_GENE_CULTISTS_PREREQUISITE_2_AC: "Multiple Genestealer Cultists interrogated"
 
   STR_GENE_CULTISTS_MENACE_AC: "Genestealer Cult Menace"
   STR_GENE_CULTISTS_MENACE_TEXT_AC: "{NEWLINE} There has been a cult lurking for some time now on this very planet. While the interrogated cultists could not provide much information behind the monetary and political support, they were able to provide a glimpse in their rank structure. Considering that this menace is much greater than anticipated more judges and mastiffs will be necessary to enforce Just Judgement.
@@ -568,6 +568,13 @@ en-US:
     {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
   STR_PRISON_BREAK_DETECTED: "Prison Break Detected"
   STR_PRISON_BREAK_SITE: "Prison Break in Progress"
+
+  STR_PRISON_BUS_AC: "Prison Bus"
+  STR_PRISON_BUS_TITLE: "Prison Bus in Trouble"
+  STR_PRISON_BUS_DESCRIPTION: "Multiple prisoners managed to escape their cells and are making a prison break. The local forces are in disarray and will need our support to quell the prisoners. Be aware that the prisoners are wearing explosive collars which may be triggered by a stray shot.
+    {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
+  STR_PRISON_BUS_DETECTED: "Prison Bus in Trouble"
+  STR_PRISON_BUS_SITE: "Prison Bus in Trouble"
 
   STR_PRISON_BREAK_FEW_DRUGS_AC: "Prison Break (Few Drugs)"
 

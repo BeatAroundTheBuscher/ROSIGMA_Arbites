@@ -86,7 +86,6 @@ missionScripts:
     firstMonth: 1
     lastMonth: 5
     executionOdds: 100
-    conditionals: [100]
     raceWeights:
       0:
         STR_PRISON_BREAK_FEW_DRUGS_AC: 100

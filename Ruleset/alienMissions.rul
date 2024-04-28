@@ -85,7 +85,7 @@ alienMissions:
     waves:
       - ufo: STR_TAUROXPD_PRISONER_AC
         count: 1
-        trajectory: DIRECT_TO_TERROR_SITE_TRAJECTORY
+        trajectory: DIRECT_TO_TERROR_SITE_TRAJECTORY_HULK
         timer: 0
         objective: true
 
