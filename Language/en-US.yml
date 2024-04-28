@@ -187,6 +187,7 @@ en-US:
   STR_GENE_CULTISTS_SOLDIER_AC: "Genestealer Soldier"
   STR_GENE_CULTISTS_FEMCULTIST_AC: "Genestealer Cultist"
   STR_GENE_CULTISTS_CULTIST_AC: "Genestealer Cultist"
+  STR_GENE_CULTISTS_CORPSE_AC: "Genestealer Cultist Corpse"
   
   STR_GENE_STEALER_YOUNG_AC: "Young Genestealer"
 
@@ -195,23 +196,23 @@ en-US:
   STR_GENE_STEALER_CLAWS_AC: "Genestealer Claws"
   STR_GENE_STEALER_CORPSE_AC: "Genestealer Corpse"
 
-  STR_GSC_CIVILIAN_M0_AC: "Civilian"
-  STR_GSC_CIVILIAN_M1_AC: "Civilian"
-  STR_GSC_CIVILIAN_F0_AC: "Civilian"
-  STR_GSC_CIVILIAN_F1_AC: "Civilian"
+  STR_GENE_CIVILIAN_M0_AC: "Civilian"
+  STR_GENE_CIVILIAN_M1_AC: "Civilian"
+  STR_GENE_CIVILIAN_F0_AC: "Civilian"
+  STR_GENE_CIVILIAN_F1_AC: "Civilian"
 
-  STR_GENE_CULTISTS_M0_CORPSE_AC: "GSC Cultist Corpse"
-  STR_GENE_CULTISTS_M1_CORPSE_AC: "GSC Cultist Corpse"
-  STR_GENE_CULTISTS_F0_CORPSE_AC: "GSC Cultist Corpse"
-  STR_GENE_CULTISTS_F1_CORPSE_AC: "GSC Cultist Corpse"
+  STR_GENE_CULTISTS_M0_CORPSE_AC: "Genestealer Cultist Corpse"
+  STR_GENE_CULTISTS_M1_CORPSE_AC: "Genestealer Cultist Corpse"
+  STR_GENE_CULTISTS_F0_CORPSE_AC: "Genestealer Cultist Corpse"
+  STR_GENE_CULTISTS_F1_CORPSE_AC: "Genestealer Cultist Corpse"
 
   STR_GENE_TANK_AC: "Armored Car"
-  STR_GENETANK_ARMOR_AC: "Armored Car"
-  STR_GSC_TANK_CORPSE_AC: "Destroyed Armored Car"
-  GSC_TANK_CORPSE_1_AC: "Destroyed Armored Car"
-  GSC_TANK_CORPSE_2_AC: "Destroyed Armored Car"
-  GSC_TANK_CORPSE_3_AC: "Destroyed Armored Car"
-  GSC_TANK_CORPSE_4_AC: "Destroyed Armored Car"
+  STR_GENE_TANK_ARMOR_AC: "Armored Car"
+  STR_GENE_TANK_CORPSE_AC: "Destroyed Armored Car"
+  GENE_TANK_CORPSE_1_AC: "Destroyed Armored Car"
+  GENE_TANK_CORPSE_2_AC: "Destroyed Armored Car"
+  GENE_TANK_CORPSE_3_AC: "Destroyed Armored Car"
+  GENE_TANK_CORPSE_4_AC: "Destroyed Armored Car"
 
 
 
@@ -289,9 +290,6 @@ en-US:
   STR_LASPISTOL_CHAOS_AC: "Laspistol (Chaos)"
   STR_LASPISTOL_CLIP_AC: "Laspistol Power Cell"
   STR_LASGUNS_AC: "Lasguns"
-
-
-
 
   STR_NIHILUS_LASPISTOL_AC: "Nihilus Laspistol"
   STR_NIHILUS_LASPISTOL_UFOPEDIA_1: "{NEWLINE} Nihilus Weapons have become prolific through out the underhives, among high-ranking gang lords, cult leaders, or worse, for their ability to reliably put down fully shielded arbites with a few well-placed shots.
@@ -380,7 +378,6 @@ en-US:
   STR_CIVILIAN_TROOPER_ARMOR_M_AC: "Flak Armor"
   STR_CIVILIAN_TROOPER_ARMOR_F_AC: "Flak Armor"
 
-
 ## Armor Items
 
 
@@ -389,7 +386,7 @@ en-US:
 
 ## HWPs
 
-  STR_T_ARBITES_BOLTER: "Tarantula/Heavy Bolter"
+  STR_T_ARBITES_BOLTER: "Tarantula (Bolter)"
 
 
 ## Manufacture
@@ -464,8 +461,8 @@ en-US:
   STR_KHORNE_CULTIST_INVESTIGATIONS: "Cultist Investigation"
   STR_KHORNE_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
 
-  STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC: "Initial Investigations"
-  STR_KHORNE_CULTISTS_BEGINNING_INVESTIGATION_AC_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
+  STR_CULTISTS_BEGINNING_INVESTIGATION_AC: "Initial Investigations"
+  STR_CULTISTS_BEGINNING_INVESTIGATION_AC_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
 
   STR_KHORNE_CULTISTS_PREREQUISITE_1_AC: "One Khorne Cultist interrogated"
   STR_KHORNE_CULTISTS_PREREQUISITE_2_AC: "Multiple Khorne Cultists interrogated"
@@ -490,9 +487,6 @@ en-US:
   STR_TZEENTCH_CULTIST_INVESTIGATIONS: "Cultist Investigation"
   STR_TZEENTCH_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
 
-  STR_TZEENTCH_CULTISTS_BEGINNING_INVESTIGATION_AC: "Initial Investigations"
-  STR_TZEENTCH_CULTISTS_BEGINNING_INVESTIGATION_AC_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."
-
   STR_TZEENTCH_CULTISTS_PREREQUISITE_1_AC: "One Khorne Cultist interrogated"
   STR_TZEENTCH_CULTISTS_PREREQUISITE_2_AC: "Multiple Khorne Cultists interrogated"
 
@@ -514,9 +508,6 @@ en-US:
   STR_TZEENTCH_CULTISTS_DEFEATED_AC_TEXT: "TODO"
 
 ### ARC 2
-
-  STR_GENE_CULTIST_INVESTIGATIONS: "Cultist Investigation"
-  STR_GENE_CULTIST_INVESTIGATIONS_TEXT: "{NEWLINE} Magistrate. {NEWLINE}{NEWLINE} We have been informed of multiple incidents involving a Heretical Cult. You will need to investigate. Make sure to arrest and interrogate the Cultists as well as locate any evidence. You may use lethal force at all times but beware that dead men tell no tales."
 
   STR_GENE_CULTISTS_BEGINNING_INVESTIGATION_AC: "Initial Investigations"
   STR_GENE_CULTISTS_BEGINNING_INVESTIGATION_AC_TEXT: "{NEWLINE} The Initial Investigation shows that the Cultists are not small in force but are capable of recruiting new followers on a regular basis. There also seems to be some financial support. We will have to follow the trail to determine which citizens and higher-ups are also involved. We will need to interrogate the Cultists as well as find any shred of evidence."

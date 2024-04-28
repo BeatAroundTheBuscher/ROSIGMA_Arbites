@@ -124,35 +124,35 @@ items:
     listOrder: 10070
 
 
-  - type: STR_GSC_TANK_CORPSE_AC
+  - type: STR_GENE_TANK_CORPSE_AC
     size: 1
     costSell: 20000
     battleType: 11
     power: 120
     blastRadius: 6
     recover: true
-  - type: GSC_TANK_CORPSE_1_AC
-    name: STR_GSC_TANK_CORPSE
+  - type: GENE_TANK_CORPSE_1_AC
+    name: STR_GENE_TANK_CORPSE
     floorSprite: {mod: 40k, index: 56}
     invWidth: 0
     invHeight: 0
     battleType: 11
     recoveryPoints: 3
-  - type: GSC_TANK_CORPSE_2_AC
+  - type: GENE_TANK_CORPSE_2_AC
     floorSprite: {mod: 40k, index: 57}
     invWidth: 0
     invHeight: 0
     battleType: 11
     recover: false
-  - type: GSC_TANK_CORPSE_3_AC
-    name: STR_GSC_TANK_CORPSE
+  - type: GENE_TANK_CORPSE_3_AC
+    name: STR_GENE_TANK_CORPSE
     floorSprite: {mod: 40k, index: 58}
     invWidth: 0
     invHeight: 0
     battleType: 11
     recover: false
-  - type: GSC_TANK_CORPSE_4_AC
-    name: STR_GSC_TANK_CORPSE
+  - type: GENE_TANK_CORPSE_4_AC
+    name: STR_GENE_TANK_CORPSE
     floorSprite: {mod: 40k, index: 59}
     invWidth: 0
     invHeight: 0

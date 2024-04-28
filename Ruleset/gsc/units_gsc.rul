@@ -276,7 +276,7 @@ units:
 
 
   - &STR_GSC_CIVILIAN
-    type: STR_GSC_CIVILIAN_M0_AC
+    type: STR_GENE_CIVILIAN_M0_AC
     race: STR_GENE_CULTISTS_AC
     liveAlien: STR_CIVILIAN_CAPTIVE_AC
     stats:
@@ -311,7 +311,7 @@ units:
         - STR_SHOTGUN_SHELLS_AC
         - STR_MAKESHIFT_GRENADE_AC
 
-  - type: STR_GSC_CIVILIAN_M1_AC
+  - type: STR_GENE_CIVILIAN_M1_AC
     refNode: *STR_GSC_CIVILIAN
     armor: STR_GENE_CULTISTS_M1_ARMOR_AC
     builtInWeaponSets:
@@ -325,7 +325,7 @@ units:
         - STR_STUB_SMG_AMMO_AC
         - STR_MAKESHIFT_PIPEBOMB_AC
 
-  - type: STR_GSC_CIVILIAN_F0_AC
+  - type: STR_GENE_CIVILIAN_F0_AC
     refNode: *STR_GSC_CIVILIAN
     armor: STR_GENE_CULTISTS_F0_ARMOR_AC
     deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]
@@ -344,7 +344,7 @@ units:
 
 
 
-  - type: STR_GSC_CIVILIAN_F1_AC
+  - type: STR_GENE_CIVILIAN_F1_AC
     refNode: *STR_GSC_CIVILIAN
     armor: STR_GENE_CULTISTS_F1_ARMOR_AC
     deathSound: [{mod: 40k, index: 44}, {mod: 40k, index: 45}, {mod: 40k, index: 46}]

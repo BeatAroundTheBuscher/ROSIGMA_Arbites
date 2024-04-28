@@ -193,11 +193,11 @@ armors:
     allowInv: false
     spriteInv: GENE1.SPK
     corpseBattle:
-      - GSC_TANK_CORPSE_1_AC
-      - GSC_TANK_CORPSE_2_AC
-      - GSC_TANK_CORPSE_3_AC
-      - GSC_TANK_CORPSE_4_AC
-    corpseGeo: STR_GSC_TANK_CORPSE_AC
+      - GENE_TANK_CORPSE_1_AC
+      - GENE_TANK_CORPSE_2_AC
+      - GENE_TANK_CORPSE_3_AC
+      - GENE_TANK_CORPSE_4_AC
+    corpseGeo: STR_GENE_TANK_CORPSE_AC
     frontArmor: 80
     sideArmor: 80
     rearArmor: 80
