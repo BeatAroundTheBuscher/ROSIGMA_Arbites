@@ -33,7 +33,7 @@ missionScripts:
     raceWeights:
       0:
         STR_KHORNE_CULTISTS_AC: 100
-        STR_TZEENTCH_CULTISTS_AC: 100
+        # STR_TZEENTCH_CULTISTS_AC: 100
     missionWeights:
       0:
         STR_SABOTAGE_MISSION_AC: 100
@@ -71,7 +71,7 @@ missionScripts:
     raceWeights:
       0:
         STR_KHORNE_CULTISTS_AC: 100
-        STR_TZEENTCH_CULTISTS_AC: 100
+        # STR_TZEENTCH_CULTISTS_AC: 100
     missionWeights:
       0:
         STR_SABOTAGE_MISSION_AC: 100
@@ -123,7 +123,7 @@ missionScripts:
   - type: Summoning
     executionOdds: 100
     firstMonth: 3
-    lastMonth: 5
+    lastMonth: 4
     missionWeights:
       0:
         STR_CULTIST_SUMMONING_LEVEL_1_AC: 100
@@ -195,8 +195,9 @@ missionScripts:
     researchTriggers:
       STR_CULTISTS_BEGINNING_INVESTIGATION_AC: true
       STR_KHORNE_CULTISTS_MENACE_AC: true
-      STR_KHORNE_CULTISTS_PLOT_AC: false
-      STR_KHORNE_CULTISTS_DEFEATED_AC: false
+      STR_KHORNE_CULTISTS_EVIDENCE_AC: false
+      # STR_KHORNE_CULTISTS_PLOT_AC: false
+      # STR_KHORNE_CULTISTS_DEFEATED_AC: false
     startDelay: 15000
     randomDelay: 6000
     useTable: false

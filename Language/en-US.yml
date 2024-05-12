@@ -208,6 +208,12 @@ en-US:
   STR_GENE_CULTISTS_F0_CORPSE_AC: "Genestealer Cultist Corpse"
   STR_GENE_CULTISTS_F1_CORPSE_AC: "Genestealer Cultist Corpse"
 
+  STR_GENE_CULTISTS_CULTIST_CORPSE_AC: "Genestealer Cultist Corpse"
+  STR_GENE_CULTISTS_FEMCULTIST_CORPSE_AC: "Genestealer Cultist Corpse"
+  STR_GENE_CULTISTS_SOLDIER_CORPSE_AC: "Genestealer Cultist Corpse"
+  STR_GENE_CULTISTS_HYBRID_LEADER_CORPSE_AC: "Genestealer Cultist Corpse"
+  STR_GENE_CULTISTS_DARKDISCIPLE_CORPSE_AC: "Genestealer Cultist Corpse"
+
   STR_GENE_TANK_AC: "Armored Car"
   STR_GENE_TANK_ARMOR_AC: "Armored Car"
   STR_GENE_TANK_CORPSE_AC: "Destroyed Armored Car"
@@ -215,6 +221,8 @@ en-US:
   GENE_TANK_CORPSE_2_AC: "Destroyed Armored Car"
   GENE_TANK_CORPSE_3_AC: "Destroyed Armored Car"
   GENE_TANK_CORPSE_4_AC: "Destroyed Armored Car"
+
+
 
 
 
