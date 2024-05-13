@@ -365,6 +365,7 @@ units:
   - type: STR_BLOODLETTER_DAEMON_AC
     race: STR_BLOODLETTER_DAEMON_AC
     rank: STR_LIVE_TERRORIST
+    isLeeroyJenkins: true
     stats:
       tu: 100
       stamina: 200

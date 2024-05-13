@@ -385,6 +385,7 @@ units:
     type: STR_GENE_STEALER_YOUNG_AC
     race: STR_GENE_STEALER_AC
     rank: STR_LIVE_SOLDIER
+    isLeeroyJenkins: true
     stats:
       tu: 70
       stamina: 90
@@ -408,7 +409,6 @@ units:
 
   - type: STR_GENE_STEALER_MATURE_AC
     refNode: *STR_GENE_STEALER
-    race: STR_GENE
     rank: STR_LIVE_TERRORIST
     stats:
       tu: 80
