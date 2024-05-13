@@ -7,8 +7,9 @@ skills:
   - type: STR_JUDGE_EVIL_EYE # inbuilt
     psiAttackName: STR_JUDGE_EVIL_EYE
     targetMode: 11
+    flatRate: false
     costUse:
-      time: 40
+      time: 50
     isPsiRequired: false
     checkHandsOnly: false
     compatibleWeapons:
