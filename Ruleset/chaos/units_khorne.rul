@@ -366,9 +366,9 @@ units:
     race: STR_BLOODLETTER_DAEMON_AC
     rank: STR_LIVE_TERRORIST
     stats:
-      tu: 80
-      stamina: 80
-      health: 114
+      tu: 100
+      stamina: 200
+      health: 150
       bravery: 100
       reactions: 40
       firing: 70

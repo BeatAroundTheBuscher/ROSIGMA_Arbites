@@ -116,10 +116,10 @@ armors:
     spriteInv: DK
     corpseBattle:
       - STR_BLOODLETTER_DAEMON_CORPSE_AC
-    frontArmor: 30
-    sideArmor: 30
-    rearArmor: 30
-    underArmor: 10
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 20
     drawingRoutine: 4
     constantAnimation: false
     damageModifier: #DEAMON ARMOR
