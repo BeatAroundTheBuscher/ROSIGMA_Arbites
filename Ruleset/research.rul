@@ -187,6 +187,7 @@ research:
 
   - name: STR_KHORNE_CULTISTS_PRIEST_AC
     refNode: *STR_KHORNE_CAPTURE
+    spawnedEvent: ""
     dependencies: 
       - STR_KHORNE_CULTISTS_MENACE_AC
     unlocks: []
@@ -194,6 +195,7 @@ research:
 
   - name: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_AC
     refNode: *STR_KHORNE_CAPTURE
+    spawnedEvent: ""
     dependencies: 
       - STR_KHORNE_CULTISTS_MENACE_AC
     unlocks: []
@@ -233,6 +235,7 @@ research:
 
   - name: STR_TZEENTCH_CULTISTS_WITCH_AC
     refNode: *STR_TZEENTCH_CAPTURE
+    spawnedEvent: ""
     dependencies: 
       - STR_TZEENTCH_CULTISTS_MENACE_AC
     unlocks: []
@@ -240,6 +243,7 @@ research:
 
   - name: STR_TZEENTCH_CULTISTS_ASPIRING_CHAMPION_AC
     refNode: *STR_TZEENTCH_CAPTURE
+    spawnedEvent: ""
     dependencies: 
       - STR_TZEENTCH_CULTISTS_MENACE_AC
     unlocks: []
@@ -263,7 +267,7 @@ research:
     score: 50
     needItem: true
 
-  - &STR_TZEENTCH_CAPTURE
+  - &STR_GENE_CAPTURE
     name: STR_GENE_CULTISTS_CULTIST_AC
     cost: 100
     score: 50
@@ -278,21 +282,24 @@ research:
     
 
   - name: STR_GENE_CULTISTS_HYBRID_LEADER_AC
-    refNode: *STR_TZEENTCH_CAPTURE
+    refNode: *STR_GENE_CAPTURE
+    spawnedEvent: ""
     dependencies: 
       - STR_GENE_CULTISTS_MENACE_AC
     unlocks: []
     getOneFree: []
 
   - name: STR_GENE_CULTISTS_HYBRID_SOLDIER_AC
-    refNode: *STR_TZEENTCH_CAPTURE
+    refNode: *STR_GENE_CAPTURE
+    spawnedEvent: ""
     dependencies: 
       - STR_GENE_CULTISTS_MENACE_AC
     unlocks: []
     getOneFree: []
 
   - name: STR_GENE_CULTISTS_KELERMORPH_AC
-    refNode: *STR_TZEENTCH_CAPTURE
+    refNode: *STR_GENE_CAPTURE
+    spawnedEvent: ""
     dependencies: 
       - STR_GENE_CULTISTS_MENACE_AC
     unlocks: []
