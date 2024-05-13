@@ -5,6 +5,9 @@ en-US:
   STR_4_GENIUS: "Genius"
   STR_5_SUPERHUMAN: "Superhuman"
 
+  STR_SELECT_DIFFICULTY_LEVEL: "Difficulty Level"
+  STR_LINE_OF_SIGHT_REQUIRED: "No Line of sight, Magistrate"
+
   STR_DAMAGE_19: "MIND"
 
   STR_OPENXCOM: "40k Rosigmunda Arbites"
@@ -50,6 +53,7 @@ en-US:
   STR_RIOTER_DRUG_F0_AC: "Rioter"
   STR_RIOTER_DRUG_F1_AC: "Rioter"
 
+  STR_RIOTER_AC: "Rioter"
   STR_KHORNE_RIOTS_AC:  "Rioters (Khorne)"
   STR_TZEENTCH_RIOTS_AC:  "Rioters (Tzeentch)"
 
