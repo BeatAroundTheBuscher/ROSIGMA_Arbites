@@ -6,7 +6,7 @@ missionScripts:
 
   - type: Riot_early
     firstMonth: 1 # number of months passed (compare to savegame)
-    lastMonth: 5
+    lastMonth: 3
     executionOdds: 50
     label: 100
     raceWeights:
@@ -26,7 +26,7 @@ missionScripts:
 
   - type: Sabotage_early
     firstMonth: 1
-    lastMonth: 5
+    lastMonth: 3
     executionOdds: 100
     label: 110
     conditionals: [-100]
@@ -46,7 +46,7 @@ missionScripts:
 
   - type: Riot_later
     firstMonth: 1
-    lastMonth: 5
+    lastMonth: 3
     executionOdds: 100
     conditionals: [110]
     raceWeights:
@@ -65,7 +65,7 @@ missionScripts:
 
   - type: Sabotage_later
     firstMonth: 1
-    lastMonth: 5
+    lastMonth: 3
     executionOdds: 100
     conditionals: [100]
     raceWeights:
@@ -84,7 +84,7 @@ missionScripts:
 
   - type: Prison_Bus
     firstMonth: 1
-    lastMonth: 5
+    lastMonth: 3
     executionOdds: 100
     raceWeights:
       0:
