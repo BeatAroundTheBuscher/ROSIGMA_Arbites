@@ -12,7 +12,7 @@ missionScripts:
     raceWeights:
       0:
         STR_KHORNE_RIOTS_AC: 100
-        STR_TZEENTCH_RIOTS_AC: 100
+        # STR_TZEENTCH_RIOTS_AC: 100
     missionWeights:
       0:
         STR_RIOT_AC: 100
@@ -52,7 +52,7 @@ missionScripts:
     raceWeights:
       0:
         STR_KHORNE_RIOTS_AC: 100
-        STR_TZEENTCH_RIOTS_AC: 100
+        # STR_TZEENTCH_RIOTS_AC: 100
     missionWeights:
       0:
         STR_RIOT_AC: 100
