@@ -33,7 +33,7 @@ newBaseUnlockResearch: STR_GENERAL_LOCK_AC
 # when loading a new battle
 baseDefenseMapFromLocation: 0 
 
-unitResponseSoundsFrequency: [100, 100, 100, 20]
+unitResponseSoundsFrequency: [33, 33, 33, 15]
 difficultyCoefficient: [0, 1, 2, 3, 4]
 
 surrenderMode: 2
