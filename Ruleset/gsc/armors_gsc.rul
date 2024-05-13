@@ -251,7 +251,7 @@ armors:
     loftempsSet: [ 3 ]
     builtInWeapons:
       - STR_GENE_STEALER_CLAWS_AC
-      - STR_GENE_STEALER_SPIT_AC
+#      - STR_GENE_STEALER_SPIT_AC
 
   - type: STR_GENE_STEALER_MATURE_ARMOR_AC
     refNode: *STR_GENE_STEALER_ARMOR
