@@ -154,7 +154,7 @@ soldiers:
     minStats:
       tu: 90 # unit has 120
       stamina: 80 # unit has 100
-      health: 40 # unit has 60
+      health: 60 # unit has 60
       bravery: 80 # unit has 110
       reactions: 90 # unit has 120
       firing: 0 # unit has 0
@@ -166,7 +166,7 @@ soldiers:
     maxStats:
       tu: 110
       stamina: 90
-      health: 50
+      health: 80
       bravery: 100
       reactions: 110
       firing: 0
@@ -178,7 +178,7 @@ soldiers:
     statCaps:
       tu: 130
       stamina: 110
-      health: 70
+      health: 120
       bravery: 110
       reactions: 130
       firing: 0
