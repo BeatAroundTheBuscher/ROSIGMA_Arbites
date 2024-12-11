@@ -16,7 +16,7 @@ extended:
 
     hitUnit:
     - new: ROSIGMUNDA_hU_judge_evil_eye
-      offset: 1 
+      offset: 1
       code: |
         var int judgeSkillId;
         var int temp;
@@ -25,12 +25,12 @@ extended:
         skill.getTag judgeSkillId Tag.SKILL_JUDGE;
         if eq judgeSkillId 1;
 
-          # power equals to bravery 
+          # power equals to bravery
           # power roll is 50-150%
           # check rul set for damageBonus
 
           # victim bravery modified by remaining morale as defense
-          unit.Stats.getBravery braveryDefense; 
+          unit.Stats.getBravery braveryDefense;
           unit.getMorale temp;
           muldiv braveryDefense temp 100;
           sub power braveryDefense;
@@ -68,7 +68,7 @@ extended:
           muldiv evilEyeDamage temp 100;
 
           # victim bravery modified by remaining morale as defense
-          unit.Stats.getBravery braveryDefense; 
+          unit.Stats.getBravery braveryDefense;
           unit.getMorale temp;
           muldiv braveryDefense temp 100;
           sub evilEyeDamage braveryDefense;
@@ -119,11 +119,11 @@ extended:
 
           else; # effect is over
             unit.setTag Tag.UNIT_EVIL_EYE_DAMAGE 0;
-            unit.setTag Tag.UNIT_TURNED_TRAITOR 0;            
+            unit.setTag Tag.UNIT_TURNED_TRAITOR 0;
           end;
-          
+
         end;
         return;
-        
+
 
 

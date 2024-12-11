@@ -227,7 +227,7 @@ globe:
         baseTerrain:
           - name: XBASE_FILL_SAND
 
-      # -1, etc. are textures used for sites (such as cities which are dots and not triangles), not regions    
+      # -1, etc. are textures used for sites (such as cities which are dots and not triangles), not regions
       # when missionScripts tries to call an alienMissions which is kaputt, it will use the items below
       # it still requires specific missions to spawn. Using an alienDeployment "works" in the way that nothing happens
       - id: -1

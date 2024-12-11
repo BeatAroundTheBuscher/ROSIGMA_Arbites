@@ -18,7 +18,7 @@ items:
     transferTime: 48
     listOrder: 10
     ufopediaType: STR_CANNON_AC
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
   - type: STR_CANNON_ROUNDS_AC
     categories: [ STR_CRAFT_WEAPONS]
@@ -30,7 +30,7 @@ items:
     clipSize: 50
     listOrder: 20
     ufopediaType: STR_CANNON_AC
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
   - type: STR_STINGRAY_LAUNCHER_AC
     categories: [ STR_CRAFT_WEAPONS]
@@ -41,7 +41,7 @@ items:
     transferTime: 48
     listOrder: 30
     ufopediaType: STR_STINGRAY_AC
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
   - type: STR_STINGRAY_MISSILES_AC
     categories: [ STR_CRAFT_WEAPONS]
@@ -53,7 +53,7 @@ items:
     clipSize: 1
     listOrder: 40
     ufopediaType: STR_STINGRAY_AC
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
   - type: STR_AVALANCHE_LAUNCHER_AC
     categories: [ STR_CRAFT_WEAPONS]
@@ -64,7 +64,7 @@ items:
     transferTime: 48
     listOrder: 50
     ufopediaType: STR_AVALANCHE_AC
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
   - type: STR_AVALANCHE_MISSILES_AC
     categories: [ STR_CRAFT_WEAPONS]
@@ -76,7 +76,7 @@ items:
     clipSize: 1
     listOrder: 60
     ufopediaType: STR_AVALANCHE_AC
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
 
 ## Armors
@@ -249,7 +249,7 @@ items:
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1004
     listOrder: 130
-    costBuy: 2000 
+    costBuy: 2000
     costSell: 250
     tags:
       ITEM_AMMO_COLOR: 2
@@ -277,7 +277,7 @@ items:
     refNode: *STR_STUBBERS_AMMO
     bigSprite: 1005
     listOrder: 140
-    costBuy: 2000 
+    costBuy: 2000
     costSell: 250
     tags:
       ITEM_AMMO_COLOR: 8
@@ -1173,7 +1173,7 @@ items:
     handSprite: 308
     bulletSprite: {mod: 40k, index: 6}
     fireSound: {mod: 40k, index: 707}
-    compatibleAmmo: 
+    compatibleAmmo:
       - STR_BOLTER_LIGHT_CLIP_AC
       - STR_BOLTER_LIGHT_CLIP_KRAKEN_AC
     battleType: 1
@@ -1189,7 +1189,7 @@ items:
     autoRange: 0
     snapRange: 14
     aimRange: 0
-    requiresBuy: 
+    requiresBuy:
       - STR_BOLTERS_LIGHT_AC
     accuracyAuto: 0
     accuracySnap: 85
@@ -1203,7 +1203,7 @@ items:
   - &STR_BOLTER_AMMO_SOLO
     type: STR_BOLTER_LIGHT_CLIP_AC
     categories: [STR_CAT_BOLTER]
-    requiresBuy: 
+    requiresBuy:
       - STR_BOLTERS_LIGHT_AC
     size: 0.1
 #    requiresBuyBaseFunc: [TRADE]
@@ -1235,7 +1235,7 @@ items:
 
   - type: STR_BOLTER_LIGHT_CLIP_KRAKEN_AC
     refNode: *STR_BOLTER_AMMO_SOLO
-    requiresBuy: 
+    requiresBuy:
       - STR_BOLTERS_LIGHT_AC
     costBuy: 7000 #costs less due to 10 rounds less
     costSell: 300
@@ -1243,7 +1243,7 @@ items:
     listOrder: 490
     tags:
       ITEM_AMMO_COLOR: 1
-    damageAlter: 
+    damageAlter:
       ArmorEffectiveness: 0.5
       ToArmorPre: 0.02
       ToArmor: 0.05
@@ -1259,9 +1259,9 @@ items:
       strength: 0.2
       melee: 0.4
       RandomType: 2
-    bigSprite: {mod: 40k, index: 629} 
-    meleeHitSound: {mod: 40k, index: 48} 
-    meleeAnimation: {mod: 40k, index: 76} 
+    bigSprite: {mod: 40k, index: 629}
+    meleeHitSound: {mod: 40k, index: 48}
+    meleeAnimation: {mod: 40k, index: 76}
     strengthApplied: false
     damageType: 7
     tuMelee: 15
@@ -1282,7 +1282,7 @@ items:
       strength: 0.15
       melee: 0.3
       RandomType: 2
-    meleeHitSound: {mod: 40k, index: 101} 
+    meleeHitSound: {mod: 40k, index: 101}
     damageAlter: #DA CHAIN
       ArmorEffectiveness: 0.5
       ToHealth: 0.2
@@ -1292,7 +1292,7 @@ items:
       ToWound: 0.2
       ToMorale: 0.5
       RandomType: 2
-    meleeAnimation: {mod: 40k, index: 0} 
+    meleeAnimation: {mod: 40k, index: 0}
     strengthApplied: false
     accuracyMelee: 100
     tuMelee: 25
@@ -1557,7 +1557,7 @@ items:
     listOrder: 600
     requires:
       - STR_FLAMER_AC
-   
+
 
   - type: STR_FLAMETHROWER_CLIP_AC
     categories: [ STR_CAT_FLAMER, STR_CAT_TACTICAL]
@@ -1574,7 +1574,7 @@ items:
     handSprite: {mod: 40k, index: 440}
     hitSound: {mod: 40k, index: 12}
     hitAnimation: {mod: 40k, index: 88} #XFIRE
- 
+
     blastRadius: 2
     clipSize: 20
     battleType: 2
@@ -1588,7 +1588,7 @@ items:
     requires:
       - STR_FLAMER_AC
     power: 50 # ROSIGMA values
-    powerRangeReduction: 12 
+    powerRangeReduction: 12
     powerRangeThreshold: 12
     damageType: 2
     damageAlter:
@@ -1827,7 +1827,7 @@ items:
     tags:
       ITEM_RECOIL: 0 # AI can't handle that
     ufopediaType: STR_HEAVY_STUBBER_AC
-    
+
 
   - type: STR_SHOTGUN_CHAOS_AC
     refNode: *STR_SHOTGUN

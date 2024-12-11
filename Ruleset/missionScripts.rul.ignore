@@ -69,11 +69,11 @@ missionScripts:
       STR_ARBITES_ARC3: true
       STR_ARBITES_ARC4: false
 
-  - type: Arbites_Mission4 
+  - type: Arbites_Mission4
     missionWeights:
       # 0 is just for safety
       0:
-        STR_RIOT: 100 
+        STR_RIOT: 100
     regionWeights:
       0:
          STR_ARBITES_TERROR: 100

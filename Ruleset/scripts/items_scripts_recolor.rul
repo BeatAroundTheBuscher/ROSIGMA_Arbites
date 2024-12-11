@@ -41,7 +41,7 @@ items:
     refNode: *STR_ITEM_CHANGE_COLOR
 
   - type: STR_AUTOGUN_HIGHGRADE_AC
-    refNode: *STR_ITEM_CHANGE_COLOR  
+    refNode: *STR_ITEM_CHANGE_COLOR
 
   - &STR_FRENZON
     type: STR_FRENZON_AC

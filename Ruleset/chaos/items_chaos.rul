@@ -31,4 +31,4 @@ items:
     hitAnimation: {mod: 40k, index: 1990}
     armor: 255
     tags:
-      ITEM_PRIMED_AT_BATTLE_START: -1 
+      ITEM_PRIMED_AT_BATTLE_START: -1

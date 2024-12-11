@@ -166,8 +166,8 @@ extended:
             rules.getRuleItem chosenDrug "STR_ZUMTHORIAN_GREYVE_AC";
             # debug_log "Rolled greyve";
           end;
-          
-          chosenDrug.getTag random Tag.ITEM_REDUCE_HEALTH_ON_USE; 
+
+          chosenDrug.getTag random Tag.ITEM_REDUCE_HEALTH_ON_USE;
           damaging_item.setTag Tag.ITEM_REDUCED_HEALTH_BY random;
           chosenDrug.getTag random Tag.ITEM_BOOST_BRAVERY;
           damaging_item.setTag Tag.ITEM_CURRENT_BOOST_BRAVERY random;
@@ -188,7 +188,7 @@ extended:
 
       - new: ROSIGMUNDA_hU_handle_effect_for_ai_drugs
         offset: 11 # needs to be higher than ROSIGMUNDA_hU_roll_random_drug
-        code: |    
+        code: |
           var int newBoost;
           var int currentBoost;
 
@@ -222,7 +222,7 @@ extended:
           damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_TIMEUNITS;
           # debug_log "ITEM_CURRENT_BOOST_TIMEUNITS" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TIMEUNITS;
-          if and gt newBoost 0 gt newBoost currentBoost; 
+          if and gt newBoost 0 gt newBoost currentBoost;
             sub newBoost currentBoost;
             unit.Stats.addTimeUnits newBoost;
             unit.setTag Tag.UNIT_CURRENT_BOOST_TIMEUNITS newBoost;
@@ -246,7 +246,7 @@ extended:
             unit.setTag Tag.UNIT_CURRENT_BOOST_STRENGTH newBoost;
           end;
 
-          
+
           damaging_item.getTag newBoost Tag.ITEM_CURRENT_BOOST_TOUGHNESS;
           # debug_log "ITEM_CURRENT_BOOST_TOUGHNESS" newBoost;
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
@@ -267,7 +267,7 @@ extended:
             sub newBoost currentBoost;
             unit.setTag Tag.UNIT_CURRENT_BOOST_STAMINA_RECOVERY newBoost;
           end;
-          
+
 
           return power part side;
 
@@ -294,7 +294,7 @@ extended:
 
           item.getOwner bUnit;
           bUnit.getFaction unitFaction;
-          
+
           item.getTag temp Tag.ITEM_FUSE_SIDE;
 
           if or eq bUnit null eq unitFaction FACTION_PLAYER eq temp 0 eq rInvId "STR_GROUND"; # don't do it for the player
@@ -403,7 +403,7 @@ extended:
 
             item.getTag newBoost Tag.ITEM_BOOST_MELEE;
             target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_MELEE;
-            if and gt newBoost 0 gt newBoost currentBoost; 
+            if and gt newBoost 0 gt newBoost currentBoost;
               sub newBoost currentBoost;
               target.Stats.addMelee newBoost;
               target.setTag Tag.UNIT_CURRENT_BOOST_MELEE newBoost;
@@ -412,7 +412,7 @@ extended:
 
             item.getTag newBoost Tag.ITEM_BOOST_TIMEUNITS;
             target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TIMEUNITS;
-            if and gt newBoost 0 gt newBoost currentBoost; 
+            if and gt newBoost 0 gt newBoost currentBoost;
               sub newBoost currentBoost;
               target.Stats.addTimeUnits newBoost;
               target.setTag Tag.UNIT_CURRENT_BOOST_TIMEUNITS newBoost;
@@ -435,7 +435,7 @@ extended:
             end;
 
 
-            
+
             item.getTag newBoost Tag.ITEM_BOOST_TOUGHNESS;
             target.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
 

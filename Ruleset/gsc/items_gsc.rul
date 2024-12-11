@@ -7,14 +7,14 @@ items:
   - &STR_CORPSE # battlescape only
     type: STR_GENE_CULTISTS_HYBRID_LEADER_CORPSE_AC
     weight: 20
-    bigSprite: 2724 
+    bigSprite: 2724
     floorSprite: 2726
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
     battleType: 11
     armor: 26
-  
+
   - type: STR_GENE_CULTISTS_HYBRID_SOLDIER_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 46}

@@ -5,5 +5,5 @@ eventScripts:
         STR_SCIENTISTS_ARRIVE_EVENT_AC: 100
     executionOdds: 100
     counterMax: 1
-    researchTriggers: 
+    researchTriggers:
       STR_KHORNE_CULTISTS_DEFEATED_AC: true

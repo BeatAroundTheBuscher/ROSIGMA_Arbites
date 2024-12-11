@@ -21,7 +21,7 @@ en-US:
 
 ## Other Items
 
-  
+
 
 
 ## Enemies
@@ -136,7 +136,7 @@ en-US:
   STR_KHORNE_CULTISTS_CULTIST_ARMOR_AC: "Khorne Cultist"
   STR_KHORNE_CULTISTS_RITUALIST_ARMOR_AC: "Khorne Cultist"
   STR_KHORNE_CULTISTS_AUTOPSY_AC: "Khorne Cultists"
-  
+
 
 
   STR_BLOODLETTER_DAEMON_AC: "Bloodletter Daemon"
@@ -194,7 +194,7 @@ en-US:
   STR_GENE_CULTISTS_FEMCULTIST_AC: "Genestealer Cultist"
   STR_GENE_CULTISTS_CULTIST_AC: "Genestealer Cultist"
   STR_GENE_CULTISTS_CORPSE_AC: "Genestealer Cultist Corpse"
-  
+
   STR_GENE_STEALER_YOUNG_AC: "Young Genestealer"
 
   STR_GENE_STEALER_AC: "Genestealer"
@@ -283,7 +283,7 @@ en-US:
   STR_EXPLOSIVE_COLLAR_AC: "Explosive Collar"
   STR_EXPLOSIVE_COLLAR_PRISONER_AC: "Explosive Collar"
 
-  
+
   STR_STUB_GUN_AC: "Stubber"
   STR_STUB_GUN_AKIMBO_AC: "Stubber (Akimbo)"
   STR_STUB_GUN_CHAOS_AC: "Stubber (Chaos)"
@@ -442,7 +442,7 @@ en-US:
   STR_FLAMER_AC: "Flamethrowers"
 
 
-  
+
   STR_ANTI_ARMOR_AC: "Anti Armor Weapons"
   STR_SENTINEL_MISSILE: "Sentinel w/ Missile Pod"
 
@@ -570,9 +570,9 @@ en-US:
     {NEWLINE}{NEWLINE}The mission will terminate when all enemies are eliminated, or when your troops have returned to the craft (click on the 'abort mission' icon to escape)."
   STR_UNDERHIVE_DETECTED: "Problems in the Underhive"
   STR_UNDERHIVE_SITE: "Problems in the Underhive"
- 
-  
-  
+
+
+
 
   STR_PRISON_BREAK_AC: "Prison Break"
   STR_PRISON_BREAK_TITLE: "Prison Break in Progress"

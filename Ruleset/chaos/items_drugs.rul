@@ -43,7 +43,7 @@ items:
       FixRadius: 1
     hitAnimation: 200 # X1.PCK
     hitAnimFrames: 8
-    defaultInventorySlot: STR_BELT  
+    defaultInventorySlot: STR_BELT
     supportedInventorySections:
       - STR_RIGHT_LEG
       - STR_LEFT_LEG

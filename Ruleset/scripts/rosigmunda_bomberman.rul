@@ -5,16 +5,16 @@ extended:
 
 
   scripts:
-    hitUnit: 
+    hitUnit:
       - new: ROSIGMA_hU_bomberman_attack # not used for now
-        offset: 43 
+        offset: 43
         code: |
           var ptr RuleItem ruleItem;
           var int temp;
           var ptre BattleItem someItem;
           var int numInventoryItems;
 
-          damaging_item.getRuleItem ruleItem; 
+          damaging_item.getRuleItem ruleItem;
           ruleItem.getTag temp Tag.ITEM_IS_FOR_BOMBER;
 
           if eq temp 1;
@@ -36,7 +36,7 @@ extended:
           return power part side;
 
 
-items: 
+items:
   - type: STR_EXPLOSIVE_COLLAR_PRISONER_AC
     scripts:
       createItem: | # will fuse on random turn
@@ -50,7 +50,7 @@ items:
         var int currentStun;
         var int fuseOnTurn;
         var int temp;
-        
+
         var ptr BattleUnit bOwner;
 
         item.getTag fuseOnTurn Tag.ITEM_WILL_FUSE_ON_TURN;

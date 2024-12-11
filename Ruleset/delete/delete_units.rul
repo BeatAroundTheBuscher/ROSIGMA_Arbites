@@ -1,7 +1,13 @@
 units:
   - delete: FEMALE_CIVILIAN
   - delete: MALE_CIVILIAN
+  - delete: STR_4X4_TURRET
+  - delete: STR_4X4_TURRET_SURROUND
   - delete: STR_ADEPTAS_ZOMBIE
+  - delete: STR_BANE_BOLTER_LEFT
+  - delete: STR_BANE_BOLTER_RIGHT
+  - delete: STR_BANE_BOLTER_TURRET
+  - delete: STR_BANE_LAS_TURRET
   - delete: STR_BARREL_DESTRUCTIBLE
   - delete: STR_BULLGRYN_RIOT_TEAM_BUCKLER
   - delete: STR_BULLGRYN_RIOT_TEAM_SLAB
@@ -169,6 +175,7 @@ units:
   - delete: STR_RIOTER_M1
   - delete: STR_RTS
   - delete: STR_RTT
+  - delete: STR_RUSS_BOLTER
   - delete: STR_SCREAMER_TERRORIST
   - delete: STR_SECTOID_COMMANDER
   - delete: STR_SECTOID_ENGINEER

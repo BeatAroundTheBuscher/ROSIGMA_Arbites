@@ -4,7 +4,7 @@ extended:
       ITEM_DOT_IN_INVENTORY: int
 
   scripts:
-    newTurnUnit: 
+    newTurnUnit:
       - new: ROSIGMUNDA_nTU_dot_in_inventory
         offset: 1
         code: |

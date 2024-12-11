@@ -16,14 +16,14 @@
 
   - name: STR_SECTOID_COMMANDER
     refNode: *STR_SECTOID
-    dependencies: 
+    dependencies:
       - STR_KHORNE_CULTISTS_MENACE_AC
     unlocks: !remove
       - STR_INTERROGATION_COMPLETED
 
   - name: STR_SECTOID_ASPIRING_CHAMPION
     refNode: *STR_SECTOID
-    dependencies: 
+    dependencies:
       - STR_KHORNE_CULTISTS_MENACE_AC
     unlocks: !remove
       - STR_INTERROGATION_COMPLETED

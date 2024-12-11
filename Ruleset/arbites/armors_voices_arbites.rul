@@ -1,4 +1,4 @@
-# for Search: 
+# for Search:
 # (\d{1,4})
 # for Replace:
 # {mod: 40k, index: $1}

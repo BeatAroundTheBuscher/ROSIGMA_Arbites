@@ -109,7 +109,7 @@ extended:
             # debug_log "Shield: Remaining Weapon Power" power;
             return power part side;
           end;
-          
+
           # try with left shield
           if lt power leftShieldBlockingStrength;
             set temp power;
@@ -133,7 +133,7 @@ extended:
 
 
 
-items: 
+items:
   - type: STR_RIOT_SHIELD_AC
     clipSize: 201 # Shield HP + 1
     tags:

@@ -2,7 +2,7 @@ startingTime:
   second: 0
   minute: 0
   hour: 12
-  weekday: 7 
+  weekday: 7
   day: 31
   month: 01
   year: 40000
@@ -31,7 +31,7 @@ newBaseUnlockResearch: STR_GENERAL_LOCK_AC
 # STR_BASE_DEFENSE uses this to figure out which terrain will be placed in outpost maps
 # The generator does not manage to obtain a random terrain for BattlescapeGenerator::generateMap
 # when loading a new battle
-baseDefenseMapFromLocation: 0 
+baseDefenseMapFromLocation: 0
 
 unitResponseSoundsFrequency: [33, 33, 33, 15]
 difficultyCoefficient: [0, 1, 2, 3, 4]

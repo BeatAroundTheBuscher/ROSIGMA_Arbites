@@ -1,4 +1,6 @@
 armors:
+  - delete: 4X4_ARMOR
+  - delete: 4X4_ARMOR_SURROUND
   - delete: BARREL_ARMOR
   - delete: BEHEMOTH_ARMOR
   - delete: BIKE_ARMOR_UC
@@ -126,6 +128,10 @@ armors:
   - delete: STR_ARBITOR_ARMOR_UC
   - delete: STR_ASS_ARMOR_HONOR_UC
   - delete: STR_ASS_ARMOR_UC
+  - delete: STR_BANE_BOLTER_ARMOR
+  - delete: STR_BANE_BOLTER_LEFT_ARMOR
+  - delete: STR_BANE_BOLTER_RIGHT_ARMOR
+  - delete: STR_BANE_LAS_ARMOR
   - delete: STR_BIOMANCER
   - delete: STR_BULLGRYN_BUCKLER
   - delete: STR_BULLGRYN_BUCKLER_RIOT
@@ -345,6 +351,7 @@ armors:
   - delete: STR_JUDGE_ARMOR_UC
   - delete: STR_JUDGE_BIKE_ARMOR_UC
   - delete: STR_KHORNECHAMP_ARMOR
+  - delete: STR_LEMONRUSS_BOLTER_ARMOR
   - delete: STR_LIB_ARMOR_LOCKDOWN
   - delete: STR_LIB_ARMOR_MELEE_INSPIRE
   - delete: STR_LIB_ARMOR_SHIELD

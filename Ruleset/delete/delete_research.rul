@@ -47,6 +47,7 @@ research:
   - delete: STR_ASSCTZ
   - delete: STR_AUTOCANNON_GUARD
   - delete: STR_AXE
+  - delete: STR_BANEBLADE_R
   - delete: STR_BANSHEE_CORPSE
   - delete: STR_BATTLESHIP
   - delete: STR_BATTLESHIP_DATA

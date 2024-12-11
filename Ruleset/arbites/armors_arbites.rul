@@ -106,7 +106,7 @@ armors:
     frontArmor: 60
     sideArmor: 55
     rearArmor: 40
-    underArmor: 50 
+    underArmor: 50
     builtInWeapons:
       - STR_JUDGE_PSI_AMP
       - STR_JUDGE_MIND_PROBE
@@ -173,7 +173,7 @@ armors:
       - INV_NULL_3X3_AC
       - INV_NULL_4X2_AC
     recovery:
-     energy: 
+     energy:
       energyRegen: 2.0
     spriteSheet: MAS.PCK
     spriteInv: MAS.SPK

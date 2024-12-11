@@ -178,7 +178,7 @@ missionScripts:
     researchTriggers:
       STR_KHORNE_CULTISTS_DEFEATED_AC: false
 
-## STORY 
+## STORY
 
   - type: Cultist_Investigation
     firstMonth: 0

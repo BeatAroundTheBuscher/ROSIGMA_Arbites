@@ -50,7 +50,7 @@
       207: Resources/Bigobs/BIGOB_HIGHGRADE_AUTOGUN_drum.png
       208: Resources/Bigobs/BIGOB_AUTOGUN_CLIP_DRUM.png
 
-      
+
 
 
       ## FilipH/Nuclear World
@@ -161,10 +161,10 @@
 
   - type: INTICON.PCK
     files:
-        200: Resources/InitCon/arvus_minimised.png 
+        200: Resources/InitCon/arvus_minimised.png
         211: Resources/InitCon/arvus_dogfight.png # + 11
 
-        201: Resources/InitCon/CHI_minimised.png 
+        201: Resources/InitCon/CHI_minimised.png
         212: Resources/InitCon/CHI_dogfight.png # + 11
 
         508: Resources/Avenger/Avenger_minimised.png

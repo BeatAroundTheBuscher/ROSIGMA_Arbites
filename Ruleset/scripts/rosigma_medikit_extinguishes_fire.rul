@@ -18,7 +18,7 @@ extended:
             return;
           end;
           if and eq medikit_action_type medikit_action_heal gt temp 0;
-            set wound_recovery 0; 
+            set wound_recovery 0;
             set health_recovery 0;
             target.setFire 0;
           end;

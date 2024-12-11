@@ -60,7 +60,7 @@ terrains:
       - name: PRISON_BREAK_02 # Prison 1 # 26
         width: 10
         length: 10
-      - name: PRISON_BREAK_03 # Hangar 
+      - name: PRISON_BREAK_03 # Hangar
         width: 30
         length: 20
       - name: PRISON_BREAK_04 # Prison 2 # 36

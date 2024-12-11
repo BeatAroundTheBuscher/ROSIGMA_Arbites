@@ -111,6 +111,7 @@ ufopaedia:
   - delete: STR_ASSC_CLIP
   - delete: STR_AUTO_CANNON
   - delete: STR_AUTOCANNON_CLIP
+  - delete: STR_AUTO_CANNON_DW
   - delete: STR_AUTOCANNON_GUARD
   - delete: STR_AUTOCANNON_HANDHELD
   - delete: STR_AUTOGUN
@@ -123,6 +124,7 @@ ufopaedia:
   - delete: STR_AXE
   - delete: STR_B
   - delete: STR_BA
+  - delete: STR_BANEBLADE
   - delete: STR_BANNER
   - delete: STR_BANSHEE_AUTOPSY
   - delete: STR_BATTLESHIP
@@ -786,4 +788,3 @@ ufopaedia:
   - delete: STR_WS
   - delete: STR_XENO_AUTOPSY
   - delete: STR_XIPHON_GK
-  - delete: STR_AUTO_CANNON_DW

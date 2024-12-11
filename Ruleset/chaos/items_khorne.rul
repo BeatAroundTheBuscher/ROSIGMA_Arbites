@@ -14,7 +14,7 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
-  
+
   - type: STR_KHORNE_CULTISTS_ASPIRING_CHAMPION_CORPSE_AC
     refNode: *STR_CORPSE
     bigSprite: {mod: 40k, index: 46}
@@ -158,7 +158,6 @@ items:
     armor: 26
     listOrder: 19910
     recover: true
-    liveAlien: ""
 
 
   - type: STR_WINGED_DAEMON_WEAPON_AC

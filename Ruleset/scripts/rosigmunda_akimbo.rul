@@ -47,7 +47,7 @@ extended:
               if eq blit_part blit_rightarm;
                 # debug_log "blit_rightarm" sprite_index;
                 # debug_log "sprite_offset" sprite_offset;
-                
+
               end;
 
               if eq blit_part blit_leftarm;
@@ -59,4 +59,4 @@ extended:
           end;
 
           # add sprite_index sprite_offset;
-          return sprite_index;  
+          return sprite_index;

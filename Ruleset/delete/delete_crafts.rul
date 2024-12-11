@@ -7,11 +7,13 @@ crafts:
   - delete: STR_ARVUS_GK
   - delete: STR_AVENGER
   - delete: STR_AVENGER_ADEPTAS
+  - delete: STR_BANEBLADE
   - delete: STR_CASSIUM
   - delete: STR_CASSIUMPD
   - delete: STR_CHAOS_THUNDERHAWNK
   - delete: STR_CHAPTERARMY
   - delete: STR_CHIMERA
+  - delete: STR_CHIMERA_4X4_TEST
   - delete: STR_CHIMERAPD
   - delete: STR_CHIMERAPDH
   - delete: STR_COBRA

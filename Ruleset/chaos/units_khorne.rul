@@ -360,7 +360,7 @@ units:
     livingWeapon: false
     builtInWeaponSets:
       - - STR_WINGED_DAEMON_WEAPON_AC
-    
+
 
   - type: STR_BLOODLETTER_DAEMON_AC
     race: STR_BLOODLETTER_DAEMON_AC

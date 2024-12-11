@@ -1874,31 +1874,31 @@ terrains:
         length: 10
       - name: URBAN19 #ROSIGMA
         width: 20
-        length: 20  
+        length: 20
       - name: URBAN20 #ROSIGMA
         width: 20
-        length: 20      
+        length: 20
       - name: URBAN21 #ROSIGMA
         width: 20
-        length: 20   
+        length: 20
       - name: URBAN22 #ROSIGMA, Munitions dump hideout
         width: 20
-        length: 20   
+        length: 20
       - name: URBAN23 #ROSIGMA
         width: 20
-        length: 20   
+        length: 20
       - name: URBAN24 #ROSIGMA
         width: 40
-        length: 40   
+        length: 40
       - name: URBAN25 #ROSIGMA
         width: 40
         length: 40
       - name: URBAN26 #ROSIGMA
         width: 20
-        length: 20   
+        length: 20
       - name: URBAN27 #ROSIGMA
         width: 40
-        length: 20   
+        length: 20
       - name: URBAN28 #ROSIGMA
         width: 20
         length: 20
@@ -1934,7 +1934,7 @@ terrains:
           STR_MUNITORIUM_SPAWNER_AC:
             - [4, 4, 0]
         fuseTimers:
-          STR_MUNITORIUM_SPAWNER_AC: [0, 0]  
+          STR_MUNITORIUM_SPAWNER_AC: [0, 0]
 
   - name: MUNITORIUM
     enviroEffects: STR_URBAN_ENVIRO

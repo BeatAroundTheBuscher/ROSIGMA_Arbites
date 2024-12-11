@@ -1,9 +1,9 @@
 items:
-  - type: STR_BOMBARDMENT 
-    power: 1 # whiff
+  - type: STR_BOMBARDMENT
+    power: 1
     blastRadius: 1
 
-# 40k 036 values
+
 
 mapScripts:
 
@@ -27,35 +27,35 @@ mapScripts:
       blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8]
   - type: DW_FINAL_ENTRACE_SCRIPT
     commands:
-    - type: addBlock #entrace
+    - type: addBlock
       blocks: [11, 12]
       rects:
         - [1,0,1,1]
       executions: 1
       maxUses: [1]
       size: [1, 1]
-    - type: addBlock #entrace LEFT
+    - type: addBlock
       blocks: [4, 5, 6]
       rects:
         - [0,0,1,1]
       executions: 1
       maxUses: [1]
       size: [1, 1]
-    - type: addBlock #entrace RIGHT
+    - type: addBlock
       blocks: [4, 7]
       rects:
         - [2,0,1,1]
       executions: 1
       maxUses: [1]
       size: [1, 1]
-    - type: addBlock #2x1 Chamber
+    - type: addBlock
       blocks: [13, 14, 15]
       rects:
         - [2,1,1,2]
       executions: 1
       maxUses: [1]
       size: [1, 2]
-    - type: addBlock #2x2 Chamber
+    - type: addBlock
       size: [2, 2]
       blocks: [0, 1, 2, 3]
       rects:
@@ -84,28 +84,28 @@ mapScripts:
 
   - type: HIVE_SCRIPT
     commands:
-    - type: addBlock #entrace
+    - type: addBlock
       blocks: [11, 11]
       rects:
         - [0,0,1,1]
       executions: 1
       maxUses: [1]
       size: [1, 1]
-    - type: addBlock #entrace LEFT
+    - type: addBlock
       blocks: [11, 12]
       rects:
         - [0,1,1,1]
       executions: 1
       maxUses: [1]
       size: [1, 1]
-    - type: addBlock #entrace RIGHT
+    - type: addBlock
       blocks: [11, 13]
       rects:
         - [0,2,1,1]
       executions: 1
       maxUses: [1]
       size: [1, 1]
-    - type: addBlock #entrace RIGHT
+    - type: addBlock
       blocks: [12, 13]
       rects:
         - [0,3,1,1]
@@ -124,35 +124,35 @@ mapScripts:
 
   - type: TOMB_SCRIPT
     commands:
-    - type: addBlock #entrace
+    - type: addBlock
       blocks: [11, 12]
       rects:
         - [1,0,1,1]
       executions: 1
       maxUses: [1]
       size: [1, 1]
-    - type: addBlock #entrace LEFT
+    - type: addBlock
       blocks: [4, 5, 6]
       rects:
         - [0,0,1,1]
       executions: 1
       maxUses: [1]
       size: [1, 1]
-    - type: addBlock #entrace RIGHT
+    - type: addBlock
       blocks: [4, 7]
       rects:
         - [2,0,1,1]
       executions: 1
       maxUses: [1]
       size: [1, 1]
-    - type: addBlock #2x1 Chamber
+    - type: addBlock
       blocks: [13, 14, 15]
       rects:
         - [2,1,1,2]
       executions: 1
       maxUses: [1]
       size: [1, 2]
-    - type: addBlock #2x2 Chamber
+    - type: addBlock
       size: [2, 2]
       blocks: [0, 1, 2, 3]
       rects:
@@ -169,22 +169,22 @@ mapScripts:
 
   - type: XBASE
     commands:
-    #*** normal facility placing happens here, before anything else
 
-    #*** figure out if this is a normal base or an outpost
-    - type: fillArea # mask off everything for the checkblock
+
+
+    - type: fillArea
       groups: [6]
-    - type: checkBlock # check the map for which type of lift we placed
+    - type: checkBlock
       rects:
         - [0, 0, 6, 6]
-      groups: [7] # or whichever group we set the outpost to
+      groups: [7]
       label: 1
-    - type: removeBlock # remove the mask
+    - type: removeBlock
       groups: [6]
       rects:
         - [0, 0, 6, 6]
 
-    #*** this is a normal base, dig some tunnels and fill in with dirt
+
     - type: digTunnel
       conditionals: [-1]
       direction: both
@@ -200,13 +200,13 @@ mapScripts:
     - type: fillArea
       conditionals: [-1]
       blocks: 20
-    #*** this is an above-ground outpost, don't dig and fill in with above-ground stuff
+
     - type: fillArea
       conditionals: [1]
       terrain: baseTerrain
       groups: [16]
 
-  - type: ELDARFOREST_SCRIPT #plus 12
+  - type: ELDARFOREST_SCRIPT
     commands:
     - type: addCraft
     - type: addBlock
@@ -224,7 +224,7 @@ mapScripts:
         - type: ground
           size: [2, 2, 0]
           terrain: globeTerrain
-          groups: [11] #<--- FLAT GROUP add this!
+          groups: [11]
         - type: ceiling
           blocks: [0]
           size: [2, 2, 6]
@@ -242,7 +242,7 @@ mapScripts:
         - type: ground
           size: [3, 3, 0]
           terrain: globeTerrain
-          groups: [12] #<--- FLAT GROUP add this!
+          groups: [12]
         - type: middle
           blocks: [0]
           size: [3, 3, 0]
@@ -257,10 +257,10 @@ mapScripts:
     commands:
     - type: addCraft
       rects:
-        - [1,0,1,4] #[y,x,mapSize_width,mapSize_heigth]
+        - [1,0,1,4]
     - type: addBlock
       size: [3,2]
-  - type: JUNGLE #plus 12
+  - type: JUNGLE
     commands:
     - type: addUFO
     - type: addCraft
@@ -321,7 +321,7 @@ mapScripts:
       executions: 3
       executionChances: 100
       UFOName: STR_VOSS_UFO
-    - type: addBlock #3x3
+    - type: addBlock
       size: 3
       executions: 1
       executionChances: 100
@@ -365,7 +365,7 @@ mapScripts:
       executions: 3
       executionChances: 100
       UFOName: STR_VOSS_UFO_DESTRUCTIBLE
-    - type: addBlock #3x3
+    - type: addBlock
       size: 3
       executions: 1
       executionChances: 100
@@ -409,7 +409,7 @@ mapScripts:
       executions: 3
       executionChances: 100
       UFOName: STR_MUNI2_UFO
-    - type: addBlock #3x3
+    - type: addBlock
       size: 3
       executions: 1
       executionChances: 100
@@ -436,7 +436,7 @@ mapScripts:
     - type: addUFO
       UFOName: STR_CHIMERA_UFO_RIOT
     - type: fillArea
-  - type: CITY_RIOT #NO PLAN
+  - type: CITY_RIOT
     commands:
     - type: addCraft
     - type: addLine
@@ -507,10 +507,10 @@ mapScripts:
 
   - type: INDUSTRIALURBANDIO
     commands:
-      #*** Add the player's craft ***
+
       - type: addCraft
 
-      #*** Add roads/railroads ***
+
       - type: addLine
         direction: vertical
         executionChances: 50
@@ -525,40 +525,40 @@ mapScripts:
         conditionals: [-1, -2]
         label: 3
 
-      # sometimes replace vertical line with rails
-      - type: fillArea # mask off the map for removeBlock
+
+      - type: fillArea
         groups: 10
         executionChances: 50
         conditionals: [-2]
         label: 4
 
-      - type: removeBlock # remove the normal road
+      - type: removeBlock
         groups: 3
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rails
+      - type: fillArea
         groups: 13
         conditionals: [4]
 
-      - type: removeBlock # remove the crossing
+      - type: removeBlock
         groups: [4]
         conditionals: [3, 4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rail crossing
+      - type: fillArea
         groups: 14
         conditionals: [3, 4]
 
-      - type: removeBlock # remove the mask
+      - type: removeBlock
         groups: 10
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      #*** Fill in the area ***
+
       - type: addBlock
         size: 2
         executions: 4
@@ -587,7 +587,7 @@ mapScripts:
       direction: both
       tunnelData:
         level: 0
-  - type: CO #Chaos Fortress
+  - type: CO
     commands:
     - type: addCraft
       rects:
@@ -626,37 +626,37 @@ mapScripts:
       groups: 7
       size: 4
       rects:
-        - [0,2,4,4] #[x, y, size in x, size in y]
+        - [0,2,4,4]
     - type: addUFO
       size: 1
       executions: 1
       executionChances: 100
       UFOName: STR_CONST_UFO
       rects:
-        - [1,2,1,1] #[x, y, size in x, size in y]
+        - [1,2,1,1]
     - type: addCraft
       rects:
-        - [1,0,1,2] #[x, y, size in x, size in y]
+        - [1,0,1,2]
     - type: fillArea
   - type: SM
     commands:
     - type: addCraft
       rects:
-        - [4,2,1,2] #[x, y, size in x, size in y]
+        - [4,2,1,2]
     - type: addBlock
       size: [6,6]
   - type: SMFINAL
     commands:
     - type: addCraft
       rects:
-        - [1,2,1,4] #[y,x,mapSize_width,mapSize_heigth]
+        - [1,2,1,4]
     - type: addBlock
       size: [6,5]
   - type: FINAL01S
     commands:
     - type: addCraft
       rects:
-        - [6,1,2,2] #[x, y, size in x, size in y]
+        - [6,1,2,2]
     - type: addBlock
       size: [7,5]
 
@@ -853,8 +853,8 @@ mapScripts:
       size: 2
       executions: 4
     - type: fillArea
-      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
-      # because these are references to the block numbers within the sets, not the file names.
+
+
       blocks: [3, 4, 10, 11, 12, 13, 14]
       freqs: [3, 3, 2, 2, 2, 2, 2]
   - type: WARSCRIPT
@@ -872,8 +872,8 @@ mapScripts:
       blocks: [16]
       maxUses: [1]
       rects:
-        - [2, 0, 1, 4]#[y,x,mapSize_width,mapSize_heigth]
-        - [1, 0, 1, 4]#[y,x,mapSize_width,mapSize_heigth]
+        - [2, 0, 1, 4]
+        - [1, 0, 1, 4]
     - type: addLine
       label: 1
       direction: vertical
@@ -898,8 +898,8 @@ mapScripts:
       blocks: [5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1]
     - type: fillArea
-      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
-      # because these are references to the block numbers within the sets, not the file names.
+
+
       blocks: [3, 4, 10, 11, 12, 13, 14]
       freqs: [1, 1, 2, 2, 2, 2, 2]
       maxUses: [2, 2, 2, 2, 2, 2, 2]
@@ -918,8 +918,8 @@ mapScripts:
       blocks: [17]
       maxUses: [1]
       rects:
-        - [2, 0, 1, 4]#[y,x,mapSize_width,mapSize_heigth]
-        - [1, 0, 1, 4]#[y,x,mapSize_width,mapSize_heigth]
+        - [2, 0, 1, 4]
+        - [1, 0, 1, 4]
     - type: addLine
       label: 1
       direction: vertical
@@ -944,12 +944,12 @@ mapScripts:
       blocks: [5, 6, 7, 8, 9]
       maxUses: [1, 1, 1, 1, 1]
     - type: fillArea
-      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
-      # because these are references to the block numbers within the sets, not the file names.
+
+
       blocks: [3, 4, 10, 11, 12, 13, 14]
       freqs: [1, 1, 2, 2, 2, 2, 2]
       maxUses: [2, 2, 2, 2, 2, 2, 2]
-  - type: WARRSCRIPT          #SideOperations 6
+  - type: WARRSCRIPT
     commands:
     - type: addCraft
       rects:
@@ -959,13 +959,13 @@ mapScripts:
 
   - type: CULTIST_BASE_LEVEL_1
     commands:
-      #*** Place the temple ***
+
       - type: addBlock
         size: 2
         groups: 5
-      #*** Place the player's craft ***
+
       - type: addCraft
-      #*** Add roads/railroads ***
+
       - type: addLine
         direction: vertical
         executionChances: 50
@@ -980,40 +980,40 @@ mapScripts:
         conditionals: [-1, -2]
         label: 3
 
-      # sometimes replace vertical line with rails
-      - type: fillArea # mask off the map for removeBlock
+
+      - type: fillArea
         groups: 10
         executionChances: 50
         conditionals: [-2]
         label: 4
 
-      - type: removeBlock # remove the normal road
+      - type: removeBlock
         groups: 3
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rails
+      - type: fillArea
         groups: 13
         conditionals: [4]
 
-      - type: removeBlock # remove the crossing
+      - type: removeBlock
         groups: [4]
         conditionals: [3, 4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rail crossing
+      - type: fillArea
         groups: 14
         conditionals: [3, 4]
 
-      - type: removeBlock # remove the mask
+      - type: removeBlock
         groups: 10
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      #*** Fill the area around the temple ***
+
       - type: addBlock
         size: 2
         executions: 4
@@ -1022,7 +1022,7 @@ mapScripts:
 
   - type: CULTIST_BASE_LEVEL_2
     commands:
-      #*** Place the temple ***
+
       - type: addBlock
         terrain: CULTIST_TEMPLE
         size: [3, 4, 10]
@@ -1035,10 +1035,10 @@ mapScripts:
           size: [3, 4, 10]
           groups: 6
 
-      #*** Place the player's craft ***
+
       - type: addCraft
 
-      #*** Add roads/railroads ***
+
       - type: addLine
         direction: vertical
         executionChances: 50
@@ -1053,40 +1053,40 @@ mapScripts:
         conditionals: [-1, -2]
         label: 3
 
-      # sometimes replace vertical line with rails
-      - type: fillArea # mask off the map for removeBlock
+
+      - type: fillArea
         groups: 10
         executionChances: 50
         conditionals: [-2]
         label: 4
 
-      - type: removeBlock # remove the normal road
+      - type: removeBlock
         groups: 3
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rails
+      - type: fillArea
         groups: 13
         conditionals: [4]
 
-      - type: removeBlock # remove the crossing
+      - type: removeBlock
         groups: [4]
         conditionals: [3, 4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rail crossing
+      - type: fillArea
         groups: 14
         conditionals: [3, 4]
 
-      - type: removeBlock # remove the mask
+      - type: removeBlock
         groups: 10
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      #*** Fill the area around the temple ***
+
       - type: addBlock
         size: 2
         executions: 4
@@ -1098,7 +1098,7 @@ mapScripts:
 
   - type: CULTIST_BASE_LEVEL_3
     commands:
-      #*** Place the temple ***
+
       - type: addBlock
         terrain: CULTIST_TEMPLE
         size: [3, 6, 10]
@@ -1111,10 +1111,10 @@ mapScripts:
           size: [3, 6, 10]
           groups: 7
 
-      #*** Place the player's craft ***
+
       - type: addCraft
 
-      #*** Add roads/railroads ***
+
       - type: addLine
         direction: vertical
         executionChances: 50
@@ -1129,40 +1129,40 @@ mapScripts:
         conditionals: [-1, -2]
         label: 3
 
-      # sometimes replace vertical line with rails
-      - type: fillArea # mask off the map for removeBlock
+
+      - type: fillArea
         groups: 10
         executionChances: 50
         conditionals: [-2]
         label: 4
 
-      - type: removeBlock # remove the normal road
+      - type: removeBlock
         groups: 3
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rails
+      - type: fillArea
         groups: 13
         conditionals: [4]
 
-      - type: removeBlock # remove the crossing
+      - type: removeBlock
         groups: [4]
         conditionals: [3, 4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rail crossing
+      - type: fillArea
         groups: 14
         conditionals: [3, 4]
 
-      - type: removeBlock # remove the mask
+      - type: removeBlock
         groups: 10
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      #*** Fill the area around the temple ***
+
       - type: addBlock
         size: 2
         executions: 4
@@ -1174,7 +1174,7 @@ mapScripts:
 
   - type: SACRIFICE_LEVEL_1_SCRIPT
     commands:
-      #*** Place the building where the sacrifices are occuring ***
+
       - type: addBlock
         groups: 8
         size: 2
@@ -1184,10 +1184,10 @@ mapScripts:
         groups: 8
         conditionals: [-10]
 
-      #*** Add the player's craft ***
+
       - type: addCraft
 
-      #*** Add roads/railroads ***
+
       - type: addLine
         direction: vertical
         executionChances: 50
@@ -1202,40 +1202,40 @@ mapScripts:
         conditionals: [-1, -2]
         label: 3
 
-      # sometimes replace vertical line with rails
-      - type: fillArea # mask off the map for removeBlock
+
+      - type: fillArea
         groups: 10
         executionChances: 50
         conditionals: [-2]
         label: 4
 
-      - type: removeBlock # remove the normal road
+      - type: removeBlock
         groups: 3
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rails
+      - type: fillArea
         groups: 13
         conditionals: [4]
 
-      - type: removeBlock # remove the crossing
+      - type: removeBlock
         groups: [4]
         conditionals: [3, 4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rail crossing
+      - type: fillArea
         groups: 14
         conditionals: [3, 4]
 
-      - type: removeBlock # remove the mask
+      - type: removeBlock
         groups: 10
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      #*** Fill in the area ***
+
       - type: addBlock
         size: 2
         executions: 4
@@ -1243,17 +1243,17 @@ mapScripts:
 
   - type: SUMMONING_LEVEL_1_SCRIPT
     commands:
-      #*** Place the summoning circle ***
+
       - type: addBlock
         groups: 7
         size: 2
         terrain: INDUSTRIALURBANDIO_OBJECTIVE
-        markAsReinforcementsBlock: true #
+        markAsReinforcementsBlock: true
 
-      #*** Add the player's craft ***
+
       - type: addCraft
 
-      #*** Add roads/railroads ***
+
       - type: addLine
         direction: vertical
         executionChances: 50
@@ -1268,53 +1268,53 @@ mapScripts:
         conditionals: [-1, -2]
         label: 3
 
-      # sometimes replace vertical line with rails
-      - type: fillArea # mask off the map for removeBlock
+
+      - type: fillArea
         groups: 10
         executionChances: 50
         conditionals: [-2]
         label: 4
 
-      - type: removeBlock # remove the normal road
+      - type: removeBlock
         groups: 3
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rails
+      - type: fillArea
         groups: 13
         conditionals: [4]
 
-      - type: removeBlock # remove the crossing
+      - type: removeBlock
         groups: [4]
         conditionals: [3, 4]
         rects:
           - [0, 0, 10, 10]
 
-      - type: fillArea # place the rail crossing
+      - type: fillArea
         groups: 14
         conditionals: [3, 4]
 
-      - type: removeBlock # remove the mask
+      - type: removeBlock
         groups: 10
         conditionals: [4]
         rects:
           - [0, 0, 10, 10]
 
-      #*** Fill in the area ***
+
       - type: addBlock
         size: 2
         executions: 4
       - type: fillArea
 
-  - type: ORK1SCRIPT # tier 1
+  - type: ORK1SCRIPT
     commands:
-    #*** Add the outpost ***
+
     - type: addBlock
       size: 2
       groups: 5
 
-    #*** Add the player craft and fill the remaining area
+
     - type: addCraft
     - type: addBlock
       size: 2
@@ -1327,14 +1327,14 @@ mapScripts:
     - type: fillArea
       groups: 0
 
-  - type: ORK2SCRIPT # tier 2
+  - type: ORK2SCRIPT
     commands:
-    #*** Add the outpost ***
+
     - type: addBlock
       size: 3
       groups: 6
 
-    #*** Add the player craft and fill the remaining area
+
     - type: addCraft
     - type: addBlock
       size: 2
@@ -1347,17 +1347,17 @@ mapScripts:
     - type: fillArea
       groups: 0
 
-  - type: ORK3SCRIPT # tier 3
+  - type: ORK3SCRIPT
     commands:
-    #*** Place the aircraft first ***
+
     - type: addUFO
       UFOName: STR_ORK_MIG_UFO
       rects:
         - [1, 1, 3, 3]
       groups: 10
 
-    #*** Figure out where to place the outpost based on the aircraft location ***
-    # y-position
+
+
     - type: checkBlock
       rects:
         - [1, 1, 3, 1]
@@ -1370,7 +1370,7 @@ mapScripts:
       rects:
         - [1, 3, 3, 1]
       label: 3
-    # x-position
+
     - type: checkBlock
       rects:
         - [1, 1, 1, 3]
@@ -1384,8 +1384,8 @@ mapScripts:
         - [3, 1, 1, 3]
       label: 13
 
-    #*** Now place the outpost ***
-    # Note this only places 1 outpost based on where the aircraft was placed
+
+
     - type: removeBlock
       rects:
         - [1, 1, 1, 1]
@@ -1477,7 +1477,7 @@ mapScripts:
         - [2, 2, 3, 3]
       conditionals: [3, 13]
 
-    #*** Add the player craft and fill in everywhere else ***
+
     - type: addCraft
     - type: addBlock
       size: 2
@@ -1490,17 +1490,17 @@ mapScripts:
     - type: fillArea
       groups: 0
 
-  - type: ORK4SCRIPT # tier 4
+  - type: ORK4SCRIPT
     commands:
-    #*** Place the Waggon first ***
+
     - type: addUFO
       UFOName: STR_WAGGON_UFO_INBASE
       rects:
         - [1, 1, 3, 3]
       groups: 10
 
-    #*** Figure out where to place the outpost based on the Waggon location ***
-    # y-position
+
+
     - type: checkBlock
       rects:
         - [1, 1, 3, 1]
@@ -1513,7 +1513,7 @@ mapScripts:
       rects:
         - [1, 3, 3, 1]
       label: 3
-    # x-position
+
     - type: checkBlock
       rects:
         - [1, 1, 1, 3]
@@ -1527,8 +1527,8 @@ mapScripts:
         - [3, 1, 1, 3]
       label: 13
 
-    #*** Now place the outpost ***
-    # Note this only places 1 outpost based on where the Waggon was placed
+
+
     - type: removeBlock
       rects:
         - [1, 1, 1, 1]
@@ -1620,7 +1620,7 @@ mapScripts:
         - [2, 2, 3, 3]
       conditionals: [3, 13]
 
-    #*** Add the player craft and fill in everywhere else ***
+
     - type: addCraft
     - type: addBlock
       size: 2
@@ -1633,17 +1633,17 @@ mapScripts:
     - type: fillArea
       groups: 0
 
-  - type: ORK5SCRIPT # tier 5
+  - type: ORK5SCRIPT
     commands:
-    #*** Place the Waggon first ***
+
     - type: addUFO
       UFOName: STR_WAGGON_UFO_INBASE
       rects:
         - [1, 1, 4, 4]
       groups: 10
 
-    #*** Figure out where to place the outpost based on the Waggon location ***
-    # y-position
+
+
     - type: checkBlock
       rects:
         - [1, 1, 4, 1]
@@ -1660,7 +1660,7 @@ mapScripts:
       rects:
         - [1, 4, 4, 1]
       label: 4
-    # x-position
+
     - type: checkBlock
       rects:
         - [1, 1, 1, 4]
@@ -1678,8 +1678,8 @@ mapScripts:
         - [4, 1, 1, 4]
       label: 14
 
-    #*** Now place the outpost ***
-    # Note this only places 1 outpost based on where the Waggon was placed
+
+
     - type: removeBlock
       rects:
         - [1, 1, 1, 1]
@@ -1841,7 +1841,7 @@ mapScripts:
         - [3, 3, 3, 3]
       conditionals: [4, 14]
 
-    #*** Mask off the locations where the aircraft can't go based on where the outpost is
+
     - type: fillArea
       groups: 10
       rects:
@@ -1892,14 +1892,14 @@ mapScripts:
       conditionals: [14]
       label: 34
 
-    #*** Add an aircraft to figure out where the airstrip should go ***
+
     - type: addUFO
       UFOName: STR_ORK_MIG_UFO
       rects:
         - [0, 1, 5, 5]
       groups: 11
 
-    #*** Remove the blocks placed as masks ***
+
     - type: removeBlock
       rects:
         - [0, 3, 6, 1]
@@ -1934,12 +1934,12 @@ mapScripts:
         - [1, 0, 2, 6]
       conditionals: [34]
 
-    #*** In order for the checkBlock to work with groups and not a full map, we need to fill everywhere with a dummy map to remove later ***
+
     - type: fillArea
       groups: 10
 
-    #*** Figure out where to place the airstrip based on the aircraft location ***
-    # y-position
+
+
     - type: checkBlock
       rects:
         - [0, 1, 5, 1]
@@ -1965,7 +1965,7 @@ mapScripts:
         - [0, 5, 5, 1]
       label: 45
       groups: 11
-    # x-position
+
     - type: checkBlock
       rects:
         - [0, 1, 1, 5]
@@ -1992,13 +1992,13 @@ mapScripts:
       label: 55
       groups: 11
 
-    #*** Now that the checks are done, we can remove the dummy mapblocks
+
     - type: removeBlock
       rects:
         - [0, 0, 6, 6]
       groups: 10
 
-    #*** Place the airstrip based on the location of the aircraft ***
+
     - type: removeBlock
       rects:
         - [0, 1, 1, 1]
@@ -2250,7 +2250,7 @@ mapScripts:
         - [4, 4, 2, 2]
       conditionals: [45, 55]
 
-    #*** Add the player craft and fill in everywhere else ***
+
     - type: addCraft
     - type: addBlock
       size: 2
@@ -2264,7 +2264,7 @@ mapScripts:
 
   - type: TRAITOR_GUARD_BASE_LEVEL_1
     commands:
-      #*** Place a road through the base and put the player's craft on it
+
       - type: addCraft
         groups: 3
       - type: checkBlock
@@ -2314,7 +2314,7 @@ mapScripts:
           - [4, 0, 1, 5]
         conditionals: [5]
 
-      #*** Chance of placing a traitor chimera next to the road
+
       - type: addUFO
         UFOName: STR_TRAITOR_CHIMERA
         rects:
@@ -2351,7 +2351,7 @@ mapScripts:
         executionChances: 30
         label: 15
 
-      #*** Place a motor pool next to the road if not a Chimera
+
       - type: addBlock
         rects:
           - [1, 0, 1, 5]
@@ -2383,12 +2383,12 @@ mapScripts:
         groups: 10
         label: 24
 
-     #*** Place the command center
+
       - type: addBlock
         size: 2
         groups: 5
 
-      #*** Try placing some filler blocks
+
       - type: addBlock
         size: 2
         groups: 8
@@ -2398,7 +2398,7 @@ mapScripts:
         groups: 8
         executions: 3
 
-      #*** Fill in
+
       - type: addBlock
         size: 2
         groups: 9
@@ -2409,7 +2409,7 @@ mapScripts:
 
   - type: TRAITOR_GUARD_BASE_LEVEL_2
     commands:
-      #*** Place a road through the base and put the player's craft on it
+
       - type: addCraft
         groups: 3
       - type: checkBlock
@@ -2459,19 +2459,19 @@ mapScripts:
           - [4, 0, 1, 5]
         conditionals: [5]
 
-      #*** Place an airstrip
+
       - type: addLine
         direction: horizontal
         terrain: AIRSTRIP_SPAWN
-      - type: fillArea # masking off so we don't crash when checking by groups
+      - type: fillArea
         groups: [9]
-      #- type: removeBlock # fix a possible save corruption with the crossroads being saved as the wrong terrain
-      #  groups: [4]
-      #  rects:
-      #    - [0, 0, 10, 10]
-      #- type: fillArea
-      #  terrain: BDAIRPORT
-      #  groups: [4]
+
+
+
+
+
+
+
       - type: checkBlock
         groups: [4]
         rects:
@@ -2497,14 +2497,14 @@ mapScripts:
         rects:
           - [0, 4, 5, 1]
         label: 15
-      - type: removeBlock # remove the mask
+      - type: removeBlock
         groups: [9]
         rects:
           - [0, 0, 5, 5]
 
-      #*** Add an air control tower and some aircraft
+
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2539,7 +2539,7 @@ mapScripts:
         conditionals: [11]
 
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2574,7 +2574,7 @@ mapScripts:
         conditionals: [12]
 
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2609,7 +2609,7 @@ mapScripts:
         conditionals: [13]
 
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2644,7 +2644,7 @@ mapScripts:
         conditionals: [14]
 
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2678,12 +2678,12 @@ mapScripts:
           - [0, 3, 5, 1]
         conditionals: [15]
 
-      #*** place a command center
+
       - type: addBlock
         size: 2
         groups: [5]
 
-      #*** Place a motor pool next to the road
+
       - type: addBlock
         rects:
           - [0, 0, 1, 5]
@@ -2710,7 +2710,7 @@ mapScripts:
         conditionals: [-1, -2, -3, -5]
         groups: 10
 
-      #*** Try placing some filler blocks
+
       - type: addBlock
         size: 2
         groups: 8
@@ -2720,7 +2720,7 @@ mapScripts:
         groups: 8
         executions: 3
 
-      #*** Fill in
+
       - type: addBlock
         size: 2
         groups: 9
@@ -2731,10 +2731,10 @@ mapScripts:
 
   - type: TRAITOR_GUARD_BASE_LEVEL_3
     commands:
-      #*** Place the player craft and put a road under it
+
       - type: addCraft
         groups: [3]
-        rects: # make sure there's space between it and the HQ building, want a no-man's-land
+        rects:
           - [0, 0, 2, 6]
           - [4, 0, 2, 6]
       - type: checkBlock
@@ -2775,19 +2775,19 @@ mapScripts:
         groups: [3]
         conditionals: [4]
 
-      #*** Place an airstrip through the base
+
       - type: addLine
         direction: horizontal
         terrain: AIRSTRIP_SPAWN
-      - type: fillArea # mask to check where just the airstrip is
+      - type: fillArea
         groups: [9]
-      #- type: removeBlock # fix a possible save corruption with the crossroads being saved as the wrong terrain
-      #  groups: [4]
-      #  rects:
-      #    - [0, 0, 10, 10]
-      #- type: fillArea
-      #  terrain: BDAIRPORT
-      #  groups: [4]
+
+
+
+
+
+
+
       - type: checkBlock
         groups: [4]
         rects:
@@ -2819,7 +2819,7 @@ mapScripts:
           - [0, 5, 6, 1]
         label: 16
 
-      #*** place the HQ in the half of the map without the player's craft
+
       - type: removeBlock
         groups: [9]
         rects:
@@ -2833,12 +2833,12 @@ mapScripts:
       - type: addBlock
         size: 3
         groups: 7
-      - type: removeBlock # remove the mask
+      - type: removeBlock
         groups: [9]
         rects:
           - [0, 0, 6, 6]
 
-      #*** Add a Chimera and vehicle depots next to the roads
+
       - type: addUFO
         UFOName: STR_TRAITOR_CHIMERA
         rects:
@@ -2887,9 +2887,9 @@ mapScripts:
           - [4, 0, 1, 6]
         conditionals: [4]
 
-      #*** Add an air control tower and some aircraft
+
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2911,7 +2911,7 @@ mapScripts:
         conditionals: [11]
 
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2933,7 +2933,7 @@ mapScripts:
         conditionals: [12]
 
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2955,7 +2955,7 @@ mapScripts:
         conditionals: [13]
 
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2977,7 +2977,7 @@ mapScripts:
         conditionals: [14]
 
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -2999,7 +2999,7 @@ mapScripts:
         conditionals: [15]
 
       - type: addBlock
-        #groups: [12]
+
         terrain: BDAIRPORT
         blocks: [4]
         rects:
@@ -3020,7 +3020,7 @@ mapScripts:
           - [0, 5, 6, 1]
         conditionals: [16]
 
-      #*** Try placing some filler blocks
+
       - type: addBlock
         size: 2
         groups: 8
@@ -3030,7 +3030,7 @@ mapScripts:
         groups: 8
         executions: 3
 
-      #*** Fill in
+
       - type: addBlock
         size: 2
         groups: 9
@@ -3041,7 +3041,7 @@ mapScripts:
 
   - type: TRAITOR_GUARD_CHIMERA_MAINTENANCE
     commands:
-      #*** Place a road through the base and put a Chimera on it
+
       - type: addUFO
         UFOName: STR_TRAITOR_CHIMERA_MAINTENANCE
         groups: 3
@@ -3092,7 +3092,7 @@ mapScripts:
           - [4, 0, 1, 5]
         conditionals: [5]
 
-      #*** Place the maintenance area next to the road
+
       - type: addBlock
         rects:
           - [1, 0, 1, 5]
@@ -3149,7 +3149,7 @@ mapScripts:
         groups: [11]
         executionChances: 50
 
-      #*** Add the player craft and fill in the area
+
       - type: addCraft
       - type: addBlock
         size: 2
@@ -3159,10 +3159,10 @@ mapScripts:
 
   - type: TRAITOR_GUARD_FIRING_RANGE
     commands:
-      #*** Place a road and put the player's craft on it
+
       - type: addCraft
         groups: 3
-        rects: # leave space for the firing range
+        rects:
           - [0, 0, 2, 5]
           - [3, 0, 2, 5]
       - type: checkBlock
@@ -3203,13 +3203,13 @@ mapScripts:
           - [4, 0, 1, 5]
         conditionals: [4]
 
-      #*** add the firing range
-      - type: addBlock # or UFO for it
+
+      - type: addBlock
         terrain: TRAITOR_GUARD_FIRING_RANGE
-        #groups: [13] # need firing range maps
+
         size: 3
 
-      #*** Place a maintenance area next to the road
+
       - type: addBlock
         rects:
           - [1, 0, 1, 5]
@@ -3255,7 +3255,7 @@ mapScripts:
         groups: [11]
         executionChances: 50
 
-      #*** fill in the rest
+
       - type: addBlock
         terrain: globeTerrain
         size: 2

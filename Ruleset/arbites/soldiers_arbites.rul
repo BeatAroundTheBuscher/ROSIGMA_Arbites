@@ -203,7 +203,7 @@ soldiers:
       #firing: 25
     allowPiloting: false
     allowPromotion: true
-    standHeight: 14 
+    standHeight: 14
     kneelHeight: 14
     femaleFrequency: 50
     soldierNames:

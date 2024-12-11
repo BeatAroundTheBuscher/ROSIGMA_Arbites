@@ -5,7 +5,7 @@ extended:
     damageUnit:
       - new: ROSIGMUNDA_dU_drug_effects_damage_threshold
         offset: 2
-        code: |    
+        code: |
           var int currentBoost;
 
           unit.getTag currentBoost Tag.UNIT_CURRENT_BOOST_TOUGHNESS;
@@ -30,7 +30,7 @@ extended:
     newTurnUnit:
       - new: ROSIGMUNDA_nTU_drug_effects_stamina_recovery
         offset: 2
-        code: |    
+        code: |
           var int currentBoost;
           var int faction;
 

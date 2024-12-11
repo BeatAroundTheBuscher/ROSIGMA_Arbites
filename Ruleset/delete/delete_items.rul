@@ -73,7 +73,10 @@ items:
   - delete: AUX_AIRSTRIKE
   - delete: AUX_ARBITES_OUTBOLTER
   - delete: AUX_BOLTER
+  - delete: AUX_BOLTERBANE
+  - delete: AUX_BOLTERBANE_TYPE_II
   - delete: AUX_BOLTERPD
+  - delete: AUX_BOLTER_TYPE_II
   - delete: AUX_CENT_ROCKET
   - delete: AUX_CENTURION_GRAVGUN
   - delete: AUX_CROZIUS
@@ -92,6 +95,7 @@ items:
   - delete: AUX_HOVERTANK_LASER
   - delete: AUX_HOVERTANK_LAUNCHER
   - delete: AUX_HOVERTANK_PLASMA
+  - delete: AUX_LASCANBANE
   - delete: AUX_LASCAN_CHAOS
   - delete: AUX_MEDI_KIT
   - delete: AUX_MORTAR
@@ -235,6 +239,7 @@ items:
   - delete: M_CORPSE3
   - delete: M_CORPSE4
   - delete: O_CORPSE
+  - delete: O__EXPLOSIVE_CORPSE
   - delete: ORKTURRET_WEAPON
   - delete: OT2_CORPSE1
   - delete: OT2_CORPSE2
@@ -298,6 +303,8 @@ items:
   - delete: SRGK_CORPSE2
   - delete: SRGK_CORPSE3
   - delete: SRGK_CORPSE4
+  - delete: STR_4X4_SURROUND_SPAWNER
+  - delete: STR_4X4_TURRET_SPAWNER
   - delete: STR_ABDUCTOR_DATA
   - delete: STR_AC_AP_AMMO
   - delete: STR_AC_HE_AMMO
@@ -366,6 +373,24 @@ items:
   - delete: STR_AVALANCHE_LAUNCHER
   - delete: STR_AVALANCHE_MISSILES
   - delete: STR_AXE
+  - delete: STR_BANE_4X4_CORPSE_1
+  - delete: STR_BANE_4X4_CORPSE_2
+  - delete: STR_BANE_4X4_CORPSE_3
+  - delete: STR_BANE_4X4_CORPSE_4
+  - delete: STR_BANEBLADE_AP
+  - delete: STR_BANEBLADE_BOLTER_LEFT_SPAWNER
+  - delete: STR_BANEBLADE_BOLTER_RIGHT_SPAWNER
+  - delete: STR_BANEBLADE_EX
+  - delete: STR_BANEBLADE_WEAPON
+  - delete: STR_BANE_BOLTER_LEFT_CORPSE
+  - delete: STR_BANE_BOLTER_RIGHT_CORPSE
+  - delete: STR_BANE_BOLTER_TURRET_SPAWNER
+  - delete: STR_BANE_LAS_TURRET_SPAWNER
+  - delete: STR_BANE_TURRET_CORPSE
+  - delete: STR_BANE_TURRET_CORPSE_1
+  - delete: STR_BANE_TURRET_CORPSE_2
+  - delete: STR_BANE_TURRET_CORPSE_3
+  - delete: STR_BANE_TURRET_CORPSE_4
   - delete: STR_BANNER
   - delete: STR_BANSHEE_CORPSE
   - delete: STR_BANSHEE_CORPSE_P
@@ -1087,6 +1112,8 @@ items:
   - delete: STR_ROCKET_LAUNCHER
   - delete: STR_RTS_CORPSE
   - delete: STR_RTT_CORPSE
+  - delete: STR_RUSS_BOLTER_CORPSE
+  - delete: STR_RUSS_BOLTER_SPAWNER
   - delete: STR_SACRIFICE_BLOODLETTER_SPAWNER
   - delete: STR_SACRIFICE_DAEMONETTE_SPAWNER
   - delete: STR_SACRIFICE_F0_CORPSE

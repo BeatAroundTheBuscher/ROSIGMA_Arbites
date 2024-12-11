@@ -153,7 +153,7 @@ ufopaedia:
     image_id: AUTOPISTOL.SPK
     text: STR_STUB_GUN_UFOPEDIA
     listOrder: 170
-    
+
   - id: STR_STUB_RIFLE_AC
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -693,7 +693,7 @@ ufopaedia:
     text: STR_CHIMERA_UFOPEDIA
     listOrder: 760
     image_id: 2CHIMERA.SPK
-    requires: 
+    requires:
       - STR_GENERAL_LOCK_AC
 
   - id: STR_TAUROX_AC
@@ -702,7 +702,7 @@ ufopaedia:
     text: STR_TAUROX_UFOPEDIA
     listOrder: 770
     image_id: TAUROX.SPK
-    requires: 
+    requires:
       - STR_GENERAL_LOCK_AC
 
   - id: STR_AVENGER_AC
@@ -711,7 +711,7 @@ ufopaedia:
     text: STR_AVENGER_ADEPTAS_UFOPEDIA
     listOrder: 780
     image_id: 2AVENGER.SPK
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
 
   - id: STR_CANNON_AC
@@ -720,7 +720,7 @@ ufopaedia:
     image_id: CC00.SPK
     text: STR_CANNON_UFOPEDIA
     listOrder: 790
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
 
   - id: STR_STINGRAY_AC
@@ -729,7 +729,7 @@ ufopaedia:
     image_id: CC01.SPK
     text: STR_STINGRAY_UFOPEDIA
     listOrder: 800
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
 
   - id: STR_AVALANCHE_AC
@@ -738,11 +738,11 @@ ufopaedia:
     image_id: CC02.SPK
     text: STR_AVALANCHE_UFOPEDIA
     listOrder: 810
-    requires: 
+    requires:
       - STR_FIGHTER_CRAFT_AC
 
 
-    
+
 
 ### Facilities:
 

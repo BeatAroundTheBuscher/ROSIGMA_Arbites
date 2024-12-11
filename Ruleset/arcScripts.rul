@@ -1,14 +1,14 @@
 arcScripts:
-  - type: arbitesCampaign            
-    sequentialArcs:                  
+  - type: arbitesCampaign
+    sequentialArcs:
       - STR_ARBITES_CAMPAIGN
       - STR_CULTIST_INVESTIGATIONS_AC
-    firstMonth: 0       
-    lastMonth: 1       
-    executionOdds: 100  
-    maxArcs: -1         
-#    minDifficulty: 2    
-#    maxDifficulty: 2    
+    firstMonth: 0
+    lastMonth: 1
+    executionOdds: 100
+    maxArcs: -1
+#    minDifficulty: 2
+#    maxDifficulty: 2
 
 
 

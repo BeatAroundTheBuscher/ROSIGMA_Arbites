@@ -455,7 +455,7 @@ alienDeployments:
         dQty: 2
         percentageOutsideUfo: 0
         itemSets: *emptyItemSets
-      - alienRank: 5 
+      - alienRank: 5
         lowQty: 4 # 4-8
         highQty: 6
         dQty: 2
@@ -764,7 +764,7 @@ alienDeployments:
         highQty: 2
         dQty: 2
         percentageOutsideUfo: 0
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
     shade: 6
     width: 50
     length: 50
@@ -797,49 +797,49 @@ alienDeployments:
         highQty: 10 #6
         dQty: 2 #1
         percentageOutsideUfo: 70
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 4
         lowQty: 2
         highQty: 3 #2
         dQty: 1 #0
         percentageOutsideUfo: 20
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 3
         lowQty: 2
         highQty: 3 #3
         dQty: 2 #1
         percentageOutsideUfo: 20
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 2
         lowQty: 1
         highQty: 2
         dQty: 0
         percentageOutsideUfo: 20
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 1
         lowQty: 1
         highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 0
         lowQty: 1
         highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 6
         lowQty: 0
         highQty: 1 #2
         dQty: 1 #2
         percentageOutsideUfo: 50
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 7
         lowQty: 0
         highQty: 1 #2
         dQty: 1 #2
         percentageOutsideUfo: 50
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
     width: 40
     length: 40
     height: 4
@@ -871,49 +871,49 @@ alienDeployments:
         highQty: 10 #6
         dQty: 2 #1
         percentageOutsideUfo: 70
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 4
         lowQty: 2
         highQty: 3 #2
         dQty: 1 #0
         percentageOutsideUfo: 20
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 3
         lowQty: 2
         highQty: 3 #3
         dQty: 2 #1
         percentageOutsideUfo: 20
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 2
         lowQty: 1
         highQty: 2
         dQty: 0
         percentageOutsideUfo: 20
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 1
         lowQty: 1
         highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 0
         lowQty: 1
         highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 6
         lowQty: 0
         highQty: 1 #2
         dQty: 1 #2
         percentageOutsideUfo: 50
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 7
         lowQty: 0
         highQty: 1 #2
         dQty: 1 #2
         percentageOutsideUfo: 50
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
     width: 50
     length: 50
     height: 4
@@ -947,13 +947,13 @@ alienDeployments:
     #objectiveFailed:
     #  - STR_CULTIST_BASE_NOT_DESTROYED
     #  - 0
-    data: 
+    data:
       - alienRank: 2
         lowQty: 3 #2
         highQty: 3 #4
         dQty: 2
         percentageOutsideUfo: 0
-        itemSets: *emptyItemSets  
+        itemSets: *emptyItemSets
       - alienRank: 3
         lowQty: 3 #2
         highQty: 3 #4
